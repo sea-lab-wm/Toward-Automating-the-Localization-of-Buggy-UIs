@@ -1,0 +1,290 @@
+{
+    "app-name": 191,
+    "8430d221ab4d15f270457f7e12b3c8fff85018a5d25e41321c6525a561a8cb4d": [
+        {
+            "component_id": 0,
+            "resource_id": "ch.logixisland.anuto:id/txt_credits",
+            "text_content": "Credits: 400",
+            "word_sequence": [
+                "Credits",
+                ":",
+                "400"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 191,
+            "screen_id": "8430d221ab4d15f270457f7e12b3c8fff85018a5d25e41321c6525a561a8cb4d",
+            "bounding_box": "{\"x1\": 13, \"y1\": 7, \"x2\": 212, \"y2\": 58}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "ch.logixisland.anuto:id/txt_bonus",
+            "text_content": "Bonus: 0",
+            "word_sequence": [
+                "Bonus",
+                ":",
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 191,
+            "screen_id": "8430d221ab4d15f270457f7e12b3c8fff85018a5d25e41321c6525a561a8cb4d",
+            "bounding_box": "{\"x1\": 238, \"y1\": 7, \"x2\": 380, \"y2\": 58}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "ch.logixisland.anuto:id/txt_lives",
+            "text_content": "Lives: 5",
+            "word_sequence": [
+                "Lives",
+                ":",
+                "5"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 191,
+            "screen_id": "8430d221ab4d15f270457f7e12b3c8fff85018a5d25e41321c6525a561a8cb4d",
+            "bounding_box": "{\"x1\": 406, \"y1\": 7, \"x2\": 531, \"y2\": 58}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "ch.logixisland.anuto:id/txt_wave",
+            "text_content": "Wave: 0",
+            "word_sequence": [
+                "Wave",
+                ":",
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 191,
+            "screen_id": "8430d221ab4d15f270457f7e12b3c8fff85018a5d25e41321c6525a561a8cb4d",
+            "bounding_box": "{\"x1\": 938, \"y1\": 7, \"x2\": 1067, \"y2\": 58}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "ch.logixisland.anuto:id/view_tower_1",
+            "text_content": "",
+            "word_sequence": [
+                "view",
+                "tower",
+                "1"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 191,
+            "screen_id": "8430d221ab4d15f270457f7e12b3c8fff85018a5d25e41321c6525a561a8cb4d",
+            "bounding_box": "{\"x1\": 0, \"y1\": 66, \"x2\": 105, \"y2\": 171}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "ch.logixisland.anuto:id/view_tower_2",
+            "text_content": "",
+            "word_sequence": [
+                "view",
+                "tower",
+                "2"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 191,
+            "screen_id": "8430d221ab4d15f270457f7e12b3c8fff85018a5d25e41321c6525a561a8cb4d",
+            "bounding_box": "{\"x1\": 118, \"y1\": 66, \"x2\": 223, \"y2\": 171}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "ch.logixisland.anuto:id/view_tower_3",
+            "text_content": "",
+            "word_sequence": [
+                "view",
+                "tower",
+                "3"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 191,
+            "screen_id": "8430d221ab4d15f270457f7e12b3c8fff85018a5d25e41321c6525a561a8cb4d",
+            "bounding_box": "{\"x1\": 236, \"y1\": 66, \"x2\": 341, \"y2\": 171}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "ch.logixisland.anuto:id/view_tower_4",
+            "text_content": "",
+            "word_sequence": [
+                "view",
+                "tower",
+                "4"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 191,
+            "screen_id": "8430d221ab4d15f270457f7e12b3c8fff85018a5d25e41321c6525a561a8cb4d",
+            "bounding_box": "{\"x1\": 354, \"y1\": 66, \"x2\": 459, \"y2\": 171}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "ch.logixisland.anuto:id/btn_menu",
+            "text_content": "Menu",
+            "word_sequence": [
+                "Menu"
+            ],
+            "type": "BUTTON",
+            "app_name": 191,
+            "screen_id": "8430d221ab4d15f270457f7e12b3c8fff85018a5d25e41321c6525a561a8cb4d",
+            "bounding_box": "{\"x1\": 734, \"y1\": 72, \"x2\": 859, \"y2\": 164}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "ch.logixisland.anuto:id/btn_next_wave",
+            "text_content": "Next Wave",
+            "word_sequence": [
+                "Next",
+                "Wave"
+            ],
+            "type": "BUTTON",
+            "app_name": 191,
+            "screen_id": "8430d221ab4d15f270457f7e12b3c8fff85018a5d25e41321c6525a561a8cb4d",
+            "bounding_box": "{\"x1\": 872, \"y1\": 72, \"x2\": 1080, \"y2\": 164}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "ch.logixisland.anuto:id/view_tower_defense",
+            "text_content": "",
+            "word_sequence": [
+                "view",
+                "tower",
+                "defense"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 191,
+            "screen_id": "8430d221ab4d15f270457f7e12b3c8fff85018a5d25e41321c6525a561a8cb4d",
+            "bounding_box": "{\"x1\": 0, \"y1\": 171, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "3757f3ed52a897d76d9399ed950018ca86ff4a1502d7d2e3e52d638dde8644ea": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 191,
+            "screen_id": "3757f3ed52a897d76d9399ed950018ca86ff4a1502d7d2e3e52d638dde8644ea",
+            "bounding_box": "{\"x1\": 434, \"y1\": 500, \"x2\": 644, \"y2\": 710}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "ch.logixisland.anuto:id/btn_restart",
+            "text_content": "Restart",
+            "word_sequence": [
+                "Restart"
+            ],
+            "type": "BUTTON",
+            "app_name": 191,
+            "screen_id": "3757f3ed52a897d76d9399ed950018ca86ff4a1502d7d2e3e52d638dde8644ea",
+            "bounding_box": "{\"x1\": 224, \"y1\": 763, \"x2\": 855, \"y2\": 889}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "ch.logixisland.anuto:id/btn_change_level",
+            "text_content": "Change Map",
+            "word_sequence": [
+                "Change",
+                "Map"
+            ],
+            "type": "BUTTON",
+            "app_name": 191,
+            "screen_id": "3757f3ed52a897d76d9399ed950018ca86ff4a1502d7d2e3e52d638dde8644ea",
+            "bounding_box": "{\"x1\": 224, \"y1\": 889, \"x2\": 855, \"y2\": 1015}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "ch.logixisland.anuto:id/btn_switch_theme",
+            "text_content": "Theme (Original)",
+            "word_sequence": [
+                "Theme",
+                "Original"
+            ],
+            "type": "BUTTON",
+            "app_name": 191,
+            "screen_id": "3757f3ed52a897d76d9399ed950018ca86ff4a1502d7d2e3e52d638dde8644ea",
+            "bounding_box": "{\"x1\": 224, \"y1\": 1041, \"x2\": 855, \"y2\": 1167}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "ch.logixisland.anuto:id/btn_switch_sound",
+            "text_content": "Sound (On)",
+            "word_sequence": [
+                "Sound",
+                "On"
+            ],
+            "type": "BUTTON",
+            "app_name": 191,
+            "screen_id": "3757f3ed52a897d76d9399ed950018ca86ff4a1502d7d2e3e52d638dde8644ea",
+            "bounding_box": "{\"x1\": 224, \"y1\": 1167, \"x2\": 855, \"y2\": 1293}"
+        }
+    ],
+    "27c26d963ef8bb53c61b18ff0a75ada8637156e1f414fe9ecf807c1a52c21cb6": [
+        {
+            "component_id": 0,
+            "resource_id": "ch.logixisland.anuto:id/btn_level_1",
+            "text_content": "",
+            "word_sequence": [
+                "btn",
+                "level",
+                "1"
+            ],
+            "type": "BUTTON",
+            "app_name": 191,
+            "screen_id": "27c26d963ef8bb53c61b18ff0a75ada8637156e1f414fe9ecf807c1a52c21cb6",
+            "bounding_box": "{\"x1\": 26, \"y1\": 700, \"x2\": 289, \"y2\": 1094}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "ch.logixisland.anuto:id/btn_level_2",
+            "text_content": "",
+            "word_sequence": [
+                "btn",
+                "level",
+                "2"
+            ],
+            "type": "BUTTON",
+            "app_name": 191,
+            "screen_id": "27c26d963ef8bb53c61b18ff0a75ada8637156e1f414fe9ecf807c1a52c21cb6",
+            "bounding_box": "{\"x1\": 341, \"y1\": 700, \"x2\": 604, \"y2\": 1094}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "ch.logixisland.anuto:id/btn_level_3",
+            "text_content": "",
+            "word_sequence": [
+                "btn",
+                "level",
+                "3"
+            ],
+            "type": "BUTTON",
+            "app_name": 191,
+            "screen_id": "27c26d963ef8bb53c61b18ff0a75ada8637156e1f414fe9ecf807c1a52c21cb6",
+            "bounding_box": "{\"x1\": 656, \"y1\": 700, \"x2\": 919, \"y2\": 1094}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "ch.logixisland.anuto:id/btn_level_4",
+            "text_content": "",
+            "word_sequence": [
+                "btn",
+                "level",
+                "4"
+            ],
+            "type": "BUTTON",
+            "app_name": 191,
+            "screen_id": "27c26d963ef8bb53c61b18ff0a75ada8637156e1f414fe9ecf807c1a52c21cb6",
+            "bounding_box": "{\"x1\": 971, \"y1\": 700, \"x2\": 1080, \"y2\": 1094}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "ch.logixisland.anuto:id/arrow_right",
+            "text_content": "",
+            "word_sequence": [
+                "arrow",
+                "right"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 191,
+            "screen_id": "27c26d963ef8bb53c61b18ff0a75ada8637156e1f414fe9ecf807c1a52c21cb6",
+            "bounding_box": "{\"x1\": 922, \"y1\": 818, \"x2\": 1080, \"y2\": 976}"
+        }
+    ]
+}

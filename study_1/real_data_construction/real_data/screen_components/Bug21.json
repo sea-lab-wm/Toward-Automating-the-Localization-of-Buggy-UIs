@@ -1,0 +1,1913 @@
+{
+    "app-name": 21,
+    "f5c45ab5910fd289a1565f39082ecb3921b0f38516e8fe25f8eb1c6381024026": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "A Time Tracker",
+            "word_sequence": [
+                "A",
+                "Time",
+                "Tracker"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "f5c45ab5910fd289a1565f39082ecb3921b0f38516e8fe25f8eb1c6381024026",
+            "bounding_box": "{\"x1\": 70, \"y1\": 84, \"x2\": 1010, \"y2\": 168}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.markuspage.android.atimetracker:id/version",
+            "text_content": "Version 0.51.1",
+            "word_sequence": [
+                "Version",
+                "0",
+                ".",
+                "51",
+                ".",
+                "1"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "f5c45ab5910fd289a1565f39082ecb3921b0f38516e8fe25f8eb1c6381024026",
+            "bounding_box": "{\"x1\": 70, \"y1\": 168, \"x2\": 1010, \"y2\": 219}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "Open Source Time Tracker",
+            "word_sequence": [
+                "Open",
+                "Source",
+                "Time",
+                "Tracker"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "f5c45ab5910fd289a1565f39082ecb3921b0f38516e8fe25f8eb1c6381024026",
+            "bounding_box": "{\"x1\": 70, \"y1\": 219, \"x2\": 1010, \"y2\": 282}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.markuspage.android.atimetracker:id/usage",
+            "text_content": " Detailed instructions are at https://github.com/netmackan/ATimeTracker\n\n \u2022 Create some activities using the menu\n \u2022 Tap a activity to start timing; tap it again to stop timing\n \u2022 Use the context menu for a activity to list times\n \u2022 Change configuration options with the menu\n \u2022 View a weekly report with the menu\n \n Tapping a different activity switches timing to the other activity.\n \n The activity context menu allows you to edit activities (change their names), delete activities (including all of the time history for that activity!), or view the time log for that activity.\n \n Time Log view\n \n The time log for a activity is filtered on the same range that you selected for the main activity view, so if you filtered the activity view for This Week and you open the time log, then you'll only see times for this week. Use the Add Time menu item to manually insert times into the time log. Use the context menu for a time to delete or edit a time range.\n \n Note that TimeTracker will not prevent you from creating times that overlap with times in other (or the same) activity. ",
+            "word_sequence": [
+                "Detailed",
+                "instructions",
+                "are",
+                "at",
+                "https",
+                ":",
+                "/",
+                "/",
+                "github",
+                ".",
+                "com",
+                "/",
+                "netmackan",
+                "/",
+                "ATimeTracker",
+                "Create",
+                "some",
+                "activities",
+                "using",
+                "the",
+                "menu",
+                "Tap",
+                "a",
+                "activity",
+                "to",
+                "start",
+                "timing",
+                ";",
+                "tap",
+                "it",
+                "again",
+                "to",
+                "stop",
+                "timing",
+                "Use",
+                "the",
+                "context",
+                "menu",
+                "for",
+                "a",
+                "activity",
+                "to",
+                "list",
+                "times",
+                "Change",
+                "configuration",
+                "options",
+                "with",
+                "the",
+                "menu",
+                "View",
+                "a",
+                "weekly",
+                "report",
+                "with",
+                "the",
+                "menu",
+                "Tapping",
+                "a",
+                "different",
+                "activity",
+                "switches",
+                "timing",
+                "to",
+                "the",
+                "other",
+                "activity",
+                ".",
+                "The",
+                "activity",
+                "context",
+                "menu",
+                "allows",
+                "you",
+                "to",
+                "edit",
+                "activities",
+                "change",
+                "their",
+                "names",
+                ",",
+                "delete",
+                "activities",
+                "including",
+                "all",
+                "of",
+                "the",
+                "time",
+                "history",
+                "for",
+                "that",
+                "activity",
+                "!",
+                ",",
+                "or",
+                "view",
+                "the",
+                "time",
+                "log",
+                "for",
+                "that",
+                "activity",
+                ".",
+                "Time",
+                "Log",
+                "view",
+                "The",
+                "time",
+                "log",
+                "for",
+                "a",
+                "activity",
+                "is",
+                "filtered",
+                "on",
+                "the",
+                "same",
+                "range",
+                "that",
+                "you",
+                "selected",
+                "for",
+                "the",
+                "main",
+                "activity",
+                "view",
+                ",",
+                "so",
+                "if",
+                "you",
+                "filtered",
+                "the",
+                "activity",
+                "view",
+                "for",
+                "This",
+                "Week",
+                "and",
+                "you",
+                "open",
+                "the",
+                "time",
+                "log",
+                ",",
+                "then",
+                "you'll",
+                "only",
+                "see",
+                "times",
+                "for",
+                "this",
+                "week",
+                ".",
+                "Use",
+                "the",
+                "Add",
+                "Time",
+                "menu",
+                "item",
+                "to",
+                "manually",
+                "insert",
+                "times",
+                "into",
+                "the",
+                "time",
+                "log",
+                ".",
+                "Use",
+                "the",
+                "context",
+                "menu",
+                "for",
+                "a",
+                "time",
+                "to",
+                "delete",
+                "or",
+                "edit",
+                "a",
+                "time",
+                "range",
+                ".",
+                "Note",
+                "that",
+                "TimeTracker",
+                "will",
+                "not",
+                "prevent",
+                "you",
+                "from",
+                "creating",
+                "times",
+                "that",
+                "overlap",
+                "with",
+                "times",
+                "in",
+                "other",
+                "or",
+                "the",
+                "same",
+                "activity",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "f5c45ab5910fd289a1565f39082ecb3921b0f38516e8fe25f8eb1c6381024026",
+            "bounding_box": "{\"x1\": 83, \"y1\": 282, \"x2\": 997, \"y2\": 1623}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.markuspage.android.atimetracker:id/credits",
+            "text_content": "Credits\n \n Based on TimeTracker+ by Sean E. Russell.\n Application icon from Tango Project (tango.freedesktop.org).\n Russian translation by Denis Gladkiy\n French translation by Wilfried Kopp\n Spanish and Italian translation by Carlos Manzo\n German translation by Philip Gilli\u00dfen ",
+            "word_sequence": [
+                "Credits",
+                "Based",
+                "on",
+                "TimeTracker",
+                "by",
+                "Sean",
+                "E",
+                ".",
+                "Russell",
+                ".",
+                "Application",
+                "icon",
+                "from",
+                "Tango",
+                "Project",
+                "tango",
+                ".",
+                "freedesktop",
+                ".",
+                "org",
+                ".",
+                "Russian",
+                "translation",
+                "by",
+                "Denis",
+                "Gladkiy",
+                "French",
+                "translation",
+                "by",
+                "Wilfried",
+                "Kopp",
+                "Spanish",
+                "and",
+                "Italian",
+                "translation",
+                "by",
+                "Carlos",
+                "Manzo",
+                "German",
+                "translation",
+                "by",
+                "Philip",
+                "Gilli\u00dfen"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "f5c45ab5910fd289a1565f39082ecb3921b0f38516e8fe25f8eb1c6381024026",
+            "bounding_box": "{\"x1\": 83, \"y1\": 1623, \"x2\": 997, \"y2\": 1644}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/button1",
+            "text_content": "OK",
+            "word_sequence": [
+                "OK"
+            ],
+            "type": "BUTTON",
+            "app_name": 21,
+            "screen_id": "f5c45ab5910fd289a1565f39082ecb3921b0f38516e8fe25f8eb1c6381024026",
+            "bounding_box": "{\"x1\": 70, \"y1\": 1646, \"x2\": 1010, \"y2\": 1772}"
+        }
+    ],
+    "bde63b6e6d4846524c9d86bf2850dc242f862052629bb2c225eee30b63470ed4": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/home",
+            "text_content": "",
+            "word_sequence": [
+                "home"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 21,
+            "screen_id": "bde63b6e6d4846524c9d86bf2850dc242f862052629bb2c225eee30b63470ed4",
+            "bounding_box": "{\"x1\": 31, \"y1\": 84, \"x2\": 115, \"y2\": 168}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/action_bar_title",
+            "text_content": "A Time Tracker (Today) 00:00",
+            "word_sequence": [
+                "A",
+                "Time",
+                "Tracker",
+                "Today",
+                "00",
+                ":",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "bde63b6e6d4846524c9d86bf2850dc242f862052629bb2c225eee30b63470ed4",
+            "bounding_box": "{\"x1\": 126, \"y1\": 94, \"x2\": 742, \"y2\": 157}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "BUTTON",
+            "app_name": 21,
+            "screen_id": "bde63b6e6d4846524c9d86bf2850dc242f862052629bb2c225eee30b63470ed4",
+            "bounding_box": "{\"x1\": 932, \"y1\": 63, \"x2\": 1080, \"y2\": 189}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/list",
+            "text_content": "",
+            "word_sequence": [
+                "list"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 21,
+            "screen_id": "bde63b6e6d4846524c9d86bf2850dc242f862052629bb2c225eee30b63470ed4",
+            "bounding_box": "{\"x1\": 0, \"y1\": 189, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "2889c2d3e2edccc64f6a7db5313dca35ad7d61655d5991ceceff0786ea267e15": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "A Time Tracker",
+            "word_sequence": [
+                "A",
+                "Time",
+                "Tracker"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "2889c2d3e2edccc64f6a7db5313dca35ad7d61655d5991ceceff0786ea267e15",
+            "bounding_box": "{\"x1\": 69, \"y1\": 84, \"x2\": 1011, \"y2\": 168}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.markuspage.android.atimetracker:id/version",
+            "text_content": "Version 0.51.1",
+            "word_sequence": [
+                "Version",
+                "0",
+                ".",
+                "51",
+                ".",
+                "1"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "2889c2d3e2edccc64f6a7db5313dca35ad7d61655d5991ceceff0786ea267e15",
+            "bounding_box": "{\"x1\": 69, \"y1\": 168, \"x2\": 1011, \"y2\": 219}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "Open Source Time Tracker",
+            "word_sequence": [
+                "Open",
+                "Source",
+                "Time",
+                "Tracker"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "2889c2d3e2edccc64f6a7db5313dca35ad7d61655d5991ceceff0786ea267e15",
+            "bounding_box": "{\"x1\": 69, \"y1\": 219, \"x2\": 1011, \"y2\": 282}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.markuspage.android.atimetracker:id/usage",
+            "text_content": " Detailed instructions are at https://github.com/netmackan/ATimeTracker\n\n \u2022 Create some activities using the menu\n \u2022 Tap a activity to start timing; tap it again to stop timing\n \u2022 Use the context menu for a activity to list times\n \u2022 Change configuration options with the menu\n \u2022 View a weekly report with the menu\n \n Tapping a different activity switches timing to the other activity.\n \n The activity context menu allows you to edit activities (change their names), delete activities (including all of the time history for that activity!), or view the time log for that activity.\n \n Time Log view\n \n The time log for a activity is filtered on the same range that you selected for the main activity view, so if you filtered the activity view for This Week and you open the time log, then you'll only see times for this week. Use the Add Time menu item to manually insert times into the time log. Use the context menu for a time to delete or edit a time range.\n \n Note that TimeTracker will not prevent you from creating times that overlap with times in other (or the same) activity. ",
+            "word_sequence": [
+                "Detailed",
+                "instructions",
+                "are",
+                "at",
+                "https",
+                ":",
+                "/",
+                "/",
+                "github",
+                ".",
+                "com",
+                "/",
+                "netmackan",
+                "/",
+                "ATimeTracker",
+                "Create",
+                "some",
+                "activities",
+                "using",
+                "the",
+                "menu",
+                "Tap",
+                "a",
+                "activity",
+                "to",
+                "start",
+                "timing",
+                ";",
+                "tap",
+                "it",
+                "again",
+                "to",
+                "stop",
+                "timing",
+                "Use",
+                "the",
+                "context",
+                "menu",
+                "for",
+                "a",
+                "activity",
+                "to",
+                "list",
+                "times",
+                "Change",
+                "configuration",
+                "options",
+                "with",
+                "the",
+                "menu",
+                "View",
+                "a",
+                "weekly",
+                "report",
+                "with",
+                "the",
+                "menu",
+                "Tapping",
+                "a",
+                "different",
+                "activity",
+                "switches",
+                "timing",
+                "to",
+                "the",
+                "other",
+                "activity",
+                ".",
+                "The",
+                "activity",
+                "context",
+                "menu",
+                "allows",
+                "you",
+                "to",
+                "edit",
+                "activities",
+                "change",
+                "their",
+                "names",
+                ",",
+                "delete",
+                "activities",
+                "including",
+                "all",
+                "of",
+                "the",
+                "time",
+                "history",
+                "for",
+                "that",
+                "activity",
+                "!",
+                ",",
+                "or",
+                "view",
+                "the",
+                "time",
+                "log",
+                "for",
+                "that",
+                "activity",
+                ".",
+                "Time",
+                "Log",
+                "view",
+                "The",
+                "time",
+                "log",
+                "for",
+                "a",
+                "activity",
+                "is",
+                "filtered",
+                "on",
+                "the",
+                "same",
+                "range",
+                "that",
+                "you",
+                "selected",
+                "for",
+                "the",
+                "main",
+                "activity",
+                "view",
+                ",",
+                "so",
+                "if",
+                "you",
+                "filtered",
+                "the",
+                "activity",
+                "view",
+                "for",
+                "This",
+                "Week",
+                "and",
+                "you",
+                "open",
+                "the",
+                "time",
+                "log",
+                ",",
+                "then",
+                "you'll",
+                "only",
+                "see",
+                "times",
+                "for",
+                "this",
+                "week",
+                ".",
+                "Use",
+                "the",
+                "Add",
+                "Time",
+                "menu",
+                "item",
+                "to",
+                "manually",
+                "insert",
+                "times",
+                "into",
+                "the",
+                "time",
+                "log",
+                ".",
+                "Use",
+                "the",
+                "context",
+                "menu",
+                "for",
+                "a",
+                "time",
+                "to",
+                "delete",
+                "or",
+                "edit",
+                "a",
+                "time",
+                "range",
+                ".",
+                "Note",
+                "that",
+                "TimeTracker",
+                "will",
+                "not",
+                "prevent",
+                "you",
+                "from",
+                "creating",
+                "times",
+                "that",
+                "overlap",
+                "with",
+                "times",
+                "in",
+                "other",
+                "or",
+                "the",
+                "same",
+                "activity",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "2889c2d3e2edccc64f6a7db5313dca35ad7d61655d5991ceceff0786ea267e15",
+            "bounding_box": "{\"x1\": 82, \"y1\": 282, \"x2\": 998, \"y2\": 1623}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.markuspage.android.atimetracker:id/credits",
+            "text_content": "Credits\n \n Based on TimeTracker+ by Sean E. Russell.\n Application icon from Tango Project (tango.freedesktop.org).\n Russian translation by Denis Gladkiy\n French translation by Wilfried Kopp\n Spanish and Italian translation by Carlos Manzo\n German translation by Philip Gilli\u00dfen ",
+            "word_sequence": [
+                "Credits",
+                "Based",
+                "on",
+                "TimeTracker",
+                "by",
+                "Sean",
+                "E",
+                ".",
+                "Russell",
+                ".",
+                "Application",
+                "icon",
+                "from",
+                "Tango",
+                "Project",
+                "tango",
+                ".",
+                "freedesktop",
+                ".",
+                "org",
+                ".",
+                "Russian",
+                "translation",
+                "by",
+                "Denis",
+                "Gladkiy",
+                "French",
+                "translation",
+                "by",
+                "Wilfried",
+                "Kopp",
+                "Spanish",
+                "and",
+                "Italian",
+                "translation",
+                "by",
+                "Carlos",
+                "Manzo",
+                "German",
+                "translation",
+                "by",
+                "Philip",
+                "Gilli\u00dfen"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "2889c2d3e2edccc64f6a7db5313dca35ad7d61655d5991ceceff0786ea267e15",
+            "bounding_box": "{\"x1\": 82, \"y1\": 1623, \"x2\": 998, \"y2\": 1645}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/button1",
+            "text_content": "OK",
+            "word_sequence": [
+                "OK"
+            ],
+            "type": "BUTTON",
+            "app_name": 21,
+            "screen_id": "2889c2d3e2edccc64f6a7db5313dca35ad7d61655d5991ceceff0786ea267e15",
+            "bounding_box": "{\"x1\": 69, \"y1\": 1647, \"x2\": 1011, \"y2\": 1773}"
+        }
+    ],
+    "fb5c1adb9a379f3e9775dcdcfcb7a43d1e92f06dd65c4ac876e23bd688a0d1a3": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/home",
+            "text_content": "",
+            "word_sequence": [
+                "home"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 21,
+            "screen_id": "fb5c1adb9a379f3e9775dcdcfcb7a43d1e92f06dd65c4ac876e23bd688a0d1a3",
+            "bounding_box": "{\"x1\": 32, \"y1\": 84, \"x2\": 116, \"y2\": 168}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/action_bar_title",
+            "text_content": "A Time Tracker (Today) 00:00",
+            "word_sequence": [
+                "A",
+                "Time",
+                "Tracker",
+                "Today",
+                "00",
+                ":",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "fb5c1adb9a379f3e9775dcdcfcb7a43d1e92f06dd65c4ac876e23bd688a0d1a3",
+            "bounding_box": "{\"x1\": 127, \"y1\": 94, \"x2\": 743, \"y2\": 157}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "BUTTON",
+            "app_name": 21,
+            "screen_id": "fb5c1adb9a379f3e9775dcdcfcb7a43d1e92f06dd65c4ac876e23bd688a0d1a3",
+            "bounding_box": "{\"x1\": 932, \"y1\": 63, \"x2\": 1080, \"y2\": 189}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/list",
+            "text_content": "",
+            "word_sequence": [
+                "list"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 21,
+            "screen_id": "fb5c1adb9a379f3e9775dcdcfcb7a43d1e92f06dd65c4ac876e23bd688a0d1a3",
+            "bounding_box": "{\"x1\": 0, \"y1\": 189, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "ea60fedaa8706b59bc754a5428ceb8bb72c02c96a2ebda22f69a97a5790df7ec": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/title",
+            "text_content": "Add activity",
+            "word_sequence": [
+                "Add",
+                "activity"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "ea60fedaa8706b59bc754a5428ceb8bb72c02c96a2ebda22f69a97a5790df7ec",
+            "bounding_box": "{\"x1\": 579, \"y1\": 220, \"x2\": 1017, \"y2\": 283}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/title",
+            "text_content": "Report",
+            "word_sequence": [
+                "Report"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "ea60fedaa8706b59bc754a5428ceb8bb72c02c96a2ebda22f69a97a5790df7ec",
+            "bounding_box": "{\"x1\": 579, \"y1\": 348, \"x2\": 1017, \"y2\": 411}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/title",
+            "text_content": "Change date range",
+            "word_sequence": [
+                "Change",
+                "date",
+                "range"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "ea60fedaa8706b59bc754a5428ceb8bb72c02c96a2ebda22f69a97a5790df7ec",
+            "bounding_box": "{\"x1\": 579, \"y1\": 476, \"x2\": 1017, \"y2\": 539}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/title",
+            "text_content": "Export view to CSV",
+            "word_sequence": [
+                "Export",
+                "view",
+                "to",
+                "CSV"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "ea60fedaa8706b59bc754a5428ceb8bb72c02c96a2ebda22f69a97a5790df7ec",
+            "bounding_box": "{\"x1\": 579, \"y1\": 604, \"x2\": 1017, \"y2\": 667}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/title",
+            "text_content": "Back up to SD card",
+            "word_sequence": [
+                "Back",
+                "up",
+                "to",
+                "SD",
+                "card"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "ea60fedaa8706b59bc754a5428ceb8bb72c02c96a2ebda22f69a97a5790df7ec",
+            "bounding_box": "{\"x1\": 579, \"y1\": 732, \"x2\": 1017, \"y2\": 795}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/title",
+            "text_content": "Restore from backup",
+            "word_sequence": [
+                "Restore",
+                "from",
+                "backup"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "ea60fedaa8706b59bc754a5428ceb8bb72c02c96a2ebda22f69a97a5790df7ec",
+            "bounding_box": "{\"x1\": 579, \"y1\": 860, \"x2\": 1017, \"y2\": 923}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/title",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "ea60fedaa8706b59bc754a5428ceb8bb72c02c96a2ebda22f69a97a5790df7ec",
+            "bounding_box": "{\"x1\": 579, \"y1\": 988, \"x2\": 1017, \"y2\": 1051}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/title",
+            "text_content": "Help",
+            "word_sequence": [
+                "Help"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "ea60fedaa8706b59bc754a5428ceb8bb72c02c96a2ebda22f69a97a5790df7ec",
+            "bounding_box": "{\"x1\": 579, \"y1\": 1116, \"x2\": 1017, \"y2\": 1179}"
+        }
+    ],
+    "82de84882beb93e3a8722af416f26b3e70189fc0ff06a2b657e9ee8f49e612ec": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/text1",
+            "text_content": "Today",
+            "word_sequence": [
+                "Today"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "82de84882beb93e3a8722af416f26b3e70189fc0ff06a2b657e9ee8f49e612ec",
+            "bounding_box": "{\"x1\": 69, \"y1\": 545, \"x2\": 1011, \"y2\": 671}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/text1",
+            "text_content": "This week",
+            "word_sequence": [
+                "This",
+                "week"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "82de84882beb93e3a8722af416f26b3e70189fc0ff06a2b657e9ee8f49e612ec",
+            "bounding_box": "{\"x1\": 69, \"y1\": 673, \"x2\": 1011, \"y2\": 799}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/text1",
+            "text_content": "Yesterday",
+            "word_sequence": [
+                "Yesterday"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "82de84882beb93e3a8722af416f26b3e70189fc0ff06a2b657e9ee8f49e612ec",
+            "bounding_box": "{\"x1\": 69, \"y1\": 801, \"x2\": 1011, \"y2\": 927}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/text1",
+            "text_content": "Last week",
+            "word_sequence": [
+                "Last",
+                "week"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "82de84882beb93e3a8722af416f26b3e70189fc0ff06a2b657e9ee8f49e612ec",
+            "bounding_box": "{\"x1\": 69, \"y1\": 929, \"x2\": 1011, \"y2\": 1055}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/text1",
+            "text_content": "All",
+            "word_sequence": [
+                "All"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "82de84882beb93e3a8722af416f26b3e70189fc0ff06a2b657e9ee8f49e612ec",
+            "bounding_box": "{\"x1\": 69, \"y1\": 1057, \"x2\": 1011, \"y2\": 1183}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/text1",
+            "text_content": "Select range...",
+            "word_sequence": [
+                "Select",
+                "range",
+                ".",
+                ".",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "82de84882beb93e3a8722af416f26b3e70189fc0ff06a2b657e9ee8f49e612ec",
+            "bounding_box": "{\"x1\": 69, \"y1\": 1185, \"x2\": 1011, \"y2\": 1311}"
+        }
+    ],
+    "84cb289e0fae13aacda06e3dd5775268b8ca1f1f5187cb164782071ac5821125": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "Add activity",
+            "word_sequence": [
+                "Add",
+                "activity"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "84cb289e0fae13aacda06e3dd5775268b8ca1f1f5187cb164782071ac5821125",
+            "bounding_box": "{\"x1\": 111, \"y1\": 739, \"x2\": 969, \"y2\": 817}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/titleDivider",
+            "text_content": "",
+            "word_sequence": [
+                "title",
+                "Divider"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 21,
+            "screen_id": "84cb289e0fae13aacda06e3dd5775268b8ca1f1f5187cb164782071ac5821125",
+            "bounding_box": "{\"x1\": 69, \"y1\": 862, \"x2\": 1011, \"y2\": 867}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.markuspage.android.atimetracker:id/activity_edit_name_label",
+            "text_content": "Activity name",
+            "word_sequence": [
+                "Activity",
+                "name"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "84cb289e0fae13aacda06e3dd5775268b8ca1f1f5187cb164782071ac5821125",
+            "bounding_box": "{\"x1\": 95, \"y1\": 898, \"x2\": 378, \"y2\": 961}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.markuspage.android.atimetracker:id/activity_edit_name_edit",
+            "text_content": "",
+            "word_sequence": [
+                "activity",
+                "edit",
+                "name",
+                "edit"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 21,
+            "screen_id": "84cb289e0fae13aacda06e3dd5775268b8ca1f1f5187cb164782071ac5821125",
+            "bounding_box": "{\"x1\": 404, \"y1\": 867, \"x2\": 985, \"y2\": 969}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/button2",
+            "text_content": "Cancel",
+            "word_sequence": [
+                "Cancel"
+            ],
+            "type": "BUTTON",
+            "app_name": 21,
+            "screen_id": "84cb289e0fae13aacda06e3dd5775268b8ca1f1f5187cb164782071ac5821125",
+            "bounding_box": "{\"x1\": 69, \"y1\": 1037, \"x2\": 516, \"y2\": 1163}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/button1",
+            "text_content": "Add activity",
+            "word_sequence": [
+                "Add",
+                "activity"
+            ],
+            "type": "BUTTON",
+            "app_name": 21,
+            "screen_id": "84cb289e0fae13aacda06e3dd5775268b8ca1f1f5187cb164782071ac5821125",
+            "bounding_box": "{\"x1\": 518, \"y1\": 1037, \"x2\": 1011, \"y2\": 1163}"
+        }
+    ],
+    "9bc622b96d6b713ba693ba958be719314a24094548f98c7975196690ea337fe9": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "Add activity",
+            "word_sequence": [
+                "Add",
+                "activity"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9bc622b96d6b713ba693ba958be719314a24094548f98c7975196690ea337fe9",
+            "bounding_box": "{\"x1\": 111, \"y1\": 351, \"x2\": 969, \"y2\": 429}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/titleDivider",
+            "text_content": "",
+            "word_sequence": [
+                "title",
+                "Divider"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 21,
+            "screen_id": "9bc622b96d6b713ba693ba958be719314a24094548f98c7975196690ea337fe9",
+            "bounding_box": "{\"x1\": 69, \"y1\": 474, \"x2\": 1011, \"y2\": 479}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.markuspage.android.atimetracker:id/activity_edit_name_label",
+            "text_content": "Activity name",
+            "word_sequence": [
+                "Activity",
+                "name"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9bc622b96d6b713ba693ba958be719314a24094548f98c7975196690ea337fe9",
+            "bounding_box": "{\"x1\": 95, \"y1\": 510, \"x2\": 378, \"y2\": 573}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.markuspage.android.atimetracker:id/activity_edit_name_edit",
+            "text_content": "Test",
+            "word_sequence": [
+                "Test"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 21,
+            "screen_id": "9bc622b96d6b713ba693ba958be719314a24094548f98c7975196690ea337fe9",
+            "bounding_box": "{\"x1\": 404, \"y1\": 479, \"x2\": 985, \"y2\": 581}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/button2",
+            "text_content": "Cancel",
+            "word_sequence": [
+                "Cancel"
+            ],
+            "type": "BUTTON",
+            "app_name": 21,
+            "screen_id": "9bc622b96d6b713ba693ba958be719314a24094548f98c7975196690ea337fe9",
+            "bounding_box": "{\"x1\": 69, \"y1\": 649, \"x2\": 516, \"y2\": 775}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/button1",
+            "text_content": "Add activity",
+            "word_sequence": [
+                "Add",
+                "activity"
+            ],
+            "type": "BUTTON",
+            "app_name": 21,
+            "screen_id": "9bc622b96d6b713ba693ba958be719314a24094548f98c7975196690ea337fe9",
+            "bounding_box": "{\"x1\": 518, \"y1\": 649, \"x2\": 1011, \"y2\": 775}"
+        }
+    ],
+    "0cc11212f12090f8e0923817898aad5530683601ada4f3181f689591f0f54a9c": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/home",
+            "text_content": "",
+            "word_sequence": [
+                "home"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 21,
+            "screen_id": "0cc11212f12090f8e0923817898aad5530683601ada4f3181f689591f0f54a9c",
+            "bounding_box": "{\"x1\": 32, \"y1\": 84, \"x2\": 116, \"y2\": 168}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/action_bar_title",
+            "text_content": "A Time Tracker (All) 00:00",
+            "word_sequence": [
+                "A",
+                "Time",
+                "Tracker",
+                "All",
+                "00",
+                ":",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "0cc11212f12090f8e0923817898aad5530683601ada4f3181f689591f0f54a9c",
+            "bounding_box": "{\"x1\": 127, \"y1\": 94, \"x2\": 668, \"y2\": 157}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "BUTTON",
+            "app_name": 21,
+            "screen_id": "0cc11212f12090f8e0923817898aad5530683601ada4f3181f689591f0f54a9c",
+            "bounding_box": "{\"x1\": 932, \"y1\": 63, \"x2\": 1080, \"y2\": 189}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Test",
+            "word_sequence": [
+                "Test"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "0cc11212f12090f8e0923817898aad5530683601ada4f3181f689591f0f54a9c",
+            "bounding_box": "{\"x1\": 5, \"y1\": 199, \"x2\": 882, \"y2\": 256}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "00:00",
+            "word_sequence": [
+                "00",
+                ":",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "0cc11212f12090f8e0923817898aad5530683601ada4f3181f689591f0f54a9c",
+            "bounding_box": "{\"x1\": 969, \"y1\": 199, \"x2\": 1075, \"y2\": 256}"
+        }
+    ],
+    "f4e7076bf78336258deda53d8870e7219dbd83b7030c4388cd4e4b33e16c32cf": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/home",
+            "text_content": "",
+            "word_sequence": [
+                "home"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 21,
+            "screen_id": "f4e7076bf78336258deda53d8870e7219dbd83b7030c4388cd4e4b33e16c32cf",
+            "bounding_box": "{\"x1\": 32, \"y1\": 84, \"x2\": 116, \"y2\": 168}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/action_bar_title",
+            "text_content": "A Time Tracker (All) 00:00",
+            "word_sequence": [
+                "A",
+                "Time",
+                "Tracker",
+                "All",
+                "00",
+                ":",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "f4e7076bf78336258deda53d8870e7219dbd83b7030c4388cd4e4b33e16c32cf",
+            "bounding_box": "{\"x1\": 127, \"y1\": 94, \"x2\": 668, \"y2\": 157}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "BUTTON",
+            "app_name": 21,
+            "screen_id": "f4e7076bf78336258deda53d8870e7219dbd83b7030c4388cd4e4b33e16c32cf",
+            "bounding_box": "{\"x1\": 932, \"y1\": 63, \"x2\": 1080, \"y2\": 189}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Test",
+            "word_sequence": [
+                "Test"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "f4e7076bf78336258deda53d8870e7219dbd83b7030c4388cd4e4b33e16c32cf",
+            "bounding_box": "{\"x1\": 5, \"y1\": 199, \"x2\": 882, \"y2\": 256}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 21,
+            "screen_id": "f4e7076bf78336258deda53d8870e7219dbd83b7030c4388cd4e4b33e16c32cf",
+            "bounding_box": "{\"x1\": 882, \"y1\": 199, \"x2\": 969, \"y2\": 256}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "00:00",
+            "word_sequence": [
+                "00",
+                ":",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "f4e7076bf78336258deda53d8870e7219dbd83b7030c4388cd4e4b33e16c32cf",
+            "bounding_box": "{\"x1\": 969, \"y1\": 199, \"x2\": 1075, \"y2\": 256}"
+        }
+    ],
+    "19cb4db7aa36b45e8621d64b696ed9a5a92a3ebb486e89bb1d06a9b8c5aa45a8": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "Activities menu",
+            "word_sequence": [
+                "Activities",
+                "menu"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "19cb4db7aa36b45e8621d64b696ed9a5a92a3ebb486e89bb1d06a9b8c5aa45a8",
+            "bounding_box": "{\"x1\": 111, \"y1\": 696, \"x2\": 969, \"y2\": 774}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/titleDivider",
+            "text_content": "",
+            "word_sequence": [
+                "title",
+                "Divider"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 21,
+            "screen_id": "19cb4db7aa36b45e8621d64b696ed9a5a92a3ebb486e89bb1d06a9b8c5aa45a8",
+            "bounding_box": "{\"x1\": 69, \"y1\": 819, \"x2\": 1011, \"y2\": 824}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/title",
+            "text_content": "Edit Activity",
+            "word_sequence": [
+                "Edit",
+                "Activity"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "19cb4db7aa36b45e8621d64b696ed9a5a92a3ebb486e89bb1d06a9b8c5aa45a8",
+            "bounding_box": "{\"x1\": 111, \"y1\": 855, \"x2\": 969, \"y2\": 918}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/title",
+            "text_content": "Delete Activity",
+            "word_sequence": [
+                "Delete",
+                "Activity"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "19cb4db7aa36b45e8621d64b696ed9a5a92a3ebb486e89bb1d06a9b8c5aa45a8",
+            "bounding_box": "{\"x1\": 111, \"y1\": 983, \"x2\": 969, \"y2\": 1046}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/title",
+            "text_content": "Show Times",
+            "word_sequence": [
+                "Show",
+                "Times"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "19cb4db7aa36b45e8621d64b696ed9a5a92a3ebb486e89bb1d06a9b8c5aa45a8",
+            "bounding_box": "{\"x1\": 111, \"y1\": 1111, \"x2\": 969, \"y2\": 1174}"
+        }
+    ],
+    "2fed7fe19838d65f4a6867004a02580fd7a1c7d75251a8809a6dc23ae9abaa00": [
+        {
+            "component_id": 0,
+            "resource_id": "com.markuspage.android.atimetracker:id/activity_edit_name_label",
+            "text_content": "Activity name",
+            "word_sequence": [
+                "Activity",
+                "name"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "2fed7fe19838d65f4a6867004a02580fd7a1c7d75251a8809a6dc23ae9abaa00",
+            "bounding_box": "{\"x1\": 95, \"y1\": 822, \"x2\": 378, \"y2\": 885}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.markuspage.android.atimetracker:id/activity_edit_name_edit",
+            "text_content": "Test",
+            "word_sequence": [
+                "Test"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 21,
+            "screen_id": "2fed7fe19838d65f4a6867004a02580fd7a1c7d75251a8809a6dc23ae9abaa00",
+            "bounding_box": "{\"x1\": 404, \"y1\": 791, \"x2\": 985, \"y2\": 893}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/button2",
+            "text_content": "Cancel",
+            "word_sequence": [
+                "Cancel"
+            ],
+            "type": "BUTTON",
+            "app_name": 21,
+            "screen_id": "2fed7fe19838d65f4a6867004a02580fd7a1c7d75251a8809a6dc23ae9abaa00",
+            "bounding_box": "{\"x1\": 69, \"y1\": 940, \"x2\": 539, \"y2\": 1066}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/button1",
+            "text_content": "OK",
+            "word_sequence": [
+                "OK"
+            ],
+            "type": "BUTTON",
+            "app_name": 21,
+            "screen_id": "2fed7fe19838d65f4a6867004a02580fd7a1c7d75251a8809a6dc23ae9abaa00",
+            "bounding_box": "{\"x1\": 541, \"y1\": 940, \"x2\": 1011, \"y2\": 1066}"
+        }
+    ],
+    "162099705dc2c460a7eca5f6f77af29fcce2b9c144f2c31e9654ba3a5223db97": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/home",
+            "text_content": "",
+            "word_sequence": [
+                "home"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 21,
+            "screen_id": "162099705dc2c460a7eca5f6f77af29fcce2b9c144f2c31e9654ba3a5223db97",
+            "bounding_box": "{\"x1\": 32, \"y1\": 84, \"x2\": 116, \"y2\": 168}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/action_bar_title",
+            "text_content": "Activity Times",
+            "word_sequence": [
+                "Activity",
+                "Times"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "162099705dc2c460a7eca5f6f77af29fcce2b9c144f2c31e9654ba3a5223db97",
+            "bounding_box": "{\"x1\": 127, \"y1\": 94, \"x2\": 421, \"y2\": 157}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "BUTTON",
+            "app_name": 21,
+            "screen_id": "162099705dc2c460a7eca5f6f77af29fcce2b9c144f2c31e9654ba3a5223db97",
+            "bounding_box": "{\"x1\": 932, \"y1\": 63, \"x2\": 1080, \"y2\": 189}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Tuesday, Jul 05 2022",
+            "word_sequence": [
+                "Tuesday",
+                ",",
+                "Jul",
+                "05",
+                "2022"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "162099705dc2c460a7eca5f6f77af29fcce2b9c144f2c31e9654ba3a5223db97",
+            "bounding_box": "{\"x1\": 0, \"y1\": 189, \"x2\": 1080, \"y2\": 246}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "15:42 - ...",
+            "word_sequence": [
+                "15",
+                ":",
+                "42",
+                ".",
+                ".",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "162099705dc2c460a7eca5f6f77af29fcce2b9c144f2c31e9654ba3a5223db97",
+            "bounding_box": "{\"x1\": 5, \"y1\": 258, \"x2\": 969, \"y2\": 315}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "00:01",
+            "word_sequence": [
+                "00",
+                ":",
+                "01"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "162099705dc2c460a7eca5f6f77af29fcce2b9c144f2c31e9654ba3a5223db97",
+            "bounding_box": "{\"x1\": 969, \"y1\": 258, \"x2\": 1075, \"y2\": 315}"
+        }
+    ],
+    "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/home",
+            "text_content": "",
+            "word_sequence": [
+                "home"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 33, \"y1\": 74, \"x2\": 116, \"y2\": 157}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/action_bar_title",
+            "text_content": "Report for the week Sun, Jul 3 to Sat, Jul 9",
+            "word_sequence": [
+                "Report",
+                "for",
+                "the",
+                "week",
+                "Sun",
+                ",",
+                "Jul",
+                "3",
+                "to",
+                "Sat",
+                ",",
+                "Jul",
+                "9"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 126, \"y1\": 87, \"x2\": 907, \"y2\": 144}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "BUTTON",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1662, \"y1\": 63, \"x2\": 1810, \"y2\": 168}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Activity",
+            "word_sequence": [
+                "Activity"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 0, \"y1\": 168, \"x2\": 1046, \"y2\": 223}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "Sun",
+            "word_sequence": [
+                "Sun"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1046, \"y1\": 168, \"x2\": 1141, \"y2\": 223}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "Mon",
+            "word_sequence": [
+                "Mon"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1141, \"y1\": 168, \"x2\": 1236, \"y2\": 223}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "Tue",
+            "word_sequence": [
+                "Tue"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1236, \"y1\": 168, \"x2\": 1335, \"y2\": 223}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "Wed",
+            "word_sequence": [
+                "Wed"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1335, \"y1\": 168, \"x2\": 1430, \"y2\": 223}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "Thu",
+            "word_sequence": [
+                "Thu"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1430, \"y1\": 168, \"x2\": 1525, \"y2\": 223}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "Fri",
+            "word_sequence": [
+                "Fri"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1525, \"y1\": 168, \"x2\": 1620, \"y2\": 223}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "Sat",
+            "word_sequence": [
+                "Sat"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1620, \"y1\": 168, \"x2\": 1715, \"y2\": 223}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "",
+            "text_content": "Ttl",
+            "word_sequence": [
+                "Ttl"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1715, \"y1\": 168, \"x2\": 1810, \"y2\": 225}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "",
+            "text_content": "Test",
+            "word_sequence": [
+                "Test"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 0, \"y1\": 225, \"x2\": 1046, \"y2\": 280}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "",
+            "text_content": "  :  ",
+            "word_sequence": [
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1046, \"y1\": 225, \"x2\": 1141, \"y2\": 280}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "",
+            "text_content": "  :  ",
+            "word_sequence": [
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1141, \"y1\": 225, \"x2\": 1236, \"y2\": 280}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "",
+            "text_content": "00:02",
+            "word_sequence": [
+                "00",
+                ":",
+                "02"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1236, \"y1\": 225, \"x2\": 1335, \"y2\": 280}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "",
+            "text_content": "  :  ",
+            "word_sequence": [
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1335, \"y1\": 225, \"x2\": 1430, \"y2\": 280}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "",
+            "text_content": "  :  ",
+            "word_sequence": [
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1430, \"y1\": 225, \"x2\": 1525, \"y2\": 280}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "",
+            "text_content": "  :  ",
+            "word_sequence": [
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1525, \"y1\": 225, \"x2\": 1620, \"y2\": 280}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "",
+            "text_content": "  :  ",
+            "word_sequence": [
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1620, \"y1\": 225, \"x2\": 1715, \"y2\": 280}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "",
+            "text_content": "00:02",
+            "word_sequence": [
+                "00",
+                ":",
+                "02"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1715, \"y1\": 225, \"x2\": 1810, \"y2\": 280}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 0, \"y1\": 280, \"x2\": 1046, \"y2\": 337}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "",
+            "text_content": "00:00",
+            "word_sequence": [
+                "00",
+                ":",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1046, \"y1\": 280, \"x2\": 1141, \"y2\": 337}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "",
+            "text_content": "00:00",
+            "word_sequence": [
+                "00",
+                ":",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1141, \"y1\": 280, \"x2\": 1236, \"y2\": 337}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "",
+            "text_content": "00:02",
+            "word_sequence": [
+                "00",
+                ":",
+                "02"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1236, \"y1\": 280, \"x2\": 1335, \"y2\": 337}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "",
+            "text_content": "00:00",
+            "word_sequence": [
+                "00",
+                ":",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1335, \"y1\": 280, \"x2\": 1430, \"y2\": 337}"
+        },
+        {
+            "component_id": 26,
+            "resource_id": "",
+            "text_content": "00:00",
+            "word_sequence": [
+                "00",
+                ":",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1430, \"y1\": 280, \"x2\": 1525, \"y2\": 337}"
+        },
+        {
+            "component_id": 27,
+            "resource_id": "",
+            "text_content": "00:00",
+            "word_sequence": [
+                "00",
+                ":",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1525, \"y1\": 280, \"x2\": 1620, \"y2\": 337}"
+        },
+        {
+            "component_id": 28,
+            "resource_id": "",
+            "text_content": "00:00",
+            "word_sequence": [
+                "00",
+                ":",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1620, \"y1\": 280, \"x2\": 1715, \"y2\": 337}"
+        },
+        {
+            "component_id": 29,
+            "resource_id": "",
+            "text_content": "00:02",
+            "word_sequence": [
+                "00",
+                ":",
+                "02"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1715, \"y1\": 280, \"x2\": 1810, \"y2\": 337}"
+        },
+        {
+            "component_id": 30,
+            "resource_id": "com.markuspage.android.atimetracker:id/decrement_week",
+            "text_content": "",
+            "word_sequence": [
+                "decrement",
+                "week"
+            ],
+            "type": "BUTTON",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 556, \"y1\": 954, \"x2\": 704, \"y2\": 1080}"
+        },
+        {
+            "component_id": 31,
+            "resource_id": "com.markuspage.android.atimetracker:id/week",
+            "text_content": "Week 28",
+            "word_sequence": [
+                "Week",
+                "28"
+            ],
+            "type": "BUTTON",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 783, \"y1\": 954, \"x2\": 1026, \"y2\": 1080}"
+        },
+        {
+            "component_id": 32,
+            "resource_id": "com.markuspage.android.atimetracker:id/increment_week",
+            "text_content": "",
+            "word_sequence": [
+                "increment",
+                "week"
+            ],
+            "type": "BUTTON",
+            "app_name": 21,
+            "screen_id": "9264b935c741ed4a339bdfc3d6477b131e9d14cca3e053979676f845aceccc8e",
+            "bounding_box": "{\"x1\": 1105, \"y1\": 954, \"x2\": 1253, \"y2\": 1080}"
+        }
+    ]
+}

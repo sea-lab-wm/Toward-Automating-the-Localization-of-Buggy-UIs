@@ -1,0 +1,3624 @@
+{
+    "app-name": 200,
+    "f2e0a08a92d975615e943f198005c01e12049abc7312357fa680ad36a8aa8e1c": [
+        {
+            "component_id": 3,
+            "resource_id": "m-future-page-header-title",
+            "text_content": "Log in Disabled",
+            "word_sequence": [
+                "Log",
+                "in",
+                "Disabled"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "f2e0a08a92d975615e943f198005c01e12049abc7312357fa680ad36a8aa8e1c",
+            "bounding_box": "{\"x1\": 60, \"y1\": 133, \"x2\": 1020, \"y2\": 186}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "For your account security, logging into Facebook from an embedded browser is disabled. To continue, download and log into the Facebook app on your device and try again.",
+            "word_sequence": [
+                "For",
+                "your",
+                "account",
+                "security",
+                ",",
+                "logging",
+                "into",
+                "Facebook",
+                "from",
+                "an",
+                "embedded",
+                "browser",
+                "is",
+                "disabled",
+                ".",
+                "To",
+                "continue",
+                ",",
+                "download",
+                "and",
+                "log",
+                "into",
+                "the",
+                "Facebook",
+                "app",
+                "on",
+                "your",
+                "device",
+                "and",
+                "try",
+                "again",
+                "."
+            ],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "f2e0a08a92d975615e943f198005c01e12049abc7312357fa680ad36a8aa8e1c",
+            "bounding_box": "{\"x1\": 60, \"y1\": 233, \"x2\": 1020, \"y2\": 443}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "f2e0a08a92d975615e943f198005c01e12049abc7312357fa680ad36a8aa8e1c",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 76, \"y2\": 140}"
+        }
+    ],
+    "0c6516f721da2f952266a309c35391a02bcc89d8936ba9d220d3bdf64d5b85b0": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "0c6516f721da2f952266a309c35391a02bcc89d8936ba9d220d3bdf64d5b85b0",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "0c6516f721da2f952266a309c35391a02bcc89d8936ba9d220d3bdf64d5b85b0",
+            "bounding_box": "{\"x1\": 216, \"y1\": 116, \"x2\": 864, \"y2\": 226}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "0c6516f721da2f952266a309c35391a02bcc89d8936ba9d220d3bdf64d5b85b0",
+            "bounding_box": "{\"x1\": 124, \"y1\": 1137, \"x2\": 203, \"y2\": 1221}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "0c6516f721da2f952266a309c35391a02bcc89d8936ba9d220d3bdf64d5b85b0",
+            "bounding_box": "{\"x1\": 223, \"y1\": 1127, \"x2\": 226, \"y2\": 1232}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "Log In with",
+            "word_sequence": [
+                "Log",
+                "In",
+                "with"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "0c6516f721da2f952266a309c35391a02bcc89d8936ba9d220d3bdf64d5b85b0",
+            "bounding_box": "{\"x1\": 252, \"y1\": 1154, \"x2\": 431, \"y2\": 1205}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "Facebook",
+            "word_sequence": [
+                "Facebook"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "0c6516f721da2f952266a309c35391a02bcc89d8936ba9d220d3bdf64d5b85b0",
+            "bounding_box": "{\"x1\": 439, \"y1\": 1154, \"x2\": 600, \"y2\": 1205}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "0c6516f721da2f952266a309c35391a02bcc89d8936ba9d220d3bdf64d5b85b0",
+            "bounding_box": "{\"x1\": 124, \"y1\": 1268, \"x2\": 203, \"y2\": 1352}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "0c6516f721da2f952266a309c35391a02bcc89d8936ba9d220d3bdf64d5b85b0",
+            "bounding_box": "{\"x1\": 223, \"y1\": 1258, \"x2\": 226, \"y2\": 1363}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "Log In with",
+            "word_sequence": [
+                "Log",
+                "In",
+                "with"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "0c6516f721da2f952266a309c35391a02bcc89d8936ba9d220d3bdf64d5b85b0",
+            "bounding_box": "{\"x1\": 252, \"y1\": 1285, \"x2\": 431, \"y2\": 1336}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "Google+",
+            "word_sequence": [
+                "Google"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "0c6516f721da2f952266a309c35391a02bcc89d8936ba9d220d3bdf64d5b85b0",
+            "bounding_box": "{\"x1\": 439, \"y1\": 1285, \"x2\": 577, \"y2\": 1336}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "0c6516f721da2f952266a309c35391a02bcc89d8936ba9d220d3bdf64d5b85b0",
+            "bounding_box": "{\"x1\": 124, \"y1\": 1410, \"x2\": 203, \"y2\": 1473}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "0c6516f721da2f952266a309c35391a02bcc89d8936ba9d220d3bdf64d5b85b0",
+            "bounding_box": "{\"x1\": 223, \"y1\": 1389, \"x2\": 226, \"y2\": 1494}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "",
+            "text_content": "Sign Up with",
+            "word_sequence": [
+                "Sign",
+                "Up",
+                "with"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "0c6516f721da2f952266a309c35391a02bcc89d8936ba9d220d3bdf64d5b85b0",
+            "bounding_box": "{\"x1\": 252, \"y1\": 1416, \"x2\": 456, \"y2\": 1467}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "",
+            "text_content": "Email",
+            "word_sequence": [
+                "Email"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "0c6516f721da2f952266a309c35391a02bcc89d8936ba9d220d3bdf64d5b85b0",
+            "bounding_box": "{\"x1\": 464, \"y1\": 1416, \"x2\": 557, \"y2\": 1467}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "org.inaturalist.android:id/skip",
+            "text_content": "Skip \u203a",
+            "word_sequence": [
+                "Skip"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "0c6516f721da2f952266a309c35391a02bcc89d8936ba9d220d3bdf64d5b85b0",
+            "bounding_box": "{\"x1\": 435, \"y1\": 1547, \"x2\": 645, \"y2\": 1636}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "",
+            "text_content": "Already have an account?",
+            "word_sequence": [
+                "Already",
+                "have",
+                "an",
+                "account",
+                "?"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "0c6516f721da2f952266a309c35391a02bcc89d8936ba9d220d3bdf64d5b85b0",
+            "bounding_box": "{\"x1\": 286, \"y1\": 1716, \"x2\": 704, \"y2\": 1767}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "",
+            "text_content": "Log In",
+            "word_sequence": [
+                "Log",
+                "In"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "0c6516f721da2f952266a309c35391a02bcc89d8936ba9d220d3bdf64d5b85b0",
+            "bounding_box": "{\"x1\": 717, \"y1\": 1716, \"x2\": 820, \"y2\": 1767}"
+        }
+    ],
+    "cd2d48ec5f1e3e4cf52d473ca3efc7e5878840d0e9fa1e335254586fb18fa78e": [
+        {
+            "component_id": 0,
+            "resource_id": "org.inaturalist.android:id/background_image",
+            "text_content": "",
+            "word_sequence": [
+                "background",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "cd2d48ec5f1e3e4cf52d473ca3efc7e5878840d0e9fa1e335254586fb18fa78e",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.inaturalist.android:id/back",
+            "text_content": "",
+            "word_sequence": [
+                "back"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "cd2d48ec5f1e3e4cf52d473ca3efc7e5878840d0e9fa1e335254586fb18fa78e",
+            "bounding_box": "{\"x1\": 0, \"y1\": 96, \"x2\": 131, \"y2\": 159}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.inaturalist.android:id/action_bar_title",
+            "text_content": "Sign Up",
+            "word_sequence": [
+                "Sign",
+                "Up"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "cd2d48ec5f1e3e4cf52d473ca3efc7e5878840d0e9fa1e335254586fb18fa78e",
+            "bounding_box": "{\"x1\": 441, \"y1\": 89, \"x2\": 639, \"y2\": 167}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.inaturalist.android:id/email_icon",
+            "text_content": "",
+            "word_sequence": [
+                "email",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "cd2d48ec5f1e3e4cf52d473ca3efc7e5878840d0e9fa1e335254586fb18fa78e",
+            "bounding_box": "{\"x1\": 39, \"y1\": 299, \"x2\": 157, \"y2\": 362}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.inaturalist.android:id/email",
+            "text_content": "TestTest Test",
+            "word_sequence": [
+                "TestTest",
+                "Test"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 200,
+            "screen_id": "cd2d48ec5f1e3e4cf52d473ca3efc7e5878840d0e9fa1e335254586fb18fa78e",
+            "bounding_box": "{\"x1\": 157, \"y1\": 272, \"x2\": 1028, \"y2\": 390}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.inaturalist.android:id/password_icon",
+            "text_content": "",
+            "word_sequence": [
+                "password",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "cd2d48ec5f1e3e4cf52d473ca3efc7e5878840d0e9fa1e335254586fb18fa78e",
+            "bounding_box": "{\"x1\": 39, \"y1\": 420, \"x2\": 157, \"y2\": 483}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.inaturalist.android:id/password",
+            "text_content": "\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022",
+            "word_sequence": [],
+            "type": "EDITTEXT",
+            "app_name": 200,
+            "screen_id": "cd2d48ec5f1e3e4cf52d473ca3efc7e5878840d0e9fa1e335254586fb18fa78e",
+            "bounding_box": "{\"x1\": 157, \"y1\": 393, \"x2\": 1028, \"y2\": 511}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.inaturalist.android:id/username_icon",
+            "text_content": "",
+            "word_sequence": [
+                "username",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "cd2d48ec5f1e3e4cf52d473ca3efc7e5878840d0e9fa1e335254586fb18fa78e",
+            "bounding_box": "{\"x1\": 39, \"y1\": 541, \"x2\": 157, \"y2\": 604}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.inaturalist.android:id/username",
+            "text_content": "Username",
+            "word_sequence": [
+                "Username"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 200,
+            "screen_id": "cd2d48ec5f1e3e4cf52d473ca3efc7e5878840d0e9fa1e335254586fb18fa78e",
+            "bounding_box": "{\"x1\": 157, \"y1\": 514, \"x2\": 1028, \"y2\": 632}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.inaturalist.android:id/checkbox",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "cd2d48ec5f1e3e4cf52d473ca3efc7e5878840d0e9fa1e335254586fb18fa78e",
+            "bounding_box": "{\"x1\": 39, \"y1\": 679, \"x2\": 157, \"y2\": 742}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.inaturalist.android:id/checkbox_description",
+            "text_content": "Yes, license my content so scientists can use my data. Learn More",
+            "word_sequence": [
+                "Yes",
+                ",",
+                "license",
+                "my",
+                "content",
+                "so",
+                "scientists",
+                "can",
+                "use",
+                "my",
+                "data",
+                ".",
+                "Learn",
+                "More"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "cd2d48ec5f1e3e4cf52d473ca3efc7e5878840d0e9fa1e335254586fb18fa78e",
+            "bounding_box": "{\"x1\": 157, \"y1\": 667, \"x2\": 1041, \"y2\": 753}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "org.inaturalist.android:id/sign_up",
+            "text_content": "Sign Up",
+            "word_sequence": [
+                "Sign",
+                "Up"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "cd2d48ec5f1e3e4cf52d473ca3efc7e5878840d0e9fa1e335254586fb18fa78e",
+            "bounding_box": "{\"x1\": 39, \"y1\": 797, \"x2\": 1041, \"y2\": 902}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "org.inaturalist.android:id/terms",
+            "text_content": "By using iNaturalist you agree to the Terms of Service and Privacy Policy",
+            "word_sequence": [
+                "By",
+                "using",
+                "iNaturalist",
+                "you",
+                "agree",
+                "to",
+                "the",
+                "Terms",
+                "of",
+                "Service",
+                "and",
+                "Privacy",
+                "Policy"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "cd2d48ec5f1e3e4cf52d473ca3efc7e5878840d0e9fa1e335254586fb18fa78e",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1663, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "de5ceaaf26db6cd8c08cdf65da2fa5d500acae96be0e0273c9b06420229a4725": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "de5ceaaf26db6cd8c08cdf65da2fa5d500acae96be0e0273c9b06420229a4725",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "My Observations",
+            "word_sequence": [
+                "My",
+                "Observations"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "de5ceaaf26db6cd8c08cdf65da2fa5d500acae96be0e0273c9b06420229a4725",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 557, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/empty",
+            "text_content": "No observations yet!",
+            "word_sequence": [
+                "No",
+                "observations",
+                "yet",
+                "!"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "de5ceaaf26db6cd8c08cdf65da2fa5d500acae96be0e0273c9b06420229a4725",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.inaturalist.android:id/add_observation",
+            "text_content": "",
+            "word_sequence": [
+                "add",
+                "observation"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "de5ceaaf26db6cd8c08cdf65da2fa5d500acae96be0e0273c9b06420229a4725",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.inaturalist.android:id/no_user_pic",
+            "text_content": "",
+            "word_sequence": [
+                "no",
+                "user",
+                "pic"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "de5ceaaf26db6cd8c08cdf65da2fa5d500acae96be0e0273c9b06420229a4725",
+            "bounding_box": "{\"x1\": 68, \"y1\": 143, \"x2\": 173, \"y2\": 248}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.inaturalist.android:id/menu_login",
+            "text_content": "Log In / Sign Up",
+            "word_sequence": [
+                "Log",
+                "In",
+                "/",
+                "Sign",
+                "Up"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "de5ceaaf26db6cd8c08cdf65da2fa5d500acae96be0e0273c9b06420229a4725",
+            "bounding_box": "{\"x1\": 247, \"y1\": 123, \"x2\": 635, \"y2\": 189}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.inaturalist.android:id/observation_count",
+            "text_content": "0 OBSERVATIONS",
+            "word_sequence": [
+                "0",
+                "OBSERVATIONS"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "de5ceaaf26db6cd8c08cdf65da2fa5d500acae96be0e0273c9b06420229a4725",
+            "bounding_box": "{\"x1\": 247, \"y1\": 216, \"x2\": 541, \"y2\": 288}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.inaturalist.android:id/right_arrow",
+            "text_content": "",
+            "word_sequence": [
+                "right",
+                "arrow"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "de5ceaaf26db6cd8c08cdf65da2fa5d500acae96be0e0273c9b06420229a4725",
+            "bounding_box": "{\"x1\": 661, \"y1\": 210, \"x2\": 724, \"y2\": 273}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.inaturalist.android:id/menu_explore_icon",
+            "text_content": "",
+            "word_sequence": [
+                "menu",
+                "explore",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "de5ceaaf26db6cd8c08cdf65da2fa5d500acae96be0e0273c9b06420229a4725",
+            "bounding_box": "{\"x1\": 44, \"y1\": 377, \"x2\": 107, \"y2\": 440}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "Explore",
+            "word_sequence": [
+                "Explore"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "de5ceaaf26db6cd8c08cdf65da2fa5d500acae96be0e0273c9b06420229a4725",
+            "bounding_box": "{\"x1\": 186, \"y1\": 380, \"x2\": 325, \"y2\": 437}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.inaturalist.android:id/menu_projects_icon",
+            "text_content": "",
+            "word_sequence": [
+                "menu",
+                "projects",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "de5ceaaf26db6cd8c08cdf65da2fa5d500acae96be0e0273c9b06420229a4725",
+            "bounding_box": "{\"x1\": 44, \"y1\": 535, \"x2\": 107, \"y2\": 598}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "",
+            "text_content": "Projects",
+            "word_sequence": [
+                "Projects"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "de5ceaaf26db6cd8c08cdf65da2fa5d500acae96be0e0273c9b06420229a4725",
+            "bounding_box": "{\"x1\": 186, \"y1\": 538, \"x2\": 340, \"y2\": 595}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "org.inaturalist.android:id/menu_guides_icon",
+            "text_content": "",
+            "word_sequence": [
+                "menu",
+                "guides",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "de5ceaaf26db6cd8c08cdf65da2fa5d500acae96be0e0273c9b06420229a4725",
+            "bounding_box": "{\"x1\": 44, \"y1\": 693, \"x2\": 107, \"y2\": 756}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "",
+            "text_content": "Guides",
+            "word_sequence": [
+                "Guides"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "de5ceaaf26db6cd8c08cdf65da2fa5d500acae96be0e0273c9b06420229a4725",
+            "bounding_box": "{\"x1\": 186, \"y1\": 696, \"x2\": 316, \"y2\": 753}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "org.inaturalist.android:id/menu_activity_icon",
+            "text_content": "",
+            "word_sequence": [
+                "menu",
+                "activity",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "de5ceaaf26db6cd8c08cdf65da2fa5d500acae96be0e0273c9b06420229a4725",
+            "bounding_box": "{\"x1\": 44, \"y1\": 851, \"x2\": 107, \"y2\": 914}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "",
+            "text_content": "Activity",
+            "word_sequence": [
+                "Activity"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "de5ceaaf26db6cd8c08cdf65da2fa5d500acae96be0e0273c9b06420229a4725",
+            "bounding_box": "{\"x1\": 186, \"y1\": 854, \"x2\": 323, \"y2\": 911}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "de5ceaaf26db6cd8c08cdf65da2fa5d500acae96be0e0273c9b06420229a4725",
+            "bounding_box": "{\"x1\": 0, \"y1\": 962, \"x2\": 761, \"y2\": 965}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "org.inaturalist.android:id/menu_settings_icon",
+            "text_content": "",
+            "word_sequence": [
+                "menu",
+                "settings",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "de5ceaaf26db6cd8c08cdf65da2fa5d500acae96be0e0273c9b06420229a4725",
+            "bounding_box": "{\"x1\": 44, \"y1\": 1012, \"x2\": 107, \"y2\": 1075}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "de5ceaaf26db6cd8c08cdf65da2fa5d500acae96be0e0273c9b06420229a4725",
+            "bounding_box": "{\"x1\": 186, \"y1\": 1015, \"x2\": 340, \"y2\": 1072}"
+        }
+    ],
+    "449129a1ff5593ef69e013988d3d9bc81c449a1d5832f2fe2be0ddc050dc3605": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "449129a1ff5593ef69e013988d3d9bc81c449a1d5832f2fe2be0ddc050dc3605",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "iNaturalist",
+            "word_sequence": [
+                "iNaturalist"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "449129a1ff5593ef69e013988d3d9bc81c449a1d5832f2fe2be0ddc050dc3605",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 405, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "SKIP Skip",
+            "word_sequence": [
+                "SKIP"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "449129a1ff5593ef69e013988d3d9bc81c449a1d5832f2fe2be0ddc050dc3605",
+            "bounding_box": "{\"x1\": 781, \"y1\": 73, \"x2\": 924, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "NEXT Next",
+            "word_sequence": [
+                "NEXT"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "449129a1ff5593ef69e013988d3d9bc81c449a1d5832f2fe2be0ddc050dc3605",
+            "bounding_box": "{\"x1\": 924, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.inaturalist.android:id/tutorial_image",
+            "text_content": "",
+            "word_sequence": [
+                "tutorial",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "449129a1ff5593ef69e013988d3d9bc81c449a1d5832f2fe2be0ddc050dc3605",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "1e9f1f906866c9841bad4029b36838b008abea6dcd6625b4218b9f02d8155eb2": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "1e9f1f906866c9841bad4029b36838b008abea6dcd6625b4218b9f02d8155eb2",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "My Observations",
+            "word_sequence": [
+                "My",
+                "Observations"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "1e9f1f906866c9841bad4029b36838b008abea6dcd6625b4218b9f02d8155eb2",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 557, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/empty",
+            "text_content": "No observations yet!",
+            "word_sequence": [
+                "No",
+                "observations",
+                "yet",
+                "!"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "1e9f1f906866c9841bad4029b36838b008abea6dcd6625b4218b9f02d8155eb2",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.inaturalist.android:id/add_observation",
+            "text_content": "",
+            "word_sequence": [
+                "add",
+                "observation"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "1e9f1f906866c9841bad4029b36838b008abea6dcd6625b4218b9f02d8155eb2",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "468006fd3982ed1a6390f6c96939cc9eec972e12c5930fc8a1767820c07eb276": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "468006fd3982ed1a6390f6c96939cc9eec972e12c5930fc8a1767820c07eb276",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1371, \"x2\": 1080, \"y2\": 1374}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.inaturalist.android:id/bs_list_image",
+            "text_content": "",
+            "word_sequence": [
+                "bs",
+                "list",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "468006fd3982ed1a6390f6c96939cc9eec972e12c5930fc8a1767820c07eb276",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1426, \"x2\": 105, \"y2\": 1489}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.inaturalist.android:id/bs_list_title",
+            "text_content": "Take Photo",
+            "word_sequence": [
+                "Take",
+                "Photo"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "468006fd3982ed1a6390f6c96939cc9eec972e12c5930fc8a1767820c07eb276",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1429, \"x2\": 1038, \"y2\": 1486}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.inaturalist.android:id/bs_list_image",
+            "text_content": "",
+            "word_sequence": [
+                "bs",
+                "list",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "468006fd3982ed1a6390f6c96939cc9eec972e12c5930fc8a1767820c07eb276",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1552, \"x2\": 105, \"y2\": 1615}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.inaturalist.android:id/bs_list_title",
+            "text_content": "Choose Image",
+            "word_sequence": [
+                "Choose",
+                "Image"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "468006fd3982ed1a6390f6c96939cc9eec972e12c5930fc8a1767820c07eb276",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1555, \"x2\": 1038, \"y2\": 1612}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.inaturalist.android:id/bs_list_image",
+            "text_content": "",
+            "word_sequence": [
+                "bs",
+                "list",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "468006fd3982ed1a6390f6c96939cc9eec972e12c5930fc8a1767820c07eb276",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1678, \"x2\": 105, \"y2\": 1741}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.inaturalist.android:id/bs_list_title",
+            "text_content": "Skip Photo",
+            "word_sequence": [
+                "Skip",
+                "Photo"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "468006fd3982ed1a6390f6c96939cc9eec972e12c5930fc8a1767820c07eb276",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1681, \"x2\": 1038, \"y2\": 1738}"
+        }
+    ],
+    "63849b2d1be422c2461170c04fd9cba9543f36f75dbb95f8921801432db3d4fd": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Show roots",
+            "word_sequence": [
+                "Show",
+                "roots"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "63849b2d1be422c2461170c04fd9cba9543f36f75dbb95f8921801432db3d4fd",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Recent",
+            "word_sequence": [
+                "Recent"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "63849b2d1be422c2461170c04fd9cba9543f36f75dbb95f8921801432db3d4fd",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 353, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.documentsui:id/menu_list",
+            "text_content": "List view",
+            "word_sequence": [
+                "List",
+                "view"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "63849b2d1be422c2461170c04fd9cba9543f36f75dbb95f8921801432db3d4fd",
+            "bounding_box": "{\"x1\": 723, \"y1\": 73, \"x2\": 849, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.documentsui:id/menu_sort",
+            "text_content": "Sort by",
+            "word_sequence": [
+                "Sort",
+                "by"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "63849b2d1be422c2461170c04fd9cba9543f36f75dbb95f8921801432db3d4fd",
+            "bounding_box": "{\"x1\": 849, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "63849b2d1be422c2461170c04fd9cba9543f36f75dbb95f8921801432db3d4fd",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "63849b2d1be422c2461170c04fd9cba9543f36f75dbb95f8921801432db3d4fd",
+            "bounding_box": "{\"x1\": 37, \"y1\": 247, \"x2\": 529, \"y2\": 881}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.android.documentsui:id/icon_thumb",
+            "text_content": "",
+            "word_sequence": [
+                "icon",
+                "thumb"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "63849b2d1be422c2461170c04fd9cba9543f36f75dbb95f8921801432db3d4fd",
+            "bounding_box": "{\"x1\": 37, \"y1\": 247, \"x2\": 529, \"y2\": 739}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.android.documentsui:id/icon_mime_lg",
+            "text_content": "",
+            "word_sequence": [
+                "icon",
+                "mime",
+                "lg"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "63849b2d1be422c2461170c04fd9cba9543f36f75dbb95f8921801432db3d4fd",
+            "bounding_box": "{\"x1\": 230, \"y1\": 440, \"x2\": 335, \"y2\": 545}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.android.documentsui:id/icon_mime_sm",
+            "text_content": "",
+            "word_sequence": [
+                "icon",
+                "mime",
+                "sm"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "63849b2d1be422c2461170c04fd9cba9543f36f75dbb95f8921801432db3d4fd",
+            "bounding_box": "{\"x1\": 69, \"y1\": 770, \"x2\": 148, \"y2\": 849}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/title",
+            "text_content": "screen.png",
+            "word_sequence": [
+                "screen",
+                ".",
+                "png"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "63849b2d1be422c2461170c04fd9cba9543f36f75dbb95f8921801432db3d4fd",
+            "bounding_box": "{\"x1\": 169, \"y1\": 760, \"x2\": 376, \"y2\": 817}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.android.documentsui:id/date",
+            "text_content": "9:33 AM",
+            "word_sequence": [
+                "9",
+                ":",
+                "33",
+                "AM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "63849b2d1be422c2461170c04fd9cba9543f36f75dbb95f8921801432db3d4fd",
+            "bounding_box": "{\"x1\": 169, \"y1\": 817, \"x2\": 288, \"y2\": 860}"
+        }
+    ],
+    "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Details",
+            "word_sequence": [
+                "Details"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 322, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.inaturalist.android:id/save_observation",
+            "text_content": "",
+            "word_sequence": [
+                "save",
+                "observation"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 953, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 73, \"y1\": 262, \"x2\": 141, \"y2\": 330}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.inaturalist.android:id/observation_photo",
+            "text_content": "",
+            "word_sequence": [
+                "observation",
+                "photo"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 199, \"y1\": 231, \"x2\": 330, \"y2\": 362}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.inaturalist.android:id/is_first_on",
+            "text_content": "",
+            "word_sequence": [
+                "is",
+                "first",
+                "on"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 199, \"y1\": 380, \"x2\": 252, \"y2\": 428}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.inaturalist.android:id/is_first_text",
+            "text_content": "1st",
+            "word_sequence": [
+                "1st"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 265, \"y1\": 380, \"x2\": 317, \"y2\": 428}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.inaturalist.android:id/dummy_focus",
+            "text_content": "",
+            "word_sequence": [
+                "dummy",
+                "focus"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 0, \"y1\": 449, \"x2\": 3, \"y2\": 452}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.inaturalist.android:id/species_guess_icon",
+            "text_content": "",
+            "word_sequence": [
+                "species",
+                "guess",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 42, \"y1\": 489, \"x2\": 126, \"y2\": 573}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.inaturalist.android:id/speciesGuess",
+            "text_content": "Species name",
+            "word_sequence": [
+                "Species",
+                "name"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 168, \"y1\": 468, \"x2\": 1038, \"y2\": 589}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 168, \"y1\": 610, \"x2\": 1080, \"y2\": 613}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "org.inaturalist.android:id/help_id_icon",
+            "text_content": "",
+            "word_sequence": [
+                "help",
+                "id",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 42, \"y1\": 650, \"x2\": 126, \"y2\": 734}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "",
+            "text_content": "Help me identify this",
+            "word_sequence": [
+                "Help",
+                "me",
+                "identify",
+                "this"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 168, \"y1\": 663, \"x2\": 916, \"y2\": 720}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "org.inaturalist.android:id/id_please",
+            "text_content": "OFF",
+            "word_sequence": [
+                "OFF"
+            ],
+            "type": "SWITCH",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 916, \"y1\": 656, \"x2\": 1038, \"y2\": 727}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 168, \"y1\": 771, \"x2\": 1080, \"y2\": 774}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "org.inaturalist.android:id/notes_icon",
+            "text_content": "",
+            "word_sequence": [
+                "notes",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 42, \"y1\": 818, \"x2\": 126, \"y2\": 902}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "org.inaturalist.android:id/description",
+            "text_content": "Notes",
+            "word_sequence": [
+                "Notes"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 168, \"y1\": 795, \"x2\": 1038, \"y2\": 926}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 168, \"y1\": 947, \"x2\": 1080, \"y2\": 950}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "org.inaturalist.android:id/time_icon",
+            "text_content": "",
+            "word_sequence": [
+                "time",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 42, \"y1\": 987, \"x2\": 126, \"y2\": 1071}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "org.inaturalist.android:id/observed_on",
+            "text_content": "Jan 17, 2023",
+            "word_sequence": [
+                "Jan",
+                "17",
+                ",",
+                "2023"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1000, \"x2\": 409, \"y2\": 1057}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "org.inaturalist.android:id/time_observed_at",
+            "text_content": "9:33 AM EST",
+            "word_sequence": [
+                "9",
+                ":",
+                "33",
+                "AM",
+                "EST"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 798, \"y1\": 1000, \"x2\": 1038, \"y2\": 1057}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1108, \"x2\": 1080, \"y2\": 1111}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "org.inaturalist.android:id/location_icon",
+            "text_content": "",
+            "word_sequence": [
+                "location",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1148, \"x2\": 126, \"y2\": 1232}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "org.inaturalist.android:id/location_guess",
+            "text_content": "Location",
+            "word_sequence": [
+                "Location"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1140, \"x2\": 331, \"y2\": 1197}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "",
+            "text_content": "Lat:",
+            "word_sequence": [
+                "Lat",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1197, \"x2\": 220, \"y2\": 1240}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "org.inaturalist.android:id/latitude",
+            "text_content": "37.421998333333335",
+            "word_sequence": [
+                "37",
+                ".",
+                "421998333333335"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 225, \"y1\": 1197, \"x2\": 435, \"y2\": 1240}"
+        },
+        {
+            "component_id": 26,
+            "resource_id": "",
+            "text_content": "Lon:",
+            "word_sequence": [
+                "Lon",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 446, \"y1\": 1197, \"x2\": 507, \"y2\": 1240}"
+        },
+        {
+            "component_id": 27,
+            "resource_id": "org.inaturalist.android:id/longitude",
+            "text_content": "-122.08400000000002",
+            "word_sequence": [
+                "122",
+                ".",
+                "08400000000002"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 518, \"y1\": 1197, \"x2\": 728, \"y2\": 1240}"
+        },
+        {
+            "component_id": 28,
+            "resource_id": "org.inaturalist.android:id/accuracy_prefix",
+            "text_content": "Acc.",
+            "word_sequence": [
+                "Acc",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 739, \"y1\": 1197, \"x2\": 802, \"y2\": 1240}"
+        },
+        {
+            "component_id": 29,
+            "resource_id": "org.inaturalist.android:id/accuracy",
+            "text_content": "20",
+            "word_sequence": [
+                "20"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 807, \"y1\": 1197, \"x2\": 843, \"y2\": 1240}"
+        },
+        {
+            "component_id": 30,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1269, \"x2\": 1080, \"y2\": 1272}"
+        },
+        {
+            "component_id": 31,
+            "resource_id": "org.inaturalist.android:id/location_visibility_icon",
+            "text_content": "",
+            "word_sequence": [
+                "location",
+                "visibility",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1309, \"x2\": 126, \"y2\": 1393}"
+        },
+        {
+            "component_id": 32,
+            "resource_id": "org.inaturalist.android:id/location_visibility_description",
+            "text_content": "Location is Open",
+            "word_sequence": [
+                "Location",
+                "is",
+                "Open"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1322, \"x2\": 481, \"y2\": 1379}"
+        },
+        {
+            "component_id": 33,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1430, \"x2\": 1080, \"y2\": 1433}"
+        },
+        {
+            "component_id": 34,
+            "resource_id": "org.inaturalist.android:id/is_captive_icon",
+            "text_content": "",
+            "word_sequence": [
+                "is",
+                "captive",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1470, \"x2\": 126, \"y2\": 1554}"
+        },
+        {
+            "component_id": 35,
+            "resource_id": "org.inaturalist.android:id/is_captive",
+            "text_content": "It is captive or cultivated",
+            "word_sequence": [
+                "It",
+                "is",
+                "captive",
+                "or",
+                "cultivated"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1483, \"x2\": 620, \"y2\": 1540}"
+        },
+        {
+            "component_id": 36,
+            "resource_id": "org.inaturalist.android:id/is_captive_off_icon",
+            "text_content": "",
+            "word_sequence": [
+                "is",
+                "captive",
+                "off",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 985, \"y1\": 1485, \"x2\": 1038, \"y2\": 1538}"
+        },
+        {
+            "component_id": 37,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1591, \"x2\": 1080, \"y2\": 1594}"
+        },
+        {
+            "component_id": 38,
+            "resource_id": "org.inaturalist.android:id/projects_icon",
+            "text_content": "",
+            "word_sequence": [
+                "projects",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1631, \"x2\": 126, \"y2\": 1715}"
+        },
+        {
+            "component_id": 39,
+            "resource_id": "org.inaturalist.android:id/select_projects",
+            "text_content": "Add to project(s)",
+            "word_sequence": [
+                "Add",
+                "to",
+                "project",
+                "s"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1644, \"x2\": 993, \"y2\": 1701}"
+        },
+        {
+            "component_id": 40,
+            "resource_id": "org.inaturalist.android:id/project_count",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 993, \"y1\": 1644, \"x2\": 1017, \"y2\": 1701}"
+        },
+        {
+            "component_id": 41,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "fcde2d1dd829ff0bed7b1a76fe9015748a430de7f52c57ca5e4f0276691114d2",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1752, \"x2\": 1080, \"y2\": 1755}"
+        }
+    ],
+    "0168c632f4a025d7984edf3eb7431ac08c5b4fd4121f2dccc10ae13ab8216412": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "0168c632f4a025d7984edf3eb7431ac08c5b4fd4121f2dccc10ae13ab8216412",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "My Observations",
+            "word_sequence": [
+                "My",
+                "Observations"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "0168c632f4a025d7984edf3eb7431ac08c5b4fd4121f2dccc10ae13ab8216412",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 557, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.inaturalist.android:id/image",
+            "text_content": "",
+            "word_sequence": [
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "0168c632f4a025d7984edf3eb7431ac08c5b4fd4121f2dccc10ae13ab8216412",
+            "bounding_box": "{\"x1\": 13, \"y1\": 239, \"x2\": 210, \"y2\": 436}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.inaturalist.android:id/speciesGuess",
+            "text_content": "Unknown species",
+            "word_sequence": [
+                "Unknown",
+                "species"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "0168c632f4a025d7984edf3eb7431ac08c5b4fd4121f2dccc10ae13ab8216412",
+            "bounding_box": "{\"x1\": 223, \"y1\": 274, \"x2\": 641, \"y2\": 350}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.inaturalist.android:id/subContent",
+            "text_content": "Waiting to upload...",
+            "word_sequence": [
+                "Waiting",
+                "to",
+                "upload",
+                ".",
+                ".",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "0168c632f4a025d7984edf3eb7431ac08c5b4fd4121f2dccc10ae13ab8216412",
+            "bounding_box": "{\"x1\": 223, \"y1\": 350, \"x2\": 590, \"y2\": 401}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.inaturalist.android:id/dateObserved",
+            "text_content": "1/17/2023",
+            "word_sequence": [
+                "1",
+                "/",
+                "17",
+                "/",
+                "2023"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "0168c632f4a025d7984edf3eb7431ac08c5b4fd4121f2dccc10ae13ab8216412",
+            "bounding_box": "{\"x1\": 893, \"y1\": 278, \"x2\": 1054, \"y2\": 324}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.inaturalist.android:id/syncRequired",
+            "text_content": "",
+            "word_sequence": [
+                "sync",
+                "Required"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "0168c632f4a025d7984edf3eb7431ac08c5b4fd4121f2dccc10ae13ab8216412",
+            "bounding_box": "{\"x1\": 914, \"y1\": 343, \"x2\": 974, \"y2\": 403}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.inaturalist.android:id/add_observation",
+            "text_content": "",
+            "word_sequence": [
+                "add",
+                "observation"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "0168c632f4a025d7984edf3eb7431ac08c5b4fd4121f2dccc10ae13ab8216412",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Details",
+            "word_sequence": [
+                "Details"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 322, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.inaturalist.android:id/save_observation",
+            "text_content": "",
+            "word_sequence": [
+                "save",
+                "observation"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 953, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 73, \"y1\": 262, \"x2\": 141, \"y2\": 330}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.inaturalist.android:id/gallery",
+            "text_content": "",
+            "word_sequence": [
+                "gallery"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 199, \"y1\": 231, \"x2\": 1038, \"y2\": 428}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.inaturalist.android:id/dummy_focus",
+            "text_content": "",
+            "word_sequence": [
+                "dummy",
+                "focus"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 0, \"y1\": 449, \"x2\": 3, \"y2\": 452}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.inaturalist.android:id/species_guess_icon",
+            "text_content": "",
+            "word_sequence": [
+                "species",
+                "guess",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 42, \"y1\": 489, \"x2\": 126, \"y2\": 573}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.inaturalist.android:id/speciesGuess",
+            "text_content": "Species name",
+            "word_sequence": [
+                "Species",
+                "name"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 168, \"y1\": 468, \"x2\": 1038, \"y2\": 589}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 168, \"y1\": 610, \"x2\": 1080, \"y2\": 613}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.inaturalist.android:id/help_id_icon",
+            "text_content": "",
+            "word_sequence": [
+                "help",
+                "id",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 42, \"y1\": 650, \"x2\": 126, \"y2\": 734}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "Help me identify this",
+            "word_sequence": [
+                "Help",
+                "me",
+                "identify",
+                "this"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 168, \"y1\": 663, \"x2\": 916, \"y2\": 720}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "org.inaturalist.android:id/id_please",
+            "text_content": "OFF",
+            "word_sequence": [
+                "OFF"
+            ],
+            "type": "SWITCH",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 916, \"y1\": 656, \"x2\": 1038, \"y2\": 727}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 168, \"y1\": 771, \"x2\": 1080, \"y2\": 774}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "org.inaturalist.android:id/notes_icon",
+            "text_content": "",
+            "word_sequence": [
+                "notes",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 42, \"y1\": 818, \"x2\": 126, \"y2\": 902}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "org.inaturalist.android:id/description",
+            "text_content": "Notes",
+            "word_sequence": [
+                "Notes"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 168, \"y1\": 795, \"x2\": 1038, \"y2\": 926}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 168, \"y1\": 947, \"x2\": 1080, \"y2\": 950}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "org.inaturalist.android:id/time_icon",
+            "text_content": "",
+            "word_sequence": [
+                "time",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 42, \"y1\": 987, \"x2\": 126, \"y2\": 1071}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "org.inaturalist.android:id/observed_on",
+            "text_content": "Jan 17, 2023",
+            "word_sequence": [
+                "Jan",
+                "17",
+                ",",
+                "2023"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1000, \"x2\": 409, \"y2\": 1057}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "org.inaturalist.android:id/time_observed_at",
+            "text_content": "9:34 AM EST",
+            "word_sequence": [
+                "9",
+                ":",
+                "34",
+                "AM",
+                "EST"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 798, \"y1\": 1000, \"x2\": 1038, \"y2\": 1057}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1108, \"x2\": 1080, \"y2\": 1111}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "org.inaturalist.android:id/location_icon",
+            "text_content": "",
+            "word_sequence": [
+                "location",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1148, \"x2\": 126, \"y2\": 1232}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "org.inaturalist.android:id/location_guess",
+            "text_content": "Location",
+            "word_sequence": [
+                "Location"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1140, \"x2\": 331, \"y2\": 1197}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "",
+            "text_content": "Lat:",
+            "word_sequence": [
+                "Lat",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1197, \"x2\": 220, \"y2\": 1240}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "org.inaturalist.android:id/latitude",
+            "text_content": "37.421998333333335",
+            "word_sequence": [
+                "37",
+                ".",
+                "421998333333335"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 225, \"y1\": 1197, \"x2\": 435, \"y2\": 1240}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "",
+            "text_content": "Lon:",
+            "word_sequence": [
+                "Lon",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 446, \"y1\": 1197, \"x2\": 507, \"y2\": 1240}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "org.inaturalist.android:id/longitude",
+            "text_content": "-122.08400000000002",
+            "word_sequence": [
+                "122",
+                ".",
+                "08400000000002"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 518, \"y1\": 1197, \"x2\": 728, \"y2\": 1240}"
+        },
+        {
+            "component_id": 26,
+            "resource_id": "org.inaturalist.android:id/accuracy_prefix",
+            "text_content": "Acc.",
+            "word_sequence": [
+                "Acc",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 739, \"y1\": 1197, \"x2\": 802, \"y2\": 1240}"
+        },
+        {
+            "component_id": 27,
+            "resource_id": "org.inaturalist.android:id/accuracy",
+            "text_content": "20.0",
+            "word_sequence": [
+                "20",
+                ".",
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 807, \"y1\": 1197, \"x2\": 869, \"y2\": 1240}"
+        },
+        {
+            "component_id": 28,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1269, \"x2\": 1080, \"y2\": 1272}"
+        },
+        {
+            "component_id": 29,
+            "resource_id": "org.inaturalist.android:id/location_visibility_icon",
+            "text_content": "",
+            "word_sequence": [
+                "location",
+                "visibility",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1309, \"x2\": 126, \"y2\": 1393}"
+        },
+        {
+            "component_id": 30,
+            "resource_id": "org.inaturalist.android:id/location_visibility_description",
+            "text_content": "Location is Open",
+            "word_sequence": [
+                "Location",
+                "is",
+                "Open"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1322, \"x2\": 481, \"y2\": 1379}"
+        },
+        {
+            "component_id": 31,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1430, \"x2\": 1080, \"y2\": 1433}"
+        },
+        {
+            "component_id": 32,
+            "resource_id": "org.inaturalist.android:id/is_captive_icon",
+            "text_content": "",
+            "word_sequence": [
+                "is",
+                "captive",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1470, \"x2\": 126, \"y2\": 1554}"
+        },
+        {
+            "component_id": 33,
+            "resource_id": "org.inaturalist.android:id/is_captive",
+            "text_content": "It is captive or cultivated",
+            "word_sequence": [
+                "It",
+                "is",
+                "captive",
+                "or",
+                "cultivated"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1483, \"x2\": 620, \"y2\": 1540}"
+        },
+        {
+            "component_id": 34,
+            "resource_id": "org.inaturalist.android:id/is_captive_off_icon",
+            "text_content": "",
+            "word_sequence": [
+                "is",
+                "captive",
+                "off",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 985, \"y1\": 1485, \"x2\": 1038, \"y2\": 1538}"
+        },
+        {
+            "component_id": 35,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1591, \"x2\": 1080, \"y2\": 1594}"
+        },
+        {
+            "component_id": 36,
+            "resource_id": "org.inaturalist.android:id/projects_icon",
+            "text_content": "",
+            "word_sequence": [
+                "projects",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1631, \"x2\": 126, \"y2\": 1715}"
+        },
+        {
+            "component_id": 37,
+            "resource_id": "org.inaturalist.android:id/select_projects",
+            "text_content": "Add to project(s)",
+            "word_sequence": [
+                "Add",
+                "to",
+                "project",
+                "s"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1644, \"x2\": 1038, \"y2\": 1701}"
+        },
+        {
+            "component_id": 38,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "ef52782850afe83f9ef4266d58755f7dd4f8b477764892d772dbf5fa7d7afd22",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1752, \"x2\": 1080, \"y2\": 1755}"
+        }
+    ],
+    "3777be9509c853e63b70ff749cacba34117bb6c2584ab8146b4215f36f7520a5": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "3777be9509c853e63b70ff749cacba34117bb6c2584ab8146b4215f36f7520a5",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "My Observations",
+            "word_sequence": [
+                "My",
+                "Observations"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "3777be9509c853e63b70ff749cacba34117bb6c2584ab8146b4215f36f7520a5",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 557, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.inaturalist.android:id/image",
+            "text_content": "",
+            "word_sequence": [
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "3777be9509c853e63b70ff749cacba34117bb6c2584ab8146b4215f36f7520a5",
+            "bounding_box": "{\"x1\": 13, \"y1\": 239, \"x2\": 210, \"y2\": 436}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.inaturalist.android:id/speciesGuess",
+            "text_content": "Unknown species",
+            "word_sequence": [
+                "Unknown",
+                "species"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "3777be9509c853e63b70ff749cacba34117bb6c2584ab8146b4215f36f7520a5",
+            "bounding_box": "{\"x1\": 223, \"y1\": 274, \"x2\": 641, \"y2\": 350}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.inaturalist.android:id/subContent",
+            "text_content": "Waiting to upload...",
+            "word_sequence": [
+                "Waiting",
+                "to",
+                "upload",
+                ".",
+                ".",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "3777be9509c853e63b70ff749cacba34117bb6c2584ab8146b4215f36f7520a5",
+            "bounding_box": "{\"x1\": 223, \"y1\": 350, \"x2\": 590, \"y2\": 401}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.inaturalist.android:id/dateObserved",
+            "text_content": "1/17/2023",
+            "word_sequence": [
+                "1",
+                "/",
+                "17",
+                "/",
+                "2023"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "3777be9509c853e63b70ff749cacba34117bb6c2584ab8146b4215f36f7520a5",
+            "bounding_box": "{\"x1\": 893, \"y1\": 278, \"x2\": 1054, \"y2\": 324}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.inaturalist.android:id/syncRequired",
+            "text_content": "",
+            "word_sequence": [
+                "sync",
+                "Required"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "3777be9509c853e63b70ff749cacba34117bb6c2584ab8146b4215f36f7520a5",
+            "bounding_box": "{\"x1\": 914, \"y1\": 343, \"x2\": 974, \"y2\": 403}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.inaturalist.android:id/image",
+            "text_content": "",
+            "word_sequence": [
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "3777be9509c853e63b70ff749cacba34117bb6c2584ab8146b4215f36f7520a5",
+            "bounding_box": "{\"x1\": 13, \"y1\": 491, \"x2\": 210, \"y2\": 688}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.inaturalist.android:id/speciesGuess",
+            "text_content": "Unknown species",
+            "word_sequence": [
+                "Unknown",
+                "species"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "3777be9509c853e63b70ff749cacba34117bb6c2584ab8146b4215f36f7520a5",
+            "bounding_box": "{\"x1\": 223, \"y1\": 526, \"x2\": 641, \"y2\": 602}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.inaturalist.android:id/subContent",
+            "text_content": "Waiting to upload...",
+            "word_sequence": [
+                "Waiting",
+                "to",
+                "upload",
+                ".",
+                ".",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "3777be9509c853e63b70ff749cacba34117bb6c2584ab8146b4215f36f7520a5",
+            "bounding_box": "{\"x1\": 223, \"y1\": 602, \"x2\": 590, \"y2\": 653}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.inaturalist.android:id/dateObserved",
+            "text_content": "1/17/2023",
+            "word_sequence": [
+                "1",
+                "/",
+                "17",
+                "/",
+                "2023"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "3777be9509c853e63b70ff749cacba34117bb6c2584ab8146b4215f36f7520a5",
+            "bounding_box": "{\"x1\": 893, \"y1\": 530, \"x2\": 1054, \"y2\": 576}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "org.inaturalist.android:id/syncRequired",
+            "text_content": "",
+            "word_sequence": [
+                "sync",
+                "Required"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "3777be9509c853e63b70ff749cacba34117bb6c2584ab8146b4215f36f7520a5",
+            "bounding_box": "{\"x1\": 914, \"y1\": 595, \"x2\": 974, \"y2\": 655}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "org.inaturalist.android:id/add_observation",
+            "text_content": "",
+            "word_sequence": [
+                "add",
+                "observation"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "3777be9509c853e63b70ff749cacba34117bb6c2584ab8146b4215f36f7520a5",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "My Observations",
+            "word_sequence": [
+                "My",
+                "Observations"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 557, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.inaturalist.android:id/image",
+            "text_content": "",
+            "word_sequence": [
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 13, \"y1\": 239, \"x2\": 210, \"y2\": 436}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.inaturalist.android:id/speciesGuess",
+            "text_content": "Unknown species",
+            "word_sequence": [
+                "Unknown",
+                "species"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 223, \"y1\": 274, \"x2\": 641, \"y2\": 350}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.inaturalist.android:id/subContent",
+            "text_content": "Waiting to upload...",
+            "word_sequence": [
+                "Waiting",
+                "to",
+                "upload",
+                ".",
+                ".",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 223, \"y1\": 350, \"x2\": 590, \"y2\": 401}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.inaturalist.android:id/dateObserved",
+            "text_content": "1/17/2023",
+            "word_sequence": [
+                "1",
+                "/",
+                "17",
+                "/",
+                "2023"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 893, \"y1\": 278, \"x2\": 1054, \"y2\": 324}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.inaturalist.android:id/syncRequired",
+            "text_content": "",
+            "word_sequence": [
+                "sync",
+                "Required"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 914, \"y1\": 343, \"x2\": 974, \"y2\": 403}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.inaturalist.android:id/image",
+            "text_content": "",
+            "word_sequence": [
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 13, \"y1\": 491, \"x2\": 210, \"y2\": 688}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.inaturalist.android:id/speciesGuess",
+            "text_content": "Unknown species",
+            "word_sequence": [
+                "Unknown",
+                "species"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 223, \"y1\": 526, \"x2\": 641, \"y2\": 602}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.inaturalist.android:id/subContent",
+            "text_content": "Waiting to upload...",
+            "word_sequence": [
+                "Waiting",
+                "to",
+                "upload",
+                ".",
+                ".",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 223, \"y1\": 602, \"x2\": 590, \"y2\": 653}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.inaturalist.android:id/dateObserved",
+            "text_content": "1/17/2023",
+            "word_sequence": [
+                "1",
+                "/",
+                "17",
+                "/",
+                "2023"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 893, \"y1\": 530, \"x2\": 1054, \"y2\": 576}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "org.inaturalist.android:id/syncRequired",
+            "text_content": "",
+            "word_sequence": [
+                "sync",
+                "Required"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 914, \"y1\": 595, \"x2\": 974, \"y2\": 655}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "org.inaturalist.android:id/add_observation",
+            "text_content": "",
+            "word_sequence": [
+                "add",
+                "observation"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "org.inaturalist.android:id/no_user_pic",
+            "text_content": "",
+            "word_sequence": [
+                "no",
+                "user",
+                "pic"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 68, \"y1\": 143, \"x2\": 173, \"y2\": 248}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "org.inaturalist.android:id/menu_login",
+            "text_content": "Log In / Sign Up",
+            "word_sequence": [
+                "Log",
+                "In",
+                "/",
+                "Sign",
+                "Up"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 247, \"y1\": 123, \"x2\": 635, \"y2\": 189}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "org.inaturalist.android:id/observation_count",
+            "text_content": "2 OBSERVATIONS",
+            "word_sequence": [
+                "2",
+                "OBSERVATIONS"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 247, \"y1\": 216, \"x2\": 541, \"y2\": 288}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "org.inaturalist.android:id/right_arrow",
+            "text_content": "",
+            "word_sequence": [
+                "right",
+                "arrow"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 661, \"y1\": 210, \"x2\": 724, \"y2\": 273}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "org.inaturalist.android:id/menu_explore_icon",
+            "text_content": "",
+            "word_sequence": [
+                "menu",
+                "explore",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 44, \"y1\": 377, \"x2\": 107, \"y2\": 440}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "",
+            "text_content": "Explore",
+            "word_sequence": [
+                "Explore"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 186, \"y1\": 380, \"x2\": 325, \"y2\": 437}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "org.inaturalist.android:id/menu_projects_icon",
+            "text_content": "",
+            "word_sequence": [
+                "menu",
+                "projects",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 44, \"y1\": 535, \"x2\": 107, \"y2\": 598}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "",
+            "text_content": "Projects",
+            "word_sequence": [
+                "Projects"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 186, \"y1\": 538, \"x2\": 340, \"y2\": 595}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "org.inaturalist.android:id/menu_guides_icon",
+            "text_content": "",
+            "word_sequence": [
+                "menu",
+                "guides",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 44, \"y1\": 693, \"x2\": 107, \"y2\": 756}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "",
+            "text_content": "Guides",
+            "word_sequence": [
+                "Guides"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 186, \"y1\": 696, \"x2\": 316, \"y2\": 753}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "org.inaturalist.android:id/menu_activity_icon",
+            "text_content": "",
+            "word_sequence": [
+                "menu",
+                "activity",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 44, \"y1\": 851, \"x2\": 107, \"y2\": 914}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "",
+            "text_content": "Activity",
+            "word_sequence": [
+                "Activity"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 186, \"y1\": 854, \"x2\": 323, \"y2\": 911}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 0, \"y1\": 962, \"x2\": 761, \"y2\": 965}"
+        },
+        {
+            "component_id": 26,
+            "resource_id": "org.inaturalist.android:id/menu_settings_icon",
+            "text_content": "",
+            "word_sequence": [
+                "menu",
+                "settings",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 44, \"y1\": 1012, \"x2\": 107, \"y2\": 1075}"
+        },
+        {
+            "component_id": 27,
+            "resource_id": "",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "c7df02ed9aefc9e9fab42d16a21b746458e0be32d09167233a52b0de7e1b9c8b",
+            "bounding_box": "{\"x1\": 186, \"y1\": 1015, \"x2\": 340, \"y2\": 1072}"
+        }
+    ],
+    "7710fef076794100a84c5824bce5a89db1669db7f375756bc47fcccac1b8f1e7": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "7710fef076794100a84c5824bce5a89db1669db7f375756bc47fcccac1b8f1e7",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Explore",
+            "word_sequence": [
+                "Explore"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "7710fef076794100a84c5824bce5a89db1669db7f375756bc47fcccac1b8f1e7",
+            "bounding_box": "{\"x1\": 147, \"y1\": 105, \"x2\": 302, \"y2\": 168}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.inaturalist.android:id/refresh",
+            "text_content": "",
+            "word_sequence": [
+                "refresh"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "7710fef076794100a84c5824bce5a89db1669db7f375756bc47fcccac1b8f1e7",
+            "bounding_box": "{\"x1\": 771, \"y1\": 81, \"x2\": 881, \"y2\": 191}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.inaturalist.android:id/search",
+            "text_content": "",
+            "word_sequence": [
+                "search"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "7710fef076794100a84c5824bce5a89db1669db7f375756bc47fcccac1b8f1e7",
+            "bounding_box": "{\"x1\": 907, \"y1\": 94, \"x2\": 1017, \"y2\": 178}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "7710fef076794100a84c5824bce5a89db1669db7f375756bc47fcccac1b8f1e7",
+            "bounding_box": "{\"x1\": 148, \"y1\": 252, \"x2\": 211, \"y2\": 315}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "7710fef076794100a84c5824bce5a89db1669db7f375756bc47fcccac1b8f1e7",
+            "bounding_box": "{\"x1\": 508, \"y1\": 252, \"x2\": 571, \"y2\": 315}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "7710fef076794100a84c5824bce5a89db1669db7f375756bc47fcccac1b8f1e7",
+            "bounding_box": "{\"x1\": 868, \"y1\": 252, \"x2\": 931, \"y2\": 315}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "Google Map",
+            "word_sequence": [
+                "Google",
+                "Map"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "7710fef076794100a84c5824bce5a89db1669db7f375756bc47fcccac1b8f1e7",
+            "bounding_box": "{\"x1\": 0, \"y1\": 357, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "7710fef076794100a84c5824bce5a89db1669db7f375756bc47fcccac1b8f1e7",
+            "bounding_box": "{\"x1\": 13, \"y1\": 1724, \"x2\": 170, \"y2\": 1781}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "My Location",
+            "word_sequence": [
+                "My",
+                "Location"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "7710fef076794100a84c5824bce5a89db1669db7f375756bc47fcccac1b8f1e7",
+            "bounding_box": "{\"x1\": 944, \"y1\": 383, \"x2\": 1054, \"y2\": 493}"
+        }
+    ],
+    "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Explore",
+            "word_sequence": [
+                "Explore"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 147, \"y1\": 105, \"x2\": 302, \"y2\": 168}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.inaturalist.android:id/refresh",
+            "text_content": "",
+            "word_sequence": [
+                "refresh"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 771, \"y1\": 81, \"x2\": 881, \"y2\": 191}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.inaturalist.android:id/search",
+            "text_content": "",
+            "word_sequence": [
+                "search"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 907, \"y1\": 94, \"x2\": 1017, \"y2\": 178}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 148, \"y1\": 252, \"x2\": 211, \"y2\": 315}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 508, \"y1\": 252, \"x2\": 571, \"y2\": 315}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 868, \"y1\": 252, \"x2\": 931, \"y2\": 315}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "Google Map",
+            "word_sequence": [
+                "Google",
+                "Map"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 0, \"y1\": 357, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 13, \"y1\": 1724, \"x2\": 170, \"y2\": 1781}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "My Location",
+            "word_sequence": [
+                "My",
+                "Location"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 944, \"y1\": 383, \"x2\": 1054, \"y2\": 493}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.inaturalist.android:id/no_user_pic",
+            "text_content": "",
+            "word_sequence": [
+                "no",
+                "user",
+                "pic"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 68, \"y1\": 143, \"x2\": 173, \"y2\": 248}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "org.inaturalist.android:id/menu_login",
+            "text_content": "Log In / Sign Up",
+            "word_sequence": [
+                "Log",
+                "In",
+                "/",
+                "Sign",
+                "Up"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 247, \"y1\": 123, \"x2\": 635, \"y2\": 189}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "org.inaturalist.android:id/observation_count",
+            "text_content": "2 OBSERVATIONS",
+            "word_sequence": [
+                "2",
+                "OBSERVATIONS"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 247, \"y1\": 216, \"x2\": 541, \"y2\": 288}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "org.inaturalist.android:id/right_arrow",
+            "text_content": "",
+            "word_sequence": [
+                "right",
+                "arrow"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 661, \"y1\": 210, \"x2\": 724, \"y2\": 273}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "org.inaturalist.android:id/menu_explore_icon",
+            "text_content": "",
+            "word_sequence": [
+                "menu",
+                "explore",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 44, \"y1\": 377, \"x2\": 107, \"y2\": 440}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "",
+            "text_content": "Explore",
+            "word_sequence": [
+                "Explore"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 186, \"y1\": 380, \"x2\": 325, \"y2\": 437}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "org.inaturalist.android:id/menu_projects_icon",
+            "text_content": "",
+            "word_sequence": [
+                "menu",
+                "projects",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 44, \"y1\": 535, \"x2\": 107, \"y2\": 598}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "",
+            "text_content": "Projects",
+            "word_sequence": [
+                "Projects"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 186, \"y1\": 538, \"x2\": 340, \"y2\": 595}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "org.inaturalist.android:id/menu_guides_icon",
+            "text_content": "",
+            "word_sequence": [
+                "menu",
+                "guides",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 44, \"y1\": 693, \"x2\": 107, \"y2\": 756}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "",
+            "text_content": "Guides",
+            "word_sequence": [
+                "Guides"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 186, \"y1\": 696, \"x2\": 316, \"y2\": 753}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "org.inaturalist.android:id/menu_activity_icon",
+            "text_content": "",
+            "word_sequence": [
+                "menu",
+                "activity",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 44, \"y1\": 851, \"x2\": 107, \"y2\": 914}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "",
+            "text_content": "Activity",
+            "word_sequence": [
+                "Activity"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 186, \"y1\": 854, \"x2\": 323, \"y2\": 911}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 0, \"y1\": 962, \"x2\": 761, \"y2\": 965}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "org.inaturalist.android:id/menu_settings_icon",
+            "text_content": "",
+            "word_sequence": [
+                "menu",
+                "settings",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 44, \"y1\": 1012, \"x2\": 107, \"y2\": 1075}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "859d4212679fa17f55dbf3cc9af1ae114f1b190773fab4b42cf96d8a141bde0b",
+            "bounding_box": "{\"x1\": 186, \"y1\": 1015, \"x2\": 340, \"y2\": 1072}"
+        }
+    ],
+    "542296f0f1bdba99dbb4f4d226e656fbced37e19956cd79632355f15be6c74c1": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "542296f0f1bdba99dbb4f4d226e656fbced37e19956cd79632355f15be6c74c1",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Projects",
+            "word_sequence": [
+                "Projects"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "542296f0f1bdba99dbb4f4d226e656fbced37e19956cd79632355f15be6c74c1",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 353, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.inaturalist.android:id/search",
+            "text_content": "",
+            "word_sequence": [
+                "search"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "542296f0f1bdba99dbb4f4d226e656fbced37e19956cd79632355f15be6c74c1",
+            "bounding_box": "{\"x1\": 953, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.inaturalist.android:id/tab_title",
+            "text_content": "JOINED",
+            "word_sequence": [
+                "JOINED"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "542296f0f1bdba99dbb4f4d226e656fbced37e19956cd79632355f15be6c74c1",
+            "bounding_box": "{\"x1\": 117, \"y1\": 239, \"x2\": 243, \"y2\": 290}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.inaturalist.android:id/bottom_line",
+            "text_content": "",
+            "word_sequence": [
+                "bottom",
+                "line"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "542296f0f1bdba99dbb4f4d226e656fbced37e19956cd79632355f15be6c74c1",
+            "bounding_box": "{\"x1\": 0, \"y1\": 312, \"x2\": 360, \"y2\": 320}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.inaturalist.android:id/tab_title",
+            "text_content": "NEARBY",
+            "word_sequence": [
+                "NEARBY"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "542296f0f1bdba99dbb4f4d226e656fbced37e19956cd79632355f15be6c74c1",
+            "bounding_box": "{\"x1\": 471, \"y1\": 239, \"x2\": 609, \"y2\": 290}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.inaturalist.android:id/tab_title",
+            "text_content": "FEATURED",
+            "word_sequence": [
+                "FEATURED"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "542296f0f1bdba99dbb4f4d226e656fbced37e19956cd79632355f15be6c74c1",
+            "bounding_box": "{\"x1\": 811, \"y1\": 239, \"x2\": 988, \"y2\": 290}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/list",
+            "text_content": "",
+            "word_sequence": [
+                "list"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "542296f0f1bdba99dbb4f4d226e656fbced37e19956cd79632355f15be6c74c1",
+            "bounding_box": "{\"x1\": 0, \"y1\": 320, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.inaturalist.android:id/progress",
+            "text_content": "",
+            "word_sequence": [
+                "progress"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "542296f0f1bdba99dbb4f4d226e656fbced37e19956cd79632355f15be6c74c1",
+            "bounding_box": "{\"x1\": 361, \"y1\": 878, \"x2\": 719, \"y2\": 1236}"
+        }
+    ],
+    "0be480566fd9244e83c1f87ccd788bb5bf716d340f7b52395ed850eed3b91f16": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "iNaturalist has stopped",
+            "word_sequence": [
+                "iNaturalist",
+                "has",
+                "stopped"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "0be480566fd9244e83c1f87ccd788bb5bf716d340f7b52395ed850eed3b91f16",
+            "bounding_box": "{\"x1\": 133, \"y1\": 823, \"x2\": 947, \"y2\": 894}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/aerr_restart",
+            "text_content": "Open app again",
+            "word_sequence": [
+                "Open",
+                "app",
+                "again"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "0be480566fd9244e83c1f87ccd788bb5bf716d340f7b52395ed850eed3b91f16",
+            "bounding_box": "{\"x1\": 70, \"y1\": 933, \"x2\": 1010, \"y2\": 1059}"
+        }
+    ],
+    "2f7d0f95db879f26f6ebafd24317b8df85860aaddca0a04ceaca55c089d5d598": [
+        {
+            "component_id": 0,
+            "resource_id": "org.inaturalist.android:id/background_image",
+            "text_content": "",
+            "word_sequence": [
+                "background",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "2f7d0f95db879f26f6ebafd24317b8df85860aaddca0a04ceaca55c089d5d598",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.inaturalist.android:id/back",
+            "text_content": "",
+            "word_sequence": [
+                "back"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "2f7d0f95db879f26f6ebafd24317b8df85860aaddca0a04ceaca55c089d5d598",
+            "bounding_box": "{\"x1\": 0, \"y1\": 96, \"x2\": 131, \"y2\": 159}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.inaturalist.android:id/action_bar_title",
+            "text_content": "Sign Up",
+            "word_sequence": [
+                "Sign",
+                "Up"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "2f7d0f95db879f26f6ebafd24317b8df85860aaddca0a04ceaca55c089d5d598",
+            "bounding_box": "{\"x1\": 441, \"y1\": 89, \"x2\": 639, \"y2\": 167}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.inaturalist.android:id/email_icon",
+            "text_content": "",
+            "word_sequence": [
+                "email",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "2f7d0f95db879f26f6ebafd24317b8df85860aaddca0a04ceaca55c089d5d598",
+            "bounding_box": "{\"x1\": 39, \"y1\": 299, \"x2\": 157, \"y2\": 362}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.inaturalist.android:id/email",
+            "text_content": "Email",
+            "word_sequence": [
+                "Email"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 200,
+            "screen_id": "2f7d0f95db879f26f6ebafd24317b8df85860aaddca0a04ceaca55c089d5d598",
+            "bounding_box": "{\"x1\": 157, \"y1\": 272, \"x2\": 1028, \"y2\": 390}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.inaturalist.android:id/password_icon",
+            "text_content": "",
+            "word_sequence": [
+                "password",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "2f7d0f95db879f26f6ebafd24317b8df85860aaddca0a04ceaca55c089d5d598",
+            "bounding_box": "{\"x1\": 39, \"y1\": 420, \"x2\": 157, \"y2\": 483}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.inaturalist.android:id/password",
+            "text_content": "Password",
+            "word_sequence": [
+                "Password"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 200,
+            "screen_id": "2f7d0f95db879f26f6ebafd24317b8df85860aaddca0a04ceaca55c089d5d598",
+            "bounding_box": "{\"x1\": 157, \"y1\": 393, \"x2\": 1028, \"y2\": 511}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.inaturalist.android:id/password_warning",
+            "text_content": "Min. 6 characters",
+            "word_sequence": [
+                "Min",
+                ".",
+                "6",
+                "characters"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "2f7d0f95db879f26f6ebafd24317b8df85860aaddca0a04ceaca55c089d5d598",
+            "bounding_box": "{\"x1\": 739, \"y1\": 426, \"x2\": 1023, \"y2\": 477}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.inaturalist.android:id/username_icon",
+            "text_content": "",
+            "word_sequence": [
+                "username",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "2f7d0f95db879f26f6ebafd24317b8df85860aaddca0a04ceaca55c089d5d598",
+            "bounding_box": "{\"x1\": 39, \"y1\": 541, \"x2\": 157, \"y2\": 604}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.inaturalist.android:id/username",
+            "text_content": "Username",
+            "word_sequence": [
+                "Username"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 200,
+            "screen_id": "2f7d0f95db879f26f6ebafd24317b8df85860aaddca0a04ceaca55c089d5d598",
+            "bounding_box": "{\"x1\": 157, \"y1\": 514, \"x2\": 1028, \"y2\": 632}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.inaturalist.android:id/checkbox",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 200,
+            "screen_id": "2f7d0f95db879f26f6ebafd24317b8df85860aaddca0a04ceaca55c089d5d598",
+            "bounding_box": "{\"x1\": 39, \"y1\": 679, \"x2\": 157, \"y2\": 742}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "org.inaturalist.android:id/checkbox_description",
+            "text_content": "Yes, license my content so scientists can use my data. Learn More",
+            "word_sequence": [
+                "Yes",
+                ",",
+                "license",
+                "my",
+                "content",
+                "so",
+                "scientists",
+                "can",
+                "use",
+                "my",
+                "data",
+                ".",
+                "Learn",
+                "More"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "2f7d0f95db879f26f6ebafd24317b8df85860aaddca0a04ceaca55c089d5d598",
+            "bounding_box": "{\"x1\": 157, \"y1\": 667, \"x2\": 1041, \"y2\": 753}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "org.inaturalist.android:id/sign_up",
+            "text_content": "Sign Up",
+            "word_sequence": [
+                "Sign",
+                "Up"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "2f7d0f95db879f26f6ebafd24317b8df85860aaddca0a04ceaca55c089d5d598",
+            "bounding_box": "{\"x1\": 39, \"y1\": 797, \"x2\": 1041, \"y2\": 902}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "org.inaturalist.android:id/terms",
+            "text_content": "By using iNaturalist you agree to the Terms of Service and Privacy Policy",
+            "word_sequence": [
+                "By",
+                "using",
+                "iNaturalist",
+                "you",
+                "agree",
+                "to",
+                "the",
+                "Terms",
+                "of",
+                "Service",
+                "and",
+                "Privacy",
+                "Policy"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "2f7d0f95db879f26f6ebafd24317b8df85860aaddca0a04ceaca55c089d5d598",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1663, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "618a4c30e2f2fae6edcba95eebdd499db663b95aea92e9fe9bb5f4f739291edf": [
+        {
+            "component_id": 0,
+            "resource_id": "org.inaturalist.android:id/title",
+            "text_content": "Email Address",
+            "word_sequence": [
+                "Email",
+                "Address"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 200,
+            "screen_id": "618a4c30e2f2fae6edcba95eebdd499db663b95aea92e9fe9bb5f4f739291edf",
+            "bounding_box": "{\"x1\": 70, \"y1\": 709, \"x2\": 1010, \"y2\": 893}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 200,
+            "screen_id": "618a4c30e2f2fae6edcba95eebdd499db663b95aea92e9fe9bb5f4f739291edf",
+            "bounding_box": "{\"x1\": 70, \"y1\": 893, \"x2\": 1010, \"y2\": 898}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "EDITTEXT",
+            "app_name": 200,
+            "screen_id": "618a4c30e2f2fae6edcba95eebdd499db663b95aea92e9fe9bb5f4f739291edf",
+            "bounding_box": "{\"x1\": 70, \"y1\": 898, \"x2\": 1010, \"y2\": 1000}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/button2",
+            "text_content": "CANCEL",
+            "word_sequence": [
+                "CANCEL"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "618a4c30e2f2fae6edcba95eebdd499db663b95aea92e9fe9bb5f4f739291edf",
+            "bounding_box": "{\"x1\": 608, \"y1\": 1011, \"x2\": 810, \"y2\": 1137}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/button1",
+            "text_content": "OK",
+            "word_sequence": [
+                "OK"
+            ],
+            "type": "BUTTON",
+            "app_name": 200,
+            "screen_id": "618a4c30e2f2fae6edcba95eebdd499db663b95aea92e9fe9bb5f4f739291edf",
+            "bounding_box": "{\"x1\": 810, \"y1\": 1011, \"x2\": 978, \"y2\": 1137}"
+        }
+    ]
+}

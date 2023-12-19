@@ -1,0 +1,3164 @@
+{
+    "app-name": 130,
+    "226b61ee05b607ffde5f28301b86b4af98bf571ce8a501fd7903adc482ac8b2b": [
+        {
+            "component_id": 0,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/mi_title",
+            "text_content": "Let's get started",
+            "word_sequence": [
+                "Let's",
+                "get",
+                "started"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "226b61ee05b607ffde5f28301b86b4af98bf571ce8a501fd7903adc482ac8b2b",
+            "bounding_box": "{\"x1\": 42, \"y1\": 660, \"x2\": 1038, \"y2\": 745}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/mi_description",
+            "text_content": "Welcome to andOTP, this wizard will guide you through the initial setup. Please pay attention and read carefully otherwise you could lose data! \n\nDon't worry, you can still change any of the options later in the Settings.",
+            "word_sequence": [
+                "Welcome",
+                "to",
+                "andOTP",
+                ",",
+                "this",
+                "wizard",
+                "will",
+                "guide",
+                "you",
+                "through",
+                "the",
+                "initial",
+                "setup",
+                ".",
+                "Please",
+                "pay",
+                "attention",
+                "and",
+                "read",
+                "carefully",
+                "otherwise",
+                "you",
+                "could",
+                "lose",
+                "data",
+                "!",
+                "Don't",
+                "worry",
+                ",",
+                "you",
+                "can",
+                "still",
+                "change",
+                "any",
+                "of",
+                "the",
+                "options",
+                "later",
+                "in",
+                "the",
+                "Settings",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "226b61ee05b607ffde5f28301b86b4af98bf571ce8a501fd7903adc482ac8b2b",
+            "bounding_box": "{\"x1\": 42, \"y1\": 787, \"x2\": 1038, \"y2\": 1089}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/mi_pager_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "mi",
+                "pager",
+                "indicator"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "226b61ee05b607ffde5f28301b86b4af98bf571ce8a501fd7903adc482ac8b2b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1666, \"x2\": 891, \"y2\": 1692}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/mi_button_next",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "226b61ee05b607ffde5f28301b86b4af98bf571ce8a501fd7903adc482ac8b2b",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "67a86e837e1c9e006a6de042f4663bca08c40f4bd33dfcb194af0e57a283a3b0": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Database encryption",
+            "word_sequence": [
+                "Database",
+                "encryption"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "67a86e837e1c9e006a6de042f4663bca08c40f4bd33dfcb194af0e57a283a3b0",
+            "bounding_box": "{\"x1\": 84, \"y1\": 147, \"x2\": 996, \"y2\": 232}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "To ensure the security of your accounts andOTP only stores them in encrypted data files. Here you can choose which method of encryption will be used.",
+            "word_sequence": [
+                "To",
+                "ensure",
+                "the",
+                "security",
+                "of",
+                "your",
+                "accounts",
+                "andOTP",
+                "only",
+                "stores",
+                "them",
+                "in",
+                "encrypted",
+                "data",
+                "files",
+                ".",
+                "Here",
+                "you",
+                "can",
+                "choose",
+                "which",
+                "method",
+                "of",
+                "encryption",
+                "will",
+                "be",
+                "used",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "67a86e837e1c9e006a6de042f4663bca08c40f4bd33dfcb194af0e57a283a3b0",
+            "bounding_box": "{\"x1\": 84, \"y1\": 274, \"x2\": 996, \"y2\": 411}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/text1",
+            "text_content": "Password / PIN",
+            "word_sequence": [
+                "Password",
+                "/",
+                "PIN"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "67a86e837e1c9e006a6de042f4663bca08c40f4bd33dfcb194af0e57a283a3b0",
+            "bounding_box": "{\"x1\": 126, \"y1\": 498, \"x2\": 828, \"y2\": 555}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/introEncryptionDesc",
+            "text_content": "This method will encrypt your data with a key generated from a password or PIN. The main advantage here is that this will work with external backup solutions (like Titanium) and is much less failure-prone than the KeyStore. However, you will have to enter your credentials every time you start andOTP.",
+            "word_sequence": [
+                "This",
+                "method",
+                "will",
+                "encrypt",
+                "your",
+                "data",
+                "with",
+                "a",
+                "key",
+                "generated",
+                "from",
+                "a",
+                "password",
+                "or",
+                "PIN",
+                ".",
+                "The",
+                "main",
+                "advantage",
+                "here",
+                "is",
+                "that",
+                "this",
+                "will",
+                "work",
+                "with",
+                "external",
+                "backup",
+                "solutions",
+                "like",
+                "Titanium",
+                "and",
+                "is",
+                "much",
+                "less",
+                "failure",
+                "prone",
+                "than",
+                "the",
+                "KeyStore",
+                ".",
+                "However",
+                ",",
+                "you",
+                "will",
+                "have",
+                "to",
+                "enter",
+                "your",
+                "credentials",
+                "every",
+                "time",
+                "you",
+                "start",
+                "andOTP",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "67a86e837e1c9e006a6de042f4663bca08c40f4bd33dfcb194af0e57a283a3b0",
+            "bounding_box": "{\"x1\": 84, \"y1\": 642, \"x2\": 996, \"y2\": 908}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/mi_button_back",
+            "text_content": "Back",
+            "word_sequence": [
+                "Back"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "67a86e837e1c9e006a6de042f4663bca08c40f4bd33dfcb194af0e57a283a3b0",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1605, \"x2\": 189, \"y2\": 1752}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/mi_pager_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "mi",
+                "pager",
+                "indicator"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "67a86e837e1c9e006a6de042f4663bca08c40f4bd33dfcb194af0e57a283a3b0",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1666, \"x2\": 891, \"y2\": 1692}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/mi_button_next",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "67a86e837e1c9e006a6de042f4663bca08c40f4bd33dfcb194af0e57a283a3b0",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "5780f33d918cc9ee940756955d17f1376f91a80888e5a97fbf98d3a4ff22358b": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Authentication",
+            "word_sequence": [
+                "Authentication"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "5780f33d918cc9ee940756955d17f1376f91a80888e5a97fbf98d3a4ff22358b",
+            "bounding_box": "{\"x1\": 84, \"y1\": 147, \"x2\": 996, \"y2\": 232}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/introAuthDesc",
+            "text_content": "Here you can setup an authentication to lock andOTP. Since you have chosen Android KeyStore as encryption method this is optional.",
+            "word_sequence": [
+                "Here",
+                "you",
+                "can",
+                "setup",
+                "an",
+                "authentication",
+                "to",
+                "lock",
+                "andOTP",
+                ".",
+                "Since",
+                "you",
+                "have",
+                "chosen",
+                "Android",
+                "KeyStore",
+                "as",
+                "encryption",
+                "method",
+                "this",
+                "is",
+                "optional",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "5780f33d918cc9ee940756955d17f1376f91a80888e5a97fbf98d3a4ff22358b",
+            "bounding_box": "{\"x1\": 84, \"y1\": 274, \"x2\": 996, \"y2\": 411}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/text1",
+            "text_content": "Password",
+            "word_sequence": [
+                "Password"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "5780f33d918cc9ee940756955d17f1376f91a80888e5a97fbf98d3a4ff22358b",
+            "bounding_box": "{\"x1\": 126, \"y1\": 498, \"x2\": 828, \"y2\": 555}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/introAuthWarnings",
+            "text_content": "Please set a password to continue!",
+            "word_sequence": [
+                "Please",
+                "set",
+                "a",
+                "password",
+                "to",
+                "continue",
+                "!"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "5780f33d918cc9ee940756955d17f1376f91a80888e5a97fbf98d3a4ff22358b",
+            "bounding_box": "{\"x1\": 228, \"y1\": 600, \"x2\": 851, \"y2\": 693}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/introPasswordEdit",
+            "text_content": "Enter new password",
+            "word_sequence": [
+                "Enter",
+                "new",
+                "password"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 130,
+            "screen_id": "5780f33d918cc9ee940756955d17f1376f91a80888e5a97fbf98d3a4ff22358b",
+            "bounding_box": "{\"x1\": 126, \"y1\": 806, \"x2\": 954, \"y2\": 932}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/text_input_password_toggle",
+            "text_content": "Show password",
+            "word_sequence": [
+                "Show",
+                "password"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "5780f33d918cc9ee940756955d17f1376f91a80888e5a97fbf98d3a4ff22358b",
+            "bounding_box": "{\"x1\": 828, \"y1\": 806, \"x2\": 954, \"y2\": 932}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/introPasswordConfirm",
+            "text_content": "Confirm password",
+            "word_sequence": [
+                "Confirm",
+                "password"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 130,
+            "screen_id": "5780f33d918cc9ee940756955d17f1376f91a80888e5a97fbf98d3a4ff22358b",
+            "bounding_box": "{\"x1\": 126, \"y1\": 932, \"x2\": 954, \"y2\": 1050}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/mi_button_back",
+            "text_content": "Back",
+            "word_sequence": [
+                "Back"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "5780f33d918cc9ee940756955d17f1376f91a80888e5a97fbf98d3a4ff22358b",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1605, \"x2\": 189, \"y2\": 1752}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/mi_pager_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "mi",
+                "pager",
+                "indicator"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "5780f33d918cc9ee940756955d17f1376f91a80888e5a97fbf98d3a4ff22358b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1666, \"x2\": 891, \"y2\": 1692}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/mi_button_next",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "5780f33d918cc9ee940756955d17f1376f91a80888e5a97fbf98d3a4ff22358b",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "5b8041ae2bf7a9056b4a78b47356850e866e256cbad31ef53b267fac95e431cf": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Authentication",
+            "word_sequence": [
+                "Authentication"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "5b8041ae2bf7a9056b4a78b47356850e866e256cbad31ef53b267fac95e431cf",
+            "bounding_box": "{\"x1\": 84, \"y1\": 80, \"x2\": 996, \"y2\": 165}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/introAuthDesc",
+            "text_content": "Here you can setup an authentication to lock andOTP. Since you have chosen Android KeyStore as encryption method this is optional.",
+            "word_sequence": [
+                "Here",
+                "you",
+                "can",
+                "setup",
+                "an",
+                "authentication",
+                "to",
+                "lock",
+                "andOTP",
+                ".",
+                "Since",
+                "you",
+                "have",
+                "chosen",
+                "Android",
+                "KeyStore",
+                "as",
+                "encryption",
+                "method",
+                "this",
+                "is",
+                "optional",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "5b8041ae2bf7a9056b4a78b47356850e866e256cbad31ef53b267fac95e431cf",
+            "bounding_box": "{\"x1\": 84, \"y1\": 207, \"x2\": 996, \"y2\": 344}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/text1",
+            "text_content": "Password",
+            "word_sequence": [
+                "Password"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "5b8041ae2bf7a9056b4a78b47356850e866e256cbad31ef53b267fac95e431cf",
+            "bounding_box": "{\"x1\": 126, \"y1\": 431, \"x2\": 828, \"y2\": 488}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/introAuthWarnings",
+            "text_content": "The password needs to be at least 6 characters long!",
+            "word_sequence": [
+                "The",
+                "password",
+                "needs",
+                "to",
+                "be",
+                "at",
+                "least",
+                "6",
+                "characters",
+                "long",
+                "!"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "5b8041ae2bf7a9056b4a78b47356850e866e256cbad31ef53b267fac95e431cf",
+            "bounding_box": "{\"x1\": 84, \"y1\": 533, \"x2\": 996, \"y2\": 669}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/introPasswordEdit",
+            "text_content": "abcd1",
+            "word_sequence": [
+                "abcd1"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 130,
+            "screen_id": "5b8041ae2bf7a9056b4a78b47356850e866e256cbad31ef53b267fac95e431cf",
+            "bounding_box": "{\"x1\": 126, \"y1\": 782, \"x2\": 954, \"y2\": 904}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/text_input_password_toggle",
+            "text_content": "Show password",
+            "word_sequence": [
+                "Show",
+                "password"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "5b8041ae2bf7a9056b4a78b47356850e866e256cbad31ef53b267fac95e431cf",
+            "bounding_box": "{\"x1\": 828, \"y1\": 782, \"x2\": 954, \"y2\": 904}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/mi_button_back",
+            "text_content": "Back",
+            "word_sequence": [
+                "Back"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "5b8041ae2bf7a9056b4a78b47356850e866e256cbad31ef53b267fac95e431cf",
+            "bounding_box": "{\"x1\": 42, \"y1\": 864, \"x2\": 189, \"y2\": 1011}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/mi_pager_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "mi",
+                "pager",
+                "indicator"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "5b8041ae2bf7a9056b4a78b47356850e866e256cbad31ef53b267fac95e431cf",
+            "bounding_box": "{\"x1\": 189, \"y1\": 925, \"x2\": 891, \"y2\": 951}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/mi_button_next",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "5b8041ae2bf7a9056b4a78b47356850e866e256cbad31ef53b267fac95e431cf",
+            "bounding_box": "{\"x1\": 891, \"y1\": 864, \"x2\": 1038, \"y2\": 1011}"
+        }
+    ],
+    "320c867c3f14d180d08d86de381b7a9f68b8cf48ec1cc229d88b8cbd76f6bbd7": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Authentication",
+            "word_sequence": [
+                "Authentication"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "320c867c3f14d180d08d86de381b7a9f68b8cf48ec1cc229d88b8cbd76f6bbd7",
+            "bounding_box": "{\"x1\": 84, \"y1\": 147, \"x2\": 996, \"y2\": 232}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/introAuthDesc",
+            "text_content": "Here you can setup an authentication to lock andOTP. Since you have chosen Android KeyStore as encryption method this is optional.",
+            "word_sequence": [
+                "Here",
+                "you",
+                "can",
+                "setup",
+                "an",
+                "authentication",
+                "to",
+                "lock",
+                "andOTP",
+                ".",
+                "Since",
+                "you",
+                "have",
+                "chosen",
+                "Android",
+                "KeyStore",
+                "as",
+                "encryption",
+                "method",
+                "this",
+                "is",
+                "optional",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "320c867c3f14d180d08d86de381b7a9f68b8cf48ec1cc229d88b8cbd76f6bbd7",
+            "bounding_box": "{\"x1\": 84, \"y1\": 274, \"x2\": 996, \"y2\": 411}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/text1",
+            "text_content": "Password",
+            "word_sequence": [
+                "Password"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "320c867c3f14d180d08d86de381b7a9f68b8cf48ec1cc229d88b8cbd76f6bbd7",
+            "bounding_box": "{\"x1\": 126, \"y1\": 498, \"x2\": 828, \"y2\": 555}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/introPasswordEdit",
+            "text_content": "abcd1234",
+            "word_sequence": [
+                "abcd1234"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 130,
+            "screen_id": "320c867c3f14d180d08d86de381b7a9f68b8cf48ec1cc229d88b8cbd76f6bbd7",
+            "bounding_box": "{\"x1\": 126, \"y1\": 671, \"x2\": 954, \"y2\": 797}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/text_input_password_toggle",
+            "text_content": "Show password",
+            "word_sequence": [
+                "Show",
+                "password"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "320c867c3f14d180d08d86de381b7a9f68b8cf48ec1cc229d88b8cbd76f6bbd7",
+            "bounding_box": "{\"x1\": 828, \"y1\": 671, \"x2\": 954, \"y2\": 797}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/introPasswordConfirm",
+            "text_content": "\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022",
+            "word_sequence": [],
+            "type": "EDITTEXT",
+            "app_name": 130,
+            "screen_id": "320c867c3f14d180d08d86de381b7a9f68b8cf48ec1cc229d88b8cbd76f6bbd7",
+            "bounding_box": "{\"x1\": 126, \"y1\": 797, \"x2\": 954, \"y2\": 915}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/mi_button_back",
+            "text_content": "Back",
+            "word_sequence": [
+                "Back"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "320c867c3f14d180d08d86de381b7a9f68b8cf48ec1cc229d88b8cbd76f6bbd7",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1605, \"x2\": 189, \"y2\": 1752}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/mi_pager_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "mi",
+                "pager",
+                "indicator"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "320c867c3f14d180d08d86de381b7a9f68b8cf48ec1cc229d88b8cbd76f6bbd7",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1666, \"x2\": 891, \"y2\": 1692}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/mi_button_next",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "320c867c3f14d180d08d86de381b7a9f68b8cf48ec1cc229d88b8cbd76f6bbd7",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "b7863034443c451fa484c723be00d82380c01179c79af1158ff6f6d132c87d29": [
+        {
+            "component_id": 0,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/mi_title",
+            "text_content": "Finished",
+            "word_sequence": [
+                "Finished"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "b7863034443c451fa484c723be00d82380c01179c79af1158ff6f6d132c87d29",
+            "bounding_box": "{\"x1\": 42, \"y1\": 758, \"x2\": 1038, \"y2\": 843}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/mi_description",
+            "text_content": "Your settings have been saved, you are all set to use andOTP now!",
+            "word_sequence": [
+                "Your",
+                "settings",
+                "have",
+                "been",
+                "saved",
+                ",",
+                "you",
+                "are",
+                "all",
+                "set",
+                "to",
+                "use",
+                "andOTP",
+                "now",
+                "!"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "b7863034443c451fa484c723be00d82380c01179c79af1158ff6f6d132c87d29",
+            "bounding_box": "{\"x1\": 42, \"y1\": 885, \"x2\": 1038, \"y2\": 991}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/mi_button_back",
+            "text_content": "Back",
+            "word_sequence": [
+                "Back"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "b7863034443c451fa484c723be00d82380c01179c79af1158ff6f6d132c87d29",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1605, \"x2\": 189, \"y2\": 1752}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/mi_pager_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "mi",
+                "pager",
+                "indicator"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "b7863034443c451fa484c723be00d82380c01179c79af1158ff6f6d132c87d29",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1666, \"x2\": 891, \"y2\": 1692}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/mi_button_next",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "b7863034443c451fa484c723be00d82380c01179c79af1158ff6f6d132c87d29",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "f7d0b8946509124eb013991c7e3997fc1ddc38466ce2c8a1d66469916f9e31a1": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Authenticate",
+            "word_sequence": [
+                "Authenticate"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "f7d0b8946509124eb013991c7e3997fc1ddc38466ce2c8a1d66469916f9e31a1",
+            "bounding_box": "{\"x1\": 42, \"y1\": 101, \"x2\": 345, \"y2\": 172}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/passwordLabel",
+            "text_content": "Please confirm your authentication to generate the new encryption key!",
+            "word_sequence": [
+                "Please",
+                "confirm",
+                "your",
+                "authentication",
+                "to",
+                "generate",
+                "the",
+                "new",
+                "encryption",
+                "key",
+                "!"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "f7d0b8946509124eb013991c7e3997fc1ddc38466ce2c8a1d66469916f9e31a1",
+            "bounding_box": "{\"x1\": 105, \"y1\": 315, \"x2\": 975, \"y2\": 538}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/passwordEdit",
+            "text_content": "abcd1",
+            "word_sequence": [
+                "abcd1"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 130,
+            "screen_id": "f7d0b8946509124eb013991c7e3997fc1ddc38466ce2c8a1d66469916f9e31a1",
+            "bounding_box": "{\"x1\": 105, \"y1\": 567, \"x2\": 975, \"y2\": 693}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/text_input_password_toggle",
+            "text_content": "Show password",
+            "word_sequence": [
+                "Show",
+                "password"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "f7d0b8946509124eb013991c7e3997fc1ddc38466ce2c8a1d66469916f9e31a1",
+            "bounding_box": "{\"x1\": 849, \"y1\": 567, \"x2\": 975, \"y2\": 693}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/buttonUnlock",
+            "text_content": "UNLOCK",
+            "word_sequence": [
+                "UNLOCK"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "f7d0b8946509124eb013991c7e3997fc1ddc38466ce2c8a1d66469916f9e31a1",
+            "bounding_box": "{\"x1\": 771, \"y1\": 693, \"x2\": 975, \"y2\": 819}"
+        }
+    ],
+    "89d8642d0d520c8333a60a3bbef4ce4dfac110668746d3ee10f2f99195d7e7c0": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Show tags",
+            "word_sequence": [
+                "Show",
+                "tags"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "89d8642d0d520c8333a60a3bbef4ce4dfac110668746d3ee10f2f99195d7e7c0",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "andOTP (dev)",
+            "word_sequence": [
+                "andOTP",
+                "dev"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "89d8642d0d520c8333a60a3bbef4ce4dfac110668746d3ee10f2f99195d7e7c0",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 513, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/menu_sort",
+            "text_content": "Sort",
+            "word_sequence": [
+                "Sort"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "89d8642d0d520c8333a60a3bbef4ce4dfac110668746d3ee10f2f99195d7e7c0",
+            "bounding_box": "{\"x1\": 721, \"y1\": 73, \"x2\": 848, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/menu_search",
+            "text_content": "Search",
+            "word_sequence": [
+                "Search"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "89d8642d0d520c8333a60a3bbef4ce4dfac110668746d3ee10f2f99195d7e7c0",
+            "bounding_box": "{\"x1\": 848, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 130,
+            "screen_id": "89d8642d0d520c8333a60a3bbef4ce4dfac110668746d3ee10f2f99195d7e7c0",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/progressBar",
+            "text_content": "",
+            "word_sequence": [
+                "progress",
+                "Bar"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "89d8642d0d520c8333a60a3bbef4ce4dfac110668746d3ee10f2f99195d7e7c0",
+            "bounding_box": "{\"x1\": 0, \"y1\": 199, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/cardList",
+            "text_content": "",
+            "word_sequence": [
+                "card",
+                "List"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "89d8642d0d520c8333a60a3bbef4ce4dfac110668746d3ee10f2f99195d7e7c0",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "89d8642d0d520c8333a60a3bbef4ce4dfac110668746d3ee10f2f99195d7e7c0",
+            "bounding_box": "{\"x1\": 858, \"y1\": 1561, \"x2\": 1069, \"y2\": 1794}"
+        }
+    ],
+    "8af54ecf2218a43399258e4b5496325f2db10c4206ccc0cf637c56bdcc5fe6a4": [
+        {
+            "component_id": 0,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/speedDialOverlay",
+            "text_content": "",
+            "word_sequence": [
+                "speed",
+                "Dial",
+                "Overlay"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "8af54ecf2218a43399258e4b5496325f2db10c4206ccc0cf637c56bdcc5fe6a4",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Show tags",
+            "word_sequence": [
+                "Show",
+                "tags"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "8af54ecf2218a43399258e4b5496325f2db10c4206ccc0cf637c56bdcc5fe6a4",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "andOTP (dev)",
+            "word_sequence": [
+                "andOTP",
+                "dev"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "8af54ecf2218a43399258e4b5496325f2db10c4206ccc0cf637c56bdcc5fe6a4",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 513, \"y2\": 172}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/menu_sort",
+            "text_content": "Sort",
+            "word_sequence": [
+                "Sort"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "8af54ecf2218a43399258e4b5496325f2db10c4206ccc0cf637c56bdcc5fe6a4",
+            "bounding_box": "{\"x1\": 721, \"y1\": 73, \"x2\": 848, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/menu_search",
+            "text_content": "Search",
+            "word_sequence": [
+                "Search"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "8af54ecf2218a43399258e4b5496325f2db10c4206ccc0cf637c56bdcc5fe6a4",
+            "bounding_box": "{\"x1\": 848, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 130,
+            "screen_id": "8af54ecf2218a43399258e4b5496325f2db10c4206ccc0cf637c56bdcc5fe6a4",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/progressBar",
+            "text_content": "",
+            "word_sequence": [
+                "progress",
+                "Bar"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "8af54ecf2218a43399258e4b5496325f2db10c4206ccc0cf637c56bdcc5fe6a4",
+            "bounding_box": "{\"x1\": 0, \"y1\": 199, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/cardList",
+            "text_content": "",
+            "word_sequence": [
+                "card",
+                "List"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "8af54ecf2218a43399258e4b5496325f2db10c4206ccc0cf637c56bdcc5fe6a4",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/label",
+            "text_content": "Scan QR code",
+            "word_sequence": [
+                "Scan",
+                "QR",
+                "code"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "8af54ecf2218a43399258e4b5496325f2db10c4206ccc0cf637c56bdcc5fe6a4",
+            "bounding_box": "{\"x1\": 573, \"y1\": 1322, \"x2\": 827, \"y2\": 1373}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "8af54ecf2218a43399258e4b5496325f2db10c4206ccc0cf637c56bdcc5fe6a4",
+            "bounding_box": "{\"x1\": 879, \"y1\": 1277, \"x2\": 1048, \"y2\": 1419}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/label",
+            "text_content": "Enter details",
+            "word_sequence": [
+                "Enter",
+                "details"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "8af54ecf2218a43399258e4b5496325f2db10c4206ccc0cf637c56bdcc5fe6a4",
+            "bounding_box": "{\"x1\": 594, \"y1\": 1464, \"x2\": 827, \"y2\": 1515}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "8af54ecf2218a43399258e4b5496325f2db10c4206ccc0cf637c56bdcc5fe6a4",
+            "bounding_box": "{\"x1\": 879, \"y1\": 1419, \"x2\": 1048, \"y2\": 1561}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "8af54ecf2218a43399258e4b5496325f2db10c4206ccc0cf637c56bdcc5fe6a4",
+            "bounding_box": "{\"x1\": 803, \"y1\": 1517, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "d99b4588a82805210033b46173be118d0aecd8268bd52b54c17ae729b0cd8b7b": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "Enter details",
+            "word_sequence": [
+                "Enter",
+                "details"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "d99b4588a82805210033b46173be118d0aecd8268bd52b54c17ae729b0cd8b7b",
+            "bounding_box": "{\"x1\": 133, \"y1\": 459, \"x2\": 947, \"y2\": 530}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Type",
+            "word_sequence": [
+                "Type"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "d99b4588a82805210033b46173be118d0aecd8268bd52b54c17ae729b0cd8b7b",
+            "bounding_box": "{\"x1\": 154, \"y1\": 588, \"x2\": 385, \"y2\": 639}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/text1",
+            "text_content": "TOTP",
+            "word_sequence": [
+                "TOTP"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "d99b4588a82805210033b46173be118d0aecd8268bd52b54c17ae729b0cd8b7b",
+            "bounding_box": "{\"x1\": 385, \"y1\": 530, \"x2\": 800, \"y2\": 698}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Label",
+            "word_sequence": [
+                "Label"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "d99b4588a82805210033b46173be118d0aecd8268bd52b54c17ae729b0cd8b7b",
+            "bounding_box": "{\"x1\": 154, \"y1\": 731, \"x2\": 385, \"y2\": 782}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/manual_label",
+            "text_content": "Label",
+            "word_sequence": [
+                "Label"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 130,
+            "screen_id": "d99b4588a82805210033b46173be118d0aecd8268bd52b54c17ae729b0cd8b7b",
+            "bounding_box": "{\"x1\": 385, \"y1\": 698, \"x2\": 926, \"y2\": 816}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "Secret",
+            "word_sequence": [
+                "Secret"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "d99b4588a82805210033b46173be118d0aecd8268bd52b54c17ae729b0cd8b7b",
+            "bounding_box": "{\"x1\": 154, \"y1\": 904, \"x2\": 385, \"y2\": 955}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/manual_secret",
+            "text_content": "Secret",
+            "word_sequence": [
+                "Secret"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 130,
+            "screen_id": "d99b4588a82805210033b46173be118d0aecd8268bd52b54c17ae729b0cd8b7b",
+            "bounding_box": "{\"x1\": 385, \"y1\": 816, \"x2\": 926, \"y2\": 1044}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "Tags",
+            "word_sequence": [
+                "Tags"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "d99b4588a82805210033b46173be118d0aecd8268bd52b54c17ae729b0cd8b7b",
+            "bounding_box": "{\"x1\": 154, \"y1\": 1081, \"x2\": 385, \"y2\": 1132}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/manual_tags",
+            "text_content": "",
+            "word_sequence": [
+                "manual",
+                "tags"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "d99b4588a82805210033b46173be118d0aecd8268bd52b54c17ae729b0cd8b7b",
+            "bounding_box": "{\"x1\": 385, \"y1\": 1044, \"x2\": 926, \"y2\": 1170}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/dialog_expand_button",
+            "text_content": "ADVANCED OPTIONS",
+            "word_sequence": [
+                "ADVANCED",
+                "OPTIONS"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "d99b4588a82805210033b46173be118d0aecd8268bd52b54c17ae729b0cd8b7b",
+            "bounding_box": "{\"x1\": 154, \"y1\": 1170, \"x2\": 926, \"y2\": 1296}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/button2",
+            "text_content": "CANCEL",
+            "word_sequence": [
+                "CANCEL"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "d99b4588a82805210033b46173be118d0aecd8268bd52b54c17ae729b0cd8b7b",
+            "bounding_box": "{\"x1\": 608, \"y1\": 1307, \"x2\": 810, \"y2\": 1433}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "android:id/button1",
+            "text_content": "SAVE",
+            "word_sequence": [
+                "SAVE"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "d99b4588a82805210033b46173be118d0aecd8268bd52b54c17ae729b0cd8b7b",
+            "bounding_box": "{\"x1\": 810, \"y1\": 1307, \"x2\": 978, \"y2\": 1433}"
+        }
+    ],
+    "617f6d6d88db4dc4edf43c0a8fa00915e21e3b2be2da367ce5c00f81659dba32": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Show tags",
+            "word_sequence": [
+                "Show",
+                "tags"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "617f6d6d88db4dc4edf43c0a8fa00915e21e3b2be2da367ce5c00f81659dba32",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "andOTP (dev)",
+            "word_sequence": [
+                "andOTP",
+                "dev"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "617f6d6d88db4dc4edf43c0a8fa00915e21e3b2be2da367ce5c00f81659dba32",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 513, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/menu_sort",
+            "text_content": "Sort",
+            "word_sequence": [
+                "Sort"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "617f6d6d88db4dc4edf43c0a8fa00915e21e3b2be2da367ce5c00f81659dba32",
+            "bounding_box": "{\"x1\": 721, \"y1\": 73, \"x2\": 848, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/menu_search",
+            "text_content": "Search",
+            "word_sequence": [
+                "Search"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "617f6d6d88db4dc4edf43c0a8fa00915e21e3b2be2da367ce5c00f81659dba32",
+            "bounding_box": "{\"x1\": 848, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 130,
+            "screen_id": "617f6d6d88db4dc4edf43c0a8fa00915e21e3b2be2da367ce5c00f81659dba32",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/progressBar",
+            "text_content": "",
+            "word_sequence": [
+                "progress",
+                "Bar"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "617f6d6d88db4dc4edf43c0a8fa00915e21e3b2be2da367ce5c00f81659dba32",
+            "bounding_box": "{\"x1\": 0, \"y1\": 199, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/thumbnailImg",
+            "text_content": "",
+            "word_sequence": [
+                "thumbnail",
+                "Img"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 130,
+            "screen_id": "617f6d6d88db4dc4edf43c0a8fa00915e21e3b2be2da367ce5c00f81659dba32",
+            "bounding_box": "{\"x1\": 58, \"y1\": 295, \"x2\": 179, \"y2\": 416}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/valueText",
+            "text_content": "000 000",
+            "word_sequence": [
+                "000",
+                "000"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "617f6d6d88db4dc4edf43c0a8fa00915e21e3b2be2da367ce5c00f81659dba32",
+            "bounding_box": "{\"x1\": 263, \"y1\": 274, \"x2\": 533, \"y2\": 374}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/textViewLabel",
+            "text_content": "l",
+            "word_sequence": [
+                "l"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "617f6d6d88db4dc4edf43c0a8fa00915e21e3b2be2da367ce5c00f81659dba32",
+            "bounding_box": "{\"x1\": 263, \"y1\": 374, \"x2\": 274, \"y2\": 437}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/copyButton",
+            "text_content": "",
+            "word_sequence": [
+                "copy"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "617f6d6d88db4dc4edf43c0a8fa00915e21e3b2be2da367ce5c00f81659dba32",
+            "bounding_box": "{\"x1\": 807, \"y1\": 303, \"x2\": 912, \"y2\": 408}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/menuButton",
+            "text_content": "",
+            "word_sequence": [
+                "menu"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "617f6d6d88db4dc4edf43c0a8fa00915e21e3b2be2da367ce5c00f81659dba32",
+            "bounding_box": "{\"x1\": 912, \"y1\": 303, \"x2\": 1017, \"y2\": 408}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "617f6d6d88db4dc4edf43c0a8fa00915e21e3b2be2da367ce5c00f81659dba32",
+            "bounding_box": "{\"x1\": 858, \"y1\": 1561, \"x2\": 1069, \"y2\": 1794}"
+        }
+    ],
+    "923f17b845e6114fe6e35e50b91158c12e9d64d1a1f5c1560d1ed19d7041f589": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Hide tags",
+            "word_sequence": [
+                "Hide",
+                "tags"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "923f17b845e6114fe6e35e50b91158c12e9d64d1a1f5c1560d1ed19d7041f589",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Tags",
+            "word_sequence": [
+                "Tags"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "923f17b845e6114fe6e35e50b91158c12e9d64d1a1f5c1560d1ed19d7041f589",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 303, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/menu_sort",
+            "text_content": "Sort",
+            "word_sequence": [
+                "Sort"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "923f17b845e6114fe6e35e50b91158c12e9d64d1a1f5c1560d1ed19d7041f589",
+            "bounding_box": "{\"x1\": 721, \"y1\": 73, \"x2\": 848, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/menu_search",
+            "text_content": "Search",
+            "word_sequence": [
+                "Search"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "923f17b845e6114fe6e35e50b91158c12e9d64d1a1f5c1560d1ed19d7041f589",
+            "bounding_box": "{\"x1\": 848, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 130,
+            "screen_id": "923f17b845e6114fe6e35e50b91158c12e9d64d1a1f5c1560d1ed19d7041f589",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/progressBar",
+            "text_content": "",
+            "word_sequence": [
+                "progress",
+                "Bar"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "923f17b845e6114fe6e35e50b91158c12e9d64d1a1f5c1560d1ed19d7041f589",
+            "bounding_box": "{\"x1\": 0, \"y1\": 199, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/thumbnailImg",
+            "text_content": "",
+            "word_sequence": [
+                "thumbnail",
+                "Img"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 130,
+            "screen_id": "923f17b845e6114fe6e35e50b91158c12e9d64d1a1f5c1560d1ed19d7041f589",
+            "bounding_box": "{\"x1\": 58, \"y1\": 295, \"x2\": 179, \"y2\": 416}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/valueText",
+            "text_content": "000 000",
+            "word_sequence": [
+                "000",
+                "000"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "923f17b845e6114fe6e35e50b91158c12e9d64d1a1f5c1560d1ed19d7041f589",
+            "bounding_box": "{\"x1\": 263, \"y1\": 274, \"x2\": 533, \"y2\": 374}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/textViewLabel",
+            "text_content": "l",
+            "word_sequence": [
+                "l"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "923f17b845e6114fe6e35e50b91158c12e9d64d1a1f5c1560d1ed19d7041f589",
+            "bounding_box": "{\"x1\": 263, \"y1\": 374, \"x2\": 274, \"y2\": 437}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/copyButton",
+            "text_content": "",
+            "word_sequence": [
+                "copy"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "923f17b845e6114fe6e35e50b91158c12e9d64d1a1f5c1560d1ed19d7041f589",
+            "bounding_box": "{\"x1\": 807, \"y1\": 303, \"x2\": 912, \"y2\": 408}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/menuButton",
+            "text_content": "",
+            "word_sequence": [
+                "menu"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "923f17b845e6114fe6e35e50b91158c12e9d64d1a1f5c1560d1ed19d7041f589",
+            "bounding_box": "{\"x1\": 912, \"y1\": 303, \"x2\": 1017, \"y2\": 408}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/all_tags_in_drawer",
+            "text_content": "All tags",
+            "word_sequence": [
+                "All",
+                "tags"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "923f17b845e6114fe6e35e50b91158c12e9d64d1a1f5c1560d1ed19d7041f589",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 525, \"y2\": 336}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/no_tags_entries",
+            "text_content": "No tags",
+            "word_sequence": [
+                "No",
+                "tags"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "923f17b845e6114fe6e35e50b91158c12e9d64d1a1f5c1560d1ed19d7041f589",
+            "bounding_box": "{\"x1\": 0, \"y1\": 336, \"x2\": 525, \"y2\": 462}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "923f17b845e6114fe6e35e50b91158c12e9d64d1a1f5c1560d1ed19d7041f589",
+            "bounding_box": "{\"x1\": 0, \"y1\": 462, \"x2\": 525, \"y2\": 465}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/tags_list_in_drawer",
+            "text_content": "",
+            "word_sequence": [
+                "tags",
+                "list",
+                "in",
+                "drawer"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "923f17b845e6114fe6e35e50b91158c12e9d64d1a1f5c1560d1ed19d7041f589",
+            "bounding_box": "{\"x1\": 0, \"y1\": 465, \"x2\": 525, \"y2\": 1794}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "923f17b845e6114fe6e35e50b91158c12e9d64d1a1f5c1560d1ed19d7041f589",
+            "bounding_box": "{\"x1\": 858, \"y1\": 1561, \"x2\": 1069, \"y2\": 1794}"
+        }
+    ],
+    "0ef7aae459df7b6b8c57f84b41d711aae916a9e7c3b8364430aeafe0e8638591": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Hide tags",
+            "word_sequence": [
+                "Hide",
+                "tags"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "0ef7aae459df7b6b8c57f84b41d711aae916a9e7c3b8364430aeafe0e8638591",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Tags",
+            "word_sequence": [
+                "Tags"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "0ef7aae459df7b6b8c57f84b41d711aae916a9e7c3b8364430aeafe0e8638591",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 303, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/menu_sort",
+            "text_content": "Sort",
+            "word_sequence": [
+                "Sort"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "0ef7aae459df7b6b8c57f84b41d711aae916a9e7c3b8364430aeafe0e8638591",
+            "bounding_box": "{\"x1\": 721, \"y1\": 73, \"x2\": 848, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/menu_search",
+            "text_content": "Search",
+            "word_sequence": [
+                "Search"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "0ef7aae459df7b6b8c57f84b41d711aae916a9e7c3b8364430aeafe0e8638591",
+            "bounding_box": "{\"x1\": 848, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 130,
+            "screen_id": "0ef7aae459df7b6b8c57f84b41d711aae916a9e7c3b8364430aeafe0e8638591",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/progressBar",
+            "text_content": "",
+            "word_sequence": [
+                "progress",
+                "Bar"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "0ef7aae459df7b6b8c57f84b41d711aae916a9e7c3b8364430aeafe0e8638591",
+            "bounding_box": "{\"x1\": 0, \"y1\": 199, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/cardList",
+            "text_content": "",
+            "word_sequence": [
+                "card",
+                "List"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "0ef7aae459df7b6b8c57f84b41d711aae916a9e7c3b8364430aeafe0e8638591",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/all_tags_in_drawer",
+            "text_content": "All tags",
+            "word_sequence": [
+                "All",
+                "tags"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "0ef7aae459df7b6b8c57f84b41d711aae916a9e7c3b8364430aeafe0e8638591",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 525, \"y2\": 336}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/no_tags_entries",
+            "text_content": "No tags",
+            "word_sequence": [
+                "No",
+                "tags"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "0ef7aae459df7b6b8c57f84b41d711aae916a9e7c3b8364430aeafe0e8638591",
+            "bounding_box": "{\"x1\": 0, \"y1\": 336, \"x2\": 525, \"y2\": 462}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "0ef7aae459df7b6b8c57f84b41d711aae916a9e7c3b8364430aeafe0e8638591",
+            "bounding_box": "{\"x1\": 0, \"y1\": 462, \"x2\": 525, \"y2\": 465}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/tags_list_in_drawer",
+            "text_content": "",
+            "word_sequence": [
+                "tags",
+                "list",
+                "in",
+                "drawer"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "0ef7aae459df7b6b8c57f84b41d711aae916a9e7c3b8364430aeafe0e8638591",
+            "bounding_box": "{\"x1\": 0, \"y1\": 465, \"x2\": 525, \"y2\": 1794}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "0ef7aae459df7b6b8c57f84b41d711aae916a9e7c3b8364430aeafe0e8638591",
+            "bounding_box": "{\"x1\": 858, \"y1\": 1561, \"x2\": 1069, \"y2\": 1794}"
+        }
+    ],
+    "cc2103247f0918ac6c8aecd8188c58731c50c6cc086f8b7421ec4b89278b61dc": [
+        {
+            "component_id": 0,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/title",
+            "text_content": "Unsorted",
+            "word_sequence": [
+                "Unsorted"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "cc2103247f0918ac6c8aecd8188c58731c50c6cc086f8b7421ec4b89278b61dc",
+            "bounding_box": "{\"x1\": 607, \"y1\": 107, \"x2\": 954, \"y2\": 164}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/radio",
+            "text_content": "",
+            "word_sequence": [
+                "radio"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "cc2103247f0918ac6c8aecd8188c58731c50c6cc086f8b7421ec4b89278b61dc",
+            "bounding_box": "{\"x1\": 954, \"y1\": 94, \"x2\": 1038, \"y2\": 178}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/title",
+            "text_content": "Label",
+            "word_sequence": [
+                "Label"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "cc2103247f0918ac6c8aecd8188c58731c50c6cc086f8b7421ec4b89278b61dc",
+            "bounding_box": "{\"x1\": 607, \"y1\": 233, \"x2\": 954, \"y2\": 290}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/radio",
+            "text_content": "",
+            "word_sequence": [
+                "radio"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "cc2103247f0918ac6c8aecd8188c58731c50c6cc086f8b7421ec4b89278b61dc",
+            "bounding_box": "{\"x1\": 954, \"y1\": 220, \"x2\": 1038, \"y2\": 304}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/title",
+            "text_content": "Last used",
+            "word_sequence": [
+                "Last",
+                "used"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "cc2103247f0918ac6c8aecd8188c58731c50c6cc086f8b7421ec4b89278b61dc",
+            "bounding_box": "{\"x1\": 607, \"y1\": 359, \"x2\": 954, \"y2\": 416}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/radio",
+            "text_content": "",
+            "word_sequence": [
+                "radio"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "cc2103247f0918ac6c8aecd8188c58731c50c6cc086f8b7421ec4b89278b61dc",
+            "bounding_box": "{\"x1\": 954, \"y1\": 346, \"x2\": 1038, \"y2\": 430}"
+        }
+    ],
+    "4d2bc43179adc67bffb94f7bce6fe5a65f1c61fb3afc6040714b88d8fdd120de": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Collapse",
+            "word_sequence": [
+                "Collapse"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "4d2bc43179adc67bffb94f7bce6fe5a65f1c61fb3afc6040714b88d8fdd120de",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/search_src_text",
+            "text_content": "test",
+            "word_sequence": [
+                "test"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 130,
+            "screen_id": "4d2bc43179adc67bffb94f7bce6fe5a65f1c61fb3afc6040714b88d8fdd120de",
+            "bounding_box": "{\"x1\": 210, \"y1\": 88, \"x2\": 849, \"y2\": 183}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/search_close_btn",
+            "text_content": "Clear query",
+            "word_sequence": [
+                "Clear",
+                "query"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 130,
+            "screen_id": "4d2bc43179adc67bffb94f7bce6fe5a65f1c61fb3afc6040714b88d8fdd120de",
+            "bounding_box": "{\"x1\": 849, \"y1\": 73, \"x2\": 954, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 130,
+            "screen_id": "4d2bc43179adc67bffb94f7bce6fe5a65f1c61fb3afc6040714b88d8fdd120de",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/progressBar",
+            "text_content": "",
+            "word_sequence": [
+                "progress",
+                "Bar"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "4d2bc43179adc67bffb94f7bce6fe5a65f1c61fb3afc6040714b88d8fdd120de",
+            "bounding_box": "{\"x1\": 0, \"y1\": 199, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/cardList",
+            "text_content": "",
+            "word_sequence": [
+                "card",
+                "List"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "4d2bc43179adc67bffb94f7bce6fe5a65f1c61fb3afc6040714b88d8fdd120de",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "b376fc15b36b98f9484cc0088749fb61868692968eb787cd3c95d4f161d29c1d": [
+        {
+            "component_id": 0,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/title",
+            "text_content": "Backup",
+            "word_sequence": [
+                "Backup"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "b376fc15b36b98f9484cc0088749fb61868692968eb787cd3c95d4f161d29c1d",
+            "bounding_box": "{\"x1\": 597, \"y1\": 107, \"x2\": 1028, \"y2\": 164}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/title",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "b376fc15b36b98f9484cc0088749fb61868692968eb787cd3c95d4f161d29c1d",
+            "bounding_box": "{\"x1\": 597, \"y1\": 233, \"x2\": 1028, \"y2\": 290}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.shadowice.flocke.andotp.dev:id/title",
+            "text_content": "About",
+            "word_sequence": [
+                "About"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "b376fc15b36b98f9484cc0088749fb61868692968eb787cd3c95d4f161d29c1d",
+            "bounding_box": "{\"x1\": 597, \"y1\": 359, \"x2\": 1028, \"y2\": 416}"
+        }
+    ],
+    "60b83e864e6d1d5926b6f97e8edc50fcd08beb91417f924394b0baa463a228d9": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "60b83e864e6d1d5926b6f97e8edc50fcd08beb91417f924394b0baa463a228d9",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "60b83e864e6d1d5926b6f97e8edc50fcd08beb91417f924394b0baa463a228d9",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 385, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/title",
+            "text_content": "Security",
+            "word_sequence": [
+                "Security"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "60b83e864e6d1d5926b6f97e8edc50fcd08beb91417f924394b0baa463a228d9",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 303}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/title",
+            "text_content": "Tap to reveal",
+            "word_sequence": [
+                "Tap",
+                "to",
+                "reveal"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "60b83e864e6d1d5926b6f97e8edc50fcd08beb91417f924394b0baa463a228d9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 348, \"x2\": 281, \"y2\": 405}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/summary",
+            "text_content": "Hide the OTP tokens by default, requiring them to be revealed manually",
+            "word_sequence": [
+                "Hide",
+                "the",
+                "OTP",
+                "tokens",
+                "by",
+                "default",
+                ",",
+                "requiring",
+                "them",
+                "to",
+                "be",
+                "revealed",
+                "manually"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "60b83e864e6d1d5926b6f97e8edc50fcd08beb91417f924394b0baa463a228d9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 405, \"x2\": 912, \"y2\": 499}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/checkbox",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "CHECKBOX",
+            "app_name": 130,
+            "screen_id": "60b83e864e6d1d5926b6f97e8edc50fcd08beb91417f924394b0baa463a228d9",
+            "bounding_box": "{\"x1\": 954, \"y1\": 381, \"x2\": 1038, \"y2\": 465}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/title",
+            "text_content": "Timeout for tap to reveal",
+            "word_sequence": [
+                "Timeout",
+                "for",
+                "tap",
+                "to",
+                "reveal"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "60b83e864e6d1d5926b6f97e8edc50fcd08beb91417f924394b0baa463a228d9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 586, \"x2\": 500, \"y2\": 643}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/summary",
+            "text_content": "30",
+            "word_sequence": [
+                "30"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "60b83e864e6d1d5926b6f97e8edc50fcd08beb91417f924394b0baa463a228d9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 643, \"x2\": 84, \"y2\": 694}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/title",
+            "text_content": "Authentication",
+            "word_sequence": [
+                "Authentication"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "60b83e864e6d1d5926b6f97e8edc50fcd08beb91417f924394b0baa463a228d9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 781, \"x2\": 314, \"y2\": 838}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/summary",
+            "text_content": "Password",
+            "word_sequence": [
+                "Password"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "60b83e864e6d1d5926b6f97e8edc50fcd08beb91417f924394b0baa463a228d9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 838, \"x2\": 206, \"y2\": 889}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/title",
+            "text_content": "Database encryption",
+            "word_sequence": [
+                "Database",
+                "encryption"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "60b83e864e6d1d5926b6f97e8edc50fcd08beb91417f924394b0baa463a228d9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 976, \"x2\": 427, \"y2\": 1033}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "android:id/summary",
+            "text_content": "Password / PIN",
+            "word_sequence": [
+                "Password",
+                "/",
+                "PIN"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "60b83e864e6d1d5926b6f97e8edc50fcd08beb91417f924394b0baa463a228d9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1033, \"x2\": 298, \"y2\": 1084}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "android:id/title",
+            "text_content": "Panic Trigger",
+            "word_sequence": [
+                "Panic",
+                "Trigger"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "60b83e864e6d1d5926b6f97e8edc50fcd08beb91417f924394b0baa463a228d9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1171, \"x2\": 288, \"y2\": 1228}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "android:id/summary",
+            "text_content": "Decide what happens when a Panic Trigger is received",
+            "word_sequence": [
+                "Decide",
+                "what",
+                "happens",
+                "when",
+                "a",
+                "Panic",
+                "Trigger",
+                "is",
+                "received"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "60b83e864e6d1d5926b6f97e8edc50fcd08beb91417f924394b0baa463a228d9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1228, \"x2\": 933, \"y2\": 1279}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "android:id/title",
+            "text_content": "Re-lock on screen off",
+            "word_sequence": [
+                "Re",
+                "lock",
+                "on",
+                "screen",
+                "off"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "60b83e864e6d1d5926b6f97e8edc50fcd08beb91417f924394b0baa463a228d9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1366, \"x2\": 435, \"y2\": 1423}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "android:id/summary",
+            "text_content": "Require authentication after the devices screen has been turned off",
+            "word_sequence": [
+                "Require",
+                "authentication",
+                "after",
+                "the",
+                "devices",
+                "screen",
+                "has",
+                "been",
+                "turned",
+                "off"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "60b83e864e6d1d5926b6f97e8edc50fcd08beb91417f924394b0baa463a228d9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1423, \"x2\": 912, \"y2\": 1517}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "android:id/checkbox",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "CHECKBOX",
+            "app_name": 130,
+            "screen_id": "60b83e864e6d1d5926b6f97e8edc50fcd08beb91417f924394b0baa463a228d9",
+            "bounding_box": "{\"x1\": 954, \"y1\": 1399, \"x2\": 1038, \"y2\": 1483}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "android:id/title",
+            "text_content": "User interface",
+            "word_sequence": [
+                "User",
+                "interface"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "60b83e864e6d1d5926b6f97e8edc50fcd08beb91417f924394b0baa463a228d9",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1562, \"x2\": 1080, \"y2\": 1655}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "android:id/title",
+            "text_content": "Language",
+            "word_sequence": [
+                "Language"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "60b83e864e6d1d5926b6f97e8edc50fcd08beb91417f924394b0baa463a228d9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1700, \"x2\": 227, \"y2\": 1757}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "android:id/summary",
+            "text_content": "System default",
+            "word_sequence": [
+                "System",
+                "default"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "60b83e864e6d1d5926b6f97e8edc50fcd08beb91417f924394b0baa463a228d9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1757, \"x2\": 289, \"y2\": 1794}"
+        }
+    ],
+    "0fd67831f7147f66f28a7e2ae3887d1918409a1399518c681c0cae3b8a021e75": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "Timeout for tap to reveal",
+            "word_sequence": [
+                "Timeout",
+                "for",
+                "tap",
+                "to",
+                "reveal"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "0fd67831f7147f66f28a7e2ae3887d1918409a1399518c681c0cae3b8a021e75",
+            "bounding_box": "{\"x1\": 133, \"y1\": 543, \"x2\": 947, \"y2\": 614}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/message",
+            "text_content": "Select the time (in sec) after which to hide revealed entries again",
+            "word_sequence": [
+                "Select",
+                "the",
+                "time",
+                "in",
+                "sec",
+                "after",
+                "which",
+                "to",
+                "hide",
+                "revealed",
+                "entries",
+                "again"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "0fd67831f7147f66f28a7e2ae3887d1918409a1399518c681c0cae3b8a021e75",
+            "bounding_box": "{\"x1\": 70, \"y1\": 614, \"x2\": 1010, \"y2\": 720}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "29",
+            "word_sequence": [
+                "29"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "0fd67831f7147f66f28a7e2ae3887d1918409a1399518c681c0cae3b8a021e75",
+            "bounding_box": "{\"x1\": 456, \"y1\": 740, \"x2\": 624, \"y2\": 913}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/numberpicker_input",
+            "text_content": "30",
+            "word_sequence": [
+                "30"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 130,
+            "screen_id": "0fd67831f7147f66f28a7e2ae3887d1918409a1399518c681c0cae3b8a021e75",
+            "bounding_box": "{\"x1\": 456, \"y1\": 913, \"x2\": 624, \"y2\": 1039}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "31",
+            "word_sequence": [
+                "31"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "0fd67831f7147f66f28a7e2ae3887d1918409a1399518c681c0cae3b8a021e75",
+            "bounding_box": "{\"x1\": 456, \"y1\": 1039, \"x2\": 624, \"y2\": 1213}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/button2",
+            "text_content": "CANCEL",
+            "word_sequence": [
+                "CANCEL"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "0fd67831f7147f66f28a7e2ae3887d1918409a1399518c681c0cae3b8a021e75",
+            "bounding_box": "{\"x1\": 608, \"y1\": 1224, \"x2\": 810, \"y2\": 1350}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/button1",
+            "text_content": "OK",
+            "word_sequence": [
+                "OK"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "0fd67831f7147f66f28a7e2ae3887d1918409a1399518c681c0cae3b8a021e75",
+            "bounding_box": "{\"x1\": 810, \"y1\": 1224, \"x2\": 978, \"y2\": 1350}"
+        }
+    ],
+    "8985d0dd07bd2e6c31bb5b7b946d61b381954d34aa60a67c7e916a3f13f4c07d": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "Panic Trigger",
+            "word_sequence": [
+                "Panic",
+                "Trigger"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "8985d0dd07bd2e6c31bb5b7b946d61b381954d34aa60a67c7e916a3f13f4c07d",
+            "bounding_box": "{\"x1\": 133, \"y1\": 706, \"x2\": 947, \"y2\": 777}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/titleDividerNoCustom",
+            "text_content": "",
+            "word_sequence": [
+                "title",
+                "Divider",
+                "No",
+                "Custom"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "8985d0dd07bd2e6c31bb5b7b946d61b381954d34aa60a67c7e916a3f13f4c07d",
+            "bounding_box": "{\"x1\": 70, \"y1\": 777, \"x2\": 1010, \"y2\": 798}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/text1",
+            "text_content": "Wipe all accounts",
+            "word_sequence": [
+                "Wipe",
+                "all",
+                "accounts"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "8985d0dd07bd2e6c31bb5b7b946d61b381954d34aa60a67c7e916a3f13f4c07d",
+            "bounding_box": "{\"x1\": 70, \"y1\": 798, \"x2\": 1010, \"y2\": 924}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/text1",
+            "text_content": "Reset app settings",
+            "word_sequence": [
+                "Reset",
+                "app",
+                "settings"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "8985d0dd07bd2e6c31bb5b7b946d61b381954d34aa60a67c7e916a3f13f4c07d",
+            "bounding_box": "{\"x1\": 70, \"y1\": 924, \"x2\": 1010, \"y2\": 1050}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/button2",
+            "text_content": "CANCEL",
+            "word_sequence": [
+                "CANCEL"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "8985d0dd07bd2e6c31bb5b7b946d61b381954d34aa60a67c7e916a3f13f4c07d",
+            "bounding_box": "{\"x1\": 608, \"y1\": 1061, \"x2\": 810, \"y2\": 1187}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/button1",
+            "text_content": "OK",
+            "word_sequence": [
+                "OK"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "8985d0dd07bd2e6c31bb5b7b946d61b381954d34aa60a67c7e916a3f13f4c07d",
+            "bounding_box": "{\"x1\": 810, \"y1\": 1061, \"x2\": 978, \"y2\": 1187}"
+        }
+    ],
+    "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 385, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 42, \"y1\": 210, \"x2\": 912, \"y2\": 224}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/widget_frame",
+            "text_content": "",
+            "word_sequence": [
+                "widget",
+                "frame"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 912, \"y1\": 210, \"x2\": 1038, \"y2\": 224}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/title",
+            "text_content": "User interface",
+            "word_sequence": [
+                "User",
+                "interface"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 0, \"y1\": 227, \"x2\": 1080, \"y2\": 320}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/title",
+            "text_content": "Language",
+            "word_sequence": [
+                "Language"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 42, \"y1\": 365, \"x2\": 227, \"y2\": 422}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/summary",
+            "text_content": "System default",
+            "word_sequence": [
+                "System",
+                "default"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 42, \"y1\": 422, \"x2\": 289, \"y2\": 473}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/title",
+            "text_content": "Theme",
+            "word_sequence": [
+                "Theme"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 42, \"y1\": 560, \"x2\": 171, \"y2\": 617}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/summary",
+            "text_content": "Light theme",
+            "word_sequence": [
+                "Light",
+                "theme"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 42, \"y1\": 617, \"x2\": 237, \"y2\": 668}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/title",
+            "text_content": "Label font size",
+            "word_sequence": [
+                "Label",
+                "font",
+                "size"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 42, \"y1\": 755, \"x2\": 315, \"y2\": 812}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/summary",
+            "text_content": "18",
+            "word_sequence": [
+                "18"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 42, \"y1\": 812, \"x2\": 84, \"y2\": 863}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "android:id/title",
+            "text_content": "Scroll label",
+            "word_sequence": [
+                "Scroll",
+                "label"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 42, \"y1\": 950, \"x2\": 246, \"y2\": 1007}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "android:id/summary",
+            "text_content": "Scroll overlong labels instead of truncating them",
+            "word_sequence": [
+                "Scroll",
+                "overlong",
+                "labels",
+                "instead",
+                "of",
+                "truncating",
+                "them"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1007, \"x2\": 835, \"y2\": 1058}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "android:id/checkbox",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "CHECKBOX",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 954, \"y1\": 962, \"x2\": 1038, \"y2\": 1046}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "android:id/title",
+            "text_content": "Thumbnail size",
+            "word_sequence": [
+                "Thumbnail",
+                "size"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1145, \"x2\": 325, \"y2\": 1202}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "android:id/title",
+            "text_content": "Split Token with space",
+            "word_sequence": [
+                "Split",
+                "Token",
+                "with",
+                "space"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1289, \"x2\": 460, \"y2\": 1346}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "android:id/summary",
+            "text_content": "After three characters",
+            "word_sequence": [
+                "After",
+                "three",
+                "characters"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1346, \"x2\": 401, \"y2\": 1397}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "android:id/title",
+            "text_content": "Tag selection behavior",
+            "word_sequence": [
+                "Tag",
+                "selection",
+                "behavior"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1484, \"x2\": 461, \"y2\": 1541}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "android:id/summary",
+            "text_content": "Show all entries matching any of the selected tags (or)",
+            "word_sequence": [
+                "Show",
+                "all",
+                "entries",
+                "matching",
+                "any",
+                "of",
+                "the",
+                "selected",
+                "tags",
+                "or"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1541, \"x2\": 934, \"y2\": 1592}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "android:id/title",
+            "text_content": "Backup",
+            "word_sequence": [
+                "Backup"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1637, \"x2\": 1080, \"y2\": 1730}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "android:id/title",
+            "text_content": "Enable Android sync",
+            "word_sequence": [
+                "Enable",
+                "Android",
+                "sync"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1775, \"x2\": 421, \"y2\": 1794}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "android:id/widget_frame",
+            "text_content": "",
+            "word_sequence": [
+                "widget",
+                "frame"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "4238453c3475f03d3ab859103216457f9de08525e890820ed6c1e523b4b61237",
+            "bounding_box": "{\"x1\": 912, \"y1\": 1733, \"x2\": 1038, \"y2\": 1794}"
+        }
+    ],
+    "a6b9f22085ddf8241f48842c64d2d2a499365a9b7a859087258ec4e0d6ca61f1": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "Label font size",
+            "word_sequence": [
+                "Label",
+                "font",
+                "size"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "a6b9f22085ddf8241f48842c64d2d2a499365a9b7a859087258ec4e0d6ca61f1",
+            "bounding_box": "{\"x1\": 133, \"y1\": 606, \"x2\": 947, \"y2\": 677}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "17",
+            "word_sequence": [
+                "17"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "a6b9f22085ddf8241f48842c64d2d2a499365a9b7a859087258ec4e0d6ca61f1",
+            "bounding_box": "{\"x1\": 456, \"y1\": 677, \"x2\": 624, \"y2\": 850}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/numberpicker_input",
+            "text_content": "18",
+            "word_sequence": [
+                "18"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 130,
+            "screen_id": "a6b9f22085ddf8241f48842c64d2d2a499365a9b7a859087258ec4e0d6ca61f1",
+            "bounding_box": "{\"x1\": 456, \"y1\": 850, \"x2\": 624, \"y2\": 976}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "19",
+            "word_sequence": [
+                "19"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "a6b9f22085ddf8241f48842c64d2d2a499365a9b7a859087258ec4e0d6ca61f1",
+            "bounding_box": "{\"x1\": 456, \"y1\": 976, \"x2\": 624, \"y2\": 1150}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/button2",
+            "text_content": "CANCEL",
+            "word_sequence": [
+                "CANCEL"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "a6b9f22085ddf8241f48842c64d2d2a499365a9b7a859087258ec4e0d6ca61f1",
+            "bounding_box": "{\"x1\": 608, \"y1\": 1161, \"x2\": 810, \"y2\": 1287}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/button1",
+            "text_content": "OK",
+            "word_sequence": [
+                "OK"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "a6b9f22085ddf8241f48842c64d2d2a499365a9b7a859087258ec4e0d6ca61f1",
+            "bounding_box": "{\"x1\": 810, \"y1\": 1161, \"x2\": 978, \"y2\": 1287}"
+        }
+    ],
+    "35e4eb73a3ca02358d3b8bb06ef5b47ab845bd8e09dc224de865a9bdc4a1a5e6": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "Split Token with space",
+            "word_sequence": [
+                "Split",
+                "Token",
+                "with",
+                "space"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "35e4eb73a3ca02358d3b8bb06ef5b47ab845bd8e09dc224de865a9bdc4a1a5e6",
+            "bounding_box": "{\"x1\": 133, \"y1\": 643, \"x2\": 947, \"y2\": 714}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/titleDividerNoCustom",
+            "text_content": "",
+            "word_sequence": [
+                "title",
+                "Divider",
+                "No",
+                "Custom"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "35e4eb73a3ca02358d3b8bb06ef5b47ab845bd8e09dc224de865a9bdc4a1a5e6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 714, \"x2\": 1010, \"y2\": 735}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/text1",
+            "text_content": "Don't split",
+            "word_sequence": [
+                "Don't",
+                "split"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "35e4eb73a3ca02358d3b8bb06ef5b47ab845bd8e09dc224de865a9bdc4a1a5e6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 735, \"x2\": 1010, \"y2\": 861}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/text1",
+            "text_content": "After two characters",
+            "word_sequence": [
+                "After",
+                "two",
+                "characters"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "35e4eb73a3ca02358d3b8bb06ef5b47ab845bd8e09dc224de865a9bdc4a1a5e6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 861, \"x2\": 1010, \"y2\": 987}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/text1",
+            "text_content": "After three characters",
+            "word_sequence": [
+                "After",
+                "three",
+                "characters"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "35e4eb73a3ca02358d3b8bb06ef5b47ab845bd8e09dc224de865a9bdc4a1a5e6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 987, \"x2\": 1010, \"y2\": 1113}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/button2",
+            "text_content": "CANCEL",
+            "word_sequence": [
+                "CANCEL"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "35e4eb73a3ca02358d3b8bb06ef5b47ab845bd8e09dc224de865a9bdc4a1a5e6",
+            "bounding_box": "{\"x1\": 776, \"y1\": 1124, \"x2\": 978, \"y2\": 1250}"
+        }
+    ],
+    "20e1415fd495817f8dff246eabdd0cab8bf63ecb8cb981b4641dcc87486381ef": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "Thumbnail size",
+            "word_sequence": [
+                "Thumbnail",
+                "size"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "20e1415fd495817f8dff246eabdd0cab8bf63ecb8cb981b4641dcc87486381ef",
+            "bounding_box": "{\"x1\": 133, \"y1\": 517, \"x2\": 947, \"y2\": 588}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/titleDividerNoCustom",
+            "text_content": "",
+            "word_sequence": [
+                "title",
+                "Divider",
+                "No",
+                "Custom"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "20e1415fd495817f8dff246eabdd0cab8bf63ecb8cb981b4641dcc87486381ef",
+            "bounding_box": "{\"x1\": 70, \"y1\": 588, \"x2\": 1010, \"y2\": 609}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/text1",
+            "text_content": "Hidden",
+            "word_sequence": [
+                "Hidden"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "20e1415fd495817f8dff246eabdd0cab8bf63ecb8cb981b4641dcc87486381ef",
+            "bounding_box": "{\"x1\": 70, \"y1\": 609, \"x2\": 1010, \"y2\": 735}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/text1",
+            "text_content": "Small",
+            "word_sequence": [
+                "Small"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "20e1415fd495817f8dff246eabdd0cab8bf63ecb8cb981b4641dcc87486381ef",
+            "bounding_box": "{\"x1\": 70, \"y1\": 735, \"x2\": 1010, \"y2\": 861}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/text1",
+            "text_content": "Default",
+            "word_sequence": [
+                "Default"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "20e1415fd495817f8dff246eabdd0cab8bf63ecb8cb981b4641dcc87486381ef",
+            "bounding_box": "{\"x1\": 70, \"y1\": 861, \"x2\": 1010, \"y2\": 987}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/text1",
+            "text_content": "Medium",
+            "word_sequence": [
+                "Medium"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "20e1415fd495817f8dff246eabdd0cab8bf63ecb8cb981b4641dcc87486381ef",
+            "bounding_box": "{\"x1\": 70, \"y1\": 987, \"x2\": 1010, \"y2\": 1113}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/text1",
+            "text_content": "Large",
+            "word_sequence": [
+                "Large"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "20e1415fd495817f8dff246eabdd0cab8bf63ecb8cb981b4641dcc87486381ef",
+            "bounding_box": "{\"x1\": 70, \"y1\": 1113, \"x2\": 1010, \"y2\": 1239}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/button2",
+            "text_content": "CANCEL",
+            "word_sequence": [
+                "CANCEL"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "20e1415fd495817f8dff246eabdd0cab8bf63ecb8cb981b4641dcc87486381ef",
+            "bounding_box": "{\"x1\": 776, \"y1\": 1250, \"x2\": 978, \"y2\": 1376}"
+        }
+    ],
+    "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "Language",
+            "word_sequence": [
+                "Language"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 130,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 133, \"y1\": 152, \"x2\": 947, \"y2\": 223}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/titleDividerNoCustom",
+            "text_content": "",
+            "word_sequence": [
+                "title",
+                "Divider",
+                "No",
+                "Custom"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 130,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 223, \"x2\": 1010, \"y2\": 244}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/text1",
+            "text_content": "System default",
+            "word_sequence": [
+                "System",
+                "default"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 244, \"x2\": 1010, \"y2\": 370}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/text1",
+            "text_content": "Catal\u00e0",
+            "word_sequence": [
+                "Catal\u00e0"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 370, \"x2\": 1010, \"y2\": 496}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/text1",
+            "text_content": "Deutsch",
+            "word_sequence": [
+                "Deutsch"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 496, \"x2\": 1010, \"y2\": 622}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/text1",
+            "text_content": "English",
+            "word_sequence": [
+                "English"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 622, \"x2\": 1010, \"y2\": 748}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/text1",
+            "text_content": "Espa\u00f1ol",
+            "word_sequence": [
+                "Espa\u00f1ol"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 748, \"x2\": 1010, \"y2\": 874}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/text1",
+            "text_content": "Fran\u00e7ais",
+            "word_sequence": [
+                "Fran\u00e7ais"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 874, \"x2\": 1010, \"y2\": 1000}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/text1",
+            "text_content": "Galego",
+            "word_sequence": [
+                "Galego"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 1000, \"x2\": 1010, \"y2\": 1126}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/text1",
+            "text_content": "Magyar",
+            "word_sequence": [
+                "Magyar"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 1126, \"x2\": 1010, \"y2\": 1252}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/text1",
+            "text_content": "Italiano",
+            "word_sequence": [
+                "Italiano"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 1252, \"x2\": 1010, \"y2\": 1378}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "android:id/text1",
+            "text_content": "Nederlands",
+            "word_sequence": [
+                "Nederlands"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 1378, \"x2\": 1010, \"y2\": 1504}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "android:id/text1",
+            "text_content": "Polski",
+            "word_sequence": [
+                "Polski"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 130,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 1504, \"x2\": 1010, \"y2\": 1603}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "android:id/button2",
+            "text_content": "CANCEL",
+            "word_sequence": [
+                "CANCEL"
+            ],
+            "type": "BUTTON",
+            "app_name": 130,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 776, \"y1\": 1614, \"x2\": 978, \"y2\": 1740}"
+        }
+    ]
+}

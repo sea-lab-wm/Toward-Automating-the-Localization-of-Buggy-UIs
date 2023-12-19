@@ -1,0 +1,3333 @@
+{
+    "app-name": 1428,
+    "2fa725e13094ebe89fcd2f649e866d3bef48ac46a3c490874ded0c2707bd7efd": [
+        {
+            "component_id": 0,
+            "resource_id": "com.easyfitness:id/mi_image",
+            "text_content": "",
+            "word_sequence": [
+                "mi",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "2fa725e13094ebe89fcd2f649e866d3bef48ac46a3c490874ded0c2707bd7efd",
+            "bounding_box": "{\"x1\": 204, \"y1\": 509, \"x2\": 876, \"y2\": 1181}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.easyfitness:id/mi_title",
+            "text_content": "Hello",
+            "word_sequence": [
+                "Hello"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "2fa725e13094ebe89fcd2f649e866d3bef48ac46a3c490874ded0c2707bd7efd",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1265, \"x2\": 1038, \"y2\": 1350}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/mi_description",
+            "text_content": "Welcome to Fast N Fitness! This application is a quick and simple way to record your program and follow your progression and the evolution of your body.",
+            "word_sequence": [
+                "Welcome",
+                "to",
+                "Fast",
+                "N",
+                "Fitness",
+                "!",
+                "This",
+                "application",
+                "is",
+                "a",
+                "quick",
+                "and",
+                "simple",
+                "way",
+                "to",
+                "record",
+                "your",
+                "program",
+                "and",
+                "follow",
+                "your",
+                "progression",
+                "and",
+                "the",
+                "evolution",
+                "of",
+                "your",
+                "body",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "2fa725e13094ebe89fcd2f649e866d3bef48ac46a3c490874ded0c2707bd7efd",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1392, \"x2\": 1038, \"y2\": 1596}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/mi_pager_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "mi",
+                "pager",
+                "indicator"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1428,
+            "screen_id": "2fa725e13094ebe89fcd2f649e866d3bef48ac46a3c490874ded0c2707bd7efd",
+            "bounding_box": "{\"x1\": 231, \"y1\": 2146, \"x2\": 849, \"y2\": 2172}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.easyfitness:id/mi_button_next",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "2fa725e13094ebe89fcd2f649e866d3bef48ac46a3c490874ded0c2707bd7efd",
+            "bounding_box": "{\"x1\": 891, \"y1\": 2085, \"x2\": 1038, \"y2\": 2232}"
+        }
+    ],
+    "5369b647e542829800b933dc664c96e05e57c09e18de08f495a34577131269b6": [
+        {
+            "component_id": 0,
+            "resource_id": "com.easyfitness:id/mi_image",
+            "text_content": "",
+            "word_sequence": [
+                "mi",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "5369b647e542829800b933dc664c96e05e57c09e18de08f495a34577131269b6",
+            "bounding_box": "{\"x1\": 204, \"y1\": 534, \"x2\": 876, \"y2\": 1206}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.easyfitness:id/mi_title",
+            "text_content": "Quick and easy",
+            "word_sequence": [
+                "Quick",
+                "and",
+                "easy"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "5369b647e542829800b933dc664c96e05e57c09e18de08f495a34577131269b6",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1290, \"x2\": 1038, \"y2\": 1375}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/mi_description",
+            "text_content": "Write the name of the exercise and the details, and it will be created automatically. You can find it back easily in the list.",
+            "word_sequence": [
+                "Write",
+                "the",
+                "name",
+                "of",
+                "the",
+                "exercise",
+                "and",
+                "the",
+                "details",
+                ",",
+                "and",
+                "it",
+                "will",
+                "be",
+                "created",
+                "automatically",
+                ".",
+                "You",
+                "can",
+                "find",
+                "it",
+                "back",
+                "easily",
+                "in",
+                "the",
+                "list",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "5369b647e542829800b933dc664c96e05e57c09e18de08f495a34577131269b6",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1417, \"x2\": 1038, \"y2\": 1572}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/mi_button_skip",
+            "text_content": "Back",
+            "word_sequence": [
+                "Back"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "5369b647e542829800b933dc664c96e05e57c09e18de08f495a34577131269b6",
+            "bounding_box": "{\"x1\": 42, \"y1\": 2085, \"x2\": 189, \"y2\": 2232}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.easyfitness:id/mi_pager_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "mi",
+                "pager",
+                "indicator"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1428,
+            "screen_id": "5369b647e542829800b933dc664c96e05e57c09e18de08f495a34577131269b6",
+            "bounding_box": "{\"x1\": 231, \"y1\": 2146, \"x2\": 849, \"y2\": 2172}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.easyfitness:id/mi_button_next",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "5369b647e542829800b933dc664c96e05e57c09e18de08f495a34577131269b6",
+            "bounding_box": "{\"x1\": 891, \"y1\": 2085, \"x2\": 1038, \"y2\": 2232}"
+        }
+    ],
+    "93d86e7c48db9017bc9b09ce380e857728173a2658bba1e866aa7cfe849d47f7": [
+        {
+            "component_id": 0,
+            "resource_id": "com.easyfitness:id/mi_image",
+            "text_content": "",
+            "word_sequence": [
+                "mi",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "93d86e7c48db9017bc9b09ce380e857728173a2658bba1e866aa7cfe849d47f7",
+            "bounding_box": "{\"x1\": 204, \"y1\": 269, \"x2\": 876, \"y2\": 941}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.easyfitness:id/mi_title",
+            "text_content": "Hello",
+            "word_sequence": [
+                "Hello"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "93d86e7c48db9017bc9b09ce380e857728173a2658bba1e866aa7cfe849d47f7",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1025, \"x2\": 1038, \"y2\": 1110}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/mi_description",
+            "text_content": "Welcome to Fast N Fitness! This application is a quick and simple way to record your program and follow your progression and the evolution of your body.",
+            "word_sequence": [
+                "Welcome",
+                "to",
+                "Fast",
+                "N",
+                "Fitness",
+                "!",
+                "This",
+                "application",
+                "is",
+                "a",
+                "quick",
+                "and",
+                "simple",
+                "way",
+                "to",
+                "record",
+                "your",
+                "program",
+                "and",
+                "follow",
+                "your",
+                "progression",
+                "and",
+                "the",
+                "evolution",
+                "of",
+                "your",
+                "body",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "93d86e7c48db9017bc9b09ce380e857728173a2658bba1e866aa7cfe849d47f7",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1152, \"x2\": 1038, \"y2\": 1356}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/mi_pager_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "mi",
+                "pager",
+                "indicator"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1428,
+            "screen_id": "93d86e7c48db9017bc9b09ce380e857728173a2658bba1e866aa7cfe849d47f7",
+            "bounding_box": "{\"x1\": 231, \"y1\": 1666, \"x2\": 849, \"y2\": 1692}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.easyfitness:id/mi_button_next",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "93d86e7c48db9017bc9b09ce380e857728173a2658bba1e866aa7cfe849d47f7",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "48442983c05fbeda197a4b476ed415e55b69ee32038f1b4ce341bac9e53951fa": [
+        {
+            "component_id": 0,
+            "resource_id": "com.easyfitness:id/mi_image",
+            "text_content": "",
+            "word_sequence": [
+                "mi",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "48442983c05fbeda197a4b476ed415e55b69ee32038f1b4ce341bac9e53951fa",
+            "bounding_box": "{\"x1\": 204, \"y1\": 294, \"x2\": 876, \"y2\": 966}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.easyfitness:id/mi_title",
+            "text_content": "Quick and easy",
+            "word_sequence": [
+                "Quick",
+                "and",
+                "easy"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "48442983c05fbeda197a4b476ed415e55b69ee32038f1b4ce341bac9e53951fa",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1050, \"x2\": 1038, \"y2\": 1135}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/mi_description",
+            "text_content": "Write the name of the exercise and the details, and it will be created automatically. You can find it back easily in the list.",
+            "word_sequence": [
+                "Write",
+                "the",
+                "name",
+                "of",
+                "the",
+                "exercise",
+                "and",
+                "the",
+                "details",
+                ",",
+                "and",
+                "it",
+                "will",
+                "be",
+                "created",
+                "automatically",
+                ".",
+                "You",
+                "can",
+                "find",
+                "it",
+                "back",
+                "easily",
+                "in",
+                "the",
+                "list",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "48442983c05fbeda197a4b476ed415e55b69ee32038f1b4ce341bac9e53951fa",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1177, \"x2\": 1038, \"y2\": 1332}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/mi_button_skip",
+            "text_content": "Back",
+            "word_sequence": [
+                "Back"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "48442983c05fbeda197a4b476ed415e55b69ee32038f1b4ce341bac9e53951fa",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1605, \"x2\": 189, \"y2\": 1752}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.easyfitness:id/mi_pager_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "mi",
+                "pager",
+                "indicator"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1428,
+            "screen_id": "48442983c05fbeda197a4b476ed415e55b69ee32038f1b4ce341bac9e53951fa",
+            "bounding_box": "{\"x1\": 231, \"y1\": 1666, \"x2\": 849, \"y2\": 1692}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.easyfitness:id/mi_button_next",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "48442983c05fbeda197a4b476ed415e55b69ee32038f1b4ce341bac9e53951fa",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Create a profile",
+            "word_sequence": [
+                "Create",
+                "a",
+                "profile"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 42, \"y1\": 105, \"x2\": 1038, \"y2\": 190}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.easyfitness:id/profileName",
+            "text_content": "Name / pseudonym",
+            "word_sequence": [
+                "Name",
+                "/",
+                "pseudonym"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1428,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 42, \"y1\": 245, \"x2\": 1038, \"y2\": 363}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/radioButtonMale",
+            "text_content": "Male",
+            "word_sequence": [
+                "Male"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 55, \"y1\": 389, \"x2\": 361, \"y2\": 450}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/radioButtonFemale",
+            "text_content": "Female",
+            "word_sequence": [
+                "Female"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 387, \"y1\": 389, \"x2\": 693, \"y2\": 450}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.easyfitness:id/radioButtonOtherGender",
+            "text_content": "Other",
+            "word_sequence": [
+                "Other"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 719, \"y1\": 389, \"x2\": 1025, \"y2\": 450}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.easyfitness:id/profileBirthday",
+            "text_content": "Birthday (optional)",
+            "word_sequence": [
+                "Birthday",
+                "optional"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 42, \"y1\": 476, \"x2\": 1038, \"y2\": 594}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.easyfitness:id/profileSize",
+            "text_content": "Size in cm (optional)",
+            "word_sequence": [
+                "Size",
+                "in",
+                "cm",
+                "optional"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1428,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 42, \"y1\": 636, \"x2\": 1038, \"y2\": 754}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.easyfitness:id/create_newprofil",
+            "text_content": "CREATE",
+            "word_sequence": [
+                "CREATE"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 42, \"y1\": 796, \"x2\": 1038, \"y2\": 922}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.easyfitness:id/mi_button_skip",
+            "text_content": "Back",
+            "word_sequence": [
+                "Back"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1605, \"x2\": 189, \"y2\": 1752}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.easyfitness:id/mi_pager_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "mi",
+                "pager",
+                "indicator"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1428,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 231, \"y1\": 1666, \"x2\": 849, \"y2\": 1692}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.easyfitness:id/mi_button_next",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "c9d29c27690eac71b1ec76c7cbcc3b51f5b2fbafe1f4e3c08523fb29091b5ca0": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Create a profile",
+            "word_sequence": [
+                "Create",
+                "a",
+                "profile"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "c9d29c27690eac71b1ec76c7cbcc3b51f5b2fbafe1f4e3c08523fb29091b5ca0",
+            "bounding_box": "{\"x1\": 42, \"y1\": 105, \"x2\": 1038, \"y2\": 190}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.easyfitness:id/profileName",
+            "text_content": "aaa",
+            "word_sequence": [
+                "aaa"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1428,
+            "screen_id": "c9d29c27690eac71b1ec76c7cbcc3b51f5b2fbafe1f4e3c08523fb29091b5ca0",
+            "bounding_box": "{\"x1\": 42, \"y1\": 245, \"x2\": 1038, \"y2\": 363}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/radioButtonMale",
+            "text_content": "Male",
+            "word_sequence": [
+                "Male"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "c9d29c27690eac71b1ec76c7cbcc3b51f5b2fbafe1f4e3c08523fb29091b5ca0",
+            "bounding_box": "{\"x1\": 55, \"y1\": 389, \"x2\": 361, \"y2\": 450}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/radioButtonFemale",
+            "text_content": "Female",
+            "word_sequence": [
+                "Female"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "c9d29c27690eac71b1ec76c7cbcc3b51f5b2fbafe1f4e3c08523fb29091b5ca0",
+            "bounding_box": "{\"x1\": 387, \"y1\": 389, \"x2\": 693, \"y2\": 450}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.easyfitness:id/radioButtonOtherGender",
+            "text_content": "Other",
+            "word_sequence": [
+                "Other"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "c9d29c27690eac71b1ec76c7cbcc3b51f5b2fbafe1f4e3c08523fb29091b5ca0",
+            "bounding_box": "{\"x1\": 719, \"y1\": 389, \"x2\": 1025, \"y2\": 450}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.easyfitness:id/profileBirthday",
+            "text_content": "Birthday (optional)",
+            "word_sequence": [
+                "Birthday",
+                "optional"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "c9d29c27690eac71b1ec76c7cbcc3b51f5b2fbafe1f4e3c08523fb29091b5ca0",
+            "bounding_box": "{\"x1\": 42, \"y1\": 476, \"x2\": 1038, \"y2\": 594}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.easyfitness:id/profileSize",
+            "text_content": "Size in cm (optional)",
+            "word_sequence": [
+                "Size",
+                "in",
+                "cm",
+                "optional"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1428,
+            "screen_id": "c9d29c27690eac71b1ec76c7cbcc3b51f5b2fbafe1f4e3c08523fb29091b5ca0",
+            "bounding_box": "{\"x1\": 42, \"y1\": 636, \"x2\": 1038, \"y2\": 754}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.easyfitness:id/mi_button_skip",
+            "text_content": "Back",
+            "word_sequence": [
+                "Back"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "c9d29c27690eac71b1ec76c7cbcc3b51f5b2fbafe1f4e3c08523fb29091b5ca0",
+            "bounding_box": "{\"x1\": 42, \"y1\": 830, \"x2\": 189, \"y2\": 977}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.easyfitness:id/mi_pager_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "mi",
+                "pager",
+                "indicator"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1428,
+            "screen_id": "c9d29c27690eac71b1ec76c7cbcc3b51f5b2fbafe1f4e3c08523fb29091b5ca0",
+            "bounding_box": "{\"x1\": 231, \"y1\": 891, \"x2\": 849, \"y2\": 917}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.easyfitness:id/mi_button_next",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "c9d29c27690eac71b1ec76c7cbcc3b51f5b2fbafe1f4e3c08523fb29091b5ca0",
+            "bounding_box": "{\"x1\": 891, \"y1\": 830, \"x2\": 1038, \"y2\": 977}"
+        }
+    ],
+    "49c6a7fa610f378b12ca9aeed23112c4d493d9024078a3d5db57296b24848749": [
+        {
+            "component_id": 0,
+            "resource_id": "com.easyfitness:id/mask_left",
+            "text_content": "",
+            "word_sequence": [
+                "mask",
+                "left"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1428,
+            "screen_id": "49c6a7fa610f378b12ca9aeed23112c4d493d9024078a3d5db57296b24848749",
+            "bounding_box": "{\"x1\": 470, \"y1\": 707, \"x2\": 517, \"y2\": 846}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1428,
+            "screen_id": "49c6a7fa610f378b12ca9aeed23112c4d493d9024078a3d5db57296b24848749",
+            "bounding_box": "{\"x1\": 470, \"y1\": 707, \"x2\": 609, \"y2\": 846}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1428,
+            "screen_id": "49c6a7fa610f378b12ca9aeed23112c4d493d9024078a3d5db57296b24848749",
+            "bounding_box": "{\"x1\": 470, \"y1\": 707, \"x2\": 609, \"y2\": 846}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/success_tick",
+            "text_content": "",
+            "word_sequence": [
+                "success",
+                "tick"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1428,
+            "screen_id": "49c6a7fa610f378b12ca9aeed23112c4d493d9024078a3d5db57296b24848749",
+            "bounding_box": "{\"x1\": 470, \"y1\": 707, \"x2\": 609, \"y2\": 846}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.easyfitness:id/mask_right",
+            "text_content": "",
+            "word_sequence": [
+                "mask",
+                "right"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1428,
+            "screen_id": "49c6a7fa610f378b12ca9aeed23112c4d493d9024078a3d5db57296b24848749",
+            "bounding_box": "{\"x1\": 517, \"y1\": 707, \"x2\": 609, \"y2\": 846}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.easyfitness:id/title_text",
+            "text_content": "aaa",
+            "word_sequence": [
+                "aaa"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "49c6a7fa610f378b12ca9aeed23112c4d493d9024078a3d5db57296b24848749",
+            "bounding_box": "{\"x1\": 473, \"y1\": 857, \"x2\": 606, \"y2\": 924}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.easyfitness:id/content_text",
+            "text_content": "Profile created",
+            "word_sequence": [
+                "Profile",
+                "created"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "49c6a7fa610f378b12ca9aeed23112c4d493d9024078a3d5db57296b24848749",
+            "bounding_box": "{\"x1\": 378, \"y1\": 950, \"x2\": 701, \"y2\": 1007}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.easyfitness:id/confirm_button",
+            "text_content": "Ok",
+            "word_sequence": [
+                "Ok"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "49c6a7fa610f378b12ca9aeed23112c4d493d9024078a3d5db57296b24848749",
+            "bounding_box": "{\"x1\": 428, \"y1\": 1033, \"x2\": 651, \"y2\": 1138}"
+        }
+    ],
+    "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Open navigation drawer",
+            "word_sequence": [
+                "Open",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Fast N Fitness",
+            "word_sequence": [
+                "Fast",
+                "N",
+                "Fitness"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 527, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/imageProfile",
+            "text_content": "",
+            "word_sequence": [
+                "image",
+                "Profile"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 744, \"y1\": 83, \"x2\": 849, \"y2\": 190}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/action_chrono",
+            "text_content": "Chronometer",
+            "word_sequence": [
+                "Chronometer"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 849, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "FREE WORKOUT",
+            "word_sequence": [
+                "FREE",
+                "WORKOUT"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 311, \"y2\": 336}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "PROGRAM",
+            "word_sequence": [
+                "PROGRAM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 311, \"y1\": 210, \"x2\": 545, \"y2\": 336}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "GRAPHS",
+            "word_sequence": [
+                "GRAPHS"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 545, \"y1\": 210, \"x2\": 752, \"y2\": 336}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "HISTORY",
+            "word_sequence": [
+                "HISTORY"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 752, \"y1\": 210, \"x2\": 964, \"y2\": 336}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.easyfitness:id/imageMachine",
+            "text_content": "",
+            "word_sequence": [
+                "image",
+                "Machine"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 13, \"y1\": 354, \"x2\": 118, \"y2\": 461}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.easyfitness:id/editMachine",
+            "text_content": "Name of your exercise",
+            "word_sequence": [
+                "Name",
+                "of",
+                "your",
+                "exercise"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 118, \"y1\": 349, \"x2\": 1004, \"y2\": 467}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.easyfitness:id/buttonListMachine",
+            "text_content": "",
+            "word_sequence": [
+                "List",
+                "Machine"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 1004, \"y1\": 376, \"x2\": 1067, \"y2\": 439}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "",
+            "text_content": "Exercise Type:",
+            "word_sequence": [
+                "Exercise",
+                "Type",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 13, \"y1\": 488, \"x2\": 250, \"y2\": 539}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.easyfitness:id/StrenghSelector",
+            "text_content": "Strength",
+            "word_sequence": [
+                "Strength"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 258, \"y1\": 488, \"x2\": 518, \"y2\": 539}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "com.easyfitness:id/CardioSelector",
+            "text_content": "Cardio",
+            "word_sequence": [
+                "Cardio"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 534, \"y1\": 488, \"x2\": 795, \"y2\": 539}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "com.easyfitness:id/IsometricSelector",
+            "text_content": "Isometric",
+            "word_sequence": [
+                "Isometric"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 811, \"y1\": 488, \"x2\": 1072, \"y2\": 539}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "com.easyfitness:id/singlevalueinput_title",
+            "text_content": "Sets",
+            "word_sequence": [
+                "Sets"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 98, \"y1\": 555, \"x2\": 171, \"y2\": 606}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "com.easyfitness:id/singlevalueinput_value",
+            "text_content": "1",
+            "word_sequence": [
+                "1"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 52, \"y1\": 606, \"x2\": 217, \"y2\": 724}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "com.easyfitness:id/singlevalueinput_title",
+            "text_content": "Reps",
+            "word_sequence": [
+                "Reps"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 363, \"y1\": 555, \"x2\": 446, \"y2\": 606}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "com.easyfitness:id/singlevalueinput_value",
+            "text_content": "10",
+            "word_sequence": [
+                "10"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 322, \"y1\": 606, \"x2\": 487, \"y2\": 724}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "com.easyfitness:id/singlevalueinput_title",
+            "text_content": "Weight",
+            "word_sequence": [
+                "Weight"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 753, \"y1\": 555, \"x2\": 867, \"y2\": 606}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "com.easyfitness:id/singlevalueinput_value",
+            "text_content": "50",
+            "word_sequence": [
+                "50"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 657, \"y1\": 606, \"x2\": 822, \"y2\": 724}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "android:id/text1",
+            "text_content": "kg",
+            "word_sequence": [
+                "kg"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 833, \"y1\": 637, \"x2\": 919, \"y2\": 694}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "",
+            "text_content": "Activate rest countdown",
+            "word_sequence": [
+                "Activate",
+                "rest",
+                "countdown"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 29, \"y1\": 773, \"x2\": 452, \"y2\": 824}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "com.easyfitness:id/restTimeCheckBox",
+            "text_content": "",
+            "word_sequence": [
+                "rest",
+                "Time",
+                "Check",
+                "Box"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 452, \"y1\": 757, \"x2\": 536, \"y2\": 841}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "",
+            "text_content": "Rest time (sec)",
+            "word_sequence": [
+                "Rest",
+                "time",
+                "sec"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 557, \"y1\": 773, \"x2\": 831, \"y2\": 824}"
+        },
+        {
+            "component_id": 26,
+            "resource_id": "com.easyfitness:id/restTimeEditText",
+            "text_content": "60",
+            "word_sequence": [
+                "60"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 831, \"y1\": 740, \"x2\": 1051, \"y2\": 858}"
+        },
+        {
+            "component_id": 27,
+            "resource_id": "com.easyfitness:id/buttonExpandArrow",
+            "text_content": "",
+            "word_sequence": [
+                "Expand",
+                "Arrow"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 8, \"y1\": 874, \"x2\": 1072, \"y2\": 932}"
+        },
+        {
+            "component_id": 28,
+            "resource_id": "com.easyfitness:id/addperff",
+            "text_content": "ADD",
+            "word_sequence": [
+                "ADD"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 21, \"y1\": 961, \"x2\": 1059, \"y2\": 1087}"
+        },
+        {
+            "component_id": 29,
+            "resource_id": "",
+            "text_content": "Last records:",
+            "word_sequence": [
+                "Last",
+                "records",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 8, \"y1\": 1108, \"x2\": 1080, \"y2\": 1159}"
+        },
+        {
+            "component_id": 30,
+            "resource_id": "com.easyfitness:id/SEPARATOR_CELL",
+            "text_content": "- 8/2/19 -",
+            "word_sequence": [
+                "8",
+                "/",
+                "2",
+                "/",
+                "19"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1167, \"x2\": 1059, \"y2\": 1210}"
+        },
+        {
+            "component_id": 31,
+            "resource_id": "com.easyfitness:id/MACHINE_CELL",
+            "text_content": "Example 1",
+            "word_sequence": [
+                "Example",
+                "1"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 24, \"y1\": 1213, \"x2\": 534, \"y2\": 1270}"
+        },
+        {
+            "component_id": 32,
+            "resource_id": "com.easyfitness:id/SERIE_LABEL",
+            "text_content": "Sets",
+            "word_sequence": [
+                "Sets"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 562, \"y1\": 1223, \"x2\": 622, \"y2\": 1259}"
+        },
+        {
+            "component_id": 33,
+            "resource_id": "com.easyfitness:id/REP_LABEL",
+            "text_content": "Reps",
+            "word_sequence": [
+                "Reps"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 648, \"y1\": 1223, \"x2\": 715, \"y2\": 1259}"
+        },
+        {
+            "component_id": 34,
+            "resource_id": "com.easyfitness:id/WEIGHT_LABEL",
+            "text_content": "Weight",
+            "word_sequence": [
+                "Weight"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 741, \"y1\": 1223, \"x2\": 832, \"y2\": 1259}"
+        },
+        {
+            "component_id": 35,
+            "resource_id": "com.easyfitness:id/DATE_CELL",
+            "text_content": "8/2/19",
+            "word_sequence": [
+                "8",
+                "/",
+                "2",
+                "/",
+                "19"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 24, \"y1\": 1279, \"x2\": 112, \"y2\": 1318}"
+        },
+        {
+            "component_id": 36,
+            "resource_id": "com.easyfitness:id/TIME_CELL",
+            "text_content": "12:34:56",
+            "word_sequence": [
+                "12",
+                ":",
+                "34",
+                ":",
+                "56"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 125, \"y1\": 1279, \"x2\": 235, \"y2\": 1318}"
+        },
+        {
+            "component_id": 37,
+            "resource_id": "com.easyfitness:id/SERIE_CELL",
+            "text_content": "1",
+            "word_sequence": [
+                "1"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 562, \"y1\": 1270, \"x2\": 622, \"y2\": 1321}"
+        },
+        {
+            "component_id": 38,
+            "resource_id": "com.easyfitness:id/REPETITION_CELL",
+            "text_content": "10",
+            "word_sequence": [
+                "10"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 648, \"y1\": 1270, \"x2\": 715, \"y2\": 1321}"
+        },
+        {
+            "component_id": 39,
+            "resource_id": "com.easyfitness:id/POIDS_CELL",
+            "text_content": "40kg",
+            "word_sequence": [
+                "40kg"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 741, \"y1\": 1270, \"x2\": 832, \"y2\": 1321}"
+        },
+        {
+            "component_id": 40,
+            "resource_id": "com.easyfitness:id/copyButton",
+            "text_content": "",
+            "word_sequence": [
+                "copy"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 850, \"y1\": 1213, \"x2\": 913, \"y2\": 1321}"
+        },
+        {
+            "component_id": 41,
+            "resource_id": "com.easyfitness:id/editButton",
+            "text_content": "",
+            "word_sequence": [
+                "edit"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 923, \"y1\": 1213, \"x2\": 986, \"y2\": 1321}"
+        },
+        {
+            "component_id": 42,
+            "resource_id": "com.easyfitness:id/deleteButton",
+            "text_content": "",
+            "word_sequence": [
+                "delete"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1213, \"x2\": 1059, \"y2\": 1321}"
+        },
+        {
+            "component_id": 43,
+            "resource_id": "com.easyfitness:id/SEPARATOR_CELL",
+            "text_content": "- 7/31/19 -",
+            "word_sequence": [
+                "7",
+                "/",
+                "31",
+                "/",
+                "19"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1342, \"x2\": 1059, \"y2\": 1385}"
+        },
+        {
+            "component_id": 44,
+            "resource_id": "com.easyfitness:id/MACHINE_CELL",
+            "text_content": "Example 2",
+            "word_sequence": [
+                "Example",
+                "2"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 24, \"y1\": 1388, \"x2\": 519, \"y2\": 1445}"
+        },
+        {
+            "component_id": 45,
+            "resource_id": "com.easyfitness:id/SERIE_LABEL",
+            "text_content": "Sets",
+            "word_sequence": [
+                "Sets"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 563, \"y1\": 1398, \"x2\": 622, \"y2\": 1434}"
+        },
+        {
+            "component_id": 46,
+            "resource_id": "com.easyfitness:id/REP_LABEL",
+            "text_content": "Reps",
+            "word_sequence": [
+                "Reps"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 648, \"y1\": 1398, \"x2\": 715, \"y2\": 1434}"
+        },
+        {
+            "component_id": 47,
+            "resource_id": "com.easyfitness:id/WEIGHT_LABEL",
+            "text_content": "Weight",
+            "word_sequence": [
+                "Weight"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 741, \"y1\": 1398, \"x2\": 832, \"y2\": 1434}"
+        },
+        {
+            "component_id": 48,
+            "resource_id": "com.easyfitness:id/DATE_CELL",
+            "text_content": "7/31/19",
+            "word_sequence": [
+                "7",
+                "/",
+                "31",
+                "/",
+                "19"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 24, \"y1\": 1454, \"x2\": 128, \"y2\": 1493}"
+        },
+        {
+            "component_id": 49,
+            "resource_id": "com.easyfitness:id/TIME_CELL",
+            "text_content": "12:34:56",
+            "word_sequence": [
+                "12",
+                ":",
+                "34",
+                ":",
+                "56"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 141, \"y1\": 1454, \"x2\": 251, \"y2\": 1493}"
+        },
+        {
+            "component_id": 50,
+            "resource_id": "com.easyfitness:id/SERIE_CELL",
+            "text_content": "1",
+            "word_sequence": [
+                "1"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 563, \"y1\": 1445, \"x2\": 622, \"y2\": 1496}"
+        },
+        {
+            "component_id": 51,
+            "resource_id": "com.easyfitness:id/REPETITION_CELL",
+            "text_content": "10",
+            "word_sequence": [
+                "10"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 648, \"y1\": 1445, \"x2\": 715, \"y2\": 1496}"
+        },
+        {
+            "component_id": 52,
+            "resource_id": "com.easyfitness:id/POIDS_CELL",
+            "text_content": "60lb",
+            "word_sequence": [
+                "60lb"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 741, \"y1\": 1445, \"x2\": 832, \"y2\": 1496}"
+        },
+        {
+            "component_id": 53,
+            "resource_id": "com.easyfitness:id/copyButton",
+            "text_content": "",
+            "word_sequence": [
+                "copy"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 850, \"y1\": 1388, \"x2\": 913, \"y2\": 1496}"
+        },
+        {
+            "component_id": 54,
+            "resource_id": "com.easyfitness:id/editButton",
+            "text_content": "",
+            "word_sequence": [
+                "edit"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 923, \"y1\": 1388, \"x2\": 986, \"y2\": 1496}"
+        },
+        {
+            "component_id": 55,
+            "resource_id": "com.easyfitness:id/deleteButton",
+            "text_content": "",
+            "word_sequence": [
+                "delete"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "7a4cbd9eccdbb17812fee42d80dc5044e9cd28d367560e0f6ee57481962ed15f",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1388, \"x2\": 1059, \"y2\": 1496}"
+        }
+    ],
+    "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Open navigation drawer",
+            "word_sequence": [
+                "Open",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Fast N Fitness",
+            "word_sequence": [
+                "Fast",
+                "N",
+                "Fitness"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 527, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/imageProfile",
+            "text_content": "",
+            "word_sequence": [
+                "image",
+                "Profile"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 744, \"y1\": 83, \"x2\": 849, \"y2\": 190}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/action_chrono",
+            "text_content": "Chronometer",
+            "word_sequence": [
+                "Chronometer"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 849, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "FREE WORKOUT",
+            "word_sequence": [
+                "FREE",
+                "WORKOUT"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 311, \"y2\": 336}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "PROGRAM",
+            "word_sequence": [
+                "PROGRAM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 311, \"y1\": 210, \"x2\": 545, \"y2\": 336}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "GRAPHS",
+            "word_sequence": [
+                "GRAPHS"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 545, \"y1\": 210, \"x2\": 752, \"y2\": 336}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "HISTORY",
+            "word_sequence": [
+                "HISTORY"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 752, \"y1\": 210, \"x2\": 964, \"y2\": 336}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.easyfitness:id/imageMachine",
+            "text_content": "",
+            "word_sequence": [
+                "image",
+                "Machine"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 13, \"y1\": 354, \"x2\": 118, \"y2\": 461}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.easyfitness:id/editMachine",
+            "text_content": "Name of your exercise",
+            "word_sequence": [
+                "Name",
+                "of",
+                "your",
+                "exercise"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 118, \"y1\": 349, \"x2\": 1004, \"y2\": 467}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.easyfitness:id/buttonListMachine",
+            "text_content": "",
+            "word_sequence": [
+                "List",
+                "Machine"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 1004, \"y1\": 376, \"x2\": 1067, \"y2\": 439}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "",
+            "text_content": "Exercise Type:",
+            "word_sequence": [
+                "Exercise",
+                "Type",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 13, \"y1\": 488, \"x2\": 250, \"y2\": 539}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.easyfitness:id/StrenghSelector",
+            "text_content": "Strength",
+            "word_sequence": [
+                "Strength"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 258, \"y1\": 488, \"x2\": 518, \"y2\": 539}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "com.easyfitness:id/CardioSelector",
+            "text_content": "Cardio",
+            "word_sequence": [
+                "Cardio"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 534, \"y1\": 488, \"x2\": 795, \"y2\": 539}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "com.easyfitness:id/IsometricSelector",
+            "text_content": "Isometric",
+            "word_sequence": [
+                "Isometric"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 811, \"y1\": 488, \"x2\": 1072, \"y2\": 539}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "com.easyfitness:id/singlevalueinput_title",
+            "text_content": "Sets",
+            "word_sequence": [
+                "Sets"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 98, \"y1\": 555, \"x2\": 171, \"y2\": 606}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "com.easyfitness:id/singlevalueinput_value",
+            "text_content": "1",
+            "word_sequence": [
+                "1"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 52, \"y1\": 606, \"x2\": 217, \"y2\": 724}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "com.easyfitness:id/singlevalueinput_title",
+            "text_content": "Reps",
+            "word_sequence": [
+                "Reps"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 363, \"y1\": 555, \"x2\": 446, \"y2\": 606}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "com.easyfitness:id/singlevalueinput_value",
+            "text_content": "10",
+            "word_sequence": [
+                "10"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 322, \"y1\": 606, \"x2\": 487, \"y2\": 724}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "com.easyfitness:id/singlevalueinput_title",
+            "text_content": "Weight",
+            "word_sequence": [
+                "Weight"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 753, \"y1\": 555, \"x2\": 867, \"y2\": 606}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "com.easyfitness:id/singlevalueinput_value",
+            "text_content": "50",
+            "word_sequence": [
+                "50"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 657, \"y1\": 606, \"x2\": 822, \"y2\": 724}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "android:id/text1",
+            "text_content": "kg",
+            "word_sequence": [
+                "kg"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 833, \"y1\": 637, \"x2\": 919, \"y2\": 694}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "",
+            "text_content": "Activate rest countdown",
+            "word_sequence": [
+                "Activate",
+                "rest",
+                "countdown"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 29, \"y1\": 773, \"x2\": 452, \"y2\": 824}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "com.easyfitness:id/restTimeCheckBox",
+            "text_content": "",
+            "word_sequence": [
+                "rest",
+                "Time",
+                "Check",
+                "Box"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 452, \"y1\": 757, \"x2\": 536, \"y2\": 841}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "",
+            "text_content": "Rest time (sec)",
+            "word_sequence": [
+                "Rest",
+                "time",
+                "sec"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 557, \"y1\": 773, \"x2\": 831, \"y2\": 824}"
+        },
+        {
+            "component_id": 26,
+            "resource_id": "com.easyfitness:id/restTimeEditText",
+            "text_content": "60",
+            "word_sequence": [
+                "60"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 831, \"y1\": 740, \"x2\": 1051, \"y2\": 858}"
+        },
+        {
+            "component_id": 27,
+            "resource_id": "com.easyfitness:id/buttonExpandArrow",
+            "text_content": "",
+            "word_sequence": [
+                "Expand",
+                "Arrow"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 8, \"y1\": 874, \"x2\": 1072, \"y2\": 932}"
+        },
+        {
+            "component_id": 28,
+            "resource_id": "com.easyfitness:id/addperff",
+            "text_content": "ADD",
+            "word_sequence": [
+                "ADD"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 21, \"y1\": 961, \"x2\": 1059, \"y2\": 1087}"
+        },
+        {
+            "component_id": 29,
+            "resource_id": "",
+            "text_content": "Last records:",
+            "word_sequence": [
+                "Last",
+                "records",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 8, \"y1\": 1108, \"x2\": 1080, \"y2\": 1159}"
+        },
+        {
+            "component_id": 30,
+            "resource_id": "com.easyfitness:id/SEPARATOR_CELL",
+            "text_content": "- 8/2/19 -",
+            "word_sequence": [
+                "8",
+                "/",
+                "2",
+                "/",
+                "19"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1167, \"x2\": 1059, \"y2\": 1210}"
+        },
+        {
+            "component_id": 31,
+            "resource_id": "com.easyfitness:id/MACHINE_CELL",
+            "text_content": "Example 1",
+            "word_sequence": [
+                "Example",
+                "1"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 24, \"y1\": 1213, \"x2\": 534, \"y2\": 1270}"
+        },
+        {
+            "component_id": 32,
+            "resource_id": "com.easyfitness:id/SERIE_LABEL",
+            "text_content": "Sets",
+            "word_sequence": [
+                "Sets"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 562, \"y1\": 1223, \"x2\": 622, \"y2\": 1259}"
+        },
+        {
+            "component_id": 33,
+            "resource_id": "com.easyfitness:id/REP_LABEL",
+            "text_content": "Reps",
+            "word_sequence": [
+                "Reps"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 648, \"y1\": 1223, \"x2\": 715, \"y2\": 1259}"
+        },
+        {
+            "component_id": 34,
+            "resource_id": "com.easyfitness:id/WEIGHT_LABEL",
+            "text_content": "Weight",
+            "word_sequence": [
+                "Weight"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 741, \"y1\": 1223, \"x2\": 832, \"y2\": 1259}"
+        },
+        {
+            "component_id": 35,
+            "resource_id": "com.easyfitness:id/DATE_CELL",
+            "text_content": "8/2/19",
+            "word_sequence": [
+                "8",
+                "/",
+                "2",
+                "/",
+                "19"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 24, \"y1\": 1279, \"x2\": 112, \"y2\": 1318}"
+        },
+        {
+            "component_id": 36,
+            "resource_id": "com.easyfitness:id/TIME_CELL",
+            "text_content": "12:34:56",
+            "word_sequence": [
+                "12",
+                ":",
+                "34",
+                ":",
+                "56"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 125, \"y1\": 1279, \"x2\": 235, \"y2\": 1318}"
+        },
+        {
+            "component_id": 37,
+            "resource_id": "com.easyfitness:id/SERIE_CELL",
+            "text_content": "1",
+            "word_sequence": [
+                "1"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 562, \"y1\": 1270, \"x2\": 622, \"y2\": 1321}"
+        },
+        {
+            "component_id": 38,
+            "resource_id": "com.easyfitness:id/REPETITION_CELL",
+            "text_content": "10",
+            "word_sequence": [
+                "10"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 648, \"y1\": 1270, \"x2\": 715, \"y2\": 1321}"
+        },
+        {
+            "component_id": 39,
+            "resource_id": "com.easyfitness:id/POIDS_CELL",
+            "text_content": "40kg",
+            "word_sequence": [
+                "40kg"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 741, \"y1\": 1270, \"x2\": 832, \"y2\": 1321}"
+        },
+        {
+            "component_id": 40,
+            "resource_id": "com.easyfitness:id/copyButton",
+            "text_content": "",
+            "word_sequence": [
+                "copy"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 850, \"y1\": 1213, \"x2\": 913, \"y2\": 1321}"
+        },
+        {
+            "component_id": 41,
+            "resource_id": "com.easyfitness:id/editButton",
+            "text_content": "",
+            "word_sequence": [
+                "edit"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 923, \"y1\": 1213, \"x2\": 986, \"y2\": 1321}"
+        },
+        {
+            "component_id": 42,
+            "resource_id": "com.easyfitness:id/deleteButton",
+            "text_content": "",
+            "word_sequence": [
+                "delete"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1213, \"x2\": 1059, \"y2\": 1321}"
+        },
+        {
+            "component_id": 43,
+            "resource_id": "com.easyfitness:id/SEPARATOR_CELL",
+            "text_content": "- 7/31/19 -",
+            "word_sequence": [
+                "7",
+                "/",
+                "31",
+                "/",
+                "19"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1342, \"x2\": 1059, \"y2\": 1385}"
+        },
+        {
+            "component_id": 44,
+            "resource_id": "com.easyfitness:id/MACHINE_CELL",
+            "text_content": "Example 2",
+            "word_sequence": [
+                "Example",
+                "2"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 24, \"y1\": 1388, \"x2\": 519, \"y2\": 1445}"
+        },
+        {
+            "component_id": 45,
+            "resource_id": "com.easyfitness:id/SERIE_LABEL",
+            "text_content": "Sets",
+            "word_sequence": [
+                "Sets"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 563, \"y1\": 1398, \"x2\": 622, \"y2\": 1434}"
+        },
+        {
+            "component_id": 46,
+            "resource_id": "com.easyfitness:id/REP_LABEL",
+            "text_content": "Reps",
+            "word_sequence": [
+                "Reps"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 648, \"y1\": 1398, \"x2\": 715, \"y2\": 1434}"
+        },
+        {
+            "component_id": 47,
+            "resource_id": "com.easyfitness:id/WEIGHT_LABEL",
+            "text_content": "Weight",
+            "word_sequence": [
+                "Weight"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 741, \"y1\": 1398, \"x2\": 832, \"y2\": 1434}"
+        },
+        {
+            "component_id": 48,
+            "resource_id": "com.easyfitness:id/DATE_CELL",
+            "text_content": "7/31/19",
+            "word_sequence": [
+                "7",
+                "/",
+                "31",
+                "/",
+                "19"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 24, \"y1\": 1454, \"x2\": 128, \"y2\": 1493}"
+        },
+        {
+            "component_id": 49,
+            "resource_id": "com.easyfitness:id/TIME_CELL",
+            "text_content": "12:34:56",
+            "word_sequence": [
+                "12",
+                ":",
+                "34",
+                ":",
+                "56"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 141, \"y1\": 1454, \"x2\": 251, \"y2\": 1493}"
+        },
+        {
+            "component_id": 50,
+            "resource_id": "com.easyfitness:id/SERIE_CELL",
+            "text_content": "1",
+            "word_sequence": [
+                "1"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 563, \"y1\": 1445, \"x2\": 622, \"y2\": 1496}"
+        },
+        {
+            "component_id": 51,
+            "resource_id": "com.easyfitness:id/REPETITION_CELL",
+            "text_content": "10",
+            "word_sequence": [
+                "10"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 648, \"y1\": 1445, \"x2\": 715, \"y2\": 1496}"
+        },
+        {
+            "component_id": 52,
+            "resource_id": "com.easyfitness:id/POIDS_CELL",
+            "text_content": "60lb",
+            "word_sequence": [
+                "60lb"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 741, \"y1\": 1445, \"x2\": 832, \"y2\": 1496}"
+        },
+        {
+            "component_id": 53,
+            "resource_id": "com.easyfitness:id/copyButton",
+            "text_content": "",
+            "word_sequence": [
+                "copy"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 850, \"y1\": 1388, \"x2\": 913, \"y2\": 1496}"
+        },
+        {
+            "component_id": 54,
+            "resource_id": "com.easyfitness:id/editButton",
+            "text_content": "",
+            "word_sequence": [
+                "edit"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 923, \"y1\": 1388, \"x2\": 986, \"y2\": 1496}"
+        },
+        {
+            "component_id": 55,
+            "resource_id": "com.easyfitness:id/deleteButton",
+            "text_content": "",
+            "word_sequence": [
+                "delete"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1388, \"x2\": 1059, \"y2\": 1496}"
+        },
+        {
+            "component_id": 56,
+            "resource_id": "com.easyfitness:id/header_icon",
+            "text_content": "",
+            "word_sequence": [
+                "header",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 13, \"y1\": 76, \"x2\": 118, \"y2\": 183}"
+        },
+        {
+            "component_id": 57,
+            "resource_id": "com.easyfitness:id/drawerTitle",
+            "text_content": "aaa",
+            "word_sequence": [
+                "aaa"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 131, \"y1\": 90, \"x2\": 630, \"y2\": 168}"
+        },
+        {
+            "component_id": 58,
+            "resource_id": "com.easyfitness:id/drawer_icon",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 13, \"y1\": 208, \"x2\": 118, \"y2\": 313}"
+        },
+        {
+            "component_id": 59,
+            "resource_id": "com.easyfitness:id/drawer_itemName",
+            "text_content": "Workout",
+            "word_sequence": [
+                "Workout"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 131, \"y1\": 221, \"x2\": 630, \"y2\": 299}"
+        },
+        {
+            "component_id": 60,
+            "resource_id": "com.easyfitness:id/drawer_icon",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 13, \"y1\": 338, \"x2\": 118, \"y2\": 443}"
+        },
+        {
+            "component_id": 61,
+            "resource_id": "com.easyfitness:id/drawer_itemName",
+            "text_content": "Exercises",
+            "word_sequence": [
+                "Exercises"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 131, \"y1\": 351, \"x2\": 630, \"y2\": 429}"
+        },
+        {
+            "component_id": 62,
+            "resource_id": "com.easyfitness:id/drawer_icon",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 13, \"y1\": 468, \"x2\": 118, \"y2\": 573}"
+        },
+        {
+            "component_id": 63,
+            "resource_id": "com.easyfitness:id/drawer_itemName",
+            "text_content": "Programs List",
+            "word_sequence": [
+                "Programs",
+                "List"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 131, \"y1\": 481, \"x2\": 630, \"y2\": 559}"
+        },
+        {
+            "component_id": 64,
+            "resource_id": "com.easyfitness:id/drawer_icon",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 13, \"y1\": 598, \"x2\": 118, \"y2\": 703}"
+        },
+        {
+            "component_id": 65,
+            "resource_id": "com.easyfitness:id/drawer_itemName",
+            "text_content": "Weight Track",
+            "word_sequence": [
+                "Weight",
+                "Track"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 131, \"y1\": 611, \"x2\": 630, \"y2\": 689}"
+        },
+        {
+            "component_id": 66,
+            "resource_id": "com.easyfitness:id/drawer_icon",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 13, \"y1\": 728, \"x2\": 118, \"y2\": 833}"
+        },
+        {
+            "component_id": 67,
+            "resource_id": "com.easyfitness:id/drawer_itemName",
+            "text_content": "Body Track",
+            "word_sequence": [
+                "Body",
+                "Track"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 131, \"y1\": 741, \"x2\": 630, \"y2\": 819}"
+        },
+        {
+            "component_id": 68,
+            "resource_id": "com.easyfitness:id/drawer_icon",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 13, \"y1\": 858, \"x2\": 118, \"y2\": 963}"
+        },
+        {
+            "component_id": 69,
+            "resource_id": "com.easyfitness:id/drawer_itemName",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 131, \"y1\": 871, \"x2\": 630, \"y2\": 949}"
+        },
+        {
+            "component_id": 70,
+            "resource_id": "com.easyfitness:id/drawer_icon",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 13, \"y1\": 988, \"x2\": 118, \"y2\": 1093}"
+        },
+        {
+            "component_id": 71,
+            "resource_id": "com.easyfitness:id/drawer_itemName",
+            "text_content": "About",
+            "word_sequence": [
+                "About"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "ead300093e2ebe57b0c4705d358037c0ba9d2deceb8349172827f317256508a7",
+            "bounding_box": "{\"x1\": 131, \"y1\": 1001, \"x2\": 630, \"y2\": 1079}"
+        }
+    ],
+    "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Open navigation drawer",
+            "word_sequence": [
+                "Open",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Body Track",
+            "word_sequence": [
+                "Body",
+                "Track"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 454, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/imageProfile",
+            "text_content": "",
+            "word_sequence": [
+                "image",
+                "Profile"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 744, \"y1\": 83, \"x2\": 849, \"y2\": 190}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/action_chrono",
+            "text_content": "Chronometer",
+            "word_sequence": [
+                "Chronometer"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 849, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.easyfitness:id/addBodyPart",
+            "text_content": "ADD",
+            "word_sequence": [
+                "ADD"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 21, \"y1\": 231, \"x2\": 1059, \"y2\": 357}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_LOGO",
+            "text_content": "",
+            "word_sequence": [
+                "LIST",
+                "BODYPART",
+                "LOGO"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 16, \"y1\": 394, \"x2\": 134, \"y2\": 530}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART",
+            "text_content": "Left biceps",
+            "word_sequence": [
+                "Left",
+                "biceps"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 150, \"y1\": 394, \"x2\": 607, \"y2\": 530}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_MINIGRAPH",
+            "text_content": "",
+            "word_sequence": [
+                "LIST",
+                "BODYPART",
+                "MINIGRAPH"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 620, \"y1\": 394, \"x2\": 869, \"y2\": 525}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "Last record",
+            "word_sequence": [
+                "Last",
+                "record"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 882, \"y1\": 394, \"x2\": 1064, \"y2\": 430}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_LASTRECORD",
+            "text_content": "-",
+            "word_sequence": [],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 882, \"y1\": 430, \"x2\": 1064, \"y2\": 530}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_LOGO",
+            "text_content": "",
+            "word_sequence": [
+                "LIST",
+                "BODYPART",
+                "LOGO"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 16, \"y1\": 565, \"x2\": 134, \"y2\": 701}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART",
+            "text_content": "Right biceps",
+            "word_sequence": [
+                "Right",
+                "biceps"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 150, \"y1\": 565, \"x2\": 607, \"y2\": 701}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_MINIGRAPH",
+            "text_content": "",
+            "word_sequence": [
+                "LIST",
+                "BODYPART",
+                "MINIGRAPH"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 620, \"y1\": 565, \"x2\": 869, \"y2\": 696}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "",
+            "text_content": "Last record",
+            "word_sequence": [
+                "Last",
+                "record"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 882, \"y1\": 565, \"x2\": 1064, \"y2\": 601}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_LASTRECORD",
+            "text_content": "-",
+            "word_sequence": [],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 882, \"y1\": 601, \"x2\": 1064, \"y2\": 701}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_LOGO",
+            "text_content": "",
+            "word_sequence": [
+                "LIST",
+                "BODYPART",
+                "LOGO"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 16, \"y1\": 736, \"x2\": 134, \"y2\": 872}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART",
+            "text_content": "Chest",
+            "word_sequence": [
+                "Chest"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 150, \"y1\": 736, \"x2\": 607, \"y2\": 872}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_MINIGRAPH",
+            "text_content": "",
+            "word_sequence": [
+                "LIST",
+                "BODYPART",
+                "MINIGRAPH"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 620, \"y1\": 736, \"x2\": 869, \"y2\": 867}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "",
+            "text_content": "Last record",
+            "word_sequence": [
+                "Last",
+                "record"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 882, \"y1\": 736, \"x2\": 1064, \"y2\": 772}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_LASTRECORD",
+            "text_content": "-",
+            "word_sequence": [],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 882, \"y1\": 772, \"x2\": 1064, \"y2\": 872}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_LOGO",
+            "text_content": "",
+            "word_sequence": [
+                "LIST",
+                "BODYPART",
+                "LOGO"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 16, \"y1\": 907, \"x2\": 134, \"y2\": 1043}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART",
+            "text_content": "Waist",
+            "word_sequence": [
+                "Waist"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 150, \"y1\": 907, \"x2\": 607, \"y2\": 1043}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_MINIGRAPH",
+            "text_content": "",
+            "word_sequence": [
+                "LIST",
+                "BODYPART",
+                "MINIGRAPH"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 620, \"y1\": 907, \"x2\": 869, \"y2\": 1038}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "",
+            "text_content": "Last record",
+            "word_sequence": [
+                "Last",
+                "record"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 882, \"y1\": 907, \"x2\": 1064, \"y2\": 943}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_LASTRECORD",
+            "text_content": "-",
+            "word_sequence": [],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 882, \"y1\": 943, \"x2\": 1064, \"y2\": 1043}"
+        },
+        {
+            "component_id": 26,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_LOGO",
+            "text_content": "",
+            "word_sequence": [
+                "LIST",
+                "BODYPART",
+                "LOGO"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 16, \"y1\": 1078, \"x2\": 134, \"y2\": 1214}"
+        },
+        {
+            "component_id": 27,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART",
+            "text_content": "Hips",
+            "word_sequence": [
+                "Hips"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 150, \"y1\": 1078, \"x2\": 607, \"y2\": 1214}"
+        },
+        {
+            "component_id": 28,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_MINIGRAPH",
+            "text_content": "",
+            "word_sequence": [
+                "LIST",
+                "BODYPART",
+                "MINIGRAPH"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 620, \"y1\": 1078, \"x2\": 869, \"y2\": 1209}"
+        },
+        {
+            "component_id": 29,
+            "resource_id": "",
+            "text_content": "Last record",
+            "word_sequence": [
+                "Last",
+                "record"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 882, \"y1\": 1078, \"x2\": 1064, \"y2\": 1114}"
+        },
+        {
+            "component_id": 30,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_LASTRECORD",
+            "text_content": "-",
+            "word_sequence": [],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 882, \"y1\": 1114, \"x2\": 1064, \"y2\": 1214}"
+        },
+        {
+            "component_id": 31,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_LOGO",
+            "text_content": "",
+            "word_sequence": [
+                "LIST",
+                "BODYPART",
+                "LOGO"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 16, \"y1\": 1249, \"x2\": 134, \"y2\": 1385}"
+        },
+        {
+            "component_id": 32,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART",
+            "text_content": "Left thigh",
+            "word_sequence": [
+                "Left",
+                "thigh"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 150, \"y1\": 1249, \"x2\": 607, \"y2\": 1385}"
+        },
+        {
+            "component_id": 33,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_MINIGRAPH",
+            "text_content": "",
+            "word_sequence": [
+                "LIST",
+                "BODYPART",
+                "MINIGRAPH"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 620, \"y1\": 1249, \"x2\": 869, \"y2\": 1380}"
+        },
+        {
+            "component_id": 34,
+            "resource_id": "",
+            "text_content": "Last record",
+            "word_sequence": [
+                "Last",
+                "record"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 882, \"y1\": 1249, \"x2\": 1064, \"y2\": 1285}"
+        },
+        {
+            "component_id": 35,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_LASTRECORD",
+            "text_content": "-",
+            "word_sequence": [],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 882, \"y1\": 1285, \"x2\": 1064, \"y2\": 1385}"
+        },
+        {
+            "component_id": 36,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_LOGO",
+            "text_content": "",
+            "word_sequence": [
+                "LIST",
+                "BODYPART",
+                "LOGO"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 16, \"y1\": 1420, \"x2\": 134, \"y2\": 1556}"
+        },
+        {
+            "component_id": 37,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART",
+            "text_content": "Right thigh",
+            "word_sequence": [
+                "Right",
+                "thigh"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 150, \"y1\": 1420, \"x2\": 607, \"y2\": 1556}"
+        },
+        {
+            "component_id": 38,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_MINIGRAPH",
+            "text_content": "",
+            "word_sequence": [
+                "LIST",
+                "BODYPART",
+                "MINIGRAPH"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 620, \"y1\": 1420, \"x2\": 869, \"y2\": 1551}"
+        },
+        {
+            "component_id": 39,
+            "resource_id": "",
+            "text_content": "Last record",
+            "word_sequence": [
+                "Last",
+                "record"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 882, \"y1\": 1420, \"x2\": 1064, \"y2\": 1456}"
+        },
+        {
+            "component_id": 40,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_LASTRECORD",
+            "text_content": "-",
+            "word_sequence": [],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 882, \"y1\": 1456, \"x2\": 1064, \"y2\": 1556}"
+        },
+        {
+            "component_id": 41,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_LOGO",
+            "text_content": "",
+            "word_sequence": [
+                "LIST",
+                "BODYPART",
+                "LOGO"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 16, \"y1\": 1591, \"x2\": 134, \"y2\": 1727}"
+        },
+        {
+            "component_id": 42,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART",
+            "text_content": "Left calves",
+            "word_sequence": [
+                "Left",
+                "calves"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 150, \"y1\": 1591, \"x2\": 607, \"y2\": 1727}"
+        },
+        {
+            "component_id": 43,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_MINIGRAPH",
+            "text_content": "",
+            "word_sequence": [
+                "LIST",
+                "BODYPART",
+                "MINIGRAPH"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 620, \"y1\": 1591, \"x2\": 869, \"y2\": 1722}"
+        },
+        {
+            "component_id": 44,
+            "resource_id": "",
+            "text_content": "Last record",
+            "word_sequence": [
+                "Last",
+                "record"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 882, \"y1\": 1591, \"x2\": 1064, \"y2\": 1627}"
+        },
+        {
+            "component_id": 45,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_LASTRECORD",
+            "text_content": "-",
+            "word_sequence": [],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 882, \"y1\": 1627, \"x2\": 1064, \"y2\": 1727}"
+        },
+        {
+            "component_id": 46,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_LOGO",
+            "text_content": "",
+            "word_sequence": [
+                "LIST",
+                "BODYPART",
+                "LOGO"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 16, \"y1\": 1762, \"x2\": 134, \"y2\": 1794}"
+        },
+        {
+            "component_id": 47,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART",
+            "text_content": "Right calves",
+            "word_sequence": [
+                "Right",
+                "calves"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 150, \"y1\": 1762, \"x2\": 607, \"y2\": 1794}"
+        },
+        {
+            "component_id": 48,
+            "resource_id": "com.easyfitness:id/LIST_BODYPART_MINIGRAPH",
+            "text_content": "",
+            "word_sequence": [
+                "LIST",
+                "BODYPART",
+                "MINIGRAPH"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 620, \"y1\": 1762, \"x2\": 869, \"y2\": 1794}"
+        },
+        {
+            "component_id": 49,
+            "resource_id": "",
+            "text_content": "Last record",
+            "word_sequence": [
+                "Last",
+                "record"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "f5f913507e618b888cedbf2601bfe38457cf46a224dd97c4e4ee33d389d21487",
+            "bounding_box": "{\"x1\": 882, \"y1\": 1762, \"x2\": 1064, \"y2\": 1794}"
+        }
+    ],
+    "a9a91c7ac36a48ec131aa05a1ca459b01161366e7cdc94b657a5995241600c34": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "a9a91c7ac36a48ec131aa05a1ca459b01161366e7cdc94b657a5995241600c34",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.easyfitness:id/deleteButton",
+            "text_content": "",
+            "word_sequence": [
+                "delete"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "a9a91c7ac36a48ec131aa05a1ca459b01161366e7cdc94b657a5995241600c34",
+            "bounding_box": "{\"x1\": 933, \"y1\": 63, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/BODYPART_LOGO",
+            "text_content": "",
+            "word_sequence": [
+                "BODYPART",
+                "LOGO"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1428,
+            "screen_id": "a9a91c7ac36a48ec131aa05a1ca459b01161366e7cdc94b657a5995241600c34",
+            "bounding_box": "{\"x1\": 24, \"y1\": 234, \"x2\": 142, \"y2\": 370}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/valueTextView",
+            "text_content": "Left biceps",
+            "word_sequence": [
+                "Left",
+                "biceps"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "a9a91c7ac36a48ec131aa05a1ca459b01161366e7cdc94b657a5995241600c34",
+            "bounding_box": "{\"x1\": 158, \"y1\": 259, \"x2\": 899, \"y2\": 344}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.easyfitness:id/buttonAdd",
+            "text_content": "+",
+            "word_sequence": [],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "a9a91c7ac36a48ec131aa05a1ca459b01161366e7cdc94b657a5995241600c34",
+            "bounding_box": "{\"x1\": 912, \"y1\": 237, \"x2\": 1043, \"y2\": 368}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.easyfitness:id/bodymeasureChart",
+            "text_content": "",
+            "word_sequence": [
+                "bodymeasure",
+                "Chart"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1428,
+            "screen_id": "a9a91c7ac36a48ec131aa05a1ca459b01161366e7cdc94b657a5995241600c34",
+            "bounding_box": "{\"x1\": 21, \"y1\": 402, \"x2\": 1059, \"y2\": 1190}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "Measures history:",
+            "word_sequence": [
+                "Measures",
+                "history",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "a9a91c7ac36a48ec131aa05a1ca459b01161366e7cdc94b657a5995241600c34",
+            "bounding_box": "{\"x1\": 13, \"y1\": 1211, \"x2\": 1080, \"y2\": 1262}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "Date",
+            "word_sequence": [
+                "Date"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "a9a91c7ac36a48ec131aa05a1ca459b01161366e7cdc94b657a5995241600c34",
+            "bounding_box": "{\"x1\": 8, \"y1\": 1267, \"x2\": 459, \"y2\": 1324}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "Measure",
+            "word_sequence": [
+                "Measure"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "a9a91c7ac36a48ec131aa05a1ca459b01161366e7cdc94b657a5995241600c34",
+            "bounding_box": "{\"x1\": 472, \"y1\": 1267, \"x2\": 923, \"y2\": 1324}"
+        }
+    ],
+    "6f087ac46f22fea2cbf135bf4fa651a21a9ca246d0a1ed47ab776fc88d3e7bf8": [
+        {
+            "component_id": 0,
+            "resource_id": "com.easyfitness:id/EditorValueTitle",
+            "text_content": "Add",
+            "word_sequence": [
+                "Add"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "6f087ac46f22fea2cbf135bf4fa651a21a9ca246d0a1ed47ab776fc88d3e7bf8",
+            "bounding_box": "{\"x1\": 173, \"y1\": 629, \"x2\": 907, \"y2\": 700}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.easyfitness:id/singlevalueinput_title",
+            "text_content": "Date",
+            "word_sequence": [
+                "Date"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "6f087ac46f22fea2cbf135bf4fa651a21a9ca246d0a1ed47ab776fc88d3e7bf8",
+            "bounding_box": "{\"x1\": 502, \"y1\": 708, \"x2\": 578, \"y2\": 759}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/singlevalueinput_value",
+            "text_content": "3/3/23",
+            "word_sequence": [
+                "3",
+                "/",
+                "3",
+                "/",
+                "23"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1428,
+            "screen_id": "6f087ac46f22fea2cbf135bf4fa651a21a9ca246d0a1ed47ab776fc88d3e7bf8",
+            "bounding_box": "{\"x1\": 457, \"y1\": 759, \"x2\": 622, \"y2\": 877}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/singlevalueinput_title",
+            "text_content": "Edit value",
+            "word_sequence": [
+                "Edit",
+                "value"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "6f087ac46f22fea2cbf135bf4fa651a21a9ca246d0a1ed47ab776fc88d3e7bf8",
+            "bounding_box": "{\"x1\": 460, \"y1\": 893, \"x2\": 619, \"y2\": 944}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.easyfitness:id/singlevalueinput_value",
+            "text_content": "0.0",
+            "word_sequence": [
+                "0",
+                ".",
+                "0"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1428,
+            "screen_id": "6f087ac46f22fea2cbf135bf4fa651a21a9ca246d0a1ed47ab776fc88d3e7bf8",
+            "bounding_box": "{\"x1\": 387, \"y1\": 944, \"x2\": 552, \"y2\": 1062}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/text1",
+            "text_content": "kg",
+            "word_sequence": [
+                "kg"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "6f087ac46f22fea2cbf135bf4fa651a21a9ca246d0a1ed47ab776fc88d3e7bf8",
+            "bounding_box": "{\"x1\": 563, \"y1\": 975, \"x2\": 649, \"y2\": 1032}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.easyfitness:id/btn_cancel",
+            "text_content": "CANCEL",
+            "word_sequence": [
+                "CANCEL"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "6f087ac46f22fea2cbf135bf4fa651a21a9ca246d0a1ed47ab776fc88d3e7bf8",
+            "bounding_box": "{\"x1\": 199, \"y1\": 1096, \"x2\": 514, \"y2\": 1201}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.easyfitness:id/btn_update",
+            "text_content": "ADD",
+            "word_sequence": [
+                "ADD"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "6f087ac46f22fea2cbf135bf4fa651a21a9ca246d0a1ed47ab776fc88d3e7bf8",
+            "bounding_box": "{\"x1\": 566, \"y1\": 1096, \"x2\": 881, \"y2\": 1201}"
+        }
+    ],
+    "62efda03520e89ff9c9f0d4eb4cf725016310d5cfbb5d4c3aaf49806553b0a31": [
+        {
+            "component_id": 0,
+            "resource_id": "com.easyfitness:id/title_text",
+            "text_content": "Enter Bodypart name",
+            "word_sequence": [
+                "Enter",
+                "Bodypart",
+                "name"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1428,
+            "screen_id": "62efda03520e89ff9c9f0d4eb4cf725016310d5cfbb5d4c3aaf49806553b0a31",
+            "bounding_box": "{\"x1\": 280, \"y1\": 363, \"x2\": 799, \"y2\": 430}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Left biceps",
+            "word_sequence": [
+                "Left",
+                "biceps"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1428,
+            "screen_id": "62efda03520e89ff9c9f0d4eb4cf725016310d5cfbb5d4c3aaf49806553b0a31",
+            "bounding_box": "{\"x1\": 238, \"y1\": 456, \"x2\": 841, \"y2\": 574}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/cancel_button",
+            "text_content": "Cancel",
+            "word_sequence": [
+                "Cancel"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "62efda03520e89ff9c9f0d4eb4cf725016310d5cfbb5d4c3aaf49806553b0a31",
+            "bounding_box": "{\"x1\": 271, \"y1\": 600, \"x2\": 518, \"y2\": 705}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/confirm_button",
+            "text_content": "Ok",
+            "word_sequence": [
+                "Ok"
+            ],
+            "type": "BUTTON",
+            "app_name": 1428,
+            "screen_id": "62efda03520e89ff9c9f0d4eb4cf725016310d5cfbb5d4c3aaf49806553b0a31",
+            "bounding_box": "{\"x1\": 584, \"y1\": 600, \"x2\": 807, \"y2\": 705}"
+        }
+    ]
+}

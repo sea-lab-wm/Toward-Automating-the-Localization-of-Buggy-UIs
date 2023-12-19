@@ -1,0 +1,182 @@
+{
+    "app-name": 11,
+    "48489898a8d2e4e2d8555f6b0db0b164ec504eca57fb6c45d75248611d13c311": [
+        {
+            "component_id": 0,
+            "resource_id": "com.droidheat.musicplayer:id/alertTitle",
+            "text_content": "Request for permissions",
+            "word_sequence": [
+                "Request",
+                "for",
+                "permissions"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 11,
+            "screen_id": "48489898a8d2e4e2d8555f6b0db0b164ec504eca57fb6c45d75248611d13c311",
+            "bounding_box": "{\"x1\": 132, \"y1\": 769, \"x2\": 948, \"y2\": 840}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.droidheat.musicplayer:id/titleDividerNoCustom",
+            "text_content": "",
+            "word_sequence": [
+                "title",
+                "Divider",
+                "No",
+                "Custom"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 11,
+            "screen_id": "48489898a8d2e4e2d8555f6b0db0b164ec504eca57fb6c45d75248611d13c311",
+            "bounding_box": "{\"x1\": 69, \"y1\": 840, \"x2\": 1011, \"y2\": 861}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/message",
+            "text_content": "For music player to work we need your permission to access files on your device.",
+            "word_sequence": [
+                "For",
+                "music",
+                "player",
+                "to",
+                "work",
+                "we",
+                "need",
+                "your",
+                "permission",
+                "to",
+                "access",
+                "files",
+                "on",
+                "your",
+                "device",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 11,
+            "screen_id": "48489898a8d2e4e2d8555f6b0db0b164ec504eca57fb6c45d75248611d13c311",
+            "bounding_box": "{\"x1\": 69, \"y1\": 861, \"x2\": 1011, \"y2\": 967}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/button2",
+            "text_content": "Decline",
+            "word_sequence": [
+                "Decline"
+            ],
+            "type": "BUTTON",
+            "app_name": 11,
+            "screen_id": "48489898a8d2e4e2d8555f6b0db0b164ec504eca57fb6c45d75248611d13c311",
+            "bounding_box": "{\"x1\": 569, \"y1\": 998, \"x2\": 777, \"y2\": 1124}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/button1",
+            "text_content": "Accept",
+            "word_sequence": [
+                "Accept"
+            ],
+            "type": "BUTTON",
+            "app_name": 11,
+            "screen_id": "48489898a8d2e4e2d8555f6b0db0b164ec504eca57fb6c45d75248611d13c311",
+            "bounding_box": "{\"x1\": 777, \"y1\": 998, \"x2\": 979, \"y2\": 1124}"
+        }
+    ],
+    "61730fee40943d7766d05209a78150c6b3cb5f45ca1cfb072a033c4a76ccf37a": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.packageinstaller:id/permission_icon",
+            "text_content": "",
+            "word_sequence": [
+                "permission",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 11,
+            "screen_id": "61730fee40943d7766d05209a78150c6b3cb5f45ca1cfb072a033c4a76ccf37a",
+            "bounding_box": "{\"x1\": 220, \"y1\": 758, \"x2\": 315, \"y2\": 853}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.packageinstaller:id/permission_message",
+            "text_content": "Allow Noad Player to access photos, media, and files on your device?",
+            "word_sequence": [
+                "Allow",
+                "Noad",
+                "Player",
+                "to",
+                "access",
+                "photos",
+                ",",
+                "media",
+                ",",
+                "and",
+                "files",
+                "on",
+                "your",
+                "device",
+                "?"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 11,
+            "screen_id": "61730fee40943d7766d05209a78150c6b3cb5f45ca1cfb072a033c4a76ccf37a",
+            "bounding_box": "{\"x1\": 315, \"y1\": 750, \"x2\": 876, \"y2\": 981}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.packageinstaller:id/permission_deny_button",
+            "text_content": "Deny",
+            "word_sequence": [
+                "Deny"
+            ],
+            "type": "BUTTON",
+            "app_name": 11,
+            "screen_id": "61730fee40943d7766d05209a78150c6b3cb5f45ca1cfb072a033c4a76ccf37a",
+            "bounding_box": "{\"x1\": 502, \"y1\": 1023, \"x2\": 670, \"y2\": 1149}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.packageinstaller:id/permission_allow_button",
+            "text_content": "Allow",
+            "word_sequence": [
+                "Allow"
+            ],
+            "type": "BUTTON",
+            "app_name": 11,
+            "screen_id": "61730fee40943d7766d05209a78150c6b3cb5f45ca1cfb072a033c4a76ccf37a",
+            "bounding_box": "{\"x1\": 691, \"y1\": 1023, \"x2\": 876, \"y2\": 1149}"
+        }
+    ],
+    "2957d1cfee327d06abd84e6b91e1153eb930ce1886a45ed33c8ff4c6536fbcb0": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/message",
+            "text_content": "Unfortunately, Noad Player has stopped.",
+            "word_sequence": [
+                "Unfortunately",
+                ",",
+                "Noad",
+                "Player",
+                "has",
+                "stopped",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 11,
+            "screen_id": "2957d1cfee327d06abd84e6b91e1153eb930ce1886a45ed33c8ff4c6536fbcb0",
+            "bounding_box": "{\"x1\": 69, \"y1\": 838, \"x2\": 1011, \"y2\": 895}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/button1",
+            "text_content": "OK",
+            "word_sequence": [
+                "OK"
+            ],
+            "type": "BUTTON",
+            "app_name": 11,
+            "screen_id": "2957d1cfee327d06abd84e6b91e1153eb930ce1886a45ed33c8ff4c6536fbcb0",
+            "bounding_box": "{\"x1\": 811, \"y1\": 928, \"x2\": 979, \"y2\": 1054}"
+        }
+    ]
+}

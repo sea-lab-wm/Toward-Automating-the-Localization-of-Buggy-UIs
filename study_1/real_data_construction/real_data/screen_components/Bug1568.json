@@ -1,0 +1,2365 @@
+{
+    "app-name": 1568,
+    "227a781df4ae7cc69c7b7f74265dfe02d13a24c5ce6cdce4c6280ea53d0da672": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.packageinstaller:id/permission_icon",
+            "text_content": "",
+            "word_sequence": [
+                "permission",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1568,
+            "screen_id": "227a781df4ae7cc69c7b7f74265dfe02d13a24c5ce6cdce4c6280ea53d0da672",
+            "bounding_box": "{\"x1\": 215, \"y1\": 780, \"x2\": 310, \"y2\": 875}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.packageinstaller:id/permission_message",
+            "text_content": "Allow lrkFM to access photos, media, and files on your device?",
+            "word_sequence": [
+                "Allow",
+                "lrkFM",
+                "to",
+                "access",
+                "photos",
+                ",",
+                "media",
+                ",",
+                "and",
+                "files",
+                "on",
+                "your",
+                "device",
+                "?"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "227a781df4ae7cc69c7b7f74265dfe02d13a24c5ce6cdce4c6280ea53d0da672",
+            "bounding_box": "{\"x1\": 310, \"y1\": 780, \"x2\": 876, \"y2\": 975}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.packageinstaller:id/permission_deny_button",
+            "text_content": "DENY",
+            "word_sequence": [
+                "DENY"
+            ],
+            "type": "BUTTON",
+            "app_name": 1568,
+            "screen_id": "227a781df4ae7cc69c7b7f74265dfe02d13a24c5ce6cdce4c6280ea53d0da672",
+            "bounding_box": "{\"x1\": 523, \"y1\": 986, \"x2\": 691, \"y2\": 1112}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.packageinstaller:id/permission_allow_button",
+            "text_content": "ALLOW",
+            "word_sequence": [
+                "ALLOW"
+            ],
+            "type": "BUTTON",
+            "app_name": 1568,
+            "screen_id": "227a781df4ae7cc69c7b7f74265dfe02d13a24c5ce6cdce4c6280ea53d0da672",
+            "bounding_box": "{\"x1\": 691, \"y1\": 986, \"x2\": 876, \"y2\": 1112}"
+        }
+    ],
+    "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Open navigation drawer",
+            "word_sequence": [
+                "Open",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 219, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "io.lerk.lrkFM:id/fileCheckBox",
+            "text_content": "",
+            "word_sequence": [
+                "file",
+                "Check",
+                "Box"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 32, \"y1\": 241, \"x2\": 116, \"y2\": 334}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Alarms",
+            "word_sequence": [
+                "Alarms"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 231, \"x2\": 297, \"y2\": 294}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 996, \"y1\": 231, \"x2\": 1059, \"y2\": 278}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 294, \"x2\": 228, \"y2\": 345}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 14, 2023 12:14:15 AM",
+            "word_sequence": [
+                "Jan",
+                "14",
+                ",",
+                "2023",
+                "12",
+                ":",
+                "14",
+                ":",
+                "15",
+                "AM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 630, \"y1\": 294, \"x2\": 1059, \"y2\": 345}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "io.lerk.lrkFM:id/fileCheckBox",
+            "text_content": "",
+            "word_sequence": [
+                "file",
+                "Check",
+                "Box"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 32, \"y1\": 400, \"x2\": 116, \"y2\": 493}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Android",
+            "word_sequence": [
+                "Android"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 390, \"x2\": 311, \"y2\": 453}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 996, \"y1\": 390, \"x2\": 1059, \"y2\": 437}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 453, \"x2\": 228, \"y2\": 504}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 14, 2023 12:14:38 AM",
+            "word_sequence": [
+                "Jan",
+                "14",
+                ",",
+                "2023",
+                "12",
+                ":",
+                "14",
+                ":",
+                "38",
+                "AM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 630, \"y1\": 453, \"x2\": 1059, \"y2\": 504}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "io.lerk.lrkFM:id/fileCheckBox",
+            "text_content": "",
+            "word_sequence": [
+                "file",
+                "Check",
+                "Box"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 32, \"y1\": 559, \"x2\": 116, \"y2\": 652}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "DCIM",
+            "word_sequence": [
+                "DCIM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 549, \"x2\": 264, \"y2\": 612}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 996, \"y1\": 549, \"x2\": 1059, \"y2\": 596}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 612, \"x2\": 228, \"y2\": 663}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 14, 2023 12:14:15 AM",
+            "word_sequence": [
+                "Jan",
+                "14",
+                ",",
+                "2023",
+                "12",
+                ":",
+                "14",
+                ":",
+                "15",
+                "AM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 630, \"y1\": 612, \"x2\": 1059, \"y2\": 663}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "io.lerk.lrkFM:id/fileCheckBox",
+            "text_content": "",
+            "word_sequence": [
+                "file",
+                "Check",
+                "Box"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 32, \"y1\": 718, \"x2\": 116, \"y2\": 811}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Download",
+            "word_sequence": [
+                "Download"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 708, \"x2\": 358, \"y2\": 771}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 996, \"y1\": 708, \"x2\": 1059, \"y2\": 755}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 771, \"x2\": 228, \"y2\": 822}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 14, 2023 12:14:15 AM",
+            "word_sequence": [
+                "Jan",
+                "14",
+                ",",
+                "2023",
+                "12",
+                ":",
+                "14",
+                ":",
+                "15",
+                "AM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 630, \"y1\": 771, \"x2\": 1059, \"y2\": 822}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "io.lerk.lrkFM:id/fileCheckBox",
+            "text_content": "",
+            "word_sequence": [
+                "file",
+                "Check",
+                "Box"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 32, \"y1\": 877, \"x2\": 116, \"y2\": 970}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Movies",
+            "word_sequence": [
+                "Movies"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 867, \"x2\": 299, \"y2\": 930}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 996, \"y1\": 867, \"x2\": 1059, \"y2\": 914}"
+        },
+        {
+            "component_id": 26,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 930, \"x2\": 228, \"y2\": 981}"
+        },
+        {
+            "component_id": 27,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 14, 2023 12:14:15 AM",
+            "word_sequence": [
+                "Jan",
+                "14",
+                ",",
+                "2023",
+                "12",
+                ":",
+                "14",
+                ":",
+                "15",
+                "AM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 630, \"y1\": 930, \"x2\": 1059, \"y2\": 981}"
+        },
+        {
+            "component_id": 28,
+            "resource_id": "io.lerk.lrkFM:id/fileCheckBox",
+            "text_content": "",
+            "word_sequence": [
+                "file",
+                "Check",
+                "Box"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 32, \"y1\": 1036, \"x2\": 116, \"y2\": 1129}"
+        },
+        {
+            "component_id": 29,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Music",
+            "word_sequence": [
+                "Music"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 1026, \"x2\": 275, \"y2\": 1089}"
+        },
+        {
+            "component_id": 30,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1026, \"x2\": 1059, \"y2\": 1073}"
+        },
+        {
+            "component_id": 31,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 1089, \"x2\": 228, \"y2\": 1140}"
+        },
+        {
+            "component_id": 32,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 14, 2023 12:14:15 AM",
+            "word_sequence": [
+                "Jan",
+                "14",
+                ",",
+                "2023",
+                "12",
+                ":",
+                "14",
+                ":",
+                "15",
+                "AM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 630, \"y1\": 1089, \"x2\": 1059, \"y2\": 1140}"
+        },
+        {
+            "component_id": 33,
+            "resource_id": "io.lerk.lrkFM:id/fileCheckBox",
+            "text_content": "",
+            "word_sequence": [
+                "file",
+                "Check",
+                "Box"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 32, \"y1\": 1195, \"x2\": 116, \"y2\": 1288}"
+        },
+        {
+            "component_id": 34,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Notifications",
+            "word_sequence": [
+                "Notifications"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 1185, \"x2\": 415, \"y2\": 1248}"
+        },
+        {
+            "component_id": 35,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1185, \"x2\": 1059, \"y2\": 1232}"
+        },
+        {
+            "component_id": 36,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 1248, \"x2\": 228, \"y2\": 1299}"
+        },
+        {
+            "component_id": 37,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 14, 2023 12:14:15 AM",
+            "word_sequence": [
+                "Jan",
+                "14",
+                ",",
+                "2023",
+                "12",
+                ":",
+                "14",
+                ":",
+                "15",
+                "AM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 630, \"y1\": 1248, \"x2\": 1059, \"y2\": 1299}"
+        },
+        {
+            "component_id": 38,
+            "resource_id": "io.lerk.lrkFM:id/fileCheckBox",
+            "text_content": "",
+            "word_sequence": [
+                "file",
+                "Check",
+                "Box"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 32, \"y1\": 1354, \"x2\": 116, \"y2\": 1447}"
+        },
+        {
+            "component_id": 39,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Pictures",
+            "word_sequence": [
+                "Pictures"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 1344, \"x2\": 320, \"y2\": 1407}"
+        },
+        {
+            "component_id": 40,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1344, \"x2\": 1059, \"y2\": 1391}"
+        },
+        {
+            "component_id": 41,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 1407, \"x2\": 228, \"y2\": 1458}"
+        },
+        {
+            "component_id": 42,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 14, 2023 12:14:15 AM",
+            "word_sequence": [
+                "Jan",
+                "14",
+                ",",
+                "2023",
+                "12",
+                ":",
+                "14",
+                ":",
+                "15",
+                "AM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 630, \"y1\": 1407, \"x2\": 1059, \"y2\": 1458}"
+        },
+        {
+            "component_id": 43,
+            "resource_id": "io.lerk.lrkFM:id/fileCheckBox",
+            "text_content": "",
+            "word_sequence": [
+                "file",
+                "Check",
+                "Box"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 32, \"y1\": 1513, \"x2\": 116, \"y2\": 1606}"
+        },
+        {
+            "component_id": 44,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Podcasts",
+            "word_sequence": [
+                "Podcasts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 1503, \"x2\": 346, \"y2\": 1566}"
+        },
+        {
+            "component_id": 45,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1503, \"x2\": 1059, \"y2\": 1550}"
+        },
+        {
+            "component_id": 46,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 1566, \"x2\": 228, \"y2\": 1617}"
+        },
+        {
+            "component_id": 47,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 14, 2023 12:14:15 AM",
+            "word_sequence": [
+                "Jan",
+                "14",
+                ",",
+                "2023",
+                "12",
+                ":",
+                "14",
+                ":",
+                "15",
+                "AM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 630, \"y1\": 1566, \"x2\": 1059, \"y2\": 1617}"
+        },
+        {
+            "component_id": 48,
+            "resource_id": "io.lerk.lrkFM:id/fileCheckBox",
+            "text_content": "",
+            "word_sequence": [
+                "file",
+                "Check",
+                "Box"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 32, \"y1\": 1672, \"x2\": 116, \"y2\": 1765}"
+        },
+        {
+            "component_id": 49,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Ringtones",
+            "word_sequence": [
+                "Ringtones"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 1662, \"x2\": 356, \"y2\": 1725}"
+        },
+        {
+            "component_id": 50,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1662, \"x2\": 1059, \"y2\": 1709}"
+        },
+        {
+            "component_id": 51,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 1725, \"x2\": 228, \"y2\": 1776}"
+        },
+        {
+            "component_id": 52,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 14, 2023 12:14:15 AM",
+            "word_sequence": [
+                "Jan",
+                "14",
+                ",",
+                "2023",
+                "12",
+                ":",
+                "14",
+                ":",
+                "15",
+                "AM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 630, \"y1\": 1725, \"x2\": 1059, \"y2\": 1776}"
+        },
+        {
+            "component_id": 53,
+            "resource_id": "io.lerk.lrkFM:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 1568,
+            "screen_id": "c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "3fe10187e7b1ac852f544fd9b6f824aa7b7e9aaf57cdc0338292e009bee94105": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1568,
+            "screen_id": "3fe10187e7b1ac852f544fd9b6f824aa7b7e9aaf57cdc0338292e009bee94105",
+            "bounding_box": "{\"x1\": 42, \"y1\": 63, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "io.lerk.lrkFM:id/introText1",
+            "text_content": "Welcome to lrkFM.",
+            "word_sequence": [
+                "Welcome",
+                "to",
+                "lrkFM",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "3fe10187e7b1ac852f544fd9b6f824aa7b7e9aaf57cdc0338292e009bee94105",
+            "bounding_box": "{\"x1\": 42, \"y1\": 515, \"x2\": 1038, \"y2\": 566}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "io.lerk.lrkFM:id/introText2",
+            "text_content": "We hope that you will like this app.",
+            "word_sequence": [
+                "We",
+                "hope",
+                "that",
+                "you",
+                "will",
+                "like",
+                "this",
+                "app",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "3fe10187e7b1ac852f544fd9b6f824aa7b7e9aaf57cdc0338292e009bee94105",
+            "bounding_box": "{\"x1\": 42, \"y1\": 613, \"x2\": 1038, \"y2\": 664}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "io.lerk.lrkFM:id/introText3",
+            "text_content": "It's a good idea to go through the Settings before doing anything. If there is anything wrong please file a bug using the link in the menu.",
+            "word_sequence": [
+                "It's",
+                "a",
+                "good",
+                "idea",
+                "to",
+                "go",
+                "through",
+                "the",
+                "Settings",
+                "before",
+                "doing",
+                "anything",
+                ".",
+                "If",
+                "there",
+                "is",
+                "anything",
+                "wrong",
+                "please",
+                "file",
+                "a",
+                "bug",
+                "using",
+                "the",
+                "link",
+                "in",
+                "the",
+                "menu",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "3fe10187e7b1ac852f544fd9b6f824aa7b7e9aaf57cdc0338292e009bee94105",
+            "bounding_box": "{\"x1\": 42, \"y1\": 711, \"x2\": 1038, \"y2\": 848}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "io.lerk.lrkFM:id/introText4",
+            "text_content": "Please tap the lock to grant permission to read phone storage. If no files are being shown after that, use 'refresh' in the top right menu. (If the lock is not visible, the permission is already granted)",
+            "word_sequence": [
+                "Please",
+                "tap",
+                "the",
+                "lock",
+                "to",
+                "grant",
+                "permission",
+                "to",
+                "read",
+                "phone",
+                "storage",
+                ".",
+                "If",
+                "no",
+                "files",
+                "are",
+                "being",
+                "shown",
+                "after",
+                "that",
+                ",",
+                "use",
+                "'refresh'",
+                "in",
+                "the",
+                "top",
+                "right",
+                "menu",
+                ".",
+                "If",
+                "the",
+                "lock",
+                "is",
+                "not",
+                "visible",
+                ",",
+                "the",
+                "permission",
+                "is",
+                "already",
+                "granted"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "3fe10187e7b1ac852f544fd9b6f824aa7b7e9aaf57cdc0338292e009bee94105",
+            "bounding_box": "{\"x1\": 42, \"y1\": 895, \"x2\": 1038, \"y2\": 1075}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "io.lerk.lrkFM:id/introText5",
+            "text_content": "To interact with files you can either use the menu button next to each file entry or long press a file entry.",
+            "word_sequence": [
+                "To",
+                "interact",
+                "with",
+                "files",
+                "you",
+                "can",
+                "either",
+                "use",
+                "the",
+                "menu",
+                "button",
+                "next",
+                "to",
+                "each",
+                "file",
+                "entry",
+                "or",
+                "long",
+                "press",
+                "a",
+                "file",
+                "entry",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "3fe10187e7b1ac852f544fd9b6f824aa7b7e9aaf57cdc0338292e009bee94105",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1122, \"x2\": 1038, \"y2\": 1216}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "io.lerk.lrkFM:id/introText6",
+            "text_content": "New features in 2.0+ include: a dark theme, a notification when a new version is online in the PlayStore (only when you launch the app) and redesigned settings.",
+            "word_sequence": [
+                "New",
+                "features",
+                "in",
+                "2",
+                ".",
+                "0",
+                "include",
+                ":",
+                "a",
+                "dark",
+                "theme",
+                ",",
+                "a",
+                "notification",
+                "when",
+                "a",
+                "new",
+                "version",
+                "is",
+                "online",
+                "in",
+                "the",
+                "PlayStore",
+                "only",
+                "when",
+                "you",
+                "launch",
+                "the",
+                "app",
+                "and",
+                "redesigned",
+                "settings",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "3fe10187e7b1ac852f544fd9b6f824aa7b7e9aaf57cdc0338292e009bee94105",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1263, \"x2\": 1038, \"y2\": 1400}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "io.lerk.lrkFM:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 1568,
+            "screen_id": "3fe10187e7b1ac852f544fd9b6f824aa7b7e9aaf57cdc0338292e009bee94105",
+            "bounding_box": "{\"x1\": 891, \"y1\": 400, \"x2\": 1038, \"y2\": 547}"
+        }
+    ],
+    "db04b906179c98c613860900737c666e72d3e3324ea6c1ad09d329c2dd507cad": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.permissioncontroller:id/permission_icon",
+            "text_content": "",
+            "word_sequence": [
+                "permission",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1568,
+            "screen_id": "db04b906179c98c613860900737c666e72d3e3324ea6c1ad09d329c2dd507cad",
+            "bounding_box": "{\"x1\": 508, \"y1\": 656, \"x2\": 571, \"y2\": 719}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.permissioncontroller:id/permission_message",
+            "text_content": "Allow lrkFM to access photos and media on your device?",
+            "word_sequence": [
+                "Allow",
+                "lrkFM",
+                "to",
+                "access",
+                "photos",
+                "and",
+                "media",
+                "on",
+                "your",
+                "device",
+                "?"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "db04b906179c98c613860900737c666e72d3e3324ea6c1ad09d329c2dd507cad",
+            "bounding_box": "{\"x1\": 133, \"y1\": 751, \"x2\": 947, \"y2\": 884}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.permissioncontroller:id/permission_allow_button",
+            "text_content": "Allow",
+            "word_sequence": [
+                "Allow"
+            ],
+            "type": "BUTTON",
+            "app_name": 1568,
+            "screen_id": "db04b906179c98c613860900737c666e72d3e3324ea6c1ad09d329c2dd507cad",
+            "bounding_box": "{\"x1\": 70, \"y1\": 950, \"x2\": 1010, \"y2\": 1097}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.permissioncontroller:id/permission_deny_button",
+            "text_content": "Deny",
+            "word_sequence": [
+                "Deny"
+            ],
+            "type": "BUTTON",
+            "app_name": 1568,
+            "screen_id": "db04b906179c98c613860900737c666e72d3e3324ea6c1ad09d329c2dd507cad",
+            "bounding_box": "{\"x1\": 70, \"y1\": 1100, \"x2\": 1010, \"y2\": 1247}"
+        }
+    ],
+    "255e0d8db77d1ce9e53c2f5fd8ed66e3c375955164339147224b43542281afc2": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Open navigation drawer",
+            "word_sequence": [
+                "Open",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1568,
+            "screen_id": "255e0d8db77d1ce9e53c2f5fd8ed66e3c375955164339147224b43542281afc2",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "emulated",
+            "word_sequence": [
+                "emulated"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "255e0d8db77d1ce9e53c2f5fd8ed66e3c375955164339147224b43542281afc2",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 411, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1568,
+            "screen_id": "255e0d8db77d1ce9e53c2f5fd8ed66e3c375955164339147224b43542281afc2",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "io.lerk.lrkFM:id/err_text_0",
+            "text_content": "Unable to access files \ud83d\ude12",
+            "word_sequence": [
+                "Unable",
+                "to",
+                "access",
+                "files"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "255e0d8db77d1ce9e53c2f5fd8ed66e3c375955164339147224b43542281afc2",
+            "bounding_box": "{\"x1\": 276, \"y1\": 834, \"x2\": 803, \"y2\": 897}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "io.lerk.lrkFM:id/err_text_1",
+            "text_content": "The directory might also be empty.",
+            "word_sequence": [
+                "The",
+                "directory",
+                "might",
+                "also",
+                "be",
+                "empty",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "255e0d8db77d1ce9e53c2f5fd8ed66e3c375955164339147224b43542281afc2",
+            "bounding_box": "{\"x1\": 181, \"y1\": 897, \"x2\": 898, \"y2\": 960}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "io.lerk.lrkFM:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 1568,
+            "screen_id": "255e0d8db77d1ce9e53c2f5fd8ed66e3c375955164339147224b43542281afc2",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Open navigation drawer",
+            "word_sequence": [
+                "Open",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1568,
+            "screen_id": "80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "storage",
+            "word_sequence": [
+                "storage"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 368, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1568,
+            "screen_id": "80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "io.lerk.lrkFM:id/fileCheckBox",
+            "text_content": "",
+            "word_sequence": [
+                "file",
+                "Check",
+                "Box"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1568,
+            "screen_id": "80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c",
+            "bounding_box": "{\"x1\": 32, \"y1\": 241, \"x2\": 116, \"y2\": 334}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "0808-2F10",
+            "word_sequence": [
+                "0808",
+                "2F10"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 231, \"x2\": 369, \"y2\": 294}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1568,
+            "screen_id": "80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c",
+            "bounding_box": "{\"x1\": 996, \"y1\": 231, \"x2\": 1059, \"y2\": 278}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "d--x",
+            "word_sequence": [
+                "d",
+                "x"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 294, \"x2\": 207, \"y2\": 345}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 15, 2023 7:36:36 PM",
+            "word_sequence": [
+                "Jan",
+                "15",
+                ",",
+                "2023",
+                "7",
+                ":",
+                "36",
+                ":",
+                "36",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c",
+            "bounding_box": "{\"x1\": 652, \"y1\": 294, \"x2\": 1059, \"y2\": 345}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "io.lerk.lrkFM:id/fileCheckBox",
+            "text_content": "",
+            "word_sequence": [
+                "file",
+                "Check",
+                "Box"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1568,
+            "screen_id": "80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c",
+            "bounding_box": "{\"x1\": 32, \"y1\": 400, \"x2\": 116, \"y2\": 493}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "emulated",
+            "word_sequence": [
+                "emulated"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 390, \"x2\": 344, \"y2\": 453}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1568,
+            "screen_id": "80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c",
+            "bounding_box": "{\"x1\": 996, \"y1\": 390, \"x2\": 1059, \"y2\": 437}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "d--x",
+            "word_sequence": [
+                "d",
+                "x"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 453, \"x2\": 207, \"y2\": 504}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 15, 2023 7:36:34 PM",
+            "word_sequence": [
+                "Jan",
+                "15",
+                ",",
+                "2023",
+                "7",
+                ":",
+                "36",
+                ":",
+                "34",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c",
+            "bounding_box": "{\"x1\": 652, \"y1\": 453, \"x2\": 1059, \"y2\": 504}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "io.lerk.lrkFM:id/fileCheckBox",
+            "text_content": "",
+            "word_sequence": [
+                "file",
+                "Check",
+                "Box"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1568,
+            "screen_id": "80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c",
+            "bounding_box": "{\"x1\": 32, \"y1\": 559, \"x2\": 116, \"y2\": 652}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "self",
+            "word_sequence": [
+                "self"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 549, \"x2\": 224, \"y2\": 612}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1568,
+            "screen_id": "80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c",
+            "bounding_box": "{\"x1\": 996, \"y1\": 549, \"x2\": 1059, \"y2\": 596}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "d--x",
+            "word_sequence": [
+                "d",
+                "x"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 612, \"x2\": 207, \"y2\": 663}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 15, 2023 7:36:34 PM",
+            "word_sequence": [
+                "Jan",
+                "15",
+                ",",
+                "2023",
+                "7",
+                ":",
+                "36",
+                ":",
+                "34",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c",
+            "bounding_box": "{\"x1\": 652, \"y1\": 612, \"x2\": 1059, \"y2\": 663}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "io.lerk.lrkFM:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 1568,
+            "screen_id": "80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "322fee6d2791b7cb6ac7e9adcbc7303e4fc4af31aca6b715a500c1322e2616d8": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Apps list",
+            "word_sequence": [
+                "Apps",
+                "list"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1568,
+            "screen_id": "322fee6d2791b7cb6ac7e9adcbc7303e4fc4af31aca6b715a500c1322e2616d8",
+            "bounding_box": "{\"x1\": 508, \"y1\": 1319, \"x2\": 571, \"y2\": 1382}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/clock",
+            "text_content": "Monday, Jan 16 Monday, Jan 16",
+            "word_sequence": [
+                "Monday",
+                ",",
+                "Jan",
+                "16"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "322fee6d2791b7cb6ac7e9adcbc7303e4fc4af31aca6b715a500c1322e2616d8",
+            "bounding_box": "{\"x1\": 286, \"y1\": 84, \"x2\": 793, \"y2\": 337}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/page_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "page",
+                "indicator"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1568,
+            "screen_id": "322fee6d2791b7cb6ac7e9adcbc7303e4fc4af31aca6b715a500c1322e2616d8",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1319, \"x2\": 1080, \"y2\": 1382}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Messages Messages",
+            "word_sequence": [
+                "Messages"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "322fee6d2791b7cb6ac7e9adcbc7303e4fc4af31aca6b715a500c1322e2616d8",
+            "bounding_box": "{\"x1\": 237, \"y1\": 1382, \"x2\": 439, \"y2\": 1592}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "Play Store Play Store, has 1 notification",
+            "word_sequence": [
+                "Play",
+                "Store"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "322fee6d2791b7cb6ac7e9adcbc7303e4fc4af31aca6b715a500c1322e2616d8",
+            "bounding_box": "{\"x1\": 439, \"y1\": 1382, \"x2\": 641, \"y2\": 1592}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "Chrome Chrome",
+            "word_sequence": [
+                "Chrome"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "322fee6d2791b7cb6ac7e9adcbc7303e4fc4af31aca6b715a500c1322e2616d8",
+            "bounding_box": "{\"x1\": 641, \"y1\": 1382, \"x2\": 843, \"y2\": 1592}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/all_apps_header",
+            "text_content": "",
+            "word_sequence": [
+                "all",
+                "apps",
+                "header"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1568,
+            "screen_id": "322fee6d2791b7cb6ac7e9adcbc7303e4fc4af31aca6b715a500c1322e2616d8",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1718, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/g_icon",
+            "text_content": "",
+            "word_sequence": [
+                "g",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1568,
+            "screen_id": "322fee6d2791b7cb6ac7e9adcbc7303e4fc4af31aca6b715a500c1322e2616d8",
+            "bounding_box": "{\"x1\": 104, \"y1\": 1692, \"x2\": 167, \"y2\": 1755}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/mic_icon",
+            "text_content": "Voice search",
+            "word_sequence": [
+                "Voice",
+                "search"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1568,
+            "screen_id": "322fee6d2791b7cb6ac7e9adcbc7303e4fc4af31aca6b715a500c1322e2616d8",
+            "bounding_box": "{\"x1\": 864, \"y1\": 1650, \"x2\": 1011, \"y2\": 1794}"
+        }
+    ],
+    "b04de2a8a39c510bf4b8da79cb9d80836e5ccf315061f4693b1bbd7dccf70891": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.chrome:id/title",
+            "text_content": "Welcome to Chrome",
+            "word_sequence": [
+                "Welcome",
+                "to",
+                "Chrome"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "b04de2a8a39c510bf4b8da79cb9d80836e5ccf315061f4693b1bbd7dccf70891",
+            "bounding_box": "{\"x1\": 278, \"y1\": 387, \"x2\": 801, \"y2\": 465}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.chrome:id/image",
+            "text_content": "",
+            "word_sequence": [
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1568,
+            "screen_id": "b04de2a8a39c510bf4b8da79cb9d80836e5ccf315061f4693b1bbd7dccf70891",
+            "bounding_box": "{\"x1\": 382, \"y1\": 549, \"x2\": 697, \"y2\": 864}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.chrome:id/tos_and_privacy",
+            "text_content": "By using this application, you agree to Chrome\u2019s Terms of Service and Privacy Notice.",
+            "word_sequence": [
+                "By",
+                "using",
+                "this",
+                "application",
+                ",",
+                "you",
+                "agree",
+                "to",
+                "Chrome",
+                "s",
+                "Terms",
+                "of",
+                "Service",
+                "and",
+                "Privacy",
+                "Notice",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "b04de2a8a39c510bf4b8da79cb9d80836e5ccf315061f4693b1bbd7dccf70891",
+            "bounding_box": "{\"x1\": 63, \"y1\": 948, \"x2\": 1017, \"y2\": 1059}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.chrome:id/send_report_checkbox",
+            "text_content": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+            "word_sequence": [
+                "Help",
+                "make",
+                "Chrome",
+                "better",
+                "by",
+                "sending",
+                "usage",
+                "statistics",
+                "and",
+                "crash",
+                "reports",
+                "to",
+                "Google",
+                "."
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1568,
+            "screen_id": "b04de2a8a39c510bf4b8da79cb9d80836e5ccf315061f4693b1bbd7dccf70891",
+            "bounding_box": "{\"x1\": 63, \"y1\": 1143, \"x2\": 1017, \"y2\": 1257}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.chrome:id/terms_accept",
+            "text_content": "Accept & continue",
+            "word_sequence": [
+                "Accept",
+                "continue"
+            ],
+            "type": "BUTTON",
+            "app_name": 1568,
+            "screen_id": "b04de2a8a39c510bf4b8da79cb9d80836e5ccf315061f4693b1bbd7dccf70891",
+            "bounding_box": "{\"x1\": 357, \"y1\": 1657, \"x2\": 723, \"y2\": 1752}"
+        }
+    ],
+    "f88594f3597ef40c0f41d4f8e5095db36cce349c756f860ac3908d81c49ad457": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.chrome:id/chooser_title",
+            "text_content": "Sign in to Chrome",
+            "word_sequence": [
+                "Sign",
+                "in",
+                "to",
+                "Chrome"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "f88594f3597ef40c0f41d4f8e5095db36cce349c756f860ac3908d81c49ad457",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 1080, \"y2\": 670}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1568,
+            "screen_id": "f88594f3597ef40c0f41d4f8e5095db36cce349c756f860ac3908d81c49ad457",
+            "bounding_box": "{\"x1\": 0, \"y1\": 670, \"x2\": 1080, \"y2\": 673}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.chrome:id/signin_choice_description",
+            "text_content": "Sign in with your Google Account to get your bookmarks, history, passwords, and other settings on all your devices.",
+            "word_sequence": [
+                "Sign",
+                "in",
+                "with",
+                "your",
+                "Google",
+                "Account",
+                "to",
+                "get",
+                "your",
+                "bookmarks",
+                ",",
+                "history",
+                ",",
+                "passwords",
+                ",",
+                "and",
+                "other",
+                "settings",
+                "on",
+                "all",
+                "your",
+                "devices",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "f88594f3597ef40c0f41d4f8e5095db36cce349c756f860ac3908d81c49ad457",
+            "bounding_box": "{\"x1\": 0, \"y1\": 673, \"x2\": 1080, \"y2\": 871}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.chrome:id/negative_button",
+            "text_content": "No Thanks",
+            "word_sequence": [
+                "No",
+                "Thanks"
+            ],
+            "type": "BUTTON",
+            "app_name": 1568,
+            "screen_id": "f88594f3597ef40c0f41d4f8e5095db36cce349c756f860ac3908d81c49ad457",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1657, \"x2\": 284, \"y2\": 1752}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.chrome:id/positive_button",
+            "text_content": "Sign in",
+            "word_sequence": [
+                "Sign",
+                "in"
+            ],
+            "type": "BUTTON",
+            "app_name": 1568,
+            "screen_id": "f88594f3597ef40c0f41d4f8e5095db36cce349c756f860ac3908d81c49ad457",
+            "bounding_box": "{\"x1\": 807, \"y1\": 1657, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "ef49a2a08445dd4da5401ea511c3e0e704040175b105b2df2767734a038ba5ff": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1568,
+            "screen_id": "ef49a2a08445dd4da5401ea511c3e0e704040175b105b2df2767734a038ba5ff",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Open Chrome.",
+            "word_sequence": [
+                "Open",
+                "Chrome",
+                "."
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1568,
+            "screen_id": "ef49a2a08445dd4da5401ea511c3e0e704040175b105b2df2767734a038ba5ff",
+            "bounding_box": "{\"x1\": 42, \"y1\": 231, \"x2\": 1042, \"y2\": 357}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "google-chrome-terms-of-service",
+            "text_content": "Google Chrome and ChromeOS Additional Terms of Service",
+            "word_sequence": [
+                "Google",
+                "Chrome",
+                "and",
+                "ChromeOS",
+                "Additional",
+                "Terms",
+                "of",
+                "Service"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1568,
+            "screen_id": "ef49a2a08445dd4da5401ea511c3e0e704040175b105b2df2767734a038ba5ff",
+            "bounding_box": "{\"x1\": 42, \"y1\": 433, \"x2\": 1042, \"y2\": 624}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Last modified: 01 January, 2021",
+            "word_sequence": [
+                "Last",
+                "modified",
+                ":",
+                "01",
+                "January",
+                ",",
+                "2021"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1568,
+            "screen_id": "ef49a2a08445dd4da5401ea511c3e0e704040175b105b2df2767734a038ba5ff",
+            "bounding_box": "{\"x1\": 42, \"y1\": 664, \"x2\": 1042, \"y2\": 727}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "By using Chrome or ChromeOS, you agree to the Google Terms of Service located at https://policies.google.com/terms and these Google Chrome and ChromeOS Additional Terms of Service.",
+            "word_sequence": [
+                "By",
+                "using",
+                "Chrome",
+                "or",
+                "ChromeOS",
+                ",",
+                "you",
+                "agree",
+                "to",
+                "the",
+                "Google",
+                "Terms",
+                "of",
+                "Service",
+                "located",
+                "at",
+                "https",
+                ":",
+                "/",
+                "/",
+                "policies",
+                ".",
+                "google",
+                ".",
+                "com",
+                "/",
+                "terms",
+                "and",
+                "these",
+                "Google",
+                "Chrome",
+                "and",
+                "ChromeOS",
+                "Additional",
+                "Terms",
+                "of",
+                "Service",
+                "."
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1568,
+            "screen_id": "ef49a2a08445dd4da5401ea511c3e0e704040175b105b2df2767734a038ba5ff",
+            "bounding_box": "{\"x1\": 42, \"y1\": 763, \"x2\": 1042, \"y2\": 987}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "These Google Chrome and ChromeOS Additional Terms of Service apply to the executable code version of Chrome and ChromeOS. Most source code for Chrome is available free of charge under open source software license agreements at https://code.google.com/chromium/terms.html.",
+            "word_sequence": [
+                "These",
+                "Google",
+                "Chrome",
+                "and",
+                "ChromeOS",
+                "Additional",
+                "Terms",
+                "of",
+                "Service",
+                "apply",
+                "to",
+                "the",
+                "executable",
+                "code",
+                "version",
+                "of",
+                "Chrome",
+                "and",
+                "ChromeOS",
+                ".",
+                "Most",
+                "source",
+                "code",
+                "for",
+                "Chrome",
+                "is",
+                "available",
+                "free",
+                "of",
+                "charge",
+                "under",
+                "open",
+                "source",
+                "software",
+                "license",
+                "agreements",
+                "at",
+                "https",
+                ":",
+                "/",
+                "/",
+                "code",
+                ".",
+                "google",
+                ".",
+                "com",
+                "/",
+                "chromium",
+                "/",
+                "terms",
+                ".",
+                "html",
+                "."
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1568,
+            "screen_id": "ef49a2a08445dd4da5401ea511c3e0e704040175b105b2df2767734a038ba5ff",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1018, \"x2\": 1042, \"y2\": 1299}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "Your use of certain components of Chrome and ChromeOS is subject to the following terms:",
+            "word_sequence": [
+                "Your",
+                "use",
+                "of",
+                "certain",
+                "components",
+                "of",
+                "Chrome",
+                "and",
+                "ChromeOS",
+                "is",
+                "subject",
+                "to",
+                "the",
+                "following",
+                "terms",
+                ":"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1568,
+            "screen_id": "ef49a2a08445dd4da5401ea511c3e0e704040175b105b2df2767734a038ba5ff",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1330, \"x2\": 1042, \"y2\": 1443}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "AVC",
+            "word_sequence": [
+                "AVC"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1568,
+            "screen_id": "ef49a2a08445dd4da5401ea511c3e0e704040175b105b2df2767734a038ba5ff",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1477, \"x2\": 1042, \"y2\": 1535}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "THIS PRODUCT IS LICENSED UNDER THE AVC PATENT PORTFOLIO LICENSE FOR THE PERSONAL USE OF A CONSUMER OR OTHER USES IN WHICH IT DOES NOT RECEIVE REMUNERATION TO (i) ENCODE VIDEO IN COMPLIANCE WITH THE AVC STANDARD (\u201cAVC VIDEO\u201d) AND/OR (ii) DECODE AVC VIDEO THAT WAS ENCODED BY A CONSUMER ENGAGED IN A PERSONAL ACTIVITY AND/OR WAS OBTAINED FROM A VIDEO PROVIDER LICENSED TO PROVIDE AVC VIDEO. NO LICENSE IS GRANTED OR SHALL BE IMPLIED FOR ANY OTHER USE. ADDITIONAL INFORMATION MAY BE OBTAINED FROM MPEG LA, L.L.C. SEE HTTP://WWW.MPEGLA.COM.",
+            "word_sequence": [
+                "THIS",
+                "PRODUCT",
+                "IS",
+                "LICENSED",
+                "UNDER",
+                "THE",
+                "AVC",
+                "PATENT",
+                "PORTFOLIO",
+                "LICENSE",
+                "FOR",
+                "THE",
+                "PERSONAL",
+                "USE",
+                "OF",
+                "A",
+                "CONSUMER",
+                "OR",
+                "OTHER",
+                "USES",
+                "IN",
+                "WHICH",
+                "IT",
+                "DOES",
+                "NOT",
+                "RECEIVE",
+                "REMUNERATION",
+                "TO",
+                "i",
+                "ENCODE",
+                "VIDEO",
+                "IN",
+                "COMPLIANCE",
+                "WITH",
+                "THE",
+                "AVC",
+                "STANDARD",
+                "AVC",
+                "VIDEO",
+                "AND",
+                "/",
+                "OR",
+                "ii",
+                "DECODE",
+                "AVC",
+                "VIDEO",
+                "THAT",
+                "WAS",
+                "ENCODED",
+                "BY",
+                "A",
+                "CONSUMER",
+                "ENGAGED",
+                "IN",
+                "A",
+                "PERSONAL",
+                "ACTIVITY",
+                "AND",
+                "/",
+                "OR",
+                "WAS",
+                "OBTAINED",
+                "FROM",
+                "A",
+                "VIDEO",
+                "PROVIDER",
+                "LICENSED",
+                "TO",
+                "PROVIDE",
+                "AVC",
+                "VIDEO",
+                ".",
+                "NO",
+                "LICENSE",
+                "IS",
+                "GRANTED",
+                "OR",
+                "SHALL",
+                "BE",
+                "IMPLIED",
+                "FOR",
+                "ANY",
+                "OTHER",
+                "USE",
+                ".",
+                "ADDITIONAL",
+                "INFORMATION",
+                "MAY",
+                "BE",
+                "OBTAINED",
+                "FROM",
+                "MPEG",
+                "LA",
+                ",",
+                "L",
+                ".",
+                "L",
+                ".",
+                "C",
+                ".",
+                "SEE",
+                "HTTP",
+                ":",
+                "/",
+                "/",
+                "WWW",
+                ".",
+                "MPEGLA",
+                ".",
+                "COM",
+                "."
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1568,
+            "screen_id": "ef49a2a08445dd4da5401ea511c3e0e704040175b105b2df2767734a038ba5ff",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1569, \"x2\": 1042, \"y2\": 1794}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "com.android.chrome:id/close_button",
+            "text_content": "Close tab",
+            "word_sequence": [
+                "Close",
+                "tab"
+            ],
+            "type": "BUTTON",
+            "app_name": 1568,
+            "screen_id": "ef49a2a08445dd4da5401ea511c3e0e704040175b105b2df2767734a038ba5ff",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 126, \"y2\": 210}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "com.android.chrome:id/security_button",
+            "text_content": "Connection is secure. Site information",
+            "word_sequence": [
+                "Connection",
+                "is",
+                "secure",
+                ".",
+                "Site",
+                "information"
+            ],
+            "type": "BUTTON",
+            "app_name": 1568,
+            "screen_id": "ef49a2a08445dd4da5401ea511c3e0e704040175b105b2df2767734a038ba5ff",
+            "bounding_box": "{\"x1\": 126, \"y1\": 87, \"x2\": 200, \"y2\": 186}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "com.android.chrome:id/title_bar",
+            "text_content": "Google Chrome and ChromeOS Additional Terms of Service",
+            "word_sequence": [
+                "Google",
+                "Chrome",
+                "and",
+                "ChromeOS",
+                "Additional",
+                "Terms",
+                "of",
+                "Service"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "ef49a2a08445dd4da5401ea511c3e0e704040175b105b2df2767734a038ba5ff",
+            "bounding_box": "{\"x1\": 200, \"y1\": 87, \"x2\": 970, \"y2\": 144}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "com.android.chrome:id/url_bar",
+            "text_content": "https://www.google.com",
+            "word_sequence": [
+                "https",
+                ":",
+                "/",
+                "/",
+                "www",
+                ".",
+                "google",
+                ".",
+                "com"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1568,
+            "screen_id": "ef49a2a08445dd4da5401ea511c3e0e704040175b105b2df2767734a038ba5ff",
+            "bounding_box": "{\"x1\": 200, \"y1\": 143, \"x2\": 560, \"y2\": 186}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "com.android.chrome:id/menu_button",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "BUTTON",
+            "app_name": 1568,
+            "screen_id": "ef49a2a08445dd4da5401ea511c3e0e704040175b105b2df2767734a038ba5ff",
+            "bounding_box": "{\"x1\": 970, \"y1\": 63, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "com.android.chrome:id/toolbar_shadow",
+            "text_content": "",
+            "word_sequence": [
+                "toolbar",
+                "shadow"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1568,
+            "screen_id": "ef49a2a08445dd4da5401ea511c3e0e704040175b105b2df2767734a038ba5ff",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 236}"
+        }
+    ]
+}

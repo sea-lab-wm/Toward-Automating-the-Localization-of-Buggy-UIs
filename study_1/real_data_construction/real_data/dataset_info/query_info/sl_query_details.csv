@@ -1,0 +1,229 @@
+Task-No.;Bug-ID;OB-ID;Title-OB?;Bug-Type;OB-Category;OB-Rating;OB-Text-Length;#-Screen-in-GT;#-Screen-in-Corpus
+1;Bug2;0;1;App crashes;Easy;3;9;4;38
+2;Bug2;1;0;App crashes;Easy;5;23;4;38
+3;Bug2;2;0;App crashes;Hard;1;3;4;38
+4;Bug8;0;1;App crashes;Easy;2;4;2;31
+5;Bug10;0;1;Undesirable  behavior ;Hard;4;10;1;72
+6;Bug10;1;0;Undesirable  behavior ;Hard;2;5;1;72
+7;Bug18;0;1;Component is not displayed (correctly);Easy;3;9;1;48
+8;Bug18;1;0;Component is not displayed (correctly);Hard;2;8;1;48
+9;Bug19;0;1;Uneditable component;Easy;4;7;1;25
+10;Bug19;1;0;Undesirable component;Easy;5;18;1;25
+11;Bug21;0;1;Data is not displayed;Hard;5;11;1;14
+12;Bug21;1;0;Data is not displayed;Hard;5;15;1;14
+13;Bug21;2;0;Component is not displayed (correctly);Hard;3;6;1;14
+14;Bug44;0;1;Undesirable component;Hard;2;7;2;17
+15;Bug44;1;0;Undesirable component;Hard;2;4;2;17
+16;Bug44;2;0;Undesirable component;Hard;3;16;2;17
+17;Bug53;0;1;Wrong information is displayed;Easy;4;12;1;43
+18;Bug53;1;0;Wrong information is displayed;Hard;5;38;1;43
+19;Bug117;0;1;GUI refresh issue;Easy;4;8;2;35
+20;Bug117;1;0;GUI refresh issue;Easy;5;17;2;35
+21;Bug117;2;0;GUI refresh issue;Easy;5;11;2;35
+22;Bug128;0;1;Wrong theme in screen;Hard;2;5;1;33
+23;Bug128;1;0;Wrong theme in screen;Hard;2;7;1;33
+24;Bug129;0;1;App crashes;Easy;5;7;4;22
+25;Bug129;1;0;App crashes;Hard;2;2;4;22
+26;Bug130;0;1;Undesirable component;Hard;3;13;3;24
+27;Bug130;1;0;Undesirable component;Hard;3;12;3;24
+28;Bug130;2;0;Undesirable component;Hard;3;23;3;24
+29;Bug130;3;0;Undesirable component;Hard;4;15;3;24
+30;Bug130;4;0;Undesirable component;Hard;4;16;3;24
+31;Bug130;5;0;Undesirable component;Easy;5;28;3;24
+32;Bug135;0;0;Data is not displayed;Easy;5;22;1;34
+33;Bug191;0;1;Wrong information is displayed;Hard;2;2;1;3
+34;Bug191;1;0;Wrong information is displayed;Easy;3;12;1;3
+35;Bug206;0;1;Wrong information is displayed;Hard;3;5;1;66
+36;Bug206;1;0;Wrong information is displayed;Hard;3;9;1;66
+37;Bug209;0;1;Undesirable component;Easy;4;10;1;58
+38;Bug256;0;1;App crashes;Easy;4;13;3;41
+39;Bug256;1;0;App crashes;Hard;4;6;3;41
+40;Bug256;2;0;App crashes;Hard;2;2;3;41
+41;Bug1066;0;1;Text in Component disappears;Easy;4;10;3;31
+42;Bug1066;1;0;Text in Component disappears;Hard;2;2;3;31
+43;Bug1067;0;1;Text in a component is misaligned;Easy;4;6;1;27
+44;Bug1067;1;0;Text in a component is misaligned;Easy;3;5;1;27
+45;Bug1073;0;1;Data is not listed in the right sorting/order;Easy;4;5;1;25
+46;Bug1073;1;0;Data is not displayed;Hard;1;1;1;25
+47;Bug1096;0;1;Undesirable  behavior ;Hard;5;10;1;40
+48;Bug1096;1;0;Undesirable  behavior ;Hard;5;9;1;40
+49;Bug1096;2;0;App crashes;Hard;4;31;2;40
+50;Bug1096;3;0;App crashes;Hard;4;5;2;40
+51;Bug1096;4;0;App crashes;Hard;4;4;2;40
+52;Bug1096;5;0;App crashes;Hard;4;6;2;40
+53;Bug1202;0;1;Undesirable component;Hard;3;13;2;42
+54;Bug1202;1;0;Undesirable component;Hard;3;7;2;42
+55;Bug1207;0;1;App crashes;Hard;3;8;2;25
+56;Bug1207;1;0;App crashes;Easy;5;20;2;25
+57;Bug1207;2;0;App crashes;Hard;2;2;2;25
+58;Bug1214;0;1;Unclickable component;Easy;5;16;1;10
+59;Bug1214;1;0;Text in Component disappears;Easy;4;9;1;10
+60;Bug1215;0;1;App crashes;Easy;4;12;3;17
+61;Bug1215;1;0;App crashes;Hard;2;3;3;17
+62;Bug1224;0;1;Component is not displayed (correctly);Hard;4;9;5;77
+63;Bug1224;1;0;Showing data in wrong format;Hard;2;4;5;77
+64;Bug1226;0;1;App crashes;Easy;5;8;3;58
+65;Bug1226;1;0;App crashes;Hard;2;3;3;58
+66;Bug1226;2;0;App crashes;Easy;5;10;3;58
+67;Bug1299;0;1;App crashes;Easy;3;8;2;22
+68;Bug1299;1;0;App crashes;Easy;5;16;2;22
+69;Bug1299;2;0;App crashes;Easy;4;16;2;22
+70;Bug1399;0;1;Undesirable component;Hard;2;3;1;22
+71;Bug1399;1;0;Undesirable component;Easy;5;22;1;22
+72;Bug1399;2;0;Undesirable component;Easy;4;11;1;22
+73;Bug1430;0;1;App crashes;Hard;3;9;3;18
+74;Bug1430;1;0;App crashes;Easy;5;27;3;18
+75;Bug1430;2;0;App crashes;Hard;2;8;3;18
+76;Bug1430;3;0;App crashes;Hard;2;4;3;18
+77;Bug1441;0;1;Textual error in screen;Hard;2;6;1;53
+78;Bug1441;1;0;Uneditable component;Easy;5;20;1;53
+79;Bug1441;2;0;Undesirable  behavior ;Easy;4;11;1;53
+80;Bug1481;0;1;Undesirable  behavior ;Hard;2;6;6;41
+81;Bug1481;1;0;Undesirable  behavior ;Easy;5;20;6;41
+82;Bug1645;0;1;App crashes;Hard;3;5;3;16
+83;Bug1645;1;0;App crashes;Easy;5;14;3;16
+84;Bug1645;2;0;App crashes;Hard;1;4;3;16
+85;Bug22;0;1;Wrong theme in screen;Easy;2;10;4;19
+86;Bug22;1;0;Wrong theme in screen;Easy;2;40;4;19
+87;Bug22;2;0;Undesirable  behavior ;Easy;4;28;4;19
+88;Bug22;3;0;Wrong information is displayed;Hard;3;20;4;19
+89;Bug54;0;1;Undesirable  behavior ;Easy;5;7;4;25
+90;Bug54;1;0;Undesirable  behavior ;Easy;4;5;4;25
+91;Bug54;2;0;Undesirable  behavior ;Easy;4;9;4;25
+92;Bug76;0;1;Showing data in wrong format;Hard;2;6;1;16
+93;Bug76;1;0;Undesirable  behavior ;Hard;3;30;1;16
+94;Bug76;2;0;Component disappear;Easy;4;8;1;16
+95;Bug91;0;1;Uneditable component;Easy;5;9;1;22
+96;Bug91;1;0;Uneditable component;Easy;5;9;1;22
+97;Bug91;2;0;Component disappear;Easy;4;5;1;22
+98;Bug92;0;1;Textual error in screen;Easy;4;6;1;55
+99;Bug92;1;0;Textual error in screen;Easy;4;23;1;55
+100;Bug92;2;0;Undesirable  behavior ;Hard;3;4;1;55
+101;Bug158;0;1;Wrong theme in screen;Easy;3;12;2;36
+102;Bug158;1;0;Wrong theme in screen;Easy;4;6;2;36
+103;Bug160;0;0;Component is not displayed (correctly);Easy;4;9;3;38
+104;Bug162;0;1;Wrong information is displayed;Easy;4;6;1;17
+105;Bug162;1;0;App crashes;Easy;4;40;4;17
+106;Bug162;2;0;App crashes;Hard;1;2;4;17
+107;Bug192;0;1;Undesirable  behavior ;Easy;4;8;1;19
+108;Bug192;1;0;Undesirable  behavior ;Easy;4;7;1;19
+109;Bug192;2;0;Undesirable  behavior ;Easy;4;18;1;19
+110;Bug199;0;1;Component is not displayed (correctly);Easy;4;7;1;33
+111;Bug199;1;0;Component is not displayed (correctly);Easy;5;17;1;33
+112;Bug200;0;1;Undesirable component;Hard;2;7;2;19
+113;Bug200;1;0;Undesirable component;Easy;5;27;2;19
+114;Bug1033;0;1;Undesirable component;Easy;4;6;1;22
+115;Bug1033;1;0;Undesirable component;Hard;2;5;1;22
+116;Bug1150;0;1;Undesirable  behavior ;Easy;5;11;2;19
+117;Bug1150;1;0;Undesirable  behavior ;Easy;5;16;2;19
+118;Bug1150;2;0;Undesirable  behavior ;Easy;5;18;2;19
+119;Bug1197;0;1;Undesirable  behavior ;Easy;4;14;2;19
+120;Bug1197;1;0;Undesirable  behavior ;Hard;3;11;2;19
+121;Bug1198;0;1;Undesirable  behavior ;Easy;5;12;1;22
+122;Bug1198;1;0;Undesirable  behavior ;Hard;4;8;1;22
+123;Bug1228;0;1;Component disappear;Easy;3;5;2;44
+124;Bug1228;1;0;Component disappear;Easy;3;5;2;44
+125;Bug1389;0;1;App crashes;Easy;4;5;2;6
+126;Bug1389;1;0;App crashes;Easy;5;17;2;6
+127;Bug1425;0;1;Wrong information is displayed;Easy;5;8;1;14
+128;Bug1425;1;0;Wrong information is displayed;Easy;5;14;1;14
+129;Bug1425;2;0;Wrong information is displayed;Hard;1;2;1;14
+130;Bug1446;0;0;Wrong information is displayed;Easy;5;23;2;39
+131;Bug1446;1;0;Undesirable component;Easy;4;13;2;39
+132;Bug1568;0;1;App crashes;Hard;3;5;3;10
+133;Bug1568;1;0;App crashes;Hard;3;10;3;10
+134;Bug1568;2;0;App crashes;Hard;1;2;3;10
+135;Bug71;0;1;Undesirable  behavior ;Easy;4;9;2;13
+136;Bug71;1;0;Undesirable  behavior ;Easy;5;20;2;13
+137;Bug71;2;0;Undesirable  behavior ;Easy;4;16;2;13
+138;Bug71;3;0;Undesirable  behavior ;Easy;5;21;2;13
+139;Bug71;4;0;Undesirable  behavior ;Hard;3;16;2;13
+140;Bug71;5;0;Undesirable  behavior ;Easy;4;15;2;13
+141;Bug201;0;1;Component disappear;Hard;2;5;2;39
+142;Bug201;1;0;Component disappear;Hard;3;16;2;39
+143;Bug201;2;0;Component disappear;Hard;2;15;2;39
+144;Bug201;3;0;Component disappear;Hard;1;15;2;39
+145;Bug1146;0;0;Undesirable component;Hard;5;17;1;21
+146;Bug1146;1;0;Undesirable component;Hard;2;5;1;21
+147;Bug1147;0;1;Unsupported theme in component;Hard;2;10;4;21
+148;Bug1147;1;0;Unsupported theme in component;Easy;4;39;4;21
+149;Bug1147;2;0;Unsupported theme in component;Hard;2;10;4;21
+150;Bug1151;0;1;Undesirable  behavior ;Hard;1;9;2;20
+151;Bug1151;1;0;Undesirable  behavior ;Hard;5;58;2;20
+152;Bug1151;2;0;Undesirable  behavior ;Hard;2;10;2;20
+153;Bug1205;0;1;Undesirable  behavior ;Easy;4;13;1;57
+154;Bug1205;1;0;Undesirable  behavior ;Hard;3;8;1;57
+155;Bug1406;0;1;Data is not displayed;Hard;1;5;1;46
+156;Bug1406;1;0;Data is not displayed;Easy;4;51;1;46
+157;Bug1406;2;0;Data is not displayed;Easy;4;16;1;46
+158;Bug1445;0;1;Uneditable component;Easy;5;7;1;38
+159;Bug1445;1;0;Uneditable component;Hard;1;3;1;38
+160;Bug45;0;1;Undesirable  behavior ;Easy;5;11;1;16
+161;Bug45;1;0;Undesirable  behavior ;Easy;5;15;1;16
+162;Bug45;2;0;Undesirable  behavior ;Easy;3;5;1;16
+163;Bug106;0;1;Undesirable  behavior ;Hard;3;10;1;24
+164;Bug106;1;0;Undesirable  behavior ;Hard;4;19;1;24
+165;Bug106;2;0;Undesirable  behavior ;Hard;4;30;1;24
+166;Bug110;0;1;Data is not displayed;Easy;5;8;11;31
+167;Bug110;1;0;Data is not displayed;Easy;4;12;11;31
+168;Bug110;2;0;Data is not displayed;Hard;3;13;11;31
+169;Bug110;3;0;Data is not displayed;Hard;2;6;11;31
+170;Bug168;0;1;App crashes;Easy;4;6;2;12
+171;Bug168;1;0;App crashes;Easy;3;4;2;12
+172;Bug248;0;1;Component is not displayed (correctly);Hard;4;11;2;22
+173;Bug248;1;0;Component is not displayed (correctly);Hard;5;23;2;22
+174;Bug248;2;0;Component is not displayed (correctly);Hard;5;20;2;22
+175;Bug1563;0;0;Undesirable  behavior ;Hard;5;21;1;11
+176;Bug1563;1;0;Undesirable  behavior ;Hard;2;5;1;11
+177;Bug1223;0;1;Data is not displayed;Easy;3;3;2;53
+178;Bug1223;1;0;Data is not displayed;Easy;3;7;2;53
+179;Bug1641;0;1;Component is not displayed (correctly);Hard;1;7;1;13
+180;Bug1641;1;0;Component is not displayed (correctly);Hard;1;14;1;13
+181;Bug1641;2;0;Component is not displayed (correctly);Hard;1;3;1;13
+182;Bug11;0;1;App crashes;Easy;4;10;3;3
+183;Bug11;1;0;App crashes;Easy;5;42;3;3
+184;Bug11;2;0;App crashes;Hard;1;5;3;3
+185;Bug55;0;1;Component is not displayed (correctly);Hard;2;7;1;26
+186;Bug55;1;0;Component is not displayed (correctly);Hard;5;19;1;26
+187;Bug56;0;1;Unclickable component;Easy;3;11;1;23
+188;Bug56;1;0;Unclickable component;Easy;3;18;1;23
+189;Bug56;2;0;Unclickable component;Easy;3;16;1;23
+190;Bug1213;0;1;Undesirable  behavior ;Easy;4;11;1;15
+191;Bug1213;1;0;Undesirable  behavior ;Easy;4;12;1;15
+192;Bug1222;0;1;Wrong information is displayed;Easy;4;9;1;13
+193;Bug1222;1;0;Wrong information is displayed;Hard;3;9;1;13
+194;Bug1428;0;1;Textual error in screen;Easy;4;14;1;13
+195;Bug1428;1;0;Textual error in screen;Easy;5;14;1;13
+196;Bug1428;2;0;Textual error in screen;Hard;3;9;1;13
+197;Bug84;0;0;Undesirable  behavior ;Hard;2;8;1;15
+198;Bug84;1;0;Undesirable  behavior ;Hard;2;17;1;15
+199;Bug87;0;1;Undesirable  behavior ;Easy;4;15;1;23
+200;Bug87;1;0;Undesirable  behavior ;Easy;4;21;1;23
+201;Bug87;2;0;Undesirable  behavior ;Hard;2;17;1;23
+202;Bug87;3;0;Undesirable  behavior ;Hard;1;12;1;23
+203;Bug87;4;0;Undesirable  behavior ;Hard;3;29;1;23
+204;Bug87;5;0;Undesirable  behavior ;Hard;2;34;1;23
+205;Bug87;6;0;Undesirable  behavior ;Hard;1;19;1;23
+206;Bug87;7;0;Undesirable  behavior ;Hard;2;22;1;23
+207;Bug159;0;1;App crashes;Easy;5;13;2;24
+208;Bug159;1;0;App crashes;Hard;3;11;2;24
+209;Bug193;0;0;Component is not displayed (correctly);Easy;5;10;1;8
+210;Bug271;0;1;App crashes;Easy;4;10;3;10
+211;Bug271;1;0;App crashes;Easy;2;3;3;10
+212;Bug271;2;0;App crashes;Easy;4;23;2;10
+213;Bug275;0;1;Undesirable  behavior ;Easy;4;14;1;17
+214;Bug275;1;0;Undesirable  behavior ;Easy;4;14;1;17
+215;Bug275;2;0;Undesirable  behavior ;Hard;2;13;1;17
+216;Bug1028;0;1;Undesirable  behavior ;Easy;3;3;1;13
+217;Bug1028;1;0;Undesirable  behavior ;Hard;2;2;1;13
+218;Bug1089;0;1;App crashes;Easy;4;9;2;6
+219;Bug1130;0;1;Component is not displayed (correctly);Hard;2;8;3;16
+220;Bug1130;1;0;Component is not displayed (correctly);Hard;3;15;3;16
+221;Bug1130;2;0;Component is not displayed (correctly);Hard;2;8;3;16
+222;Bug1130;3;0;Component is not displayed (correctly);Hard;2;16;3;16
+223;Bug1402;0;1;Component is not displayed (correctly);Easy;4;8;1;13
+224;Bug1402;1;0;Component is not displayed (correctly);Easy;4;15;1;13
+225;Bug1403;0;1;App crashes;Hard;3;6;2;12
+226;Bug1403;1;0;App crashes;Easy;5;7;2;12
+227;Bug1640;0;0;Data is not displayed;Easy;4;11;1;10
+228;Bug1640;1;0;Data is not displayed;Hard;1;4;1;10

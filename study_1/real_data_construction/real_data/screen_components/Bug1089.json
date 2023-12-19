@@ -1,0 +1,786 @@
+{
+    "app-name": 1089,
+    "0f1ba45b3dce92e962eb635074a4690d918c2c6c6c5c5f92cfe7840c6c5d9f9d": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/immersive_cling_back_bg",
+            "text_content": "",
+            "word_sequence": [
+                "immersive",
+                "cling",
+                "back",
+                "bg"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1089,
+            "screen_id": "0f1ba45b3dce92e962eb635074a4690d918c2c6c6c5c5f92cfe7840c6c5d9f9d",
+            "bounding_box": "{\"x1\": 440, \"y1\": 0, \"x2\": 640, \"y2\": 137}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/immersive_cling_back_bg_light",
+            "text_content": "",
+            "word_sequence": [
+                "immersive",
+                "cling",
+                "back",
+                "bg",
+                "light"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1089,
+            "screen_id": "0f1ba45b3dce92e962eb635074a4690d918c2c6c6c5c5f92cfe7840c6c5d9f9d",
+            "bounding_box": "{\"x1\": 440, \"y1\": 0, \"x2\": 640, \"y2\": 137}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 1089,
+            "screen_id": "0f1ba45b3dce92e962eb635074a4690d918c2c6c6c5c5f92cfe7840c6c5d9f9d",
+            "bounding_box": "{\"x1\": 440, \"y1\": 0, \"x2\": 640, \"y2\": 137}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/immersive_cling_title",
+            "text_content": "Viewing full screen",
+            "word_sequence": [
+                "Viewing",
+                "full",
+                "screen"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "0f1ba45b3dce92e962eb635074a4690d918c2c6c6c5c5f92cfe7840c6c5d9f9d",
+            "bounding_box": "{\"x1\": 0, \"y1\": 137, \"x2\": 1080, \"y2\": 327}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/immersive_cling_description",
+            "text_content": "To exit, swipe down from the top.",
+            "word_sequence": [
+                "To",
+                "exit",
+                ",",
+                "swipe",
+                "down",
+                "from",
+                "the",
+                "top",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "0f1ba45b3dce92e962eb635074a4690d918c2c6c6c5c5f92cfe7840c6c5d9f9d",
+            "bounding_box": "{\"x1\": 0, \"y1\": 327, \"x2\": 1080, \"y2\": 417}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/ok",
+            "text_content": "GOT IT",
+            "word_sequence": [
+                "GOT",
+                "IT"
+            ],
+            "type": "BUTTON",
+            "app_name": 1089,
+            "screen_id": "0f1ba45b3dce92e962eb635074a4690d918c2c6c6c5c5f92cfe7840c6c5d9f9d",
+            "bounding_box": "{\"x1\": 744, \"y1\": 464, \"x2\": 975, \"y2\": 590}"
+        }
+    ],
+    "83b4012a3cfe943b72a37da9b229c1e5722f5b6f2cfb9355206b690942e02a5c": [
+        {
+            "component_id": 0,
+            "resource_id": "com.chess.clock:id/playerTwoButton",
+            "text_content": "",
+            "word_sequence": [
+                "player",
+                "Two"
+            ],
+            "type": "BUTTON",
+            "app_name": 1089,
+            "screen_id": "83b4012a3cfe943b72a37da9b229c1e5722f5b6f2cfb9355206b690942e02a5c",
+            "bounding_box": "{\"x1\": 42, \"y1\": 42, \"x2\": 1038, \"y2\": 633}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.chess.clock:id/playerTwoClockText",
+            "text_content": "5:00",
+            "word_sequence": [
+                "5",
+                ":",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "83b4012a3cfe943b72a37da9b229c1e5722f5b6f2cfb9355206b690942e02a5c",
+            "bounding_box": "{\"x1\": 225, \"y1\": 120, \"x2\": 856, \"y2\": 556}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.chess.clock:id/playerTwoMovesTitle",
+            "text_content": "Moves:",
+            "word_sequence": [
+                "Moves",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "83b4012a3cfe943b72a37da9b229c1e5722f5b6f2cfb9355206b690942e02a5c",
+            "bounding_box": "{\"x1\": 143, \"y1\": 84, \"x2\": 317, \"y2\": 155}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.chess.clock:id/playerTwoMovesText",
+            "text_content": " 0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "83b4012a3cfe943b72a37da9b229c1e5722f5b6f2cfb9355206b690942e02a5c",
+            "bounding_box": "{\"x1\": 84, \"y1\": 84, \"x2\": 127, \"y2\": 155}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.chess.clock:id/settings",
+            "text_content": "\u00b7",
+            "word_sequence": [],
+            "type": "BUTTON",
+            "app_name": 1089,
+            "screen_id": "83b4012a3cfe943b72a37da9b229c1e5722f5b6f2cfb9355206b690942e02a5c",
+            "bounding_box": "{\"x1\": 235, \"y1\": 895, \"x2\": 403, \"y2\": 1025}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.chess.clock:id/resume_pause_toggle",
+            "text_content": "",
+            "word_sequence": [
+                "resume",
+                "pause",
+                "toggle"
+            ],
+            "type": "BUTTON",
+            "app_name": 1089,
+            "screen_id": "83b4012a3cfe943b72a37da9b229c1e5722f5b6f2cfb9355206b690942e02a5c",
+            "bounding_box": "{\"x1\": 456, \"y1\": 895, \"x2\": 624, \"y2\": 1025}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.chess.clock:id/reset",
+            "text_content": "L",
+            "word_sequence": [
+                "L"
+            ],
+            "type": "BUTTON",
+            "app_name": 1089,
+            "screen_id": "83b4012a3cfe943b72a37da9b229c1e5722f5b6f2cfb9355206b690942e02a5c",
+            "bounding_box": "{\"x1\": 677, \"y1\": 895, \"x2\": 845, \"y2\": 1025}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.chess.clock:id/playerOneButton",
+            "text_content": "",
+            "word_sequence": [
+                "player",
+                "One"
+            ],
+            "type": "BUTTON",
+            "app_name": 1089,
+            "screen_id": "83b4012a3cfe943b72a37da9b229c1e5722f5b6f2cfb9355206b690942e02a5c",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1287, \"x2\": 1038, \"y2\": 1794}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.chess.clock:id/playerOneClockText",
+            "text_content": "5:00",
+            "word_sequence": [
+                "5",
+                ":",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "83b4012a3cfe943b72a37da9b229c1e5722f5b6f2cfb9355206b690942e02a5c",
+            "bounding_box": "{\"x1\": 224, \"y1\": 1364, \"x2\": 855, \"y2\": 1794}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.chess.clock:id/playerOneMovesTitle",
+            "text_content": "Moves:",
+            "word_sequence": [
+                "Moves",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "83b4012a3cfe943b72a37da9b229c1e5722f5b6f2cfb9355206b690942e02a5c",
+            "bounding_box": "{\"x1\": 763, \"y1\": 1765, \"x2\": 937, \"y2\": 1794}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.chess.clock:id/playerOneMovesText",
+            "text_content": " 0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "83b4012a3cfe943b72a37da9b229c1e5722f5b6f2cfb9355206b690942e02a5c",
+            "bounding_box": "{\"x1\": 953, \"y1\": 1765, \"x2\": 996, \"y2\": 1794}"
+        }
+    ],
+    "1447eb7509f38d74678713389c9202500210a15cd46620aa1b2be4cfd2c87064": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "1447eb7509f38d74678713389c9202500210a15cd46620aa1b2be4cfd2c87064",
+            "bounding_box": "{\"x1\": 42, \"y1\": 38, \"x2\": 238, \"y2\": 109}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.chess.clock:id/action_edit",
+            "text_content": "Edit",
+            "word_sequence": [
+                "Edit"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "1447eb7509f38d74678713389c9202500210a15cd46620aa1b2be4cfd2c87064",
+            "bounding_box": "{\"x1\": 723, \"y1\": 10, \"x2\": 849, \"y2\": 136}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.chess.clock:id/action_new",
+            "text_content": "Add new",
+            "word_sequence": [
+                "Add",
+                "new"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "1447eb7509f38d74678713389c9202500210a15cd46620aa1b2be4cfd2c87064",
+            "bounding_box": "{\"x1\": 849, \"y1\": 10, \"x2\": 975, \"y2\": 136}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1089,
+            "screen_id": "1447eb7509f38d74678713389c9202500210a15cd46620aa1b2be4cfd2c87064",
+            "bounding_box": "{\"x1\": 975, \"y1\": 10, \"x2\": 1080, \"y2\": 136}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 1089,
+            "screen_id": "1447eb7509f38d74678713389c9202500210a15cd46620aa1b2be4cfd2c87064",
+            "bounding_box": "{\"x1\": 42, \"y1\": 189, \"x2\": 1038, \"y2\": 293}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.chess.clock:id/time_control_text",
+            "text_content": "Fischer Blitz 5|0",
+            "word_sequence": [
+                "Fischer",
+                "Blitz",
+                "5",
+                "0"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "1447eb7509f38d74678713389c9202500210a15cd46620aa1b2be4cfd2c87064",
+            "bounding_box": "{\"x1\": 42, \"y1\": 338, \"x2\": 1038, \"y2\": 475}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.chess.clock:id/time_control_text",
+            "text_content": "Delay Bullet 1|2",
+            "word_sequence": [
+                "Delay",
+                "Bullet",
+                "1",
+                "2"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "1447eb7509f38d74678713389c9202500210a15cd46620aa1b2be4cfd2c87064",
+            "bounding_box": "{\"x1\": 42, \"y1\": 478, \"x2\": 1038, \"y2\": 615}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.chess.clock:id/time_control_text",
+            "text_content": "Fischer 5|5",
+            "word_sequence": [
+                "Fischer",
+                "5",
+                "5"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "1447eb7509f38d74678713389c9202500210a15cd46620aa1b2be4cfd2c87064",
+            "bounding_box": "{\"x1\": 42, \"y1\": 618, \"x2\": 1038, \"y2\": 755}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.chess.clock:id/time_control_text",
+            "text_content": "Fischer rapid 10|5",
+            "word_sequence": [
+                "Fischer",
+                "rapid",
+                "10",
+                "5"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "1447eb7509f38d74678713389c9202500210a15cd46620aa1b2be4cfd2c87064",
+            "bounding_box": "{\"x1\": 42, \"y1\": 758, \"x2\": 1038, \"y2\": 895}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.chess.clock:id/time_control_text",
+            "text_content": "Tournament 40/2hr, G60, 5s delay",
+            "word_sequence": [
+                "Tournament",
+                "40",
+                "/",
+                "2hr",
+                ",",
+                "G60",
+                ",",
+                "5s",
+                "delay"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "1447eb7509f38d74678713389c9202500210a15cd46620aa1b2be4cfd2c87064",
+            "bounding_box": "{\"x1\": 42, \"y1\": 898, \"x2\": 1038, \"y2\": 1035}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.chess.clock:id/btn_start",
+            "text_content": "START",
+            "word_sequence": [
+                "START"
+            ],
+            "type": "BUTTON",
+            "app_name": 1089,
+            "screen_id": "1447eb7509f38d74678713389c9202500210a15cd46620aa1b2be4cfd2c87064",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1573, \"x2\": 1038, \"y2\": 1710}"
+        }
+    ],
+    "87373621db304b865fc853b3e98734b1a05faee08f6e2448f6a18a77911aedf9": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "New Time Control",
+            "word_sequence": [
+                "New",
+                "Time",
+                "Control"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "87373621db304b865fc853b3e98734b1a05faee08f6e2448f6a18a77911aedf9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 38, \"x2\": 467, \"y2\": 109}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.chess.clock:id/action_new_stage",
+            "text_content": "ADD STAGE",
+            "word_sequence": [
+                "ADD",
+                "STAGE"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "87373621db304b865fc853b3e98734b1a05faee08f6e2448f6a18a77911aedf9",
+            "bounding_box": "{\"x1\": 699, \"y1\": 10, \"x2\": 935, \"y2\": 136}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.chess.clock:id/action_save_time_control",
+            "text_content": "SAVE",
+            "word_sequence": [
+                "SAVE"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "87373621db304b865fc853b3e98734b1a05faee08f6e2448f6a18a77911aedf9",
+            "bounding_box": "{\"x1\": 935, \"y1\": 10, \"x2\": 1080, \"y2\": 136}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.chess.clock:id/time_control_name",
+            "text_content": "Name",
+            "word_sequence": [
+                "Name"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1089,
+            "screen_id": "87373621db304b865fc853b3e98734b1a05faee08f6e2448f6a18a77911aedf9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 189, \"x2\": 1038, \"y2\": 307}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.chess.clock:id/stages_title_text",
+            "text_content": "STAGES",
+            "word_sequence": [
+                "STAGES"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "87373621db304b865fc853b3e98734b1a05faee08f6e2448f6a18a77911aedf9",
+            "bounding_box": "{\"x1\": 63, \"y1\": 391, \"x2\": 1038, \"y2\": 454}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.chess.clock:id/stage_label",
+            "text_content": "Stage 1",
+            "word_sequence": [
+                "Stage",
+                "1"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "87373621db304b865fc853b3e98734b1a05faee08f6e2448f6a18a77911aedf9",
+            "bounding_box": "{\"x1\": 53, \"y1\": 513, \"x2\": 214, \"y2\": 576}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.chess.clock:id/stage_description",
+            "text_content": "Game in 05:00",
+            "word_sequence": [
+                "Game",
+                "in",
+                "05",
+                ":",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "87373621db304b865fc853b3e98734b1a05faee08f6e2448f6a18a77911aedf9",
+            "bounding_box": "{\"x1\": 727, \"y1\": 513, \"x2\": 1027, \"y2\": 576}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.chess.clock:id/increment_title_text",
+            "text_content": "INCREMENT",
+            "word_sequence": [
+                "INCREMENT"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "87373621db304b865fc853b3e98734b1a05faee08f6e2448f6a18a77911aedf9",
+            "bounding_box": "{\"x1\": 63, \"y1\": 698, \"x2\": 1038, \"y2\": 761}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.chess.clock:id/increment_label",
+            "text_content": "Type",
+            "word_sequence": [
+                "Type"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "87373621db304b865fc853b3e98734b1a05faee08f6e2448f6a18a77911aedf9",
+            "bounding_box": "{\"x1\": 63, \"y1\": 820, \"x2\": 165, \"y2\": 883}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "com.chess.clock:id/increment_description",
+            "text_content": "FISCHER, 00:05",
+            "word_sequence": [
+                "FISCHER",
+                ",",
+                "00",
+                ":",
+                "05"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "87373621db304b865fc853b3e98734b1a05faee08f6e2448f6a18a77911aedf9",
+            "bounding_box": "{\"x1\": 693, \"y1\": 820, \"x2\": 1017, \"y2\": 883}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "com.chess.clock:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1089,
+            "screen_id": "87373621db304b865fc853b3e98734b1a05faee08f6e2448f6a18a77911aedf9",
+            "bounding_box": "{\"x1\": 287, \"y1\": 1663, \"x2\": 350, \"y2\": 1726}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "com.chess.clock:id/largeLabel",
+            "text_content": "Player One",
+            "word_sequence": [
+                "Player",
+                "One"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "87373621db304b865fc853b3e98734b1a05faee08f6e2448f6a18a77911aedf9",
+            "bounding_box": "{\"x1\": 209, \"y1\": 1728, \"x2\": 428, \"y2\": 1779}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "com.chess.clock:id/smallLabel",
+            "text_content": "Player Two",
+            "word_sequence": [
+                "Player",
+                "Two"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "87373621db304b865fc853b3e98734b1a05faee08f6e2448f6a18a77911aedf9",
+            "bounding_box": "{\"x1\": 683, \"y1\": 1734, \"x2\": 839, \"y2\": 1777}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "com.chess.clock:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1089,
+            "screen_id": "87373621db304b865fc853b3e98734b1a05faee08f6e2448f6a18a77911aedf9",
+            "bounding_box": "{\"x1\": 729, \"y1\": 1668, \"x2\": 792, \"y2\": 1731}"
+        }
+    ],
+    "3047e748afff264a8252315d03acf9e1c40121bcdcdfc86b650757af06028027": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "Edit Stage",
+            "word_sequence": [
+                "Edit",
+                "Stage"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "3047e748afff264a8252315d03acf9e1c40121bcdcdfc86b650757af06028027",
+            "bounding_box": "{\"x1\": 133, \"y1\": 553, \"x2\": 947, \"y2\": 624}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "10",
+            "word_sequence": [
+                "10"
+            ],
+            "type": "BUTTON",
+            "app_name": 1089,
+            "screen_id": "3047e748afff264a8252315d03acf9e1c40121bcdcdfc86b650757af06028027",
+            "bounding_box": "{\"x1\": 187, \"y1\": 666, \"x2\": 371, \"y2\": 839}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/numberpicker_input",
+            "text_content": "00",
+            "word_sequence": [
+                "00"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1089,
+            "screen_id": "3047e748afff264a8252315d03acf9e1c40121bcdcdfc86b650757af06028027",
+            "bounding_box": "{\"x1\": 187, \"y1\": 839, \"x2\": 371, \"y2\": 965}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "01",
+            "word_sequence": [
+                "01"
+            ],
+            "type": "BUTTON",
+            "app_name": 1089,
+            "screen_id": "3047e748afff264a8252315d03acf9e1c40121bcdcdfc86b650757af06028027",
+            "bounding_box": "{\"x1\": 187, \"y1\": 965, \"x2\": 371, \"y2\": 1139}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.chess.clock:id/hour_divider",
+            "text_content": "hours",
+            "word_sequence": [
+                "hours"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "3047e748afff264a8252315d03acf9e1c40121bcdcdfc86b650757af06028027",
+            "bounding_box": "{\"x1\": 318, \"y1\": 666, \"x2\": 420, \"y2\": 1139}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "04",
+            "word_sequence": [
+                "04"
+            ],
+            "type": "BUTTON",
+            "app_name": 1089,
+            "screen_id": "3047e748afff264a8252315d03acf9e1c40121bcdcdfc86b650757af06028027",
+            "bounding_box": "{\"x1\": 434, \"y1\": 666, \"x2\": 618, \"y2\": 839}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/numberpicker_input",
+            "text_content": "05",
+            "word_sequence": [
+                "05"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1089,
+            "screen_id": "3047e748afff264a8252315d03acf9e1c40121bcdcdfc86b650757af06028027",
+            "bounding_box": "{\"x1\": 434, \"y1\": 839, \"x2\": 618, \"y2\": 965}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "06",
+            "word_sequence": [
+                "06"
+            ],
+            "type": "BUTTON",
+            "app_name": 1089,
+            "screen_id": "3047e748afff264a8252315d03acf9e1c40121bcdcdfc86b650757af06028027",
+            "bounding_box": "{\"x1\": 434, \"y1\": 965, \"x2\": 618, \"y2\": 1139}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.chess.clock:id/minute_divider",
+            "text_content": "mins",
+            "word_sequence": [
+                "mins"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "3047e748afff264a8252315d03acf9e1c40121bcdcdfc86b650757af06028027",
+            "bounding_box": "{\"x1\": 565, \"y1\": 666, \"x2\": 655, \"y2\": 1139}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "59",
+            "word_sequence": [
+                "59"
+            ],
+            "type": "BUTTON",
+            "app_name": 1089,
+            "screen_id": "3047e748afff264a8252315d03acf9e1c40121bcdcdfc86b650757af06028027",
+            "bounding_box": "{\"x1\": 669, \"y1\": 666, \"x2\": 853, \"y2\": 839}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/numberpicker_input",
+            "text_content": "00",
+            "word_sequence": [
+                "00"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1089,
+            "screen_id": "3047e748afff264a8252315d03acf9e1c40121bcdcdfc86b650757af06028027",
+            "bounding_box": "{\"x1\": 669, \"y1\": 839, \"x2\": 853, \"y2\": 965}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "",
+            "text_content": "01",
+            "word_sequence": [
+                "01"
+            ],
+            "type": "BUTTON",
+            "app_name": 1089,
+            "screen_id": "3047e748afff264a8252315d03acf9e1c40121bcdcdfc86b650757af06028027",
+            "bounding_box": "{\"x1\": 669, \"y1\": 965, \"x2\": 853, \"y2\": 1139}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "com.chess.clock:id/second_divider",
+            "text_content": "secs",
+            "word_sequence": [
+                "secs"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "3047e748afff264a8252315d03acf9e1c40121bcdcdfc86b650757af06028027",
+            "bounding_box": "{\"x1\": 800, \"y1\": 666, \"x2\": 885, \"y2\": 1139}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "android:id/button2",
+            "text_content": "CANCEL",
+            "word_sequence": [
+                "CANCEL"
+            ],
+            "type": "BUTTON",
+            "app_name": 1089,
+            "screen_id": "3047e748afff264a8252315d03acf9e1c40121bcdcdfc86b650757af06028027",
+            "bounding_box": "{\"x1\": 608, \"y1\": 1150, \"x2\": 810, \"y2\": 1276}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "android:id/button1",
+            "text_content": "SET",
+            "word_sequence": [
+                "SET"
+            ],
+            "type": "BUTTON",
+            "app_name": 1089,
+            "screen_id": "3047e748afff264a8252315d03acf9e1c40121bcdcdfc86b650757af06028027",
+            "bounding_box": "{\"x1\": 810, \"y1\": 1150, \"x2\": 978, \"y2\": 1276}"
+        }
+    ],
+    "0be480566fd9244e83c1f87ccd788bb5bf716d340f7b52395ed850eed3b91f16": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "Chess Clock has stopped",
+            "word_sequence": [
+                "Chess",
+                "Clock",
+                "has",
+                "stopped"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1089,
+            "screen_id": "0be480566fd9244e83c1f87ccd788bb5bf716d340f7b52395ed850eed3b91f16",
+            "bounding_box": "{\"x1\": 133, \"y1\": 823, \"x2\": 947, \"y2\": 894}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/aerr_restart",
+            "text_content": "Open app again",
+            "word_sequence": [
+                "Open",
+                "app",
+                "again"
+            ],
+            "type": "BUTTON",
+            "app_name": 1089,
+            "screen_id": "0be480566fd9244e83c1f87ccd788bb5bf716d340f7b52395ed850eed3b91f16",
+            "bounding_box": "{\"x1\": 70, \"y1\": 933, \"x2\": 1010, \"y2\": 1059}"
+        }
+    ]
+}

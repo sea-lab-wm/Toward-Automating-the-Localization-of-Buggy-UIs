@@ -1,0 +1,3379 @@
+{
+    "app-name": 1033,
+    "0de81c6ee546a153a5384b40f229b2d920375f82815897224de98af91a06ae94": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.packageinstaller:id/permission_icon",
+            "text_content": "",
+            "word_sequence": [
+                "permission",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1033,
+            "screen_id": "0de81c6ee546a153a5384b40f229b2d920375f82815897224de98af91a06ae94",
+            "bounding_box": "{\"x1\": 215, \"y1\": 749, \"x2\": 310, \"y2\": 844}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.packageinstaller:id/permission_message",
+            "text_content": "Allow AnkiDroid to access photos, media, and files on your device?",
+            "word_sequence": [
+                "Allow",
+                "AnkiDroid",
+                "to",
+                "access",
+                "photos",
+                ",",
+                "media",
+                ",",
+                "and",
+                "files",
+                "on",
+                "your",
+                "device",
+                "?"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "0de81c6ee546a153a5384b40f229b2d920375f82815897224de98af91a06ae94",
+            "bounding_box": "{\"x1\": 310, \"y1\": 749, \"x2\": 876, \"y2\": 1006}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.packageinstaller:id/permission_deny_button",
+            "text_content": "DENY",
+            "word_sequence": [
+                "DENY"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "0de81c6ee546a153a5384b40f229b2d920375f82815897224de98af91a06ae94",
+            "bounding_box": "{\"x1\": 523, \"y1\": 1017, \"x2\": 691, \"y2\": 1143}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.packageinstaller:id/permission_allow_button",
+            "text_content": "ALLOW",
+            "word_sequence": [
+                "ALLOW"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "0de81c6ee546a153a5384b40f229b2d920375f82815897224de98af91a06ae94",
+            "bounding_box": "{\"x1\": 691, \"y1\": 1017, \"x2\": 876, \"y2\": 1143}"
+        }
+    ],
+    "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "AnkiDroid",
+            "word_sequence": [
+                "AnkiDroid"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 189, \"y1\": 73, \"x2\": 421, \"y2\": 144}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "0 cards due (0 min)",
+            "word_sequence": [
+                "0",
+                "cards",
+                "due",
+                "0",
+                "min"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 189, \"y1\": 144, \"x2\": 550, \"y2\": 201}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.ichi2.anki:id/deckpicker_name",
+            "text_content": "Default",
+            "word_sequence": [
+                "Default"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 63, \"y1\": 210, \"x2\": 235, \"y2\": 336}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.ichi2.anki:id/deckpicker_new",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 965, \"y1\": 247, \"x2\": 999, \"y2\": 298}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.ichi2.anki:id/deckpicker_lrn",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 999, \"y1\": 247, \"x2\": 1033, \"y2\": 298}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.ichi2.anki:id/deckpicker_rev",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 1033, \"y1\": 247, \"x2\": 1054, \"y2\": 298}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.ichi2.anki:id/today_stats_text_view",
+            "text_content": "Studied 0 cards in 0 minutes today",
+            "word_sequence": [
+                "Studied",
+                "0",
+                "cards",
+                "in",
+                "0",
+                "minutes",
+                "today"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1732, \"x2\": 1080, \"y2\": 1783}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "Create deck",
+            "word_sequence": [
+                "Create",
+                "deck"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 542, \"y1\": 1104, \"x2\": 823, \"y2\": 1175}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.ichi2.anki:id/add_deck_action",
+            "text_content": "Create deck",
+            "word_sequence": [
+                "Create",
+                "deck"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 865, \"y1\": 1072, \"x2\": 1017, \"y2\": 1224}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "Get shared decks",
+            "word_sequence": [
+                "Get",
+                "shared",
+                "decks"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 453, \"y1\": 1266, \"x2\": 823, \"y2\": 1337}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.ichi2.anki:id/add_shared_action",
+            "text_content": "Get shared decks",
+            "word_sequence": [
+                "Get",
+                "shared",
+                "decks"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 865, \"y1\": 1234, \"x2\": 1017, \"y2\": 1386}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "",
+            "text_content": "Add",
+            "word_sequence": [
+                "Add"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 673, \"y1\": 1428, \"x2\": 823, \"y2\": 1499}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.ichi2.anki:id/add_note_action",
+            "text_content": "Add",
+            "word_sequence": [
+                "Add"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 865, \"y1\": 1396, \"x2\": 1017, \"y2\": 1548}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "com.ichi2.anki:id/fab_expand_menu_button",
+            "text_content": "Add",
+            "word_sequence": [
+                "Add"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 844, \"y1\": 1558, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Add note",
+            "word_sequence": [
+                "Add",
+                "note"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 402, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.ichi2.anki:id/action_save",
+            "text_content": "Save",
+            "word_sequence": [
+                "Save"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 954, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.ichi2.anki:id/CardEditorModelText",
+            "text_content": "Type:",
+            "word_sequence": [
+                "Type",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 34, \"y1\": 260, \"x2\": 126, \"y2\": 311}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/text1",
+            "text_content": "Basic",
+            "word_sequence": [
+                "Basic"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 147, \"y1\": 257, \"x2\": 941, \"y2\": 314}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.ichi2.anki:id/CardEditorDeckText",
+            "text_content": "Deck:",
+            "word_sequence": [
+                "Deck",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 34, \"y1\": 386, \"x2\": 127, \"y2\": 437}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/text1",
+            "text_content": "Default",
+            "word_sequence": [
+                "Default"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 383, \"x2\": 941, \"y2\": 440}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "Front",
+            "word_sequence": [
+                "Front"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 55, \"y1\": 517, \"x2\": 1025, \"y2\": 568}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.ichi2.anki:id/id_note_editText",
+            "text_content": "Front",
+            "word_sequence": [
+                "Front"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1033,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 55, \"y1\": 568, \"x2\": 962, \"y2\": 686}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.ichi2.anki:id/id_media_button",
+            "text_content": "Attach multimedia content to the Front field",
+            "word_sequence": [
+                "Attach",
+                "multimedia",
+                "content",
+                "to",
+                "the",
+                "Front",
+                "field"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 962, \"y1\": 568, \"x2\": 1025, \"y2\": 631}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "Back",
+            "word_sequence": [
+                "Back"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 55, \"y1\": 686, \"x2\": 1025, \"y2\": 737}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.ichi2.anki:id/id_note_editText",
+            "text_content": "Back",
+            "word_sequence": [
+                "Back"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1033,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 55, \"y1\": 737, \"x2\": 962, \"y2\": 855}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "com.ichi2.anki:id/id_media_button",
+            "text_content": "Attach multimedia content to the Back field",
+            "word_sequence": [
+                "Attach",
+                "multimedia",
+                "content",
+                "to",
+                "the",
+                "Back",
+                "field"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 962, \"y1\": 737, \"x2\": 1025, \"y2\": 800}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.ichi2.anki:id/CardEditorTagText",
+            "text_content": "Tags: ",
+            "word_sequence": [
+                "Tags",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 57, \"y1\": 934, \"x2\": 1023, \"y2\": 985}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "com.ichi2.anki:id/CardEditorCardsText",
+            "text_content": "Cards: Card 1",
+            "word_sequence": [
+                "Cards",
+                ":",
+                "Card",
+                "1"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 57, \"y1\": 1060, \"x2\": 1023, \"y2\": 1111}"
+        }
+    ],
+    "4b6a791d62ce98249a55fdb694dc0989124f8a131eaf580db6f0af5e6895c31a": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1033,
+            "screen_id": "4b6a791d62ce98249a55fdb694dc0989124f8a131eaf580db6f0af5e6895c31a",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "4b6a791d62ce98249a55fdb694dc0989124f8a131eaf580db6f0af5e6895c31a",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "Card types",
+            "word_sequence": [
+                "Card",
+                "types"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "4b6a791d62ce98249a55fdb694dc0989124f8a131eaf580db6f0af5e6895c31a",
+            "bounding_box": "{\"x1\": 189, \"y1\": 73, \"x2\": 444, \"y2\": 144}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Basic",
+            "word_sequence": [
+                "Basic"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "4b6a791d62ce98249a55fdb694dc0989124f8a131eaf580db6f0af5e6895c31a",
+            "bounding_box": "{\"x1\": 189, \"y1\": 144, \"x2\": 292, \"y2\": 201}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.ichi2.anki:id/action_preview",
+            "text_content": "Preview",
+            "word_sequence": [
+                "Preview"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "4b6a791d62ce98249a55fdb694dc0989124f8a131eaf580db6f0af5e6895c31a",
+            "bounding_box": "{\"x1\": 723, \"y1\": 73, \"x2\": 849, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.ichi2.anki:id/action_confirm",
+            "text_content": "Save",
+            "word_sequence": [
+                "Save"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "4b6a791d62ce98249a55fdb694dc0989124f8a131eaf580db6f0af5e6895c31a",
+            "bounding_box": "{\"x1\": 849, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1033,
+            "screen_id": "4b6a791d62ce98249a55fdb694dc0989124f8a131eaf580db6f0af5e6895c31a",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "CARD 1",
+            "word_sequence": [
+                "CARD",
+                "1"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "4b6a791d62ce98249a55fdb694dc0989124f8a131eaf580db6f0af5e6895c31a",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 191, \"y2\": 337}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "Front template",
+            "word_sequence": [
+                "Front",
+                "template"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "4b6a791d62ce98249a55fdb694dc0989124f8a131eaf580db6f0af5e6895c31a",
+            "bounding_box": "{\"x1\": 13, \"y1\": 382, \"x2\": 1067, \"y2\": 433}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.ichi2.anki:id/front_edit",
+            "text_content": "{{Front}} Front template",
+            "word_sequence": [
+                "Front"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1033,
+            "screen_id": "4b6a791d62ce98249a55fdb694dc0989124f8a131eaf580db6f0af5e6895c31a",
+            "bounding_box": "{\"x1\": 13, \"y1\": 459, \"x2\": 1067, \"y2\": 831}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "Styling",
+            "word_sequence": [
+                "Styling"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "4b6a791d62ce98249a55fdb694dc0989124f8a131eaf580db6f0af5e6895c31a",
+            "bounding_box": "{\"x1\": 13, \"y1\": 857, \"x2\": 1067, \"y2\": 908}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.ichi2.anki:id/styling_edit",
+            "text_content": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n} Styling",
+            "word_sequence": [
+                ".",
+                "card",
+                "font",
+                "family",
+                ":",
+                "arial",
+                ";",
+                "font",
+                "size",
+                ":",
+                "20px",
+                ";",
+                "text",
+                "align",
+                ":",
+                "center",
+                ";",
+                "color",
+                ":",
+                "black",
+                ";",
+                "background",
+                "color",
+                ":",
+                "white",
+                ";"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1033,
+            "screen_id": "4b6a791d62ce98249a55fdb694dc0989124f8a131eaf580db6f0af5e6895c31a",
+            "bounding_box": "{\"x1\": 13, \"y1\": 934, \"x2\": 1067, \"y2\": 1319}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "",
+            "text_content": "Back template",
+            "word_sequence": [
+                "Back",
+                "template"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "4b6a791d62ce98249a55fdb694dc0989124f8a131eaf580db6f0af5e6895c31a",
+            "bounding_box": "{\"x1\": 13, \"y1\": 1332, \"x2\": 1067, \"y2\": 1383}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.ichi2.anki:id/back_edit",
+            "text_content": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}} Back template",
+            "word_sequence": [
+                "FrontSide",
+                "hr",
+                "id",
+                "answer",
+                "Back"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1033,
+            "screen_id": "4b6a791d62ce98249a55fdb694dc0989124f8a131eaf580db6f0af5e6895c31a",
+            "bounding_box": "{\"x1\": 13, \"y1\": 1409, \"x2\": 1067, \"y2\": 1781}"
+        }
+    ],
+    "708a64f85c56f98303f6c8c235159ee778505a31eb068f069bd3d87f877eab5d": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "708a64f85c56f98303f6c8c235159ee778505a31eb068f069bd3d87f877eab5d",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "App info",
+            "word_sequence": [
+                "App",
+                "info"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "708a64f85c56f98303f6c8c235159ee778505a31eb068f069bd3d87f877eab5d",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 388, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "Search settings",
+            "word_sequence": [
+                "Search",
+                "settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "708a64f85c56f98303f6c8c235159ee778505a31eb068f069bd3d87f877eab5d",
+            "bounding_box": "{\"x1\": 954, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.settings:id/entity_header_icon",
+            "text_content": "",
+            "word_sequence": [
+                "entity",
+                "header",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1033,
+            "screen_id": "708a64f85c56f98303f6c8c235159ee778505a31eb068f069bd3d87f877eab5d",
+            "bounding_box": "{\"x1\": 189, \"y1\": 273, \"x2\": 315, \"y2\": 399}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.settings:id/entity_header_title",
+            "text_content": "AnkiDroid",
+            "word_sequence": [
+                "AnkiDroid"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "708a64f85c56f98303f6c8c235159ee778505a31eb068f069bd3d87f877eab5d",
+            "bounding_box": "{\"x1\": 357, \"y1\": 282, \"x2\": 996, \"y2\": 339}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.android.settings:id/entity_header_summary",
+            "text_content": "Installed",
+            "word_sequence": [
+                "Installed"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "708a64f85c56f98303f6c8c235159ee778505a31eb068f069bd3d87f877eab5d",
+            "bounding_box": "{\"x1\": 357, \"y1\": 339, \"x2\": 996, \"y2\": 390}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.android.settings:id/button1_negative",
+            "text_content": "UNINSTALL",
+            "word_sequence": [
+                "UNINSTALL"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "708a64f85c56f98303f6c8c235159ee778505a31eb068f069bd3d87f877eab5d",
+            "bounding_box": "{\"x1\": 179, \"y1\": 525, \"x2\": 577, \"y2\": 651}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.android.settings:id/button2_negative",
+            "text_content": "FORCE STOP",
+            "word_sequence": [
+                "FORCE",
+                "STOP"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "708a64f85c56f98303f6c8c235159ee778505a31eb068f069bd3d87f877eab5d",
+            "bounding_box": "{\"x1\": 619, \"y1\": 525, \"x2\": 1017, \"y2\": 651}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/title",
+            "text_content": "Notifications",
+            "word_sequence": [
+                "Notifications"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "708a64f85c56f98303f6c8c235159ee778505a31eb068f069bd3d87f877eab5d",
+            "bounding_box": "{\"x1\": 189, \"y1\": 704, \"x2\": 428, \"y2\": 761}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/summary",
+            "text_content": "On",
+            "word_sequence": [
+                "On"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "708a64f85c56f98303f6c8c235159ee778505a31eb068f069bd3d87f877eab5d",
+            "bounding_box": "{\"x1\": 189, \"y1\": 761, \"x2\": 234, \"y2\": 812}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/title",
+            "text_content": "Permissions",
+            "word_sequence": [
+                "Permissions"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "708a64f85c56f98303f6c8c235159ee778505a31eb068f069bd3d87f877eab5d",
+            "bounding_box": "{\"x1\": 189, \"y1\": 896, \"x2\": 422, \"y2\": 953}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "android:id/summary",
+            "text_content": "No permissions granted",
+            "word_sequence": [
+                "No",
+                "permissions",
+                "granted"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "708a64f85c56f98303f6c8c235159ee778505a31eb068f069bd3d87f877eab5d",
+            "bounding_box": "{\"x1\": 189, \"y1\": 953, \"x2\": 582, \"y2\": 1004}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "android:id/title",
+            "text_content": "Storage",
+            "word_sequence": [
+                "Storage"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "708a64f85c56f98303f6c8c235159ee778505a31eb068f069bd3d87f877eab5d",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1088, \"x2\": 334, \"y2\": 1145}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "android:id/summary",
+            "text_content": "15.45 MB used in internal storage",
+            "word_sequence": [
+                "15",
+                ".",
+                "45",
+                "MB",
+                "used",
+                "in",
+                "internal",
+                "storage"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "708a64f85c56f98303f6c8c235159ee778505a31eb068f069bd3d87f877eab5d",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1145, \"x2\": 740, \"y2\": 1196}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "android:id/title",
+            "text_content": "Data usage",
+            "word_sequence": [
+                "Data",
+                "usage"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "708a64f85c56f98303f6c8c235159ee778505a31eb068f069bd3d87f877eab5d",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1280, \"x2\": 401, \"y2\": 1337}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "android:id/summary",
+            "text_content": "No data used",
+            "word_sequence": [
+                "No",
+                "data",
+                "used"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "708a64f85c56f98303f6c8c235159ee778505a31eb068f069bd3d87f877eab5d",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1337, \"x2\": 407, \"y2\": 1388}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1033,
+            "screen_id": "708a64f85c56f98303f6c8c235159ee778505a31eb068f069bd3d87f877eab5d",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1493, \"x2\": 105, \"y2\": 1556}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "android:id/title",
+            "text_content": "Advanced",
+            "word_sequence": [
+                "Advanced"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "708a64f85c56f98303f6c8c235159ee778505a31eb068f069bd3d87f877eab5d",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1473, \"x2\": 352, \"y2\": 1524}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "android:id/summary",
+            "text_content": "Battery, Open by default",
+            "word_sequence": [
+                "Battery",
+                ",",
+                "Open",
+                "by",
+                "default"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "708a64f85c56f98303f6c8c235159ee778505a31eb068f069bd3d87f877eab5d",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1524, \"x2\": 579, \"y2\": 1575}"
+        }
+    ],
+    "9b6f924b413f8b61baaa7dfbd25dbc2a80d54bbecb11116e0eed2837aa9f9eab": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.packageinstaller:id/permission_icon",
+            "text_content": "",
+            "word_sequence": [
+                "permission",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1033,
+            "screen_id": "9b6f924b413f8b61baaa7dfbd25dbc2a80d54bbecb11116e0eed2837aa9f9eab",
+            "bounding_box": "{\"x1\": 215, \"y1\": 692, \"x2\": 310, \"y2\": 787}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.packageinstaller:id/permission_message",
+            "text_content": "Allow AnkiDroid to access photos, media, and files on your device?",
+            "word_sequence": [
+                "Allow",
+                "AnkiDroid",
+                "to",
+                "access",
+                "photos",
+                ",",
+                "media",
+                ",",
+                "and",
+                "files",
+                "on",
+                "your",
+                "device",
+                "?"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "9b6f924b413f8b61baaa7dfbd25dbc2a80d54bbecb11116e0eed2837aa9f9eab",
+            "bounding_box": "{\"x1\": 310, \"y1\": 692, \"x2\": 876, \"y2\": 949}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.packageinstaller:id/do_not_ask_checkbox",
+            "text_content": "Don't ask again",
+            "word_sequence": [
+                "Don't",
+                "ask",
+                "again"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1033,
+            "screen_id": "9b6f924b413f8b61baaa7dfbd25dbc2a80d54bbecb11116e0eed2837aa9f9eab",
+            "bounding_box": "{\"x1\": 215, \"y1\": 970, \"x2\": 876, \"y2\": 1096}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.packageinstaller:id/permission_deny_button",
+            "text_content": "DENY",
+            "word_sequence": [
+                "DENY"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "9b6f924b413f8b61baaa7dfbd25dbc2a80d54bbecb11116e0eed2837aa9f9eab",
+            "bounding_box": "{\"x1\": 523, \"y1\": 1075, \"x2\": 691, \"y2\": 1201}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.packageinstaller:id/permission_allow_button",
+            "text_content": "ALLOW",
+            "word_sequence": [
+                "ALLOW"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "9b6f924b413f8b61baaa7dfbd25dbc2a80d54bbecb11116e0eed2837aa9f9eab",
+            "bounding_box": "{\"x1\": 691, \"y1\": 1075, \"x2\": 876, \"y2\": 1201}"
+        }
+    ],
+    "ac68e925ef739eec47310276e8eba8f8796717c6bc573b10b4de5f60abeaa311": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "ac68e925ef739eec47310276e8eba8f8796717c6bc573b10b4de5f60abeaa311",
+            "bounding_box": "{\"x1\": 21, \"y1\": 84, \"x2\": 168, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/search_src_text",
+            "text_content": "Search\u2026",
+            "word_sequence": [
+                "Search"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1033,
+            "screen_id": "ac68e925ef739eec47310276e8eba8f8796717c6bc573b10b4de5f60abeaa311",
+            "bounding_box": "{\"x1\": 189, \"y1\": 99, \"x2\": 933, \"y2\": 194}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "ac68e925ef739eec47310276e8eba8f8796717c6bc573b10b4de5f60abeaa311",
+            "bounding_box": "{\"x1\": 954, \"y1\": 84, \"x2\": 1059, \"y2\": 210}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.settings.intelligence:id/layout_results",
+            "text_content": "",
+            "word_sequence": [
+                "layout",
+                "results"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1033,
+            "screen_id": "ac68e925ef739eec47310276e8eba8f8796717c6bc573b10b4de5f60abeaa311",
+            "bounding_box": "{\"x1\": 0, \"y1\": 231, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "d89637c575976557c4e44020e4bdbb5854a2b369d9b40ecc1c7322433f3e8997": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "d89637c575976557c4e44020e4bdbb5854a2b369d9b40ecc1c7322433f3e8997",
+            "bounding_box": "{\"x1\": 21, \"y1\": 84, \"x2\": 168, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/search_src_text",
+            "text_content": "null",
+            "word_sequence": [
+                "null"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1033,
+            "screen_id": "d89637c575976557c4e44020e4bdbb5854a2b369d9b40ecc1c7322433f3e8997",
+            "bounding_box": "{\"x1\": 189, \"y1\": 99, \"x2\": 828, \"y2\": 194}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/search_close_btn",
+            "text_content": "Clear query",
+            "word_sequence": [
+                "Clear",
+                "query"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1033,
+            "screen_id": "d89637c575976557c4e44020e4bdbb5854a2b369d9b40ecc1c7322433f3e8997",
+            "bounding_box": "{\"x1\": 828, \"y1\": 84, \"x2\": 933, \"y2\": 210}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "d89637c575976557c4e44020e4bdbb5854a2b369d9b40ecc1c7322433f3e8997",
+            "bounding_box": "{\"x1\": 954, \"y1\": 84, \"x2\": 1059, \"y2\": 210}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 1033,
+            "screen_id": "d89637c575976557c4e44020e4bdbb5854a2b369d9b40ecc1c7322433f3e8997",
+            "bounding_box": "{\"x1\": 345, \"y1\": 470, \"x2\": 734, \"y2\": 859}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "No results",
+            "word_sequence": [
+                "No",
+                "results"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "d89637c575976557c4e44020e4bdbb5854a2b369d9b40ecc1c7322433f3e8997",
+            "bounding_box": "{\"x1\": 0, \"y1\": 859, \"x2\": 1080, \"y2\": 985}"
+        }
+    ],
+    "487a250d6b72e970336d11808394b9b523c564e291d00a91b6a3ea3c89c4d08b": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "AnkiDroid",
+            "word_sequence": [
+                "AnkiDroid"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "487a250d6b72e970336d11808394b9b523c564e291d00a91b6a3ea3c89c4d08b",
+            "bounding_box": "{\"x1\": 133, \"y1\": 769, \"x2\": 947, \"y2\": 840}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/titleDividerNoCustom",
+            "text_content": "",
+            "word_sequence": [
+                "title",
+                "Divider",
+                "No",
+                "Custom"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1033,
+            "screen_id": "487a250d6b72e970336d11808394b9b523c564e291d00a91b6a3ea3c89c4d08b",
+            "bounding_box": "{\"x1\": 70, \"y1\": 840, \"x2\": 1010, \"y2\": 861}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/message",
+            "text_content": "Do you want to uninstall this app?",
+            "word_sequence": [
+                "Do",
+                "you",
+                "want",
+                "to",
+                "uninstall",
+                "this",
+                "app",
+                "?"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "487a250d6b72e970336d11808394b9b523c564e291d00a91b6a3ea3c89c4d08b",
+            "bounding_box": "{\"x1\": 70, \"y1\": 861, \"x2\": 1010, \"y2\": 918}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/button2",
+            "text_content": "CANCEL",
+            "word_sequence": [
+                "CANCEL"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "487a250d6b72e970336d11808394b9b523c564e291d00a91b6a3ea3c89c4d08b",
+            "bounding_box": "{\"x1\": 608, \"y1\": 998, \"x2\": 810, \"y2\": 1124}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/button1",
+            "text_content": "OK",
+            "word_sequence": [
+                "OK"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "487a250d6b72e970336d11808394b9b523c564e291d00a91b6a3ea3c89c4d08b",
+            "bounding_box": "{\"x1\": 810, \"y1\": 998, \"x2\": 978, \"y2\": 1124}"
+        }
+    ],
+    "25e057857792b77cb23b0018c3b028ec5ba451520756a6705939e22801b57200": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "25e057857792b77cb23b0018c3b028ec5ba451520756a6705939e22801b57200",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "25e057857792b77cb23b0018c3b028ec5ba451520756a6705939e22801b57200",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 385, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "Search settings",
+            "word_sequence": [
+                "Search",
+                "settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "25e057857792b77cb23b0018c3b028ec5ba451520756a6705939e22801b57200",
+            "bounding_box": "{\"x1\": 954, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.settings:id/entity_header_icon",
+            "text_content": "",
+            "word_sequence": [
+                "entity",
+                "header",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1033,
+            "screen_id": "25e057857792b77cb23b0018c3b028ec5ba451520756a6705939e22801b57200",
+            "bounding_box": "{\"x1\": 189, \"y1\": 273, \"x2\": 315, \"y2\": 399}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.settings:id/entity_header_title",
+            "text_content": "AnkiDroid",
+            "word_sequence": [
+                "AnkiDroid"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "25e057857792b77cb23b0018c3b028ec5ba451520756a6705939e22801b57200",
+            "bounding_box": "{\"x1\": 357, \"y1\": 307, \"x2\": 996, \"y2\": 364}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.android.settings:id/switch_text",
+            "text_content": "Show notifications",
+            "word_sequence": [
+                "Show",
+                "notifications"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "25e057857792b77cb23b0018c3b028ec5ba451520756a6705939e22801b57200",
+            "bounding_box": "{\"x1\": 189, \"y1\": 504, \"x2\": 916, \"y2\": 567}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.android.settings:id/switch_widget",
+            "text_content": "ON",
+            "word_sequence": [
+                "ON"
+            ],
+            "type": "SWITCH",
+            "app_name": 1033,
+            "screen_id": "25e057857792b77cb23b0018c3b028ec5ba451520756a6705939e22801b57200",
+            "bounding_box": "{\"x1\": 916, \"y1\": 472, \"x2\": 1038, \"y2\": 598}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/title",
+            "text_content": "Categories",
+            "word_sequence": [
+                "Categories"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "25e057857792b77cb23b0018c3b028ec5ba451520756a6705939e22801b57200",
+            "bounding_box": "{\"x1\": 189, \"y1\": 672, \"x2\": 1080, \"y2\": 723}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/title",
+            "text_content": "This app has not posted any notifications",
+            "word_sequence": [
+                "This",
+                "app",
+                "has",
+                "not",
+                "posted",
+                "any",
+                "notifications"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "25e057857792b77cb23b0018c3b028ec5ba451520756a6705939e22801b57200",
+            "bounding_box": "{\"x1\": 189, \"y1\": 786, \"x2\": 957, \"y2\": 843}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1033,
+            "screen_id": "25e057857792b77cb23b0018c3b028ec5ba451520756a6705939e22801b57200",
+            "bounding_box": "{\"x1\": 42, \"y1\": 990, \"x2\": 105, \"y2\": 1053}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/title",
+            "text_content": "Advanced",
+            "word_sequence": [
+                "Advanced"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "25e057857792b77cb23b0018c3b028ec5ba451520756a6705939e22801b57200",
+            "bounding_box": "{\"x1\": 189, \"y1\": 970, \"x2\": 352, \"y2\": 1021}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "android:id/summary",
+            "text_content": "Allow notification dot",
+            "word_sequence": [
+                "Allow",
+                "notification",
+                "dot"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "25e057857792b77cb23b0018c3b028ec5ba451520756a6705939e22801b57200",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1021, \"x2\": 536, \"y2\": 1072}"
+        }
+    ],
+    "d55a7acdf2b052b36c6fbbae4dc6cb45e3a255982264000eff25573a24c8710b": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "d55a7acdf2b052b36c6fbbae4dc6cb45e3a255982264000eff25573a24c8710b",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "App permissions",
+            "word_sequence": [
+                "App",
+                "permissions"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "d55a7acdf2b052b36c6fbbae4dc6cb45e3a255982264000eff25573a24c8710b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 587, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "Help & feedback",
+            "word_sequence": [
+                "Help",
+                "feedback"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "d55a7acdf2b052b36c6fbbae4dc6cb45e3a255982264000eff25573a24c8710b",
+            "bounding_box": "{\"x1\": 849, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "d55a7acdf2b052b36c6fbbae4dc6cb45e3a255982264000eff25573a24c8710b",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.packageinstaller:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1033,
+            "screen_id": "d55a7acdf2b052b36c6fbbae4dc6cb45e3a255982264000eff25573a24c8710b",
+            "bounding_box": "{\"x1\": 0, \"y1\": 231, \"x2\": 189, \"y2\": 336}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.android.packageinstaller:id/name",
+            "text_content": "AnkiDroid",
+            "word_sequence": [
+                "AnkiDroid"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "d55a7acdf2b052b36c6fbbae4dc6cb45e3a255982264000eff25573a24c8710b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 252, \"x2\": 1080, \"y2\": 315}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1033,
+            "screen_id": "d55a7acdf2b052b36c6fbbae4dc6cb45e3a255982264000eff25573a24c8710b",
+            "bounding_box": "{\"x1\": 31, \"y1\": 396, \"x2\": 94, \"y2\": 459}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/title",
+            "text_content": "Microphone",
+            "word_sequence": [
+                "Microphone"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "d55a7acdf2b052b36c6fbbae4dc6cb45e3a255982264000eff25573a24c8710b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 399, \"x2\": 412, \"y2\": 456}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/switch_widget",
+            "text_content": "OFF",
+            "word_sequence": [
+                "OFF"
+            ],
+            "type": "SWITCH",
+            "app_name": 1033,
+            "screen_id": "d55a7acdf2b052b36c6fbbae4dc6cb45e3a255982264000eff25573a24c8710b",
+            "bounding_box": "{\"x1\": 916, \"y1\": 392, \"x2\": 1038, \"y2\": 463}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1033,
+            "screen_id": "d55a7acdf2b052b36c6fbbae4dc6cb45e3a255982264000eff25573a24c8710b",
+            "bounding_box": "{\"x1\": 31, \"y1\": 540, \"x2\": 94, \"y2\": 603}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/title",
+            "text_content": "Storage",
+            "word_sequence": [
+                "Storage"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "d55a7acdf2b052b36c6fbbae4dc6cb45e3a255982264000eff25573a24c8710b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 543, \"x2\": 334, \"y2\": 600}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "android:id/switch_widget",
+            "text_content": "OFF",
+            "word_sequence": [
+                "OFF"
+            ],
+            "type": "SWITCH",
+            "app_name": 1033,
+            "screen_id": "d55a7acdf2b052b36c6fbbae4dc6cb45e3a255982264000eff25573a24c8710b",
+            "bounding_box": "{\"x1\": 916, \"y1\": 536, \"x2\": 1038, \"y2\": 607}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1033,
+            "screen_id": "d55a7acdf2b052b36c6fbbae4dc6cb45e3a255982264000eff25573a24c8710b",
+            "bounding_box": "{\"x1\": 31, \"y1\": 709, \"x2\": 94, \"y2\": 772}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "android:id/title",
+            "text_content": "Additional permissions",
+            "word_sequence": [
+                "Additional",
+                "permissions"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "d55a7acdf2b052b36c6fbbae4dc6cb45e3a255982264000eff25573a24c8710b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 687, \"x2\": 618, \"y2\": 744}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "android:id/summary",
+            "text_content": "1 more",
+            "word_sequence": [
+                "1",
+                "more"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "d55a7acdf2b052b36c6fbbae4dc6cb45e3a255982264000eff25573a24c8710b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 744, \"x2\": 305, \"y2\": 795}"
+        }
+    ],
+    "cfd1f340b3d375361e6eba7796f2f9ace122df831bd52949ac89232d95354884": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "cfd1f340b3d375361e6eba7796f2f9ace122df831bd52949ac89232d95354884",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Storage",
+            "word_sequence": [
+                "Storage"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "cfd1f340b3d375361e6eba7796f2f9ace122df831bd52949ac89232d95354884",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 373, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "Search settings",
+            "word_sequence": [
+                "Search",
+                "settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "cfd1f340b3d375361e6eba7796f2f9ace122df831bd52949ac89232d95354884",
+            "bounding_box": "{\"x1\": 954, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.settings:id/entity_header_icon",
+            "text_content": "",
+            "word_sequence": [
+                "entity",
+                "header",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1033,
+            "screen_id": "cfd1f340b3d375361e6eba7796f2f9ace122df831bd52949ac89232d95354884",
+            "bounding_box": "{\"x1\": 189, \"y1\": 273, \"x2\": 315, \"y2\": 399}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.settings:id/entity_header_title",
+            "text_content": "AnkiDroid",
+            "word_sequence": [
+                "AnkiDroid"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "cfd1f340b3d375361e6eba7796f2f9ace122df831bd52949ac89232d95354884",
+            "bounding_box": "{\"x1\": 357, \"y1\": 282, \"x2\": 996, \"y2\": 339}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.android.settings:id/entity_header_summary",
+            "text_content": "2.9alpha18",
+            "word_sequence": [
+                "2",
+                ".",
+                "9alpha18"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "cfd1f340b3d375361e6eba7796f2f9ace122df831bd52949ac89232d95354884",
+            "bounding_box": "{\"x1\": 357, \"y1\": 339, \"x2\": 996, \"y2\": 390}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.android.settings:id/button1_negative",
+            "text_content": "CLEAR STORAGE",
+            "word_sequence": [
+                "CLEAR",
+                "STORAGE"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "cfd1f340b3d375361e6eba7796f2f9ace122df831bd52949ac89232d95354884",
+            "bounding_box": "{\"x1\": 179, \"y1\": 525, \"x2\": 577, \"y2\": 651}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.android.settings:id/button2_negative",
+            "text_content": "CLEAR CACHE",
+            "word_sequence": [
+                "CLEAR",
+                "CACHE"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "cfd1f340b3d375361e6eba7796f2f9ace122df831bd52949ac89232d95354884",
+            "bounding_box": "{\"x1\": 619, \"y1\": 525, \"x2\": 1017, \"y2\": 651}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/title",
+            "text_content": "Space used",
+            "word_sequence": [
+                "Space",
+                "used"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "cfd1f340b3d375361e6eba7796f2f9ace122df831bd52949ac89232d95354884",
+            "bounding_box": "{\"x1\": 189, \"y1\": 725, \"x2\": 1080, \"y2\": 776}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/title",
+            "text_content": "App size",
+            "word_sequence": [
+                "App",
+                "size"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "cfd1f340b3d375361e6eba7796f2f9ace122df831bd52949ac89232d95354884",
+            "bounding_box": "{\"x1\": 189, \"y1\": 797, \"x2\": 614, \"y2\": 854}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/summary",
+            "text_content": "15.39 MB",
+            "word_sequence": [
+                "15",
+                ".",
+                "39",
+                "MB"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "cfd1f340b3d375361e6eba7796f2f9ace122df831bd52949ac89232d95354884",
+            "bounding_box": "{\"x1\": 614, \"y1\": 802, \"x2\": 1038, \"y2\": 853}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "android:id/title",
+            "text_content": "User data",
+            "word_sequence": [
+                "User",
+                "data"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "cfd1f340b3d375361e6eba7796f2f9ace122df831bd52949ac89232d95354884",
+            "bounding_box": "{\"x1\": 189, \"y1\": 923, \"x2\": 630, \"y2\": 980}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "android:id/summary",
+            "text_content": "49.15 kB",
+            "word_sequence": [
+                "49",
+                ".",
+                "15",
+                "kB"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "cfd1f340b3d375361e6eba7796f2f9ace122df831bd52949ac89232d95354884",
+            "bounding_box": "{\"x1\": 630, \"y1\": 928, \"x2\": 1038, \"y2\": 979}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "android:id/title",
+            "text_content": "Cache",
+            "word_sequence": [
+                "Cache"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "cfd1f340b3d375361e6eba7796f2f9ace122df831bd52949ac89232d95354884",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1049, \"x2\": 599, \"y2\": 1106}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "android:id/summary",
+            "text_content": "16.38 kB",
+            "word_sequence": [
+                "16",
+                ".",
+                "38",
+                "kB"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "cfd1f340b3d375361e6eba7796f2f9ace122df831bd52949ac89232d95354884",
+            "bounding_box": "{\"x1\": 599, \"y1\": 1054, \"x2\": 1038, \"y2\": 1105}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "android:id/title",
+            "text_content": "Total",
+            "word_sequence": [
+                "Total"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "cfd1f340b3d375361e6eba7796f2f9ace122df831bd52949ac89232d95354884",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1175, \"x2\": 581, \"y2\": 1232}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "android:id/summary",
+            "text_content": "15.46 MB",
+            "word_sequence": [
+                "15",
+                ".",
+                "46",
+                "MB"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "cfd1f340b3d375361e6eba7796f2f9ace122df831bd52949ac89232d95354884",
+            "bounding_box": "{\"x1\": 581, \"y1\": 1180, \"x2\": 1038, \"y2\": 1231}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1033,
+            "screen_id": "cfd1f340b3d375361e6eba7796f2f9ace122df831bd52949ac89232d95354884",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1322, \"x2\": 1080, \"y2\": 1364}"
+        }
+    ],
+    "94ef0e494a9af45fcba04e4c3cc272379cb1bf3e411cbb14fa41fe40428033e9": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "94ef0e494a9af45fcba04e4c3cc272379cb1bf3e411cbb14fa41fe40428033e9",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "App data usage",
+            "word_sequence": [
+                "App",
+                "data",
+                "usage"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "94ef0e494a9af45fcba04e4c3cc272379cb1bf3e411cbb14fa41fe40428033e9",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 558, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "Search settings",
+            "word_sequence": [
+                "Search",
+                "settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "94ef0e494a9af45fcba04e4c3cc272379cb1bf3e411cbb14fa41fe40428033e9",
+            "bounding_box": "{\"x1\": 954, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.settings:id/entity_header_icon",
+            "text_content": "",
+            "word_sequence": [
+                "entity",
+                "header",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1033,
+            "screen_id": "94ef0e494a9af45fcba04e4c3cc272379cb1bf3e411cbb14fa41fe40428033e9",
+            "bounding_box": "{\"x1\": 189, \"y1\": 273, \"x2\": 315, \"y2\": 399}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.settings:id/entity_header_title",
+            "text_content": "AnkiDroid",
+            "word_sequence": [
+                "AnkiDroid"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "94ef0e494a9af45fcba04e4c3cc272379cb1bf3e411cbb14fa41fe40428033e9",
+            "bounding_box": "{\"x1\": 357, \"y1\": 307, \"x2\": 996, \"y2\": 364}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/text1",
+            "text_content": "Jan 14 \u2013 Feb 13",
+            "word_sequence": [
+                "Jan",
+                "14",
+                "Feb",
+                "13"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "94ef0e494a9af45fcba04e4c3cc272379cb1bf3e411cbb14fa41fe40428033e9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 528, \"x2\": 365, \"y2\": 585}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/title",
+            "text_content": "Total",
+            "word_sequence": [
+                "Total"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "94ef0e494a9af45fcba04e4c3cc272379cb1bf3e411cbb14fa41fe40428033e9",
+            "bounding_box": "{\"x1\": 189, \"y1\": 693, \"x2\": 634, \"y2\": 750}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/summary",
+            "text_content": "0 B",
+            "word_sequence": [
+                "0",
+                "B"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "94ef0e494a9af45fcba04e4c3cc272379cb1bf3e411cbb14fa41fe40428033e9",
+            "bounding_box": "{\"x1\": 634, \"y1\": 698, \"x2\": 1038, \"y2\": 749}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/title",
+            "text_content": "Foreground",
+            "word_sequence": [
+                "Foreground"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "94ef0e494a9af45fcba04e4c3cc272379cb1bf3e411cbb14fa41fe40428033e9",
+            "bounding_box": "{\"x1\": 189, \"y1\": 819, \"x2\": 694, \"y2\": 876}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/summary",
+            "text_content": "0 B",
+            "word_sequence": [
+                "0",
+                "B"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "94ef0e494a9af45fcba04e4c3cc272379cb1bf3e411cbb14fa41fe40428033e9",
+            "bounding_box": "{\"x1\": 694, \"y1\": 824, \"x2\": 1038, \"y2\": 875}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/title",
+            "text_content": "Background",
+            "word_sequence": [
+                "Background"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "94ef0e494a9af45fcba04e4c3cc272379cb1bf3e411cbb14fa41fe40428033e9",
+            "bounding_box": "{\"x1\": 189, \"y1\": 945, \"x2\": 699, \"y2\": 1002}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "android:id/summary",
+            "text_content": "0 B",
+            "word_sequence": [
+                "0",
+                "B"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "94ef0e494a9af45fcba04e4c3cc272379cb1bf3e411cbb14fa41fe40428033e9",
+            "bounding_box": "{\"x1\": 699, \"y1\": 950, \"x2\": 1038, \"y2\": 1001}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "com.android.settings:id/icon_container",
+            "text_content": "",
+            "word_sequence": [
+                "icon",
+                "container"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1033,
+            "screen_id": "94ef0e494a9af45fcba04e4c3cc272379cb1bf3e411cbb14fa41fe40428033e9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1177, \"x2\": 189, \"y2\": 1199}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "android:id/title",
+            "text_content": "Background data",
+            "word_sequence": [
+                "Background",
+                "data"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "94ef0e494a9af45fcba04e4c3cc272379cb1bf3e411cbb14fa41fe40428033e9",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1113, \"x2\": 507, \"y2\": 1170}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "android:id/summary",
+            "text_content": "Enable usage of mobile data in the background",
+            "word_sequence": [
+                "Enable",
+                "usage",
+                "of",
+                "mobile",
+                "data",
+                "in",
+                "the",
+                "background"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "94ef0e494a9af45fcba04e4c3cc272379cb1bf3e411cbb14fa41fe40428033e9",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1170, \"x2\": 874, \"y2\": 1264}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "android:id/switch_widget",
+            "text_content": "ON",
+            "word_sequence": [
+                "ON"
+            ],
+            "type": "SWITCH",
+            "app_name": 1033,
+            "screen_id": "94ef0e494a9af45fcba04e4c3cc272379cb1bf3e411cbb14fa41fe40428033e9",
+            "bounding_box": "{\"x1\": 916, \"y1\": 1153, \"x2\": 1038, \"y2\": 1224}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "com.android.settings:id/icon_container",
+            "text_content": "",
+            "word_sequence": [
+                "icon",
+                "container"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1033,
+            "screen_id": "94ef0e494a9af45fcba04e4c3cc272379cb1bf3e411cbb14fa41fe40428033e9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1412, \"x2\": 189, \"y2\": 1434}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "android:id/title",
+            "text_content": "Unrestricted data usage",
+            "word_sequence": [
+                "Unrestricted",
+                "data",
+                "usage"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "94ef0e494a9af45fcba04e4c3cc272379cb1bf3e411cbb14fa41fe40428033e9",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1348, \"x2\": 635, \"y2\": 1405}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "android:id/summary",
+            "text_content": "Allow unrestricted data access when Data Saver is on",
+            "word_sequence": [
+                "Allow",
+                "unrestricted",
+                "data",
+                "access",
+                "when",
+                "Data",
+                "Saver",
+                "is",
+                "on"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "94ef0e494a9af45fcba04e4c3cc272379cb1bf3e411cbb14fa41fe40428033e9",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1405, \"x2\": 874, \"y2\": 1499}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "android:id/switch_widget",
+            "text_content": "OFF",
+            "word_sequence": [
+                "OFF"
+            ],
+            "type": "SWITCH",
+            "app_name": 1033,
+            "screen_id": "94ef0e494a9af45fcba04e4c3cc272379cb1bf3e411cbb14fa41fe40428033e9",
+            "bounding_box": "{\"x1\": 916, \"y1\": 1388, \"x2\": 1038, \"y2\": 1459}"
+        }
+    ],
+    "18755f493e0d2032ad2da86fe4648996371d1e7a3f8d718472345c9a8c7bbba8": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "18755f493e0d2032ad2da86fe4648996371d1e7a3f8d718472345c9a8c7bbba8",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "App info",
+            "word_sequence": [
+                "App",
+                "info"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "18755f493e0d2032ad2da86fe4648996371d1e7a3f8d718472345c9a8c7bbba8",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 388, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "Search settings",
+            "word_sequence": [
+                "Search",
+                "settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "18755f493e0d2032ad2da86fe4648996371d1e7a3f8d718472345c9a8c7bbba8",
+            "bounding_box": "{\"x1\": 954, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.settings:id/entity_header_icon",
+            "text_content": "",
+            "word_sequence": [
+                "entity",
+                "header",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1033,
+            "screen_id": "18755f493e0d2032ad2da86fe4648996371d1e7a3f8d718472345c9a8c7bbba8",
+            "bounding_box": "{\"x1\": 189, \"y1\": 273, \"x2\": 315, \"y2\": 399}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.settings:id/entity_header_title",
+            "text_content": "AnkiDroid",
+            "word_sequence": [
+                "AnkiDroid"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "18755f493e0d2032ad2da86fe4648996371d1e7a3f8d718472345c9a8c7bbba8",
+            "bounding_box": "{\"x1\": 357, \"y1\": 282, \"x2\": 996, \"y2\": 339}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.android.settings:id/entity_header_summary",
+            "text_content": "Installed",
+            "word_sequence": [
+                "Installed"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "18755f493e0d2032ad2da86fe4648996371d1e7a3f8d718472345c9a8c7bbba8",
+            "bounding_box": "{\"x1\": 357, \"y1\": 339, \"x2\": 996, \"y2\": 390}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.android.settings:id/button1_negative",
+            "text_content": "UNINSTALL",
+            "word_sequence": [
+                "UNINSTALL"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "18755f493e0d2032ad2da86fe4648996371d1e7a3f8d718472345c9a8c7bbba8",
+            "bounding_box": "{\"x1\": 179, \"y1\": 525, \"x2\": 577, \"y2\": 651}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.android.settings:id/button2_negative",
+            "text_content": "FORCE STOP",
+            "word_sequence": [
+                "FORCE",
+                "STOP"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "18755f493e0d2032ad2da86fe4648996371d1e7a3f8d718472345c9a8c7bbba8",
+            "bounding_box": "{\"x1\": 619, \"y1\": 525, \"x2\": 1017, \"y2\": 651}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/title",
+            "text_content": "Notifications",
+            "word_sequence": [
+                "Notifications"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "18755f493e0d2032ad2da86fe4648996371d1e7a3f8d718472345c9a8c7bbba8",
+            "bounding_box": "{\"x1\": 189, \"y1\": 704, \"x2\": 428, \"y2\": 761}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/summary",
+            "text_content": "On",
+            "word_sequence": [
+                "On"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "18755f493e0d2032ad2da86fe4648996371d1e7a3f8d718472345c9a8c7bbba8",
+            "bounding_box": "{\"x1\": 189, \"y1\": 761, \"x2\": 234, \"y2\": 812}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/title",
+            "text_content": "Permissions",
+            "word_sequence": [
+                "Permissions"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "18755f493e0d2032ad2da86fe4648996371d1e7a3f8d718472345c9a8c7bbba8",
+            "bounding_box": "{\"x1\": 189, \"y1\": 896, \"x2\": 422, \"y2\": 953}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "android:id/summary",
+            "text_content": "No permissions granted",
+            "word_sequence": [
+                "No",
+                "permissions",
+                "granted"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "18755f493e0d2032ad2da86fe4648996371d1e7a3f8d718472345c9a8c7bbba8",
+            "bounding_box": "{\"x1\": 189, \"y1\": 953, \"x2\": 582, \"y2\": 1004}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "android:id/title",
+            "text_content": "Storage",
+            "word_sequence": [
+                "Storage"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "18755f493e0d2032ad2da86fe4648996371d1e7a3f8d718472345c9a8c7bbba8",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1088, \"x2\": 334, \"y2\": 1145}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "android:id/summary",
+            "text_content": "15.46 MB used in internal storage",
+            "word_sequence": [
+                "15",
+                ".",
+                "46",
+                "MB",
+                "used",
+                "in",
+                "internal",
+                "storage"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "18755f493e0d2032ad2da86fe4648996371d1e7a3f8d718472345c9a8c7bbba8",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1145, \"x2\": 740, \"y2\": 1196}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "android:id/title",
+            "text_content": "Data usage",
+            "word_sequence": [
+                "Data",
+                "usage"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "18755f493e0d2032ad2da86fe4648996371d1e7a3f8d718472345c9a8c7bbba8",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1280, \"x2\": 401, \"y2\": 1337}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "android:id/summary",
+            "text_content": "No data used",
+            "word_sequence": [
+                "No",
+                "data",
+                "used"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "18755f493e0d2032ad2da86fe4648996371d1e7a3f8d718472345c9a8c7bbba8",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1337, \"x2\": 407, \"y2\": 1388}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "android:id/title",
+            "text_content": "Battery",
+            "word_sequence": [
+                "Battery"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "18755f493e0d2032ad2da86fe4648996371d1e7a3f8d718472345c9a8c7bbba8",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1472, \"x2\": 322, \"y2\": 1529}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "android:id/summary",
+            "text_content": "No battery use since last full charge",
+            "word_sequence": [
+                "No",
+                "battery",
+                "use",
+                "since",
+                "last",
+                "full",
+                "charge"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "18755f493e0d2032ad2da86fe4648996371d1e7a3f8d718472345c9a8c7bbba8",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1529, \"x2\": 776, \"y2\": 1580}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "android:id/title",
+            "text_content": "Open by default",
+            "word_sequence": [
+                "Open",
+                "by",
+                "default"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "18755f493e0d2032ad2da86fe4648996371d1e7a3f8d718472345c9a8c7bbba8",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1664, \"x2\": 482, \"y2\": 1721}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "android:id/summary",
+            "text_content": "No defaults set",
+            "word_sequence": [
+                "No",
+                "defaults",
+                "set"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "18755f493e0d2032ad2da86fe4648996371d1e7a3f8d718472345c9a8c7bbba8",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1721, \"x2\": 439, \"y2\": 1772}"
+        }
+    ],
+    "358e6532266eaca6552540bb5dac27483da27153229f73416bd610bde2c22b1b": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "358e6532266eaca6552540bb5dac27483da27153229f73416bd610bde2c22b1b",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Battery usage",
+            "word_sequence": [
+                "Battery",
+                "usage"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "358e6532266eaca6552540bb5dac27483da27153229f73416bd610bde2c22b1b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 516, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "Search settings",
+            "word_sequence": [
+                "Search",
+                "settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "358e6532266eaca6552540bb5dac27483da27153229f73416bd610bde2c22b1b",
+            "bounding_box": "{\"x1\": 954, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.settings:id/entity_header_icon",
+            "text_content": "",
+            "word_sequence": [
+                "entity",
+                "header",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1033,
+            "screen_id": "358e6532266eaca6552540bb5dac27483da27153229f73416bd610bde2c22b1b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 273, \"x2\": 315, \"y2\": 399}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.settings:id/entity_header_title",
+            "text_content": "AnkiDroid",
+            "word_sequence": [
+                "AnkiDroid"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "358e6532266eaca6552540bb5dac27483da27153229f73416bd610bde2c22b1b",
+            "bounding_box": "{\"x1\": 357, \"y1\": 282, \"x2\": 996, \"y2\": 339}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.android.settings:id/entity_header_summary",
+            "text_content": "Installed",
+            "word_sequence": [
+                "Installed"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "358e6532266eaca6552540bb5dac27483da27153229f73416bd610bde2c22b1b",
+            "bounding_box": "{\"x1\": 357, \"y1\": 339, \"x2\": 996, \"y2\": 390}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.android.settings:id/button1_negative",
+            "text_content": "UNINSTALL",
+            "word_sequence": [
+                "UNINSTALL"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "358e6532266eaca6552540bb5dac27483da27153229f73416bd610bde2c22b1b",
+            "bounding_box": "{\"x1\": 179, \"y1\": 525, \"x2\": 577, \"y2\": 651}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.android.settings:id/button2_negative",
+            "text_content": "FORCE STOP",
+            "word_sequence": [
+                "FORCE",
+                "STOP"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "358e6532266eaca6552540bb5dac27483da27153229f73416bd610bde2c22b1b",
+            "bounding_box": "{\"x1\": 619, \"y1\": 525, \"x2\": 1017, \"y2\": 651}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/title",
+            "text_content": "Manage battery usage",
+            "word_sequence": [
+                "Manage",
+                "battery",
+                "usage"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "358e6532266eaca6552540bb5dac27483da27153229f73416bd610bde2c22b1b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 725, \"x2\": 1080, \"y2\": 776}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/title",
+            "text_content": "Background restriction",
+            "word_sequence": [
+                "Background",
+                "restriction"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "358e6532266eaca6552540bb5dac27483da27153229f73416bd610bde2c22b1b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 839, \"x2\": 612, \"y2\": 896}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/summary",
+            "text_content": "App can use battery in background",
+            "word_sequence": [
+                "App",
+                "can",
+                "use",
+                "battery",
+                "in",
+                "background"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "358e6532266eaca6552540bb5dac27483da27153229f73416bd610bde2c22b1b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 896, \"x2\": 758, \"y2\": 947}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "android:id/title",
+            "text_content": "Battery optimization",
+            "word_sequence": [
+                "Battery",
+                "optimization"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "358e6532266eaca6552540bb5dac27483da27153229f73416bd610bde2c22b1b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1031, \"x2\": 566, \"y2\": 1088}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "android:id/summary",
+            "text_content": "Optimizing battery use",
+            "word_sequence": [
+                "Optimizing",
+                "battery",
+                "use"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "358e6532266eaca6552540bb5dac27483da27153229f73416bd610bde2c22b1b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1088, \"x2\": 558, \"y2\": 1139}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "android:id/title",
+            "text_content": "Since full charge",
+            "word_sequence": [
+                "Since",
+                "full",
+                "charge"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "358e6532266eaca6552540bb5dac27483da27153229f73416bd610bde2c22b1b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1244, \"x2\": 1080, \"y2\": 1295}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "android:id/title",
+            "text_content": "While in active use",
+            "word_sequence": [
+                "While",
+                "in",
+                "active",
+                "use"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "358e6532266eaca6552540bb5dac27483da27153229f73416bd610bde2c22b1b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1358, \"x2\": 532, \"y2\": 1415}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "android:id/summary",
+            "text_content": "Used for 0 min",
+            "word_sequence": [
+                "Used",
+                "for",
+                "0",
+                "min"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "358e6532266eaca6552540bb5dac27483da27153229f73416bd610bde2c22b1b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1415, \"x2\": 429, \"y2\": 1466}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "android:id/title",
+            "text_content": "While in background",
+            "word_sequence": [
+                "While",
+                "in",
+                "background"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "358e6532266eaca6552540bb5dac27483da27153229f73416bd610bde2c22b1b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1550, \"x2\": 566, \"y2\": 1607}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "android:id/summary",
+            "text_content": "Active for 0 min",
+            "word_sequence": [
+                "Active",
+                "for",
+                "0",
+                "min"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "358e6532266eaca6552540bb5dac27483da27153229f73416bd610bde2c22b1b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1607, \"x2\": 447, \"y2\": 1658}"
+        }
+    ],
+    "30df8869f15c2af0d3241e799148510514ac99771378ce5dfa107b3f23bd27fd": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "30df8869f15c2af0d3241e799148510514ac99771378ce5dfa107b3f23bd27fd",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Open by default",
+            "word_sequence": [
+                "Open",
+                "by",
+                "default"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "30df8869f15c2af0d3241e799148510514ac99771378ce5dfa107b3f23bd27fd",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 562, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "Search settings",
+            "word_sequence": [
+                "Search",
+                "settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "30df8869f15c2af0d3241e799148510514ac99771378ce5dfa107b3f23bd27fd",
+            "bounding_box": "{\"x1\": 954, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.settings:id/entity_header_icon",
+            "text_content": "",
+            "word_sequence": [
+                "entity",
+                "header",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1033,
+            "screen_id": "30df8869f15c2af0d3241e799148510514ac99771378ce5dfa107b3f23bd27fd",
+            "bounding_box": "{\"x1\": 189, \"y1\": 273, \"x2\": 315, \"y2\": 399}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.settings:id/entity_header_title",
+            "text_content": "AnkiDroid",
+            "word_sequence": [
+                "AnkiDroid"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "30df8869f15c2af0d3241e799148510514ac99771378ce5dfa107b3f23bd27fd",
+            "bounding_box": "{\"x1\": 357, \"y1\": 282, \"x2\": 996, \"y2\": 339}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.android.settings:id/entity_header_summary",
+            "text_content": "2.9alpha18",
+            "word_sequence": [
+                "2",
+                ".",
+                "9alpha18"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "30df8869f15c2af0d3241e799148510514ac99771378ce5dfa107b3f23bd27fd",
+            "bounding_box": "{\"x1\": 357, \"y1\": 339, \"x2\": 996, \"y2\": 390}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/title",
+            "text_content": "Opening links",
+            "word_sequence": [
+                "Opening",
+                "links"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "30df8869f15c2af0d3241e799148510514ac99771378ce5dfa107b3f23bd27fd",
+            "bounding_box": "{\"x1\": 189, \"y1\": 525, \"x2\": 1080, \"y2\": 576}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/title",
+            "text_content": "Open supported links",
+            "word_sequence": [
+                "Open",
+                "supported",
+                "links"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "30df8869f15c2af0d3241e799148510514ac99771378ce5dfa107b3f23bd27fd",
+            "bounding_box": "{\"x1\": 189, \"y1\": 639, \"x2\": 585, \"y2\": 696}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/summary",
+            "text_content": "Ask every time",
+            "word_sequence": [
+                "Ask",
+                "every",
+                "time"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "30df8869f15c2af0d3241e799148510514ac99771378ce5dfa107b3f23bd27fd",
+            "bounding_box": "{\"x1\": 189, \"y1\": 696, \"x2\": 431, \"y2\": 747}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/title",
+            "text_content": "Supported links",
+            "word_sequence": [
+                "Supported",
+                "links"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "30df8869f15c2af0d3241e799148510514ac99771378ce5dfa107b3f23bd27fd",
+            "bounding_box": "{\"x1\": 189, \"y1\": 831, \"x2\": 480, \"y2\": 888}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/summary",
+            "text_content": "Open *",
+            "word_sequence": [
+                "Open"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "30df8869f15c2af0d3241e799148510514ac99771378ce5dfa107b3f23bd27fd",
+            "bounding_box": "{\"x1\": 189, \"y1\": 888, \"x2\": 300, \"y2\": 939}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "android:id/title",
+            "text_content": "Other defaults",
+            "word_sequence": [
+                "Other",
+                "defaults"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "30df8869f15c2af0d3241e799148510514ac99771378ce5dfa107b3f23bd27fd",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1044, \"x2\": 1080, \"y2\": 1095}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "com.android.settings:id/auto_launch",
+            "text_content": "No defaults set.",
+            "word_sequence": [
+                "No",
+                "defaults",
+                "set",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "30df8869f15c2af0d3241e799148510514ac99771378ce5dfa107b3f23bd27fd",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1116, \"x2\": 1038, \"y2\": 1183}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.android.settings:id/clear_activities_button",
+            "text_content": "CLEAR DEFAULTS",
+            "word_sequence": [
+                "CLEAR",
+                "DEFAULTS"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "30df8869f15c2af0d3241e799148510514ac99771378ce5dfa107b3f23bd27fd",
+            "bounding_box": "{\"x1\": 178, \"y1\": 1183, \"x2\": 533, \"y2\": 1309}"
+        }
+    ],
+    "227a781df4ae7cc69c7b7f74265dfe02d13a24c5ce6cdce4c6280ea53d0da672": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.packageinstaller:id/permission_icon",
+            "text_content": "",
+            "word_sequence": [
+                "permission",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1033,
+            "screen_id": "227a781df4ae7cc69c7b7f74265dfe02d13a24c5ce6cdce4c6280ea53d0da672",
+            "bounding_box": "{\"x1\": 215, \"y1\": 749, \"x2\": 310, \"y2\": 844}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.packageinstaller:id/permission_message",
+            "text_content": "Allow AnkiDroid to access photos, media, and files on your device?",
+            "word_sequence": [
+                "Allow",
+                "AnkiDroid",
+                "to",
+                "access",
+                "photos",
+                ",",
+                "media",
+                ",",
+                "and",
+                "files",
+                "on",
+                "your",
+                "device",
+                "?"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "227a781df4ae7cc69c7b7f74265dfe02d13a24c5ce6cdce4c6280ea53d0da672",
+            "bounding_box": "{\"x1\": 310, \"y1\": 749, \"x2\": 876, \"y2\": 1006}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.packageinstaller:id/permission_deny_button",
+            "text_content": "DENY",
+            "word_sequence": [
+                "DENY"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "227a781df4ae7cc69c7b7f74265dfe02d13a24c5ce6cdce4c6280ea53d0da672",
+            "bounding_box": "{\"x1\": 523, \"y1\": 1017, \"x2\": 691, \"y2\": 1143}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.packageinstaller:id/permission_allow_button",
+            "text_content": "ALLOW",
+            "word_sequence": [
+                "ALLOW"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "227a781df4ae7cc69c7b7f74265dfe02d13a24c5ce6cdce4c6280ea53d0da672",
+            "bounding_box": "{\"x1\": 691, \"y1\": 1017, \"x2\": 876, \"y2\": 1143}"
+        }
+    ],
+    "79962927f0ee501e96cc455c6c1be24472b0b40e5916cbd9c588c6380f364c89": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "79962927f0ee501e96cc455c6c1be24472b0b40e5916cbd9c588c6380f364c89",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "AnkiDroid",
+            "word_sequence": [
+                "AnkiDroid"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "79962927f0ee501e96cc455c6c1be24472b0b40e5916cbd9c588c6380f364c89",
+            "bounding_box": "{\"x1\": 189, \"y1\": 73, \"x2\": 421, \"y2\": 144}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "0 cards due (0 min)",
+            "word_sequence": [
+                "0",
+                "cards",
+                "due",
+                "0",
+                "min"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "79962927f0ee501e96cc455c6c1be24472b0b40e5916cbd9c588c6380f364c89",
+            "bounding_box": "{\"x1\": 189, \"y1\": 144, \"x2\": 550, \"y2\": 201}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.ichi2.anki:id/deckpicker_name",
+            "text_content": "Default",
+            "word_sequence": [
+                "Default"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "79962927f0ee501e96cc455c6c1be24472b0b40e5916cbd9c588c6380f364c89",
+            "bounding_box": "{\"x1\": 63, \"y1\": 210, \"x2\": 235, \"y2\": 336}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.ichi2.anki:id/deckpicker_new",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "79962927f0ee501e96cc455c6c1be24472b0b40e5916cbd9c588c6380f364c89",
+            "bounding_box": "{\"x1\": 965, \"y1\": 247, \"x2\": 999, \"y2\": 298}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.ichi2.anki:id/deckpicker_lrn",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "79962927f0ee501e96cc455c6c1be24472b0b40e5916cbd9c588c6380f364c89",
+            "bounding_box": "{\"x1\": 999, \"y1\": 247, \"x2\": 1033, \"y2\": 298}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.ichi2.anki:id/deckpicker_rev",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "79962927f0ee501e96cc455c6c1be24472b0b40e5916cbd9c588c6380f364c89",
+            "bounding_box": "{\"x1\": 1033, \"y1\": 247, \"x2\": 1054, \"y2\": 298}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.ichi2.anki:id/today_stats_text_view",
+            "text_content": "Studied 0 cards in 0 minutes today",
+            "word_sequence": [
+                "Studied",
+                "0",
+                "cards",
+                "in",
+                "0",
+                "minutes",
+                "today"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "79962927f0ee501e96cc455c6c1be24472b0b40e5916cbd9c588c6380f364c89",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1732, \"x2\": 1080, \"y2\": 1783}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.ichi2.anki:id/fab_expand_menu_button",
+            "text_content": "Add",
+            "word_sequence": [
+                "Add"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "79962927f0ee501e96cc455c6c1be24472b0b40e5916cbd9c588c6380f364c89",
+            "bounding_box": "{\"x1\": 844, \"y1\": 1558, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "c9a4af7dc69a64bef424d43d3e2c54a03f0a1d75e489fd7419db406a52024032": [
+        {
+            "component_id": 0,
+            "resource_id": "com.ichi2.anki:id/title",
+            "text_content": "Default",
+            "word_sequence": [
+                "Default"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "c9a4af7dc69a64bef424d43d3e2c54a03f0a1d75e489fd7419db406a52024032",
+            "bounding_box": "{\"x1\": 133, \"y1\": 559, \"x2\": 947, \"y2\": 630}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.ichi2.anki:id/title",
+            "text_content": "Rename deck",
+            "word_sequence": [
+                "Rename",
+                "deck"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "c9a4af7dc69a64bef424d43d3e2c54a03f0a1d75e489fd7419db406a52024032",
+            "bounding_box": "{\"x1\": 133, \"y1\": 667, \"x2\": 385, \"y2\": 793}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.ichi2.anki:id/title",
+            "text_content": "Deck options",
+            "word_sequence": [
+                "Deck",
+                "options"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "c9a4af7dc69a64bef424d43d3e2c54a03f0a1d75e489fd7419db406a52024032",
+            "bounding_box": "{\"x1\": 133, \"y1\": 793, \"x2\": 377, \"y2\": 919}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.ichi2.anki:id/title",
+            "text_content": "Custom study",
+            "word_sequence": [
+                "Custom",
+                "study"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "c9a4af7dc69a64bef424d43d3e2c54a03f0a1d75e489fd7419db406a52024032",
+            "bounding_box": "{\"x1\": 133, \"y1\": 919, \"x2\": 392, \"y2\": 1045}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.ichi2.anki:id/title",
+            "text_content": "Delete deck",
+            "word_sequence": [
+                "Delete",
+                "deck"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "c9a4af7dc69a64bef424d43d3e2c54a03f0a1d75e489fd7419db406a52024032",
+            "bounding_box": "{\"x1\": 133, \"y1\": 1045, \"x2\": 350, \"y2\": 1171}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.ichi2.anki:id/title",
+            "text_content": "Export deck",
+            "word_sequence": [
+                "Export",
+                "deck"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "c9a4af7dc69a64bef424d43d3e2c54a03f0a1d75e489fd7419db406a52024032",
+            "bounding_box": "{\"x1\": 133, \"y1\": 1171, \"x2\": 354, \"y2\": 1297}"
+        }
+    ],
+    "fb23cbc5cd12c65a8c8f0777d7bc0a55f055c292e4cacf90c237aee594eda23d": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "fb23cbc5cd12c65a8c8f0777d7bc0a55f055c292e4cacf90c237aee594eda23d",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Options for Default",
+            "word_sequence": [
+                "Options",
+                "for",
+                "Default"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "fb23cbc5cd12c65a8c8f0777d7bc0a55f055c292e4cacf90c237aee594eda23d",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 640, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/title",
+            "text_content": "Options group",
+            "word_sequence": [
+                "Options",
+                "group"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "fb23cbc5cd12c65a8c8f0777d7bc0a55f055c292e4cacf90c237aee594eda23d",
+            "bounding_box": "{\"x1\": 42, \"y1\": 252, \"x2\": 306, \"y2\": 309}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/summary",
+            "text_content": "Default\n1 deck uses this group",
+            "word_sequence": [
+                "Default",
+                "1",
+                "deck",
+                "uses",
+                "this",
+                "group"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "fb23cbc5cd12c65a8c8f0777d7bc0a55f055c292e4cacf90c237aee594eda23d",
+            "bounding_box": "{\"x1\": 42, \"y1\": 309, \"x2\": 411, \"y2\": 403}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/title",
+            "text_content": "Group management",
+            "word_sequence": [
+                "Group",
+                "management"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "fb23cbc5cd12c65a8c8f0777d7bc0a55f055c292e4cacf90c237aee594eda23d",
+            "bounding_box": "{\"x1\": 42, \"y1\": 490, \"x2\": 413, \"y2\": 547}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/title",
+            "text_content": "New cards",
+            "word_sequence": [
+                "New",
+                "cards"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "fb23cbc5cd12c65a8c8f0777d7bc0a55f055c292e4cacf90c237aee594eda23d",
+            "bounding_box": "{\"x1\": 42, \"y1\": 634, \"x2\": 241, \"y2\": 691}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/title",
+            "text_content": "Reviews",
+            "word_sequence": [
+                "Reviews"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "fb23cbc5cd12c65a8c8f0777d7bc0a55f055c292e4cacf90c237aee594eda23d",
+            "bounding_box": "{\"x1\": 42, \"y1\": 778, \"x2\": 196, \"y2\": 835}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/title",
+            "text_content": "Lapses",
+            "word_sequence": [
+                "Lapses"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "fb23cbc5cd12c65a8c8f0777d7bc0a55f055c292e4cacf90c237aee594eda23d",
+            "bounding_box": "{\"x1\": 42, \"y1\": 922, \"x2\": 178, \"y2\": 979}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/title",
+            "text_content": "General",
+            "word_sequence": [
+                "General"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "fb23cbc5cd12c65a8c8f0777d7bc0a55f055c292e4cacf90c237aee594eda23d",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1066, \"x2\": 184, \"y2\": 1123}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/title",
+            "text_content": "Reminders",
+            "word_sequence": [
+                "Reminders"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "fb23cbc5cd12c65a8c8f0777d7bc0a55f055c292e4cacf90c237aee594eda23d",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1210, \"x2\": 242, \"y2\": 1267}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/title",
+            "text_content": "Deck description",
+            "word_sequence": [
+                "Deck",
+                "description"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "fb23cbc5cd12c65a8c8f0777d7bc0a55f055c292e4cacf90c237aee594eda23d",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1354, \"x2\": 354, \"y2\": 1411}"
+        }
+    ],
+    "7fd0424aaa4d543eecdcce037d9ddef7976d20d63b9096a356995f332eb3a018": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/title",
+            "text_content": "Maximum reviews/day",
+            "word_sequence": [
+                "Maximum",
+                "reviews",
+                "/",
+                "day"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "7fd0424aaa4d543eecdcce037d9ddef7976d20d63b9096a356995f332eb3a018",
+            "bounding_box": "{\"x1\": 42, \"y1\": 105, \"x2\": 466, \"y2\": 162}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/summary",
+            "text_content": "100",
+            "word_sequence": [
+                "100"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "7fd0424aaa4d543eecdcce037d9ddef7976d20d63b9096a356995f332eb3a018",
+            "bounding_box": "{\"x1\": 42, \"y1\": 162, \"x2\": 105, \"y2\": 213}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/title",
+            "text_content": "Easy bonus",
+            "word_sequence": [
+                "Easy",
+                "bonus"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "7fd0424aaa4d543eecdcce037d9ddef7976d20d63b9096a356995f332eb3a018",
+            "bounding_box": "{\"x1\": 42, \"y1\": 300, \"x2\": 257, \"y2\": 357}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/summary",
+            "text_content": "100 %%",
+            "word_sequence": [
+                "100"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "7fd0424aaa4d543eecdcce037d9ddef7976d20d63b9096a356995f332eb3a018",
+            "bounding_box": "{\"x1\": 42, \"y1\": 357, \"x2\": 168, \"y2\": 408}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/title",
+            "text_content": "Interval modifier",
+            "word_sequence": [
+                "Interval",
+                "modifier"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "7fd0424aaa4d543eecdcce037d9ddef7976d20d63b9096a356995f332eb3a018",
+            "bounding_box": "{\"x1\": 42, \"y1\": 495, \"x2\": 343, \"y2\": 552}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/summary",
+            "text_content": "100 %%",
+            "word_sequence": [
+                "100"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "7fd0424aaa4d543eecdcce037d9ddef7976d20d63b9096a356995f332eb3a018",
+            "bounding_box": "{\"x1\": 42, \"y1\": 552, \"x2\": 168, \"y2\": 603}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/title",
+            "text_content": "Maximum interval",
+            "word_sequence": [
+                "Maximum",
+                "interval"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "7fd0424aaa4d543eecdcce037d9ddef7976d20d63b9096a356995f332eb3a018",
+            "bounding_box": "{\"x1\": 42, \"y1\": 690, \"x2\": 376, \"y2\": 747}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/summary",
+            "text_content": "36500 day(s)",
+            "word_sequence": [
+                "36500",
+                "day",
+                "s"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "7fd0424aaa4d543eecdcce037d9ddef7976d20d63b9096a356995f332eb3a018",
+            "bounding_box": "{\"x1\": 42, \"y1\": 747, \"x2\": 260, \"y2\": 798}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/title",
+            "text_content": "Bury related reviews",
+            "word_sequence": [
+                "Bury",
+                "related",
+                "reviews"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "7fd0424aaa4d543eecdcce037d9ddef7976d20d63b9096a356995f332eb3a018",
+            "bounding_box": "{\"x1\": 42, \"y1\": 885, \"x2\": 416, \"y2\": 942}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/summary",
+            "text_content": "Related reviews are buried until the next day",
+            "word_sequence": [
+                "Related",
+                "reviews",
+                "are",
+                "buried",
+                "until",
+                "the",
+                "next",
+                "day"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "7fd0424aaa4d543eecdcce037d9ddef7976d20d63b9096a356995f332eb3a018",
+            "bounding_box": "{\"x1\": 42, \"y1\": 942, \"x2\": 765, \"y2\": 993}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/checkbox",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "CHECKBOX",
+            "app_name": 1033,
+            "screen_id": "7fd0424aaa4d543eecdcce037d9ddef7976d20d63b9096a356995f332eb3a018",
+            "bounding_box": "{\"x1\": 954, \"y1\": 897, \"x2\": 1038, \"y2\": 981}"
+        }
+    ],
+    "1114611575567ca05f51399f65a7c901f0c2a48b263eecf15131e37ed82cc18d": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "Easy bonus",
+            "word_sequence": [
+                "Easy",
+                "bonus"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1033,
+            "screen_id": "1114611575567ca05f51399f65a7c901f0c2a48b263eecf15131e37ed82cc18d",
+            "bounding_box": "{\"x1\": 133, \"y1\": 395, \"x2\": 947, \"y2\": 466}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/edit",
+            "text_content": "100",
+            "word_sequence": [
+                "100"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1033,
+            "screen_id": "1114611575567ca05f51399f65a7c901f0c2a48b263eecf15131e37ed82cc18d",
+            "bounding_box": "{\"x1\": 123, \"y1\": 519, \"x2\": 957, \"y2\": 637}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/button2",
+            "text_content": "CANCEL",
+            "word_sequence": [
+                "CANCEL"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "1114611575567ca05f51399f65a7c901f0c2a48b263eecf15131e37ed82cc18d",
+            "bounding_box": "{\"x1\": 608, \"y1\": 701, \"x2\": 810, \"y2\": 827}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/button1",
+            "text_content": "OK",
+            "word_sequence": [
+                "OK"
+            ],
+            "type": "BUTTON",
+            "app_name": 1033,
+            "screen_id": "1114611575567ca05f51399f65a7c901f0c2a48b263eecf15131e37ed82cc18d",
+            "bounding_box": "{\"x1\": 810, \"y1\": 701, \"x2\": 978, \"y2\": 827}"
+        }
+    ]
+}

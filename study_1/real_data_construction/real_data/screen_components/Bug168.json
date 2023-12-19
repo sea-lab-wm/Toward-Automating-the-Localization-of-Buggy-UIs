@@ -1,0 +1,1245 @@
+{
+    "app-name": 168,
+    "76097bf4b20f9772c9287c36a4207ff3726a96bbc896b60b023adbb2df36b780": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/textSpacerNoTitle",
+            "text_content": "",
+            "word_sequence": [
+                "text",
+                "Spacer",
+                "No",
+                "Title"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 168,
+            "screen_id": "76097bf4b20f9772c9287c36a4207ff3726a96bbc896b60b023adbb2df36b780",
+            "bounding_box": "{\"x1\": 70, \"y1\": 687, \"x2\": 1010, \"y2\": 734}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/message",
+            "text_content": "c:geo will write data onto your phone storage or SD card as soon as you save geocaches for offline use. Furthermore c:geo will use your phone storage for import and export of files and reading of offline maps. It cannot be used without this permission.",
+            "word_sequence": [
+                "c",
+                ":",
+                "geo",
+                "will",
+                "write",
+                "data",
+                "onto",
+                "your",
+                "phone",
+                "storage",
+                "or",
+                "SD",
+                "card",
+                "as",
+                "soon",
+                "as",
+                "you",
+                "save",
+                "geocaches",
+                "for",
+                "offline",
+                "use",
+                ".",
+                "Furthermore",
+                "c",
+                ":",
+                "geo",
+                "will",
+                "use",
+                "your",
+                "phone",
+                "storage",
+                "for",
+                "import",
+                "and",
+                "export",
+                "of",
+                "files",
+                "and",
+                "reading",
+                "of",
+                "offline",
+                "maps",
+                ".",
+                "It",
+                "cannot",
+                "be",
+                "used",
+                "without",
+                "this",
+                "permission",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "76097bf4b20f9772c9287c36a4207ff3726a96bbc896b60b023adbb2df36b780",
+            "bounding_box": "{\"x1\": 70, \"y1\": 734, \"x2\": 1010, \"y2\": 1085}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/button2",
+            "text_content": "CLOSE APP",
+            "word_sequence": [
+                "CLOSE",
+                "APP"
+            ],
+            "type": "BUTTON",
+            "app_name": 168,
+            "screen_id": "76097bf4b20f9772c9287c36a4207ff3726a96bbc896b60b023adbb2df36b780",
+            "bounding_box": "{\"x1\": 408, \"y1\": 1096, \"x2\": 664, \"y2\": 1222}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/button1",
+            "text_content": "ASK ME AGAIN",
+            "word_sequence": [
+                "ASK",
+                "ME",
+                "AGAIN"
+            ],
+            "type": "BUTTON",
+            "app_name": 168,
+            "screen_id": "76097bf4b20f9772c9287c36a4207ff3726a96bbc896b60b023adbb2df36b780",
+            "bounding_box": "{\"x1\": 664, \"y1\": 1096, \"x2\": 978, \"y2\": 1222}"
+        }
+    ],
+    "7e731f699446c40504f75a6dc8fe079058366c578cbbb2652455b94c4ec5a081": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.permissioncontroller:id/permission_icon",
+            "text_content": "",
+            "word_sequence": [
+                "permission",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 168,
+            "screen_id": "7e731f699446c40504f75a6dc8fe079058366c578cbbb2652455b94c4ec5a081",
+            "bounding_box": "{\"x1\": 508, \"y1\": 581, \"x2\": 571, \"y2\": 644}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.permissioncontroller:id/permission_message",
+            "text_content": "Allow c:geo to access photos, media, and files on your device?",
+            "word_sequence": [
+                "Allow",
+                "c",
+                ":",
+                "geo",
+                "to",
+                "access",
+                "photos",
+                ",",
+                "media",
+                ",",
+                "and",
+                "files",
+                "on",
+                "your",
+                "device",
+                "?"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "7e731f699446c40504f75a6dc8fe079058366c578cbbb2652455b94c4ec5a081",
+            "bounding_box": "{\"x1\": 133, \"y1\": 676, \"x2\": 947, \"y2\": 809}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.permissioncontroller:id/permission_allow_button",
+            "text_content": "Allow",
+            "word_sequence": [
+                "Allow"
+            ],
+            "type": "BUTTON",
+            "app_name": 168,
+            "screen_id": "7e731f699446c40504f75a6dc8fe079058366c578cbbb2652455b94c4ec5a081",
+            "bounding_box": "{\"x1\": 70, \"y1\": 875, \"x2\": 1010, \"y2\": 1022}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.permissioncontroller:id/permission_deny_button",
+            "text_content": "Deny",
+            "word_sequence": [
+                "Deny"
+            ],
+            "type": "BUTTON",
+            "app_name": 168,
+            "screen_id": "7e731f699446c40504f75a6dc8fe079058366c578cbbb2652455b94c4ec5a081",
+            "bounding_box": "{\"x1\": 70, \"y1\": 1025, \"x2\": 1010, \"y2\": 1172}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.permissioncontroller:id/permission_deny_and_dont_ask_again_button",
+            "text_content": "Deny & don\u2019t ask again",
+            "word_sequence": [
+                "Deny",
+                "don",
+                "t",
+                "ask",
+                "again"
+            ],
+            "type": "BUTTON",
+            "app_name": 168,
+            "screen_id": "7e731f699446c40504f75a6dc8fe079058366c578cbbb2652455b94c4ec5a081",
+            "bounding_box": "{\"x1\": 70, \"y1\": 1175, \"x2\": 1010, \"y2\": 1322}"
+        }
+    ],
+    "db04b906179c98c613860900737c666e72d3e3324ea6c1ad09d329c2dd507cad": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.permissioncontroller:id/permission_icon",
+            "text_content": "",
+            "word_sequence": [
+                "permission",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 168,
+            "screen_id": "db04b906179c98c613860900737c666e72d3e3324ea6c1ad09d329c2dd507cad",
+            "bounding_box": "{\"x1\": 508, \"y1\": 656, \"x2\": 571, \"y2\": 719}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.permissioncontroller:id/permission_message",
+            "text_content": "Allow c:geo to access photos, media, and files on your device?",
+            "word_sequence": [
+                "Allow",
+                "c",
+                ":",
+                "geo",
+                "to",
+                "access",
+                "photos",
+                ",",
+                "media",
+                ",",
+                "and",
+                "files",
+                "on",
+                "your",
+                "device",
+                "?"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "db04b906179c98c613860900737c666e72d3e3324ea6c1ad09d329c2dd507cad",
+            "bounding_box": "{\"x1\": 133, \"y1\": 751, \"x2\": 947, \"y2\": 884}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.permissioncontroller:id/permission_allow_button",
+            "text_content": "Allow",
+            "word_sequence": [
+                "Allow"
+            ],
+            "type": "BUTTON",
+            "app_name": 168,
+            "screen_id": "db04b906179c98c613860900737c666e72d3e3324ea6c1ad09d329c2dd507cad",
+            "bounding_box": "{\"x1\": 70, \"y1\": 950, \"x2\": 1010, \"y2\": 1097}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.permissioncontroller:id/permission_deny_button",
+            "text_content": "Deny",
+            "word_sequence": [
+                "Deny"
+            ],
+            "type": "BUTTON",
+            "app_name": 168,
+            "screen_id": "db04b906179c98c613860900737c666e72d3e3324ea6c1ad09d329c2dd507cad",
+            "bounding_box": "{\"x1\": 70, \"y1\": 1100, \"x2\": 1010, \"y2\": 1247}"
+        }
+    ],
+    "7c0e88671b4d54c43594fd058487400c794dd429e1f32576b17f1c7b848d0a05": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.permissioncontroller:id/permission_icon",
+            "text_content": "",
+            "word_sequence": [
+                "permission",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 168,
+            "screen_id": "7c0e88671b4d54c43594fd058487400c794dd429e1f32576b17f1c7b848d0a05",
+            "bounding_box": "{\"x1\": 508, \"y1\": 581, \"x2\": 571, \"y2\": 644}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.permissioncontroller:id/permission_message",
+            "text_content": "Allow c:geo to access this device's location?",
+            "word_sequence": [
+                "Allow",
+                "c",
+                ":",
+                "geo",
+                "to",
+                "access",
+                "this",
+                "device's",
+                "location",
+                "?"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "7c0e88671b4d54c43594fd058487400c794dd429e1f32576b17f1c7b848d0a05",
+            "bounding_box": "{\"x1\": 133, \"y1\": 676, \"x2\": 947, \"y2\": 809}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.permissioncontroller:id/permission_allow_always_button",
+            "text_content": "Allow all the time",
+            "word_sequence": [
+                "Allow",
+                "all",
+                "the",
+                "time"
+            ],
+            "type": "BUTTON",
+            "app_name": 168,
+            "screen_id": "7c0e88671b4d54c43594fd058487400c794dd429e1f32576b17f1c7b848d0a05",
+            "bounding_box": "{\"x1\": 70, \"y1\": 875, \"x2\": 1010, \"y2\": 1022}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.permissioncontroller:id/permission_allow_foreground_only_button",
+            "text_content": "Allow only while using the app",
+            "word_sequence": [
+                "Allow",
+                "only",
+                "while",
+                "using",
+                "the",
+                "app"
+            ],
+            "type": "BUTTON",
+            "app_name": 168,
+            "screen_id": "7c0e88671b4d54c43594fd058487400c794dd429e1f32576b17f1c7b848d0a05",
+            "bounding_box": "{\"x1\": 70, \"y1\": 1025, \"x2\": 1010, \"y2\": 1172}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.permissioncontroller:id/permission_deny_button",
+            "text_content": "Deny",
+            "word_sequence": [
+                "Deny"
+            ],
+            "type": "BUTTON",
+            "app_name": 168,
+            "screen_id": "7c0e88671b4d54c43594fd058487400c794dd429e1f32576b17f1c7b848d0a05",
+            "bounding_box": "{\"x1\": 70, \"y1\": 1175, \"x2\": 1010, \"y2\": 1322}"
+        }
+    ],
+    "ab56ac4a31f64d09adb7fd8733f02148084073433c9482b1e6adec8838b75fa7": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 168,
+            "screen_id": "ab56ac4a31f64d09adb7fd8733f02148084073433c9482b1e6adec8838b75fa7",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Nearby",
+            "word_sequence": [
+                "Nearby"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "ab56ac4a31f64d09adb7fd8733f02148084073433c9482b1e6adec8838b75fa7",
+            "bounding_box": "{\"x1\": 157, \"y1\": 76, \"x2\": 306, \"y2\": 139}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "0 caches",
+            "word_sequence": [
+                "0",
+                "caches"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "ab56ac4a31f64d09adb7fd8733f02148084073433c9482b1e6adec8838b75fa7",
+            "bounding_box": "{\"x1\": 157, \"y1\": 139, \"x2\": 325, \"y2\": 196}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "cgeo.geocaching:id/menu_show_on_map",
+            "text_content": "Show on map",
+            "word_sequence": [
+                "Show",
+                "on",
+                "map"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "ab56ac4a31f64d09adb7fd8733f02148084073433c9482b1e6adec8838b75fa7",
+            "bounding_box": "{\"x1\": 679, \"y1\": 73, \"x2\": 827, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "cgeo.geocaching:id/menu_filter",
+            "text_content": "Filter",
+            "word_sequence": [
+                "Filter"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "ab56ac4a31f64d09adb7fd8733f02148084073433c9482b1e6adec8838b75fa7",
+            "bounding_box": "{\"x1\": 827, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 168,
+            "screen_id": "ab56ac4a31f64d09adb7fd8733f02148084073433c9482b1e6adec8838b75fa7",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "cgeo.geocaching:id/more_caches",
+            "text_content": "No caches here",
+            "word_sequence": [
+                "No",
+                "caches",
+                "here"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "ab56ac4a31f64d09adb7fd8733f02148084073433c9482b1e6adec8838b75fa7",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 309}"
+        }
+    ],
+    "c98dae04d9be0f227da5ce5f50856a9e1a46921f1ce629b5882ec1d1683afa41": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 168,
+            "screen_id": "c98dae04d9be0f227da5ce5f50856a9e1a46921f1ce629b5882ec1d1683afa41",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/text1",
+            "text_content": "Stored",
+            "word_sequence": [
+                "Stored"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "c98dae04d9be0f227da5ce5f50856a9e1a46921f1ce629b5882ec1d1683afa41",
+            "bounding_box": "{\"x1\": 168, \"y1\": 82, \"x2\": 315, \"y2\": 139}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/text2",
+            "text_content": "0 caches",
+            "word_sequence": [
+                "0",
+                "caches"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "c98dae04d9be0f227da5ce5f50856a9e1a46921f1ce629b5882ec1d1683afa41",
+            "bounding_box": "{\"x1\": 168, \"y1\": 139, \"x2\": 315, \"y2\": 190}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "cgeo.geocaching:id/menu_show_on_map",
+            "text_content": "Show on map",
+            "word_sequence": [
+                "Show",
+                "on",
+                "map"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "c98dae04d9be0f227da5ce5f50856a9e1a46921f1ce629b5882ec1d1683afa41",
+            "bounding_box": "{\"x1\": 679, \"y1\": 73, \"x2\": 827, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "cgeo.geocaching:id/menu_filter",
+            "text_content": "Filter",
+            "word_sequence": [
+                "Filter"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "c98dae04d9be0f227da5ce5f50856a9e1a46921f1ce629b5882ec1d1683afa41",
+            "bounding_box": "{\"x1\": 827, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 168,
+            "screen_id": "c98dae04d9be0f227da5ce5f50856a9e1a46921f1ce629b5882ec1d1683afa41",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/list",
+            "text_content": "",
+            "word_sequence": [
+                "list"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 168,
+            "screen_id": "c98dae04d9be0f227da5ce5f50856a9e1a46921f1ce629b5882ec1d1683afa41",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "ab993843d929b6666c7538ce27643cdb4220861992dfbcdc03e5b4400c2682a7": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/text1",
+            "text_content": "Stored",
+            "word_sequence": [
+                "Stored"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "ab993843d929b6666c7538ce27643cdb4220861992dfbcdc03e5b4400c2682a7",
+            "bounding_box": "{\"x1\": 168, \"y1\": 82, \"x2\": 363, \"y2\": 139}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/text2",
+            "text_content": "0 caches",
+            "word_sequence": [
+                "0",
+                "caches"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "ab993843d929b6666c7538ce27643cdb4220861992dfbcdc03e5b4400c2682a7",
+            "bounding_box": "{\"x1\": 168, \"y1\": 139, \"x2\": 363, \"y2\": 190}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/text1",
+            "text_content": "All caches",
+            "word_sequence": [
+                "All",
+                "caches"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "ab993843d929b6666c7538ce27643cdb4220861992dfbcdc03e5b4400c2682a7",
+            "bounding_box": "{\"x1\": 168, \"y1\": 208, \"x2\": 363, \"y2\": 265}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/text2",
+            "text_content": "0 caches",
+            "word_sequence": [
+                "0",
+                "caches"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "ab993843d929b6666c7538ce27643cdb4220861992dfbcdc03e5b4400c2682a7",
+            "bounding_box": "{\"x1\": 168, \"y1\": 265, \"x2\": 363, \"y2\": 316}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/text1",
+            "text_content": "History",
+            "word_sequence": [
+                "History"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "ab993843d929b6666c7538ce27643cdb4220861992dfbcdc03e5b4400c2682a7",
+            "bounding_box": "{\"x1\": 168, \"y1\": 334, \"x2\": 363, \"y2\": 391}"
+        }
+    ],
+    "e6321255e88e86528f619b27e43ae5fbc8efe605d4dda78b6368f4fe9da5bb3a": [
+        {
+            "component_id": 0,
+            "resource_id": "cgeo.geocaching:id/title",
+            "text_content": "Sort",
+            "word_sequence": [
+                "Sort"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "e6321255e88e86528f619b27e43ae5fbc8efe605d4dda78b6368f4fe9da5bb3a",
+            "bounding_box": "{\"x1\": 597, \"y1\": 107, \"x2\": 1028, \"y2\": 164}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "cgeo.geocaching:id/title",
+            "text_content": "Select mode",
+            "word_sequence": [
+                "Select",
+                "mode"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "e6321255e88e86528f619b27e43ae5fbc8efe605d4dda78b6368f4fe9da5bb3a",
+            "bounding_box": "{\"x1\": 597, \"y1\": 233, \"x2\": 1028, \"y2\": 290}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "cgeo.geocaching:id/title",
+            "text_content": "Show on map",
+            "word_sequence": [
+                "Show",
+                "on",
+                "map"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "e6321255e88e86528f619b27e43ae5fbc8efe605d4dda78b6368f4fe9da5bb3a",
+            "bounding_box": "{\"x1\": 597, \"y1\": 359, \"x2\": 1028, \"y2\": 416}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "cgeo.geocaching:id/title",
+            "text_content": "Manage caches",
+            "word_sequence": [
+                "Manage",
+                "caches"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "e6321255e88e86528f619b27e43ae5fbc8efe605d4dda78b6368f4fe9da5bb3a",
+            "bounding_box": "{\"x1\": 597, \"y1\": 485, \"x2\": 1028, \"y2\": 542}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "cgeo.geocaching:id/title",
+            "text_content": "Manage lists",
+            "word_sequence": [
+                "Manage",
+                "lists"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "e6321255e88e86528f619b27e43ae5fbc8efe605d4dda78b6368f4fe9da5bb3a",
+            "bounding_box": "{\"x1\": 597, \"y1\": 611, \"x2\": 1028, \"y2\": 668}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "cgeo.geocaching:id/title",
+            "text_content": "Export",
+            "word_sequence": [
+                "Export"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "e6321255e88e86528f619b27e43ae5fbc8efe605d4dda78b6368f4fe9da5bb3a",
+            "bounding_box": "{\"x1\": 597, \"y1\": 737, \"x2\": 1028, \"y2\": 794}"
+        }
+    ],
+    "cfbc2977405c970e4519d2213244e4dca67c1446119bb13ef40b5629035ad875": [
+        {
+            "component_id": 0,
+            "resource_id": "cgeo.geocaching:id/title",
+            "text_content": "Refresh all",
+            "word_sequence": [
+                "Refresh",
+                "all"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "cfbc2977405c970e4519d2213244e4dca67c1446119bb13ef40b5629035ad875",
+            "bounding_box": "{\"x1\": 607, \"y1\": 107, \"x2\": 1038, \"y2\": 164}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "cgeo.geocaching:id/title",
+            "text_content": "Move all",
+            "word_sequence": [
+                "Move",
+                "all"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "cfbc2977405c970e4519d2213244e4dca67c1446119bb13ef40b5629035ad875",
+            "bounding_box": "{\"x1\": 607, \"y1\": 233, \"x2\": 1038, \"y2\": 290}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "cgeo.geocaching:id/title",
+            "text_content": "Copy all",
+            "word_sequence": [
+                "Copy",
+                "all"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "cfbc2977405c970e4519d2213244e4dca67c1446119bb13ef40b5629035ad875",
+            "bounding_box": "{\"x1\": 607, \"y1\": 359, \"x2\": 1038, \"y2\": 416}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "cgeo.geocaching:id/title",
+            "text_content": "Clear offline logs",
+            "word_sequence": [
+                "Clear",
+                "offline",
+                "logs"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "cfbc2977405c970e4519d2213244e4dca67c1446119bb13ef40b5629035ad875",
+            "bounding_box": "{\"x1\": 607, \"y1\": 485, \"x2\": 1038, \"y2\": 542}"
+        }
+    ],
+    "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c": [
+        {
+            "component_id": 0,
+            "resource_id": "cgeo.geocaching:id/status_icon",
+            "text_content": "",
+            "word_sequence": [
+                "status",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 53, \"y1\": 379, \"x2\": 179, \"y2\": 505}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "cgeo.geocaching:id/status_message",
+            "text_content": "New release available.\nClick to install.",
+            "word_sequence": [
+                "New",
+                "release",
+                "available",
+                ".",
+                "Click",
+                "to",
+                "install",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 190, \"y1\": 384, \"x2\": 1038, \"y2\": 500}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "cgeo.geocaching:id/map",
+            "text_content": "",
+            "word_sequence": [
+                "map"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 124, \"y1\": 760, \"x2\": 250, \"y2\": 886}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Live map",
+            "word_sequence": [
+                "Live",
+                "map"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 106, \"y1\": 897, \"x2\": 268, \"y2\": 949}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "cgeo.geocaching:id/nearest",
+            "text_content": "",
+            "word_sequence": [
+                "nearest"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 476, \"y1\": 760, \"x2\": 602, \"y2\": 886}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "Nearby",
+            "word_sequence": [
+                "Nearby"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 472, \"y1\": 897, \"x2\": 606, \"y2\": 949}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "cgeo.geocaching:id/search_offline",
+            "text_content": "",
+            "word_sequence": [
+                "search",
+                "offline"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 829, \"y1\": 760, \"x2\": 955, \"y2\": 886}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "Stored",
+            "word_sequence": [
+                "Stored"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 830, \"y1\": 897, \"x2\": 955, \"y2\": 949}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "cgeo.geocaching:id/advanced_button",
+            "text_content": "",
+            "word_sequence": [
+                "advanced"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 124, \"y1\": 982, \"x2\": 250, \"y2\": 1108}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "Search",
+            "word_sequence": [
+                "Search"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 121, \"y1\": 1119, \"x2\": 253, \"y2\": 1171}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "cgeo.geocaching:id/any_button",
+            "text_content": "",
+            "word_sequence": [
+                "any"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 476, \"y1\": 982, \"x2\": 602, \"y2\": 1108}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "",
+            "text_content": "Go to",
+            "word_sequence": [
+                "Go",
+                "to"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 486, \"y1\": 1119, \"x2\": 592, \"y2\": 1171}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "cgeo.geocaching:id/filter_button",
+            "text_content": "",
+            "word_sequence": [
+                "filter"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 829, \"y1\": 982, \"x2\": 955, \"y2\": 1108}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "cgeo.geocaching:id/filter_button_title",
+            "text_content": "All Cache Types",
+            "word_sequence": [
+                "All",
+                "Cache",
+                "Types"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 759, \"y1\": 1119, \"x2\": 1025, \"y2\": 1171}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "",
+            "text_content": "GC \u00b7 No Login information stored",
+            "word_sequence": [
+                "GC",
+                "No",
+                "Login",
+                "information",
+                "stored"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 16, \"y1\": 1649, \"x2\": 1064, \"y2\": 1700}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "cgeo.geocaching:id/nav_location",
+            "text_content": "United States, Mountain View",
+            "word_sequence": [
+                "United",
+                "States",
+                ",",
+                "Mountain",
+                "View"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 16, \"y1\": 1700, \"x2\": 1064, \"y2\": 1751}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "cgeo.geocaching:id/nav_satellites",
+            "text_content": "Sat: 0/1",
+            "word_sequence": [
+                "Sat",
+                ":",
+                "0",
+                "/",
+                "1"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 16, \"y1\": 1751, \"x2\": 143, \"y2\": 1794}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "cgeo.geocaching:id/nav_accuracy",
+            "text_content": "\u00b165.6 ft \u00b7 0 mph",
+            "word_sequence": [
+                "65",
+                ".",
+                "6",
+                "ft",
+                "0",
+                "mph"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 421, \"y1\": 1751, \"x2\": 659, \"y2\": 1794}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "cgeo.geocaching:id/nav_type",
+            "text_content": "Fused",
+            "word_sequence": [
+                "Fused"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 960, \"y1\": 1751, \"x2\": 1064, \"y2\": 1794}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 42, \"y1\": 105, \"x2\": 105, \"y2\": 168}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "",
+            "text_content": "c:geo",
+            "word_sequence": [
+                "c",
+                ":",
+                "geo"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 105, \"y1\": 105, \"x2\": 219, \"y2\": 168}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "cgeo.geocaching:id/menu_gosearch",
+            "text_content": "Search for caches",
+            "word_sequence": [
+                "Search",
+                "for",
+                "caches"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 679, \"y1\": 73, \"x2\": 827, \"y2\": 199}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "cgeo.geocaching:id/menu_history",
+            "text_content": "History",
+            "word_sequence": [
+                "History"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 827, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 168,
+            "screen_id": "322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        }
+    ],
+    "c4f2e3c4a1feef9623133c92e53b1c9ab623788e484d75bd332e821cdaf438d7": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Apps list",
+            "word_sequence": [
+                "Apps",
+                "list"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 168,
+            "screen_id": "c4f2e3c4a1feef9623133c92e53b1c9ab623788e484d75bd332e821cdaf438d7",
+            "bounding_box": "{\"x1\": 508, \"y1\": 1319, \"x2\": 571, \"y2\": 1382}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/clock",
+            "text_content": "Friday, Mar 17 Friday, Mar 17",
+            "word_sequence": [
+                "Friday",
+                ",",
+                "Mar",
+                "17"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "c4f2e3c4a1feef9623133c92e53b1c9ab623788e484d75bd332e821cdaf438d7",
+            "bounding_box": "{\"x1\": 311, \"y1\": 84, \"x2\": 768, \"y2\": 337}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/page_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "page",
+                "indicator"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 168,
+            "screen_id": "c4f2e3c4a1feef9623133c92e53b1c9ab623788e484d75bd332e821cdaf438d7",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1319, \"x2\": 1080, \"y2\": 1382}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Messages Messages",
+            "word_sequence": [
+                "Messages"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "c4f2e3c4a1feef9623133c92e53b1c9ab623788e484d75bd332e821cdaf438d7",
+            "bounding_box": "{\"x1\": 237, \"y1\": 1382, \"x2\": 439, \"y2\": 1592}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "Play Store Play Store, has 2 notifications",
+            "word_sequence": [
+                "Play",
+                "Store"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "c4f2e3c4a1feef9623133c92e53b1c9ab623788e484d75bd332e821cdaf438d7",
+            "bounding_box": "{\"x1\": 439, \"y1\": 1382, \"x2\": 641, \"y2\": 1592}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "Chrome Chrome",
+            "word_sequence": [
+                "Chrome"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "c4f2e3c4a1feef9623133c92e53b1c9ab623788e484d75bd332e821cdaf438d7",
+            "bounding_box": "{\"x1\": 641, \"y1\": 1382, \"x2\": 843, \"y2\": 1592}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/all_apps_header",
+            "text_content": "",
+            "word_sequence": [
+                "all",
+                "apps",
+                "header"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 168,
+            "screen_id": "c4f2e3c4a1feef9623133c92e53b1c9ab623788e484d75bd332e821cdaf438d7",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1718, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/g_icon",
+            "text_content": "",
+            "word_sequence": [
+                "g",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 168,
+            "screen_id": "c4f2e3c4a1feef9623133c92e53b1c9ab623788e484d75bd332e821cdaf438d7",
+            "bounding_box": "{\"x1\": 104, \"y1\": 1692, \"x2\": 167, \"y2\": 1755}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/mic_icon",
+            "text_content": "Voice search",
+            "word_sequence": [
+                "Voice",
+                "search"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 168,
+            "screen_id": "c4f2e3c4a1feef9623133c92e53b1c9ab623788e484d75bd332e821cdaf438d7",
+            "bounding_box": "{\"x1\": 864, \"y1\": 1650, \"x2\": 1011, \"y2\": 1794}"
+        }
+    ],
+    "338a8a6c65e3fc2fa6014c644279bc81c98198d1919ea673dde86b2967cdd837": [
+        {
+            "component_id": 0,
+            "resource_id": "com.google.android.calendar:id/image",
+            "text_content": "",
+            "word_sequence": [
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 168,
+            "screen_id": "338a8a6c65e3fc2fa6014c644279bc81c98198d1919ea673dde86b2967cdd837",
+            "bounding_box": "{\"x1\": 351, \"y1\": 495, \"x2\": 729, \"y2\": 873}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.google.android.calendar:id/header",
+            "text_content": "Google Calendar",
+            "word_sequence": [
+                "Google",
+                "Calendar"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "338a8a6c65e3fc2fa6014c644279bc81c98198d1919ea673dde86b2967cdd837",
+            "bounding_box": "{\"x1\": 279, \"y1\": 1152, \"x2\": 801, \"y2\": 1229}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.google.android.calendar:id/body_text_center",
+            "text_content": "Make the most of every day.",
+            "word_sequence": [
+                "Make",
+                "the",
+                "most",
+                "of",
+                "every",
+                "day",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 168,
+            "screen_id": "338a8a6c65e3fc2fa6014c644279bc81c98198d1919ea673dde86b2967cdd837",
+            "bounding_box": "{\"x1\": 279, \"y1\": 1268, \"x2\": 801, \"y2\": 1325}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.google.android.calendar:id/image_frame",
+            "text_content": "",
+            "word_sequence": [
+                "image",
+                "frame"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 168,
+            "screen_id": "338a8a6c65e3fc2fa6014c644279bc81c98198d1919ea673dde86b2967cdd837",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 1080, \"y2\": 873}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 168,
+            "screen_id": "338a8a6c65e3fc2fa6014c644279bc81c98198d1919ea673dde86b2967cdd837",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1636, \"x2\": 1080, \"y2\": 1783}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.google.android.calendar:id/right_arrow",
+            "text_content": "next page",
+            "word_sequence": [
+                "next",
+                "page"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 168,
+            "screen_id": "338a8a6c65e3fc2fa6014c644279bc81c98198d1919ea673dde86b2967cdd837",
+            "bounding_box": "{\"x1\": 932, \"y1\": 1677, \"x2\": 1059, \"y2\": 1740}"
+        }
+    ]
+}

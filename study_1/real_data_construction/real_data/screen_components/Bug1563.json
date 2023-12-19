@@ -1,0 +1,3973 @@
+{
+    "app-name": 1563,
+    "caec79fbb2df7c62cb19d13389c2ceba813fd82f4b21de53104077cd83c9cb57": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1563,
+            "screen_id": "caec79fbb2df7c62cb19d13389c2ceba813fd82f4b21de53104077cd83c9cb57",
+            "bounding_box": "{\"x1\": 42, \"y1\": 63, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "io.lerk.lrkFM:id/introText1",
+            "text_content": "Welcome to lrkFM.",
+            "word_sequence": [
+                "Welcome",
+                "to",
+                "lrkFM",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "caec79fbb2df7c62cb19d13389c2ceba813fd82f4b21de53104077cd83c9cb57",
+            "bounding_box": "{\"x1\": 42, \"y1\": 515, \"x2\": 1038, \"y2\": 566}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "io.lerk.lrkFM:id/introText2",
+            "text_content": "We hope that you will like this app.",
+            "word_sequence": [
+                "We",
+                "hope",
+                "that",
+                "you",
+                "will",
+                "like",
+                "this",
+                "app",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "caec79fbb2df7c62cb19d13389c2ceba813fd82f4b21de53104077cd83c9cb57",
+            "bounding_box": "{\"x1\": 42, \"y1\": 613, \"x2\": 1038, \"y2\": 664}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "io.lerk.lrkFM:id/introText3",
+            "text_content": "It's a good idea to go through the Settings before doing anything. If there is anything wrong please file a bug using the link in the menu.",
+            "word_sequence": [
+                "It's",
+                "a",
+                "good",
+                "idea",
+                "to",
+                "go",
+                "through",
+                "the",
+                "Settings",
+                "before",
+                "doing",
+                "anything",
+                ".",
+                "If",
+                "there",
+                "is",
+                "anything",
+                "wrong",
+                "please",
+                "file",
+                "a",
+                "bug",
+                "using",
+                "the",
+                "link",
+                "in",
+                "the",
+                "menu",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "caec79fbb2df7c62cb19d13389c2ceba813fd82f4b21de53104077cd83c9cb57",
+            "bounding_box": "{\"x1\": 42, \"y1\": 711, \"x2\": 1038, \"y2\": 848}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "io.lerk.lrkFM:id/introText4",
+            "text_content": "Please tap the lock to grant permission to read phone storage. If no files are being shown after that, use 'refresh' in the top right menu. (If the lock is not visible, the permission is already granted)",
+            "word_sequence": [
+                "Please",
+                "tap",
+                "the",
+                "lock",
+                "to",
+                "grant",
+                "permission",
+                "to",
+                "read",
+                "phone",
+                "storage",
+                ".",
+                "If",
+                "no",
+                "files",
+                "are",
+                "being",
+                "shown",
+                "after",
+                "that",
+                ",",
+                "use",
+                "'refresh'",
+                "in",
+                "the",
+                "top",
+                "right",
+                "menu",
+                ".",
+                "If",
+                "the",
+                "lock",
+                "is",
+                "not",
+                "visible",
+                ",",
+                "the",
+                "permission",
+                "is",
+                "already",
+                "granted"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "caec79fbb2df7c62cb19d13389c2ceba813fd82f4b21de53104077cd83c9cb57",
+            "bounding_box": "{\"x1\": 42, \"y1\": 895, \"x2\": 1038, \"y2\": 1075}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "io.lerk.lrkFM:id/introText5",
+            "text_content": "To interact with files you can either use the menu button next to each file entry or long press a file entry.",
+            "word_sequence": [
+                "To",
+                "interact",
+                "with",
+                "files",
+                "you",
+                "can",
+                "either",
+                "use",
+                "the",
+                "menu",
+                "button",
+                "next",
+                "to",
+                "each",
+                "file",
+                "entry",
+                "or",
+                "long",
+                "press",
+                "a",
+                "file",
+                "entry",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "caec79fbb2df7c62cb19d13389c2ceba813fd82f4b21de53104077cd83c9cb57",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1122, \"x2\": 1038, \"y2\": 1216}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "io.lerk.lrkFM:id/introText6",
+            "text_content": "Note that there are no loading indicators when creating or extracting archives (yet). We hope you won't get too confused by this.",
+            "word_sequence": [
+                "Note",
+                "that",
+                "there",
+                "are",
+                "no",
+                "loading",
+                "indicators",
+                "when",
+                "creating",
+                "or",
+                "extracting",
+                "archives",
+                "yet",
+                ".",
+                "We",
+                "hope",
+                "you",
+                "won't",
+                "get",
+                "too",
+                "confused",
+                "by",
+                "this",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "caec79fbb2df7c62cb19d13389c2ceba813fd82f4b21de53104077cd83c9cb57",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1263, \"x2\": 1038, \"y2\": 1400}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "io.lerk.lrkFM:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "caec79fbb2df7c62cb19d13389c2ceba813fd82f4b21de53104077cd83c9cb57",
+            "bounding_box": "{\"x1\": 891, \"y1\": 400, \"x2\": 1038, \"y2\": 547}"
+        }
+    ],
+    "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Open navigation drawer",
+            "word_sequence": [
+                "Open",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 219, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 21, \"y1\": 256, \"x2\": 84, \"y2\": 319}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Alarms",
+            "word_sequence": [
+                "Alarms"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 126, \"y1\": 231, \"x2\": 275, \"y2\": 294}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 996, \"y1\": 231, \"x2\": 1059, \"y2\": 278}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 126, \"y1\": 294, \"x2\": 206, \"y2\": 345}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 14, 2023 8:57:47 PM",
+            "word_sequence": [
+                "Jan",
+                "14",
+                ",",
+                "2023",
+                "8",
+                ":",
+                "57",
+                ":",
+                "47",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 652, \"y1\": 294, \"x2\": 1059, \"y2\": 345}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 21, \"y1\": 415, \"x2\": 84, \"y2\": 478}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Android",
+            "word_sequence": [
+                "Android"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 126, \"y1\": 390, \"x2\": 291, \"y2\": 453}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 996, \"y1\": 390, \"x2\": 1059, \"y2\": 437}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 126, \"y1\": 453, \"x2\": 206, \"y2\": 504}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 14, 2023 8:57:47 PM",
+            "word_sequence": [
+                "Jan",
+                "14",
+                ",",
+                "2023",
+                "8",
+                ":",
+                "57",
+                ":",
+                "47",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 652, \"y1\": 453, \"x2\": 1059, \"y2\": 504}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 21, \"y1\": 574, \"x2\": 84, \"y2\": 637}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "AnkiDroid",
+            "word_sequence": [
+                "AnkiDroid"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 126, \"y1\": 549, \"x2\": 330, \"y2\": 612}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 996, \"y1\": 549, \"x2\": 1059, \"y2\": 596}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 126, \"y1\": 612, \"x2\": 206, \"y2\": 663}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 15, 2023 6:14:26 PM",
+            "word_sequence": [
+                "Jan",
+                "15",
+                ",",
+                "2023",
+                "6",
+                ":",
+                "14",
+                ":",
+                "26",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 652, \"y1\": 612, \"x2\": 1059, \"y2\": 663}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 21, \"y1\": 733, \"x2\": 84, \"y2\": 796}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "DCIM",
+            "word_sequence": [
+                "DCIM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 126, \"y1\": 708, \"x2\": 242, \"y2\": 771}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 996, \"y1\": 708, \"x2\": 1059, \"y2\": 755}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 126, \"y1\": 771, \"x2\": 206, \"y2\": 822}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 14, 2023 8:57:47 PM",
+            "word_sequence": [
+                "Jan",
+                "14",
+                ",",
+                "2023",
+                "8",
+                ":",
+                "57",
+                ":",
+                "47",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 652, \"y1\": 771, \"x2\": 1059, \"y2\": 822}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 21, \"y1\": 892, \"x2\": 84, \"y2\": 955}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Download",
+            "word_sequence": [
+                "Download"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 126, \"y1\": 867, \"x2\": 336, \"y2\": 930}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 996, \"y1\": 867, \"x2\": 1059, \"y2\": 914}"
+        },
+        {
+            "component_id": 26,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 126, \"y1\": 930, \"x2\": 206, \"y2\": 981}"
+        },
+        {
+            "component_id": 27,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 14, 2023 8:57:47 PM",
+            "word_sequence": [
+                "Jan",
+                "14",
+                ",",
+                "2023",
+                "8",
+                ":",
+                "57",
+                ":",
+                "47",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 652, \"y1\": 930, \"x2\": 1059, \"y2\": 981}"
+        },
+        {
+            "component_id": 28,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1051, \"x2\": 84, \"y2\": 1114}"
+        },
+        {
+            "component_id": 29,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Movies",
+            "word_sequence": [
+                "Movies"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1026, \"x2\": 277, \"y2\": 1089}"
+        },
+        {
+            "component_id": 30,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1026, \"x2\": 1059, \"y2\": 1073}"
+        },
+        {
+            "component_id": 31,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1089, \"x2\": 206, \"y2\": 1140}"
+        },
+        {
+            "component_id": 32,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 14, 2023 8:57:47 PM",
+            "word_sequence": [
+                "Jan",
+                "14",
+                ",",
+                "2023",
+                "8",
+                ":",
+                "57",
+                ":",
+                "47",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 652, \"y1\": 1089, \"x2\": 1059, \"y2\": 1140}"
+        },
+        {
+            "component_id": 33,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1210, \"x2\": 84, \"y2\": 1273}"
+        },
+        {
+            "component_id": 34,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Music",
+            "word_sequence": [
+                "Music"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1185, \"x2\": 253, \"y2\": 1248}"
+        },
+        {
+            "component_id": 35,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1185, \"x2\": 1059, \"y2\": 1232}"
+        },
+        {
+            "component_id": 36,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1248, \"x2\": 206, \"y2\": 1299}"
+        },
+        {
+            "component_id": 37,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 14, 2023 8:57:47 PM",
+            "word_sequence": [
+                "Jan",
+                "14",
+                ",",
+                "2023",
+                "8",
+                ":",
+                "57",
+                ":",
+                "47",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 652, \"y1\": 1248, \"x2\": 1059, \"y2\": 1299}"
+        },
+        {
+            "component_id": 38,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1369, \"x2\": 84, \"y2\": 1432}"
+        },
+        {
+            "component_id": 39,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Notifications",
+            "word_sequence": [
+                "Notifications"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1344, \"x2\": 393, \"y2\": 1407}"
+        },
+        {
+            "component_id": 40,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1344, \"x2\": 1059, \"y2\": 1391}"
+        },
+        {
+            "component_id": 41,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1407, \"x2\": 206, \"y2\": 1458}"
+        },
+        {
+            "component_id": 42,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 14, 2023 8:57:47 PM",
+            "word_sequence": [
+                "Jan",
+                "14",
+                ",",
+                "2023",
+                "8",
+                ":",
+                "57",
+                ":",
+                "47",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 652, \"y1\": 1407, \"x2\": 1059, \"y2\": 1458}"
+        },
+        {
+            "component_id": 43,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1528, \"x2\": 84, \"y2\": 1591}"
+        },
+        {
+            "component_id": 44,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Pictures",
+            "word_sequence": [
+                "Pictures"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1503, \"x2\": 298, \"y2\": 1566}"
+        },
+        {
+            "component_id": 45,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1503, \"x2\": 1059, \"y2\": 1550}"
+        },
+        {
+            "component_id": 46,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1566, \"x2\": 206, \"y2\": 1617}"
+        },
+        {
+            "component_id": 47,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 14, 2023 8:57:47 PM",
+            "word_sequence": [
+                "Jan",
+                "14",
+                ",",
+                "2023",
+                "8",
+                ":",
+                "57",
+                ":",
+                "47",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 652, \"y1\": 1566, \"x2\": 1059, \"y2\": 1617}"
+        },
+        {
+            "component_id": 48,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1687, \"x2\": 84, \"y2\": 1750}"
+        },
+        {
+            "component_id": 49,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Podcasts",
+            "word_sequence": [
+                "Podcasts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1662, \"x2\": 324, \"y2\": 1725}"
+        },
+        {
+            "component_id": 50,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1662, \"x2\": 1059, \"y2\": 1709}"
+        },
+        {
+            "component_id": 51,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1725, \"x2\": 206, \"y2\": 1776}"
+        },
+        {
+            "component_id": 52,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 14, 2023 8:57:47 PM",
+            "word_sequence": [
+                "Jan",
+                "14",
+                ",",
+                "2023",
+                "8",
+                ":",
+                "57",
+                ":",
+                "47",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 652, \"y1\": 1725, \"x2\": 1059, \"y2\": 1776}"
+        },
+        {
+            "component_id": 53,
+            "resource_id": "io.lerk.lrkFM:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "c7036819e8914c0b9f9b36416e4945b7a1edc516f6670d5acc754fe3109b99a2",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "0de81c6ee546a153a5384b40f229b2d920375f82815897224de98af91a06ae94": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.packageinstaller:id/permission_icon",
+            "text_content": "",
+            "word_sequence": [
+                "permission",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "0de81c6ee546a153a5384b40f229b2d920375f82815897224de98af91a06ae94",
+            "bounding_box": "{\"x1\": 215, \"y1\": 780, \"x2\": 310, \"y2\": 875}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.packageinstaller:id/permission_message",
+            "text_content": "Allow lrkFM to access photos, media, and files on your device?",
+            "word_sequence": [
+                "Allow",
+                "lrkFM",
+                "to",
+                "access",
+                "photos",
+                ",",
+                "media",
+                ",",
+                "and",
+                "files",
+                "on",
+                "your",
+                "device",
+                "?"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0de81c6ee546a153a5384b40f229b2d920375f82815897224de98af91a06ae94",
+            "bounding_box": "{\"x1\": 310, \"y1\": 780, \"x2\": 876, \"y2\": 975}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.packageinstaller:id/permission_deny_button",
+            "text_content": "DENY",
+            "word_sequence": [
+                "DENY"
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "0de81c6ee546a153a5384b40f229b2d920375f82815897224de98af91a06ae94",
+            "bounding_box": "{\"x1\": 523, \"y1\": 986, \"x2\": 691, \"y2\": 1112}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.packageinstaller:id/permission_allow_button",
+            "text_content": "ALLOW",
+            "word_sequence": [
+                "ALLOW"
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "0de81c6ee546a153a5384b40f229b2d920375f82815897224de98af91a06ae94",
+            "bounding_box": "{\"x1\": 691, \"y1\": 986, \"x2\": 876, \"y2\": 1112}"
+        }
+    ],
+    "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Open navigation drawer",
+            "word_sequence": [
+                "Open",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 219, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 21, \"y1\": 213, \"x2\": 84, \"y2\": 276}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "DCIM",
+            "word_sequence": [
+                "DCIM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 126, \"y1\": 210, \"x2\": 242, \"y2\": 251}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 996, \"y1\": 210, \"x2\": 1059, \"y2\": 235}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 126, \"y1\": 251, \"x2\": 206, \"y2\": 302}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jul 10, 2022 2:07:13 PM",
+            "word_sequence": [
+                "Jul",
+                "10",
+                ",",
+                "2022",
+                "2",
+                ":",
+                "07",
+                ":",
+                "13",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 663, \"y1\": 251, \"x2\": 1059, \"y2\": 302}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 21, \"y1\": 372, \"x2\": 84, \"y2\": 435}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Download",
+            "word_sequence": [
+                "Download"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 126, \"y1\": 347, \"x2\": 336, \"y2\": 410}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 996, \"y1\": 347, \"x2\": 1059, \"y2\": 394}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 126, \"y1\": 410, \"x2\": 206, \"y2\": 461}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jul 10, 2022 4:21:37 PM",
+            "word_sequence": [
+                "Jul",
+                "10",
+                ",",
+                "2022",
+                "4",
+                ":",
+                "21",
+                ":",
+                "37",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 663, \"y1\": 410, \"x2\": 1059, \"y2\": 461}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 21, \"y1\": 531, \"x2\": 84, \"y2\": 594}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Movies",
+            "word_sequence": [
+                "Movies"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 126, \"y1\": 506, \"x2\": 277, \"y2\": 569}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 996, \"y1\": 506, \"x2\": 1059, \"y2\": 553}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 126, \"y1\": 569, \"x2\": 206, \"y2\": 620}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jul 10, 2022 2:07:13 PM",
+            "word_sequence": [
+                "Jul",
+                "10",
+                ",",
+                "2022",
+                "2",
+                ":",
+                "07",
+                ":",
+                "13",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 663, \"y1\": 569, \"x2\": 1059, \"y2\": 620}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 21, \"y1\": 690, \"x2\": 84, \"y2\": 753}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Music",
+            "word_sequence": [
+                "Music"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 126, \"y1\": 665, \"x2\": 253, \"y2\": 728}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 996, \"y1\": 665, \"x2\": 1059, \"y2\": 712}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 126, \"y1\": 728, \"x2\": 206, \"y2\": 779}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jul 10, 2022 2:07:13 PM",
+            "word_sequence": [
+                "Jul",
+                "10",
+                ",",
+                "2022",
+                "2",
+                ":",
+                "07",
+                ":",
+                "13",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 663, \"y1\": 728, \"x2\": 1059, \"y2\": 779}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 21, \"y1\": 849, \"x2\": 84, \"y2\": 912}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Notifications",
+            "word_sequence": [
+                "Notifications"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 126, \"y1\": 824, \"x2\": 393, \"y2\": 887}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 996, \"y1\": 824, \"x2\": 1059, \"y2\": 871}"
+        },
+        {
+            "component_id": 26,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 126, \"y1\": 887, \"x2\": 206, \"y2\": 938}"
+        },
+        {
+            "component_id": 27,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jul 10, 2022 2:07:13 PM",
+            "word_sequence": [
+                "Jul",
+                "10",
+                ",",
+                "2022",
+                "2",
+                ":",
+                "07",
+                ":",
+                "13",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 663, \"y1\": 887, \"x2\": 1059, \"y2\": 938}"
+        },
+        {
+            "component_id": 28,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1008, \"x2\": 84, \"y2\": 1071}"
+        },
+        {
+            "component_id": 29,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Pictures",
+            "word_sequence": [
+                "Pictures"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 126, \"y1\": 983, \"x2\": 298, \"y2\": 1046}"
+        },
+        {
+            "component_id": 30,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 996, \"y1\": 983, \"x2\": 1059, \"y2\": 1030}"
+        },
+        {
+            "component_id": 31,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1046, \"x2\": 206, \"y2\": 1097}"
+        },
+        {
+            "component_id": 32,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jul 10, 2022 2:07:13 PM",
+            "word_sequence": [
+                "Jul",
+                "10",
+                ",",
+                "2022",
+                "2",
+                ":",
+                "07",
+                ":",
+                "13",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 663, \"y1\": 1046, \"x2\": 1059, \"y2\": 1097}"
+        },
+        {
+            "component_id": 33,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1167, \"x2\": 84, \"y2\": 1230}"
+        },
+        {
+            "component_id": 34,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Podcasts",
+            "word_sequence": [
+                "Podcasts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1142, \"x2\": 324, \"y2\": 1205}"
+        },
+        {
+            "component_id": 35,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1142, \"x2\": 1059, \"y2\": 1189}"
+        },
+        {
+            "component_id": 36,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1205, \"x2\": 206, \"y2\": 1256}"
+        },
+        {
+            "component_id": 37,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jul 10, 2022 2:07:13 PM",
+            "word_sequence": [
+                "Jul",
+                "10",
+                ",",
+                "2022",
+                "2",
+                ":",
+                "07",
+                ":",
+                "13",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 663, \"y1\": 1205, \"x2\": 1059, \"y2\": 1256}"
+        },
+        {
+            "component_id": 38,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1326, \"x2\": 84, \"y2\": 1389}"
+        },
+        {
+            "component_id": 39,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Ringtones",
+            "word_sequence": [
+                "Ringtones"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1301, \"x2\": 335, \"y2\": 1364}"
+        },
+        {
+            "component_id": 40,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1301, \"x2\": 1059, \"y2\": 1348}"
+        },
+        {
+            "component_id": 41,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1364, \"x2\": 206, \"y2\": 1415}"
+        },
+        {
+            "component_id": 42,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jul 10, 2022 2:07:13 PM",
+            "word_sequence": [
+                "Jul",
+                "10",
+                ",",
+                "2022",
+                "2",
+                ":",
+                "07",
+                ":",
+                "13",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 663, \"y1\": 1364, \"x2\": 1059, \"y2\": 1415}"
+        },
+        {
+            "component_id": 43,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1485, \"x2\": 84, \"y2\": 1548}"
+        },
+        {
+            "component_id": 44,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "fieldBook",
+            "word_sequence": [
+                "fieldBook"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1460, \"x2\": 322, \"y2\": 1523}"
+        },
+        {
+            "component_id": 45,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1460, \"x2\": 1059, \"y2\": 1507}"
+        },
+        {
+            "component_id": 46,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1523, \"x2\": 206, \"y2\": 1574}"
+        },
+        {
+            "component_id": 47,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jul 10, 2022 2:07:36 PM",
+            "word_sequence": [
+                "Jul",
+                "10",
+                ",",
+                "2022",
+                "2",
+                ":",
+                "07",
+                ":",
+                "36",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 663, \"y1\": 1523, \"x2\": 1059, \"y2\": 1574}"
+        },
+        {
+            "component_id": 48,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1644, \"x2\": 84, \"y2\": 1707}"
+        },
+        {
+            "component_id": 49,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "odk",
+            "word_sequence": [
+                "odk"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1619, \"x2\": 204, \"y2\": 1682}"
+        },
+        {
+            "component_id": 50,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1619, \"x2\": 1059, \"y2\": 1666}"
+        },
+        {
+            "component_id": 51,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1682, \"x2\": 206, \"y2\": 1733}"
+        },
+        {
+            "component_id": 52,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Dec 20, 2022 1:14:05 PM",
+            "word_sequence": [
+                "Dec",
+                "20",
+                ",",
+                "2022",
+                "1",
+                ":",
+                "14",
+                ":",
+                "05",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 649, \"y1\": 1682, \"x2\": 1059, \"y2\": 1733}"
+        },
+        {
+            "component_id": 53,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "screen.png",
+            "word_sequence": [
+                "screen",
+                ".",
+                "png"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1778, \"x2\": 357, \"y2\": 1794}"
+        },
+        {
+            "component_id": 54,
+            "resource_id": "io.lerk.lrkFM:id/fileSize",
+            "text_content": "156.2 KiB",
+            "word_sequence": [
+                "156",
+                ".",
+                "2",
+                "KiB"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 838, \"y1\": 1789, \"x2\": 996, \"y2\": 1794}"
+        },
+        {
+            "component_id": 55,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1778, \"x2\": 1059, \"y2\": 1794}"
+        },
+        {
+            "component_id": 56,
+            "resource_id": "io.lerk.lrkFM:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "792d7a817c63b79a58c769ffc6177b6ff7de1feebe1a23e1c4cb3beb07dce935",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Open navigation drawer",
+            "word_sequence": [
+                "Open",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 219, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 21, \"y1\": 253, \"x2\": 84, \"y2\": 316}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Music",
+            "word_sequence": [
+                "Music"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 126, \"y1\": 228, \"x2\": 253, \"y2\": 291}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 996, \"y1\": 228, \"x2\": 1059, \"y2\": 275}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 126, \"y1\": 291, \"x2\": 206, \"y2\": 342}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jul 10, 2022 2:07:13 PM",
+            "word_sequence": [
+                "Jul",
+                "10",
+                ",",
+                "2022",
+                "2",
+                ":",
+                "07",
+                ":",
+                "13",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 663, \"y1\": 291, \"x2\": 1059, \"y2\": 342}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 21, \"y1\": 412, \"x2\": 84, \"y2\": 475}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Notifications",
+            "word_sequence": [
+                "Notifications"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 126, \"y1\": 387, \"x2\": 393, \"y2\": 450}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 996, \"y1\": 387, \"x2\": 1059, \"y2\": 434}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 126, \"y1\": 450, \"x2\": 206, \"y2\": 501}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jul 10, 2022 2:07:13 PM",
+            "word_sequence": [
+                "Jul",
+                "10",
+                ",",
+                "2022",
+                "2",
+                ":",
+                "07",
+                ":",
+                "13",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 663, \"y1\": 450, \"x2\": 1059, \"y2\": 501}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 21, \"y1\": 571, \"x2\": 84, \"y2\": 634}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Pictures",
+            "word_sequence": [
+                "Pictures"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 126, \"y1\": 546, \"x2\": 298, \"y2\": 609}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 996, \"y1\": 546, \"x2\": 1059, \"y2\": 593}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 126, \"y1\": 609, \"x2\": 206, \"y2\": 660}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jul 10, 2022 2:07:13 PM",
+            "word_sequence": [
+                "Jul",
+                "10",
+                ",",
+                "2022",
+                "2",
+                ":",
+                "07",
+                ":",
+                "13",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 663, \"y1\": 609, \"x2\": 1059, \"y2\": 660}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 21, \"y1\": 730, \"x2\": 84, \"y2\": 793}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Podcasts",
+            "word_sequence": [
+                "Podcasts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 126, \"y1\": 705, \"x2\": 324, \"y2\": 768}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 996, \"y1\": 705, \"x2\": 1059, \"y2\": 752}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 126, \"y1\": 768, \"x2\": 206, \"y2\": 819}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jul 10, 2022 2:07:13 PM",
+            "word_sequence": [
+                "Jul",
+                "10",
+                ",",
+                "2022",
+                "2",
+                ":",
+                "07",
+                ":",
+                "13",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 663, \"y1\": 768, \"x2\": 1059, \"y2\": 819}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 21, \"y1\": 889, \"x2\": 84, \"y2\": 952}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "Ringtones",
+            "word_sequence": [
+                "Ringtones"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 126, \"y1\": 864, \"x2\": 335, \"y2\": 927}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 996, \"y1\": 864, \"x2\": 1059, \"y2\": 911}"
+        },
+        {
+            "component_id": 26,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 126, \"y1\": 927, \"x2\": 206, \"y2\": 978}"
+        },
+        {
+            "component_id": 27,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jul 10, 2022 2:07:13 PM",
+            "word_sequence": [
+                "Jul",
+                "10",
+                ",",
+                "2022",
+                "2",
+                ":",
+                "07",
+                ":",
+                "13",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 663, \"y1\": 927, \"x2\": 1059, \"y2\": 978}"
+        },
+        {
+            "component_id": 28,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1048, \"x2\": 84, \"y2\": 1111}"
+        },
+        {
+            "component_id": 29,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "fieldBook",
+            "word_sequence": [
+                "fieldBook"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1023, \"x2\": 322, \"y2\": 1086}"
+        },
+        {
+            "component_id": 30,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1023, \"x2\": 1059, \"y2\": 1070}"
+        },
+        {
+            "component_id": 31,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1086, \"x2\": 206, \"y2\": 1137}"
+        },
+        {
+            "component_id": 32,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jul 10, 2022 2:07:36 PM",
+            "word_sequence": [
+                "Jul",
+                "10",
+                ",",
+                "2022",
+                "2",
+                ":",
+                "07",
+                ":",
+                "36",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 663, \"y1\": 1086, \"x2\": 1059, \"y2\": 1137}"
+        },
+        {
+            "component_id": 33,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1207, \"x2\": 84, \"y2\": 1270}"
+        },
+        {
+            "component_id": 34,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "odk",
+            "word_sequence": [
+                "odk"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1182, \"x2\": 204, \"y2\": 1245}"
+        },
+        {
+            "component_id": 35,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1182, \"x2\": 1059, \"y2\": 1229}"
+        },
+        {
+            "component_id": 36,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1245, \"x2\": 206, \"y2\": 1296}"
+        },
+        {
+            "component_id": 37,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Dec 20, 2022 1:14:05 PM",
+            "word_sequence": [
+                "Dec",
+                "20",
+                ",",
+                "2022",
+                "1",
+                ":",
+                "14",
+                ":",
+                "05",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 649, \"y1\": 1245, \"x2\": 1059, \"y2\": 1296}"
+        },
+        {
+            "component_id": 38,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1366, \"x2\": 84, \"y2\": 1429}"
+        },
+        {
+            "component_id": 39,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "screen.png",
+            "word_sequence": [
+                "screen",
+                ".",
+                "png"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1341, \"x2\": 357, \"y2\": 1404}"
+        },
+        {
+            "component_id": 40,
+            "resource_id": "io.lerk.lrkFM:id/fileSize",
+            "text_content": "156.2 KiB",
+            "word_sequence": [
+                "156",
+                ".",
+                "2",
+                "KiB"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 838, \"y1\": 1352, \"x2\": 996, \"y2\": 1403}"
+        },
+        {
+            "component_id": 41,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1341, \"x2\": 1059, \"y2\": 1388}"
+        },
+        {
+            "component_id": 42,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "-rw-",
+            "word_sequence": [
+                "rw"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1404, \"x2\": 187, \"y2\": 1455}"
+        },
+        {
+            "component_id": 43,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 18, 2023 4:38:12 PM",
+            "word_sequence": [
+                "Jan",
+                "18",
+                ",",
+                "2023",
+                "4",
+                ":",
+                "38",
+                ":",
+                "12",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 652, \"y1\": 1404, \"x2\": 1059, \"y2\": 1455}"
+        },
+        {
+            "component_id": 44,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1525, \"x2\": 84, \"y2\": 1588}"
+        },
+        {
+            "component_id": 45,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "uimonkeyautomator",
+            "word_sequence": [
+                "uimonkeyautomator"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1500, \"x2\": 547, \"y2\": 1563}"
+        },
+        {
+            "component_id": 46,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1500, \"x2\": 1059, \"y2\": 1547}"
+        },
+        {
+            "component_id": 47,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1563, \"x2\": 206, \"y2\": 1614}"
+        },
+        {
+            "component_id": 48,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jul 10, 2022 4:32:41 PM",
+            "word_sequence": [
+                "Jul",
+                "10",
+                ",",
+                "2022",
+                "4",
+                ":",
+                "32",
+                ":",
+                "41",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 663, \"y1\": 1563, \"x2\": 1059, \"y2\": 1614}"
+        },
+        {
+            "component_id": 49,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1684, \"x2\": 84, \"y2\": 1747}"
+        },
+        {
+            "component_id": 50,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "video.mp4",
+            "word_sequence": [
+                "video",
+                ".",
+                "mp4"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1659, \"x2\": 344, \"y2\": 1722}"
+        },
+        {
+            "component_id": 51,
+            "resource_id": "io.lerk.lrkFM:id/fileSize",
+            "text_content": "6.9 MiB",
+            "word_sequence": [
+                "6",
+                ".",
+                "9",
+                "MiB"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 871, \"y1\": 1670, \"x2\": 996, \"y2\": 1721}"
+        },
+        {
+            "component_id": 52,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 996, \"y1\": 1659, \"x2\": 1059, \"y2\": 1706}"
+        },
+        {
+            "component_id": 53,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "-rw-",
+            "word_sequence": [
+                "rw"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1722, \"x2\": 187, \"y2\": 1773}"
+        },
+        {
+            "component_id": 54,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Jan 18, 2023 4:36:55 PM",
+            "word_sequence": [
+                "Jan",
+                "18",
+                ",",
+                "2023",
+                "4",
+                ":",
+                "36",
+                ":",
+                "55",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 652, \"y1\": 1722, \"x2\": 1059, \"y2\": 1773}"
+        },
+        {
+            "component_id": 55,
+            "resource_id": "io.lerk.lrkFM:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "0ab6bd6691b597faef1723890c6bf73f30ec7fadc38e7c8ee573f7287331e524",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "ba6258dfabd0b9cfed3a0ec98a8ff5681febe430ae8ce61b3a50d6de542bc4ad": [
+        {
+            "component_id": 0,
+            "resource_id": "io.lerk.lrkFM:id/title",
+            "text_content": "New Directory",
+            "word_sequence": [
+                "New",
+                "Directory"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "ba6258dfabd0b9cfed3a0ec98a8ff5681febe430ae8ce61b3a50d6de542bc4ad",
+            "bounding_box": "{\"x1\": 597, \"y1\": 107, \"x2\": 1028, \"y2\": 164}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "io.lerk.lrkFM:id/title",
+            "text_content": "Reload",
+            "word_sequence": [
+                "Reload"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "ba6258dfabd0b9cfed3a0ec98a8ff5681febe430ae8ce61b3a50d6de542bc4ad",
+            "bounding_box": "{\"x1\": 597, \"y1\": 233, \"x2\": 1028, \"y2\": 290}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "io.lerk.lrkFM:id/title",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "ba6258dfabd0b9cfed3a0ec98a8ff5681febe430ae8ce61b3a50d6de542bc4ad",
+            "bounding_box": "{\"x1\": 597, \"y1\": 359, \"x2\": 1028, \"y2\": 416}"
+        }
+    ],
+    "d8d0fa8aa182e5e568bc75d79fa9133bbae8d4e22d90bc573f378c0d0ac9b896": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Open navigation drawer",
+            "word_sequence": [
+                "Open",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "d8d0fa8aa182e5e568bc75d79fa9133bbae8d4e22d90bc573f378c0d0ac9b896",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "emulated",
+            "word_sequence": [
+                "emulated"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "d8d0fa8aa182e5e568bc75d79fa9133bbae8d4e22d90bc573f378c0d0ac9b896",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 411, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "d8d0fa8aa182e5e568bc75d79fa9133bbae8d4e22d90bc573f378c0d0ac9b896",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "io.lerk.lrkFM:id/err_text_0",
+            "text_content": "Unable to load files \ud83d\ude12",
+            "word_sequence": [
+                "Unable",
+                "to",
+                "load",
+                "files"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "d8d0fa8aa182e5e568bc75d79fa9133bbae8d4e22d90bc573f378c0d0ac9b896",
+            "bounding_box": "{\"x1\": 305, \"y1\": 806, \"x2\": 775, \"y2\": 869}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "io.lerk.lrkFM:id/err_text_1",
+            "text_content": "If you just granted storage permissions, please reload.",
+            "word_sequence": [
+                "If",
+                "you",
+                "just",
+                "granted",
+                "storage",
+                "permissions",
+                ",",
+                "please",
+                "reload",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "d8d0fa8aa182e5e568bc75d79fa9133bbae8d4e22d90bc573f378c0d0ac9b896",
+            "bounding_box": "{\"x1\": 0, \"y1\": 869, \"x2\": 1080, \"y2\": 987}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "io.lerk.lrkFM:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "d8d0fa8aa182e5e568bc75d79fa9133bbae8d4e22d90bc573f378c0d0ac9b896",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "2e18a1ea384c3f84fa8f44f2cea0bcd8e8579cada093706e9d058c088a8a0ee1": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Close navigation drawer",
+            "word_sequence": [
+                "Close",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "2e18a1ea384c3f84fa8f44f2cea0bcd8e8579cada093706e9d058c088a8a0ee1",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "emulated",
+            "word_sequence": [
+                "emulated"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "2e18a1ea384c3f84fa8f44f2cea0bcd8e8579cada093706e9d058c088a8a0ee1",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 411, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "2e18a1ea384c3f84fa8f44f2cea0bcd8e8579cada093706e9d058c088a8a0ee1",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "io.lerk.lrkFM:id/err_text_0",
+            "text_content": "Unable to load files \ud83d\ude12",
+            "word_sequence": [
+                "Unable",
+                "to",
+                "load",
+                "files"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "2e18a1ea384c3f84fa8f44f2cea0bcd8e8579cada093706e9d058c088a8a0ee1",
+            "bounding_box": "{\"x1\": 305, \"y1\": 806, \"x2\": 775, \"y2\": 869}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "io.lerk.lrkFM:id/err_text_1",
+            "text_content": "If you just granted storage permissions, please reload.",
+            "word_sequence": [
+                "If",
+                "you",
+                "just",
+                "granted",
+                "storage",
+                "permissions",
+                ",",
+                "please",
+                "reload",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "2e18a1ea384c3f84fa8f44f2cea0bcd8e8579cada093706e9d058c088a8a0ee1",
+            "bounding_box": "{\"x1\": 0, \"y1\": 869, \"x2\": 1080, \"y2\": 987}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "io.lerk.lrkFM:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "2e18a1ea384c3f84fa8f44f2cea0bcd8e8579cada093706e9d058c088a8a0ee1",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "io.lerk.lrkFM:id/diskUsage",
+            "text_content": "4831 MiB free",
+            "word_sequence": [
+                "4831",
+                "MiB",
+                "free"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "2e18a1ea384c3f84fa8f44f2cea0bcd8e8579cada093706e9d058c088a8a0ee1",
+            "bounding_box": "{\"x1\": 21, \"y1\": 98, \"x2\": 253, \"y2\": 149}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "io.lerk.lrkFM:id/currentDirectoryTextView",
+            "text_content": "/storage/emulated",
+            "word_sequence": [
+                "/",
+                "storage",
+                "/",
+                "emulated"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "2e18a1ea384c3f84fa8f44f2cea0bcd8e8579cada093706e9d058c088a8a0ee1",
+            "bounding_box": "{\"x1\": 21, \"y1\": 149, \"x2\": 330, \"y2\": 200}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "io.lerk.lrkFM:id/imageView",
+            "text_content": "",
+            "word_sequence": [
+                "image",
+                "View"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "2e18a1ea384c3f84fa8f44f2cea0bcd8e8579cada093706e9d058c088a8a0ee1",
+            "bounding_box": "{\"x1\": 567, \"y1\": 64, \"x2\": 714, \"y2\": 200}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "io.lerk.lrkFM:id/design_menu_item_text",
+            "text_content": "Home",
+            "word_sequence": [
+                "Home"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "2e18a1ea384c3f84fa8f44f2cea0bcd8e8579cada093706e9d058c088a8a0ee1",
+            "bounding_box": "{\"x1\": 42, \"y1\": 232, \"x2\": 693, \"y2\": 358}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "io.lerk.lrkFM:id/design_menu_item_text",
+            "text_content": "Open Path",
+            "word_sequence": [
+                "Open",
+                "Path"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "2e18a1ea384c3f84fa8f44f2cea0bcd8e8579cada093706e9d058c088a8a0ee1",
+            "bounding_box": "{\"x1\": 42, \"y1\": 358, \"x2\": 693, \"y2\": 484}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "io.lerk.lrkFM:id/design_menu_item_text",
+            "text_content": "Add Bookmark",
+            "word_sequence": [
+                "Add",
+                "Bookmark"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "2e18a1ea384c3f84fa8f44f2cea0bcd8e8579cada093706e9d058c088a8a0ee1",
+            "bounding_box": "{\"x1\": 42, \"y1\": 484, \"x2\": 693, \"y2\": 610}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1563,
+            "screen_id": "2e18a1ea384c3f84fa8f44f2cea0bcd8e8579cada093706e9d058c088a8a0ee1",
+            "bounding_box": "{\"x1\": 0, \"y1\": 631, \"x2\": 735, \"y2\": 634}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "",
+            "text_content": "App",
+            "word_sequence": [
+                "App"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "2e18a1ea384c3f84fa8f44f2cea0bcd8e8579cada093706e9d058c088a8a0ee1",
+            "bounding_box": "{\"x1\": 0, \"y1\": 634, \"x2\": 735, \"y2\": 760}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "io.lerk.lrkFM:id/design_menu_item_text",
+            "text_content": "Report Bug",
+            "word_sequence": [
+                "Report",
+                "Bug"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "2e18a1ea384c3f84fa8f44f2cea0bcd8e8579cada093706e9d058c088a8a0ee1",
+            "bounding_box": "{\"x1\": 42, \"y1\": 760, \"x2\": 693, \"y2\": 886}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "io.lerk.lrkFM:id/design_menu_item_text",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "2e18a1ea384c3f84fa8f44f2cea0bcd8e8579cada093706e9d058c088a8a0ee1",
+            "bounding_box": "{\"x1\": 42, \"y1\": 886, \"x2\": 693, \"y2\": 1012}"
+        }
+    ],
+    "cd1751d8073c38fe6f7ce2d8c2c52c136ea271537832ba35eed95d915b46ea4b": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Open navigation drawer",
+            "word_sequence": [
+                "Open",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "cd1751d8073c38fe6f7ce2d8c2c52c136ea271537832ba35eed95d915b46ea4b",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Android",
+            "word_sequence": [
+                "Android"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "cd1751d8073c38fe6f7ce2d8c2c52c136ea271537832ba35eed95d915b46ea4b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 374, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "cd1751d8073c38fe6f7ce2d8c2c52c136ea271537832ba35eed95d915b46ea4b",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "cd1751d8073c38fe6f7ce2d8c2c52c136ea271537832ba35eed95d915b46ea4b",
+            "bounding_box": "{\"x1\": 21, \"y1\": 256, \"x2\": 84, \"y2\": 319}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "data",
+            "word_sequence": [
+                "data"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "cd1751d8073c38fe6f7ce2d8c2c52c136ea271537832ba35eed95d915b46ea4b",
+            "bounding_box": "{\"x1\": 126, \"y1\": 231, \"x2\": 220, \"y2\": 294}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "cd1751d8073c38fe6f7ce2d8c2c52c136ea271537832ba35eed95d915b46ea4b",
+            "bounding_box": "{\"x1\": 996, \"y1\": 231, \"x2\": 1059, \"y2\": 278}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "cd1751d8073c38fe6f7ce2d8c2c52c136ea271537832ba35eed95d915b46ea4b",
+            "bounding_box": "{\"x1\": 126, \"y1\": 294, \"x2\": 206, \"y2\": 345}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Nov 10, 2022 8:06:35 PM",
+            "word_sequence": [
+                "Nov",
+                "10",
+                ",",
+                "2022",
+                "8",
+                ":",
+                "06",
+                ":",
+                "35",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "cd1751d8073c38fe6f7ce2d8c2c52c136ea271537832ba35eed95d915b46ea4b",
+            "bounding_box": "{\"x1\": 647, \"y1\": 294, \"x2\": 1059, \"y2\": 345}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "io.lerk.lrkFM:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "cd1751d8073c38fe6f7ce2d8c2c52c136ea271537832ba35eed95d915b46ea4b",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "90d2ac94c5cceacb34dfe132a546b5ea572543791cc0e8cd040efe772fa9378d": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Close navigation drawer",
+            "word_sequence": [
+                "Close",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "90d2ac94c5cceacb34dfe132a546b5ea572543791cc0e8cd040efe772fa9378d",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Android",
+            "word_sequence": [
+                "Android"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "90d2ac94c5cceacb34dfe132a546b5ea572543791cc0e8cd040efe772fa9378d",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 374, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "90d2ac94c5cceacb34dfe132a546b5ea572543791cc0e8cd040efe772fa9378d",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "io.lerk.lrkFM:id/contextMenuButton",
+            "text_content": "Opens the file operations context menu.",
+            "word_sequence": [
+                "Opens",
+                "the",
+                "file",
+                "operations",
+                "context",
+                "menu",
+                "."
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "90d2ac94c5cceacb34dfe132a546b5ea572543791cc0e8cd040efe772fa9378d",
+            "bounding_box": "{\"x1\": 21, \"y1\": 256, \"x2\": 84, \"y2\": 319}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "io.lerk.lrkFM:id/fileTitle",
+            "text_content": "data",
+            "word_sequence": [
+                "data"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "90d2ac94c5cceacb34dfe132a546b5ea572543791cc0e8cd040efe772fa9378d",
+            "bounding_box": "{\"x1\": 126, \"y1\": 231, \"x2\": 220, \"y2\": 294}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "io.lerk.lrkFM:id/fileIcon",
+            "text_content": "Icon that shows if the element is a file or a directory.",
+            "word_sequence": [
+                "Icon",
+                "that",
+                "shows",
+                "if",
+                "the",
+                "element",
+                "is",
+                "a",
+                "file",
+                "or",
+                "a",
+                "directory",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "90d2ac94c5cceacb34dfe132a546b5ea572543791cc0e8cd040efe772fa9378d",
+            "bounding_box": "{\"x1\": 996, \"y1\": 231, \"x2\": 1059, \"y2\": 278}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "io.lerk.lrkFM:id/filePermissions",
+            "text_content": "drwx",
+            "word_sequence": [
+                "drwx"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "90d2ac94c5cceacb34dfe132a546b5ea572543791cc0e8cd040efe772fa9378d",
+            "bounding_box": "{\"x1\": 126, \"y1\": 294, \"x2\": 206, \"y2\": 345}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "io.lerk.lrkFM:id/fileDate",
+            "text_content": "Nov 10, 2022 8:06:35 PM",
+            "word_sequence": [
+                "Nov",
+                "10",
+                ",",
+                "2022",
+                "8",
+                ":",
+                "06",
+                ":",
+                "35",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "90d2ac94c5cceacb34dfe132a546b5ea572543791cc0e8cd040efe772fa9378d",
+            "bounding_box": "{\"x1\": 647, \"y1\": 294, \"x2\": 1059, \"y2\": 345}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "io.lerk.lrkFM:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "90d2ac94c5cceacb34dfe132a546b5ea572543791cc0e8cd040efe772fa9378d",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "io.lerk.lrkFM:id/diskUsage",
+            "text_content": "4831 MiB free",
+            "word_sequence": [
+                "4831",
+                "MiB",
+                "free"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "90d2ac94c5cceacb34dfe132a546b5ea572543791cc0e8cd040efe772fa9378d",
+            "bounding_box": "{\"x1\": 21, \"y1\": 98, \"x2\": 253, \"y2\": 149}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "io.lerk.lrkFM:id/currentDirectoryTextView",
+            "text_content": "/storage/emulated/0/Android",
+            "word_sequence": [
+                "/",
+                "storage",
+                "/",
+                "emulated",
+                "/",
+                "0",
+                "/",
+                "Android"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "90d2ac94c5cceacb34dfe132a546b5ea572543791cc0e8cd040efe772fa9378d",
+            "bounding_box": "{\"x1\": 21, \"y1\": 149, \"x2\": 510, \"y2\": 200}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "io.lerk.lrkFM:id/imageView",
+            "text_content": "",
+            "word_sequence": [
+                "image",
+                "View"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "90d2ac94c5cceacb34dfe132a546b5ea572543791cc0e8cd040efe772fa9378d",
+            "bounding_box": "{\"x1\": 567, \"y1\": 64, \"x2\": 714, \"y2\": 200}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "io.lerk.lrkFM:id/design_menu_item_text",
+            "text_content": "Home",
+            "word_sequence": [
+                "Home"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "90d2ac94c5cceacb34dfe132a546b5ea572543791cc0e8cd040efe772fa9378d",
+            "bounding_box": "{\"x1\": 42, \"y1\": 232, \"x2\": 693, \"y2\": 358}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "io.lerk.lrkFM:id/design_menu_item_text",
+            "text_content": "Open Path",
+            "word_sequence": [
+                "Open",
+                "Path"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "90d2ac94c5cceacb34dfe132a546b5ea572543791cc0e8cd040efe772fa9378d",
+            "bounding_box": "{\"x1\": 42, \"y1\": 358, \"x2\": 693, \"y2\": 484}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "io.lerk.lrkFM:id/design_menu_item_text",
+            "text_content": "Add Bookmark",
+            "word_sequence": [
+                "Add",
+                "Bookmark"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "90d2ac94c5cceacb34dfe132a546b5ea572543791cc0e8cd040efe772fa9378d",
+            "bounding_box": "{\"x1\": 42, \"y1\": 484, \"x2\": 693, \"y2\": 610}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1563,
+            "screen_id": "90d2ac94c5cceacb34dfe132a546b5ea572543791cc0e8cd040efe772fa9378d",
+            "bounding_box": "{\"x1\": 0, \"y1\": 631, \"x2\": 735, \"y2\": 634}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "",
+            "text_content": "App",
+            "word_sequence": [
+                "App"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "90d2ac94c5cceacb34dfe132a546b5ea572543791cc0e8cd040efe772fa9378d",
+            "bounding_box": "{\"x1\": 0, \"y1\": 634, \"x2\": 735, \"y2\": 760}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "io.lerk.lrkFM:id/design_menu_item_text",
+            "text_content": "Report Bug",
+            "word_sequence": [
+                "Report",
+                "Bug"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "90d2ac94c5cceacb34dfe132a546b5ea572543791cc0e8cd040efe772fa9378d",
+            "bounding_box": "{\"x1\": 42, \"y1\": 760, \"x2\": 693, \"y2\": 886}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "io.lerk.lrkFM:id/design_menu_item_text",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "90d2ac94c5cceacb34dfe132a546b5ea572543791cc0e8cd040efe772fa9378d",
+            "bounding_box": "{\"x1\": 42, \"y1\": 886, \"x2\": 693, \"y2\": 1012}"
+        }
+    ],
+    "33e0853850736fdd694935e7827783e7674450c503e51c4e2813767b9e578614": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1563,
+            "screen_id": "33e0853850736fdd694935e7827783e7674450c503e51c4e2813767b9e578614",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "33e0853850736fdd694935e7827783e7674450c503e51c4e2813767b9e578614",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 385, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "33e0853850736fdd694935e7827783e7674450c503e51c4e2813767b9e578614",
+            "bounding_box": "{\"x1\": 63, \"y1\": 241, \"x2\": 126, \"y2\": 304}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/title",
+            "text_content": "General",
+            "word_sequence": [
+                "General"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "33e0853850736fdd694935e7827783e7674450c503e51c4e2813767b9e578614",
+            "bounding_box": "{\"x1\": 147, \"y1\": 244, \"x2\": 289, \"y2\": 301}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1563,
+            "screen_id": "33e0853850736fdd694935e7827783e7674450c503e51c4e2813767b9e578614",
+            "bounding_box": "{\"x1\": 63, \"y1\": 367, \"x2\": 126, \"y2\": 430}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/title",
+            "text_content": "UI",
+            "word_sequence": [
+                "UI"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1563,
+            "screen_id": "33e0853850736fdd694935e7827783e7674450c503e51c4e2813767b9e578614",
+            "bounding_box": "{\"x1\": 147, \"y1\": 370, \"x2\": 185, \"y2\": 427}"
+        }
+    ]
+}

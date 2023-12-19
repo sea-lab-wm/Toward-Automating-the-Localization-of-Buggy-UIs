@@ -1,0 +1,1768 @@
+{
+    "app-name": 271,
+    "862cfd06f46b23208e05e282a93b0f6fc2c714db0e52f0bac58bbfeb94ef84a1": [
+        {
+            "component_id": 0,
+            "resource_id": "com.beemdevelopment.aegis:id/title",
+            "text_content": "Welcome",
+            "word_sequence": [
+                "Welcome"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "862cfd06f46b23208e05e282a93b0f6fc2c714db0e52f0bac58bbfeb94ef84a1",
+            "bounding_box": "{\"x1\": 0, \"y1\": 126, \"x2\": 1080, \"y2\": 412}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.beemdevelopment.aegis:id/image",
+            "text_content": "graphics",
+            "word_sequence": [
+                "graphics"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "862cfd06f46b23208e05e282a93b0f6fc2c714db0e52f0bac58bbfeb94ef84a1",
+            "bounding_box": "{\"x1\": 0, \"y1\": 412, \"x2\": 1080, \"y2\": 1128}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.beemdevelopment.aegis:id/description",
+            "text_content": "Aegis is a free, secure and open source 2FA app",
+            "word_sequence": [
+                "Aegis",
+                "is",
+                "a",
+                "free",
+                ",",
+                "secure",
+                "and",
+                "open",
+                "source",
+                "2FA",
+                "app"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "862cfd06f46b23208e05e282a93b0f6fc2c714db0e52f0bac58bbfeb94ef84a1",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1128, \"x2\": 1080, \"y2\": 1558}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.beemdevelopment.aegis:id/bottom",
+            "text_content": "",
+            "word_sequence": [
+                "bottom"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 271,
+            "screen_id": "862cfd06f46b23208e05e282a93b0f6fc2c714db0e52f0bac58bbfeb94ef84a1",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1558, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.beemdevelopment.aegis:id/back",
+            "text_content": "BACK",
+            "word_sequence": [
+                "BACK"
+            ],
+            "type": "BUTTON",
+            "app_name": 271,
+            "screen_id": "862cfd06f46b23208e05e282a93b0f6fc2c714db0e52f0bac58bbfeb94ef84a1",
+            "bounding_box": "{\"x1\": 3, \"y1\": 1560, \"x2\": 234, \"y2\": 1791}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "862cfd06f46b23208e05e282a93b0f6fc2c714db0e52f0bac58bbfeb94ef84a1",
+            "bounding_box": "{\"x1\": 460, \"y1\": 1656, \"x2\": 500, \"y2\": 1696}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "862cfd06f46b23208e05e282a93b0f6fc2c714db0e52f0bac58bbfeb94ef84a1",
+            "bounding_box": "{\"x1\": 500, \"y1\": 1656, \"x2\": 540, \"y2\": 1696}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "862cfd06f46b23208e05e282a93b0f6fc2c714db0e52f0bac58bbfeb94ef84a1",
+            "bounding_box": "{\"x1\": 540, \"y1\": 1656, \"x2\": 580, \"y2\": 1696}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "862cfd06f46b23208e05e282a93b0f6fc2c714db0e52f0bac58bbfeb94ef84a1",
+            "bounding_box": "{\"x1\": 580, \"y1\": 1656, \"x2\": 620, \"y2\": 1696}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.beemdevelopment.aegis:id/next",
+            "text_content": "NEXT",
+            "word_sequence": [
+                "NEXT"
+            ],
+            "type": "BUTTON",
+            "app_name": 271,
+            "screen_id": "862cfd06f46b23208e05e282a93b0f6fc2c714db0e52f0bac58bbfeb94ef84a1",
+            "bounding_box": "{\"x1\": 846, \"y1\": 1560, \"x2\": 1077, \"y2\": 1791}"
+        }
+    ],
+    "d3a29f3bc2137bd52546db34f7cc92faf8310d18b4c2ef975a8feac97c9ae91a": [
+        {
+            "component_id": 0,
+            "resource_id": "com.beemdevelopment.aegis:id/textView2",
+            "text_content": "Security",
+            "word_sequence": [
+                "Security"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "d3a29f3bc2137bd52546db34f7cc92faf8310d18b4c2ef975a8feac97c9ae91a",
+            "bounding_box": "{\"x1\": 84, \"y1\": 226, \"x2\": 996, \"y2\": 311}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Aegis is a security-focused 2FA app. Tokens are stored in a vault, that can optionally be encrypted with a password of your choosing. If an attacker obtains your encrypted vault file, they will not be able to access the contents without knowing the password.\n\nWe've preselected the option that we think would fit best for your device.",
+            "word_sequence": [
+                "Aegis",
+                "is",
+                "a",
+                "security",
+                "focused",
+                "2FA",
+                "app",
+                ".",
+                "Tokens",
+                "are",
+                "stored",
+                "in",
+                "a",
+                "vault",
+                ",",
+                "that",
+                "can",
+                "optionally",
+                "be",
+                "encrypted",
+                "with",
+                "a",
+                "password",
+                "of",
+                "your",
+                "choosing",
+                ".",
+                "If",
+                "an",
+                "attacker",
+                "obtains",
+                "your",
+                "encrypted",
+                "vault",
+                "file",
+                ",",
+                "they",
+                "will",
+                "not",
+                "be",
+                "able",
+                "to",
+                "access",
+                "the",
+                "contents",
+                "without",
+                "knowing",
+                "the",
+                "password",
+                ".",
+                "We've",
+                "preselected",
+                "the",
+                "option",
+                "that",
+                "we",
+                "think",
+                "would",
+                "fit",
+                "best",
+                "for",
+                "your",
+                "device",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "d3a29f3bc2137bd52546db34f7cc92faf8310d18b4c2ef975a8feac97c9ae91a",
+            "bounding_box": "{\"x1\": 84, \"y1\": 374, \"x2\": 996, \"y2\": 726}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.beemdevelopment.aegis:id/rb_none",
+            "text_content": "None",
+            "word_sequence": [
+                "None"
+            ],
+            "type": "BUTTON",
+            "app_name": 271,
+            "screen_id": "d3a29f3bc2137bd52546db34f7cc92faf8310d18b4c2ef975a8feac97c9ae91a",
+            "bounding_box": "{\"x1\": 84, \"y1\": 789, \"x2\": 267, \"y2\": 873}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "No password is needed to unlock the vault and it will not be encrypted. This option is not recommended.",
+            "word_sequence": [
+                "No",
+                "password",
+                "is",
+                "needed",
+                "to",
+                "unlock",
+                "the",
+                "vault",
+                "and",
+                "it",
+                "will",
+                "not",
+                "be",
+                "encrypted",
+                ".",
+                "This",
+                "option",
+                "is",
+                "not",
+                "recommended",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "d3a29f3bc2137bd52546db34f7cc92faf8310d18b4c2ef975a8feac97c9ae91a",
+            "bounding_box": "{\"x1\": 168, \"y1\": 860, \"x2\": 996, \"y2\": 997}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.beemdevelopment.aegis:id/rb_password",
+            "text_content": "Password",
+            "word_sequence": [
+                "Password"
+            ],
+            "type": "BUTTON",
+            "app_name": 271,
+            "screen_id": "d3a29f3bc2137bd52546db34f7cc92faf8310d18b4c2ef975a8feac97c9ae91a",
+            "bounding_box": "{\"x1\": 84, \"y1\": 997, \"x2\": 996, \"y2\": 1081}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "A password is needed to unlock the vault.",
+            "word_sequence": [
+                "A",
+                "password",
+                "is",
+                "needed",
+                "to",
+                "unlock",
+                "the",
+                "vault",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "d3a29f3bc2137bd52546db34f7cc92faf8310d18b4c2ef975a8feac97c9ae91a",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1068, \"x2\": 996, \"y2\": 1119}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.beemdevelopment.aegis:id/rb_biometrics",
+            "text_content": "Biometrics",
+            "word_sequence": [
+                "Biometrics"
+            ],
+            "type": "BUTTON",
+            "app_name": 271,
+            "screen_id": "d3a29f3bc2137bd52546db34f7cc92faf8310d18b4c2ef975a8feac97c9ae91a",
+            "bounding_box": "{\"x1\": 84, \"y1\": 1119, \"x2\": 996, \"y2\": 1203}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.beemdevelopment.aegis:id/text_rb_biometrics",
+            "text_content": "In addition to a password, biometrics registered on this device, like a fingerprint or your face, can be used to unlock the vault.",
+            "word_sequence": [
+                "In",
+                "addition",
+                "to",
+                "a",
+                "password",
+                ",",
+                "biometrics",
+                "registered",
+                "on",
+                "this",
+                "device",
+                ",",
+                "like",
+                "a",
+                "fingerprint",
+                "or",
+                "your",
+                "face",
+                ",",
+                "can",
+                "be",
+                "used",
+                "to",
+                "unlock",
+                "the",
+                "vault",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "d3a29f3bc2137bd52546db34f7cc92faf8310d18b4c2ef975a8feac97c9ae91a",
+            "bounding_box": "{\"x1\": 168, \"y1\": 1190, \"x2\": 996, \"y2\": 1327}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.beemdevelopment.aegis:id/bottom",
+            "text_content": "",
+            "word_sequence": [
+                "bottom"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 271,
+            "screen_id": "d3a29f3bc2137bd52546db34f7cc92faf8310d18b4c2ef975a8feac97c9ae91a",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1558, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.beemdevelopment.aegis:id/back",
+            "text_content": "BACK",
+            "word_sequence": [
+                "BACK"
+            ],
+            "type": "BUTTON",
+            "app_name": 271,
+            "screen_id": "d3a29f3bc2137bd52546db34f7cc92faf8310d18b4c2ef975a8feac97c9ae91a",
+            "bounding_box": "{\"x1\": 3, \"y1\": 1560, \"x2\": 234, \"y2\": 1791}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "d3a29f3bc2137bd52546db34f7cc92faf8310d18b4c2ef975a8feac97c9ae91a",
+            "bounding_box": "{\"x1\": 460, \"y1\": 1656, \"x2\": 500, \"y2\": 1696}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "d3a29f3bc2137bd52546db34f7cc92faf8310d18b4c2ef975a8feac97c9ae91a",
+            "bounding_box": "{\"x1\": 500, \"y1\": 1656, \"x2\": 540, \"y2\": 1696}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "d3a29f3bc2137bd52546db34f7cc92faf8310d18b4c2ef975a8feac97c9ae91a",
+            "bounding_box": "{\"x1\": 540, \"y1\": 1656, \"x2\": 580, \"y2\": 1696}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "d3a29f3bc2137bd52546db34f7cc92faf8310d18b4c2ef975a8feac97c9ae91a",
+            "bounding_box": "{\"x1\": 580, \"y1\": 1656, \"x2\": 620, \"y2\": 1696}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "com.beemdevelopment.aegis:id/next",
+            "text_content": "NEXT",
+            "word_sequence": [
+                "NEXT"
+            ],
+            "type": "BUTTON",
+            "app_name": 271,
+            "screen_id": "d3a29f3bc2137bd52546db34f7cc92faf8310d18b4c2ef975a8feac97c9ae91a",
+            "bounding_box": "{\"x1\": 846, \"y1\": 1560, \"x2\": 1077, \"y2\": 1791}"
+        }
+    ],
+    "60d4f4d451977f36bdc7904e155b712b19e67b9d08d5cd218941f6630a1bf054": [
+        {
+            "component_id": 0,
+            "resource_id": "com.beemdevelopment.aegis:id/textView2",
+            "text_content": "Password",
+            "word_sequence": [
+                "Password"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "60d4f4d451977f36bdc7904e155b712b19e67b9d08d5cd218941f6630a1bf054",
+            "bounding_box": "{\"x1\": 84, \"y1\": 147, \"x2\": 996, \"y2\": 232}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Warning: If you forget your password, you will permanently lose access to your tokens. There is no way to recover them without the password.",
+            "word_sequence": [
+                "Warning",
+                ":",
+                "If",
+                "you",
+                "forget",
+                "your",
+                "password",
+                ",",
+                "you",
+                "will",
+                "permanently",
+                "lose",
+                "access",
+                "to",
+                "your",
+                "tokens",
+                ".",
+                "There",
+                "is",
+                "no",
+                "way",
+                "to",
+                "recover",
+                "them",
+                "without",
+                "the",
+                "password",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "60d4f4d451977f36bdc7904e155b712b19e67b9d08d5cd218941f6630a1bf054",
+            "bounding_box": "{\"x1\": 84, \"y1\": 295, \"x2\": 996, \"y2\": 432}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.beemdevelopment.aegis:id/textView4",
+            "text_content": "Please enter a password",
+            "word_sequence": [
+                "Please",
+                "enter",
+                "a",
+                "password"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "60d4f4d451977f36bdc7904e155b712b19e67b9d08d5cd218941f6630a1bf054",
+            "bounding_box": "{\"x1\": 84, \"y1\": 495, \"x2\": 996, \"y2\": 546}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.beemdevelopment.aegis:id/text_password",
+            "text_content": "",
+            "word_sequence": [
+                "text",
+                "password"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 271,
+            "screen_id": "60d4f4d451977f36bdc7904e155b712b19e67b9d08d5cd218941f6630a1bf054",
+            "bounding_box": "{\"x1\": 84, \"y1\": 572, \"x2\": 996, \"y2\": 690}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.beemdevelopment.aegis:id/textView3",
+            "text_content": "Please confirm the password",
+            "word_sequence": [
+                "Please",
+                "confirm",
+                "the",
+                "password"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "60d4f4d451977f36bdc7904e155b712b19e67b9d08d5cd218941f6630a1bf054",
+            "bounding_box": "{\"x1\": 84, \"y1\": 743, \"x2\": 996, \"y2\": 794}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.beemdevelopment.aegis:id/text_password_confirm",
+            "text_content": "",
+            "word_sequence": [
+                "text",
+                "password",
+                "confirm"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 271,
+            "screen_id": "60d4f4d451977f36bdc7904e155b712b19e67b9d08d5cd218941f6630a1bf054",
+            "bounding_box": "{\"x1\": 84, \"y1\": 815, \"x2\": 996, \"y2\": 933}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.beemdevelopment.aegis:id/check_toggle_visibility",
+            "text_content": "Show password",
+            "word_sequence": [
+                "Show",
+                "password"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 271,
+            "screen_id": "60d4f4d451977f36bdc7904e155b712b19e67b9d08d5cd218941f6630a1bf054",
+            "bounding_box": "{\"x1\": 84, \"y1\": 946, \"x2\": 996, \"y2\": 1030}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.beemdevelopment.aegis:id/bottom",
+            "text_content": "",
+            "word_sequence": [
+                "bottom"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 271,
+            "screen_id": "60d4f4d451977f36bdc7904e155b712b19e67b9d08d5cd218941f6630a1bf054",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1558, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.beemdevelopment.aegis:id/back",
+            "text_content": "BACK",
+            "word_sequence": [
+                "BACK"
+            ],
+            "type": "BUTTON",
+            "app_name": 271,
+            "screen_id": "60d4f4d451977f36bdc7904e155b712b19e67b9d08d5cd218941f6630a1bf054",
+            "bounding_box": "{\"x1\": 3, \"y1\": 1560, \"x2\": 234, \"y2\": 1791}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "60d4f4d451977f36bdc7904e155b712b19e67b9d08d5cd218941f6630a1bf054",
+            "bounding_box": "{\"x1\": 460, \"y1\": 1656, \"x2\": 500, \"y2\": 1696}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "60d4f4d451977f36bdc7904e155b712b19e67b9d08d5cd218941f6630a1bf054",
+            "bounding_box": "{\"x1\": 500, \"y1\": 1656, \"x2\": 540, \"y2\": 1696}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "60d4f4d451977f36bdc7904e155b712b19e67b9d08d5cd218941f6630a1bf054",
+            "bounding_box": "{\"x1\": 540, \"y1\": 1656, \"x2\": 580, \"y2\": 1696}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "60d4f4d451977f36bdc7904e155b712b19e67b9d08d5cd218941f6630a1bf054",
+            "bounding_box": "{\"x1\": 580, \"y1\": 1656, \"x2\": 620, \"y2\": 1696}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.beemdevelopment.aegis:id/next",
+            "text_content": "NEXT",
+            "word_sequence": [
+                "NEXT"
+            ],
+            "type": "BUTTON",
+            "app_name": 271,
+            "screen_id": "60d4f4d451977f36bdc7904e155b712b19e67b9d08d5cd218941f6630a1bf054",
+            "bounding_box": "{\"x1\": 846, \"y1\": 1560, \"x2\": 1077, \"y2\": 1791}"
+        }
+    ],
+    "6ba95b41568723040822eae3700e11ed75bbe451f8a591a0d27ebfbe0e3ce218": [
+        {
+            "component_id": 0,
+            "resource_id": "com.beemdevelopment.aegis:id/textView2",
+            "text_content": "Password",
+            "word_sequence": [
+                "Password"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "6ba95b41568723040822eae3700e11ed75bbe451f8a591a0d27ebfbe0e3ce218",
+            "bounding_box": "{\"x1\": 84, \"y1\": 147, \"x2\": 996, \"y2\": 232}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Warning: If you forget your password, you will permanently lose access to your tokens. There is no way to recover them without the password.",
+            "word_sequence": [
+                "Warning",
+                ":",
+                "If",
+                "you",
+                "forget",
+                "your",
+                "password",
+                ",",
+                "you",
+                "will",
+                "permanently",
+                "lose",
+                "access",
+                "to",
+                "your",
+                "tokens",
+                ".",
+                "There",
+                "is",
+                "no",
+                "way",
+                "to",
+                "recover",
+                "them",
+                "without",
+                "the",
+                "password",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "6ba95b41568723040822eae3700e11ed75bbe451f8a591a0d27ebfbe0e3ce218",
+            "bounding_box": "{\"x1\": 84, \"y1\": 295, \"x2\": 996, \"y2\": 432}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.beemdevelopment.aegis:id/textView4",
+            "text_content": "Please enter a password",
+            "word_sequence": [
+                "Please",
+                "enter",
+                "a",
+                "password"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "6ba95b41568723040822eae3700e11ed75bbe451f8a591a0d27ebfbe0e3ce218",
+            "bounding_box": "{\"x1\": 84, \"y1\": 495, \"x2\": 996, \"y2\": 546}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.beemdevelopment.aegis:id/text_password",
+            "text_content": "\u2022\u2022\u2022",
+            "word_sequence": [],
+            "type": "EDITTEXT",
+            "app_name": 271,
+            "screen_id": "6ba95b41568723040822eae3700e11ed75bbe451f8a591a0d27ebfbe0e3ce218",
+            "bounding_box": "{\"x1\": 84, \"y1\": 572, \"x2\": 996, \"y2\": 690}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.beemdevelopment.aegis:id/textView3",
+            "text_content": "Please confirm the password",
+            "word_sequence": [
+                "Please",
+                "confirm",
+                "the",
+                "password"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "6ba95b41568723040822eae3700e11ed75bbe451f8a591a0d27ebfbe0e3ce218",
+            "bounding_box": "{\"x1\": 84, \"y1\": 743, \"x2\": 996, \"y2\": 794}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.beemdevelopment.aegis:id/text_password_confirm",
+            "text_content": "\u2022",
+            "word_sequence": [],
+            "type": "EDITTEXT",
+            "app_name": 271,
+            "screen_id": "6ba95b41568723040822eae3700e11ed75bbe451f8a591a0d27ebfbe0e3ce218",
+            "bounding_box": "{\"x1\": 84, \"y1\": 815, \"x2\": 996, \"y2\": 933}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.beemdevelopment.aegis:id/check_toggle_visibility",
+            "text_content": "Show password",
+            "word_sequence": [
+                "Show",
+                "password"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 271,
+            "screen_id": "6ba95b41568723040822eae3700e11ed75bbe451f8a591a0d27ebfbe0e3ce218",
+            "bounding_box": "{\"x1\": 84, \"y1\": 946, \"x2\": 996, \"y2\": 1030}"
+        }
+    ],
+    "1d883ef600597328db8071de4f2833e03ed2c7bf3f3411be924637ccc97e5c95": [
+        {
+            "component_id": 0,
+            "resource_id": "com.beemdevelopment.aegis:id/title",
+            "text_content": "Setup completed",
+            "word_sequence": [
+                "Setup",
+                "completed"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "1d883ef600597328db8071de4f2833e03ed2c7bf3f3411be924637ccc97e5c95",
+            "bounding_box": "{\"x1\": 0, \"y1\": 126, \"x2\": 1080, \"y2\": 412}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.beemdevelopment.aegis:id/image",
+            "text_content": "graphics",
+            "word_sequence": [
+                "graphics"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "1d883ef600597328db8071de4f2833e03ed2c7bf3f3411be924637ccc97e5c95",
+            "bounding_box": "{\"x1\": 0, \"y1\": 412, \"x2\": 1080, \"y2\": 1128}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.beemdevelopment.aegis:id/description",
+            "text_content": "Aegis has been setup and is ready to go.",
+            "word_sequence": [
+                "Aegis",
+                "has",
+                "been",
+                "setup",
+                "and",
+                "is",
+                "ready",
+                "to",
+                "go",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "1d883ef600597328db8071de4f2833e03ed2c7bf3f3411be924637ccc97e5c95",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1128, \"x2\": 1080, \"y2\": 1558}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.beemdevelopment.aegis:id/bottom",
+            "text_content": "",
+            "word_sequence": [
+                "bottom"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 271,
+            "screen_id": "1d883ef600597328db8071de4f2833e03ed2c7bf3f3411be924637ccc97e5c95",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1558, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "1d883ef600597328db8071de4f2833e03ed2c7bf3f3411be924637ccc97e5c95",
+            "bounding_box": "{\"x1\": 460, \"y1\": 1656, \"x2\": 500, \"y2\": 1696}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "1d883ef600597328db8071de4f2833e03ed2c7bf3f3411be924637ccc97e5c95",
+            "bounding_box": "{\"x1\": 500, \"y1\": 1656, \"x2\": 540, \"y2\": 1696}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "1d883ef600597328db8071de4f2833e03ed2c7bf3f3411be924637ccc97e5c95",
+            "bounding_box": "{\"x1\": 540, \"y1\": 1656, \"x2\": 580, \"y2\": 1696}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "1d883ef600597328db8071de4f2833e03ed2c7bf3f3411be924637ccc97e5c95",
+            "bounding_box": "{\"x1\": 580, \"y1\": 1656, \"x2\": 620, \"y2\": 1696}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.beemdevelopment.aegis:id/done",
+            "text_content": "DONE",
+            "word_sequence": [
+                "DONE"
+            ],
+            "type": "BUTTON",
+            "app_name": 271,
+            "screen_id": "1d883ef600597328db8071de4f2833e03ed2c7bf3f3411be924637ccc97e5c95",
+            "bounding_box": "{\"x1\": 846, \"y1\": 1560, \"x2\": 1077, \"y2\": 1791}"
+        }
+    ],
+    "b591a7003a4fb2dc4e09ba17e3c64f8d614d6bc5695dba2e4a7504eb80399dc0": [
+        {
+            "component_id": 0,
+            "resource_id": "com.beemdevelopment.aegis:id/imageView",
+            "text_content": "",
+            "word_sequence": [
+                "image",
+                "View"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "b591a7003a4fb2dc4e09ba17e3c64f8d614d6bc5695dba2e4a7504eb80399dc0",
+            "bounding_box": "{\"x1\": 474, \"y1\": 595, \"x2\": 605, \"y2\": 726}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.beemdevelopment.aegis:id/textView",
+            "text_content": "No entries found",
+            "word_sequence": [
+                "No",
+                "entries",
+                "found"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "b591a7003a4fb2dc4e09ba17e3c64f8d614d6bc5695dba2e4a7504eb80399dc0",
+            "bounding_box": "{\"x1\": 365, \"y1\": 726, \"x2\": 714, \"y2\": 834}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.beemdevelopment.aegis:id/textView5",
+            "text_content": "There are no codes to be shown. Start adding entries by tapping the plus sign in the bottom right corner",
+            "word_sequence": [
+                "There",
+                "are",
+                "no",
+                "codes",
+                "to",
+                "be",
+                "shown",
+                ".",
+                "Start",
+                "adding",
+                "entries",
+                "by",
+                "tapping",
+                "the",
+                "plus",
+                "sign",
+                "in",
+                "the",
+                "bottom",
+                "right",
+                "corner"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "b591a7003a4fb2dc4e09ba17e3c64f8d614d6bc5695dba2e4a7504eb80399dc0",
+            "bounding_box": "{\"x1\": 146, \"y1\": 834, \"x2\": 934, \"y2\": 1015}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.beemdevelopment.aegis:id/fab_expand_menu_button",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "expand",
+                "menu"
+            ],
+            "type": "BUTTON",
+            "app_name": 271,
+            "screen_id": "b591a7003a4fb2dc4e09ba17e3c64f8d614d6bc5695dba2e4a7504eb80399dc0",
+            "bounding_box": "{\"x1\": 844, \"y1\": 1558, \"x2\": 1038, \"y2\": 1752}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "Aegis",
+            "word_sequence": [
+                "Aegis"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "b591a7003a4fb2dc4e09ba17e3c64f8d614d6bc5695dba2e4a7504eb80399dc0",
+            "bounding_box": "{\"x1\": 42, \"y1\": 101, \"x2\": 176, \"y2\": 172}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.beemdevelopment.aegis:id/search_button",
+            "text_content": "Search",
+            "word_sequence": [
+                "Search"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "b591a7003a4fb2dc4e09ba17e3c64f8d614d6bc5695dba2e4a7504eb80399dc0",
+            "bounding_box": "{\"x1\": 721, \"y1\": 73, \"x2\": 848, \"y2\": 199}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.beemdevelopment.aegis:id/action_sort",
+            "text_content": "Filter",
+            "word_sequence": [
+                "Filter"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "b591a7003a4fb2dc4e09ba17e3c64f8d614d6bc5695dba2e4a7504eb80399dc0",
+            "bounding_box": "{\"x1\": 848, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "b591a7003a4fb2dc4e09ba17e3c64f8d614d6bc5695dba2e4a7504eb80399dc0",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        }
+    ],
+    "3ecd25b6ec8eb5c96a220c1103d1221d564ed2d5aeac36672a5a6899ebeed1dd": [
+        {
+            "component_id": 0,
+            "resource_id": "com.beemdevelopment.aegis:id/imageView",
+            "text_content": "",
+            "word_sequence": [
+                "image",
+                "View"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "3ecd25b6ec8eb5c96a220c1103d1221d564ed2d5aeac36672a5a6899ebeed1dd",
+            "bounding_box": "{\"x1\": 474, \"y1\": 595, \"x2\": 605, \"y2\": 726}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.beemdevelopment.aegis:id/textView",
+            "text_content": "No entries found",
+            "word_sequence": [
+                "No",
+                "entries",
+                "found"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "3ecd25b6ec8eb5c96a220c1103d1221d564ed2d5aeac36672a5a6899ebeed1dd",
+            "bounding_box": "{\"x1\": 365, \"y1\": 726, \"x2\": 714, \"y2\": 834}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.beemdevelopment.aegis:id/textView5",
+            "text_content": "There are no codes to be shown. Start adding entries by tapping the plus sign in the bottom right corner",
+            "word_sequence": [
+                "There",
+                "are",
+                "no",
+                "codes",
+                "to",
+                "be",
+                "shown",
+                ".",
+                "Start",
+                "adding",
+                "entries",
+                "by",
+                "tapping",
+                "the",
+                "plus",
+                "sign",
+                "in",
+                "the",
+                "bottom",
+                "right",
+                "corner"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "3ecd25b6ec8eb5c96a220c1103d1221d564ed2d5aeac36672a5a6899ebeed1dd",
+            "bounding_box": "{\"x1\": 146, \"y1\": 834, \"x2\": 934, \"y2\": 1015}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Scan QR code",
+            "word_sequence": [
+                "Scan",
+                "QR",
+                "code"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "3ecd25b6ec8eb5c96a220c1103d1221d564ed2d5aeac36672a5a6899ebeed1dd",
+            "bounding_box": "{\"x1\": 511, \"y1\": 1104, \"x2\": 823, \"y2\": 1175}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.beemdevelopment.aegis:id/fab_scan",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "scan"
+            ],
+            "type": "BUTTON",
+            "app_name": 271,
+            "screen_id": "3ecd25b6ec8eb5c96a220c1103d1221d564ed2d5aeac36672a5a6899ebeed1dd",
+            "bounding_box": "{\"x1\": 865, \"y1\": 1072, \"x2\": 1017, \"y2\": 1224}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "Scan image",
+            "word_sequence": [
+                "Scan",
+                "image"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "3ecd25b6ec8eb5c96a220c1103d1221d564ed2d5aeac36672a5a6899ebeed1dd",
+            "bounding_box": "{\"x1\": 547, \"y1\": 1266, \"x2\": 823, \"y2\": 1337}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.beemdevelopment.aegis:id/fab_scan_image",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "scan",
+                "image"
+            ],
+            "type": "BUTTON",
+            "app_name": 271,
+            "screen_id": "3ecd25b6ec8eb5c96a220c1103d1221d564ed2d5aeac36672a5a6899ebeed1dd",
+            "bounding_box": "{\"x1\": 865, \"y1\": 1234, \"x2\": 1017, \"y2\": 1386}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "Enter manually",
+            "word_sequence": [
+                "Enter",
+                "manually"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "3ecd25b6ec8eb5c96a220c1103d1221d564ed2d5aeac36672a5a6899ebeed1dd",
+            "bounding_box": "{\"x1\": 496, \"y1\": 1428, \"x2\": 823, \"y2\": 1499}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.beemdevelopment.aegis:id/fab_enter",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "enter"
+            ],
+            "type": "BUTTON",
+            "app_name": 271,
+            "screen_id": "3ecd25b6ec8eb5c96a220c1103d1221d564ed2d5aeac36672a5a6899ebeed1dd",
+            "bounding_box": "{\"x1\": 865, \"y1\": 1396, \"x2\": 1017, \"y2\": 1548}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.beemdevelopment.aegis:id/fab_expand_menu_button",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "expand",
+                "menu"
+            ],
+            "type": "BUTTON",
+            "app_name": 271,
+            "screen_id": "3ecd25b6ec8eb5c96a220c1103d1221d564ed2d5aeac36672a5a6899ebeed1dd",
+            "bounding_box": "{\"x1\": 844, \"y1\": 1558, \"x2\": 1038, \"y2\": 1752}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "Aegis",
+            "word_sequence": [
+                "Aegis"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "3ecd25b6ec8eb5c96a220c1103d1221d564ed2d5aeac36672a5a6899ebeed1dd",
+            "bounding_box": "{\"x1\": 42, \"y1\": 101, \"x2\": 176, \"y2\": 172}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.beemdevelopment.aegis:id/search_button",
+            "text_content": "Search",
+            "word_sequence": [
+                "Search"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "3ecd25b6ec8eb5c96a220c1103d1221d564ed2d5aeac36672a5a6899ebeed1dd",
+            "bounding_box": "{\"x1\": 721, \"y1\": 73, \"x2\": 848, \"y2\": 199}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "com.beemdevelopment.aegis:id/action_sort",
+            "text_content": "Filter",
+            "word_sequence": [
+                "Filter"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "3ecd25b6ec8eb5c96a220c1103d1221d564ed2d5aeac36672a5a6899ebeed1dd",
+            "bounding_box": "{\"x1\": 848, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "3ecd25b6ec8eb5c96a220c1103d1221d564ed2d5aeac36672a5a6899ebeed1dd",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        }
+    ],
+    "af827fad80870fd0d79641827374cb6625d58505637015a394f6938a2604cfef": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 271,
+            "screen_id": "af827fad80870fd0d79641827374cb6625d58505637015a394f6938a2604cfef",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Add new entry",
+            "word_sequence": [
+                "Add",
+                "new",
+                "entry"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "af827fad80870fd0d79641827374cb6625d58505637015a394f6938a2604cfef",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 526, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.beemdevelopment.aegis:id/action_save",
+            "text_content": "SAVE",
+            "word_sequence": [
+                "SAVE"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "af827fad80870fd0d79641827374cb6625d58505637015a394f6938a2604cfef",
+            "bounding_box": "{\"x1\": 820, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "af827fad80870fd0d79641827374cb6625d58505637015a394f6938a2604cfef",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.beemdevelopment.aegis:id/profile_drawable",
+            "text_content": "",
+            "word_sequence": [
+                "profile",
+                "drawable"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "af827fad80870fd0d79641827374cb6625d58505637015a394f6938a2604cfef",
+            "bounding_box": "{\"x1\": 408, \"y1\": 406, \"x2\": 671, \"y2\": 669}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 271,
+            "screen_id": "af827fad80870fd0d79641827374cb6625d58505637015a394f6938a2604cfef",
+            "bounding_box": "{\"x1\": 0, \"y1\": 866, \"x2\": 1080, \"y2\": 869}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "af827fad80870fd0d79641827374cb6625d58505637015a394f6938a2604cfef",
+            "bounding_box": "{\"x1\": 39, \"y1\": 921, \"x2\": 102, \"y2\": 984}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.beemdevelopment.aegis:id/text_name",
+            "text_content": "Name",
+            "word_sequence": [
+                "Name"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 271,
+            "screen_id": "af827fad80870fd0d79641827374cb6625d58505637015a394f6938a2604cfef",
+            "bounding_box": "{\"x1\": 155, \"y1\": 895, \"x2\": 988, \"y2\": 1013}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.beemdevelopment.aegis:id/text_issuer",
+            "text_content": "Issuer",
+            "word_sequence": [
+                "Issuer"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 271,
+            "screen_id": "af827fad80870fd0d79641827374cb6625d58505637015a394f6938a2604cfef",
+            "bounding_box": "{\"x1\": 155, \"y1\": 1039, \"x2\": 571, \"y2\": 1157}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/text1",
+            "text_content": "No group",
+            "word_sequence": [
+                "No",
+                "group"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "af827fad80870fd0d79641827374cb6625d58505637015a394f6938a2604cfef",
+            "bounding_box": "{\"x1\": 581, \"y1\": 1068, \"x2\": 862, \"y2\": 1125}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "af827fad80870fd0d79641827374cb6625d58505637015a394f6938a2604cfef",
+            "bounding_box": "{\"x1\": 39, \"y1\": 1209, \"x2\": 102, \"y2\": 1272}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "android:id/text1",
+            "text_content": "TOTP",
+            "word_sequence": [
+                "TOTP"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "af827fad80870fd0d79641827374cb6625d58505637015a394f6938a2604cfef",
+            "bounding_box": "{\"x1\": 165, \"y1\": 1212, \"x2\": 441, \"y2\": 1269}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "android:id/text1",
+            "text_content": "SHA1",
+            "word_sequence": [
+                "SHA1"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "af827fad80870fd0d79641827374cb6625d58505637015a394f6938a2604cfef",
+            "bounding_box": "{\"x1\": 467, \"y1\": 1212, \"x2\": 744, \"y2\": 1269}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.beemdevelopment.aegis:id/text_digits",
+            "text_content": "6",
+            "word_sequence": [
+                "6"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 271,
+            "screen_id": "af827fad80870fd0d79641827374cb6625d58505637015a394f6938a2604cfef",
+            "bounding_box": "{\"x1\": 760, \"y1\": 1183, \"x2\": 988, \"y2\": 1301}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "af827fad80870fd0d79641827374cb6625d58505637015a394f6938a2604cfef",
+            "bounding_box": "{\"x1\": 39, \"y1\": 1353, \"x2\": 102, \"y2\": 1416}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "com.beemdevelopment.aegis:id/text_period",
+            "text_content": "30",
+            "word_sequence": [
+                "30"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 271,
+            "screen_id": "af827fad80870fd0d79641827374cb6625d58505637015a394f6938a2604cfef",
+            "bounding_box": "{\"x1\": 155, \"y1\": 1327, \"x2\": 572, \"y2\": 1445}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "com.beemdevelopment.aegis:id/text_hint",
+            "text_content": "seconds",
+            "word_sequence": [
+                "seconds"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "af827fad80870fd0d79641827374cb6625d58505637015a394f6938a2604cfef",
+            "bounding_box": "{\"x1\": 368, \"y1\": 1354, \"x2\": 546, \"y2\": 1417}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "af827fad80870fd0d79641827374cb6625d58505637015a394f6938a2604cfef",
+            "bounding_box": "{\"x1\": 39, \"y1\": 1497, \"x2\": 102, \"y2\": 1560}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "com.beemdevelopment.aegis:id/text_secret",
+            "text_content": "Secret",
+            "word_sequence": [
+                "Secret"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 271,
+            "screen_id": "af827fad80870fd0d79641827374cb6625d58505637015a394f6938a2604cfef",
+            "bounding_box": "{\"x1\": 155, \"y1\": 1471, \"x2\": 988, \"y2\": 1597}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "com.beemdevelopment.aegis:id/text_input_end_icon",
+            "text_content": "Show password",
+            "word_sequence": [
+                "Show",
+                "password"
+            ],
+            "type": "BUTTON",
+            "app_name": 271,
+            "screen_id": "af827fad80870fd0d79641827374cb6625d58505637015a394f6938a2604cfef",
+            "bounding_box": "{\"x1\": 862, \"y1\": 1471, \"x2\": 988, \"y2\": 1597}"
+        }
+    ],
+    "07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 271,
+            "screen_id": "07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Add new entry",
+            "word_sequence": [
+                "Add",
+                "new",
+                "entry"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 526, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.beemdevelopment.aegis:id/action_save",
+            "text_content": "SAVE",
+            "word_sequence": [
+                "SAVE"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4",
+            "bounding_box": "{\"x1\": 820, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 271,
+            "screen_id": "07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 326}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 271,
+            "screen_id": "07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4",
+            "bounding_box": "{\"x1\": 0, \"y1\": 326, \"x2\": 1080, \"y2\": 329}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4",
+            "bounding_box": "{\"x1\": 39, \"y1\": 381, \"x2\": 102, \"y2\": 444}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.beemdevelopment.aegis:id/text_name",
+            "text_content": "w",
+            "word_sequence": [
+                "w"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 271,
+            "screen_id": "07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4",
+            "bounding_box": "{\"x1\": 155, \"y1\": 355, \"x2\": 988, \"y2\": 473}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.beemdevelopment.aegis:id/text_issuer",
+            "text_content": "s",
+            "word_sequence": [
+                "s"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 271,
+            "screen_id": "07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4",
+            "bounding_box": "{\"x1\": 155, \"y1\": 499, \"x2\": 571, \"y2\": 617}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/text1",
+            "text_content": "No group",
+            "word_sequence": [
+                "No",
+                "group"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4",
+            "bounding_box": "{\"x1\": 581, \"y1\": 528, \"x2\": 862, \"y2\": 585}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4",
+            "bounding_box": "{\"x1\": 39, \"y1\": 669, \"x2\": 102, \"y2\": 732}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "android:id/text1",
+            "text_content": "TOTP",
+            "word_sequence": [
+                "TOTP"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4",
+            "bounding_box": "{\"x1\": 165, \"y1\": 672, \"x2\": 441, \"y2\": 729}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "android:id/text1",
+            "text_content": "SHA1",
+            "word_sequence": [
+                "SHA1"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4",
+            "bounding_box": "{\"x1\": 467, \"y1\": 672, \"x2\": 744, \"y2\": 729}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.beemdevelopment.aegis:id/text_digits",
+            "text_content": "6",
+            "word_sequence": [
+                "6"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 271,
+            "screen_id": "07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4",
+            "bounding_box": "{\"x1\": 760, \"y1\": 643, \"x2\": 988, \"y2\": 761}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4",
+            "bounding_box": "{\"x1\": 39, \"y1\": 813, \"x2\": 102, \"y2\": 876}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "com.beemdevelopment.aegis:id/text_period",
+            "text_content": "9999",
+            "word_sequence": [
+                "9999"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 271,
+            "screen_id": "07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4",
+            "bounding_box": "{\"x1\": 155, \"y1\": 787, \"x2\": 572, \"y2\": 905}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "com.beemdevelopment.aegis:id/text_hint",
+            "text_content": "seconds",
+            "word_sequence": [
+                "seconds"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4",
+            "bounding_box": "{\"x1\": 368, \"y1\": 814, \"x2\": 546, \"y2\": 877}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4",
+            "bounding_box": "{\"x1\": 39, \"y1\": 957, \"x2\": 102, \"y2\": 1020}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "com.beemdevelopment.aegis:id/text_secret",
+            "text_content": "k5mgx",
+            "word_sequence": [
+                "k5mgx"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 271,
+            "screen_id": "07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4",
+            "bounding_box": "{\"x1\": 155, \"y1\": 931, \"x2\": 988, \"y2\": 1053}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "com.beemdevelopment.aegis:id/text_input_end_icon",
+            "text_content": "Show password",
+            "word_sequence": [
+                "Show",
+                "password"
+            ],
+            "type": "BUTTON",
+            "app_name": 271,
+            "screen_id": "07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4",
+            "bounding_box": "{\"x1\": 862, \"y1\": 931, \"x2\": 988, \"y2\": 1053}"
+        }
+    ],
+    "c4f2e3c4a1feef9623133c92e53b1c9ab623788e484d75bd332e821cdaf438d7": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Apps list",
+            "word_sequence": [
+                "Apps",
+                "list"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 271,
+            "screen_id": "c4f2e3c4a1feef9623133c92e53b1c9ab623788e484d75bd332e821cdaf438d7",
+            "bounding_box": "{\"x1\": 508, \"y1\": 1319, \"x2\": 571, \"y2\": 1382}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/clock",
+            "text_content": "Friday, Mar 17 Friday, Mar 17",
+            "word_sequence": [
+                "Friday",
+                ",",
+                "Mar",
+                "17"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "c4f2e3c4a1feef9623133c92e53b1c9ab623788e484d75bd332e821cdaf438d7",
+            "bounding_box": "{\"x1\": 311, \"y1\": 84, \"x2\": 768, \"y2\": 337}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/page_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "page",
+                "indicator"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 271,
+            "screen_id": "c4f2e3c4a1feef9623133c92e53b1c9ab623788e484d75bd332e821cdaf438d7",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1319, \"x2\": 1080, \"y2\": 1382}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Messages Messages",
+            "word_sequence": [
+                "Messages"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "c4f2e3c4a1feef9623133c92e53b1c9ab623788e484d75bd332e821cdaf438d7",
+            "bounding_box": "{\"x1\": 237, \"y1\": 1382, \"x2\": 439, \"y2\": 1592}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "Play Store Play Store, has 2 notifications",
+            "word_sequence": [
+                "Play",
+                "Store"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "c4f2e3c4a1feef9623133c92e53b1c9ab623788e484d75bd332e821cdaf438d7",
+            "bounding_box": "{\"x1\": 439, \"y1\": 1382, \"x2\": 641, \"y2\": 1592}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "Chrome Chrome",
+            "word_sequence": [
+                "Chrome"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 271,
+            "screen_id": "c4f2e3c4a1feef9623133c92e53b1c9ab623788e484d75bd332e821cdaf438d7",
+            "bounding_box": "{\"x1\": 641, \"y1\": 1382, \"x2\": 843, \"y2\": 1592}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/all_apps_header",
+            "text_content": "",
+            "word_sequence": [
+                "all",
+                "apps",
+                "header"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 271,
+            "screen_id": "c4f2e3c4a1feef9623133c92e53b1c9ab623788e484d75bd332e821cdaf438d7",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1718, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/g_icon",
+            "text_content": "",
+            "word_sequence": [
+                "g",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 271,
+            "screen_id": "c4f2e3c4a1feef9623133c92e53b1c9ab623788e484d75bd332e821cdaf438d7",
+            "bounding_box": "{\"x1\": 104, \"y1\": 1692, \"x2\": 167, \"y2\": 1755}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/mic_icon",
+            "text_content": "Voice search",
+            "word_sequence": [
+                "Voice",
+                "search"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 271,
+            "screen_id": "c4f2e3c4a1feef9623133c92e53b1c9ab623788e484d75bd332e821cdaf438d7",
+            "bounding_box": "{\"x1\": 864, \"y1\": 1650, \"x2\": 1011, \"y2\": 1794}"
+        }
+    ]
+}

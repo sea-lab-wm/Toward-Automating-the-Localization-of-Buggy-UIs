@@ -1,0 +1,2485 @@
+{
+    "app-name": 162,
+    "71616b42683c19cd4f29cd20f74ce656b7dbc1f37bfbaa9657cd15c4524faa7f": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/home",
+            "text_content": "",
+            "word_sequence": [
+                "home"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "71616b42683c19cd4f29cd20f74ce656b7dbc1f37bfbaa9657cd15c4524faa7f",
+            "bounding_box": "{\"x1\": 32, \"y1\": 84, \"x2\": 116, \"y2\": 168}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/action_bar_title",
+            "text_content": "Welcome to K-9 Mail",
+            "word_sequence": [
+                "Welcome",
+                "to",
+                "K",
+                "9",
+                "Mail"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "71616b42683c19cd4f29cd20f74ce656b7dbc1f37bfbaa9657cd15c4524faa7f",
+            "bounding_box": "{\"x1\": 127, \"y1\": 94, \"x2\": 556, \"y2\": 157}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.fsck.k9:id/welcome_message",
+            "text_content": "K-9 Mail is a powerful free email client for Android. \n\nIts improved features include: \n\n\t\u2022  Push mail using IMAP IDLE\r\n\t\u2022  Better performance\r\n\t\u2022  Message refiling\r\n\t\u2022  Email signatures\r\n\t\u2022  Bcc-to-self\r\n\t\u2022  Folder subscriptions\r\n\t\u2022  All folder synchronization\r\n\t\u2022  Return-address configuration\r\n\t\u2022  Keyboard shortcuts\r\n\t\u2022  Better IMAP support\r\n\t\u2022  Saving attachments to SD\r\n\t\u2022  Empty Trash\r\n\t\u2022  Message sorting\r\n\t\u2022  \u2026and more\r\n\r\n\nPlease note that K-9 does not support most free Hotmail accounts and, like many mail clients, has some quirks when talking to Microsoft Exchange. \n\nPlease submit bug reports, contribute new features and ask questions at https://github.com/k9mail/k-9/. \n\n",
+            "word_sequence": [
+                "K",
+                "9",
+                "Mail",
+                "is",
+                "a",
+                "powerful",
+                "free",
+                "email",
+                "client",
+                "for",
+                "Android",
+                ".",
+                "Its",
+                "improved",
+                "features",
+                "include",
+                ":",
+                "Push",
+                "mail",
+                "using",
+                "IMAP",
+                "IDLE",
+                "Better",
+                "performance",
+                "Message",
+                "refiling",
+                "Email",
+                "signatures",
+                "Bcc",
+                "to",
+                "self",
+                "Folder",
+                "subscriptions",
+                "All",
+                "folder",
+                "synchronization",
+                "Return",
+                "address",
+                "configuration",
+                "Keyboard",
+                "shortcuts",
+                "Better",
+                "IMAP",
+                "support",
+                "Saving",
+                "attachments",
+                "to",
+                "SD",
+                "Empty",
+                "Trash",
+                "Message",
+                "sorting",
+                "and",
+                "more",
+                "Please",
+                "note",
+                "that",
+                "K",
+                "9",
+                "does",
+                "not",
+                "support",
+                "most",
+                "free",
+                "Hotmail",
+                "accounts",
+                "and",
+                ",",
+                "like",
+                "many",
+                "mail",
+                "clients",
+                ",",
+                "has",
+                "some",
+                "quirks",
+                "when",
+                "talking",
+                "to",
+                "Microsoft",
+                "Exchange",
+                ".",
+                "Please",
+                "submit",
+                "bug",
+                "reports",
+                ",",
+                "contribute",
+                "new",
+                "features",
+                "and",
+                "ask",
+                "questions",
+                "at",
+                "https",
+                ":",
+                "/",
+                "/",
+                "github",
+                ".",
+                "com",
+                "/",
+                "k9mail",
+                "/",
+                "k",
+                "9",
+                "/",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "71616b42683c19cd4f29cd20f74ce656b7dbc1f37bfbaa9657cd15c4524faa7f",
+            "bounding_box": "{\"x1\": 0, \"y1\": 189, \"x2\": 1080, \"y2\": 1443}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.fsck.k9:id/divider",
+            "text_content": "",
+            "word_sequence": [
+                "divider"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "71616b42683c19cd4f29cd20f74ce656b7dbc1f37bfbaa9657cd15c4524faa7f",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1665, \"x2\": 1080, \"y2\": 1668}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.fsck.k9:id/import_settings",
+            "text_content": "Import settings",
+            "word_sequence": [
+                "Import",
+                "settings"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "71616b42683c19cd4f29cd20f74ce656b7dbc1f37bfbaa9657cd15c4524faa7f",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1668, \"x2\": 539, \"y2\": 1794}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.fsck.k9:id/next",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "71616b42683c19cd4f29cd20f74ce656b7dbc1f37bfbaa9657cd15c4524faa7f",
+            "bounding_box": "{\"x1\": 541, \"y1\": 1668, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "22d8aeb2beb7f50ba88b5aa458d86aa39e1d21c662256fa943767f61f62874f6": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/home",
+            "text_content": "",
+            "word_sequence": [
+                "home"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "22d8aeb2beb7f50ba88b5aa458d86aa39e1d21c662256fa943767f61f62874f6",
+            "bounding_box": "{\"x1\": 32, \"y1\": 84, \"x2\": 116, \"y2\": 168}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/action_bar_title",
+            "text_content": "Set up a new account",
+            "word_sequence": [
+                "Set",
+                "up",
+                "a",
+                "new",
+                "account"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "22d8aeb2beb7f50ba88b5aa458d86aa39e1d21c662256fa943767f61f62874f6",
+            "bounding_box": "{\"x1\": 127, \"y1\": 94, \"x2\": 577, \"y2\": 157}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.fsck.k9:id/account_email",
+            "text_content": "Email address",
+            "word_sequence": [
+                "Email",
+                "address"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 162,
+            "screen_id": "22d8aeb2beb7f50ba88b5aa458d86aa39e1d21c662256fa943767f61f62874f6",
+            "bounding_box": "{\"x1\": 16, \"y1\": 678, \"x2\": 1038, \"y2\": 780}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.fsck.k9:id/account_password",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "password"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 162,
+            "screen_id": "22d8aeb2beb7f50ba88b5aa458d86aa39e1d21c662256fa943767f61f62874f6",
+            "bounding_box": "{\"x1\": 16, \"y1\": 780, \"x2\": 1038, \"y2\": 882}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.fsck.k9:id/show_password",
+            "text_content": "Show password",
+            "word_sequence": [
+                "Show",
+                "password"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 162,
+            "screen_id": "22d8aeb2beb7f50ba88b5aa458d86aa39e1d21c662256fa943767f61f62874f6",
+            "bounding_box": "{\"x1\": 16, \"y1\": 882, \"x2\": 1038, \"y2\": 966}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.fsck.k9:id/foldableIcon",
+            "text_content": "",
+            "word_sequence": [
+                "foldable",
+                "Icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "22d8aeb2beb7f50ba88b5aa458d86aa39e1d21c662256fa943767f61f62874f6",
+            "bounding_box": "{\"x1\": 16, \"y1\": 1008, \"x2\": 100, \"y2\": 1092}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.fsck.k9:id/foldableText",
+            "text_content": "Advanced options",
+            "word_sequence": [
+                "Advanced",
+                "options"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "22d8aeb2beb7f50ba88b5aa458d86aa39e1d21c662256fa943767f61f62874f6",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1024, \"x2\": 421, \"y2\": 1075}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.fsck.k9:id/divider",
+            "text_content": "",
+            "word_sequence": [
+                "divider"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "22d8aeb2beb7f50ba88b5aa458d86aa39e1d21c662256fa943767f61f62874f6",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1665, \"x2\": 1080, \"y2\": 1668}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.fsck.k9:id/manual_setup",
+            "text_content": "Manual setup",
+            "word_sequence": [
+                "Manual",
+                "setup"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "22d8aeb2beb7f50ba88b5aa458d86aa39e1d21c662256fa943767f61f62874f6",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1668, \"x2\": 539, \"y2\": 1794}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.fsck.k9:id/next",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "22d8aeb2beb7f50ba88b5aa458d86aa39e1d21c662256fa943767f61f62874f6",
+            "bounding_box": "{\"x1\": 541, \"y1\": 1668, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "3021e0808fd07caae95f6b2a1622f3d7fa457f999d434c484b3e359c304f4c41": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/home",
+            "text_content": "",
+            "word_sequence": [
+                "home"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "3021e0808fd07caae95f6b2a1622f3d7fa457f999d434c484b3e359c304f4c41",
+            "bounding_box": "{\"x1\": 32, \"y1\": 84, \"x2\": 116, \"y2\": 168}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/action_bar_title",
+            "text_content": "Set up a new account",
+            "word_sequence": [
+                "Set",
+                "up",
+                "a",
+                "new",
+                "account"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "3021e0808fd07caae95f6b2a1622f3d7fa457f999d434c484b3e359c304f4c41",
+            "bounding_box": "{\"x1\": 127, \"y1\": 94, \"x2\": 577, \"y2\": 157}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.fsck.k9:id/account_email",
+            "text_content": "TestTest Test",
+            "word_sequence": [
+                "TestTest",
+                "Test"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 162,
+            "screen_id": "3021e0808fd07caae95f6b2a1622f3d7fa457f999d434c484b3e359c304f4c41",
+            "bounding_box": "{\"x1\": 16, \"y1\": 678, \"x2\": 1038, \"y2\": 780}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.fsck.k9:id/account_password",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "password"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 162,
+            "screen_id": "3021e0808fd07caae95f6b2a1622f3d7fa457f999d434c484b3e359c304f4c41",
+            "bounding_box": "{\"x1\": 16, \"y1\": 780, \"x2\": 1038, \"y2\": 882}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.fsck.k9:id/show_password",
+            "text_content": "Show password",
+            "word_sequence": [
+                "Show",
+                "password"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 162,
+            "screen_id": "3021e0808fd07caae95f6b2a1622f3d7fa457f999d434c484b3e359c304f4c41",
+            "bounding_box": "{\"x1\": 16, \"y1\": 882, \"x2\": 1038, \"y2\": 966}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.fsck.k9:id/foldableIcon",
+            "text_content": "",
+            "word_sequence": [
+                "foldable",
+                "Icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "3021e0808fd07caae95f6b2a1622f3d7fa457f999d434c484b3e359c304f4c41",
+            "bounding_box": "{\"x1\": 16, \"y1\": 1008, \"x2\": 100, \"y2\": 1092}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.fsck.k9:id/foldableText",
+            "text_content": "Advanced options",
+            "word_sequence": [
+                "Advanced",
+                "options"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "3021e0808fd07caae95f6b2a1622f3d7fa457f999d434c484b3e359c304f4c41",
+            "bounding_box": "{\"x1\": 126, \"y1\": 1024, \"x2\": 421, \"y2\": 1075}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.fsck.k9:id/account_client_certificate",
+            "text_content": "Use client certificate",
+            "word_sequence": [
+                "Use",
+                "client",
+                "certificate"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 162,
+            "screen_id": "3021e0808fd07caae95f6b2a1622f3d7fa457f999d434c484b3e359c304f4c41",
+            "bounding_box": "{\"x1\": 16, \"y1\": 1092, \"x2\": 1038, \"y2\": 1176}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.fsck.k9:id/divider",
+            "text_content": "",
+            "word_sequence": [
+                "divider"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "3021e0808fd07caae95f6b2a1622f3d7fa457f999d434c484b3e359c304f4c41",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1665, \"x2\": 1080, \"y2\": 1668}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.fsck.k9:id/manual_setup",
+            "text_content": "Manual setup",
+            "word_sequence": [
+                "Manual",
+                "setup"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "3021e0808fd07caae95f6b2a1622f3d7fa457f999d434c484b3e359c304f4c41",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1668, \"x2\": 539, \"y2\": 1794}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.fsck.k9:id/next",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "3021e0808fd07caae95f6b2a1622f3d7fa457f999d434c484b3e359c304f4c41",
+            "bounding_box": "{\"x1\": 541, \"y1\": 1668, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "c19be8ed98dd032ae654f19c963042fb4f6f471e26da55a1d41a953ead584db4": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "Attention",
+            "word_sequence": [
+                "Attention"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "c19be8ed98dd032ae654f19c963042fb4f6f471e26da55a1d41a953ead584db4",
+            "bounding_box": "{\"x1\": 132, \"y1\": 741, \"x2\": 948, \"y2\": 812}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/message",
+            "text_content": "You need to set a lock screen PIN or password before you can use credential storage.",
+            "word_sequence": [
+                "You",
+                "need",
+                "to",
+                "set",
+                "a",
+                "lock",
+                "screen",
+                "PIN",
+                "or",
+                "password",
+                "before",
+                "you",
+                "can",
+                "use",
+                "credential",
+                "storage",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "c19be8ed98dd032ae654f19c963042fb4f6f471e26da55a1d41a953ead584db4",
+            "bounding_box": "{\"x1\": 69, \"y1\": 859, \"x2\": 1011, \"y2\": 1014}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/button2",
+            "text_content": "Cancel",
+            "word_sequence": [
+                "Cancel"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "c19be8ed98dd032ae654f19c963042fb4f6f471e26da55a1d41a953ead584db4",
+            "bounding_box": "{\"x1\": 609, \"y1\": 1025, \"x2\": 811, \"y2\": 1151}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/button1",
+            "text_content": "OK",
+            "word_sequence": [
+                "OK"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "c19be8ed98dd032ae654f19c963042fb4f6f471e26da55a1d41a953ead584db4",
+            "bounding_box": "{\"x1\": 811, \"y1\": 1025, \"x2\": 979, \"y2\": 1151}"
+        }
+    ],
+    "336d7d7259ee371135e8baa7c9dd9fdf4695d7f5d2566f7bd9d9d44a1b91bfc9": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Unlock selection",
+            "word_sequence": [
+                "Unlock",
+                "selection"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "336d7d7259ee371135e8baa7c9dd9fdf4695d7f5d2566f7bd9d9d44a1b91bfc9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 101, \"x2\": 435, \"y2\": 172}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/title",
+            "text_content": "None",
+            "word_sequence": [
+                "None"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "336d7d7259ee371135e8baa7c9dd9fdf4695d7f5d2566f7bd9d9d44a1b91bfc9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 252, \"x2\": 141, \"y2\": 309}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/summary",
+            "text_content": "Current screen lock",
+            "word_sequence": [
+                "Current",
+                "screen",
+                "lock"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "336d7d7259ee371135e8baa7c9dd9fdf4695d7f5d2566f7bd9d9d44a1b91bfc9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 309, \"x2\": 361, \"y2\": 360}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/title",
+            "text_content": "Swipe",
+            "word_sequence": [
+                "Swipe"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "336d7d7259ee371135e8baa7c9dd9fdf4695d7f5d2566f7bd9d9d44a1b91bfc9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 447, \"x2\": 155, \"y2\": 504}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/summary",
+            "text_content": "Disabled by administrator, encryption policy, or credential storage",
+            "word_sequence": [
+                "Disabled",
+                "by",
+                "administrator",
+                ",",
+                "encryption",
+                "policy",
+                ",",
+                "or",
+                "credential",
+                "storage"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "336d7d7259ee371135e8baa7c9dd9fdf4695d7f5d2566f7bd9d9d44a1b91bfc9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 504, \"x2\": 1038, \"y2\": 598}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/title",
+            "text_content": "Pattern",
+            "word_sequence": [
+                "Pattern"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "336d7d7259ee371135e8baa7c9dd9fdf4695d7f5d2566f7bd9d9d44a1b91bfc9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 685, \"x2\": 179, \"y2\": 742}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/title",
+            "text_content": "PIN",
+            "word_sequence": [
+                "PIN"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "336d7d7259ee371135e8baa7c9dd9fdf4695d7f5d2566f7bd9d9d44a1b91bfc9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 829, \"x2\": 110, \"y2\": 886}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/title",
+            "text_content": "Password",
+            "word_sequence": [
+                "Password"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "336d7d7259ee371135e8baa7c9dd9fdf4695d7f5d2566f7bd9d9d44a1b91bfc9",
+            "bounding_box": "{\"x1\": 42, \"y1\": 973, \"x2\": 230, \"y2\": 1030}"
+        }
+    ],
+    "8bde1d76c998bad4912d601a71e2af8d6f4747de0d02972f92fb0c8742853c97": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Secure start-up",
+            "word_sequence": [
+                "Secure",
+                "start",
+                "up"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "8bde1d76c998bad4912d601a71e2af8d6f4747de0d02972f92fb0c8742853c97",
+            "bounding_box": "{\"x1\": 42, \"y1\": 101, \"x2\": 407, \"y2\": 172}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.settings:id/encryption_message",
+            "text_content": "You can further protect this device by requiring your password before it starts up. Until the device starts up, it can\u2019t receive calls, messages, or notifications, including alarms. \n\nThis helps protect data on lost or stolen devices.",
+            "word_sequence": [
+                "You",
+                "can",
+                "further",
+                "protect",
+                "this",
+                "device",
+                "by",
+                "requiring",
+                "your",
+                "password",
+                "before",
+                "it",
+                "starts",
+                "up",
+                ".",
+                "Until",
+                "the",
+                "device",
+                "starts",
+                "up",
+                ",",
+                "it",
+                "can",
+                "t",
+                "receive",
+                "calls",
+                ",",
+                "messages",
+                ",",
+                "or",
+                "notifications",
+                ",",
+                "including",
+                "alarms",
+                ".",
+                "This",
+                "helps",
+                "protect",
+                "data",
+                "on",
+                "lost",
+                "or",
+                "stolen",
+                "devices",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "8bde1d76c998bad4912d601a71e2af8d6f4747de0d02972f92fb0c8742853c97",
+            "bounding_box": "{\"x1\": 42, \"y1\": 252, \"x2\": 1038, \"y2\": 645}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.settings:id/encrypt_require_password",
+            "text_content": "Require password to start device",
+            "word_sequence": [
+                "Require",
+                "password",
+                "to",
+                "start",
+                "device"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "8bde1d76c998bad4912d601a71e2af8d6f4747de0d02972f92fb0c8742853c97",
+            "bounding_box": "{\"x1\": 42, \"y1\": 729, \"x2\": 667, \"y2\": 813}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.settings:id/encrypt_dont_require_password",
+            "text_content": "No thanks",
+            "word_sequence": [
+                "No",
+                "thanks"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "8bde1d76c998bad4912d601a71e2af8d6f4747de0d02972f92fb0c8742853c97",
+            "bounding_box": "{\"x1\": 42, \"y1\": 855, \"x2\": 292, \"y2\": 939}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.settings:id/next_button",
+            "text_content": "Continue",
+            "word_sequence": [
+                "Continue"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "8bde1d76c998bad4912d601a71e2af8d6f4747de0d02972f92fb0c8742853c97",
+            "bounding_box": "{\"x1\": 673, \"y1\": 1655, \"x2\": 1067, \"y2\": 1781}"
+        }
+    ],
+    "7014640327a463fbbf09c1b430bb5491367aa10e4bf1bd43199b263e05866b85": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Choose your password",
+            "word_sequence": [
+                "Choose",
+                "your",
+                "password"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "7014640327a463fbbf09c1b430bb5491367aa10e4bf1bd43199b263e05866b85",
+            "bounding_box": "{\"x1\": 42, \"y1\": 101, \"x2\": 582, \"y2\": 172}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.settings:id/headerText",
+            "text_content": "Password must be at least 4 characters",
+            "word_sequence": [
+                "Password",
+                "must",
+                "be",
+                "at",
+                "least",
+                "4",
+                "characters"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "7014640327a463fbbf09c1b430bb5491367aa10e4bf1bd43199b263e05866b85",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 328}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.settings:id/password_entry",
+            "text_content": "",
+            "word_sequence": [
+                "password",
+                "entry"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 162,
+            "screen_id": "7014640327a463fbbf09c1b430bb5491367aa10e4bf1bd43199b263e05866b85",
+            "bounding_box": "{\"x1\": 79, \"y1\": 328, \"x2\": 1001, \"y2\": 468}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "7014640327a463fbbf09c1b430bb5491367aa10e4bf1bd43199b263e05866b85",
+            "bounding_box": "{\"x1\": 0, \"y1\": 468, \"x2\": 1080, \"y2\": 1646}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.settings:id/cancel_button",
+            "text_content": "Cancel",
+            "word_sequence": [
+                "Cancel"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "7014640327a463fbbf09c1b430bb5491367aa10e4bf1bd43199b263e05866b85",
+            "bounding_box": "{\"x1\": 11, \"y1\": 1657, \"x2\": 538, \"y2\": 1783}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.android.settings:id/next_button",
+            "text_content": "Continue",
+            "word_sequence": [
+                "Continue"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "7014640327a463fbbf09c1b430bb5491367aa10e4bf1bd43199b263e05866b85",
+            "bounding_box": "{\"x1\": 541, \"y1\": 1657, \"x2\": 1069, \"y2\": 1783}"
+        }
+    ],
+    "a64ea9623a021f428b644075fa99211263ca7360fbd09f055e5874485779d9ce": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/home",
+            "text_content": "",
+            "word_sequence": [
+                "home"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "a64ea9623a021f428b644075fa99211263ca7360fbd09f055e5874485779d9ce",
+            "bounding_box": "{\"x1\": 32, \"y1\": 84, \"x2\": 116, \"y2\": 168}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/action_bar_title",
+            "text_content": "Set up a new account",
+            "word_sequence": [
+                "Set",
+                "up",
+                "a",
+                "new",
+                "account"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "a64ea9623a021f428b644075fa99211263ca7360fbd09f055e5874485779d9ce",
+            "bounding_box": "{\"x1\": 127, \"y1\": 94, \"x2\": 577, \"y2\": 157}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.fsck.k9:id/account_email",
+            "text_content": "TestTest Test",
+            "word_sequence": [
+                "TestTest",
+                "Test"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 162,
+            "screen_id": "a64ea9623a021f428b644075fa99211263ca7360fbd09f055e5874485779d9ce",
+            "bounding_box": "{\"x1\": 16, \"y1\": 708, \"x2\": 1038, \"y2\": 810}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.fsck.k9:id/client_certificate_spinner_button",
+            "text_content": "No client certificate",
+            "word_sequence": [
+                "No",
+                "client",
+                "certificate"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "a64ea9623a021f428b644075fa99211263ca7360fbd09f055e5874485779d9ce",
+            "bounding_box": "{\"x1\": 16, \"y1\": 810, \"x2\": 912, \"y2\": 936}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.fsck.k9:id/client_certificate_spinner_delete",
+            "text_content": "Remove client certificate selection",
+            "word_sequence": [
+                "Remove",
+                "client",
+                "certificate",
+                "selection"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "a64ea9623a021f428b644075fa99211263ca7360fbd09f055e5874485779d9ce",
+            "bounding_box": "{\"x1\": 912, \"y1\": 810, \"x2\": 1038, \"y2\": 936}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.fsck.k9:id/foldableIcon",
+            "text_content": "",
+            "word_sequence": [
+                "foldable",
+                "Icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "a64ea9623a021f428b644075fa99211263ca7360fbd09f055e5874485779d9ce",
+            "bounding_box": "{\"x1\": 16, \"y1\": 978, \"x2\": 100, \"y2\": 1062}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.fsck.k9:id/foldableText",
+            "text_content": "Advanced options",
+            "word_sequence": [
+                "Advanced",
+                "options"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "a64ea9623a021f428b644075fa99211263ca7360fbd09f055e5874485779d9ce",
+            "bounding_box": "{\"x1\": 126, \"y1\": 994, \"x2\": 421, \"y2\": 1045}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.fsck.k9:id/account_client_certificate",
+            "text_content": "Use client certificate",
+            "word_sequence": [
+                "Use",
+                "client",
+                "certificate"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 162,
+            "screen_id": "a64ea9623a021f428b644075fa99211263ca7360fbd09f055e5874485779d9ce",
+            "bounding_box": "{\"x1\": 16, \"y1\": 1062, \"x2\": 1038, \"y2\": 1146}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.fsck.k9:id/divider",
+            "text_content": "",
+            "word_sequence": [
+                "divider"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "a64ea9623a021f428b644075fa99211263ca7360fbd09f055e5874485779d9ce",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1665, \"x2\": 1080, \"y2\": 1668}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.fsck.k9:id/manual_setup",
+            "text_content": "Manual setup",
+            "word_sequence": [
+                "Manual",
+                "setup"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "a64ea9623a021f428b644075fa99211263ca7360fbd09f055e5874485779d9ce",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1668, \"x2\": 539, \"y2\": 1794}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.fsck.k9:id/next",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "a64ea9623a021f428b644075fa99211263ca7360fbd09f055e5874485779d9ce",
+            "bounding_box": "{\"x1\": 541, \"y1\": 1668, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "31c1a4a047a7b49d27f60e460c4967c1a5f6799a4b6e6e7b55362e18a8396505": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Show roots",
+            "word_sequence": [
+                "Show",
+                "roots"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "31c1a4a047a7b49d27f60e460c4967c1a5f6799a4b6e6e7b55362e18a8396505",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Recent",
+            "word_sequence": [
+                "Recent"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "31c1a4a047a7b49d27f60e460c4967c1a5f6799a4b6e6e7b55362e18a8396505",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 321, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "31c1a4a047a7b49d27f60e460c4967c1a5f6799a4b6e6e7b55362e18a8396505",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.documentsui:id/icon_thumb",
+            "text_content": "",
+            "word_sequence": [
+                "icon",
+                "thumb"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "31c1a4a047a7b49d27f60e460c4967c1a5f6799a4b6e6e7b55362e18a8396505",
+            "bounding_box": "{\"x1\": 42, \"y1\": 252, \"x2\": 147, \"y2\": 357}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/title",
+            "text_content": "screen.png",
+            "word_sequence": [
+                "screen",
+                ".",
+                "png"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "31c1a4a047a7b49d27f60e460c4967c1a5f6799a4b6e6e7b55362e18a8396505",
+            "bounding_box": "{\"x1\": 189, \"y1\": 247, \"x2\": 954, \"y2\": 304}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/icon1",
+            "text_content": "",
+            "word_sequence": [
+                "icon1"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "31c1a4a047a7b49d27f60e460c4967c1a5f6799a4b6e6e7b55362e18a8396505",
+            "bounding_box": "{\"x1\": 975, \"y1\": 247, \"x2\": 1038, \"y2\": 310}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.android.documentsui:id/date",
+            "text_content": "8:08 PM",
+            "word_sequence": [
+                "8",
+                ":",
+                "08",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "31c1a4a047a7b49d27f60e460c4967c1a5f6799a4b6e6e7b55362e18a8396505",
+            "bounding_box": "{\"x1\": 189, \"y1\": 310, \"x2\": 425, \"y2\": 361}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.android.documentsui:id/icon_thumb",
+            "text_content": "",
+            "word_sequence": [
+                "icon",
+                "thumb"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "31c1a4a047a7b49d27f60e460c4967c1a5f6799a4b6e6e7b55362e18a8396505",
+            "bounding_box": "{\"x1\": 42, \"y1\": 444, \"x2\": 147, \"y2\": 549}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/title",
+            "text_content": "video.mp4",
+            "word_sequence": [
+                "video",
+                ".",
+                "mp4"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "31c1a4a047a7b49d27f60e460c4967c1a5f6799a4b6e6e7b55362e18a8396505",
+            "bounding_box": "{\"x1\": 189, \"y1\": 439, \"x2\": 954, \"y2\": 496}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/icon1",
+            "text_content": "",
+            "word_sequence": [
+                "icon1"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "31c1a4a047a7b49d27f60e460c4967c1a5f6799a4b6e6e7b55362e18a8396505",
+            "bounding_box": "{\"x1\": 975, \"y1\": 439, \"x2\": 1038, \"y2\": 502}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.android.documentsui:id/date",
+            "text_content": "Nov 17",
+            "word_sequence": [
+                "Nov",
+                "17"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "31c1a4a047a7b49d27f60e460c4967c1a5f6799a4b6e6e7b55362e18a8396505",
+            "bounding_box": "{\"x1\": 189, \"y1\": 502, \"x2\": 425, \"y2\": 553}"
+        }
+    ],
+    "2957d1cfee327d06abd84e6b91e1153eb930ce1886a45ed33c8ff4c6536fbcb0": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/message",
+            "text_content": "Unfortunately, K-9 Mail has stopped.",
+            "word_sequence": [
+                "Unfortunately",
+                ",",
+                "K",
+                "9",
+                "Mail",
+                "has",
+                "stopped",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "2957d1cfee327d06abd84e6b91e1153eb930ce1886a45ed33c8ff4c6536fbcb0",
+            "bounding_box": "{\"x1\": 69, \"y1\": 838, \"x2\": 1011, \"y2\": 895}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/button1",
+            "text_content": "OK",
+            "word_sequence": [
+                "OK"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "2957d1cfee327d06abd84e6b91e1153eb930ce1886a45ed33c8ff4c6536fbcb0",
+            "bounding_box": "{\"x1\": 811, \"y1\": 928, \"x2\": 979, \"y2\": 1054}"
+        }
+    ],
+    "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Show roots",
+            "word_sequence": [
+                "Show",
+                "roots"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Recent",
+            "word_sequence": [
+                "Recent"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 321, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.documentsui:id/icon_thumb",
+            "text_content": "",
+            "word_sequence": [
+                "icon",
+                "thumb"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 42, \"y1\": 252, \"x2\": 147, \"y2\": 357}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/title",
+            "text_content": "screen.png",
+            "word_sequence": [
+                "screen",
+                ".",
+                "png"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 189, \"y1\": 247, \"x2\": 954, \"y2\": 304}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/icon1",
+            "text_content": "",
+            "word_sequence": [
+                "icon1"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 975, \"y1\": 247, \"x2\": 1038, \"y2\": 310}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.android.documentsui:id/date",
+            "text_content": "8:08 PM",
+            "word_sequence": [
+                "8",
+                ":",
+                "08",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 189, \"y1\": 310, \"x2\": 425, \"y2\": 361}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.android.documentsui:id/icon_thumb",
+            "text_content": "",
+            "word_sequence": [
+                "icon",
+                "thumb"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 42, \"y1\": 444, \"x2\": 147, \"y2\": 549}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/title",
+            "text_content": "video.mp4",
+            "word_sequence": [
+                "video",
+                ".",
+                "mp4"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 189, \"y1\": 439, \"x2\": 954, \"y2\": 496}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/icon1",
+            "text_content": "",
+            "word_sequence": [
+                "icon1"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 975, \"y1\": 439, \"x2\": 1038, \"y2\": 502}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.android.documentsui:id/date",
+            "text_content": "Nov 17",
+            "word_sequence": [
+                "Nov",
+                "17"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 189, \"y1\": 502, \"x2\": 425, \"y2\": 553}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "",
+            "text_content": "Open from",
+            "word_sequence": [
+                "Open",
+                "from"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 42, \"y1\": 101, \"x2\": 292, \"y2\": 172}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 42, \"y1\": 241, \"x2\": 105, \"y2\": 346}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "android:id/title",
+            "text_content": "Recent",
+            "word_sequence": [
+                "Recent"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 189, \"y1\": 268, \"x2\": 630, \"y2\": 319}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 42, \"y1\": 367, \"x2\": 105, \"y2\": 472}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "android:id/title",
+            "text_content": "Images",
+            "word_sequence": [
+                "Images"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 189, \"y1\": 394, \"x2\": 630, \"y2\": 445}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 42, \"y1\": 493, \"x2\": 105, \"y2\": 598}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "android:id/title",
+            "text_content": "Videos",
+            "word_sequence": [
+                "Videos"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 189, \"y1\": 520, \"x2\": 630, \"y2\": 571}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 42, \"y1\": 619, \"x2\": 105, \"y2\": 724}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "android:id/title",
+            "text_content": "Downloads",
+            "word_sequence": [
+                "Downloads"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 189, \"y1\": 646, \"x2\": 630, \"y2\": 697}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 0, \"y1\": 756, \"x2\": 672, \"y2\": 759}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 42, \"y1\": 790, \"x2\": 105, \"y2\": 895}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "android:id/title",
+            "text_content": "Gallery",
+            "word_sequence": [
+                "Gallery"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 189, \"y1\": 817, \"x2\": 630, \"y2\": 868}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 42, \"y1\": 916, \"x2\": 105, \"y2\": 1021}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "android:id/title",
+            "text_content": "Choose music track",
+            "word_sequence": [
+                "Choose",
+                "music",
+                "track"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 189, \"y1\": 943, \"x2\": 630, \"y2\": 994}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1042, \"x2\": 105, \"y2\": 1147}"
+        },
+        {
+            "component_id": 26,
+            "resource_id": "android:id/title",
+            "text_content": "Photos",
+            "word_sequence": [
+                "Photos"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "b727d6f35621346ae4ca4c973328b411c83506684cbb89397e6e93364770eb13",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1069, \"x2\": 630, \"y2\": 1120}"
+        }
+    ],
+    "4d0c018cce09400e4ece6b503d831febd59544dbe27d12613bc37d29557fe2bc": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "4d0c018cce09400e4ece6b503d831febd59544dbe27d12613bc37d29557fe2bc",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Select a photo",
+            "word_sequence": [
+                "Select",
+                "a",
+                "photo"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "4d0c018cce09400e4ece6b503d831febd59544dbe27d12613bc37d29557fe2bc",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 528, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.google.android.apps.photos:id/title",
+            "text_content": "Device folders",
+            "word_sequence": [
+                "Device",
+                "folders"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "4d0c018cce09400e4ece6b503d831febd59544dbe27d12613bc37d29557fe2bc",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 357}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.google.android.apps.photos:id/image",
+            "text_content": "",
+            "word_sequence": [
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "4d0c018cce09400e4ece6b503d831febd59544dbe27d12613bc37d29557fe2bc",
+            "bounding_box": "{\"x1\": 42, \"y1\": 399, \"x2\": 147, \"y2\": 504}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.google.android.apps.photos:id/title",
+            "text_content": "Android SDK built for x86",
+            "word_sequence": [
+                "Android",
+                "SDK",
+                "built",
+                "for",
+                "x86"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "4d0c018cce09400e4ece6b503d831febd59544dbe27d12613bc37d29557fe2bc",
+            "bounding_box": "{\"x1\": 189, \"y1\": 399, \"x2\": 1038, \"y2\": 456}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.google.android.apps.photos:id/subtitle",
+            "text_content": "2 items",
+            "word_sequence": [
+                "2",
+                "items"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "4d0c018cce09400e4ece6b503d831febd59544dbe27d12613bc37d29557fe2bc",
+            "bounding_box": "{\"x1\": 189, \"y1\": 467, \"x2\": 1038, \"y2\": 518}"
+        }
+    ],
+    "42c47fef08eb152740874c1e99d0b098665e04071e3ae5dd9a09b89c182df709": [
+        {
+            "component_id": 0,
+            "resource_id": "com.google.android.apps.photos:id/photo_container",
+            "text_content": "",
+            "word_sequence": [
+                "photo",
+                "container"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "42c47fef08eb152740874c1e99d0b098665e04071e3ae5dd9a09b89c182df709",
+            "bounding_box": "{\"x1\": 0, \"y1\": 0, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/empty",
+            "text_content": "",
+            "word_sequence": [
+                "empty"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "42c47fef08eb152740874c1e99d0b098665e04071e3ae5dd9a09b89c182df709",
+            "bounding_box": "{\"x1\": 0, \"y1\": 0, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.google.android.apps.photos:id/title",
+            "text_content": "Today",
+            "word_sequence": [
+                "Today"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "42c47fef08eb152740874c1e99d0b098665e04071e3ae5dd9a09b89c182df709",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 145, \"y2\": 336}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Photo",
+            "word_sequence": [
+                "Photo"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "42c47fef08eb152740874c1e99d0b098665e04071e3ae5dd9a09b89c182df709",
+            "bounding_box": "{\"x1\": 0, \"y1\": 347, \"x2\": 262, \"y2\": 609}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "Video",
+            "word_sequence": [
+                "Video"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "42c47fef08eb152740874c1e99d0b098665e04071e3ae5dd9a09b89c182df709",
+            "bounding_box": "{\"x1\": 273, \"y1\": 347, \"x2\": 535, \"y2\": 609}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "42c47fef08eb152740874c1e99d0b098665e04071e3ae5dd9a09b89c182df709",
+            "bounding_box": "{\"x1\": 0, \"y1\": 0, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.google.android.apps.photos:id/notification_bar_spacer",
+            "text_content": "",
+            "word_sequence": [
+                "notification",
+                "bar",
+                "spacer"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "42c47fef08eb152740874c1e99d0b098665e04071e3ae5dd9a09b89c182df709",
+            "bounding_box": "{\"x1\": 0, \"y1\": 0, \"x2\": 1080, \"y2\": 63}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "42c47fef08eb152740874c1e99d0b098665e04071e3ae5dd9a09b89c182df709",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "Android SDK built for x86",
+            "word_sequence": [
+                "Android",
+                "SDK",
+                "built",
+                "for",
+                "x86"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "42c47fef08eb152740874c1e99d0b098665e04071e3ae5dd9a09b89c182df709",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 786, \"y2\": 172}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.google.android.apps.photos:id/actionbar_overflow",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "42c47fef08eb152740874c1e99d0b098665e04071e3ae5dd9a09b89c182df709",
+            "bounding_box": "{\"x1\": 933, \"y1\": 63, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "42c47fef08eb152740874c1e99d0b098665e04071e3ae5dd9a09b89c182df709",
+            "bounding_box": "{\"x1\": 0, \"y1\": 0, \"x2\": 1080, \"y2\": 63}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.google.android.apps.photos:id/action_mode_close_button",
+            "text_content": "Done",
+            "word_sequence": [
+                "Done"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "42c47fef08eb152740874c1e99d0b098665e04071e3ae5dd9a09b89c182df709",
+            "bounding_box": "{\"x1\": 0, \"y1\": 73, \"x2\": 147, \"y2\": 199}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "com.google.android.apps.photos:id/action_bar_title",
+            "text_content": "Select a photo",
+            "word_sequence": [
+                "Select",
+                "a",
+                "photo"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "42c47fef08eb152740874c1e99d0b098665e04071e3ae5dd9a09b89c182df709",
+            "bounding_box": "{\"x1\": 147, \"y1\": 101, \"x2\": 486, \"y2\": 172}"
+        }
+    ],
+    "e0360a2051b260c7f7b93daf947b514622544ffc524ad4c06b9384181ab1e22c": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/title",
+            "text_content": "Choose music track",
+            "word_sequence": [
+                "Choose",
+                "music",
+                "track"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "e0360a2051b260c7f7b93daf947b514622544ffc524ad4c06b9384181ab1e22c",
+            "bounding_box": "{\"x1\": 11, \"y1\": 64, \"x2\": 1069, \"y2\": 125}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/empty",
+            "text_content": "No songs",
+            "word_sequence": [
+                "No",
+                "songs"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "e0360a2051b260c7f7b93daf947b514622544ffc524ad4c06b9384181ab1e22c",
+            "bounding_box": "{\"x1\": 0, \"y1\": 129, \"x2\": 1080, \"y2\": 1623}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.music:id/okayButton",
+            "text_content": "OK",
+            "word_sequence": [
+                "OK"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "e0360a2051b260c7f7b93daf947b514622544ffc524ad4c06b9384181ab1e22c",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1647, \"x2\": 315, \"y2\": 1773}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.music:id/cancelButton",
+            "text_content": "Cancel",
+            "word_sequence": [
+                "Cancel"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "e0360a2051b260c7f7b93daf947b514622544ffc524ad4c06b9384181ab1e22c",
+            "bounding_box": "{\"x1\": 765, \"y1\": 1647, \"x2\": 1080, \"y2\": 1773}"
+        }
+    ],
+    "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 13, \"y1\": 242, \"x2\": 255, \"y2\": 526}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.launcher3:id/search_button",
+            "text_content": "Search Apps",
+            "word_sequence": [
+                "Search",
+                "Apps"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 922, \"y1\": 84, \"x2\": 1048, \"y2\": 210}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Calendar Calendar",
+            "word_sequence": [
+                "Calendar"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 42, \"y1\": 230, \"x2\": 291, \"y2\": 401}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Camera Camera",
+            "word_sequence": [
+                "Camera"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 291, \"y1\": 230, \"x2\": 540, \"y2\": 401}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Clock Clock",
+            "word_sequence": [
+                "Clock"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 540, \"y1\": 230, \"x2\": 789, \"y2\": 401}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Contacts Contacts",
+            "word_sequence": [
+                "Contacts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 789, \"y1\": 230, \"x2\": 1038, \"y2\": 401}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Custom Locale Custom Locale",
+            "word_sequence": [
+                "Custom",
+                "Locale"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 42, \"y1\": 401, \"x2\": 291, \"y2\": 674}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Dev Settings Dev Settings",
+            "word_sequence": [
+                "Dev",
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 291, \"y1\": 401, \"x2\": 540, \"y2\": 674}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Dev Tools Dev Tools",
+            "word_sequence": [
+                "Dev",
+                "Tools"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 540, \"y1\": 401, \"x2\": 789, \"y2\": 674}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Downloads Downloads",
+            "word_sequence": [
+                "Downloads"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 789, \"y1\": 401, \"x2\": 1038, \"y2\": 674}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Gallery Gallery",
+            "word_sequence": [
+                "Gallery"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 42, \"y1\": 674, \"x2\": 291, \"y2\": 947}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Gestures Builder Gestures Builder",
+            "word_sequence": [
+                "Gestures",
+                "Builder"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 291, \"y1\": 674, \"x2\": 540, \"y2\": 947}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Gmail Gmail",
+            "word_sequence": [
+                "Gmail"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 540, \"y1\": 674, \"x2\": 789, \"y2\": 947}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Google Google",
+            "word_sequence": [
+                "Google"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 789, \"y1\": 674, \"x2\": 1038, \"y2\": 947}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "K-9 Mail K-9 Mail",
+            "word_sequence": [
+                "K",
+                "9",
+                "Mail"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 42, \"y1\": 947, \"x2\": 291, \"y2\": 1220}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Maps Maps",
+            "word_sequence": [
+                "Maps"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 291, \"y1\": 947, \"x2\": 540, \"y2\": 1220}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Messaging Messaging",
+            "word_sequence": [
+                "Messaging"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 540, \"y1\": 947, \"x2\": 789, \"y2\": 1220}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Music Music",
+            "word_sequence": [
+                "Music"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 789, \"y1\": 947, \"x2\": 1038, \"y2\": 1220}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Phone Phone",
+            "word_sequence": [
+                "Phone"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1220, \"x2\": 291, \"y2\": 1493}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Photos Photos",
+            "word_sequence": [
+                "Photos"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 291, \"y1\": 1220, \"x2\": 540, \"y2\": 1493}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Play Games Play Games",
+            "word_sequence": [
+                "Play",
+                "Games"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 540, \"y1\": 1220, \"x2\": 789, \"y2\": 1493}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Settings Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 789, \"y1\": 1220, \"x2\": 1038, \"y2\": 1493}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Voice Search Voice Search",
+            "word_sequence": [
+                "Voice",
+                "Search"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1493, \"x2\": 291, \"y2\": 1766}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Widget Preview Widget Preview",
+            "word_sequence": [
+                "Widget",
+                "Preview"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 291, \"y1\": 1493, \"x2\": 540, \"y2\": 1766}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "com.google.android.googlequicksearchbox:id/search_widget_logo_image",
+            "text_content": "",
+            "word_sequence": [
+                "search",
+                "widget",
+                "logo",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 63, \"y1\": 121, \"x2\": 226, \"y2\": 181}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "com.google.android.googlequicksearchbox:id/search_widget_voice_btn",
+            "text_content": "Voice Search",
+            "word_sequence": [
+                "Voice",
+                "Search"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "0d27b5a6254ed69c105c0c0229412caeedd0abafe21521ffa672233d2dee0138",
+            "bounding_box": "{\"x1\": 954, \"y1\": 116, \"x2\": 1017, \"y2\": 178}"
+        }
+    ],
+    "b48c95156306b11197b1753357d7aa1c8509539e15892a1191081854b1309e3b": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.deskclock:id/analog_appwidget",
+            "text_content": "14:37",
+            "word_sequence": [
+                "14",
+                ":",
+                "37"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "b48c95156306b11197b1753357d7aa1c8509539e15892a1191081854b1309e3b",
+            "bounding_box": "{\"x1\": 245, \"y1\": 263, \"x2\": 625, \"y2\": 727}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Camera Camera",
+            "word_sequence": [
+                "Camera"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "b48c95156306b11197b1753357d7aa1c8509539e15892a1191081854b1309e3b",
+            "bounding_box": "{\"x1\": 13, \"y1\": 1001, \"x2\": 224, \"y2\": 1254}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "b48c95156306b11197b1753357d7aa1c8509539e15892a1191081854b1309e3b",
+            "bounding_box": "{\"x1\": 13, \"y1\": 242, \"x2\": 255, \"y2\": 526}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.google.android.googlequicksearchbox:id/search_widget_logo_image",
+            "text_content": "",
+            "word_sequence": [
+                "search",
+                "widget",
+                "logo",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "b48c95156306b11197b1753357d7aa1c8509539e15892a1191081854b1309e3b",
+            "bounding_box": "{\"x1\": 63, \"y1\": 121, \"x2\": 226, \"y2\": 181}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.google.android.googlequicksearchbox:id/search_widget_voice_btn",
+            "text_content": "Voice Search",
+            "word_sequence": [
+                "Voice",
+                "Search"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "b48c95156306b11197b1753357d7aa1c8509539e15892a1191081854b1309e3b",
+            "bounding_box": "{\"x1\": 954, \"y1\": 116, \"x2\": 1017, \"y2\": 178}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.android.launcher3:id/active",
+            "text_content": "",
+            "word_sequence": [
+                "active"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "b48c95156306b11197b1753357d7aa1c8509539e15892a1191081854b1309e3b",
+            "bounding_box": "{\"x1\": 508, \"y1\": 1530, \"x2\": 540, \"y2\": 1562}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.android.launcher3:id/inactive",
+            "text_content": "",
+            "word_sequence": [
+                "inactive"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "b48c95156306b11197b1753357d7aa1c8509539e15892a1191081854b1309e3b",
+            "bounding_box": "{\"x1\": 540, \"y1\": 1530, \"x2\": 572, \"y2\": 1562}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "b48c95156306b11197b1753357d7aa1c8509539e15892a1191081854b1309e3b",
+            "bounding_box": "{\"x1\": 33, \"y1\": 1562, \"x2\": 267, \"y2\": 1794}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "Phone Phone",
+            "word_sequence": [
+                "Phone"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "b48c95156306b11197b1753357d7aa1c8509539e15892a1191081854b1309e3b",
+            "bounding_box": "{\"x1\": 46, \"y1\": 1577, \"x2\": 223, \"y2\": 1780}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "Contacts Contacts",
+            "word_sequence": [
+                "Contacts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "b48c95156306b11197b1753357d7aa1c8509539e15892a1191081854b1309e3b",
+            "bounding_box": "{\"x1\": 249, \"y1\": 1577, \"x2\": 426, \"y2\": 1780}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "Apps",
+            "word_sequence": [
+                "Apps"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "b48c95156306b11197b1753357d7aa1c8509539e15892a1191081854b1309e3b",
+            "bounding_box": "{\"x1\": 452, \"y1\": 1577, \"x2\": 629, \"y2\": 1780}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "",
+            "text_content": "Messaging Messaging",
+            "word_sequence": [
+                "Messaging"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "b48c95156306b11197b1753357d7aa1c8509539e15892a1191081854b1309e3b",
+            "bounding_box": "{\"x1\": 655, \"y1\": 1577, \"x2\": 832, \"y2\": 1780}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "",
+            "text_content": "Browser Browser",
+            "word_sequence": [
+                "Browser"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 162,
+            "screen_id": "b48c95156306b11197b1753357d7aa1c8509539e15892a1191081854b1309e3b",
+            "bounding_box": "{\"x1\": 858, \"y1\": 1577, \"x2\": 1035, \"y2\": 1780}"
+        }
+    ],
+    "cbec4ba9491b0b6a33fb27f6dfb8237a5c2c206b0cc5bac03ae69d8888962e65": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.browser:id/lock",
+            "text_content": "",
+            "word_sequence": [
+                "lock"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "cbec4ba9491b0b6a33fb27f6dfb8237a5c2c206b0cc5bac03ae69d8888962e65",
+            "bounding_box": "{\"x1\": 37, \"y1\": 89, \"x2\": 121, \"y2\": 173}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.browser:id/favicon",
+            "text_content": "",
+            "word_sequence": [
+                "favicon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 162,
+            "screen_id": "cbec4ba9491b0b6a33fb27f6dfb8237a5c2c206b0cc5bac03ae69d8888962e65",
+            "bounding_box": "{\"x1\": 37, \"y1\": 89, \"x2\": 121, \"y2\": 173}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.browser:id/url",
+            "text_content": "https://www.google.com/webhp?client=ms-android-google&source=android-home",
+            "word_sequence": [
+                "https",
+                ":",
+                "/",
+                "/",
+                "www",
+                ".",
+                "google",
+                ".",
+                "com",
+                "/",
+                "webhp",
+                "?",
+                "client",
+                "ms",
+                "android",
+                "google",
+                "source",
+                "android",
+                "home"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 162,
+            "screen_id": "cbec4ba9491b0b6a33fb27f6dfb8237a5c2c206b0cc5bac03ae69d8888962e65",
+            "bounding_box": "{\"x1\": 137, \"y1\": 63, \"x2\": 807, \"y2\": 200}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.browser:id/tab_switcher",
+            "text_content": "Page manager",
+            "word_sequence": [
+                "Page",
+                "manager"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "cbec4ba9491b0b6a33fb27f6dfb8237a5c2c206b0cc5bac03ae69d8888962e65",
+            "bounding_box": "{\"x1\": 828, \"y1\": 63, \"x2\": 954, \"y2\": 200}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.browser:id/more",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "cbec4ba9491b0b6a33fb27f6dfb8237a5c2c206b0cc5bac03ae69d8888962e65",
+            "bounding_box": "{\"x1\": 954, \"y1\": 63, \"x2\": 1080, \"y2\": 200}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "?client=ms-android-google&source=android-home",
+            "word_sequence": [
+                "?",
+                "client",
+                "ms",
+                "android",
+                "google",
+                "source",
+                "android",
+                "home"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "cbec4ba9491b0b6a33fb27f6dfb8237a5c2c206b0cc5bac03ae69d8888962e65",
+            "bounding_box": "{\"x1\": 0, \"y1\": 200, \"x2\": 131, \"y2\": 328}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "All",
+            "word_sequence": [
+                "All"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "cbec4ba9491b0b6a33fb27f6dfb8237a5c2c206b0cc5bac03ae69d8888962e65",
+            "bounding_box": "{\"x1\": 160, \"y1\": 200, \"x2\": 215, \"y2\": 331}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "Images",
+            "word_sequence": [
+                "Images"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "cbec4ba9491b0b6a33fb27f6dfb8237a5c2c206b0cc5bac03ae69d8888962e65",
+            "bounding_box": "{\"x1\": 259, \"y1\": 200, \"x2\": 393, \"y2\": 331}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "Sign in",
+            "word_sequence": [
+                "Sign",
+                "in"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "cbec4ba9491b0b6a33fb27f6dfb8237a5c2c206b0cc5bac03ae69d8888962e65",
+            "bounding_box": "{\"x1\": 855, \"y1\": 228, \"x2\": 1039, \"y2\": 302}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "googlelogo_tablet_tier1_hp_color_183x64dp",
+            "word_sequence": [
+                "googlelogo_tablet_tier1_hp_color_183x64dp"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "cbec4ba9491b0b6a33fb27f6dfb8237a5c2c206b0cc5bac03ae69d8888962e65",
+            "bounding_box": "{\"x1\": 299, \"y1\": 410, \"x2\": 782, \"y2\": 578}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "EDITTEXT",
+            "app_name": 162,
+            "screen_id": "cbec4ba9491b0b6a33fb27f6dfb8237a5c2c206b0cc5bac03ae69d8888962e65",
+            "bounding_box": "{\"x1\": 44, \"y1\": 646, \"x2\": 895, \"y2\": 738}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "BUTTON",
+            "app_name": 162,
+            "screen_id": "cbec4ba9491b0b6a33fb27f6dfb8237a5c2c206b0cc5bac03ae69d8888962e65",
+            "bounding_box": "{\"x1\": 960, \"y1\": 643, \"x2\": 1060, \"y2\": 740}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "",
+            "text_content": "Privacy",
+            "word_sequence": [
+                "Privacy"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "cbec4ba9491b0b6a33fb27f6dfb8237a5c2c206b0cc5bac03ae69d8888962e65",
+            "bounding_box": "{\"x1\": 388, \"y1\": 1775, \"x2\": 501, \"y2\": 1794}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "",
+            "text_content": "Terms",
+            "word_sequence": [
+                "Terms"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 162,
+            "screen_id": "cbec4ba9491b0b6a33fb27f6dfb8237a5c2c206b0cc5bac03ae69d8888962e65",
+            "bounding_box": "{\"x1\": 593, \"y1\": 1775, \"x2\": 693, \"y2\": 1794}"
+        }
+    ]
+}

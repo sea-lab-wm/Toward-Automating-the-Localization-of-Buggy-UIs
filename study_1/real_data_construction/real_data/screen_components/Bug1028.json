@@ -1,0 +1,1398 @@
+{
+    "app-name": 1028,
+    "61730fee40943d7766d05209a78150c6b3cb5f45ca1cfb072a033c4a76ccf37a": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.packageinstaller:id/permission_icon",
+            "text_content": "",
+            "word_sequence": [
+                "permission",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1028,
+            "screen_id": "61730fee40943d7766d05209a78150c6b3cb5f45ca1cfb072a033c4a76ccf37a",
+            "bounding_box": "{\"x1\": 220, \"y1\": 758, \"x2\": 315, \"y2\": 853}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.packageinstaller:id/permission_message",
+            "text_content": "Allow AnkiDroid to access photos, media, and files on your device?",
+            "word_sequence": [
+                "Allow",
+                "AnkiDroid",
+                "to",
+                "access",
+                "photos",
+                ",",
+                "media",
+                ",",
+                "and",
+                "files",
+                "on",
+                "your",
+                "device",
+                "?"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "61730fee40943d7766d05209a78150c6b3cb5f45ca1cfb072a033c4a76ccf37a",
+            "bounding_box": "{\"x1\": 315, \"y1\": 750, \"x2\": 876, \"y2\": 981}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.packageinstaller:id/permission_deny_button",
+            "text_content": "Deny",
+            "word_sequence": [
+                "Deny"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "61730fee40943d7766d05209a78150c6b3cb5f45ca1cfb072a033c4a76ccf37a",
+            "bounding_box": "{\"x1\": 502, \"y1\": 1023, \"x2\": 670, \"y2\": 1149}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.packageinstaller:id/permission_allow_button",
+            "text_content": "Allow",
+            "word_sequence": [
+                "Allow"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "61730fee40943d7766d05209a78150c6b3cb5f45ca1cfb072a033c4a76ccf37a",
+            "bounding_box": "{\"x1\": 691, \"y1\": 1023, \"x2\": 876, \"y2\": 1149}"
+        }
+    ],
+    "79962927f0ee501e96cc455c6c1be24472b0b40e5916cbd9c588c6380f364c89": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "79962927f0ee501e96cc455c6c1be24472b0b40e5916cbd9c588c6380f364c89",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "AnkiDroid",
+            "word_sequence": [
+                "AnkiDroid"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "79962927f0ee501e96cc455c6c1be24472b0b40e5916cbd9c588c6380f364c89",
+            "bounding_box": "{\"x1\": 189, \"y1\": 73, \"x2\": 421, \"y2\": 144}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "0 cards due (0 min)",
+            "word_sequence": [
+                "0",
+                "cards",
+                "due",
+                "0",
+                "min"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "79962927f0ee501e96cc455c6c1be24472b0b40e5916cbd9c588c6380f364c89",
+            "bounding_box": "{\"x1\": 189, \"y1\": 144, \"x2\": 550, \"y2\": 201}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.ichi2.anki:id/deckpicker_name",
+            "text_content": "Default",
+            "word_sequence": [
+                "Default"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "79962927f0ee501e96cc455c6c1be24472b0b40e5916cbd9c588c6380f364c89",
+            "bounding_box": "{\"x1\": 63, \"y1\": 210, \"x2\": 235, \"y2\": 336}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.ichi2.anki:id/deckpicker_new",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "79962927f0ee501e96cc455c6c1be24472b0b40e5916cbd9c588c6380f364c89",
+            "bounding_box": "{\"x1\": 965, \"y1\": 247, \"x2\": 999, \"y2\": 298}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.ichi2.anki:id/deckpicker_lrn",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "79962927f0ee501e96cc455c6c1be24472b0b40e5916cbd9c588c6380f364c89",
+            "bounding_box": "{\"x1\": 999, \"y1\": 247, \"x2\": 1033, \"y2\": 298}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.ichi2.anki:id/deckpicker_rev",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "79962927f0ee501e96cc455c6c1be24472b0b40e5916cbd9c588c6380f364c89",
+            "bounding_box": "{\"x1\": 1033, \"y1\": 247, \"x2\": 1054, \"y2\": 298}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.ichi2.anki:id/today_stats_text_view",
+            "text_content": "Studied 0 cards in 0 minutes today",
+            "word_sequence": [
+                "Studied",
+                "0",
+                "cards",
+                "in",
+                "0",
+                "minutes",
+                "today"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "79962927f0ee501e96cc455c6c1be24472b0b40e5916cbd9c588c6380f364c89",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1732, \"x2\": 1080, \"y2\": 1783}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.ichi2.anki:id/fab_expand_menu_button",
+            "text_content": "Add",
+            "word_sequence": [
+                "Add"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "79962927f0ee501e96cc455c6c1be24472b0b40e5916cbd9c588c6380f364c89",
+            "bounding_box": "{\"x1\": 844, \"y1\": 1558, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "AnkiDroid",
+            "word_sequence": [
+                "AnkiDroid"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 189, \"y1\": 73, \"x2\": 421, \"y2\": 144}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "0 cards due (0 min)",
+            "word_sequence": [
+                "0",
+                "cards",
+                "due",
+                "0",
+                "min"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 189, \"y1\": 144, \"x2\": 550, \"y2\": 201}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.ichi2.anki:id/deckpicker_name",
+            "text_content": "Default",
+            "word_sequence": [
+                "Default"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 63, \"y1\": 210, \"x2\": 235, \"y2\": 336}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.ichi2.anki:id/deckpicker_new",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 965, \"y1\": 247, \"x2\": 999, \"y2\": 298}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.ichi2.anki:id/deckpicker_lrn",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 999, \"y1\": 247, \"x2\": 1033, \"y2\": 298}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.ichi2.anki:id/deckpicker_rev",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 1033, \"y1\": 247, \"x2\": 1054, \"y2\": 298}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.ichi2.anki:id/today_stats_text_view",
+            "text_content": "Studied 0 cards in 0 minutes today",
+            "word_sequence": [
+                "Studied",
+                "0",
+                "cards",
+                "in",
+                "0",
+                "minutes",
+                "today"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1732, \"x2\": 1080, \"y2\": 1783}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "Create deck",
+            "word_sequence": [
+                "Create",
+                "deck"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 542, \"y1\": 1104, \"x2\": 823, \"y2\": 1175}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.ichi2.anki:id/add_deck_action",
+            "text_content": "Create deck",
+            "word_sequence": [
+                "Create",
+                "deck"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 865, \"y1\": 1072, \"x2\": 1017, \"y2\": 1224}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "Get shared decks",
+            "word_sequence": [
+                "Get",
+                "shared",
+                "decks"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 453, \"y1\": 1266, \"x2\": 823, \"y2\": 1337}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.ichi2.anki:id/add_shared_action",
+            "text_content": "Get shared decks",
+            "word_sequence": [
+                "Get",
+                "shared",
+                "decks"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 865, \"y1\": 1234, \"x2\": 1017, \"y2\": 1386}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "",
+            "text_content": "Add",
+            "word_sequence": [
+                "Add"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 673, \"y1\": 1428, \"x2\": 823, \"y2\": 1499}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.ichi2.anki:id/add_note_action",
+            "text_content": "Add",
+            "word_sequence": [
+                "Add"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 865, \"y1\": 1396, \"x2\": 1017, \"y2\": 1548}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "com.ichi2.anki:id/fab_expand_menu_button",
+            "text_content": "Add",
+            "word_sequence": [
+                "Add"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "039225dbd9cab02689e2378c553e8a74eff1a91c8fe20f406f51d35489ed1df0",
+            "bounding_box": "{\"x1\": 844, \"y1\": 1558, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Add note",
+            "word_sequence": [
+                "Add",
+                "note"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 402, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.ichi2.anki:id/action_save",
+            "text_content": "Save",
+            "word_sequence": [
+                "Save"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 954, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.ichi2.anki:id/CardEditorModelText",
+            "text_content": "Type:",
+            "word_sequence": [
+                "Type",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 34, \"y1\": 260, \"x2\": 126, \"y2\": 311}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/text1",
+            "text_content": "Basic",
+            "word_sequence": [
+                "Basic"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 147, \"y1\": 257, \"x2\": 1004, \"y2\": 314}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.ichi2.anki:id/CardEditorDeckText",
+            "text_content": "Deck:",
+            "word_sequence": [
+                "Deck",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 34, \"y1\": 386, \"x2\": 127, \"y2\": 437}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/text1",
+            "text_content": "Default",
+            "word_sequence": [
+                "Default"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 148, \"y1\": 383, \"x2\": 1004, \"y2\": 440}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "Front",
+            "word_sequence": [
+                "Front"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 55, \"y1\": 517, \"x2\": 1025, \"y2\": 568}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.ichi2.anki:id/id_note_editText",
+            "text_content": "Front",
+            "word_sequence": [
+                "Front"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1028,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 55, \"y1\": 568, \"x2\": 962, \"y2\": 686}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.ichi2.anki:id/id_media_button",
+            "text_content": "Attach multimedia content to the Front field",
+            "word_sequence": [
+                "Attach",
+                "multimedia",
+                "content",
+                "to",
+                "the",
+                "Front",
+                "field"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 962, \"y1\": 568, \"x2\": 1025, \"y2\": 631}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "Back",
+            "word_sequence": [
+                "Back"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 55, \"y1\": 686, \"x2\": 1025, \"y2\": 737}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.ichi2.anki:id/id_note_editText",
+            "text_content": "Back",
+            "word_sequence": [
+                "Back"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1028,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 55, \"y1\": 737, \"x2\": 962, \"y2\": 855}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "com.ichi2.anki:id/id_media_button",
+            "text_content": "Attach multimedia content to the Back field",
+            "word_sequence": [
+                "Attach",
+                "multimedia",
+                "content",
+                "to",
+                "the",
+                "Back",
+                "field"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 962, \"y1\": 737, \"x2\": 1025, \"y2\": 800}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.ichi2.anki:id/CardEditorTagText",
+            "text_content": "Tags: ",
+            "word_sequence": [
+                "Tags",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 57, \"y1\": 934, \"x2\": 1023, \"y2\": 985}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "com.ichi2.anki:id/CardEditorCardsText",
+            "text_content": "Cards: Card 1",
+            "word_sequence": [
+                "Cards",
+                ":",
+                "Card",
+                "1"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "816e53eccdd2669cd55c1d32c0442fc51466f8b31e481e555caf0eb74748900c",
+            "bounding_box": "{\"x1\": 57, \"y1\": 1060, \"x2\": 1023, \"y2\": 1111}"
+        }
+    ],
+    "95c9160272b22b424c5aed4dc15ad2c8841a231414c9aa7e87b1f16e4adab8dd": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "95c9160272b22b424c5aed4dc15ad2c8841a231414c9aa7e87b1f16e4adab8dd",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Add note",
+            "word_sequence": [
+                "Add",
+                "note"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "95c9160272b22b424c5aed4dc15ad2c8841a231414c9aa7e87b1f16e4adab8dd",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 402, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.ichi2.anki:id/action_save",
+            "text_content": "Save",
+            "word_sequence": [
+                "Save"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "95c9160272b22b424c5aed4dc15ad2c8841a231414c9aa7e87b1f16e4adab8dd",
+            "bounding_box": "{\"x1\": 954, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.ichi2.anki:id/CardEditorModelText",
+            "text_content": "Type:",
+            "word_sequence": [
+                "Type",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "95c9160272b22b424c5aed4dc15ad2c8841a231414c9aa7e87b1f16e4adab8dd",
+            "bounding_box": "{\"x1\": 34, \"y1\": 260, \"x2\": 126, \"y2\": 311}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/text1",
+            "text_content": "Basic",
+            "word_sequence": [
+                "Basic"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "95c9160272b22b424c5aed4dc15ad2c8841a231414c9aa7e87b1f16e4adab8dd",
+            "bounding_box": "{\"x1\": 147, \"y1\": 257, \"x2\": 1004, \"y2\": 314}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.ichi2.anki:id/CardEditorDeckText",
+            "text_content": "Deck:",
+            "word_sequence": [
+                "Deck",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "95c9160272b22b424c5aed4dc15ad2c8841a231414c9aa7e87b1f16e4adab8dd",
+            "bounding_box": "{\"x1\": 34, \"y1\": 386, \"x2\": 127, \"y2\": 437}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/text1",
+            "text_content": "Default",
+            "word_sequence": [
+                "Default"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "95c9160272b22b424c5aed4dc15ad2c8841a231414c9aa7e87b1f16e4adab8dd",
+            "bounding_box": "{\"x1\": 148, \"y1\": 383, \"x2\": 1004, \"y2\": 440}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "Front",
+            "word_sequence": [
+                "Front"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "95c9160272b22b424c5aed4dc15ad2c8841a231414c9aa7e87b1f16e4adab8dd",
+            "bounding_box": "{\"x1\": 55, \"y1\": 517, \"x2\": 1025, \"y2\": 568}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.ichi2.anki:id/id_note_editText",
+            "text_content": "fry Front",
+            "word_sequence": [
+                "fry"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1028,
+            "screen_id": "95c9160272b22b424c5aed4dc15ad2c8841a231414c9aa7e87b1f16e4adab8dd",
+            "bounding_box": "{\"x1\": 55, \"y1\": 568, \"x2\": 962, \"y2\": 686}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.ichi2.anki:id/id_media_button",
+            "text_content": "Attach multimedia content to the Front field",
+            "word_sequence": [
+                "Attach",
+                "multimedia",
+                "content",
+                "to",
+                "the",
+                "Front",
+                "field"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "95c9160272b22b424c5aed4dc15ad2c8841a231414c9aa7e87b1f16e4adab8dd",
+            "bounding_box": "{\"x1\": 962, \"y1\": 568, \"x2\": 1025, \"y2\": 631}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "Back",
+            "word_sequence": [
+                "Back"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "95c9160272b22b424c5aed4dc15ad2c8841a231414c9aa7e87b1f16e4adab8dd",
+            "bounding_box": "{\"x1\": 55, \"y1\": 686, \"x2\": 1025, \"y2\": 737}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.ichi2.anki:id/id_note_editText",
+            "text_content": "Back",
+            "word_sequence": [
+                "Back"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1028,
+            "screen_id": "95c9160272b22b424c5aed4dc15ad2c8841a231414c9aa7e87b1f16e4adab8dd",
+            "bounding_box": "{\"x1\": 55, \"y1\": 737, \"x2\": 962, \"y2\": 855}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "com.ichi2.anki:id/id_media_button",
+            "text_content": "Attach multimedia content to the Back field",
+            "word_sequence": [
+                "Attach",
+                "multimedia",
+                "content",
+                "to",
+                "the",
+                "Back",
+                "field"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "95c9160272b22b424c5aed4dc15ad2c8841a231414c9aa7e87b1f16e4adab8dd",
+            "bounding_box": "{\"x1\": 962, \"y1\": 737, \"x2\": 1025, \"y2\": 800}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.ichi2.anki:id/CardEditorTagText",
+            "text_content": "Tags: ",
+            "word_sequence": [
+                "Tags",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "95c9160272b22b424c5aed4dc15ad2c8841a231414c9aa7e87b1f16e4adab8dd",
+            "bounding_box": "{\"x1\": 57, \"y1\": 934, \"x2\": 1023, \"y2\": 985}"
+        }
+    ],
+    "e99cb30d23f9d14b9d4eca5723ce1d26f06e82880091d3d0ad354ac02a7e506a": [
+        {
+            "component_id": 0,
+            "resource_id": "com.ichi2.anki:id/title",
+            "text_content": "Add image",
+            "word_sequence": [
+                "Add",
+                "image"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "e99cb30d23f9d14b9d4eca5723ce1d26f06e82880091d3d0ad354ac02a7e506a",
+            "bounding_box": "{\"x1\": 607, \"y1\": 224, \"x2\": 1038, \"y2\": 281}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.ichi2.anki:id/title",
+            "text_content": "Record audio",
+            "word_sequence": [
+                "Record",
+                "audio"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "e99cb30d23f9d14b9d4eca5723ce1d26f06e82880091d3d0ad354ac02a7e506a",
+            "bounding_box": "{\"x1\": 607, \"y1\": 350, \"x2\": 1038, \"y2\": 407}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.ichi2.anki:id/title",
+            "text_content": "Advanced editor",
+            "word_sequence": [
+                "Advanced",
+                "editor"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "e99cb30d23f9d14b9d4eca5723ce1d26f06e82880091d3d0ad354ac02a7e506a",
+            "bounding_box": "{\"x1\": 607, \"y1\": 476, \"x2\": 1038, \"y2\": 533}"
+        }
+    ],
+    "b1ccc5135c769fbe2462f1fb52cb382d35671e8279a29d095a249627ee78be1c": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "b1ccc5135c769fbe2462f1fb52cb382d35671e8279a29d095a249627ee78be1c",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Editing field",
+            "word_sequence": [
+                "Editing",
+                "field"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "b1ccc5135c769fbe2462f1fb52cb382d35671e8279a29d095a249627ee78be1c",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 470, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.ichi2.anki:id/multimedia_edit_field_to_image",
+            "text_content": "Image",
+            "word_sequence": [
+                "Image"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "b1ccc5135c769fbe2462f1fb52cb382d35671e8279a29d095a249627ee78be1c",
+            "bounding_box": "{\"x1\": 702, \"y1\": 73, \"x2\": 828, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.ichi2.anki:id/multimedia_edit_field_to_audio",
+            "text_content": "Audio",
+            "word_sequence": [
+                "Audio"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "b1ccc5135c769fbe2462f1fb52cb382d35671e8279a29d095a249627ee78be1c",
+            "bounding_box": "{\"x1\": 828, \"y1\": 73, \"x2\": 954, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.ichi2.anki:id/multimedia_edit_field_done",
+            "text_content": "Done",
+            "word_sequence": [
+                "Done"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "b1ccc5135c769fbe2462f1fb52cb382d35671e8279a29d095a249627ee78be1c",
+            "bounding_box": "{\"x1\": 954, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "fry",
+            "word_sequence": [
+                "fry"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1028,
+            "screen_id": "b1ccc5135c769fbe2462f1fb52cb382d35671e8279a29d095a249627ee78be1c",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 438}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "Clear",
+            "word_sequence": [
+                "Clear"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "b1ccc5135c769fbe2462f1fb52cb382d35671e8279a29d095a249627ee78be1c",
+            "bounding_box": "{\"x1\": 0, \"y1\": 438, \"x2\": 1080, \"y2\": 564}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "Search for:",
+            "word_sequence": [
+                "Search",
+                "for",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "b1ccc5135c769fbe2462f1fb52cb382d35671e8279a29d095a249627ee78be1c",
+            "bounding_box": "{\"x1\": 0, \"y1\": 564, \"x2\": 1080, \"y2\": 615}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "Translation",
+            "word_sequence": [
+                "Translation"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "b1ccc5135c769fbe2462f1fb52cb382d35671e8279a29d095a249627ee78be1c",
+            "bounding_box": "{\"x1\": 0, \"y1\": 615, \"x2\": 540, \"y2\": 741}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "Pronunciation",
+            "word_sequence": [
+                "Pronunciation"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "b1ccc5135c769fbe2462f1fb52cb382d35671e8279a29d095a249627ee78be1c",
+            "bounding_box": "{\"x1\": 540, \"y1\": 615, \"x2\": 1080, \"y2\": 741}"
+        }
+    ],
+    "fcf29426d9cf8506eff5fde5bb85be9aaefd7cf7b2b24c42d8775431ec2ef151": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "Pick dictionary",
+            "word_sequence": [
+                "Pick",
+                "dictionary"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "fcf29426d9cf8506eff5fde5bb85be9aaefd7cf7b2b24c42d8775431ec2ef151",
+            "bounding_box": "{\"x1\": 132, \"y1\": 769, \"x2\": 948, \"y2\": 840}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/text1",
+            "text_content": "Glosbe.com",
+            "word_sequence": [
+                "Glosbe",
+                ".",
+                "com"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "fcf29426d9cf8506eff5fde5bb85be9aaefd7cf7b2b24c42d8775431ec2ef151",
+            "bounding_box": "{\"x1\": 69, \"y1\": 861, \"x2\": 1011, \"y2\": 987}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/text1",
+            "text_content": "ColorDict",
+            "word_sequence": [
+                "ColorDict"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "fcf29426d9cf8506eff5fde5bb85be9aaefd7cf7b2b24c42d8775431ec2ef151",
+            "bounding_box": "{\"x1\": 69, \"y1\": 987, \"x2\": 1011, \"y2\": 1113}"
+        }
+    ],
+    "6152751befebb189ade20b7466c42834e159bfae69a0ea425759bc164c74b173": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Translation",
+            "word_sequence": [
+                "Translation"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "6152751befebb189ade20b7466c42834e159bfae69a0ea425759bc164c74b173",
+            "bounding_box": "{\"x1\": 42, \"y1\": 101, \"x2\": 309, \"y2\": 172}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Powered by glosbe.com",
+            "word_sequence": [
+                "Powered",
+                "by",
+                "glosbe",
+                ".",
+                "com"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "6152751befebb189ade20b7466c42834e159bfae69a0ea425759bc164c74b173",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 261}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "From",
+            "word_sequence": [
+                "From"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "6152751befebb189ade20b7466c42834e159bfae69a0ea425759bc164c74b173",
+            "bounding_box": "{\"x1\": 0, \"y1\": 261, \"x2\": 1080, \"y2\": 312}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/text1",
+            "text_content": "Arabic",
+            "word_sequence": [
+                "Arabic"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "6152751befebb189ade20b7466c42834e159bfae69a0ea425759bc164c74b173",
+            "bounding_box": "{\"x1\": 0, \"y1\": 315, \"x2\": 1017, \"y2\": 372}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "To",
+            "word_sequence": [
+                "To"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "6152751befebb189ade20b7466c42834e159bfae69a0ea425759bc164c74b173",
+            "bounding_box": "{\"x1\": 0, \"y1\": 375, \"x2\": 1080, \"y2\": 426}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/text1",
+            "text_content": "Arabic",
+            "word_sequence": [
+                "Arabic"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "6152751befebb189ade20b7466c42834e159bfae69a0ea425759bc164c74b173",
+            "bounding_box": "{\"x1\": 0, \"y1\": 429, \"x2\": 1017, \"y2\": 486}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "Translate",
+            "word_sequence": [
+                "Translate"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "6152751befebb189ade20b7466c42834e159bfae69a0ea425759bc164c74b173",
+            "bounding_box": "{\"x1\": 0, \"y1\": 489, \"x2\": 1080, \"y2\": 615}"
+        }
+    ],
+    "d59703517ac3ca41c55a84d2b12867a6e5e2345d4d428702d28ddb061141a624": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/text1",
+            "text_content": "Arabic",
+            "word_sequence": [
+                "Arabic"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "d59703517ac3ca41c55a84d2b12867a6e5e2345d4d428702d28ddb061141a624",
+            "bounding_box": "{\"x1\": 0, \"y1\": 312, \"x2\": 1017, \"y2\": 438}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/text1",
+            "text_content": "Chinese",
+            "word_sequence": [
+                "Chinese"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "d59703517ac3ca41c55a84d2b12867a6e5e2345d4d428702d28ddb061141a624",
+            "bounding_box": "{\"x1\": 0, \"y1\": 438, \"x2\": 1017, \"y2\": 564}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/text1",
+            "text_content": "Croatian",
+            "word_sequence": [
+                "Croatian"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "d59703517ac3ca41c55a84d2b12867a6e5e2345d4d428702d28ddb061141a624",
+            "bounding_box": "{\"x1\": 0, \"y1\": 564, \"x2\": 1017, \"y2\": 690}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/text1",
+            "text_content": "Czech",
+            "word_sequence": [
+                "Czech"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "d59703517ac3ca41c55a84d2b12867a6e5e2345d4d428702d28ddb061141a624",
+            "bounding_box": "{\"x1\": 0, \"y1\": 690, \"x2\": 1017, \"y2\": 816}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/text1",
+            "text_content": "Dutch",
+            "word_sequence": [
+                "Dutch"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "d59703517ac3ca41c55a84d2b12867a6e5e2345d4d428702d28ddb061141a624",
+            "bounding_box": "{\"x1\": 0, \"y1\": 816, \"x2\": 1017, \"y2\": 942}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/text1",
+            "text_content": "English",
+            "word_sequence": [
+                "English"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "d59703517ac3ca41c55a84d2b12867a6e5e2345d4d428702d28ddb061141a624",
+            "bounding_box": "{\"x1\": 0, \"y1\": 942, \"x2\": 1017, \"y2\": 1068}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/text1",
+            "text_content": "French",
+            "word_sequence": [
+                "French"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "d59703517ac3ca41c55a84d2b12867a6e5e2345d4d428702d28ddb061141a624",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1068, \"x2\": 1017, \"y2\": 1194}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/text1",
+            "text_content": "German",
+            "word_sequence": [
+                "German"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "d59703517ac3ca41c55a84d2b12867a6e5e2345d4d428702d28ddb061141a624",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1194, \"x2\": 1017, \"y2\": 1320}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/text1",
+            "text_content": "Hindi",
+            "word_sequence": [
+                "Hindi"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "d59703517ac3ca41c55a84d2b12867a6e5e2345d4d428702d28ddb061141a624",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1320, \"x2\": 1017, \"y2\": 1446}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/text1",
+            "text_content": "Hungarian",
+            "word_sequence": [
+                "Hungarian"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "d59703517ac3ca41c55a84d2b12867a6e5e2345d4d428702d28ddb061141a624",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1446, \"x2\": 1017, \"y2\": 1572}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/text1",
+            "text_content": "Italian",
+            "word_sequence": [
+                "Italian"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "d59703517ac3ca41c55a84d2b12867a6e5e2345d4d428702d28ddb061141a624",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1572, \"x2\": 1017, \"y2\": 1698}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "android:id/text1",
+            "text_content": "Japanese",
+            "word_sequence": [
+                "Japanese"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "d59703517ac3ca41c55a84d2b12867a6e5e2345d4d428702d28ddb061141a624",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1698, \"x2\": 1017, \"y2\": 1731}"
+        }
+    ],
+    "6d07ab37ef9f300eefccfec64b762870d8e496d001521311d2c8c2cfaa6a653c": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Pronunciation",
+            "word_sequence": [
+                "Pronunciation"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "6d07ab37ef9f300eefccfec64b762870d8e496d001521311d2c8c2cfaa6a653c",
+            "bounding_box": "{\"x1\": 42, \"y1\": 101, \"x2\": 373, \"y2\": 172}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.ichi2.anki:id/textViewPoweredBy",
+            "text_content": "Powered by Beolingus",
+            "word_sequence": [
+                "Powered",
+                "by",
+                "Beolingus"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "6d07ab37ef9f300eefccfec64b762870d8e496d001521311d2c8c2cfaa6a653c",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 365, \"y2\": 261}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/text1",
+            "text_content": "English",
+            "word_sequence": [
+                "English"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "6d07ab37ef9f300eefccfec64b762870d8e496d001521311d2c8c2cfaa6a653c",
+            "bounding_box": "{\"x1\": 0, \"y1\": 264, \"x2\": 1017, \"y2\": 321}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Load",
+            "word_sequence": [
+                "Load"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "6d07ab37ef9f300eefccfec64b762870d8e496d001521311d2c8c2cfaa6a653c",
+            "bounding_box": "{\"x1\": 0, \"y1\": 324, \"x2\": 1080, \"y2\": 450}"
+        }
+    ],
+    "02d9c933b354fc1c368662746b879e808ce196aef73acbcadee0502f31fb37c6": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.packageinstaller:id/permission_icon",
+            "text_content": "",
+            "word_sequence": [
+                "permission",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1028,
+            "screen_id": "02d9c933b354fc1c368662746b879e808ce196aef73acbcadee0502f31fb37c6",
+            "bounding_box": "{\"x1\": 220, \"y1\": 814, \"x2\": 315, \"y2\": 909}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.packageinstaller:id/permission_message",
+            "text_content": "Allow AnkiDroid to record audio?",
+            "word_sequence": [
+                "Allow",
+                "AnkiDroid",
+                "to",
+                "record",
+                "audio",
+                "?"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "02d9c933b354fc1c368662746b879e808ce196aef73acbcadee0502f31fb37c6",
+            "bounding_box": "{\"x1\": 315, \"y1\": 806, \"x2\": 876, \"y2\": 925}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.packageinstaller:id/permission_deny_button",
+            "text_content": "Deny",
+            "word_sequence": [
+                "Deny"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "02d9c933b354fc1c368662746b879e808ce196aef73acbcadee0502f31fb37c6",
+            "bounding_box": "{\"x1\": 502, \"y1\": 967, \"x2\": 670, \"y2\": 1093}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.packageinstaller:id/permission_allow_button",
+            "text_content": "Allow",
+            "word_sequence": [
+                "Allow"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "02d9c933b354fc1c368662746b879e808ce196aef73acbcadee0502f31fb37c6",
+            "bounding_box": "{\"x1\": 691, \"y1\": 967, \"x2\": 876, \"y2\": 1093}"
+        }
+    ],
+    "5809a642de4c15066fe5dfe96b7bd938b5203f718c4349c517fd545023375b47": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.packageinstaller:id/permission_icon",
+            "text_content": "",
+            "word_sequence": [
+                "permission",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1028,
+            "screen_id": "5809a642de4c15066fe5dfe96b7bd938b5203f718c4349c517fd545023375b47",
+            "bounding_box": "{\"x1\": 220, \"y1\": 751, \"x2\": 315, \"y2\": 846}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.packageinstaller:id/permission_message",
+            "text_content": "Allow AnkiDroid to record audio?",
+            "word_sequence": [
+                "Allow",
+                "AnkiDroid",
+                "to",
+                "record",
+                "audio",
+                "?"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1028,
+            "screen_id": "5809a642de4c15066fe5dfe96b7bd938b5203f718c4349c517fd545023375b47",
+            "bounding_box": "{\"x1\": 315, \"y1\": 743, \"x2\": 876, \"y2\": 862}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.packageinstaller:id/do_not_ask_checkbox",
+            "text_content": "Never ask again",
+            "word_sequence": [
+                "Never",
+                "ask",
+                "again"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1028,
+            "screen_id": "5809a642de4c15066fe5dfe96b7bd938b5203f718c4349c517fd545023375b47",
+            "bounding_box": "{\"x1\": 220, \"y1\": 904, \"x2\": 876, \"y2\": 988}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.packageinstaller:id/permission_deny_button",
+            "text_content": "Deny",
+            "word_sequence": [
+                "Deny"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "5809a642de4c15066fe5dfe96b7bd938b5203f718c4349c517fd545023375b47",
+            "bounding_box": "{\"x1\": 502, \"y1\": 1030, \"x2\": 670, \"y2\": 1156}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.packageinstaller:id/permission_allow_button",
+            "text_content": "Allow",
+            "word_sequence": [
+                "Allow"
+            ],
+            "type": "BUTTON",
+            "app_name": 1028,
+            "screen_id": "5809a642de4c15066fe5dfe96b7bd938b5203f718c4349c517fd545023375b47",
+            "bounding_box": "{\"x1\": 691, \"y1\": 1030, \"x2\": 876, \"y2\": 1156}"
+        }
+    ]
+}

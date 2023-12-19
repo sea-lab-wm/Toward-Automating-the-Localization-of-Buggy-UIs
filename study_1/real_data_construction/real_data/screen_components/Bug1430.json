@@ -1,0 +1,3037 @@
+{
+    "app-name": 1430,
+    "93d86e7c48db9017bc9b09ce380e857728173a2658bba1e866aa7cfe849d47f7": [
+        {
+            "component_id": 0,
+            "resource_id": "com.easyfitness:id/mi_image",
+            "text_content": "",
+            "word_sequence": [
+                "mi",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "93d86e7c48db9017bc9b09ce380e857728173a2658bba1e866aa7cfe849d47f7",
+            "bounding_box": "{\"x1\": 204, \"y1\": 269, \"x2\": 876, \"y2\": 941}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.easyfitness:id/mi_title",
+            "text_content": "Hello",
+            "word_sequence": [
+                "Hello"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "93d86e7c48db9017bc9b09ce380e857728173a2658bba1e866aa7cfe849d47f7",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1025, \"x2\": 1038, \"y2\": 1110}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/mi_description",
+            "text_content": "Welcome to Fast N Fitness! This application is a quick and simple way to record your program and follow your progression and the evolution of your body.",
+            "word_sequence": [
+                "Welcome",
+                "to",
+                "Fast",
+                "N",
+                "Fitness",
+                "!",
+                "This",
+                "application",
+                "is",
+                "a",
+                "quick",
+                "and",
+                "simple",
+                "way",
+                "to",
+                "record",
+                "your",
+                "program",
+                "and",
+                "follow",
+                "your",
+                "progression",
+                "and",
+                "the",
+                "evolution",
+                "of",
+                "your",
+                "body",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "93d86e7c48db9017bc9b09ce380e857728173a2658bba1e866aa7cfe849d47f7",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1152, \"x2\": 1038, \"y2\": 1356}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/mi_pager_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "mi",
+                "pager",
+                "indicator"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1430,
+            "screen_id": "93d86e7c48db9017bc9b09ce380e857728173a2658bba1e866aa7cfe849d47f7",
+            "bounding_box": "{\"x1\": 231, \"y1\": 1666, \"x2\": 849, \"y2\": 1692}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.easyfitness:id/mi_button_next",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "93d86e7c48db9017bc9b09ce380e857728173a2658bba1e866aa7cfe849d47f7",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "48442983c05fbeda197a4b476ed415e55b69ee32038f1b4ce341bac9e53951fa": [
+        {
+            "component_id": 0,
+            "resource_id": "com.easyfitness:id/mi_image",
+            "text_content": "",
+            "word_sequence": [
+                "mi",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "48442983c05fbeda197a4b476ed415e55b69ee32038f1b4ce341bac9e53951fa",
+            "bounding_box": "{\"x1\": 204, \"y1\": 294, \"x2\": 876, \"y2\": 966}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.easyfitness:id/mi_title",
+            "text_content": "Quick and easy",
+            "word_sequence": [
+                "Quick",
+                "and",
+                "easy"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "48442983c05fbeda197a4b476ed415e55b69ee32038f1b4ce341bac9e53951fa",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1050, \"x2\": 1038, \"y2\": 1135}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/mi_description",
+            "text_content": "Write the name of the exercise and the details, and it will be created automatically. You can find it back easily in the list.",
+            "word_sequence": [
+                "Write",
+                "the",
+                "name",
+                "of",
+                "the",
+                "exercise",
+                "and",
+                "the",
+                "details",
+                ",",
+                "and",
+                "it",
+                "will",
+                "be",
+                "created",
+                "automatically",
+                ".",
+                "You",
+                "can",
+                "find",
+                "it",
+                "back",
+                "easily",
+                "in",
+                "the",
+                "list",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "48442983c05fbeda197a4b476ed415e55b69ee32038f1b4ce341bac9e53951fa",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1177, \"x2\": 1038, \"y2\": 1332}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/mi_button_skip",
+            "text_content": "Back",
+            "word_sequence": [
+                "Back"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "48442983c05fbeda197a4b476ed415e55b69ee32038f1b4ce341bac9e53951fa",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1605, \"x2\": 189, \"y2\": 1752}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.easyfitness:id/mi_pager_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "mi",
+                "pager",
+                "indicator"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1430,
+            "screen_id": "48442983c05fbeda197a4b476ed415e55b69ee32038f1b4ce341bac9e53951fa",
+            "bounding_box": "{\"x1\": 231, \"y1\": 1666, \"x2\": 849, \"y2\": 1692}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.easyfitness:id/mi_button_next",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "48442983c05fbeda197a4b476ed415e55b69ee32038f1b4ce341bac9e53951fa",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Create a profile",
+            "word_sequence": [
+                "Create",
+                "a",
+                "profile"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 42, \"y1\": 105, \"x2\": 1038, \"y2\": 190}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.easyfitness:id/profileName",
+            "text_content": "Name / pseudonym",
+            "word_sequence": [
+                "Name",
+                "/",
+                "pseudonym"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1430,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 42, \"y1\": 245, \"x2\": 1038, \"y2\": 363}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/radioButtonMale",
+            "text_content": "Male",
+            "word_sequence": [
+                "Male"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 55, \"y1\": 389, \"x2\": 361, \"y2\": 450}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/radioButtonFemale",
+            "text_content": "Female",
+            "word_sequence": [
+                "Female"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 387, \"y1\": 389, \"x2\": 693, \"y2\": 450}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.easyfitness:id/radioButtonOtherGender",
+            "text_content": "Other",
+            "word_sequence": [
+                "Other"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 719, \"y1\": 389, \"x2\": 1025, \"y2\": 450}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.easyfitness:id/profileBirthday",
+            "text_content": "Birthday (optional)",
+            "word_sequence": [
+                "Birthday",
+                "optional"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 42, \"y1\": 476, \"x2\": 1038, \"y2\": 594}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.easyfitness:id/profileSize",
+            "text_content": "Size in cm (optional)",
+            "word_sequence": [
+                "Size",
+                "in",
+                "cm",
+                "optional"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1430,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 42, \"y1\": 636, \"x2\": 1038, \"y2\": 754}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.easyfitness:id/create_newprofil",
+            "text_content": "CREATE",
+            "word_sequence": [
+                "CREATE"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 42, \"y1\": 796, \"x2\": 1038, \"y2\": 922}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.easyfitness:id/mi_button_skip",
+            "text_content": "Back",
+            "word_sequence": [
+                "Back"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1605, \"x2\": 189, \"y2\": 1752}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.easyfitness:id/mi_pager_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "mi",
+                "pager",
+                "indicator"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1430,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 231, \"y1\": 1666, \"x2\": 849, \"y2\": 1692}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.easyfitness:id/mi_button_next",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "90092d026fee9a9e9c8951cc61c716193e414b1d6ae33a847f5d7a52d7ead82b",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "49c6a7fa610f378b12ca9aeed23112c4d493d9024078a3d5db57296b24848749": [
+        {
+            "component_id": 0,
+            "resource_id": "com.easyfitness:id/mask_left",
+            "text_content": "",
+            "word_sequence": [
+                "mask",
+                "left"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1430,
+            "screen_id": "49c6a7fa610f378b12ca9aeed23112c4d493d9024078a3d5db57296b24848749",
+            "bounding_box": "{\"x1\": 470, \"y1\": 707, \"x2\": 517, \"y2\": 846}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1430,
+            "screen_id": "49c6a7fa610f378b12ca9aeed23112c4d493d9024078a3d5db57296b24848749",
+            "bounding_box": "{\"x1\": 470, \"y1\": 707, \"x2\": 609, \"y2\": 846}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1430,
+            "screen_id": "49c6a7fa610f378b12ca9aeed23112c4d493d9024078a3d5db57296b24848749",
+            "bounding_box": "{\"x1\": 470, \"y1\": 707, \"x2\": 609, \"y2\": 846}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/success_tick",
+            "text_content": "",
+            "word_sequence": [
+                "success",
+                "tick"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1430,
+            "screen_id": "49c6a7fa610f378b12ca9aeed23112c4d493d9024078a3d5db57296b24848749",
+            "bounding_box": "{\"x1\": 470, \"y1\": 707, \"x2\": 609, \"y2\": 846}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.easyfitness:id/mask_right",
+            "text_content": "",
+            "word_sequence": [
+                "mask",
+                "right"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1430,
+            "screen_id": "49c6a7fa610f378b12ca9aeed23112c4d493d9024078a3d5db57296b24848749",
+            "bounding_box": "{\"x1\": 517, \"y1\": 707, \"x2\": 609, \"y2\": 846}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.easyfitness:id/title_text",
+            "text_content": "a",
+            "word_sequence": [
+                "a"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "49c6a7fa610f378b12ca9aeed23112c4d493d9024078a3d5db57296b24848749",
+            "bounding_box": "{\"x1\": 500, \"y1\": 857, \"x2\": 579, \"y2\": 924}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.easyfitness:id/content_text",
+            "text_content": "Profile created",
+            "word_sequence": [
+                "Profile",
+                "created"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "49c6a7fa610f378b12ca9aeed23112c4d493d9024078a3d5db57296b24848749",
+            "bounding_box": "{\"x1\": 378, \"y1\": 950, \"x2\": 701, \"y2\": 1007}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.easyfitness:id/confirm_button",
+            "text_content": "Ok",
+            "word_sequence": [
+                "Ok"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "49c6a7fa610f378b12ca9aeed23112c4d493d9024078a3d5db57296b24848749",
+            "bounding_box": "{\"x1\": 428, \"y1\": 1033, \"x2\": 651, \"y2\": 1138}"
+        }
+    ],
+    "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Open navigation drawer",
+            "word_sequence": [
+                "Open",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Fast N Fitness",
+            "word_sequence": [
+                "Fast",
+                "N",
+                "Fitness"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 527, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/imageProfile",
+            "text_content": "",
+            "word_sequence": [
+                "image",
+                "Profile"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 744, \"y1\": 83, \"x2\": 849, \"y2\": 190}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/action_chrono",
+            "text_content": "Chronometer",
+            "word_sequence": [
+                "Chronometer"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 849, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "FREE WORKOUT",
+            "word_sequence": [
+                "FREE",
+                "WORKOUT"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 311, \"y2\": 336}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "PROGRAM",
+            "word_sequence": [
+                "PROGRAM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 311, \"y1\": 210, \"x2\": 545, \"y2\": 336}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "GRAPHS",
+            "word_sequence": [
+                "GRAPHS"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 545, \"y1\": 210, \"x2\": 752, \"y2\": 336}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "HISTORY",
+            "word_sequence": [
+                "HISTORY"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 752, \"y1\": 210, \"x2\": 964, \"y2\": 336}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.easyfitness:id/imageMachine",
+            "text_content": "",
+            "word_sequence": [
+                "image",
+                "Machine"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 13, \"y1\": 354, \"x2\": 118, \"y2\": 461}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.easyfitness:id/editMachine",
+            "text_content": "Name of your exercise",
+            "word_sequence": [
+                "Name",
+                "of",
+                "your",
+                "exercise"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 118, \"y1\": 349, \"x2\": 1004, \"y2\": 467}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.easyfitness:id/buttonListMachine",
+            "text_content": "",
+            "word_sequence": [
+                "List",
+                "Machine"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 1004, \"y1\": 376, \"x2\": 1067, \"y2\": 439}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "",
+            "text_content": "Exercise Type:",
+            "word_sequence": [
+                "Exercise",
+                "Type",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 13, \"y1\": 488, \"x2\": 250, \"y2\": 539}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.easyfitness:id/StrenghSelector",
+            "text_content": "Strength",
+            "word_sequence": [
+                "Strength"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 258, \"y1\": 488, \"x2\": 518, \"y2\": 539}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "com.easyfitness:id/CardioSelector",
+            "text_content": "Cardio",
+            "word_sequence": [
+                "Cardio"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 534, \"y1\": 488, \"x2\": 795, \"y2\": 539}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "com.easyfitness:id/IsometricSelector",
+            "text_content": "Isometric",
+            "word_sequence": [
+                "Isometric"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 811, \"y1\": 488, \"x2\": 1072, \"y2\": 539}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "com.easyfitness:id/singlevalueinput_title",
+            "text_content": "Sets",
+            "word_sequence": [
+                "Sets"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 98, \"y1\": 555, \"x2\": 171, \"y2\": 606}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "com.easyfitness:id/singlevalueinput_value",
+            "text_content": "1",
+            "word_sequence": [
+                "1"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 52, \"y1\": 606, \"x2\": 217, \"y2\": 724}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "com.easyfitness:id/singlevalueinput_title",
+            "text_content": "Reps",
+            "word_sequence": [
+                "Reps"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 363, \"y1\": 555, \"x2\": 446, \"y2\": 606}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "com.easyfitness:id/singlevalueinput_value",
+            "text_content": "10",
+            "word_sequence": [
+                "10"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 322, \"y1\": 606, \"x2\": 487, \"y2\": 724}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "com.easyfitness:id/singlevalueinput_title",
+            "text_content": "Weight",
+            "word_sequence": [
+                "Weight"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 753, \"y1\": 555, \"x2\": 867, \"y2\": 606}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "com.easyfitness:id/singlevalueinput_value",
+            "text_content": "50",
+            "word_sequence": [
+                "50"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 645, \"y1\": 606, \"x2\": 810, \"y2\": 724}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "android:id/text1",
+            "text_content": "Kg",
+            "word_sequence": [
+                "Kg"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 831, \"y1\": 637, \"x2\": 921, \"y2\": 694}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "",
+            "text_content": "Activate rest countdown",
+            "word_sequence": [
+                "Activate",
+                "rest",
+                "countdown"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 29, \"y1\": 773, \"x2\": 452, \"y2\": 824}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "com.easyfitness:id/restTimeCheckBox",
+            "text_content": "",
+            "word_sequence": [
+                "rest",
+                "Time",
+                "Check",
+                "Box"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 452, \"y1\": 757, \"x2\": 536, \"y2\": 841}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "",
+            "text_content": "Rest time (sec)",
+            "word_sequence": [
+                "Rest",
+                "time",
+                "sec"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 557, \"y1\": 773, \"x2\": 831, \"y2\": 824}"
+        },
+        {
+            "component_id": 26,
+            "resource_id": "com.easyfitness:id/restTimeEditText",
+            "text_content": "60",
+            "word_sequence": [
+                "60"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 831, \"y1\": 740, \"x2\": 1051, \"y2\": 858}"
+        },
+        {
+            "component_id": 27,
+            "resource_id": "com.easyfitness:id/buttonExpandArrow",
+            "text_content": "",
+            "word_sequence": [
+                "Expand",
+                "Arrow"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 8, \"y1\": 874, \"x2\": 1072, \"y2\": 932}"
+        },
+        {
+            "component_id": 28,
+            "resource_id": "com.easyfitness:id/addperff",
+            "text_content": "ADD",
+            "word_sequence": [
+                "ADD"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 21, \"y1\": 961, \"x2\": 1059, \"y2\": 1087}"
+        },
+        {
+            "component_id": 29,
+            "resource_id": "",
+            "text_content": "Last records:",
+            "word_sequence": [
+                "Last",
+                "records",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "8eec307894c7943aa182472e40efa9e820185ac4f995e173171f0cb054f51805",
+            "bounding_box": "{\"x1\": 8, \"y1\": 1108, \"x2\": 1080, \"y2\": 1159}"
+        }
+    ],
+    "c1c28404562274830a81fdbd05c8b023f576853fc475f0f819f1d18ea982768b": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Open navigation drawer",
+            "word_sequence": [
+                "Open",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "c1c28404562274830a81fdbd05c8b023f576853fc475f0f819f1d18ea982768b",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Fast N Fitness",
+            "word_sequence": [
+                "Fast",
+                "N",
+                "Fitness"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "c1c28404562274830a81fdbd05c8b023f576853fc475f0f819f1d18ea982768b",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 527, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/imageProfile",
+            "text_content": "",
+            "word_sequence": [
+                "image",
+                "Profile"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "c1c28404562274830a81fdbd05c8b023f576853fc475f0f819f1d18ea982768b",
+            "bounding_box": "{\"x1\": 744, \"y1\": 83, \"x2\": 849, \"y2\": 190}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/action_chrono",
+            "text_content": "Chronometer",
+            "word_sequence": [
+                "Chronometer"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "c1c28404562274830a81fdbd05c8b023f576853fc475f0f819f1d18ea982768b",
+            "bounding_box": "{\"x1\": 849, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "c1c28404562274830a81fdbd05c8b023f576853fc475f0f819f1d18ea982768b",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "FREE WORKOUT",
+            "word_sequence": [
+                "FREE",
+                "WORKOUT"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "c1c28404562274830a81fdbd05c8b023f576853fc475f0f819f1d18ea982768b",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 311, \"y2\": 336}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "PROGRAM",
+            "word_sequence": [
+                "PROGRAM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "c1c28404562274830a81fdbd05c8b023f576853fc475f0f819f1d18ea982768b",
+            "bounding_box": "{\"x1\": 311, \"y1\": 210, \"x2\": 545, \"y2\": 336}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "GRAPHS",
+            "word_sequence": [
+                "GRAPHS"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "c1c28404562274830a81fdbd05c8b023f576853fc475f0f819f1d18ea982768b",
+            "bounding_box": "{\"x1\": 545, \"y1\": 210, \"x2\": 752, \"y2\": 336}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "HISTORY",
+            "word_sequence": [
+                "HISTORY"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "c1c28404562274830a81fdbd05c8b023f576853fc475f0f819f1d18ea982768b",
+            "bounding_box": "{\"x1\": 752, \"y1\": 210, \"x2\": 964, \"y2\": 336}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "Programs",
+            "word_sequence": [
+                "Programs"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "c1c28404562274830a81fdbd05c8b023f576853fc475f0f819f1d18ea982768b",
+            "bounding_box": "{\"x1\": 21, \"y1\": 371, \"x2\": 182, \"y2\": 422}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.easyfitness:id/programSpinner",
+            "text_content": "",
+            "word_sequence": [
+                "program"
+            ],
+            "type": "SPINNER",
+            "app_name": 1430,
+            "screen_id": "c1c28404562274830a81fdbd05c8b023f576853fc475f0f819f1d18ea982768b",
+            "bounding_box": "{\"x1\": 182, \"y1\": 365, \"x2\": 784, \"y2\": 428}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.easyfitness:id/newProgram",
+            "text_content": "NEW",
+            "word_sequence": [
+                "NEW"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "c1c28404562274830a81fdbd05c8b023f576853fc475f0f819f1d18ea982768b",
+            "bounding_box": "{\"x1\": 784, \"y1\": 357, \"x2\": 916, \"y2\": 436}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "com.easyfitness:id/editProgram",
+            "text_content": "EDIT",
+            "word_sequence": [
+                "EDIT"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "c1c28404562274830a81fdbd05c8b023f576853fc475f0f819f1d18ea982768b",
+            "bounding_box": "{\"x1\": 926, \"y1\": 357, \"x2\": 1054, \"y2\": 436}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.easyfitness:id/startStopProgram",
+            "text_content": "START PROGRAM",
+            "word_sequence": [
+                "START",
+                "PROGRAM"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "c1c28404562274830a81fdbd05c8b023f576853fc475f0f819f1d18ea982768b",
+            "bounding_box": "{\"x1\": 21, \"y1\": 478, \"x2\": 1059, \"y2\": 604}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "com.easyfitness:id/programListTitle",
+            "text_content": "Program preview:",
+            "word_sequence": [
+                "Program",
+                "preview",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "c1c28404562274830a81fdbd05c8b023f576853fc475f0f819f1d18ea982768b",
+            "bounding_box": "{\"x1\": 8, \"y1\": 625, \"x2\": 1080, \"y2\": 676}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "com.easyfitness:id/listProgramEmpty",
+            "text_content": "This program is empty",
+            "word_sequence": [
+                "This",
+                "program",
+                "is",
+                "empty"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "c1c28404562274830a81fdbd05c8b023f576853fc475f0f819f1d18ea982768b",
+            "bounding_box": "{\"x1\": 0, \"y1\": 676, \"x2\": 1080, \"y2\": 727}"
+        }
+    ],
+    "619071017aaf02511eba249a14d110ed75f795fc82b41e3a37dd1777cf8c8f54": [
+        {
+            "component_id": 0,
+            "resource_id": "com.easyfitness:id/title_text",
+            "text_content": "Enter program name",
+            "word_sequence": [
+                "Enter",
+                "program",
+                "name"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "619071017aaf02511eba249a14d110ed75f795fc82b41e3a37dd1777cf8c8f54",
+            "bounding_box": "{\"x1\": 286, \"y1\": 751, \"x2\": 793, \"y2\": 818}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "B",
+            "word_sequence": [
+                "B"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1430,
+            "screen_id": "619071017aaf02511eba249a14d110ed75f795fc82b41e3a37dd1777cf8c8f54",
+            "bounding_box": "{\"x1\": 238, \"y1\": 844, \"x2\": 841, \"y2\": 962}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/cancel_button",
+            "text_content": "Cancel",
+            "word_sequence": [
+                "Cancel"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "619071017aaf02511eba249a14d110ed75f795fc82b41e3a37dd1777cf8c8f54",
+            "bounding_box": "{\"x1\": 271, \"y1\": 988, \"x2\": 518, \"y2\": 1093}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/confirm_button",
+            "text_content": "Ok",
+            "word_sequence": [
+                "Ok"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "619071017aaf02511eba249a14d110ed75f795fc82b41e3a37dd1777cf8c8f54",
+            "bounding_box": "{\"x1\": 584, \"y1\": 988, \"x2\": 807, \"y2\": 1093}"
+        }
+    ],
+    "69e98fecf2e1c2c0ed45252b050538d6530867926d1830667850634734db3854": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "69e98fecf2e1c2c0ed45252b050538d6530867926d1830667850634734db3854",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.easyfitness:id/deleteButton",
+            "text_content": "",
+            "word_sequence": [
+                "delete"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "69e98fecf2e1c2c0ed45252b050538d6530867926d1830667850634734db3854",
+            "bounding_box": "{\"x1\": 933, \"y1\": 63, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "INFO",
+            "word_sequence": [
+                "INFO"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "69e98fecf2e1c2c0ed45252b050538d6530867926d1830667850634734db3854",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 540, \"y2\": 336}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "EDITOR",
+            "word_sequence": [
+                "EDITOR"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "69e98fecf2e1c2c0ed45252b050538d6530867926d1830667850634734db3854",
+            "bounding_box": "{\"x1\": 540, \"y1\": 210, \"x2\": 1080, \"y2\": 336}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.easyfitness:id/valueTextView",
+            "text_content": "B",
+            "word_sequence": [
+                "B"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "69e98fecf2e1c2c0ed45252b050538d6530867926d1830667850634734db3854",
+            "bounding_box": "{\"x1\": 24, \"y1\": 360, \"x2\": 1056, \"y2\": 445}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "Description",
+            "word_sequence": [
+                "Description"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "69e98fecf2e1c2c0ed45252b050538d6530867926d1830667850634734db3854",
+            "bounding_box": "{\"x1\": 24, \"y1\": 458, \"x2\": 187, \"y2\": 501}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.easyfitness:id/valueTextView",
+            "text_content": "",
+            "word_sequence": [
+                "value",
+                "Text",
+                "View"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "69e98fecf2e1c2c0ed45252b050538d6530867926d1830667850634734db3854",
+            "bounding_box": "{\"x1\": 24, \"y1\": 501, \"x2\": 1056, \"y2\": 550}"
+        }
+    ],
+    "381ab9ba8057d1219e934f80c60efa3774bb082487cc9d52b6c305262b27cd3a": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Open navigation drawer",
+            "word_sequence": [
+                "Open",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "381ab9ba8057d1219e934f80c60efa3774bb082487cc9d52b6c305262b27cd3a",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Fast N Fitness",
+            "word_sequence": [
+                "Fast",
+                "N",
+                "Fitness"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "381ab9ba8057d1219e934f80c60efa3774bb082487cc9d52b6c305262b27cd3a",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 527, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/imageProfile",
+            "text_content": "",
+            "word_sequence": [
+                "image",
+                "Profile"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "381ab9ba8057d1219e934f80c60efa3774bb082487cc9d52b6c305262b27cd3a",
+            "bounding_box": "{\"x1\": 744, \"y1\": 83, \"x2\": 849, \"y2\": 190}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/action_chrono",
+            "text_content": "Chronometer",
+            "word_sequence": [
+                "Chronometer"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "381ab9ba8057d1219e934f80c60efa3774bb082487cc9d52b6c305262b27cd3a",
+            "bounding_box": "{\"x1\": 849, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "381ab9ba8057d1219e934f80c60efa3774bb082487cc9d52b6c305262b27cd3a",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "FREE WORKOUT",
+            "word_sequence": [
+                "FREE",
+                "WORKOUT"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "381ab9ba8057d1219e934f80c60efa3774bb082487cc9d52b6c305262b27cd3a",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 311, \"y2\": 336}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "PROGRAM",
+            "word_sequence": [
+                "PROGRAM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "381ab9ba8057d1219e934f80c60efa3774bb082487cc9d52b6c305262b27cd3a",
+            "bounding_box": "{\"x1\": 311, \"y1\": 210, \"x2\": 545, \"y2\": 336}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "GRAPHS",
+            "word_sequence": [
+                "GRAPHS"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "381ab9ba8057d1219e934f80c60efa3774bb082487cc9d52b6c305262b27cd3a",
+            "bounding_box": "{\"x1\": 545, \"y1\": 210, \"x2\": 752, \"y2\": 336}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "HISTORY",
+            "word_sequence": [
+                "HISTORY"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "381ab9ba8057d1219e934f80c60efa3774bb082487cc9d52b6c305262b27cd3a",
+            "bounding_box": "{\"x1\": 752, \"y1\": 210, \"x2\": 964, \"y2\": 336}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "Programs",
+            "word_sequence": [
+                "Programs"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "381ab9ba8057d1219e934f80c60efa3774bb082487cc9d52b6c305262b27cd3a",
+            "bounding_box": "{\"x1\": 21, \"y1\": 371, \"x2\": 182, \"y2\": 422}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/text1",
+            "text_content": "B",
+            "word_sequence": [
+                "B"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "381ab9ba8057d1219e934f80c60efa3774bb082487cc9d52b6c305262b27cd3a",
+            "bounding_box": "{\"x1\": 182, \"y1\": 368, \"x2\": 658, \"y2\": 425}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.easyfitness:id/newProgram",
+            "text_content": "NEW",
+            "word_sequence": [
+                "NEW"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "381ab9ba8057d1219e934f80c60efa3774bb082487cc9d52b6c305262b27cd3a",
+            "bounding_box": "{\"x1\": 784, \"y1\": 357, \"x2\": 916, \"y2\": 436}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "com.easyfitness:id/editProgram",
+            "text_content": "EDIT",
+            "word_sequence": [
+                "EDIT"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "381ab9ba8057d1219e934f80c60efa3774bb082487cc9d52b6c305262b27cd3a",
+            "bounding_box": "{\"x1\": 926, \"y1\": 357, \"x2\": 1054, \"y2\": 436}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.easyfitness:id/startStopProgram",
+            "text_content": "START PROGRAM",
+            "word_sequence": [
+                "START",
+                "PROGRAM"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "381ab9ba8057d1219e934f80c60efa3774bb082487cc9d52b6c305262b27cd3a",
+            "bounding_box": "{\"x1\": 21, \"y1\": 478, \"x2\": 1059, \"y2\": 604}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "com.easyfitness:id/programListTitle",
+            "text_content": "Program preview:",
+            "word_sequence": [
+                "Program",
+                "preview",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "381ab9ba8057d1219e934f80c60efa3774bb082487cc9d52b6c305262b27cd3a",
+            "bounding_box": "{\"x1\": 8, \"y1\": 625, \"x2\": 1080, \"y2\": 676}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "com.easyfitness:id/listProgramEmpty",
+            "text_content": "This program is empty",
+            "word_sequence": [
+                "This",
+                "program",
+                "is",
+                "empty"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "381ab9ba8057d1219e934f80c60efa3774bb082487cc9d52b6c305262b27cd3a",
+            "bounding_box": "{\"x1\": 0, \"y1\": 676, \"x2\": 1080, \"y2\": 727}"
+        }
+    ],
+    "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Open navigation drawer",
+            "word_sequence": [
+                "Open",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Fast N Fitness",
+            "word_sequence": [
+                "Fast",
+                "N",
+                "Fitness"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 527, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/imageProfile",
+            "text_content": "",
+            "word_sequence": [
+                "image",
+                "Profile"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 744, \"y1\": 83, \"x2\": 849, \"y2\": 190}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/action_chrono",
+            "text_content": "Chronometer",
+            "word_sequence": [
+                "Chronometer"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 849, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "FREE WORKOUT",
+            "word_sequence": [
+                "FREE",
+                "WORKOUT"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 311, \"y2\": 336}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "PROGRAM",
+            "word_sequence": [
+                "PROGRAM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 311, \"y1\": 210, \"x2\": 545, \"y2\": 336}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "GRAPHS",
+            "word_sequence": [
+                "GRAPHS"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 545, \"y1\": 210, \"x2\": 752, \"y2\": 336}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "HISTORY",
+            "word_sequence": [
+                "HISTORY"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 752, \"y1\": 210, \"x2\": 964, \"y2\": 336}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "Programs",
+            "word_sequence": [
+                "Programs"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 21, \"y1\": 371, \"x2\": 182, \"y2\": 422}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/text1",
+            "text_content": "B",
+            "word_sequence": [
+                "B"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 182, \"y1\": 368, \"x2\": 658, \"y2\": 425}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.easyfitness:id/newProgram",
+            "text_content": "NEW",
+            "word_sequence": [
+                "NEW"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 784, \"y1\": 357, \"x2\": 916, \"y2\": 436}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "com.easyfitness:id/editProgram",
+            "text_content": "EDIT",
+            "word_sequence": [
+                "EDIT"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 926, \"y1\": 357, \"x2\": 1054, \"y2\": 436}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.easyfitness:id/startStopProgram",
+            "text_content": "FINISH PROGRAM",
+            "word_sequence": [
+                "FINISH",
+                "PROGRAM"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 21, \"y1\": 478, \"x2\": 1059, \"y2\": 604}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "com.easyfitness:id/programListTitle",
+            "text_content": "Program ongoing:",
+            "word_sequence": [
+                "Program",
+                "ongoing",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 8, \"y1\": 625, \"x2\": 1080, \"y2\": 676}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "com.easyfitness:id/listProgramEmpty",
+            "text_content": "This program is empty",
+            "word_sequence": [
+                "This",
+                "program",
+                "is",
+                "empty"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 0, \"y1\": 676, \"x2\": 1080, \"y2\": 727}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "com.easyfitness:id/header_icon",
+            "text_content": "",
+            "word_sequence": [
+                "header",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 13, \"y1\": 76, \"x2\": 118, \"y2\": 183}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "com.easyfitness:id/drawerTitle",
+            "text_content": "a",
+            "word_sequence": [
+                "a"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 131, \"y1\": 90, \"x2\": 630, \"y2\": 168}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "com.easyfitness:id/drawer_icon",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 13, \"y1\": 208, \"x2\": 118, \"y2\": 313}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "com.easyfitness:id/drawer_itemName",
+            "text_content": "Workout",
+            "word_sequence": [
+                "Workout"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 131, \"y1\": 221, \"x2\": 630, \"y2\": 299}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "com.easyfitness:id/drawer_icon",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 13, \"y1\": 338, \"x2\": 118, \"y2\": 443}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "com.easyfitness:id/drawer_itemName",
+            "text_content": "Exercises",
+            "word_sequence": [
+                "Exercises"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 131, \"y1\": 351, \"x2\": 630, \"y2\": 429}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "com.easyfitness:id/drawer_icon",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 13, \"y1\": 468, \"x2\": 118, \"y2\": 573}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "com.easyfitness:id/drawer_itemName",
+            "text_content": "Programs List",
+            "word_sequence": [
+                "Programs",
+                "List"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 131, \"y1\": 481, \"x2\": 630, \"y2\": 559}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "com.easyfitness:id/drawer_icon",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 13, \"y1\": 598, \"x2\": 118, \"y2\": 703}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "com.easyfitness:id/drawer_itemName",
+            "text_content": "Weight Track",
+            "word_sequence": [
+                "Weight",
+                "Track"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 131, \"y1\": 611, \"x2\": 630, \"y2\": 689}"
+        },
+        {
+            "component_id": 26,
+            "resource_id": "com.easyfitness:id/drawer_icon",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 13, \"y1\": 728, \"x2\": 118, \"y2\": 833}"
+        },
+        {
+            "component_id": 27,
+            "resource_id": "com.easyfitness:id/drawer_itemName",
+            "text_content": "Body Track",
+            "word_sequence": [
+                "Body",
+                "Track"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 131, \"y1\": 741, \"x2\": 630, \"y2\": 819}"
+        },
+        {
+            "component_id": 28,
+            "resource_id": "com.easyfitness:id/drawer_icon",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 13, \"y1\": 858, \"x2\": 118, \"y2\": 963}"
+        },
+        {
+            "component_id": 29,
+            "resource_id": "com.easyfitness:id/drawer_itemName",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 131, \"y1\": 871, \"x2\": 630, \"y2\": 949}"
+        },
+        {
+            "component_id": 30,
+            "resource_id": "com.easyfitness:id/drawer_icon",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 13, \"y1\": 988, \"x2\": 118, \"y2\": 1093}"
+        },
+        {
+            "component_id": 31,
+            "resource_id": "com.easyfitness:id/drawer_itemName",
+            "text_content": "About",
+            "word_sequence": [
+                "About"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "cd378f22337c31f8a6d517dae1312a717dc6d7e0b77bcbba2203effefb7a84d9",
+            "bounding_box": "{\"x1\": 131, \"y1\": 1001, \"x2\": 630, \"y2\": 1079}"
+        }
+    ],
+    "1028307269f806ebb470f3110f14bef3ea372c58d1d649c2511c03d189d5be9d": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Open navigation drawer",
+            "word_sequence": [
+                "Open",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "1028307269f806ebb470f3110f14bef3ea372c58d1d649c2511c03d189d5be9d",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Program list",
+            "word_sequence": [
+                "Program",
+                "list"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "1028307269f806ebb470f3110f14bef3ea372c58d1d649c2511c03d189d5be9d",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 480, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/imageProfile",
+            "text_content": "",
+            "word_sequence": [
+                "image",
+                "Profile"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "1028307269f806ebb470f3110f14bef3ea372c58d1d649c2511c03d189d5be9d",
+            "bounding_box": "{\"x1\": 744, \"y1\": 83, \"x2\": 849, \"y2\": 190}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/action_chrono",
+            "text_content": "Chronometer",
+            "word_sequence": [
+                "Chronometer"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "1028307269f806ebb470f3110f14bef3ea372c58d1d649c2511c03d189d5be9d",
+            "bounding_box": "{\"x1\": 849, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "1028307269f806ebb470f3110f14bef3ea372c58d1d649c2511c03d189d5be9d",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.easyfitness:id/newWorkout",
+            "text_content": "NEW PROGRAM",
+            "word_sequence": [
+                "NEW",
+                "PROGRAM"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "1028307269f806ebb470f3110f14bef3ea372c58d1d649c2511c03d189d5be9d",
+            "bounding_box": "{\"x1\": 21, \"y1\": 231, \"x2\": 1059, \"y2\": 357}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.easyfitness:id/searchField",
+            "text_content": "Filter by program name",
+            "word_sequence": [
+                "Filter",
+                "by",
+                "program",
+                "name"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1430,
+            "screen_id": "1028307269f806ebb470f3110f14bef3ea372c58d1d649c2511c03d189d5be9d",
+            "bounding_box": "{\"x1\": 0, \"y1\": 378, \"x2\": 1080, \"y2\": 496}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.easyfitness:id/LIST_WORKOUT_NAME",
+            "text_content": "B",
+            "word_sequence": [
+                "B"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "1028307269f806ebb470f3110f14bef3ea372c58d1d649c2511c03d189d5be9d",
+            "bounding_box": "{\"x1\": 16, \"y1\": 512, \"x2\": 1064, \"y2\": 578}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.easyfitness:id/LIST_WORKOUT_DESCRIPTION",
+            "text_content": "",
+            "word_sequence": [
+                "LIST",
+                "WORKOUT",
+                "DESCRIPTION"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "1028307269f806ebb470f3110f14bef3ea372c58d1d649c2511c03d189d5be9d",
+            "bounding_box": "{\"x1\": 16, \"y1\": 578, \"x2\": 1064, \"y2\": 630}"
+        }
+    ],
+    "487a250d6b72e970336d11808394b9b523c564e291d00a91b6a3ea3c89c4d08b": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "Confirm",
+            "word_sequence": [
+                "Confirm"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "487a250d6b72e970336d11808394b9b523c564e291d00a91b6a3ea3c89c4d08b",
+            "bounding_box": "{\"x1\": 133, \"y1\": 769, \"x2\": 947, \"y2\": 840}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/titleDividerNoCustom",
+            "text_content": "",
+            "word_sequence": [
+                "title",
+                "Divider",
+                "No",
+                "Custom"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1430,
+            "screen_id": "487a250d6b72e970336d11808394b9b523c564e291d00a91b6a3ea3c89c4d08b",
+            "bounding_box": "{\"x1\": 70, \"y1\": 840, \"x2\": 1010, \"y2\": 861}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/message",
+            "text_content": "Do you want to delete this program?",
+            "word_sequence": [
+                "Do",
+                "you",
+                "want",
+                "to",
+                "delete",
+                "this",
+                "program",
+                "?"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "487a250d6b72e970336d11808394b9b523c564e291d00a91b6a3ea3c89c4d08b",
+            "bounding_box": "{\"x1\": 70, \"y1\": 861, \"x2\": 1010, \"y2\": 918}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/button2",
+            "text_content": "NO",
+            "word_sequence": [
+                "NO"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "487a250d6b72e970336d11808394b9b523c564e291d00a91b6a3ea3c89c4d08b",
+            "bounding_box": "{\"x1\": 642, \"y1\": 998, \"x2\": 810, \"y2\": 1124}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/button1",
+            "text_content": "YES",
+            "word_sequence": [
+                "YES"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "487a250d6b72e970336d11808394b9b523c564e291d00a91b6a3ea3c89c4d08b",
+            "bounding_box": "{\"x1\": 810, \"y1\": 998, \"x2\": 978, \"y2\": 1124}"
+        }
+    ],
+    "f99d3c4a5c9ac26b2efe112dda6d07b5db63133336f2d030ae2956824b72a098": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Open navigation drawer",
+            "word_sequence": [
+                "Open",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "f99d3c4a5c9ac26b2efe112dda6d07b5db63133336f2d030ae2956824b72a098",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Program list",
+            "word_sequence": [
+                "Program",
+                "list"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "f99d3c4a5c9ac26b2efe112dda6d07b5db63133336f2d030ae2956824b72a098",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 480, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/imageProfile",
+            "text_content": "",
+            "word_sequence": [
+                "image",
+                "Profile"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "f99d3c4a5c9ac26b2efe112dda6d07b5db63133336f2d030ae2956824b72a098",
+            "bounding_box": "{\"x1\": 744, \"y1\": 83, \"x2\": 849, \"y2\": 190}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/action_chrono",
+            "text_content": "Chronometer",
+            "word_sequence": [
+                "Chronometer"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "f99d3c4a5c9ac26b2efe112dda6d07b5db63133336f2d030ae2956824b72a098",
+            "bounding_box": "{\"x1\": 849, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "f99d3c4a5c9ac26b2efe112dda6d07b5db63133336f2d030ae2956824b72a098",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.easyfitness:id/newWorkout",
+            "text_content": "NEW PROGRAM",
+            "word_sequence": [
+                "NEW",
+                "PROGRAM"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "f99d3c4a5c9ac26b2efe112dda6d07b5db63133336f2d030ae2956824b72a098",
+            "bounding_box": "{\"x1\": 21, \"y1\": 231, \"x2\": 1059, \"y2\": 357}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.easyfitness:id/searchField",
+            "text_content": "Filter by program name",
+            "word_sequence": [
+                "Filter",
+                "by",
+                "program",
+                "name"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1430,
+            "screen_id": "f99d3c4a5c9ac26b2efe112dda6d07b5db63133336f2d030ae2956824b72a098",
+            "bounding_box": "{\"x1\": 0, \"y1\": 378, \"x2\": 1080, \"y2\": 496}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.easyfitness:id/listWorkout",
+            "text_content": "",
+            "word_sequence": [
+                "list",
+                "Workout"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1430,
+            "screen_id": "f99d3c4a5c9ac26b2efe112dda6d07b5db63133336f2d030ae2956824b72a098",
+            "bounding_box": "{\"x1\": 0, \"y1\": 496, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Open navigation drawer",
+            "word_sequence": [
+                "Open",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Program list",
+            "word_sequence": [
+                "Program",
+                "list"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 480, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.easyfitness:id/imageProfile",
+            "text_content": "",
+            "word_sequence": [
+                "image",
+                "Profile"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 744, \"y1\": 83, \"x2\": 849, \"y2\": 190}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.easyfitness:id/action_chrono",
+            "text_content": "Chronometer",
+            "word_sequence": [
+                "Chronometer"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 849, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.easyfitness:id/newWorkout",
+            "text_content": "NEW PROGRAM",
+            "word_sequence": [
+                "NEW",
+                "PROGRAM"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 21, \"y1\": 231, \"x2\": 1059, \"y2\": 357}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.easyfitness:id/searchField",
+            "text_content": "Filter by program name",
+            "word_sequence": [
+                "Filter",
+                "by",
+                "program",
+                "name"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 0, \"y1\": 378, \"x2\": 1080, \"y2\": 496}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.easyfitness:id/listWorkout",
+            "text_content": "",
+            "word_sequence": [
+                "list",
+                "Workout"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 0, \"y1\": 496, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.easyfitness:id/header_icon",
+            "text_content": "",
+            "word_sequence": [
+                "header",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 13, \"y1\": 76, \"x2\": 118, \"y2\": 183}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.easyfitness:id/drawerTitle",
+            "text_content": "a",
+            "word_sequence": [
+                "a"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 131, \"y1\": 90, \"x2\": 630, \"y2\": 168}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.easyfitness:id/drawer_icon",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 13, \"y1\": 208, \"x2\": 118, \"y2\": 313}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.easyfitness:id/drawer_itemName",
+            "text_content": "Workout",
+            "word_sequence": [
+                "Workout"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 131, \"y1\": 221, \"x2\": 630, \"y2\": 299}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "com.easyfitness:id/drawer_icon",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 13, \"y1\": 338, \"x2\": 118, \"y2\": 443}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.easyfitness:id/drawer_itemName",
+            "text_content": "Exercises",
+            "word_sequence": [
+                "Exercises"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 131, \"y1\": 351, \"x2\": 630, \"y2\": 429}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "com.easyfitness:id/drawer_icon",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 13, \"y1\": 468, \"x2\": 118, \"y2\": 573}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "com.easyfitness:id/drawer_itemName",
+            "text_content": "Programs List",
+            "word_sequence": [
+                "Programs",
+                "List"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 131, \"y1\": 481, \"x2\": 630, \"y2\": 559}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "com.easyfitness:id/drawer_icon",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 13, \"y1\": 598, \"x2\": 118, \"y2\": 703}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "com.easyfitness:id/drawer_itemName",
+            "text_content": "Weight Track",
+            "word_sequence": [
+                "Weight",
+                "Track"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 131, \"y1\": 611, \"x2\": 630, \"y2\": 689}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "com.easyfitness:id/drawer_icon",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 13, \"y1\": 728, \"x2\": 118, \"y2\": 833}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "com.easyfitness:id/drawer_itemName",
+            "text_content": "Body Track",
+            "word_sequence": [
+                "Body",
+                "Track"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 131, \"y1\": 741, \"x2\": 630, \"y2\": 819}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "com.easyfitness:id/drawer_icon",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 13, \"y1\": 858, \"x2\": 118, \"y2\": 963}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "com.easyfitness:id/drawer_itemName",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 131, \"y1\": 871, \"x2\": 630, \"y2\": 949}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "com.easyfitness:id/drawer_icon",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 13, \"y1\": 988, \"x2\": 118, \"y2\": 1093}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "com.easyfitness:id/drawer_itemName",
+            "text_content": "About",
+            "word_sequence": [
+                "About"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d",
+            "bounding_box": "{\"x1\": 131, \"y1\": 1001, \"x2\": 630, \"y2\": 1079}"
+        }
+    ],
+    "d39c2c754950166798705365a33ee5104463a282c70fbcd711ff3d9f25a7e75b": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "Fast N Fitness has stopped",
+            "word_sequence": [
+                "Fast",
+                "N",
+                "Fitness",
+                "has",
+                "stopped"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "d39c2c754950166798705365a33ee5104463a282c70fbcd711ff3d9f25a7e75b",
+            "bounding_box": "{\"x1\": 133, \"y1\": 827, \"x2\": 947, \"y2\": 890}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/aerr_restart",
+            "text_content": "Open app again",
+            "word_sequence": [
+                "Open",
+                "app",
+                "again"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "d39c2c754950166798705365a33ee5104463a282c70fbcd711ff3d9f25a7e75b",
+            "bounding_box": "{\"x1\": 70, \"y1\": 929, \"x2\": 1010, \"y2\": 1055}"
+        }
+    ],
+    "bf8ce597a165d063465dfa0a76e9184cdcd6593596885753e8d2808b1ef505e1": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "Fast N Fitness keeps stopping",
+            "word_sequence": [
+                "Fast",
+                "N",
+                "Fitness",
+                "keeps",
+                "stopping"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "bf8ce597a165d063465dfa0a76e9184cdcd6593596885753e8d2808b1ef505e1",
+            "bounding_box": "{\"x1\": 133, \"y1\": 764, \"x2\": 947, \"y2\": 827}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/aerr_restart",
+            "text_content": "Open app again",
+            "word_sequence": [
+                "Open",
+                "app",
+                "again"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "bf8ce597a165d063465dfa0a76e9184cdcd6593596885753e8d2808b1ef505e1",
+            "bounding_box": "{\"x1\": 70, \"y1\": 866, \"x2\": 1010, \"y2\": 992}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/aerr_close",
+            "text_content": "Close app",
+            "word_sequence": [
+                "Close",
+                "app"
+            ],
+            "type": "BUTTON",
+            "app_name": 1430,
+            "screen_id": "bf8ce597a165d063465dfa0a76e9184cdcd6593596885753e8d2808b1ef505e1",
+            "bounding_box": "{\"x1\": 70, \"y1\": 992, \"x2\": 1010, \"y2\": 1118}"
+        }
+    ],
+    "38c9fed329262124ab735299eefded0a8b4b93154ea30de5d7b0f47c15105181": [
+        {
+            "component_id": 0,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/clock",
+            "text_content": "Monday, Jul 11 Monday, Jul 11",
+            "word_sequence": [
+                "Monday",
+                ",",
+                "Jul",
+                "11"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "38c9fed329262124ab735299eefded0a8b4b93154ea30de5d7b0f47c15105181",
+            "bounding_box": "{\"x1\": 303, \"y1\": 84, \"x2\": 777, \"y2\": 346}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1430,
+            "screen_id": "38c9fed329262124ab735299eefded0a8b4b93154ea30de5d7b0f47c15105181",
+            "bounding_box": "{\"x1\": 35, \"y1\": 84, \"x2\": 268, \"y2\": 377}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/gradient_bg",
+            "text_content": "",
+            "word_sequence": [
+                "gradient",
+                "bg"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1430,
+            "screen_id": "38c9fed329262124ab735299eefded0a8b4b93154ea30de5d7b0f47c15105181",
+            "bounding_box": "{\"x1\": 0, \"y1\": 0, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/all_apps_handle",
+            "text_content": "Apps list",
+            "word_sequence": [
+                "Apps",
+                "list"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "38c9fed329262124ab735299eefded0a8b4b93154ea30de5d7b0f47c15105181",
+            "bounding_box": "{\"x1\": 477, \"y1\": 1395, \"x2\": 603, \"y2\": 1479}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1430,
+            "screen_id": "38c9fed329262124ab735299eefded0a8b4b93154ea30de5d7b0f47c15105181",
+            "bounding_box": "{\"x1\": 35, \"y1\": 1479, \"x2\": 268, \"y2\": 1694}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "Phone Phone",
+            "word_sequence": [
+                "Phone"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "38c9fed329262124ab735299eefded0a8b4b93154ea30de5d7b0f47c15105181",
+            "bounding_box": "{\"x1\": 35, \"y1\": 1479, \"x2\": 237, \"y2\": 1663}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "Messages Messages",
+            "word_sequence": [
+                "Messages"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "38c9fed329262124ab735299eefded0a8b4b93154ea30de5d7b0f47c15105181",
+            "bounding_box": "{\"x1\": 237, \"y1\": 1479, \"x2\": 439, \"y2\": 1663}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "Chrome Chrome",
+            "word_sequence": [
+                "Chrome"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "38c9fed329262124ab735299eefded0a8b4b93154ea30de5d7b0f47c15105181",
+            "bounding_box": "{\"x1\": 641, \"y1\": 1479, \"x2\": 843, \"y2\": 1663}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/g_icon",
+            "text_content": "",
+            "word_sequence": [
+                "g",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "38c9fed329262124ab735299eefded0a8b4b93154ea30de5d7b0f47c15105181",
+            "bounding_box": "{\"x1\": 93, \"y1\": 1695, \"x2\": 178, \"y2\": 1780}"
+        }
+    ],
+    "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978": [
+        {
+            "component_id": 0,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/workspace",
+            "text_content": "",
+            "word_sequence": [
+                "workspace"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 0, \"y1\": 0, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/search_box_input",
+            "text_content": "  Search apps",
+            "word_sequence": [
+                "Search",
+                "apps"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 21, \"y1\": 74, \"x2\": 1059, \"y2\": 200}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 42, \"y1\": 197, \"x2\": 1038, \"y2\": 200}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 860, \"y1\": 783, \"x2\": 1038, \"y2\": 961}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Photos Photos",
+            "word_sequence": [
+                "Photos"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 35, \"y1\": 200, \"x2\": 237, \"y2\": 462}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Maps Maps",
+            "word_sequence": [
+                "Maps"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 237, \"y1\": 200, \"x2\": 439, \"y2\": 462}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Gmail Gmail",
+            "word_sequence": [
+                "Gmail"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 439, \"y1\": 200, \"x2\": 641, \"y2\": 462}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Messages Messages",
+            "word_sequence": [
+                "Messages"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 641, \"y1\": 200, \"x2\": 843, \"y2\": 462}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Fast N Fitness Fast N Fitness",
+            "word_sequence": [
+                "Fast",
+                "N",
+                "Fitness"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 843, \"y1\": 200, \"x2\": 1045, \"y2\": 462}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 35, \"y1\": 462, \"x2\": 1045, \"y2\": 507}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Calculator Calculator",
+            "word_sequence": [
+                "Calculator"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 35, \"y1\": 507, \"x2\": 237, \"y2\": 769}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Calendar Calendar",
+            "word_sequence": [
+                "Calendar"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 237, \"y1\": 507, \"x2\": 439, \"y2\": 769}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Camera Camera",
+            "word_sequence": [
+                "Camera"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 439, \"y1\": 507, \"x2\": 641, \"y2\": 769}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Chrome Chrome",
+            "word_sequence": [
+                "Chrome"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 641, \"y1\": 507, \"x2\": 843, \"y2\": 769}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Clock Clock",
+            "word_sequence": [
+                "Clock"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 843, \"y1\": 507, \"x2\": 1045, \"y2\": 769}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Contacts Contacts",
+            "word_sequence": [
+                "Contacts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 35, \"y1\": 769, \"x2\": 237, \"y2\": 1031}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Custom Locale Custom Locale",
+            "word_sequence": [
+                "Custom",
+                "Locale"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 237, \"y1\": 769, \"x2\": 439, \"y2\": 1031}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Dev Tools Dev Tools",
+            "word_sequence": [
+                "Dev",
+                "Tools"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 439, \"y1\": 769, \"x2\": 641, \"y2\": 1031}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Drive Drive",
+            "word_sequence": [
+                "Drive"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 641, \"y1\": 769, \"x2\": 843, \"y2\": 1031}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Fast N Fitness Fast N Fitness",
+            "word_sequence": [
+                "Fast",
+                "N",
+                "Fitness"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 843, \"y1\": 769, \"x2\": 1045, \"y2\": 1031}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Files Files",
+            "word_sequence": [
+                "Files"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 35, \"y1\": 1031, \"x2\": 237, \"y2\": 1293}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Gmail Gmail",
+            "word_sequence": [
+                "Gmail"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 237, \"y1\": 1031, \"x2\": 439, \"y2\": 1293}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Google Google",
+            "word_sequence": [
+                "Google"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 439, \"y1\": 1031, \"x2\": 641, \"y2\": 1293}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Maps Maps",
+            "word_sequence": [
+                "Maps"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 641, \"y1\": 1031, \"x2\": 843, \"y2\": 1293}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Messages Messages",
+            "word_sequence": [
+                "Messages"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 843, \"y1\": 1031, \"x2\": 1045, \"y2\": 1293}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Phone Phone",
+            "word_sequence": [
+                "Phone"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 35, \"y1\": 1293, \"x2\": 237, \"y2\": 1555}"
+        },
+        {
+            "component_id": 26,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Photos Photos",
+            "word_sequence": [
+                "Photos"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 237, \"y1\": 1293, \"x2\": 439, \"y2\": 1555}"
+        },
+        {
+            "component_id": 27,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Play Movies & TV Play Movies & TV",
+            "word_sequence": [
+                "Play",
+                "Movies",
+                "TV"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 439, \"y1\": 1293, \"x2\": 641, \"y2\": 1555}"
+        },
+        {
+            "component_id": 28,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Play Music Play Music",
+            "word_sequence": [
+                "Play",
+                "Music"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 641, \"y1\": 1293, \"x2\": 843, \"y2\": 1555}"
+        },
+        {
+            "component_id": 29,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "Settings Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 843, \"y1\": 1293, \"x2\": 1045, \"y2\": 1555}"
+        },
+        {
+            "component_id": 30,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "UIAutomator Test App UIAutomator Test App",
+            "word_sequence": [
+                "UIAutomator",
+                "Test",
+                "App"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 35, \"y1\": 1555, \"x2\": 237, \"y2\": 1794}"
+        },
+        {
+            "component_id": 31,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "WebView Browser Tester WebView Browser Tester",
+            "word_sequence": [
+                "WebView",
+                "Browser",
+                "Tester"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 237, \"y1\": 1555, \"x2\": 439, \"y2\": 1794}"
+        },
+        {
+            "component_id": 32,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/icon",
+            "text_content": "YouTube YouTube",
+            "word_sequence": [
+                "YouTube"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 439, \"y1\": 1555, \"x2\": 641, \"y2\": 1794}"
+        },
+        {
+            "component_id": 33,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/fast_scroller",
+            "text_content": "",
+            "word_sequence": [
+                "fast",
+                "scroller"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 996, \"y1\": 200, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 34,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/reveal_view",
+            "text_content": "",
+            "word_sequence": [
+                "reveal",
+                "view"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 0, \"y1\": 0, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 36,
+            "resource_id": "com.google.android.apps.nexuslauncher:id/gradient_bg",
+            "text_content": "",
+            "word_sequence": [
+                "gradient",
+                "bg"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1430,
+            "screen_id": "72f9579e9fdb01bf7ff8578bf62236406cbe58103b9d9cf2785b85d86e0b1978",
+            "bounding_box": "{\"x1\": 0, \"y1\": 0, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ]
+}

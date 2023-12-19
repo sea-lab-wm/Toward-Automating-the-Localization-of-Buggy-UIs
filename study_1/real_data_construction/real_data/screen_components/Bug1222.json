@@ -1,0 +1,2433 @@
+{
+    "app-name": 1222,
+    "d0e4eb7d699f24028ea9ee4f7c2d1c983489089674ff75b4f5cfc8f617910bff": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Setup GnuCash",
+            "word_sequence": [
+                "Setup",
+                "GnuCash"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "d0e4eb7d699f24028ea9ee4f7c2d1c983489089674ff75b4f5cfc8f617910bff",
+            "bounding_box": "{\"x1\": 42, \"y1\": 101, \"x2\": 406, \"y2\": 172}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.gnucash.android:id/strip",
+            "text_content": "",
+            "word_sequence": [
+                "strip"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1222,
+            "screen_id": "d0e4eb7d699f24028ea9ee4f7c2d1c983489089674ff75b4f5cfc8f617910bff",
+            "bounding_box": "{\"x1\": 42, \"y1\": 210, \"x2\": 1038, \"y2\": 281}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/title",
+            "text_content": "Welcome to GnuCash",
+            "word_sequence": [
+                "Welcome",
+                "to",
+                "GnuCash"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "d0e4eb7d699f24028ea9ee4f7c2d1c983489089674ff75b4f5cfc8f617910bff",
+            "bounding_box": "{\"x1\": 42, \"y1\": 669, \"x2\": 1038, \"y2\": 907}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Before you dive in, \nlet's setup a few things first\n\nTo continue, press Next",
+            "word_sequence": [
+                "Before",
+                "you",
+                "dive",
+                "in",
+                ",",
+                "let's",
+                "setup",
+                "a",
+                "few",
+                "things",
+                "first",
+                "To",
+                "continue",
+                ",",
+                "press",
+                "Next"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "d0e4eb7d699f24028ea9ee4f7c2d1c983489089674ff75b4f5cfc8f617910bff",
+            "bounding_box": "{\"x1\": 42, \"y1\": 960, \"x2\": 1038, \"y2\": 1264}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.gnucash.android:id/btn_save",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "d0e4eb7d699f24028ea9ee4f7c2d1c983489089674ff75b4f5cfc8f617910bff",
+            "bounding_box": "{\"x1\": 540, \"y1\": 1668, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "7032daa796222515d943ea80cbff63210be94d2b8faafa7a32dd82b88255e37a": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Setup GnuCash",
+            "word_sequence": [
+                "Setup",
+                "GnuCash"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "7032daa796222515d943ea80cbff63210be94d2b8faafa7a32dd82b88255e37a",
+            "bounding_box": "{\"x1\": 42, \"y1\": 101, \"x2\": 406, \"y2\": 172}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.gnucash.android:id/strip",
+            "text_content": "",
+            "word_sequence": [
+                "strip"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1222,
+            "screen_id": "7032daa796222515d943ea80cbff63210be94d2b8faafa7a32dd82b88255e37a",
+            "bounding_box": "{\"x1\": 42, \"y1\": 210, \"x2\": 1038, \"y2\": 281}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/title",
+            "text_content": "Default Currency",
+            "word_sequence": [
+                "Default",
+                "Currency"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "7032daa796222515d943ea80cbff63210be94d2b8faafa7a32dd82b88255e37a",
+            "bounding_box": "{\"x1\": 42, \"y1\": 281, \"x2\": 1038, \"y2\": 408}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/text1",
+            "text_content": "CHF",
+            "word_sequence": [
+                "CHF"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "7032daa796222515d943ea80cbff63210be94d2b8faafa7a32dd82b88255e37a",
+            "bounding_box": "{\"x1\": 42, \"y1\": 429, \"x2\": 1027, \"y2\": 555}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/text1",
+            "text_content": "EUR",
+            "word_sequence": [
+                "EUR"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "7032daa796222515d943ea80cbff63210be94d2b8faafa7a32dd82b88255e37a",
+            "bounding_box": "{\"x1\": 42, \"y1\": 558, \"x2\": 1027, \"y2\": 684}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/text1",
+            "text_content": "GBP",
+            "word_sequence": [
+                "GBP"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "7032daa796222515d943ea80cbff63210be94d2b8faafa7a32dd82b88255e37a",
+            "bounding_box": "{\"x1\": 42, \"y1\": 687, \"x2\": 1027, \"y2\": 813}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/text1",
+            "text_content": "USD",
+            "word_sequence": [
+                "USD"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "7032daa796222515d943ea80cbff63210be94d2b8faafa7a32dd82b88255e37a",
+            "bounding_box": "{\"x1\": 42, \"y1\": 816, \"x2\": 1027, \"y2\": 942}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/text1",
+            "text_content": "Other\u2026",
+            "word_sequence": [
+                "Other"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "7032daa796222515d943ea80cbff63210be94d2b8faafa7a32dd82b88255e37a",
+            "bounding_box": "{\"x1\": 42, \"y1\": 945, \"x2\": 1027, \"y2\": 1071}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.gnucash.android:id/btn_cancel",
+            "text_content": "Back",
+            "word_sequence": [
+                "Back"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "7032daa796222515d943ea80cbff63210be94d2b8faafa7a32dd82b88255e37a",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1668, \"x2\": 540, \"y2\": 1794}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.gnucash.android:id/btn_save",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "7032daa796222515d943ea80cbff63210be94d2b8faafa7a32dd82b88255e37a",
+            "bounding_box": "{\"x1\": 540, \"y1\": 1668, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "3c3ca205a0c6230f7ebe2eaf0e11cba423917910fd5bf38346646e37e463aad7": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Setup GnuCash",
+            "word_sequence": [
+                "Setup",
+                "GnuCash"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "3c3ca205a0c6230f7ebe2eaf0e11cba423917910fd5bf38346646e37e463aad7",
+            "bounding_box": "{\"x1\": 42, \"y1\": 101, \"x2\": 406, \"y2\": 172}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.gnucash.android:id/strip",
+            "text_content": "",
+            "word_sequence": [
+                "strip"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1222,
+            "screen_id": "3c3ca205a0c6230f7ebe2eaf0e11cba423917910fd5bf38346646e37e463aad7",
+            "bounding_box": "{\"x1\": 42, \"y1\": 210, \"x2\": 1038, \"y2\": 281}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/title",
+            "text_content": "Account Setup",
+            "word_sequence": [
+                "Account",
+                "Setup"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "3c3ca205a0c6230f7ebe2eaf0e11cba423917910fd5bf38346646e37e463aad7",
+            "bounding_box": "{\"x1\": 42, \"y1\": 281, \"x2\": 1038, \"y2\": 408}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/text1",
+            "text_content": "Create default accounts",
+            "word_sequence": [
+                "Create",
+                "default",
+                "accounts"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "3c3ca205a0c6230f7ebe2eaf0e11cba423917910fd5bf38346646e37e463aad7",
+            "bounding_box": "{\"x1\": 42, \"y1\": 429, \"x2\": 1027, \"y2\": 555}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/text1",
+            "text_content": "Import my accounts",
+            "word_sequence": [
+                "Import",
+                "my",
+                "accounts"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "3c3ca205a0c6230f7ebe2eaf0e11cba423917910fd5bf38346646e37e463aad7",
+            "bounding_box": "{\"x1\": 42, \"y1\": 558, \"x2\": 1027, \"y2\": 684}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/text1",
+            "text_content": "Let me handle it",
+            "word_sequence": [
+                "Let",
+                "me",
+                "handle",
+                "it"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "3c3ca205a0c6230f7ebe2eaf0e11cba423917910fd5bf38346646e37e463aad7",
+            "bounding_box": "{\"x1\": 42, \"y1\": 687, \"x2\": 1027, \"y2\": 813}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.gnucash.android:id/btn_cancel",
+            "text_content": "Back",
+            "word_sequence": [
+                "Back"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "3c3ca205a0c6230f7ebe2eaf0e11cba423917910fd5bf38346646e37e463aad7",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1668, \"x2\": 540, \"y2\": 1794}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.gnucash.android:id/btn_save",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "3c3ca205a0c6230f7ebe2eaf0e11cba423917910fd5bf38346646e37e463aad7",
+            "bounding_box": "{\"x1\": 540, \"y1\": 1668, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "6890a82dee32705590150ddf4f44cd1f43b29ede57941d4f195245b4433a1415": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Setup GnuCash",
+            "word_sequence": [
+                "Setup",
+                "GnuCash"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "6890a82dee32705590150ddf4f44cd1f43b29ede57941d4f195245b4433a1415",
+            "bounding_box": "{\"x1\": 42, \"y1\": 101, \"x2\": 406, \"y2\": 172}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.gnucash.android:id/strip",
+            "text_content": "",
+            "word_sequence": [
+                "strip"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1222,
+            "screen_id": "6890a82dee32705590150ddf4f44cd1f43b29ede57941d4f195245b4433a1415",
+            "bounding_box": "{\"x1\": 42, \"y1\": 210, \"x2\": 1038, \"y2\": 281}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/title",
+            "text_content": "Feedback Options",
+            "word_sequence": [
+                "Feedback",
+                "Options"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "6890a82dee32705590150ddf4f44cd1f43b29ede57941d4f195245b4433a1415",
+            "bounding_box": "{\"x1\": 42, \"y1\": 281, \"x2\": 1038, \"y2\": 408}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/text1",
+            "text_content": "Automatically send crash reports",
+            "word_sequence": [
+                "Automatically",
+                "send",
+                "crash",
+                "reports"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "6890a82dee32705590150ddf4f44cd1f43b29ede57941d4f195245b4433a1415",
+            "bounding_box": "{\"x1\": 42, \"y1\": 429, \"x2\": 1027, \"y2\": 555}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/text1",
+            "text_content": "Disable crash reports",
+            "word_sequence": [
+                "Disable",
+                "crash",
+                "reports"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "6890a82dee32705590150ddf4f44cd1f43b29ede57941d4f195245b4433a1415",
+            "bounding_box": "{\"x1\": 42, \"y1\": 558, \"x2\": 1027, \"y2\": 684}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.gnucash.android:id/btn_cancel",
+            "text_content": "Back",
+            "word_sequence": [
+                "Back"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "6890a82dee32705590150ddf4f44cd1f43b29ede57941d4f195245b4433a1415",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1668, \"x2\": 540, \"y2\": 1794}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.gnucash.android:id/btn_save",
+            "text_content": "Next",
+            "word_sequence": [
+                "Next"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "6890a82dee32705590150ddf4f44cd1f43b29ede57941d4f195245b4433a1415",
+            "bounding_box": "{\"x1\": 540, \"y1\": 1668, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "ea8e20dbd5cec91786e2e4fffb08d665ac772500532e19f7f8f82ac90044255e": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Setup GnuCash",
+            "word_sequence": [
+                "Setup",
+                "GnuCash"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "ea8e20dbd5cec91786e2e4fffb08d665ac772500532e19f7f8f82ac90044255e",
+            "bounding_box": "{\"x1\": 42, \"y1\": 101, \"x2\": 406, \"y2\": 172}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.gnucash.android:id/strip",
+            "text_content": "",
+            "word_sequence": [
+                "strip"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1222,
+            "screen_id": "ea8e20dbd5cec91786e2e4fffb08d665ac772500532e19f7f8f82ac90044255e",
+            "bounding_box": "{\"x1\": 42, \"y1\": 210, \"x2\": 1038, \"y2\": 281}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/title",
+            "text_content": "Review",
+            "word_sequence": [
+                "Review"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "ea8e20dbd5cec91786e2e4fffb08d665ac772500532e19f7f8f82ac90044255e",
+            "bounding_box": "{\"x1\": 42, \"y1\": 281, \"x2\": 1038, \"y2\": 408}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/text1",
+            "text_content": "Default Currency",
+            "word_sequence": [
+                "Default",
+                "Currency"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "ea8e20dbd5cec91786e2e4fffb08d665ac772500532e19f7f8f82ac90044255e",
+            "bounding_box": "{\"x1\": 58, \"y1\": 471, \"x2\": 321, \"y2\": 565}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/text2",
+            "text_content": "USD",
+            "word_sequence": [
+                "USD"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "ea8e20dbd5cec91786e2e4fffb08d665ac772500532e19f7f8f82ac90044255e",
+            "bounding_box": "{\"x1\": 363, \"y1\": 461, \"x2\": 1011, \"y2\": 524}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/text1",
+            "text_content": "Account Setup",
+            "word_sequence": [
+                "Account",
+                "Setup"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "ea8e20dbd5cec91786e2e4fffb08d665ac772500532e19f7f8f82ac90044255e",
+            "bounding_box": "{\"x1\": 58, \"y1\": 632, \"x2\": 321, \"y2\": 726}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/text2",
+            "text_content": "Create default accounts",
+            "word_sequence": [
+                "Create",
+                "default",
+                "accounts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "ea8e20dbd5cec91786e2e4fffb08d665ac772500532e19f7f8f82ac90044255e",
+            "bounding_box": "{\"x1\": 363, \"y1\": 622, \"x2\": 1011, \"y2\": 685}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/text1",
+            "text_content": "Feedback Options",
+            "word_sequence": [
+                "Feedback",
+                "Options"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "ea8e20dbd5cec91786e2e4fffb08d665ac772500532e19f7f8f82ac90044255e",
+            "bounding_box": "{\"x1\": 58, \"y1\": 793, \"x2\": 321, \"y2\": 887}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/text2",
+            "text_content": "Automatically send crash reports",
+            "word_sequence": [
+                "Automatically",
+                "send",
+                "crash",
+                "reports"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "ea8e20dbd5cec91786e2e4fffb08d665ac772500532e19f7f8f82ac90044255e",
+            "bounding_box": "{\"x1\": 363, \"y1\": 783, \"x2\": 1011, \"y2\": 901}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.gnucash.android:id/btn_cancel",
+            "text_content": "Back",
+            "word_sequence": [
+                "Back"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "ea8e20dbd5cec91786e2e4fffb08d665ac772500532e19f7f8f82ac90044255e",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1668, \"x2\": 540, \"y2\": 1794}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.gnucash.android:id/btn_save",
+            "text_content": "Done",
+            "word_sequence": [
+                "Done"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "ea8e20dbd5cec91786e2e4fffb08d665ac772500532e19f7f8f82ac90044255e",
+            "bounding_box": "{\"x1\": 540, \"y1\": 1668, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "61730fee40943d7766d05209a78150c6b3cb5f45ca1cfb072a033c4a76ccf37a": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.packageinstaller:id/permission_icon",
+            "text_content": "",
+            "word_sequence": [
+                "permission",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1222,
+            "screen_id": "61730fee40943d7766d05209a78150c6b3cb5f45ca1cfb072a033c4a76ccf37a",
+            "bounding_box": "{\"x1\": 220, \"y1\": 758, \"x2\": 315, \"y2\": 853}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.packageinstaller:id/permission_message",
+            "text_content": "Allow GnuCash to access photos, media, and files on your device?",
+            "word_sequence": [
+                "Allow",
+                "GnuCash",
+                "to",
+                "access",
+                "photos",
+                ",",
+                "media",
+                ",",
+                "and",
+                "files",
+                "on",
+                "your",
+                "device",
+                "?"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "61730fee40943d7766d05209a78150c6b3cb5f45ca1cfb072a033c4a76ccf37a",
+            "bounding_box": "{\"x1\": 315, \"y1\": 750, \"x2\": 876, \"y2\": 981}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.packageinstaller:id/permission_deny_button",
+            "text_content": "Deny",
+            "word_sequence": [
+                "Deny"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "61730fee40943d7766d05209a78150c6b3cb5f45ca1cfb072a033c4a76ccf37a",
+            "bounding_box": "{\"x1\": 502, \"y1\": 1023, \"x2\": 670, \"y2\": 1149}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.packageinstaller:id/permission_allow_button",
+            "text_content": "Allow",
+            "word_sequence": [
+                "Allow"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "61730fee40943d7766d05209a78150c6b3cb5f45ca1cfb072a033c4a76ccf37a",
+            "bounding_box": "{\"x1\": 691, \"y1\": 1023, \"x2\": 876, \"y2\": 1149}"
+        }
+    ],
+    "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigation drawer opened",
+            "word_sequence": [
+                "Navigation",
+                "drawer",
+                "opened"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Accounts",
+            "word_sequence": [
+                "Accounts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 381, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.gnucash.android:id/menu_search",
+            "text_content": "Search",
+            "word_sequence": [
+                "Search"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 954, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Recent",
+            "word_sequence": [
+                "Recent"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 112, \"y1\": 247, \"x2\": 248, \"y2\": 298}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "All",
+            "word_sequence": [
+                "All"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 507, \"y1\": 247, \"x2\": 572, \"y2\": 298}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "Favorites",
+            "word_sequence": [
+                "Favorites"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 806, \"y1\": 247, \"x2\": 994, \"y2\": 298}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.gnucash.android:id/account_color_strip",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "color",
+                "strip"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 19, \"y1\": 344, \"x2\": 32, \"y2\": 554}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.gnucash.android:id/primary_text",
+            "text_content": "Assets",
+            "word_sequence": [
+                "Assets"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 64, \"y1\": 376, \"x2\": 225, \"y2\": 447}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.gnucash.android:id/secondary_text",
+            "text_content": "1 sub-account",
+            "word_sequence": [
+                "1",
+                "sub",
+                "account"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 64, \"y1\": 447, \"x2\": 295, \"y2\": 498}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.gnucash.android:id/favorite_status",
+            "text_content": "",
+            "word_sequence": [
+                "favorite",
+                "status"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 935, \"y1\": 344, \"x2\": 1061, \"y2\": 470}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.gnucash.android:id/account_balance",
+            "text_content": "$0.00",
+            "word_sequence": [
+                "0",
+                ".",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 787, \"y1\": 480, \"x2\": 903, \"y2\": 554}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "org.gnucash.android:id/options_menu",
+            "text_content": "",
+            "word_sequence": [
+                "options",
+                "menu"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 935, \"y1\": 428, \"x2\": 1061, \"y2\": 554}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "org.gnucash.android:id/account_color_strip",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "color",
+                "strip"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 19, \"y1\": 570, \"x2\": 32, \"y2\": 780}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "org.gnucash.android:id/primary_text",
+            "text_content": "Equity",
+            "word_sequence": [
+                "Equity"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 64, \"y1\": 602, \"x2\": 208, \"y2\": 673}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "org.gnucash.android:id/secondary_text",
+            "text_content": "1 sub-account",
+            "word_sequence": [
+                "1",
+                "sub",
+                "account"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 64, \"y1\": 673, \"x2\": 295, \"y2\": 724}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "org.gnucash.android:id/favorite_status",
+            "text_content": "",
+            "word_sequence": [
+                "favorite",
+                "status"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 935, \"y1\": 570, \"x2\": 1061, \"y2\": 696}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "org.gnucash.android:id/account_balance",
+            "text_content": "$0.00",
+            "word_sequence": [
+                "0",
+                ".",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 787, \"y1\": 706, \"x2\": 903, \"y2\": 780}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "org.gnucash.android:id/options_menu",
+            "text_content": "",
+            "word_sequence": [
+                "options",
+                "menu"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 935, \"y1\": 654, \"x2\": 1061, \"y2\": 780}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "org.gnucash.android:id/account_color_strip",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "color",
+                "strip"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 19, \"y1\": 796, \"x2\": 32, \"y2\": 1006}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "org.gnucash.android:id/primary_text",
+            "text_content": "Expenses",
+            "word_sequence": [
+                "Expenses"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 64, \"y1\": 828, \"x2\": 289, \"y2\": 899}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "org.gnucash.android:id/secondary_text",
+            "text_content": "25 sub-accounts",
+            "word_sequence": [
+                "25",
+                "sub",
+                "accounts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 64, \"y1\": 899, \"x2\": 335, \"y2\": 950}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "org.gnucash.android:id/favorite_status",
+            "text_content": "",
+            "word_sequence": [
+                "favorite",
+                "status"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 935, \"y1\": 796, \"x2\": 1061, \"y2\": 922}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "org.gnucash.android:id/account_balance",
+            "text_content": "$0.00",
+            "word_sequence": [
+                "0",
+                ".",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 787, \"y1\": 932, \"x2\": 903, \"y2\": 1006}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "org.gnucash.android:id/options_menu",
+            "text_content": "",
+            "word_sequence": [
+                "options",
+                "menu"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 935, \"y1\": 880, \"x2\": 1061, \"y2\": 1006}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "org.gnucash.android:id/account_color_strip",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "color",
+                "strip"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 19, \"y1\": 1022, \"x2\": 32, \"y2\": 1232}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "org.gnucash.android:id/primary_text",
+            "text_content": "Income",
+            "word_sequence": [
+                "Income"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 64, \"y1\": 1054, \"x2\": 239, \"y2\": 1125}"
+        },
+        {
+            "component_id": 26,
+            "resource_id": "org.gnucash.android:id/secondary_text",
+            "text_content": "5 sub-accounts",
+            "word_sequence": [
+                "5",
+                "sub",
+                "accounts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 64, \"y1\": 1125, \"x2\": 314, \"y2\": 1176}"
+        },
+        {
+            "component_id": 27,
+            "resource_id": "org.gnucash.android:id/favorite_status",
+            "text_content": "",
+            "word_sequence": [
+                "favorite",
+                "status"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 935, \"y1\": 1022, \"x2\": 1061, \"y2\": 1148}"
+        },
+        {
+            "component_id": 28,
+            "resource_id": "org.gnucash.android:id/account_balance",
+            "text_content": "$0.00",
+            "word_sequence": [
+                "0",
+                ".",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 787, \"y1\": 1158, \"x2\": 903, \"y2\": 1232}"
+        },
+        {
+            "component_id": 29,
+            "resource_id": "org.gnucash.android:id/options_menu",
+            "text_content": "",
+            "word_sequence": [
+                "options",
+                "menu"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 935, \"y1\": 1106, \"x2\": 1061, \"y2\": 1232}"
+        },
+        {
+            "component_id": 30,
+            "resource_id": "org.gnucash.android:id/account_color_strip",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "color",
+                "strip"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 19, \"y1\": 1248, \"x2\": 32, \"y2\": 1458}"
+        },
+        {
+            "component_id": 31,
+            "resource_id": "org.gnucash.android:id/primary_text",
+            "text_content": "Liabilities",
+            "word_sequence": [
+                "Liabilities"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 64, \"y1\": 1280, \"x2\": 289, \"y2\": 1351}"
+        },
+        {
+            "component_id": 32,
+            "resource_id": "org.gnucash.android:id/secondary_text",
+            "text_content": "1 sub-account",
+            "word_sequence": [
+                "1",
+                "sub",
+                "account"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 64, \"y1\": 1351, \"x2\": 295, \"y2\": 1402}"
+        },
+        {
+            "component_id": 33,
+            "resource_id": "org.gnucash.android:id/favorite_status",
+            "text_content": "",
+            "word_sequence": [
+                "favorite",
+                "status"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 935, \"y1\": 1248, \"x2\": 1061, \"y2\": 1374}"
+        },
+        {
+            "component_id": 34,
+            "resource_id": "org.gnucash.android:id/account_balance",
+            "text_content": "$0.00",
+            "word_sequence": [
+                "0",
+                ".",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 787, \"y1\": 1384, \"x2\": 903, \"y2\": 1458}"
+        },
+        {
+            "component_id": 35,
+            "resource_id": "org.gnucash.android:id/options_menu",
+            "text_content": "",
+            "word_sequence": [
+                "options",
+                "menu"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 935, \"y1\": 1332, \"x2\": 1061, \"y2\": 1458}"
+        },
+        {
+            "component_id": 36,
+            "resource_id": "org.gnucash.android:id/fab_create_account",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "create",
+                "account"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "5b68a8498617a02b600d7d2f37bfe9faf5ad4be45d6cadb945526b118fdccfc8",
+            "bounding_box": "{\"x1\": 880, \"y1\": 1594, \"x2\": 1027, \"y2\": 1741}"
+        }
+    ],
+    "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigation drawer closed",
+            "word_sequence": [
+                "Navigation",
+                "drawer",
+                "closed"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Accounts",
+            "word_sequence": [
+                "Accounts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 381, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.gnucash.android:id/menu_search",
+            "text_content": "Search",
+            "word_sequence": [
+                "Search"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 954, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Recent",
+            "word_sequence": [
+                "Recent"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 112, \"y1\": 247, \"x2\": 248, \"y2\": 298}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "All",
+            "word_sequence": [
+                "All"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 507, \"y1\": 247, \"x2\": 572, \"y2\": 298}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "Favorites",
+            "word_sequence": [
+                "Favorites"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 806, \"y1\": 247, \"x2\": 994, \"y2\": 298}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.gnucash.android:id/account_color_strip",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "color",
+                "strip"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 19, \"y1\": 344, \"x2\": 32, \"y2\": 554}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.gnucash.android:id/primary_text",
+            "text_content": "Assets",
+            "word_sequence": [
+                "Assets"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 64, \"y1\": 376, \"x2\": 225, \"y2\": 447}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.gnucash.android:id/secondary_text",
+            "text_content": "1 sub-account",
+            "word_sequence": [
+                "1",
+                "sub",
+                "account"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 64, \"y1\": 447, \"x2\": 295, \"y2\": 498}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.gnucash.android:id/favorite_status",
+            "text_content": "",
+            "word_sequence": [
+                "favorite",
+                "status"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 935, \"y1\": 344, \"x2\": 1061, \"y2\": 470}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.gnucash.android:id/account_balance",
+            "text_content": "$0.00",
+            "word_sequence": [
+                "0",
+                ".",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 787, \"y1\": 480, \"x2\": 903, \"y2\": 554}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "org.gnucash.android:id/options_menu",
+            "text_content": "",
+            "word_sequence": [
+                "options",
+                "menu"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 935, \"y1\": 428, \"x2\": 1061, \"y2\": 554}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "org.gnucash.android:id/account_color_strip",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "color",
+                "strip"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 19, \"y1\": 570, \"x2\": 32, \"y2\": 780}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "org.gnucash.android:id/primary_text",
+            "text_content": "Equity",
+            "word_sequence": [
+                "Equity"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 64, \"y1\": 602, \"x2\": 208, \"y2\": 673}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "org.gnucash.android:id/secondary_text",
+            "text_content": "1 sub-account",
+            "word_sequence": [
+                "1",
+                "sub",
+                "account"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 64, \"y1\": 673, \"x2\": 295, \"y2\": 724}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "org.gnucash.android:id/favorite_status",
+            "text_content": "",
+            "word_sequence": [
+                "favorite",
+                "status"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 935, \"y1\": 570, \"x2\": 1061, \"y2\": 696}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "org.gnucash.android:id/account_balance",
+            "text_content": "$0.00",
+            "word_sequence": [
+                "0",
+                ".",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 787, \"y1\": 706, \"x2\": 903, \"y2\": 780}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "org.gnucash.android:id/options_menu",
+            "text_content": "",
+            "word_sequence": [
+                "options",
+                "menu"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 935, \"y1\": 654, \"x2\": 1061, \"y2\": 780}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "org.gnucash.android:id/account_color_strip",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "color",
+                "strip"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 19, \"y1\": 796, \"x2\": 32, \"y2\": 1006}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "org.gnucash.android:id/primary_text",
+            "text_content": "Expenses",
+            "word_sequence": [
+                "Expenses"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 64, \"y1\": 828, \"x2\": 289, \"y2\": 899}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "org.gnucash.android:id/secondary_text",
+            "text_content": "25 sub-accounts",
+            "word_sequence": [
+                "25",
+                "sub",
+                "accounts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 64, \"y1\": 899, \"x2\": 335, \"y2\": 950}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "org.gnucash.android:id/favorite_status",
+            "text_content": "",
+            "word_sequence": [
+                "favorite",
+                "status"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 935, \"y1\": 796, \"x2\": 1061, \"y2\": 922}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "org.gnucash.android:id/account_balance",
+            "text_content": "$0.00",
+            "word_sequence": [
+                "0",
+                ".",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 787, \"y1\": 932, \"x2\": 903, \"y2\": 1006}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "org.gnucash.android:id/options_menu",
+            "text_content": "",
+            "word_sequence": [
+                "options",
+                "menu"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 935, \"y1\": 880, \"x2\": 1061, \"y2\": 1006}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "org.gnucash.android:id/account_color_strip",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "color",
+                "strip"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 19, \"y1\": 1022, \"x2\": 32, \"y2\": 1232}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "org.gnucash.android:id/primary_text",
+            "text_content": "Income",
+            "word_sequence": [
+                "Income"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 64, \"y1\": 1054, \"x2\": 239, \"y2\": 1125}"
+        },
+        {
+            "component_id": 26,
+            "resource_id": "org.gnucash.android:id/secondary_text",
+            "text_content": "5 sub-accounts",
+            "word_sequence": [
+                "5",
+                "sub",
+                "accounts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 64, \"y1\": 1125, \"x2\": 314, \"y2\": 1176}"
+        },
+        {
+            "component_id": 27,
+            "resource_id": "org.gnucash.android:id/favorite_status",
+            "text_content": "",
+            "word_sequence": [
+                "favorite",
+                "status"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 935, \"y1\": 1022, \"x2\": 1061, \"y2\": 1148}"
+        },
+        {
+            "component_id": 28,
+            "resource_id": "org.gnucash.android:id/account_balance",
+            "text_content": "$0.00",
+            "word_sequence": [
+                "0",
+                ".",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 787, \"y1\": 1158, \"x2\": 903, \"y2\": 1232}"
+        },
+        {
+            "component_id": 29,
+            "resource_id": "org.gnucash.android:id/options_menu",
+            "text_content": "",
+            "word_sequence": [
+                "options",
+                "menu"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 935, \"y1\": 1106, \"x2\": 1061, \"y2\": 1232}"
+        },
+        {
+            "component_id": 30,
+            "resource_id": "org.gnucash.android:id/account_color_strip",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "color",
+                "strip"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 19, \"y1\": 1248, \"x2\": 32, \"y2\": 1458}"
+        },
+        {
+            "component_id": 31,
+            "resource_id": "org.gnucash.android:id/primary_text",
+            "text_content": "Liabilities",
+            "word_sequence": [
+                "Liabilities"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 64, \"y1\": 1280, \"x2\": 289, \"y2\": 1351}"
+        },
+        {
+            "component_id": 32,
+            "resource_id": "org.gnucash.android:id/secondary_text",
+            "text_content": "1 sub-account",
+            "word_sequence": [
+                "1",
+                "sub",
+                "account"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 64, \"y1\": 1351, \"x2\": 295, \"y2\": 1402}"
+        },
+        {
+            "component_id": 33,
+            "resource_id": "org.gnucash.android:id/favorite_status",
+            "text_content": "",
+            "word_sequence": [
+                "favorite",
+                "status"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 935, \"y1\": 1248, \"x2\": 1061, \"y2\": 1374}"
+        },
+        {
+            "component_id": 34,
+            "resource_id": "org.gnucash.android:id/account_balance",
+            "text_content": "$0.00",
+            "word_sequence": [
+                "0",
+                ".",
+                "00"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 787, \"y1\": 1384, \"x2\": 903, \"y2\": 1458}"
+        },
+        {
+            "component_id": 35,
+            "resource_id": "org.gnucash.android:id/options_menu",
+            "text_content": "",
+            "word_sequence": [
+                "options",
+                "menu"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 935, \"y1\": 1332, \"x2\": 1061, \"y2\": 1458}"
+        },
+        {
+            "component_id": 36,
+            "resource_id": "org.gnucash.android:id/fab_create_account",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "create",
+                "account"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 880, \"y1\": 1594, \"x2\": 1027, \"y2\": 1741}"
+        },
+        {
+            "component_id": 37,
+            "resource_id": "org.gnucash.android:id/drawer_title",
+            "text_content": "GnuCash",
+            "word_sequence": [
+                "GnuCash"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 42, \"y1\": 105, \"x2\": 693, \"y2\": 189}"
+        },
+        {
+            "component_id": 38,
+            "resource_id": "org.gnucash.android:id/book_name",
+            "text_content": "Book 1",
+            "word_sequence": [
+                "Book",
+                "1"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 26, \"y1\": 231, \"x2\": 735, \"y2\": 320}"
+        },
+        {
+            "component_id": 39,
+            "resource_id": "org.gnucash.android:id/design_menu_item_text",
+            "text_content": "Open\u2026",
+            "word_sequence": [
+                "Open"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 42, \"y1\": 347, \"x2\": 693, \"y2\": 473}"
+        },
+        {
+            "component_id": 40,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 0, \"y1\": 494, \"x2\": 735, \"y2\": 497}"
+        },
+        {
+            "component_id": 41,
+            "resource_id": "",
+            "text_content": "Accounts",
+            "word_sequence": [
+                "Accounts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 0, \"y1\": 497, \"x2\": 735, \"y2\": 623}"
+        },
+        {
+            "component_id": 42,
+            "resource_id": "org.gnucash.android:id/design_menu_item_text",
+            "text_content": "Favorites",
+            "word_sequence": [
+                "Favorites"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 42, \"y1\": 623, \"x2\": 693, \"y2\": 749}"
+        },
+        {
+            "component_id": 43,
+            "resource_id": "org.gnucash.android:id/design_menu_item_text",
+            "text_content": "Reports",
+            "word_sequence": [
+                "Reports"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 42, \"y1\": 749, \"x2\": 693, \"y2\": 875}"
+        },
+        {
+            "component_id": 44,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 0, \"y1\": 896, \"x2\": 735, \"y2\": 899}"
+        },
+        {
+            "component_id": 45,
+            "resource_id": "",
+            "text_content": "Transactions",
+            "word_sequence": [
+                "Transactions"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 0, \"y1\": 899, \"x2\": 735, \"y2\": 1025}"
+        },
+        {
+            "component_id": 46,
+            "resource_id": "org.gnucash.android:id/design_menu_item_text",
+            "text_content": "Scheduled Actions",
+            "word_sequence": [
+                "Scheduled",
+                "Actions"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1025, \"x2\": 693, \"y2\": 1151}"
+        },
+        {
+            "component_id": 47,
+            "resource_id": "org.gnucash.android:id/design_menu_item_text",
+            "text_content": "Export\u2026",
+            "word_sequence": [
+                "Export"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1151, \"x2\": 693, \"y2\": 1277}"
+        },
+        {
+            "component_id": 48,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1298, \"x2\": 735, \"y2\": 1301}"
+        },
+        {
+            "component_id": 49,
+            "resource_id": "",
+            "text_content": "Preferences",
+            "word_sequence": [
+                "Preferences"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1301, \"x2\": 735, \"y2\": 1427}"
+        },
+        {
+            "component_id": 50,
+            "resource_id": "org.gnucash.android:id/design_menu_item_text",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1427, \"x2\": 693, \"y2\": 1553}"
+        },
+        {
+            "component_id": 51,
+            "resource_id": "org.gnucash.android:id/design_menu_item_text",
+            "text_content": "Help & Feedback",
+            "word_sequence": [
+                "Help",
+                "Feedback"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "4574743b3af4c5ab68cd5069c1baa9f6f9aee4250c0f23a5e56a0a89a6303016",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1553, \"x2\": 693, \"y2\": 1679}"
+        }
+    ],
+    "2f428ad823b957479fc0e1210b1c3d7beb4d2b0f4d960f3b6a1cf61e4c07f910": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigation drawer opened",
+            "word_sequence": [
+                "Navigation",
+                "drawer",
+                "opened"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "2f428ad823b957479fc0e1210b1c3d7beb4d2b0f4d960f3b6a1cf61e4c07f910",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Scheduled Actions",
+            "word_sequence": [
+                "Scheduled",
+                "Actions"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "2f428ad823b957479fc0e1210b1c3d7beb4d2b0f4d960f3b6a1cf61e4c07f910",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 599, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "Transactions",
+            "word_sequence": [
+                "Transactions"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "2f428ad823b957479fc0e1210b1c3d7beb4d2b0f4d960f3b6a1cf61e4c07f910",
+            "bounding_box": "{\"x1\": 134, \"y1\": 247, \"x2\": 406, \"y2\": 298}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Exports",
+            "word_sequence": [
+                "Exports"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "2f428ad823b957479fc0e1210b1c3d7beb4d2b0f4d960f3b6a1cf61e4c07f910",
+            "bounding_box": "{\"x1\": 730, \"y1\": 247, \"x2\": 890, \"y2\": 298}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/empty",
+            "text_content": "No recurring transactions to display.",
+            "word_sequence": [
+                "No",
+                "recurring",
+                "transactions",
+                "to",
+                "display",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "2f428ad823b957479fc0e1210b1c3d7beb4d2b0f4d960f3b6a1cf61e4c07f910",
+            "bounding_box": "{\"x1\": 0, \"y1\": 336, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "7dd6b9e88b2812646b757619e41f8fd35a35e5b45087ecddd536c549e4603625": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigation drawer opened",
+            "word_sequence": [
+                "Navigation",
+                "drawer",
+                "opened"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "7dd6b9e88b2812646b757619e41f8fd35a35e5b45087ecddd536c549e4603625",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Scheduled Actions",
+            "word_sequence": [
+                "Scheduled",
+                "Actions"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "7dd6b9e88b2812646b757619e41f8fd35a35e5b45087ecddd536c549e4603625",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 599, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.gnucash.android:id/menu_add_scheduled_export",
+            "text_content": "Create export schedule",
+            "word_sequence": [
+                "Create",
+                "export",
+                "schedule"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "7dd6b9e88b2812646b757619e41f8fd35a35e5b45087ecddd536c549e4603625",
+            "bounding_box": "{\"x1\": 954, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Transactions",
+            "word_sequence": [
+                "Transactions"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "7dd6b9e88b2812646b757619e41f8fd35a35e5b45087ecddd536c549e4603625",
+            "bounding_box": "{\"x1\": 134, \"y1\": 247, \"x2\": 406, \"y2\": 298}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "Exports",
+            "word_sequence": [
+                "Exports"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "7dd6b9e88b2812646b757619e41f8fd35a35e5b45087ecddd536c549e4603625",
+            "bounding_box": "{\"x1\": 730, \"y1\": 247, \"x2\": 890, \"y2\": 298}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/empty",
+            "text_content": "No scheduled exports to display",
+            "word_sequence": [
+                "No",
+                "scheduled",
+                "exports",
+                "to",
+                "display"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "7dd6b9e88b2812646b757619e41f8fd35a35e5b45087ecddd536c549e4603625",
+            "bounding_box": "{\"x1\": 0, \"y1\": 336, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "cd3aa1e72bb7ce6f8468d6eff9b740b6ce8d72aa4611495ae840e713ca687558": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "cd3aa1e72bb7ce6f8468d6eff9b740b6ce8d72aa4611495ae840e713ca687558",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Export Transactions",
+            "word_sequence": [
+                "Export",
+                "Transactions"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "cd3aa1e72bb7ce6f8468d6eff9b740b6ce8d72aa4611495ae840e713ca687558",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 633, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.gnucash.android:id/menu_save",
+            "text_content": "Export Export",
+            "word_sequence": [
+                "Export"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "cd3aa1e72bb7ce6f8468d6eff9b740b6ce8d72aa4611495ae840e713ca687558",
+            "bounding_box": "{\"x1\": 883, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Export To:",
+            "word_sequence": [
+                "Export",
+                "To",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "cd3aa1e72bb7ce6f8468d6eff9b740b6ce8d72aa4611495ae840e713ca687558",
+            "bounding_box": "{\"x1\": 47, \"y1\": 236, \"x2\": 247, \"y2\": 404}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/text1",
+            "text_content": "SD Card",
+            "word_sequence": [
+                "SD",
+                "Card"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "cd3aa1e72bb7ce6f8468d6eff9b740b6ce8d72aa4611495ae840e713ca687558",
+            "bounding_box": "{\"x1\": 286, \"y1\": 291, \"x2\": 991, \"y2\": 348}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.gnucash.android:id/label_export_format",
+            "text_content": "Format",
+            "word_sequence": [
+                "Format"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "cd3aa1e72bb7ce6f8468d6eff9b740b6ce8d72aa4611495ae840e713ca687558",
+            "bounding_box": "{\"x1\": 47, \"y1\": 404, \"x2\": 191, \"y2\": 572}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.gnucash.android:id/radio_qif_format",
+            "text_content": "QIF",
+            "word_sequence": [
+                "QIF"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "cd3aa1e72bb7ce6f8468d6eff9b740b6ce8d72aa4611495ae840e713ca687558",
+            "bounding_box": "{\"x1\": 283, \"y1\": 446, \"x2\": 422, \"y2\": 530}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.gnucash.android:id/radio_xml_format",
+            "text_content": "XML",
+            "word_sequence": [
+                "XML"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "cd3aa1e72bb7ce6f8468d6eff9b740b6ce8d72aa4611495ae840e713ca687558",
+            "bounding_box": "{\"x1\": 475, \"y1\": 446, \"x2\": 634, \"y2\": 530}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.gnucash.android:id/export_warning",
+            "text_content": "Generates separate QIF files per currency",
+            "word_sequence": [
+                "Generates",
+                "separate",
+                "QIF",
+                "files",
+                "per",
+                "currency"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "cd3aa1e72bb7ce6f8468d6eff9b740b6ce8d72aa4611495ae840e713ca687558",
+            "bounding_box": "{\"x1\": 289, \"y1\": 532, \"x2\": 1054, \"y2\": 601}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.gnucash.android:id/label_export_date",
+            "text_content": "Since",
+            "word_sequence": [
+                "Since"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "cd3aa1e72bb7ce6f8468d6eff9b740b6ce8d72aa4611495ae840e713ca687558",
+            "bounding_box": "{\"x1\": 47, \"y1\": 686, \"x2\": 150, \"y2\": 737}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.gnucash.android:id/export_start_date",
+            "text_content": "Mar 2, 2023",
+            "word_sequence": [
+                "Mar",
+                "2",
+                ",",
+                "2023"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "cd3aa1e72bb7ce6f8468d6eff9b740b6ce8d72aa4611495ae840e713ca687558",
+            "bounding_box": "{\"x1\": 171, \"y1\": 627, \"x2\": 544, \"y2\": 795}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "org.gnucash.android:id/export_start_time",
+            "text_content": "11:34:30 AM",
+            "word_sequence": [
+                "11",
+                ":",
+                "34",
+                ":",
+                "30",
+                "AM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "cd3aa1e72bb7ce6f8468d6eff9b740b6ce8d72aa4611495ae840e713ca687558",
+            "bounding_box": "{\"x1\": 544, \"y1\": 627, \"x2\": 768, \"y2\": 795}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "org.gnucash.android:id/switch_export_all",
+            "text_content": "All time OFF",
+            "word_sequence": [
+                "All",
+                "time",
+                "OFF"
+            ],
+            "type": "SWITCH",
+            "app_name": 1222,
+            "screen_id": "cd3aa1e72bb7ce6f8468d6eff9b740b6ce8d72aa4611495ae840e713ca687558",
+            "bounding_box": "{\"x1\": 781, \"y1\": 676, \"x2\": 1053, \"y2\": 747}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "org.gnucash.android:id/checkbox_post_export_delete",
+            "text_content": "Delete transactions after export",
+            "word_sequence": [
+                "Delete",
+                "transactions",
+                "after",
+                "export"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1222,
+            "screen_id": "cd3aa1e72bb7ce6f8468d6eff9b740b6ce8d72aa4611495ae840e713ca687558",
+            "bounding_box": "{\"x1\": 26, \"y1\": 821, \"x2\": 769, \"y2\": 905}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "org.gnucash.android:id/label_recurring_transaction",
+            "text_content": "Recurrence",
+            "word_sequence": [
+                "Recurrence"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "cd3aa1e72bb7ce6f8468d6eff9b740b6ce8d72aa4611495ae840e713ca687558",
+            "bounding_box": "{\"x1\": 47, \"y1\": 937, \"x2\": 277, \"y2\": 988}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "org.gnucash.android:id/input_recurrence",
+            "text_content": "Tap to create schedule",
+            "word_sequence": [
+                "Tap",
+                "to",
+                "create",
+                "schedule"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "cd3aa1e72bb7ce6f8468d6eff9b740b6ce8d72aa4611495ae840e713ca687558",
+            "bounding_box": "{\"x1\": 26, \"y1\": 988, \"x2\": 1054, \"y2\": 1093}"
+        }
+    ],
+    "165fe5c3ee521dad845dc40b33704b4ca0e3f74ccbb73052561c99051de6eb71": [
+        {
+            "component_id": 0,
+            "resource_id": "org.gnucash.android:id/spinner_item",
+            "text_content": "REPEAT WEEKLY",
+            "word_sequence": [
+                "REPEAT",
+                "WEEKLY"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "165fe5c3ee521dad845dc40b33704b4ca0e3f74ccbb73052561c99051de6eb71",
+            "bounding_box": "{\"x1\": 178, \"y1\": 514, \"x2\": 769, \"y2\": 631}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.gnucash.android:id/repeat_switch",
+            "text_content": "OFF",
+            "word_sequence": [
+                "OFF"
+            ],
+            "type": "SWITCH",
+            "app_name": 1222,
+            "screen_id": "165fe5c3ee521dad845dc40b33704b4ca0e3f74ccbb73052561c99051de6eb71",
+            "bounding_box": "{\"x1\": 780, \"y1\": 537, \"x2\": 902, \"y2\": 608}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.gnucash.android:id/intervalPreText",
+            "text_content": "Every",
+            "word_sequence": [
+                "Every"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "165fe5c3ee521dad845dc40b33704b4ca0e3f74ccbb73052561c99051de6eb71",
+            "bounding_box": "{\"x1\": 189, \"y1\": 671, \"x2\": 282, \"y2\": 724}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.gnucash.android:id/interval",
+            "text_content": "1",
+            "word_sequence": [
+                "1"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1222,
+            "screen_id": "165fe5c3ee521dad845dc40b33704b4ca0e3f74ccbb73052561c99051de6eb71",
+            "bounding_box": "{\"x1\": 282, \"y1\": 653, \"x2\": 374, \"y2\": 745}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.gnucash.android:id/intervalPostText",
+            "text_content": "week",
+            "word_sequence": [
+                "week"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "165fe5c3ee521dad845dc40b33704b4ca0e3f74ccbb73052561c99051de6eb71",
+            "bounding_box": "{\"x1\": 374, \"y1\": 671, \"x2\": 465, \"y2\": 724}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "Sun",
+            "word_sequence": [
+                "Sun"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "165fe5c3ee521dad845dc40b33704b4ca0e3f74ccbb73052561c99051de6eb71",
+            "bounding_box": "{\"x1\": 215, \"y1\": 777, \"x2\": 346, \"y2\": 908}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "Mon",
+            "word_sequence": [
+                "Mon"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "165fe5c3ee521dad845dc40b33704b4ca0e3f74ccbb73052561c99051de6eb71",
+            "bounding_box": "{\"x1\": 388, \"y1\": 777, \"x2\": 519, \"y2\": 908}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "Tue",
+            "word_sequence": [
+                "Tue"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "165fe5c3ee521dad845dc40b33704b4ca0e3f74ccbb73052561c99051de6eb71",
+            "bounding_box": "{\"x1\": 561, \"y1\": 777, \"x2\": 692, \"y2\": 908}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "Wed",
+            "word_sequence": [
+                "Wed"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "165fe5c3ee521dad845dc40b33704b4ca0e3f74ccbb73052561c99051de6eb71",
+            "bounding_box": "{\"x1\": 734, \"y1\": 777, \"x2\": 865, \"y2\": 908}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "Thu",
+            "word_sequence": [
+                "Thu"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "165fe5c3ee521dad845dc40b33704b4ca0e3f74ccbb73052561c99051de6eb71",
+            "bounding_box": "{\"x1\": 215, \"y1\": 930, \"x2\": 346, \"y2\": 1061}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "Fri",
+            "word_sequence": [
+                "Fri"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "165fe5c3ee521dad845dc40b33704b4ca0e3f74ccbb73052561c99051de6eb71",
+            "bounding_box": "{\"x1\": 388, \"y1\": 930, \"x2\": 519, \"y2\": 1061}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "",
+            "text_content": "Sat",
+            "word_sequence": [
+                "Sat"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "165fe5c3ee521dad845dc40b33704b4ca0e3f74ccbb73052561c99051de6eb71",
+            "bounding_box": "{\"x1\": 561, \"y1\": 930, \"x2\": 692, \"y2\": 1061}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "org.gnucash.android:id/spinner_item",
+            "text_content": "Forever",
+            "word_sequence": [
+                "Forever"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "165fe5c3ee521dad845dc40b33704b4ca0e3f74ccbb73052561c99051de6eb71",
+            "bounding_box": "{\"x1\": 178, \"y1\": 1072, \"x2\": 363, \"y2\": 1178}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "org.gnucash.android:id/cancel_button",
+            "text_content": "Cancel",
+            "word_sequence": [
+                "Cancel"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "165fe5c3ee521dad845dc40b33704b4ca0e3f74ccbb73052561c99051de6eb71",
+            "bounding_box": "{\"x1\": 521, \"y1\": 1249, \"x2\": 703, \"y2\": 1354}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "org.gnucash.android:id/done_button",
+            "text_content": "OK",
+            "word_sequence": [
+                "OK"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "165fe5c3ee521dad845dc40b33704b4ca0e3f74ccbb73052561c99051de6eb71",
+            "bounding_box": "{\"x1\": 724, \"y1\": 1249, \"x2\": 892, \"y2\": 1354}"
+        }
+    ],
+    "7ea2c320c0eeb91e6e65a09f56911355672570778c6f48ec04cda4d86baa3cb5": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigation drawer opened",
+            "word_sequence": [
+                "Navigation",
+                "drawer",
+                "opened"
+            ],
+            "type": "BUTTON",
+            "app_name": 1222,
+            "screen_id": "7ea2c320c0eeb91e6e65a09f56911355672570778c6f48ec04cda4d86baa3cb5",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Scheduled Actions",
+            "word_sequence": [
+                "Scheduled",
+                "Actions"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "7ea2c320c0eeb91e6e65a09f56911355672570778c6f48ec04cda4d86baa3cb5",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 599, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.gnucash.android:id/menu_add_scheduled_export",
+            "text_content": "Create export schedule",
+            "word_sequence": [
+                "Create",
+                "export",
+                "schedule"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "7ea2c320c0eeb91e6e65a09f56911355672570778c6f48ec04cda4d86baa3cb5",
+            "bounding_box": "{\"x1\": 954, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Transactions",
+            "word_sequence": [
+                "Transactions"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "7ea2c320c0eeb91e6e65a09f56911355672570778c6f48ec04cda4d86baa3cb5",
+            "bounding_box": "{\"x1\": 134, \"y1\": 247, \"x2\": 406, \"y2\": 298}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "Exports",
+            "word_sequence": [
+                "Exports"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "7ea2c320c0eeb91e6e65a09f56911355672570778c6f48ec04cda4d86baa3cb5",
+            "bounding_box": "{\"x1\": 730, \"y1\": 247, \"x2\": 890, \"y2\": 298}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.gnucash.android:id/checkbox",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "CHECKBOX",
+            "app_name": 1222,
+            "screen_id": "7ea2c320c0eeb91e6e65a09f56911355672570778c6f48ec04cda4d86baa3cb5",
+            "bounding_box": "{\"x1\": 26, \"y1\": 378, \"x2\": 110, \"y2\": 462}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.gnucash.android:id/primary_text",
+            "text_content": "QIF backup to sd_card",
+            "word_sequence": [
+                "QIF",
+                "backup",
+                "to",
+                "sd_card"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "7ea2c320c0eeb91e6e65a09f56911355672570778c6f48ec04cda4d86baa3cb5",
+            "bounding_box": "{\"x1\": 123, \"y1\": 359, \"x2\": 646, \"y2\": 430}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.gnucash.android:id/secondary_text",
+            "text_content": "Weekly on Thursday",
+            "word_sequence": [
+                "Weekly",
+                "on",
+                "Thursday"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1222,
+            "screen_id": "7ea2c320c0eeb91e6e65a09f56911355672570778c6f48ec04cda4d86baa3cb5",
+            "bounding_box": "{\"x1\": 123, \"y1\": 430, \"x2\": 453, \"y2\": 481}"
+        }
+    ]
+}

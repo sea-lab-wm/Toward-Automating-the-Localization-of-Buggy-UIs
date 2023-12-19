@@ -1,0 +1,3199 @@
+{
+    "app-name": 44,
+    "d92fb015482433e48cc96ea2115f8784f7071b6e829ab7b4217ac71e5300d750": [
+        {
+            "component_id": 0,
+            "resource_id": "it.feio.android.omninotes:id/intro_title",
+            "text_content": "Welcome to Omni Notes!",
+            "word_sequence": [
+                "Welcome",
+                "to",
+                "Omni",
+                "Notes",
+                "!"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "d92fb015482433e48cc96ea2115f8784f7071b6e829ab7b4217ac71e5300d750",
+            "bounding_box": "{\"x1\": 0, \"y1\": 0, \"x2\": 1080, \"y2\": 247}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "it.feio.android.omninotes:id/intro_image_small",
+            "text_content": "",
+            "word_sequence": [
+                "intro",
+                "image",
+                "small"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "d92fb015482433e48cc96ea2115f8784f7071b6e829ab7b4217ac71e5300d750",
+            "bounding_box": "{\"x1\": 0, \"y1\": 247, \"x2\": 1080, \"y2\": 1324}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "it.feio.android.omninotes:id/intro_description",
+            "text_content": "Thanks for using Omni Notes \nThe opensource alternative for productivity and leisure note-taking!",
+            "word_sequence": [
+                "Thanks",
+                "for",
+                "using",
+                "Omni",
+                "Notes",
+                "The",
+                "opensource",
+                "alternative",
+                "for",
+                "productivity",
+                "and",
+                "leisure",
+                "note",
+                "taking",
+                "!"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "d92fb015482433e48cc96ea2115f8784f7071b6e829ab7b4217ac71e5300d750",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1324, \"x2\": 1080, \"y2\": 1626}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "d92fb015482433e48cc96ea2115f8784f7071b6e829ab7b4217ac71e5300d750",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1626, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "d92fb015482433e48cc96ea2115f8784f7071b6e829ab7b4217ac71e5300d750",
+            "bounding_box": "{\"x1\": 438, \"y1\": 1646, \"x2\": 472, \"y2\": 1690}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "d92fb015482433e48cc96ea2115f8784f7071b6e829ab7b4217ac71e5300d750",
+            "bounding_box": "{\"x1\": 472, \"y1\": 1646, \"x2\": 506, \"y2\": 1690}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "d92fb015482433e48cc96ea2115f8784f7071b6e829ab7b4217ac71e5300d750",
+            "bounding_box": "{\"x1\": 506, \"y1\": 1646, \"x2\": 540, \"y2\": 1690}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "d92fb015482433e48cc96ea2115f8784f7071b6e829ab7b4217ac71e5300d750",
+            "bounding_box": "{\"x1\": 540, \"y1\": 1646, \"x2\": 574, \"y2\": 1690}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "d92fb015482433e48cc96ea2115f8784f7071b6e829ab7b4217ac71e5300d750",
+            "bounding_box": "{\"x1\": 574, \"y1\": 1646, \"x2\": 608, \"y2\": 1690}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "d92fb015482433e48cc96ea2115f8784f7071b6e829ab7b4217ac71e5300d750",
+            "bounding_box": "{\"x1\": 608, \"y1\": 1646, \"x2\": 642, \"y2\": 1690}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "it.feio.android.omninotes:id/next",
+            "text_content": "",
+            "word_sequence": [
+                "next"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "d92fb015482433e48cc96ea2115f8784f7071b6e829ab7b4217ac71e5300d750",
+            "bounding_box": "{\"x1\": 780, \"y1\": 1584, \"x2\": 1080, \"y2\": 1752}"
+        }
+    ],
+    "2f92d6047cde2755c32b827fa4b40293d840d4c0c230e977cf213bd5f887f835": [
+        {
+            "component_id": 0,
+            "resource_id": "it.feio.android.omninotes:id/intro_title",
+            "text_content": "Navigate",
+            "word_sequence": [
+                "Navigate"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "2f92d6047cde2755c32b827fa4b40293d840d4c0c230e977cf213bd5f887f835",
+            "bounding_box": "{\"x1\": 0, \"y1\": 0, \"x2\": 1080, \"y2\": 247}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "it.feio.android.omninotes:id/intro_image",
+            "text_content": "",
+            "word_sequence": [
+                "intro",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "2f92d6047cde2755c32b827fa4b40293d840d4c0c230e977cf213bd5f887f835",
+            "bounding_box": "{\"x1\": 0, \"y1\": 247, \"x2\": 1080, \"y2\": 1324}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "it.feio.android.omninotes:id/intro_description",
+            "text_content": "Navigation menu allows you to move through notes with filters and categories",
+            "word_sequence": [
+                "Navigation",
+                "menu",
+                "allows",
+                "you",
+                "to",
+                "move",
+                "through",
+                "notes",
+                "with",
+                "filters",
+                "and",
+                "categories"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "2f92d6047cde2755c32b827fa4b40293d840d4c0c230e977cf213bd5f887f835",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1324, \"x2\": 1080, \"y2\": 1626}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "2f92d6047cde2755c32b827fa4b40293d840d4c0c230e977cf213bd5f887f835",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1626, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "2f92d6047cde2755c32b827fa4b40293d840d4c0c230e977cf213bd5f887f835",
+            "bounding_box": "{\"x1\": 438, \"y1\": 1646, \"x2\": 472, \"y2\": 1690}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "2f92d6047cde2755c32b827fa4b40293d840d4c0c230e977cf213bd5f887f835",
+            "bounding_box": "{\"x1\": 472, \"y1\": 1646, \"x2\": 506, \"y2\": 1690}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "2f92d6047cde2755c32b827fa4b40293d840d4c0c230e977cf213bd5f887f835",
+            "bounding_box": "{\"x1\": 506, \"y1\": 1646, \"x2\": 540, \"y2\": 1690}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "2f92d6047cde2755c32b827fa4b40293d840d4c0c230e977cf213bd5f887f835",
+            "bounding_box": "{\"x1\": 540, \"y1\": 1646, \"x2\": 574, \"y2\": 1690}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "2f92d6047cde2755c32b827fa4b40293d840d4c0c230e977cf213bd5f887f835",
+            "bounding_box": "{\"x1\": 574, \"y1\": 1646, \"x2\": 608, \"y2\": 1690}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "2f92d6047cde2755c32b827fa4b40293d840d4c0c230e977cf213bd5f887f835",
+            "bounding_box": "{\"x1\": 608, \"y1\": 1646, \"x2\": 642, \"y2\": 1690}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "it.feio.android.omninotes:id/next",
+            "text_content": "",
+            "word_sequence": [
+                "next"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "2f92d6047cde2755c32b827fa4b40293d840d4c0c230e977cf213bd5f887f835",
+            "bounding_box": "{\"x1\": 780, \"y1\": 1584, \"x2\": 1080, \"y2\": 1752}"
+        }
+    ],
+    "1969aa1d877391b44e985ad9c9d5508c05ae3def2e009e94605de424ea8edd9d": [
+        {
+            "component_id": 0,
+            "resource_id": "it.feio.android.omninotes:id/intro_title",
+            "text_content": "Enjoy",
+            "word_sequence": [
+                "Enjoy"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "1969aa1d877391b44e985ad9c9d5508c05ae3def2e009e94605de424ea8edd9d",
+            "bounding_box": "{\"x1\": 0, \"y1\": 0, \"x2\": 1080, \"y2\": 247}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "it.feio.android.omninotes:id/intro_image_community_googleplus",
+            "text_content": "",
+            "word_sequence": [
+                "intro",
+                "image",
+                "community",
+                "googleplus"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "1969aa1d877391b44e985ad9c9d5508c05ae3def2e009e94605de424ea8edd9d",
+            "bounding_box": "{\"x1\": 277, \"y1\": 247, \"x2\": 802, \"y2\": 772}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "it.feio.android.omninotes:id/intro_image_community_facebook",
+            "text_content": "",
+            "word_sequence": [
+                "intro",
+                "image",
+                "community",
+                "facebook"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "1969aa1d877391b44e985ad9c9d5508c05ae3def2e009e94605de424ea8edd9d",
+            "bounding_box": "{\"x1\": 277, \"y1\": 772, \"x2\": 802, \"y2\": 1297}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "it.feio.android.omninotes:id/intro_description",
+            "text_content": "Don't forget to subscribe our community!",
+            "word_sequence": [
+                "Don't",
+                "forget",
+                "to",
+                "subscribe",
+                "our",
+                "community",
+                "!"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "1969aa1d877391b44e985ad9c9d5508c05ae3def2e009e94605de424ea8edd9d",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1297, \"x2\": 1080, \"y2\": 1550}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "1969aa1d877391b44e985ad9c9d5508c05ae3def2e009e94605de424ea8edd9d",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1550, \"x2\": 1080, \"y2\": 1718}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "1969aa1d877391b44e985ad9c9d5508c05ae3def2e009e94605de424ea8edd9d",
+            "bounding_box": "{\"x1\": 438, \"y1\": 1646, \"x2\": 472, \"y2\": 1690}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "1969aa1d877391b44e985ad9c9d5508c05ae3def2e009e94605de424ea8edd9d",
+            "bounding_box": "{\"x1\": 472, \"y1\": 1646, \"x2\": 506, \"y2\": 1690}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "1969aa1d877391b44e985ad9c9d5508c05ae3def2e009e94605de424ea8edd9d",
+            "bounding_box": "{\"x1\": 506, \"y1\": 1646, \"x2\": 540, \"y2\": 1690}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "1969aa1d877391b44e985ad9c9d5508c05ae3def2e009e94605de424ea8edd9d",
+            "bounding_box": "{\"x1\": 540, \"y1\": 1646, \"x2\": 574, \"y2\": 1690}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "1969aa1d877391b44e985ad9c9d5508c05ae3def2e009e94605de424ea8edd9d",
+            "bounding_box": "{\"x1\": 574, \"y1\": 1646, \"x2\": 608, \"y2\": 1690}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "1969aa1d877391b44e985ad9c9d5508c05ae3def2e009e94605de424ea8edd9d",
+            "bounding_box": "{\"x1\": 608, \"y1\": 1646, \"x2\": 642, \"y2\": 1690}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "it.feio.android.omninotes:id/done",
+            "text_content": "",
+            "word_sequence": [
+                "done"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "1969aa1d877391b44e985ad9c9d5508c05ae3def2e009e94605de424ea8edd9d",
+            "bounding_box": "{\"x1\": 780, \"y1\": 1584, \"x2\": 1080, \"y2\": 1752}"
+        }
+    ],
+    "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13": [
+        {
+            "component_id": 0,
+            "resource_id": "it.feio.android.omninotes:id/chg_headerVersion",
+            "text_content": "VERSION 5.5.2",
+            "word_sequence": [
+                "VERSION",
+                "5",
+                ".",
+                "5",
+                ".",
+                "2"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13",
+            "bounding_box": "{\"x1\": 112, \"y1\": 111, \"x2\": 382, \"y2\": 246}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "it.feio.android.omninotes:id/chg_headerDate",
+            "text_content": "MAY 25, 2018",
+            "word_sequence": [
+                "MAY",
+                "25",
+                ",",
+                "2018"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13",
+            "bounding_box": "{\"x1\": 382, \"y1\": 111, \"x2\": 968, \"y2\": 246}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "it.feio.android.omninotes:id/chg_textbullet",
+            "text_content": "\u2022",
+            "word_sequence": [],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13",
+            "bounding_box": "{\"x1\": 70, \"y1\": 252, \"x2\": 132, \"y2\": 393}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "it.feio.android.omninotes:id/chg_text",
+            "text_content": "Fix Various minor fixes",
+            "word_sequence": [
+                "Fix",
+                "Various",
+                "minor",
+                "fixes"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13",
+            "bounding_box": "{\"x1\": 132, \"y1\": 252, \"x2\": 1010, \"y2\": 393}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "it.feio.android.omninotes:id/chg_headerVersion",
+            "text_content": "VERSION 5.5.1",
+            "word_sequence": [
+                "VERSION",
+                "5",
+                ".",
+                "5",
+                ".",
+                "1"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13",
+            "bounding_box": "{\"x1\": 112, \"y1\": 405, \"x2\": 382, \"y2\": 540}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "it.feio.android.omninotes:id/chg_headerDate",
+            "text_content": "MAY 11, 2018",
+            "word_sequence": [
+                "MAY",
+                "11",
+                ",",
+                "2018"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13",
+            "bounding_box": "{\"x1\": 382, \"y1\": 405, \"x2\": 968, \"y2\": 540}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "it.feio.android.omninotes:id/chg_textbullet",
+            "text_content": "\u2022",
+            "word_sequence": [],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13",
+            "bounding_box": "{\"x1\": 70, \"y1\": 546, \"x2\": 132, \"y2\": 687}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "it.feio.android.omninotes:id/chg_text",
+            "text_content": "Improved! Updated translations",
+            "word_sequence": [
+                "Improved",
+                "!",
+                "Updated",
+                "translations"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13",
+            "bounding_box": "{\"x1\": 132, \"y1\": 546, \"x2\": 1010, \"y2\": 687}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "it.feio.android.omninotes:id/chg_textbullet",
+            "text_content": "\u2022",
+            "word_sequence": [],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13",
+            "bounding_box": "{\"x1\": 70, \"y1\": 693, \"x2\": 132, \"y2\": 834}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "it.feio.android.omninotes:id/chg_text",
+            "text_content": "Fix Attachments' dialog opening on Kitkat",
+            "word_sequence": [
+                "Fix",
+                "Attachments'",
+                "dialog",
+                "opening",
+                "on",
+                "Kitkat"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13",
+            "bounding_box": "{\"x1\": 132, \"y1\": 693, \"x2\": 1010, \"y2\": 834}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "it.feio.android.omninotes:id/chg_headerVersion",
+            "text_content": "VERSION 5.5.0",
+            "word_sequence": [
+                "VERSION",
+                "5",
+                ".",
+                "5",
+                ".",
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13",
+            "bounding_box": "{\"x1\": 112, \"y1\": 846, \"x2\": 382, \"y2\": 981}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "it.feio.android.omninotes:id/chg_headerDate",
+            "text_content": "APR 26, 2018",
+            "word_sequence": [
+                "APR",
+                "26",
+                ",",
+                "2018"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13",
+            "bounding_box": "{\"x1\": 382, \"y1\": 846, \"x2\": 968, \"y2\": 981}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "it.feio.android.omninotes:id/chg_textbullet",
+            "text_content": "\u2022",
+            "word_sequence": [],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13",
+            "bounding_box": "{\"x1\": 70, \"y1\": 987, \"x2\": 132, \"y2\": 1177}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "it.feio.android.omninotes:id/chg_text",
+            "text_content": "New! Rapidly search your unfinished to-do lists",
+            "word_sequence": [
+                "New",
+                "!",
+                "Rapidly",
+                "search",
+                "your",
+                "unfinished",
+                "to",
+                "do",
+                "lists"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13",
+            "bounding_box": "{\"x1\": 132, \"y1\": 987, \"x2\": 1010, \"y2\": 1177}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "it.feio.android.omninotes:id/chg_textbullet",
+            "text_content": "\u2022",
+            "word_sequence": [],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13",
+            "bounding_box": "{\"x1\": 70, \"y1\": 1177, \"x2\": 132, \"y2\": 1367}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "it.feio.android.omninotes:id/chg_text",
+            "text_content": "New! New \"attachment\" available to easily add the current timestamp",
+            "word_sequence": [
+                "New",
+                "!",
+                "New",
+                "attachment",
+                "available",
+                "to",
+                "easily",
+                "add",
+                "the",
+                "current",
+                "timestamp"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13",
+            "bounding_box": "{\"x1\": 132, \"y1\": 1177, \"x2\": 1010, \"y2\": 1367}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "it.feio.android.omninotes:id/chg_textbullet",
+            "text_content": "\u2022",
+            "word_sequence": [],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13",
+            "bounding_box": "{\"x1\": 70, \"y1\": 1367, \"x2\": 132, \"y2\": 1606}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "it.feio.android.omninotes:id/chg_text",
+            "text_content": "New! Now an option is available into the editor to check currently edited note's informations",
+            "word_sequence": [
+                "New",
+                "!",
+                "Now",
+                "an",
+                "option",
+                "is",
+                "available",
+                "into",
+                "the",
+                "editor",
+                "to",
+                "check",
+                "currently",
+                "edited",
+                "note's",
+                "informations"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13",
+            "bounding_box": "{\"x1\": 132, \"y1\": 1367, \"x2\": 1010, \"y2\": 1606}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "it.feio.android.omninotes:id/chg_textbullet",
+            "text_content": "\u2022",
+            "word_sequence": [],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13",
+            "bounding_box": "{\"x1\": 70, \"y1\": 1606, \"x2\": 132, \"y2\": 1625}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "it.feio.android.omninotes:id/chg_text",
+            "text_content": "New! Persian translation",
+            "word_sequence": [
+                "New",
+                "!",
+                "Persian",
+                "translation"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13",
+            "bounding_box": "{\"x1\": 132, \"y1\": 1606, \"x2\": 1010, \"y2\": 1625}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "it.feio.android.omninotes:id/buttonDefaultPositive",
+            "text_content": "OK",
+            "word_sequence": [
+                "OK"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a4b0e16c95aef53c29fef080e9f3853b005af11d5589055f6d4e514b1b640c13",
+            "bounding_box": "{\"x1\": 789, \"y1\": 1625, \"x2\": 978, \"y2\": 1751}"
+        }
+    ],
+    "5d041924483d5c809af1aba16a52177fbe3a92381a34f692e4016125a154f259": [
+        {
+            "component_id": 0,
+            "resource_id": "it.feio.android.omninotes:id/crouton_handle",
+            "text_content": "",
+            "word_sequence": [
+                "crouton",
+                "handle"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "5d041924483d5c809af1aba16a52177fbe3a92381a34f692e4016125a154f259",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "drawer open",
+            "word_sequence": [
+                "drawer",
+                "open"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "5d041924483d5c809af1aba16a52177fbe3a92381a34f692e4016125a154f259",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "Notes",
+            "word_sequence": [
+                "Notes"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "5d041924483d5c809af1aba16a52177fbe3a92381a34f692e4016125a154f259",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 298, \"y2\": 172}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "it.feio.android.omninotes:id/menu_search",
+            "text_content": "Search",
+            "word_sequence": [
+                "Search"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "5d041924483d5c809af1aba16a52177fbe3a92381a34f692e4016125a154f259",
+            "bounding_box": "{\"x1\": 721, \"y1\": 73, \"x2\": 848, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "it.feio.android.omninotes:id/menu_sort",
+            "text_content": "Sort",
+            "word_sequence": [
+                "Sort"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "5d041924483d5c809af1aba16a52177fbe3a92381a34f692e4016125a154f259",
+            "bounding_box": "{\"x1\": 848, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "5d041924483d5c809af1aba16a52177fbe3a92381a34f692e4016125a154f259",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "it.feio.android.omninotes:id/expanded_image",
+            "text_content": "",
+            "word_sequence": [
+                "expanded",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "5d041924483d5c809af1aba16a52177fbe3a92381a34f692e4016125a154f259",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "it.feio.android.omninotes:id/empty_list",
+            "text_content": "Nothing here!",
+            "word_sequence": [
+                "Nothing",
+                "here",
+                "!"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "5d041924483d5c809af1aba16a52177fbe3a92381a34f692e4016125a154f259",
+            "bounding_box": "{\"x1\": 380, \"y1\": 869, \"x2\": 700, \"y2\": 1135}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "it.feio.android.omninotes:id/snackbar_placeholder",
+            "text_content": "",
+            "word_sequence": [
+                "snackbar",
+                "placeholder"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "5d041924483d5c809af1aba16a52177fbe3a92381a34f692e4016125a154f259",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1269, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "it.feio.android.omninotes:id/fab_expand_menu_button",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "expand",
+                "menu"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "5d041924483d5c809af1aba16a52177fbe3a92381a34f692e4016125a154f259",
+            "bounding_box": "{\"x1\": 865, \"y1\": 1579, \"x2\": 1059, \"y2\": 1773}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "5d041924483d5c809af1aba16a52177fbe3a92381a34f692e4016125a154f259",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 221}"
+        }
+    ],
+    "3b3497a6ee944fd9fa8d6784d850e662a9e18378b3478e03e9b90e6cd000a763": [
+        {
+            "component_id": 0,
+            "resource_id": "it.feio.android.omninotes:id/crouton_handle",
+            "text_content": "",
+            "word_sequence": [
+                "crouton",
+                "handle"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "3b3497a6ee944fd9fa8d6784d850e662a9e18378b3478e03e9b90e6cd000a763",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "drawer open",
+            "word_sequence": [
+                "drawer",
+                "open"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "3b3497a6ee944fd9fa8d6784d850e662a9e18378b3478e03e9b90e6cd000a763",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "Notes",
+            "word_sequence": [
+                "Notes"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "3b3497a6ee944fd9fa8d6784d850e662a9e18378b3478e03e9b90e6cd000a763",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 298, \"y2\": 172}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "it.feio.android.omninotes:id/menu_search",
+            "text_content": "Search",
+            "word_sequence": [
+                "Search"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "3b3497a6ee944fd9fa8d6784d850e662a9e18378b3478e03e9b90e6cd000a763",
+            "bounding_box": "{\"x1\": 721, \"y1\": 73, \"x2\": 848, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "it.feio.android.omninotes:id/menu_sort",
+            "text_content": "Sort",
+            "word_sequence": [
+                "Sort"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "3b3497a6ee944fd9fa8d6784d850e662a9e18378b3478e03e9b90e6cd000a763",
+            "bounding_box": "{\"x1\": 848, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "3b3497a6ee944fd9fa8d6784d850e662a9e18378b3478e03e9b90e6cd000a763",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "it.feio.android.omninotes:id/expanded_image",
+            "text_content": "",
+            "word_sequence": [
+                "expanded",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "3b3497a6ee944fd9fa8d6784d850e662a9e18378b3478e03e9b90e6cd000a763",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "it.feio.android.omninotes:id/empty_list",
+            "text_content": "Nothing here!",
+            "word_sequence": [
+                "Nothing",
+                "here",
+                "!"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "3b3497a6ee944fd9fa8d6784d850e662a9e18378b3478e03e9b90e6cd000a763",
+            "bounding_box": "{\"x1\": 380, \"y1\": 869, \"x2\": 700, \"y2\": 1135}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "it.feio.android.omninotes:id/snackbar_placeholder",
+            "text_content": "",
+            "word_sequence": [
+                "snackbar",
+                "placeholder"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "3b3497a6ee944fd9fa8d6784d850e662a9e18378b3478e03e9b90e6cd000a763",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1269, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "Photo",
+            "word_sequence": [
+                "Photo"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "3b3497a6ee944fd9fa8d6784d850e662a9e18378b3478e03e9b90e6cd000a763",
+            "bounding_box": "{\"x1\": 681, \"y1\": 1108, \"x2\": 844, \"y2\": 1214}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "it.feio.android.omninotes:id/fab_camera",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "camera"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "3b3497a6ee944fd9fa8d6784d850e662a9e18378b3478e03e9b90e6cd000a763",
+            "bounding_box": "{\"x1\": 886, \"y1\": 1093, \"x2\": 1038, \"y2\": 1245}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "",
+            "text_content": "Checklist",
+            "word_sequence": [
+                "Checklist"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "3b3497a6ee944fd9fa8d6784d850e662a9e18378b3478e03e9b90e6cd000a763",
+            "bounding_box": "{\"x1\": 627, \"y1\": 1270, \"x2\": 844, \"y2\": 1376}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "it.feio.android.omninotes:id/fab_checklist",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "checklist"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "3b3497a6ee944fd9fa8d6784d850e662a9e18378b3478e03e9b90e6cd000a763",
+            "bounding_box": "{\"x1\": 886, \"y1\": 1255, \"x2\": 1038, \"y2\": 1407}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "",
+            "text_content": "Text note",
+            "word_sequence": [
+                "Text",
+                "note"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "3b3497a6ee944fd9fa8d6784d850e662a9e18378b3478e03e9b90e6cd000a763",
+            "bounding_box": "{\"x1\": 626, \"y1\": 1432, \"x2\": 844, \"y2\": 1538}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "it.feio.android.omninotes:id/fab_note",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "note"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "3b3497a6ee944fd9fa8d6784d850e662a9e18378b3478e03e9b90e6cd000a763",
+            "bounding_box": "{\"x1\": 886, \"y1\": 1417, \"x2\": 1038, \"y2\": 1569}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "it.feio.android.omninotes:id/fab_expand_menu_button",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "expand",
+                "menu"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "3b3497a6ee944fd9fa8d6784d850e662a9e18378b3478e03e9b90e6cd000a763",
+            "bounding_box": "{\"x1\": 865, \"y1\": 1579, \"x2\": 1059, \"y2\": 1773}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "3b3497a6ee944fd9fa8d6784d850e662a9e18378b3478e03e9b90e6cd000a763",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 221}"
+        }
+    ],
+    "a0ee1430817381ead0b5a3e521583bf6a5128b49be69aa023372d4c114493525": [
+        {
+            "component_id": 0,
+            "resource_id": "it.feio.android.omninotes:id/crouton_handle",
+            "text_content": "",
+            "word_sequence": [
+                "crouton",
+                "handle"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "a0ee1430817381ead0b5a3e521583bf6a5128b49be69aa023372d4c114493525",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "drawer open",
+            "word_sequence": [
+                "drawer",
+                "open"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "a0ee1430817381ead0b5a3e521583bf6a5128b49be69aa023372d4c114493525",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "it.feio.android.omninotes:id/menu_attachment",
+            "text_content": "Attachment",
+            "word_sequence": [
+                "Attachment"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a0ee1430817381ead0b5a3e521583bf6a5128b49be69aa023372d4c114493525",
+            "bounding_box": "{\"x1\": 467, \"y1\": 73, \"x2\": 594, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "it.feio.android.omninotes:id/menu_category",
+            "text_content": "Category",
+            "word_sequence": [
+                "Category"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a0ee1430817381ead0b5a3e521583bf6a5128b49be69aa023372d4c114493525",
+            "bounding_box": "{\"x1\": 594, \"y1\": 73, \"x2\": 721, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "it.feio.android.omninotes:id/menu_tag",
+            "text_content": "Add tags",
+            "word_sequence": [
+                "Add",
+                "tags"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a0ee1430817381ead0b5a3e521583bf6a5128b49be69aa023372d4c114493525",
+            "bounding_box": "{\"x1\": 721, \"y1\": 73, \"x2\": 848, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "it.feio.android.omninotes:id/menu_share",
+            "text_content": "Share",
+            "word_sequence": [
+                "Share"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a0ee1430817381ead0b5a3e521583bf6a5128b49be69aa023372d4c114493525",
+            "bounding_box": "{\"x1\": 848, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "a0ee1430817381ead0b5a3e521583bf6a5128b49be69aa023372d4c114493525",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "it.feio.android.omninotes:id/tag_marker",
+            "text_content": "",
+            "word_sequence": [
+                "tag",
+                "marker"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "a0ee1430817381ead0b5a3e521583bf6a5128b49be69aa023372d4c114493525",
+            "bounding_box": "{\"x1\": 21, \"y1\": 231, \"x2\": 39, \"y2\": 321}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "it.feio.android.omninotes:id/detail_title",
+            "text_content": "Title",
+            "word_sequence": [
+                "Title"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 44,
+            "screen_id": "a0ee1430817381ead0b5a3e521583bf6a5128b49be69aa023372d4c114493525",
+            "bounding_box": "{\"x1\": 39, \"y1\": 231, \"x2\": 1059, \"y2\": 321}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "it.feio.android.omninotes:id/detail_content",
+            "text_content": "Content",
+            "word_sequence": [
+                "Content"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 44,
+            "screen_id": "a0ee1430817381ead0b5a3e521583bf6a5128b49be69aa023372d4c114493525",
+            "bounding_box": "{\"x1\": 58, \"y1\": 363, \"x2\": 1038, \"y2\": 421}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "it.feio.android.omninotes:id/reminder_icon",
+            "text_content": "reminder",
+            "word_sequence": [
+                "reminder"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "a0ee1430817381ead0b5a3e521583bf6a5128b49be69aa023372d4c114493525",
+            "bounding_box": "{\"x1\": 63, \"y1\": 486, \"x2\": 116, \"y2\": 539}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "it.feio.android.omninotes:id/datetime",
+            "text_content": "Add reminder",
+            "word_sequence": [
+                "Add",
+                "reminder"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a0ee1430817381ead0b5a3e521583bf6a5128b49be69aa023372d4c114493525",
+            "bounding_box": "{\"x1\": 129, \"y1\": 493, \"x2\": 299, \"y2\": 532}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "it.feio.android.omninotes:id/detail_timestamps",
+            "text_content": "",
+            "word_sequence": [
+                "detail",
+                "timestamps"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "a0ee1430817381ead0b5a3e521583bf6a5128b49be69aa023372d4c114493525",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1778, \"x2\": 1059, \"y2\": 1794}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "it.feio.android.omninotes:id/snackbar_placeholder",
+            "text_content": "",
+            "word_sequence": [
+                "snackbar",
+                "placeholder"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "a0ee1430817381ead0b5a3e521583bf6a5128b49be69aa023372d4c114493525",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1269, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "a0ee1430817381ead0b5a3e521583bf6a5128b49be69aa023372d4c114493525",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 221}"
+        }
+    ],
+    "9c265c360d9085cda02cd4da2df6d2077a086cce21dc27c399206c0b79531f41": [
+        {
+            "component_id": 0,
+            "resource_id": "it.feio.android.omninotes:id/crouton_handle",
+            "text_content": "",
+            "word_sequence": [
+                "crouton",
+                "handle"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "9c265c360d9085cda02cd4da2df6d2077a086cce21dc27c399206c0b79531f41",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "drawer open",
+            "word_sequence": [
+                "drawer",
+                "open"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "9c265c360d9085cda02cd4da2df6d2077a086cce21dc27c399206c0b79531f41",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "Notes",
+            "word_sequence": [
+                "Notes"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "9c265c360d9085cda02cd4da2df6d2077a086cce21dc27c399206c0b79531f41",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 298, \"y2\": 172}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "it.feio.android.omninotes:id/menu_search",
+            "text_content": "Search",
+            "word_sequence": [
+                "Search"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "9c265c360d9085cda02cd4da2df6d2077a086cce21dc27c399206c0b79531f41",
+            "bounding_box": "{\"x1\": 721, \"y1\": 73, \"x2\": 848, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "it.feio.android.omninotes:id/menu_sort",
+            "text_content": "Sort",
+            "word_sequence": [
+                "Sort"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "9c265c360d9085cda02cd4da2df6d2077a086cce21dc27c399206c0b79531f41",
+            "bounding_box": "{\"x1\": 848, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "9c265c360d9085cda02cd4da2df6d2077a086cce21dc27c399206c0b79531f41",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "it.feio.android.omninotes:id/expanded_image",
+            "text_content": "",
+            "word_sequence": [
+                "expanded",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "9c265c360d9085cda02cd4da2df6d2077a086cce21dc27c399206c0b79531f41",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "9c265c360d9085cda02cd4da2df6d2077a086cce21dc27c399206c0b79531f41",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "it.feio.android.omninotes:id/category_marker",
+            "text_content": "",
+            "word_sequence": [
+                "category",
+                "marker"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "9c265c360d9085cda02cd4da2df6d2077a086cce21dc27c399206c0b79531f41",
+            "bounding_box": "{\"x1\": 21, \"y1\": 231, \"x2\": 39, \"y2\": 494}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "it.feio.android.omninotes:id/note_title",
+            "text_content": "",
+            "word_sequence": [
+                "note",
+                "title"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "9c265c360d9085cda02cd4da2df6d2077a086cce21dc27c399206c0b79531f41",
+            "bounding_box": "{\"x1\": 55, \"y1\": 249, \"x2\": 1017, \"y2\": 307}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "it.feio.android.omninotes:id/note_content",
+            "text_content": "#test\n#testa\u2026",
+            "word_sequence": [
+                "test",
+                "testa"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "9c265c360d9085cda02cd4da2df6d2077a086cce21dc27c399206c0b79531f41",
+            "bounding_box": "{\"x1\": 55, \"y1\": 307, \"x2\": 1017, \"y2\": 437}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "it.feio.android.omninotes:id/note_date",
+            "text_content": "Updated: moments ago",
+            "word_sequence": [
+                "Updated",
+                ":",
+                "moments",
+                "ago"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "9c265c360d9085cda02cd4da2df6d2077a086cce21dc27c399206c0b79531f41",
+            "bounding_box": "{\"x1\": 55, \"y1\": 437, \"x2\": 350, \"y2\": 476}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "it.feio.android.omninotes:id/snackbar_placeholder",
+            "text_content": "",
+            "word_sequence": [
+                "snackbar",
+                "placeholder"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "9c265c360d9085cda02cd4da2df6d2077a086cce21dc27c399206c0b79531f41",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1269, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "it.feio.android.omninotes:id/fab_expand_menu_button",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "expand",
+                "menu"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "9c265c360d9085cda02cd4da2df6d2077a086cce21dc27c399206c0b79531f41",
+            "bounding_box": "{\"x1\": 865, \"y1\": 1579, \"x2\": 1059, \"y2\": 1773}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "9c265c360d9085cda02cd4da2df6d2077a086cce21dc27c399206c0b79531f41",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 221}"
+        }
+    ],
+    "954f0c046aa33d91745fc4a7ab5612edcb1d8636b1879359ace038de70d285be": [
+        {
+            "component_id": 0,
+            "resource_id": "it.feio.android.omninotes:id/crouton_handle",
+            "text_content": "",
+            "word_sequence": [
+                "crouton",
+                "handle"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "954f0c046aa33d91745fc4a7ab5612edcb1d8636b1879359ace038de70d285be",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "drawer open",
+            "word_sequence": [
+                "drawer",
+                "open"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "954f0c046aa33d91745fc4a7ab5612edcb1d8636b1879359ace038de70d285be",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "it.feio.android.omninotes:id/menu_attachment",
+            "text_content": "Attachment",
+            "word_sequence": [
+                "Attachment"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "954f0c046aa33d91745fc4a7ab5612edcb1d8636b1879359ace038de70d285be",
+            "bounding_box": "{\"x1\": 467, \"y1\": 73, \"x2\": 594, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "it.feio.android.omninotes:id/menu_category",
+            "text_content": "Category",
+            "word_sequence": [
+                "Category"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "954f0c046aa33d91745fc4a7ab5612edcb1d8636b1879359ace038de70d285be",
+            "bounding_box": "{\"x1\": 594, \"y1\": 73, \"x2\": 721, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "it.feio.android.omninotes:id/menu_tag",
+            "text_content": "Add tags",
+            "word_sequence": [
+                "Add",
+                "tags"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "954f0c046aa33d91745fc4a7ab5612edcb1d8636b1879359ace038de70d285be",
+            "bounding_box": "{\"x1\": 721, \"y1\": 73, \"x2\": 848, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "it.feio.android.omninotes:id/menu_share",
+            "text_content": "Share",
+            "word_sequence": [
+                "Share"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "954f0c046aa33d91745fc4a7ab5612edcb1d8636b1879359ace038de70d285be",
+            "bounding_box": "{\"x1\": 848, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "954f0c046aa33d91745fc4a7ab5612edcb1d8636b1879359ace038de70d285be",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "it.feio.android.omninotes:id/tag_marker",
+            "text_content": "",
+            "word_sequence": [
+                "tag",
+                "marker"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "954f0c046aa33d91745fc4a7ab5612edcb1d8636b1879359ace038de70d285be",
+            "bounding_box": "{\"x1\": 21, \"y1\": 231, \"x2\": 39, \"y2\": 321}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "it.feio.android.omninotes:id/detail_title",
+            "text_content": "Title",
+            "word_sequence": [
+                "Title"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 44,
+            "screen_id": "954f0c046aa33d91745fc4a7ab5612edcb1d8636b1879359ace038de70d285be",
+            "bounding_box": "{\"x1\": 39, \"y1\": 231, \"x2\": 1059, \"y2\": 321}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "it.feio.android.omninotes:id/detail_content",
+            "text_content": "#test\n#testa\n#testb",
+            "word_sequence": [
+                "test",
+                "testa",
+                "testb"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 44,
+            "screen_id": "954f0c046aa33d91745fc4a7ab5612edcb1d8636b1879359ace038de70d285be",
+            "bounding_box": "{\"x1\": 58, \"y1\": 363, \"x2\": 1038, \"y2\": 531}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "it.feio.android.omninotes:id/reminder_icon",
+            "text_content": "reminder",
+            "word_sequence": [
+                "reminder"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "954f0c046aa33d91745fc4a7ab5612edcb1d8636b1879359ace038de70d285be",
+            "bounding_box": "{\"x1\": 63, \"y1\": 596, \"x2\": 116, \"y2\": 649}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "it.feio.android.omninotes:id/datetime",
+            "text_content": "Add reminder",
+            "word_sequence": [
+                "Add",
+                "reminder"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "954f0c046aa33d91745fc4a7ab5612edcb1d8636b1879359ace038de70d285be",
+            "bounding_box": "{\"x1\": 129, \"y1\": 603, \"x2\": 299, \"y2\": 642}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "it.feio.android.omninotes:id/creation",
+            "text_content": "Created: moments ago",
+            "word_sequence": [
+                "Created",
+                ":",
+                "moments",
+                "ago"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "954f0c046aa33d91745fc4a7ab5612edcb1d8636b1879359ace038de70d285be",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1747, \"x2\": 540, \"y2\": 1786}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "it.feio.android.omninotes:id/last_modification",
+            "text_content": "Updated: moments ago",
+            "word_sequence": [
+                "Updated",
+                ":",
+                "moments",
+                "ago"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "954f0c046aa33d91745fc4a7ab5612edcb1d8636b1879359ace038de70d285be",
+            "bounding_box": "{\"x1\": 540, \"y1\": 1747, \"x2\": 1059, \"y2\": 1786}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "it.feio.android.omninotes:id/snackbar_placeholder",
+            "text_content": "",
+            "word_sequence": [
+                "snackbar",
+                "placeholder"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "954f0c046aa33d91745fc4a7ab5612edcb1d8636b1879359ace038de70d285be",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1269, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "954f0c046aa33d91745fc4a7ab5612edcb1d8636b1879359ace038de70d285be",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 221}"
+        }
+    ],
+    "aec859f58ddc136a9ad63c90013704eea60d9dcac911aa24bb1ead06f5e5b90c": [
+        {
+            "component_id": 0,
+            "resource_id": "it.feio.android.omninotes:id/title",
+            "text_content": "Select tag(s)",
+            "word_sequence": [
+                "Select",
+                "tag",
+                "s"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "aec859f58ddc136a9ad63c90013704eea60d9dcac911aa24bb1ead06f5e5b90c",
+            "bounding_box": "{\"x1\": 133, \"y1\": 622, \"x2\": 947, \"y2\": 693}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "it.feio.android.omninotes:id/control",
+            "text_content": "",
+            "word_sequence": [
+                "control"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 44,
+            "screen_id": "aec859f58ddc136a9ad63c90013704eea60d9dcac911aa24bb1ead06f5e5b90c",
+            "bounding_box": "{\"x1\": 133, \"y1\": 730, \"x2\": 217, \"y2\": 856}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "it.feio.android.omninotes:id/title",
+            "text_content": "test (1)",
+            "word_sequence": [
+                "test",
+                "1"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "aec859f58ddc136a9ad63c90013704eea60d9dcac911aa24bb1ead06f5e5b90c",
+            "bounding_box": "{\"x1\": 217, \"y1\": 730, \"x2\": 368, \"y2\": 856}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "it.feio.android.omninotes:id/control",
+            "text_content": "",
+            "word_sequence": [
+                "control"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 44,
+            "screen_id": "aec859f58ddc136a9ad63c90013704eea60d9dcac911aa24bb1ead06f5e5b90c",
+            "bounding_box": "{\"x1\": 133, \"y1\": 856, \"x2\": 217, \"y2\": 982}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "it.feio.android.omninotes:id/title",
+            "text_content": "testa (1)",
+            "word_sequence": [
+                "testa",
+                "1"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "aec859f58ddc136a9ad63c90013704eea60d9dcac911aa24bb1ead06f5e5b90c",
+            "bounding_box": "{\"x1\": 217, \"y1\": 856, \"x2\": 391, \"y2\": 982}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "it.feio.android.omninotes:id/control",
+            "text_content": "",
+            "word_sequence": [
+                "control"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 44,
+            "screen_id": "aec859f58ddc136a9ad63c90013704eea60d9dcac911aa24bb1ead06f5e5b90c",
+            "bounding_box": "{\"x1\": 133, \"y1\": 982, \"x2\": 217, \"y2\": 1108}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "it.feio.android.omninotes:id/title",
+            "text_content": "testb (1)",
+            "word_sequence": [
+                "testb",
+                "1"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "aec859f58ddc136a9ad63c90013704eea60d9dcac911aa24bb1ead06f5e5b90c",
+            "bounding_box": "{\"x1\": 217, \"y1\": 982, \"x2\": 392, \"y2\": 1108}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "it.feio.android.omninotes:id/buttonDefaultPositive",
+            "text_content": "OK",
+            "word_sequence": [
+                "OK"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "aec859f58ddc136a9ad63c90013704eea60d9dcac911aa24bb1ead06f5e5b90c",
+            "bounding_box": "{\"x1\": 789, \"y1\": 1150, \"x2\": 978, \"y2\": 1276}"
+        }
+    ],
+    "8aa624435a456d014ac3af855bbb974e9ad27b78d956334eb6de0bd991a820a2": [
+        {
+            "component_id": 0,
+            "resource_id": "it.feio.android.omninotes:id/title",
+            "text_content": "Enable checklist",
+            "word_sequence": [
+                "Enable",
+                "checklist"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "8aa624435a456d014ac3af855bbb974e9ad27b78d956334eb6de0bd991a820a2",
+            "bounding_box": "{\"x1\": 597, \"y1\": 107, \"x2\": 1028, \"y2\": 164}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "it.feio.android.omninotes:id/title",
+            "text_content": "Lock",
+            "word_sequence": [
+                "Lock"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "8aa624435a456d014ac3af855bbb974e9ad27b78d956334eb6de0bd991a820a2",
+            "bounding_box": "{\"x1\": 597, \"y1\": 233, \"x2\": 1028, \"y2\": 290}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "it.feio.android.omninotes:id/title",
+            "text_content": "Add shortcut",
+            "word_sequence": [
+                "Add",
+                "shortcut"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "8aa624435a456d014ac3af855bbb974e9ad27b78d956334eb6de0bd991a820a2",
+            "bounding_box": "{\"x1\": 597, \"y1\": 359, \"x2\": 1028, \"y2\": 416}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "it.feio.android.omninotes:id/title",
+            "text_content": "Archive",
+            "word_sequence": [
+                "Archive"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "8aa624435a456d014ac3af855bbb974e9ad27b78d956334eb6de0bd991a820a2",
+            "bounding_box": "{\"x1\": 597, \"y1\": 485, \"x2\": 1028, \"y2\": 542}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "it.feio.android.omninotes:id/title",
+            "text_content": "Trash",
+            "word_sequence": [
+                "Trash"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "8aa624435a456d014ac3af855bbb974e9ad27b78d956334eb6de0bd991a820a2",
+            "bounding_box": "{\"x1\": 597, \"y1\": 611, \"x2\": 1028, \"y2\": 668}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "it.feio.android.omninotes:id/title",
+            "text_content": "Discard changes",
+            "word_sequence": [
+                "Discard",
+                "changes"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "8aa624435a456d014ac3af855bbb974e9ad27b78d956334eb6de0bd991a820a2",
+            "bounding_box": "{\"x1\": 597, \"y1\": 737, \"x2\": 1028, \"y2\": 794}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "it.feio.android.omninotes:id/title",
+            "text_content": "Info",
+            "word_sequence": [
+                "Info"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "8aa624435a456d014ac3af855bbb974e9ad27b78d956334eb6de0bd991a820a2",
+            "bounding_box": "{\"x1\": 597, \"y1\": 863, \"x2\": 1028, \"y2\": 920}"
+        }
+    ],
+    "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173": [
+        {
+            "component_id": 0,
+            "resource_id": "it.feio.android.omninotes:id/crouton_handle",
+            "text_content": "",
+            "word_sequence": [
+                "crouton",
+                "handle"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "drawer open",
+            "word_sequence": [
+                "drawer",
+                "open"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "Notes",
+            "word_sequence": [
+                "Notes"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 298, \"y2\": 172}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "it.feio.android.omninotes:id/menu_search",
+            "text_content": "Search",
+            "word_sequence": [
+                "Search"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173",
+            "bounding_box": "{\"x1\": 721, \"y1\": 73, \"x2\": 848, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "it.feio.android.omninotes:id/menu_sort",
+            "text_content": "Sort",
+            "word_sequence": [
+                "Sort"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173",
+            "bounding_box": "{\"x1\": 848, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "it.feio.android.omninotes:id/expanded_image",
+            "text_content": "",
+            "word_sequence": [
+                "expanded",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "it.feio.android.omninotes:id/category_marker",
+            "text_content": "",
+            "word_sequence": [
+                "category",
+                "marker"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173",
+            "bounding_box": "{\"x1\": 21, \"y1\": 231, \"x2\": 39, \"y2\": 494}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "it.feio.android.omninotes:id/note_title",
+            "text_content": "",
+            "word_sequence": [
+                "note",
+                "title"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173",
+            "bounding_box": "{\"x1\": 55, \"y1\": 249, \"x2\": 1017, \"y2\": 307}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "it.feio.android.omninotes:id/note_content",
+            "text_content": "a\nb",
+            "word_sequence": [
+                "a",
+                "b"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173",
+            "bounding_box": "{\"x1\": 55, \"y1\": 307, \"x2\": 1017, \"y2\": 437}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "it.feio.android.omninotes:id/note_date",
+            "text_content": "Updated: moments ago",
+            "word_sequence": [
+                "Updated",
+                ":",
+                "moments",
+                "ago"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173",
+            "bounding_box": "{\"x1\": 55, \"y1\": 437, \"x2\": 350, \"y2\": 476}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "it.feio.android.omninotes:id/snackbar_placeholder",
+            "text_content": "",
+            "word_sequence": [
+                "snackbar",
+                "placeholder"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1269, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "",
+            "text_content": "Photo",
+            "word_sequence": [
+                "Photo"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173",
+            "bounding_box": "{\"x1\": 681, \"y1\": 1108, \"x2\": 844, \"y2\": 1214}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "it.feio.android.omninotes:id/fab_camera",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "camera"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173",
+            "bounding_box": "{\"x1\": 886, \"y1\": 1093, \"x2\": 1038, \"y2\": 1245}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "",
+            "text_content": "Checklist",
+            "word_sequence": [
+                "Checklist"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173",
+            "bounding_box": "{\"x1\": 627, \"y1\": 1270, \"x2\": 844, \"y2\": 1376}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "it.feio.android.omninotes:id/fab_checklist",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "checklist"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173",
+            "bounding_box": "{\"x1\": 886, \"y1\": 1255, \"x2\": 1038, \"y2\": 1407}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "",
+            "text_content": "Text note",
+            "word_sequence": [
+                "Text",
+                "note"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173",
+            "bounding_box": "{\"x1\": 626, \"y1\": 1432, \"x2\": 844, \"y2\": 1538}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "it.feio.android.omninotes:id/fab_note",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "note"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173",
+            "bounding_box": "{\"x1\": 886, \"y1\": 1417, \"x2\": 1038, \"y2\": 1569}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "it.feio.android.omninotes:id/fab_expand_menu_button",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "expand",
+                "menu"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173",
+            "bounding_box": "{\"x1\": 865, \"y1\": 1579, \"x2\": 1059, \"y2\": 1773}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "1e2c3883b562ec7e47bc3e48e1a41a838d5c0992b7f9f95ff627bbfd672dd173",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 221}"
+        }
+    ],
+    "163392225e7f4b262fb19d85b958efb5d363da9ff8b47cff18b3b4c3ebb610cb": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.camera2:id/focus_ring",
+            "text_content": "",
+            "word_sequence": [
+                "focus",
+                "ring"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "163392225e7f4b262fb19d85b958efb5d363da9ff8b47cff18b3b4c3ebb610cb",
+            "bounding_box": "{\"x1\": 0, \"y1\": 0, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.camera2:id/preview_content",
+            "text_content": "",
+            "word_sequence": [
+                "preview",
+                "content"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "163392225e7f4b262fb19d85b958efb5d363da9ff8b47cff18b3b4c3ebb610cb",
+            "bounding_box": "{\"x1\": 0, \"y1\": 0, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.camera2:id/preview_overlay",
+            "text_content": "",
+            "word_sequence": [
+                "preview",
+                "overlay"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "163392225e7f4b262fb19d85b958efb5d363da9ff8b47cff18b3b4c3ebb610cb",
+            "bounding_box": "{\"x1\": 0, \"y1\": 0, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.camera2:id/face_view",
+            "text_content": "",
+            "word_sequence": [
+                "face",
+                "view"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "163392225e7f4b262fb19d85b958efb5d363da9ff8b47cff18b3b4c3ebb610cb",
+            "bounding_box": "{\"x1\": 0, \"y1\": 0, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.camera2:id/progress_overlay",
+            "text_content": "",
+            "word_sequence": [
+                "progress",
+                "overlay"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "163392225e7f4b262fb19d85b958efb5d363da9ff8b47cff18b3b4c3ebb610cb",
+            "bounding_box": "{\"x1\": 0, \"y1\": 39, \"x2\": 1080, \"y2\": 1479}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.android.camera2:id/three_dots",
+            "text_content": "Options",
+            "word_sequence": [
+                "Options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "163392225e7f4b262fb19d85b958efb5d363da9ff8b47cff18b3b4c3ebb610cb",
+            "bounding_box": "{\"x1\": 953, \"y1\": 1351, \"x2\": 1016, \"y2\": 1414}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.android.camera2:id/shutter_button",
+            "text_content": "Shutter",
+            "word_sequence": [
+                "Shutter"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "163392225e7f4b262fb19d85b958efb5d363da9ff8b47cff18b3b4c3ebb610cb",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1479, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b": [
+        {
+            "component_id": 0,
+            "resource_id": "it.feio.android.omninotes:id/crouton_handle",
+            "text_content": "",
+            "word_sequence": [
+                "crouton",
+                "handle"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "drawer open",
+            "word_sequence": [
+                "drawer",
+                "open"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "Notes",
+            "word_sequence": [
+                "Notes"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 298, \"y2\": 172}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "it.feio.android.omninotes:id/menu_search",
+            "text_content": "Search",
+            "word_sequence": [
+                "Search"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 721, \"y1\": 73, \"x2\": 848, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "it.feio.android.omninotes:id/menu_sort",
+            "text_content": "Sort",
+            "word_sequence": [
+                "Sort"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 848, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "it.feio.android.omninotes:id/expanded_image",
+            "text_content": "",
+            "word_sequence": [
+                "expanded",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "it.feio.android.omninotes:id/category_marker",
+            "text_content": "",
+            "word_sequence": [
+                "category",
+                "marker"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 21, \"y1\": 231, \"x2\": 39, \"y2\": 494}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "it.feio.android.omninotes:id/note_title",
+            "text_content": "",
+            "word_sequence": [
+                "note",
+                "title"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 55, \"y1\": 249, \"x2\": 1017, \"y2\": 307}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "it.feio.android.omninotes:id/note_content",
+            "text_content": "a\nb",
+            "word_sequence": [
+                "a",
+                "b"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 55, \"y1\": 307, \"x2\": 1017, \"y2\": 437}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "it.feio.android.omninotes:id/note_date",
+            "text_content": "Updated: moments ago",
+            "word_sequence": [
+                "Updated",
+                ":",
+                "moments",
+                "ago"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 55, \"y1\": 437, \"x2\": 350, \"y2\": 476}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "it.feio.android.omninotes:id/snackbar_placeholder",
+            "text_content": "",
+            "word_sequence": [
+                "snackbar",
+                "placeholder"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1269, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "it.feio.android.omninotes:id/fab_expand_menu_button",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "expand",
+                "menu"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 865, \"y1\": 1579, \"x2\": 1059, \"y2\": 1773}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 221}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "it.feio.android.omninotes:id/navdrawer_image",
+            "text_content": "",
+            "word_sequence": [
+                "navdrawer",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 840, \"y2\": 404}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "it.feio.android.omninotes:id/navdrawer_title",
+            "text_content": "Omni Notes",
+            "word_sequence": [
+                "Omni",
+                "Notes"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 0, \"y1\": 276, \"x2\": 485, \"y2\": 404}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "it.feio.android.omninotes:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 42, \"y1\": 430, \"x2\": 116, \"y2\": 504}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "it.feio.android.omninotes:id/title",
+            "text_content": "Notes",
+            "word_sequence": [
+                "Notes"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 116, \"y1\": 404, \"x2\": 840, \"y2\": 530}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 42, \"y1\": 564, \"x2\": 105, \"y2\": 627}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "it.feio.android.omninotes:id/settings",
+            "text_content": "SETTINGS",
+            "word_sequence": [
+                "SETTINGS"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 105, \"y1\": 530, \"x2\": 840, \"y2\": 661}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "it.feio.android.omninotes:id/drawer_tag_list",
+            "text_content": "",
+            "word_sequence": [
+                "drawer",
+                "tag",
+                "list"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "a3fda64db8693af17eacc48b8ce792ef3c271d4457d598b6416054a9cb90909b",
+            "bounding_box": "{\"x1\": 0, \"y1\": 661, \"x2\": 840, \"y2\": 792}"
+        }
+    ],
+    "cb2c263c17eaabc80d0e1f0570fac82242a37b3a620562ce1760f0a4f1d7a6af": [
+        {
+            "component_id": 0,
+            "resource_id": "it.feio.android.omninotes:id/crouton_handle",
+            "text_content": "",
+            "word_sequence": [
+                "crouton",
+                "handle"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "cb2c263c17eaabc80d0e1f0570fac82242a37b3a620562ce1760f0a4f1d7a6af",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "cb2c263c17eaabc80d0e1f0570fac82242a37b3a620562ce1760f0a4f1d7a6af",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "cb2c263c17eaabc80d0e1f0570fac82242a37b3a620562ce1760f0a4f1d7a6af",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 353, \"y2\": 172}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/title",
+            "text_content": "Preferences",
+            "word_sequence": [
+                "Preferences"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "cb2c263c17eaabc80d0e1f0570fac82242a37b3a620562ce1760f0a4f1d7a6af",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 303}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/title",
+            "text_content": "Data",
+            "word_sequence": [
+                "Data"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "cb2c263c17eaabc80d0e1f0570fac82242a37b3a620562ce1760f0a4f1d7a6af",
+            "bounding_box": "{\"x1\": 42, \"y1\": 348, \"x2\": 130, \"y2\": 405}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/title",
+            "text_content": "Interface",
+            "word_sequence": [
+                "Interface"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "cb2c263c17eaabc80d0e1f0570fac82242a37b3a620562ce1760f0a4f1d7a6af",
+            "bounding_box": "{\"x1\": 42, \"y1\": 492, \"x2\": 208, \"y2\": 549}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/title",
+            "text_content": "Navigation",
+            "word_sequence": [
+                "Navigation"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "cb2c263c17eaabc80d0e1f0570fac82242a37b3a620562ce1760f0a4f1d7a6af",
+            "bounding_box": "{\"x1\": 42, \"y1\": 636, \"x2\": 243, \"y2\": 693}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/title",
+            "text_content": "Behaviors",
+            "word_sequence": [
+                "Behaviors"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "cb2c263c17eaabc80d0e1f0570fac82242a37b3a620562ce1760f0a4f1d7a6af",
+            "bounding_box": "{\"x1\": 42, \"y1\": 780, \"x2\": 226, \"y2\": 837}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/title",
+            "text_content": "Notifications",
+            "word_sequence": [
+                "Notifications"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "cb2c263c17eaabc80d0e1f0570fac82242a37b3a620562ce1760f0a4f1d7a6af",
+            "bounding_box": "{\"x1\": 42, \"y1\": 924, \"x2\": 281, \"y2\": 981}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/title",
+            "text_content": "Privacy",
+            "word_sequence": [
+                "Privacy"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "cb2c263c17eaabc80d0e1f0570fac82242a37b3a620562ce1760f0a4f1d7a6af",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1068, \"x2\": 178, \"y2\": 1125}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/title",
+            "text_content": "Beta",
+            "word_sequence": [
+                "Beta"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "cb2c263c17eaabc80d0e1f0570fac82242a37b3a620562ce1760f0a4f1d7a6af",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1170, \"x2\": 1080, \"y2\": 1263}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "android:id/title",
+            "text_content": "Google+",
+            "word_sequence": [
+                "Google"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "cb2c263c17eaabc80d0e1f0570fac82242a37b3a620562ce1760f0a4f1d7a6af",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1308, \"x2\": 199, \"y2\": 1365}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "android:id/summary",
+            "text_content": "Subscribe to the beta program to keep up to date with the latest features",
+            "word_sequence": [
+                "Subscribe",
+                "to",
+                "the",
+                "beta",
+                "program",
+                "to",
+                "keep",
+                "up",
+                "to",
+                "date",
+                "with",
+                "the",
+                "latest",
+                "features"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "cb2c263c17eaabc80d0e1f0570fac82242a37b3a620562ce1760f0a4f1d7a6af",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1365, \"x2\": 1038, \"y2\": 1459}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "android:id/title",
+            "text_content": "Help",
+            "word_sequence": [
+                "Help"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "cb2c263c17eaabc80d0e1f0570fac82242a37b3a620562ce1760f0a4f1d7a6af",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1504, \"x2\": 1080, \"y2\": 1597}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "android:id/title",
+            "text_content": "Online manual",
+            "word_sequence": [
+                "Online",
+                "manual"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "cb2c263c17eaabc80d0e1f0570fac82242a37b3a620562ce1760f0a4f1d7a6af",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1642, \"x2\": 308, \"y2\": 1699}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "android:id/title",
+            "text_content": "App tour",
+            "word_sequence": [
+                "App",
+                "tour"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "cb2c263c17eaabc80d0e1f0570fac82242a37b3a620562ce1760f0a4f1d7a6af",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1786, \"x2\": 202, \"y2\": 1794}"
+        }
+    ],
+    "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530": [
+        {
+            "component_id": 0,
+            "resource_id": "it.feio.android.omninotes:id/crouton_handle",
+            "text_content": "",
+            "word_sequence": [
+                "crouton",
+                "handle"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "Interface",
+            "word_sequence": [
+                "Interface"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 371, \"y2\": 172}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/title",
+            "text_content": "Language",
+            "word_sequence": [
+                "Language"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530",
+            "bounding_box": "{\"x1\": 42, \"y1\": 252, \"x2\": 227, \"y2\": 309}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/summary",
+            "text_content": "English (United States)",
+            "word_sequence": [
+                "English",
+                "United",
+                "States"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530",
+            "bounding_box": "{\"x1\": 42, \"y1\": 309, \"x2\": 416, \"y2\": 360}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/title",
+            "text_content": "Text size",
+            "word_sequence": [
+                "Text",
+                "size"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530",
+            "bounding_box": "{\"x1\": 42, \"y1\": 436, \"x2\": 207, \"y2\": 493}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/summary",
+            "text_content": "Default",
+            "word_sequence": [
+                "Default"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530",
+            "bounding_box": "{\"x1\": 42, \"y1\": 493, \"x2\": 159, \"y2\": 542}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/title",
+            "text_content": "Application color scheme",
+            "word_sequence": [
+                "Application",
+                "color",
+                "scheme"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530",
+            "bounding_box": "{\"x1\": 42, \"y1\": 618, \"x2\": 515, \"y2\": 675}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/summary",
+            "text_content": "Strip only",
+            "word_sequence": [
+                "Strip",
+                "only"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530",
+            "bounding_box": "{\"x1\": 42, \"y1\": 675, \"x2\": 196, \"y2\": 726}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/title",
+            "text_content": "Floating action button",
+            "word_sequence": [
+                "Floating",
+                "action",
+                "button"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530",
+            "bounding_box": "{\"x1\": 42, \"y1\": 813, \"x2\": 451, \"y2\": 870}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/summary",
+            "text_content": "Short touch toggles options",
+            "word_sequence": [
+                "Short",
+                "touch",
+                "toggles",
+                "options"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530",
+            "bounding_box": "{\"x1\": 42, \"y1\": 870, \"x2\": 496, \"y2\": 921}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "android:id/switch_widget",
+            "text_content": "OFF",
+            "word_sequence": [
+                "OFF"
+            ],
+            "type": "SWITCH",
+            "app_name": 44,
+            "screen_id": "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530",
+            "bounding_box": "{\"x1\": 916, \"y1\": 831, \"x2\": 1038, \"y2\": 902}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "android:id/title",
+            "text_content": "Simple calendar and time",
+            "word_sequence": [
+                "Simple",
+                "calendar",
+                "and",
+                "time"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1008, \"x2\": 514, \"y2\": 1065}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "android:id/summary",
+            "text_content": "Use the (simpler) Android interface for date/time selection, instead of Google interface",
+            "word_sequence": [
+                "Use",
+                "the",
+                "simpler",
+                "Android",
+                "interface",
+                "for",
+                "date",
+                "/",
+                "time",
+                "selection",
+                ",",
+                "instead",
+                "of",
+                "Google",
+                "interface"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1065, \"x2\": 874, \"y2\": 1159}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "android:id/switch_widget",
+            "text_content": "OFF",
+            "word_sequence": [
+                "OFF"
+            ],
+            "type": "SWITCH",
+            "app_name": 44,
+            "screen_id": "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530",
+            "bounding_box": "{\"x1\": 916, \"y1\": 1048, \"x2\": 1038, \"y2\": 1119}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "android:id/title",
+            "text_content": "Attachments on bottom",
+            "word_sequence": [
+                "Attachments",
+                "on",
+                "bottom"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1246, \"x2\": 487, \"y2\": 1303}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "android:id/summary",
+            "text_content": "Shows attachments above note content",
+            "word_sequence": [
+                "Shows",
+                "attachments",
+                "above",
+                "note",
+                "content"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1303, \"x2\": 691, \"y2\": 1354}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "android:id/switch_widget",
+            "text_content": "OFF",
+            "word_sequence": [
+                "OFF"
+            ],
+            "type": "SWITCH",
+            "app_name": 44,
+            "screen_id": "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530",
+            "bounding_box": "{\"x1\": 916, \"y1\": 1264, \"x2\": 1038, \"y2\": 1335}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "android:id/title",
+            "text_content": "Prettified dates",
+            "word_sequence": [
+                "Prettified",
+                "dates"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1441, \"x2\": 327, \"y2\": 1498}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "android:id/summary",
+            "text_content": "Dates are shown in a simplier format",
+            "word_sequence": [
+                "Dates",
+                "are",
+                "shown",
+                "in",
+                "a",
+                "simplier",
+                "format"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1498, \"x2\": 644, \"y2\": 1549}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "android:id/switch_widget",
+            "text_content": "ON",
+            "word_sequence": [
+                "ON"
+            ],
+            "type": "SWITCH",
+            "app_name": 44,
+            "screen_id": "af7d581c37b25dd4225817ead25e4d6d438bb34d71a5bd6d66ca9da5731f0530",
+            "bounding_box": "{\"x1\": 916, \"y1\": 1459, \"x2\": 1038, \"y2\": 1530}"
+        }
+    ],
+    "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "Language",
+            "word_sequence": [
+                "Language"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 44,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 133, \"y1\": 152, \"x2\": 947, \"y2\": 223}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/titleDividerNoCustom",
+            "text_content": "",
+            "word_sequence": [
+                "title",
+                "Divider",
+                "No",
+                "Custom"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 44,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 223, \"x2\": 1010, \"y2\": 244}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/text1",
+            "text_content": "English (English)",
+            "word_sequence": [
+                "English",
+                "English"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 44,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 244, \"x2\": 1010, \"y2\": 370}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/text1",
+            "text_content": "Fran\u00e7ais (French)",
+            "word_sequence": [
+                "Fran\u00e7ais",
+                "French"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 44,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 370, \"x2\": 1010, \"y2\": 496}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/text1",
+            "text_content": "\u1797\u17b6\u179f\u17b6\u1781\u17d2\u1798\u17c2\u179a (Khmer)",
+            "word_sequence": [
+                "\u1797",
+                "\u179f",
+                "\u1781",
+                "\u1798",
+                "\u179a",
+                "Khmer"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 44,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 496, \"x2\": 1010, \"y2\": 622}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/text1",
+            "text_content": "Deutsch (German)",
+            "word_sequence": [
+                "Deutsch",
+                "German"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 44,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 622, \"x2\": 1010, \"y2\": 748}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/text1",
+            "text_content": "Galego (Galician)",
+            "word_sequence": [
+                "Galego",
+                "Galician"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 44,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 748, \"x2\": 1010, \"y2\": 874}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/text1",
+            "text_content": "\u03b5\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac (Greek)",
+            "word_sequence": [
+                "\u03b5\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac",
+                "Greek"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 44,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 874, \"x2\": 1010, \"y2\": 1000}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/text1",
+            "text_content": "\u05e2\u05d1\u05e8\u05d9\u05ea (Hebrew)",
+            "word_sequence": [
+                "\u05e2\u05d1\u05e8\u05d9\u05ea",
+                "Hebrew"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 44,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 1000, \"x2\": 1010, \"y2\": 1126}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/text1",
+            "text_content": "\u0939\u093f\u0902\u0926\u0940 (Hindi)",
+            "word_sequence": [
+                "\u0939",
+                "\u0926",
+                "Hindi"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 44,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 1126, \"x2\": 1010, \"y2\": 1252}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/text1",
+            "text_content": "Magyar (Hungarian)",
+            "word_sequence": [
+                "Magyar",
+                "Hungarian"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 44,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 1252, \"x2\": 1010, \"y2\": 1378}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "android:id/text1",
+            "text_content": "Bahasa Indonesia (Indonesian)",
+            "word_sequence": [
+                "Bahasa",
+                "Indonesia",
+                "Indonesian"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 44,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 1378, \"x2\": 1010, \"y2\": 1504}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "android:id/text1",
+            "text_content": "Italiano (Italian)",
+            "word_sequence": [
+                "Italiano",
+                "Italian"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 44,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 70, \"y1\": 1504, \"x2\": 1010, \"y2\": 1603}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "android:id/button2",
+            "text_content": "CANCEL",
+            "word_sequence": [
+                "CANCEL"
+            ],
+            "type": "BUTTON",
+            "app_name": 44,
+            "screen_id": "faf5689aed46efb898f4743047aef0562031f60fdf69d2e076d5eb02fac6cdf6",
+            "bounding_box": "{\"x1\": 776, \"y1\": 1614, \"x2\": 978, \"y2\": 1740}"
+        }
+    ]
+}

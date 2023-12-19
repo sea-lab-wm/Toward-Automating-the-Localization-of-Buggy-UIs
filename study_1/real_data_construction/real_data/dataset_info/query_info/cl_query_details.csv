@@ -1,0 +1,255 @@
+Task-No.;Bug-ID;OB-ID;Screen-ID;Title-OB?;Bug-Type;OB-Category;OB-Rating;OB-Text-Length;#-Component-in-GT;#-Component-in-Corpus
+1;Bug2;0;4bfa8dc7a47495036edd455e67d3d7f39276498a2ed0a8d362a59d5c7b005b38;1;App crashes;Easy;3;9;3;9
+2;Bug2;0;f189f23124c6c372973bbff27e30b7107f27022f74836d7085daf2817f565790;1;App crashes;Easy;3;9;3;9
+3;Bug2;1;4bfa8dc7a47495036edd455e67d3d7f39276498a2ed0a8d362a59d5c7b005b38;0;App crashes;Easy;5;23;3;9
+4;Bug2;1;f189f23124c6c372973bbff27e30b7107f27022f74836d7085daf2817f565790;0;App crashes;Easy;5;23;3;9
+5;Bug2;2;4bfa8dc7a47495036edd455e67d3d7f39276498a2ed0a8d362a59d5c7b005b38;0;App crashes;Hard;1;3;3;9
+6;Bug2;2;f189f23124c6c372973bbff27e30b7107f27022f74836d7085daf2817f565790;0;App crashes;Hard;1;3;3;9
+7;Bug8;0;a77eeb613bdff27be2615cea0223f0b093401c8f89baa1926d68c72f9408aa83;1;App crashes;Easy;2;4;1;6
+8;Bug10;0;a0ae2c21a12bc864024f18b7af900668f54e251f7fd5fc6e49da5bf1f8c6a013;1;Undesirable  behavior ;Hard;4;10;3;20
+9;Bug10;1;a0ae2c21a12bc864024f18b7af900668f54e251f7fd5fc6e49da5bf1f8c6a013;0;Undesirable  behavior ;Hard;2;5;3;20
+10;Bug19;0;9253f6a470c03c51c0336600f51a86c0b1bbf467076b4fc430d25a83e2ec7926;1;Uneditable component;Easy;4;7;1;18
+11;Bug19;1;9253f6a470c03c51c0336600f51a86c0b1bbf467076b4fc430d25a83e2ec7926;0;Undesirable component;Easy;5;18;1;18
+12;Bug44;0;954f0c046aa33d91745fc4a7ab5612edcb1d8636b1879359ace038de70d285be;1;Undesirable component;Hard;2;7;1;16
+13;Bug44;0;a0ee1430817381ead0b5a3e521583bf6a5128b49be69aa023372d4c114493525;1;Undesirable component;Hard;2;7;1;15
+14;Bug44;1;954f0c046aa33d91745fc4a7ab5612edcb1d8636b1879359ace038de70d285be;0;Undesirable component;Hard;2;4;1;16
+15;Bug44;1;a0ee1430817381ead0b5a3e521583bf6a5128b49be69aa023372d4c114493525;0;Undesirable component;Hard;2;4;1;15
+16;Bug44;2;954f0c046aa33d91745fc4a7ab5612edcb1d8636b1879359ace038de70d285be;0;Undesirable component;Hard;3;16;1;16
+17;Bug44;2;a0ee1430817381ead0b5a3e521583bf6a5128b49be69aa023372d4c114493525;0;Undesirable component;Hard;3;16;1;15
+18;Bug53;0;f96bea99a9d9d2407a2ee17301c93ab4334275cf97231c28c55bd2f47e5d2a08;1;Wrong information is displayed;Easy;4;12;1;12
+19;Bug53;1;f96bea99a9d9d2407a2ee17301c93ab4334275cf97231c28c55bd2f47e5d2a08;0;Wrong information is displayed;Hard;5;38;1;12
+20;Bug129;0;8a6b7b5a5c844618e99480602ed9fd5834452497d3adde79235c6e89bbc1558e;1;App crashes;Easy;5;7;1;14
+21;Bug129;0;880dd477e9f36942e3f0b5cd86b8a9690b014aaabf72b5d0791759d0422ba6ea;1;App crashes;Easy;5;7;1;14
+22;Bug129;1;8a6b7b5a5c844618e99480602ed9fd5834452497d3adde79235c6e89bbc1558e;0;App crashes;Hard;2;2;1;14
+23;Bug129;1;880dd477e9f36942e3f0b5cd86b8a9690b014aaabf72b5d0791759d0422ba6ea;0;App crashes;Hard;2;2;1;14
+24;Bug130;0;5b8041ae2bf7a9056b4a78b47356850e866e256cbad31ef53b267fac95e431cf;1;Undesirable component;Hard;3;13;1;9
+25;Bug130;0;320c867c3f14d180d08d86de381b7a9f68b8cf48ec1cc229d88b8cbd76f6bbd7;1;Undesirable component;Hard;3;13;1;9
+26;Bug130;0;5780f33d918cc9ee940756955d17f1376f91a80888e5a97fbf98d3a4ff22358b;1;Undesirable component;Hard;3;13;1;10
+27;Bug130;1;5b8041ae2bf7a9056b4a78b47356850e866e256cbad31ef53b267fac95e431cf;0;Undesirable component;Hard;3;12;1;9
+28;Bug130;1;320c867c3f14d180d08d86de381b7a9f68b8cf48ec1cc229d88b8cbd76f6bbd7;0;Undesirable component;Hard;3;12;1;9
+29;Bug130;1;5780f33d918cc9ee940756955d17f1376f91a80888e5a97fbf98d3a4ff22358b;0;Undesirable component;Hard;3;12;1;10
+30;Bug130;2;5b8041ae2bf7a9056b4a78b47356850e866e256cbad31ef53b267fac95e431cf;0;Undesirable component;Hard;3;23;1;9
+31;Bug130;2;320c867c3f14d180d08d86de381b7a9f68b8cf48ec1cc229d88b8cbd76f6bbd7;0;Undesirable component;Hard;3;23;1;9
+32;Bug130;2;5780f33d918cc9ee940756955d17f1376f91a80888e5a97fbf98d3a4ff22358b;0;Undesirable component;Hard;3;23;1;10
+33;Bug130;3;5b8041ae2bf7a9056b4a78b47356850e866e256cbad31ef53b267fac95e431cf;0;Undesirable component;Hard;4;15;1;9
+34;Bug130;3;320c867c3f14d180d08d86de381b7a9f68b8cf48ec1cc229d88b8cbd76f6bbd7;0;Undesirable component;Hard;4;15;1;9
+35;Bug130;3;5780f33d918cc9ee940756955d17f1376f91a80888e5a97fbf98d3a4ff22358b;0;Undesirable component;Hard;4;15;1;10
+36;Bug130;4;5b8041ae2bf7a9056b4a78b47356850e866e256cbad31ef53b267fac95e431cf;0;Undesirable component;Hard;4;16;1;9
+37;Bug130;4;320c867c3f14d180d08d86de381b7a9f68b8cf48ec1cc229d88b8cbd76f6bbd7;0;Undesirable component;Hard;4;16;1;9
+38;Bug130;4;5780f33d918cc9ee940756955d17f1376f91a80888e5a97fbf98d3a4ff22358b;0;Undesirable component;Hard;4;16;1;10
+39;Bug130;5;5b8041ae2bf7a9056b4a78b47356850e866e256cbad31ef53b267fac95e431cf;0;Undesirable component;Easy;5;28;1;9
+40;Bug130;5;320c867c3f14d180d08d86de381b7a9f68b8cf48ec1cc229d88b8cbd76f6bbd7;0;Undesirable component;Easy;5;28;1;9
+41;Bug130;5;5780f33d918cc9ee940756955d17f1376f91a80888e5a97fbf98d3a4ff22358b;0;Undesirable component;Easy;5;28;1;10
+42;Bug191;0;8430d221ab4d15f270457f7e12b3c8fff85018a5d25e41321c6525a561a8cb4d;1;Wrong information is displayed;Hard;2;2;1;11
+43;Bug191;1;8430d221ab4d15f270457f7e12b3c8fff85018a5d25e41321c6525a561a8cb4d;0;Wrong information is displayed;Easy;3;12;1;11
+44;Bug206;0;4bebd7279257bebd1d5e73837e1bf79a9f3eb2890b02646bb0274158130d0e4f;1;Wrong information is displayed;Hard;3;5;1;14
+45;Bug206;1;4bebd7279257bebd1d5e73837e1bf79a9f3eb2890b02646bb0274158130d0e4f;0;Wrong information is displayed;Hard;3;9;1;14
+46;Bug256;0;5a9b8a9e50124d5fb5b888f933b48a44fd2301deab4e47043b2e49ee1c472b61;1;App crashes;Easy;4;13;1;3
+47;Bug256;0;5011c950846f4b3865e9eb633c3d562fa553ecf430dc155ad98009c7755aa80a;1;App crashes;Easy;4;13;1;2
+48;Bug256;1;5a9b8a9e50124d5fb5b888f933b48a44fd2301deab4e47043b2e49ee1c472b61;0;App crashes;Hard;4;6;1;3
+49;Bug256;1;5011c950846f4b3865e9eb633c3d562fa553ecf430dc155ad98009c7755aa80a;0;App crashes;Hard;4;6;1;2
+50;Bug256;2;5a9b8a9e50124d5fb5b888f933b48a44fd2301deab4e47043b2e49ee1c472b61;0;App crashes;Hard;2;2;1;3
+51;Bug256;2;5011c950846f4b3865e9eb633c3d562fa553ecf430dc155ad98009c7755aa80a;0;App crashes;Hard;2;2;1;2
+52;Bug1066;0;33e4756242435b50d079669e652590d157833154ee83e25427874319e041be1b;1;Text in Component disappears;Easy;4;10;1;12
+53;Bug1066;0;716d4ada420fc55a4b7560a2ce89a0b2b2ad1f0646fc8e32a125f8db78dda838;1;Text in Component disappears;Easy;4;10;1;7
+54;Bug1066;0;ee923fe4324899f33f6e12779cee57014b1fd5225adc7d12b631978a89de6bf4;1;Text in Component disappears;Easy;4;10;1;12
+55;Bug1066;1;33e4756242435b50d079669e652590d157833154ee83e25427874319e041be1b;0;Text in Component disappears;Hard;2;2;1;12
+56;Bug1066;1;716d4ada420fc55a4b7560a2ce89a0b2b2ad1f0646fc8e32a125f8db78dda838;0;Text in Component disappears;Hard;2;2;1;7
+57;Bug1066;1;ee923fe4324899f33f6e12779cee57014b1fd5225adc7d12b631978a89de6bf4;0;Text in Component disappears;Hard;2;2;1;12
+58;Bug1067;0;426c058ed394da5f95cddea3b528f9cc8621b11942f1c5f89844a909d82c81a2;1;Text in a component is misaligned;Easy;4;6;1;12
+59;Bug1067;1;426c058ed394da5f95cddea3b528f9cc8621b11942f1c5f89844a909d82c81a2;0;Text in a component is misaligned;Easy;3;5;1;12
+60;Bug1096;2;7edb53bf16b3ca252e7dee3ea6bdface12bc76c07499d589a5bc2ec749e0ef6d;0;App crashes;Hard;4;31;1;6
+61;Bug1096;3;7edb53bf16b3ca252e7dee3ea6bdface12bc76c07499d589a5bc2ec749e0ef6d;0;App crashes;Hard;4;5;1;6
+62;Bug1096;4;7edb53bf16b3ca252e7dee3ea6bdface12bc76c07499d589a5bc2ec749e0ef6d;0;App crashes;Hard;4;4;1;6
+63;Bug1096;5;7edb53bf16b3ca252e7dee3ea6bdface12bc76c07499d589a5bc2ec749e0ef6d;0;App crashes;Hard;4;6;1;6
+64;Bug1207;0;7289de2d8229b56e93df71cccfefd2138ecd15642c8a33d8a571351dc5863620;1;App crashes;Hard;3;8;4;18
+65;Bug1207;1;7289de2d8229b56e93df71cccfefd2138ecd15642c8a33d8a571351dc5863620;0;App crashes;Easy;5;20;4;18
+66;Bug1207;2;7289de2d8229b56e93df71cccfefd2138ecd15642c8a33d8a571351dc5863620;0;App crashes;Hard;2;2;4;18
+67;Bug1214;0;501e2e5c249dc28abf8e52d4912f52dd03d21b39399e14fc8f8be14b3c59234f;1;Unclickable component;Easy;5;16;1;9
+68;Bug1214;1;501e2e5c249dc28abf8e52d4912f52dd03d21b39399e14fc8f8be14b3c59234f;0;Text in Component disappears;Easy;4;9;1;9
+69;Bug1215;0;5aade91098c778c025c4d23a7a06a4a475e9ed8ae5cbeb0de86c970a79ea6ba7;1;App crashes;Easy;4;12;1;16
+70;Bug1215;0;37b4142557edc79ce33891e22c8b36cdca317c18cbd1f62155632ebf5f0d84ab;1;App crashes;Easy;4;12;1;16
+71;Bug1215;1;5aade91098c778c025c4d23a7a06a4a475e9ed8ae5cbeb0de86c970a79ea6ba7;0;App crashes;Hard;2;3;1;16
+72;Bug1215;1;37b4142557edc79ce33891e22c8b36cdca317c18cbd1f62155632ebf5f0d84ab;0;App crashes;Hard;2;3;1;16
+73;Bug1224;0;0d34b2ae6aceeaadad83681111614b957a1283faf7d0f04c502a81f9a5650c07;1;Component is not displayed (correctly);Hard;4;9;4;37
+74;Bug1224;0;8e14e795c1c4fd49424562a254e3e44e9726001d357da4db0b5c70df89147148;1;Component is not displayed (correctly);Hard;4;9;5;43
+75;Bug1224;0;39d5d97f59c7df026e01e9d0a9a3defc9fbc6e313a433ee8a28da891e5179b20;1;Component is not displayed (correctly);Hard;4;9;5;43
+76;Bug1224;0;88bedf63bd63a5a4fd56cdb60d2b0f362177e88f3caa8e971fa2d3afb2865d9a;1;Component is not displayed (correctly);Hard;4;9;1;12
+77;Bug1224;0;ddbdee487465d14bc34b5f19129a0d8a8aa5316763ea2d0fff2916b5e3a64bec;1;Component is not displayed (correctly);Hard;4;9;2;17
+78;Bug1224;1;0d34b2ae6aceeaadad83681111614b957a1283faf7d0f04c502a81f9a5650c07;0;Showing data in wrong format;Hard;2;4;4;37
+79;Bug1224;1;8e14e795c1c4fd49424562a254e3e44e9726001d357da4db0b5c70df89147148;0;Showing data in wrong format;Hard;2;4;5;43
+80;Bug1224;1;39d5d97f59c7df026e01e9d0a9a3defc9fbc6e313a433ee8a28da891e5179b20;0;Showing data in wrong format;Hard;2;4;5;43
+81;Bug1224;1;88bedf63bd63a5a4fd56cdb60d2b0f362177e88f3caa8e971fa2d3afb2865d9a;0;Showing data in wrong format;Hard;2;4;1;12
+82;Bug1224;1;ddbdee487465d14bc34b5f19129a0d8a8aa5316763ea2d0fff2916b5e3a64bec;0;Showing data in wrong format;Hard;2;4;2;17
+83;Bug1226;0;90e9cf15b97831124b79c7070c0bf7259c6bc734990e8f8265f30be85d2a7f84;1;App crashes;Easy;5;8;1;10
+84;Bug1226;0;374c03f3602288ed8325672a98424fdb558a99b420f926a20f59a56ea4ab35f3;1;App crashes;Easy;5;8;1;14
+85;Bug1226;1;90e9cf15b97831124b79c7070c0bf7259c6bc734990e8f8265f30be85d2a7f84;0;App crashes;Hard;2;3;1;10
+86;Bug1226;1;374c03f3602288ed8325672a98424fdb558a99b420f926a20f59a56ea4ab35f3;0;App crashes;Hard;2;3;1;14
+87;Bug1226;2;90e9cf15b97831124b79c7070c0bf7259c6bc734990e8f8265f30be85d2a7f84;0;App crashes;Easy;5;10;1;10
+88;Bug1226;2;374c03f3602288ed8325672a98424fdb558a99b420f926a20f59a56ea4ab35f3;0;App crashes;Easy;5;10;1;14
+89;Bug1299;0;16c9d62c265c8fdb4e439859c356403676619f27ba36b7df23aeaf444ab30cd4;1;App crashes;Easy;3;8;1;20
+90;Bug1299;1;16c9d62c265c8fdb4e439859c356403676619f27ba36b7df23aeaf444ab30cd4;0;App crashes;Easy;5;16;1;20
+91;Bug1299;2;16c9d62c265c8fdb4e439859c356403676619f27ba36b7df23aeaf444ab30cd4;0;App crashes;Easy;4;16;1;20
+92;Bug1430;0;7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d;1;App crashes;Hard;3;9;2;24
+93;Bug1430;1;7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d;0;App crashes;Easy;5;27;2;24
+94;Bug1430;2;7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d;0;App crashes;Hard;2;8;2;24
+95;Bug1430;3;7dc0ecb412c8115ab5f890684aa866f751b8587206fa4a03cdd791ae1120201d;0;App crashes;Hard;2;4;2;24
+96;Bug1441;0;f017eceeb377db602bbb7d45fafae25a710f7cc26c4c610b0b80e9cc325ca3c3;1;Textual error in screen;Hard;2;6;1;10
+97;Bug1441;1;f017eceeb377db602bbb7d45fafae25a710f7cc26c4c610b0b80e9cc325ca3c3;0;Uneditable component;Easy;5;20;1;10
+98;Bug1441;2;f017eceeb377db602bbb7d45fafae25a710f7cc26c4c610b0b80e9cc325ca3c3;0;Undesirable  behavior ;Easy;4;11;1;10
+99;Bug1645;0;a719f24f2ba3535fb31b5888e77e3d996baa57a4b1fc098a093d1f70bd49f4e4;1;App crashes;Hard;3;5;2;15
+100;Bug1645;0;6a40d56883c3db0ece8ca0b1b72e38039804a70a41eeb703c1bef5cff6c8dba6;1;App crashes;Hard;3;5;2;15
+101;Bug1645;1;a719f24f2ba3535fb31b5888e77e3d996baa57a4b1fc098a093d1f70bd49f4e4;0;App crashes;Easy;5;14;2;15
+102;Bug1645;1;6a40d56883c3db0ece8ca0b1b72e38039804a70a41eeb703c1bef5cff6c8dba6;0;App crashes;Easy;5;14;2;15
+103;Bug1645;2;a719f24f2ba3535fb31b5888e77e3d996baa57a4b1fc098a093d1f70bd49f4e4;0;App crashes;Hard;1;4;2;15
+104;Bug1645;2;6a40d56883c3db0ece8ca0b1b72e38039804a70a41eeb703c1bef5cff6c8dba6;0;App crashes;Hard;1;4;2;15
+105;Bug91;0;f378dc47e21dbc9e301fbb67468ff357c6a41055ad1450c1cbf9e9682483dd30;1;Uneditable component;Easy;5;9;2;26
+106;Bug91;1;f378dc47e21dbc9e301fbb67468ff357c6a41055ad1450c1cbf9e9682483dd30;0;Uneditable component;Easy;5;9;2;26
+107;Bug91;2;f378dc47e21dbc9e301fbb67468ff357c6a41055ad1450c1cbf9e9682483dd30;0;Component disappear;Easy;4;5;2;26
+108;Bug92;0;3ffcbabdd5d8b95053bfc3dc6a707267a3ff0374c1e89037b8fbbd88feca6ef8;1;Textual error in screen;Easy;4;6;1;6
+109;Bug92;1;3ffcbabdd5d8b95053bfc3dc6a707267a3ff0374c1e89037b8fbbd88feca6ef8;0;Textual error in screen;Easy;4;23;1;6
+110;Bug92;2;3ffcbabdd5d8b95053bfc3dc6a707267a3ff0374c1e89037b8fbbd88feca6ef8;0;Undesirable  behavior ;Hard;3;4;1;6
+111;Bug158;0;8d8389d0fdcbc813730d07ae0d2305f1bc293f8309ed532b91116c51db8e3c59;1;Wrong theme in screen;Easy;3;12;1;13
+112;Bug158;0;ba1ce36b563359e9b4defdbd7c79bc6ae033d31c8c713212a2b38719bb700998;1;Wrong theme in screen;Easy;3;12;1;19
+113;Bug158;1;8d8389d0fdcbc813730d07ae0d2305f1bc293f8309ed532b91116c51db8e3c59;0;Wrong theme in screen;Easy;4;6;1;13
+114;Bug158;1;ba1ce36b563359e9b4defdbd7c79bc6ae033d31c8c713212a2b38719bb700998;0;Wrong theme in screen;Easy;4;6;1;19
+115;Bug160;0;a0b726bcfacb34e7995bcbe74a88442f146978c1610eed8d9038a1f392fcecb2;0;Component is not displayed (correctly);Easy;4;9;1;16
+116;Bug160;0;e4c726db54cea87560f449933302fddcf686ab9f4b644ffceebebfedc54543b5;0;Component is not displayed (correctly);Easy;4;9;1;15
+117;Bug160;0;f05b890f250d2febb1dea8edabfc1a7866ccc940aadfa374789d26cbc0c11b0b;0;Component is not displayed (correctly);Easy;4;9;1;16
+118;Bug162;1;22d8aeb2beb7f50ba88b5aa458d86aa39e1d21c662256fa943767f61f62874f6;0;App crashes;Easy;4;40;2;10
+119;Bug162;1;3021e0808fd07caae95f6b2a1622f3d7fa457f999d434c484b3e359c304f4c41;0;App crashes;Easy;4;40;2;11
+120;Bug162;1;a64ea9623a021f428b644075fa99211263ca7360fbd09f055e5874485779d9ce;0;App crashes;Easy;4;40;2;11
+121;Bug162;2;22d8aeb2beb7f50ba88b5aa458d86aa39e1d21c662256fa943767f61f62874f6;0;App crashes;Hard;1;2;2;10
+122;Bug162;2;3021e0808fd07caae95f6b2a1622f3d7fa457f999d434c484b3e359c304f4c41;0;App crashes;Hard;1;2;2;11
+123;Bug162;2;a64ea9623a021f428b644075fa99211263ca7360fbd09f055e5874485779d9ce;0;App crashes;Hard;1;2;2;11
+124;Bug192;0;60fe6da5eaa144d7d03d34e758cd3935ad1568de4ca61e27fa6067ca59a5b05e;1;Undesirable  behavior ;Easy;4;8;1;14
+125;Bug192;1;60fe6da5eaa144d7d03d34e758cd3935ad1568de4ca61e27fa6067ca59a5b05e;0;Undesirable  behavior ;Easy;4;7;1;14
+126;Bug192;2;60fe6da5eaa144d7d03d34e758cd3935ad1568de4ca61e27fa6067ca59a5b05e;0;Undesirable  behavior ;Easy;4;18;1;14
+127;Bug199;0;0168c632f4a025d7984edf3eb7431ac08c5b4fd4121f2dccc10ae13ab8216412;1;Component is not displayed (correctly);Easy;4;7;1;8
+128;Bug199;1;0168c632f4a025d7984edf3eb7431ac08c5b4fd4121f2dccc10ae13ab8216412;0;Component is not displayed (correctly);Easy;5;17;1;8
+129;Bug200;0;0168c632f4a025d7984edf3eb7431ac08c5b4fd4121f2dccc10ae13ab8216412;1;Undesirable component;Hard;2;7;1;8
+130;Bug200;0;3777be9509c853e63b70ff749cacba34117bb6c2584ab8146b4215f36f7520a5;1;Undesirable component;Hard;2;7;2;13
+131;Bug200;1;0168c632f4a025d7984edf3eb7431ac08c5b4fd4121f2dccc10ae13ab8216412;0;Undesirable component;Easy;5;27;1;8
+132;Bug200;1;3777be9509c853e63b70ff749cacba34117bb6c2584ab8146b4215f36f7520a5;0;Undesirable component;Easy;5;27;2;13
+133;Bug1033;0;7fd0424aaa4d543eecdcce037d9ddef7976d20d63b9096a356995f332eb3a018;1;Undesirable component;Easy;4;6;4;11
+134;Bug1033;1;7fd0424aaa4d543eecdcce037d9ddef7976d20d63b9096a356995f332eb3a018;0;Undesirable component;Hard;2;5;4;11
+135;Bug1198;0;d54276dfee4daa88de199780d943e45b9e318ba5be418e8eb1cb6d30671c012e;1;Undesirable  behavior ;Easy;5;12;8;30
+136;Bug1198;1;d54276dfee4daa88de199780d943e45b9e318ba5be418e8eb1cb6d30671c012e;0;Undesirable  behavior ;Hard;4;8;8;30
+137;Bug1389;0;70e70cfdab5caa3d52c61d98495ecb5ccdd699cba946770630c05bde21c1a44f;1;App crashes;Easy;4;5;2;5
+138;Bug1389;1;70e70cfdab5caa3d52c61d98495ecb5ccdd699cba946770630c05bde21c1a44f;0;App crashes;Easy;5;17;2;5
+139;Bug1425;0;30949fdbc7c991fe30bd7b17577058c2f1aae1600180890add0761d0f8518ecc;1;Wrong information is displayed;Easy;5;8;2;30
+140;Bug1425;1;30949fdbc7c991fe30bd7b17577058c2f1aae1600180890add0761d0f8518ecc;0;Wrong information is displayed;Easy;5;14;2;30
+141;Bug1425;2;30949fdbc7c991fe30bd7b17577058c2f1aae1600180890add0761d0f8518ecc;0;Wrong information is displayed;Hard;1;2;2;30
+142;Bug1446;0;98698253bcc0fbba2a1a2dbbfa4c6adac03e5a0d69e161d18239d9043dca356b;0;Wrong information is displayed;Easy;5;23;6;13
+143;Bug1446;0;f017eceeb377db602bbb7d45fafae25a710f7cc26c4c610b0b80e9cc325ca3c3;0;Wrong information is displayed;Easy;5;23;3;10
+144;Bug1446;1;98698253bcc0fbba2a1a2dbbfa4c6adac03e5a0d69e161d18239d9043dca356b;0;Undesirable component;Easy;4;13;6;13
+145;Bug1446;1;f017eceeb377db602bbb7d45fafae25a710f7cc26c4c610b0b80e9cc325ca3c3;0;Undesirable component;Easy;4;13;3;10
+146;Bug1568;0;80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c;1;App crashes;Hard;3;5;3;19
+147;Bug1568;0;c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c;1;App crashes;Hard;3;5;10;54
+148;Bug1568;1;80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c;0;App crashes;Hard;3;10;3;19
+149;Bug1568;1;c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c;0;App crashes;Hard;3;10;10;54
+150;Bug1568;2;80fb5f189cbea7ec59bf54fa092b75ec7b55450244c52183854325091581014c;0;App crashes;Hard;1;2;3;19
+151;Bug1568;2;c3ace511cc9ec178af968ada69bdc51c522b9c99b74c54dc8e9f7f82d504f55c;0;App crashes;Hard;1;2;10;54
+152;Bug1146;0;ab5163d4ac03463cd787f6f02db11e3f293de6d9b2de74a529382bc565e207ee;0;Undesirable component;Hard;5;17;2;42
+153;Bug1146;1;ab5163d4ac03463cd787f6f02db11e3f293de6d9b2de74a529382bc565e207ee;0;Undesirable component;Hard;2;5;2;42
+154;Bug1147;0;e04f069d56b90ceca5a1f3e2d4a2e307020a013ef133c39c1ca7cff371db85ef;1;Unsupported theme in component;Hard;2;10;1;28
+155;Bug1147;0;c3b6fa6b17b8521b017fb3d565ef5c045266e030ed050e01ed41d8dfb4302512;1;Unsupported theme in component;Hard;2;10;1;54
+156;Bug1147;0;2922ae01860f6564bfd8a1d9bb5f8ab294f0c4a44ef1f75e373b844fe3501115;1;Unsupported theme in component;Hard;2;10;1;59
+157;Bug1147;0;101e55d9ff4b4c62018e87002524cdb11e6c23db07cb5f46ae959ee3830feed8;1;Unsupported theme in component;Hard;2;10;1;26
+158;Bug1147;1;e04f069d56b90ceca5a1f3e2d4a2e307020a013ef133c39c1ca7cff371db85ef;0;Unsupported theme in component;Easy;4;39;1;28
+159;Bug1147;1;c3b6fa6b17b8521b017fb3d565ef5c045266e030ed050e01ed41d8dfb4302512;0;Unsupported theme in component;Easy;4;39;1;54
+160;Bug1147;1;2922ae01860f6564bfd8a1d9bb5f8ab294f0c4a44ef1f75e373b844fe3501115;0;Unsupported theme in component;Easy;4;39;1;59
+161;Bug1147;1;101e55d9ff4b4c62018e87002524cdb11e6c23db07cb5f46ae959ee3830feed8;0;Unsupported theme in component;Easy;4;39;1;26
+162;Bug1147;2;e04f069d56b90ceca5a1f3e2d4a2e307020a013ef133c39c1ca7cff371db85ef;0;Unsupported theme in component;Hard;2;10;1;28
+163;Bug1147;2;c3b6fa6b17b8521b017fb3d565ef5c045266e030ed050e01ed41d8dfb4302512;0;Unsupported theme in component;Hard;2;10;1;54
+164;Bug1147;2;2922ae01860f6564bfd8a1d9bb5f8ab294f0c4a44ef1f75e373b844fe3501115;0;Unsupported theme in component;Hard;2;10;1;59
+165;Bug1147;2;101e55d9ff4b4c62018e87002524cdb11e6c23db07cb5f46ae959ee3830feed8;0;Unsupported theme in component;Hard;2;10;1;26
+166;Bug45;0;d6cf12b7c49b109691c1a9a2beeb0eac95fcb435d9c7a44bb14f35b9b5c43e69;1;Undesirable  behavior ;Easy;5;11;1;15
+167;Bug45;1;d6cf12b7c49b109691c1a9a2beeb0eac95fcb435d9c7a44bb14f35b9b5c43e69;0;Undesirable  behavior ;Easy;5;15;1;15
+168;Bug45;2;d6cf12b7c49b109691c1a9a2beeb0eac95fcb435d9c7a44bb14f35b9b5c43e69;0;Undesirable  behavior ;Easy;3;5;1;15
+169;Bug110;0;f74410ffa582d4b72fdc4952405b88a80c44dee9cb340429d51aa71ebf117ad5;1;Data is not displayed;Easy;5;8;1;29
+170;Bug110;0;c8130613c4e8ffc0794f5aea0c67a95a29793702fa1b1464d13cd9b80f1a467d;1;Data is not displayed;Easy;5;8;1;12
+171;Bug110;0;c467ccb28230227dbe849efad4550eec1e2d17e4f7653859232632e47ed3087b;1;Data is not displayed;Easy;5;8;1;34
+172;Bug110;0;a7a520297496ac15881add8b14ecec2a75b2478f7d241cbcbde040a5609fe4c5;1;Data is not displayed;Easy;5;8;1;12
+173;Bug110;0;a6c5dd00b428e2e9e8b34493f89061f41a57803453e02cc0a33eebad02bb67b3;1;Data is not displayed;Easy;5;8;4;31
+174;Bug110;0;42458be649828359e482a6f52f2a14dc7cd6d80713673989fb77d4e3cb796a2b;1;Data is not displayed;Easy;5;8;3;26
+175;Bug110;0;27770bb7d1a9a1b02ee39f799c6a3593026cf10f2a05dd2062625b09e41cc6bc;1;Data is not displayed;Easy;5;8;1;22
+176;Bug110;0;92b3033f4b46bae6894dac3ab9b6d0a62f4dee3a32bda563b2c02348658cad16;1;Data is not displayed;Easy;5;8;1;23
+177;Bug110;0;06dc5fb45d55c7911986605c22e2350d9bcee6de5b4934dd8ec2fb79338d9b5d;1;Data is not displayed;Easy;5;8;1;18
+178;Bug110;0;6da68f2f9dfc66a7d86976eec1d6bb038aecb408a111149c206df647cedd97a6;1;Data is not displayed;Easy;5;8;1;18
+179;Bug110;0;6c021f6e529bf4d67847657ed3c6b31fc7eadc7e87920cb6f280727a005a49dc;1;Data is not displayed;Easy;5;8;1;16
+180;Bug110;1;f74410ffa582d4b72fdc4952405b88a80c44dee9cb340429d51aa71ebf117ad5;0;Data is not displayed;Easy;4;12;1;29
+181;Bug110;1;c8130613c4e8ffc0794f5aea0c67a95a29793702fa1b1464d13cd9b80f1a467d;0;Data is not displayed;Easy;4;12;1;12
+182;Bug110;1;c467ccb28230227dbe849efad4550eec1e2d17e4f7653859232632e47ed3087b;0;Data is not displayed;Easy;4;12;1;34
+183;Bug110;1;a7a520297496ac15881add8b14ecec2a75b2478f7d241cbcbde040a5609fe4c5;0;Data is not displayed;Easy;4;12;1;12
+184;Bug110;1;a6c5dd00b428e2e9e8b34493f89061f41a57803453e02cc0a33eebad02bb67b3;0;Data is not displayed;Easy;4;12;4;31
+185;Bug110;1;42458be649828359e482a6f52f2a14dc7cd6d80713673989fb77d4e3cb796a2b;0;Data is not displayed;Easy;4;12;3;26
+186;Bug110;1;27770bb7d1a9a1b02ee39f799c6a3593026cf10f2a05dd2062625b09e41cc6bc;0;Data is not displayed;Easy;4;12;1;22
+187;Bug110;1;92b3033f4b46bae6894dac3ab9b6d0a62f4dee3a32bda563b2c02348658cad16;0;Data is not displayed;Easy;4;12;1;23
+188;Bug110;1;06dc5fb45d55c7911986605c22e2350d9bcee6de5b4934dd8ec2fb79338d9b5d;0;Data is not displayed;Easy;4;12;1;18
+189;Bug110;1;6da68f2f9dfc66a7d86976eec1d6bb038aecb408a111149c206df647cedd97a6;0;Data is not displayed;Easy;4;12;1;18
+190;Bug110;1;6c021f6e529bf4d67847657ed3c6b31fc7eadc7e87920cb6f280727a005a49dc;0;Data is not displayed;Easy;4;12;1;16
+191;Bug110;2;f74410ffa582d4b72fdc4952405b88a80c44dee9cb340429d51aa71ebf117ad5;0;Data is not displayed;Hard;3;13;1;29
+192;Bug110;2;c8130613c4e8ffc0794f5aea0c67a95a29793702fa1b1464d13cd9b80f1a467d;0;Data is not displayed;Hard;3;13;1;12
+193;Bug110;2;c467ccb28230227dbe849efad4550eec1e2d17e4f7653859232632e47ed3087b;0;Data is not displayed;Hard;3;13;1;34
+194;Bug110;2;a7a520297496ac15881add8b14ecec2a75b2478f7d241cbcbde040a5609fe4c5;0;Data is not displayed;Hard;3;13;1;12
+195;Bug110;2;a6c5dd00b428e2e9e8b34493f89061f41a57803453e02cc0a33eebad02bb67b3;0;Data is not displayed;Hard;3;13;4;31
+196;Bug110;2;42458be649828359e482a6f52f2a14dc7cd6d80713673989fb77d4e3cb796a2b;0;Data is not displayed;Hard;3;13;3;26
+197;Bug110;2;27770bb7d1a9a1b02ee39f799c6a3593026cf10f2a05dd2062625b09e41cc6bc;0;Data is not displayed;Hard;3;13;1;22
+198;Bug110;2;92b3033f4b46bae6894dac3ab9b6d0a62f4dee3a32bda563b2c02348658cad16;0;Data is not displayed;Hard;3;13;1;23
+199;Bug110;2;06dc5fb45d55c7911986605c22e2350d9bcee6de5b4934dd8ec2fb79338d9b5d;0;Data is not displayed;Hard;3;13;1;18
+200;Bug110;2;6da68f2f9dfc66a7d86976eec1d6bb038aecb408a111149c206df647cedd97a6;0;Data is not displayed;Hard;3;13;1;18
+201;Bug110;2;6c021f6e529bf4d67847657ed3c6b31fc7eadc7e87920cb6f280727a005a49dc;0;Data is not displayed;Hard;3;13;1;16
+202;Bug110;3;f74410ffa582d4b72fdc4952405b88a80c44dee9cb340429d51aa71ebf117ad5;0;Data is not displayed;Hard;2;6;1;29
+203;Bug110;3;c8130613c4e8ffc0794f5aea0c67a95a29793702fa1b1464d13cd9b80f1a467d;0;Data is not displayed;Hard;2;6;1;12
+204;Bug110;3;c467ccb28230227dbe849efad4550eec1e2d17e4f7653859232632e47ed3087b;0;Data is not displayed;Hard;2;6;1;34
+205;Bug110;3;a7a520297496ac15881add8b14ecec2a75b2478f7d241cbcbde040a5609fe4c5;0;Data is not displayed;Hard;2;6;1;12
+206;Bug110;3;a6c5dd00b428e2e9e8b34493f89061f41a57803453e02cc0a33eebad02bb67b3;0;Data is not displayed;Hard;2;6;4;31
+207;Bug110;3;42458be649828359e482a6f52f2a14dc7cd6d80713673989fb77d4e3cb796a2b;0;Data is not displayed;Hard;2;6;3;26
+208;Bug110;3;27770bb7d1a9a1b02ee39f799c6a3593026cf10f2a05dd2062625b09e41cc6bc;0;Data is not displayed;Hard;2;6;1;22
+209;Bug110;3;92b3033f4b46bae6894dac3ab9b6d0a62f4dee3a32bda563b2c02348658cad16;0;Data is not displayed;Hard;2;6;1;23
+210;Bug110;3;06dc5fb45d55c7911986605c22e2350d9bcee6de5b4934dd8ec2fb79338d9b5d;0;Data is not displayed;Hard;2;6;1;18
+211;Bug110;3;6da68f2f9dfc66a7d86976eec1d6bb038aecb408a111149c206df647cedd97a6;0;Data is not displayed;Hard;2;6;1;18
+212;Bug110;3;6c021f6e529bf4d67847657ed3c6b31fc7eadc7e87920cb6f280727a005a49dc;0;Data is not displayed;Hard;2;6;1;16
+213;Bug168;0;322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c;1;App crashes;Easy;4;6;2;24
+214;Bug168;1;322bbbb7465636753f17c449b589b25ba057c3860334452397b4deb8f16dd63c;0;App crashes;Easy;3;4;2;24
+215;Bug1223;0;b0ca5ec0f9631d069cc5c8e2aec0391672dd02fafb30d9e5fa32b5301f0fd81c;1;Data is not displayed;Easy;3;3;1;22
+216;Bug1223;0;1c85c98a5b34f6057d43d6c1f127c433c70106135181e1605479c7e85bd2ecc1;1;Data is not displayed;Easy;3;3;1;21
+217;Bug1223;1;b0ca5ec0f9631d069cc5c8e2aec0391672dd02fafb30d9e5fa32b5301f0fd81c;0;Data is not displayed;Easy;3;7;1;22
+218;Bug1223;1;1c85c98a5b34f6057d43d6c1f127c433c70106135181e1605479c7e85bd2ecc1;0;Data is not displayed;Easy;3;7;1;21
+219;Bug1641;0;fd9debe790c113593776f85586a7838daff1dfdcb3020ad7f91980cb79b70cf8;1;Component is not displayed (correctly);Hard;1;7;1;14
+220;Bug1641;1;fd9debe790c113593776f85586a7838daff1dfdcb3020ad7f91980cb79b70cf8;0;Component is not displayed (correctly);Hard;1;14;1;14
+221;Bug1641;2;fd9debe790c113593776f85586a7838daff1dfdcb3020ad7f91980cb79b70cf8;0;Component is not displayed (correctly);Hard;1;3;1;14
+222;Bug11;0;61730fee40943d7766d05209a78150c6b3cb5f45ca1cfb072a033c4a76ccf37a;1;App crashes;Easy;4;10;1;4
+223;Bug11;0;48489898a8d2e4e2d8555f6b0db0b164ec504eca57fb6c45d75248611d13c311;1;App crashes;Easy;4;10;1;5
+224;Bug11;1;61730fee40943d7766d05209a78150c6b3cb5f45ca1cfb072a033c4a76ccf37a;0;App crashes;Easy;5;42;1;4
+225;Bug11;1;48489898a8d2e4e2d8555f6b0db0b164ec504eca57fb6c45d75248611d13c311;0;App crashes;Easy;5;42;1;5
+226;Bug11;2;61730fee40943d7766d05209a78150c6b3cb5f45ca1cfb072a033c4a76ccf37a;0;App crashes;Hard;1;5;1;4
+227;Bug11;2;48489898a8d2e4e2d8555f6b0db0b164ec504eca57fb6c45d75248611d13c311;0;App crashes;Hard;1;5;1;5
+228;Bug56;0;409ff6cb622ffe0858fde221d4b588361bce6f3006d48a1a52d428bae3ef83f7;1;Unclickable component;Easy;3;11;8;30
+229;Bug56;1;409ff6cb622ffe0858fde221d4b588361bce6f3006d48a1a52d428bae3ef83f7;0;Unclickable component;Easy;3;18;8;30
+230;Bug56;2;409ff6cb622ffe0858fde221d4b588361bce6f3006d48a1a52d428bae3ef83f7;0;Unclickable component;Easy;3;16;8;30
+231;Bug1213;0;4dcb729f5d6ec54ef1159334e7c4a5bf7d78aab27d61a3e7f4e5b5ae261993ff;1;Undesirable  behavior ;Easy;4;11;1;10
+232;Bug1213;1;4dcb729f5d6ec54ef1159334e7c4a5bf7d78aab27d61a3e7f4e5b5ae261993ff;0;Undesirable  behavior ;Easy;4;12;1;10
+233;Bug1222;0;7ea2c320c0eeb91e6e65a09f56911355672570778c6f48ec04cda4d86baa3cb5;1;Wrong information is displayed;Easy;4;9;1;8
+234;Bug1222;1;7ea2c320c0eeb91e6e65a09f56911355672570778c6f48ec04cda4d86baa3cb5;0;Wrong information is displayed;Hard;3;9;1;8
+235;Bug1428;0;6f087ac46f22fea2cbf135bf4fa651a21a9ca246d0a1ed47ab776fc88d3e7bf8;1;Textual error in screen;Easy;4;14;1;8
+236;Bug1428;1;6f087ac46f22fea2cbf135bf4fa651a21a9ca246d0a1ed47ab776fc88d3e7bf8;0;Textual error in screen;Easy;5;14;1;8
+237;Bug1428;2;6f087ac46f22fea2cbf135bf4fa651a21a9ca246d0a1ed47ab776fc88d3e7bf8;0;Textual error in screen;Hard;3;9;1;8
+238;Bug84;0;aca3e27152c4e3542dbbe2e6747553521e6642a09d7b67c840782acb41ce7876;0;Undesirable  behavior ;Hard;2;8;4;5
+239;Bug84;1;aca3e27152c4e3542dbbe2e6747553521e6642a09d7b67c840782acb41ce7876;0;Undesirable  behavior ;Hard;2;17;4;5
+240;Bug87;0;90c5dc762bd5e3ce8b2aa112926b901f0843b0b19e3a3e0631bf42bc1da4cb0a;1;Undesirable  behavior ;Easy;4;15;4;5
+241;Bug87;1;90c5dc762bd5e3ce8b2aa112926b901f0843b0b19e3a3e0631bf42bc1da4cb0a;0;Undesirable  behavior ;Easy;4;21;4;5
+242;Bug87;2;90c5dc762bd5e3ce8b2aa112926b901f0843b0b19e3a3e0631bf42bc1da4cb0a;0;Undesirable  behavior ;Hard;2;17;4;5
+243;Bug87;3;90c5dc762bd5e3ce8b2aa112926b901f0843b0b19e3a3e0631bf42bc1da4cb0a;0;Undesirable  behavior ;Hard;1;12;4;5
+244;Bug87;4;90c5dc762bd5e3ce8b2aa112926b901f0843b0b19e3a3e0631bf42bc1da4cb0a;0;Undesirable  behavior ;Hard;3;29;4;5
+245;Bug87;5;90c5dc762bd5e3ce8b2aa112926b901f0843b0b19e3a3e0631bf42bc1da4cb0a;0;Undesirable  behavior ;Hard;2;34;4;5
+246;Bug87;6;90c5dc762bd5e3ce8b2aa112926b901f0843b0b19e3a3e0631bf42bc1da4cb0a;0;Undesirable  behavior ;Hard;1;19;4;5
+247;Bug87;7;90c5dc762bd5e3ce8b2aa112926b901f0843b0b19e3a3e0631bf42bc1da4cb0a;0;Undesirable  behavior ;Hard;2;22;4;5
+248;Bug159;0;de12be8e7d71994c9de07c20ec56b6e00400bb2b529606f5523e4898b40ac1e2;1;App crashes;Easy;5;13;2;16
+249;Bug159;1;de12be8e7d71994c9de07c20ec56b6e00400bb2b529606f5523e4898b40ac1e2;0;App crashes;Hard;3;11;2;16
+250;Bug193;0;3fbfe419f6831fa1a12ae9556bb6b3be7d8d273db41da8c5d3b27e543a09b0fc;0;Component is not displayed (correctly);Easy;5;10;1;4
+251;Bug271;0;07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4;1;App crashes;Easy;4;10;1;20
+252;Bug271;1;07c126c2463bb67f6f9de8019eef920bd0949942553b4997bc25bb37ac2bfde4;0;App crashes;Easy;2;3;1;20
+253;Bug1403;0;248a91d24f09b852b14f5fa018b6253c937eec754d6cf6803ab45999ded535e2;1;App crashes;Hard;3;6;1;8
+254;Bug1403;1;248a91d24f09b852b14f5fa018b6253c937eec754d6cf6803ab45999ded535e2;0;App crashes;Easy;5;7;1;8

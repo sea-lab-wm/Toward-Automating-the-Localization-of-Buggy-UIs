@@ -1,0 +1,1179 @@
+{
+    "app-name": 1641,
+    "67ee73e3a3dbf609170e827659f86fa5f99b6e5ed304f7efaac036ba32305fc1": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Open navigation drawer",
+            "word_sequence": [
+                "Open",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "67ee73e3a3dbf609170e827659f86fa5f99b6e5ed304f7efaac036ba32305fc1",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Trainings Schedule",
+            "word_sequence": [
+                "Trainings",
+                "Schedule"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "67ee73e3a3dbf609170e827659f86fa5f99b6e5ed304f7efaac036ba32305fc1",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 640, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1641,
+            "screen_id": "67ee73e3a3dbf609170e827659f86fa5f99b6e5ed304f7efaac036ba32305fc1",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.german_software_engineers.trainerapp:id/list",
+            "text_content": "",
+            "word_sequence": [
+                "list"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1641,
+            "screen_id": "67ee73e3a3dbf609170e827659f86fa5f99b6e5ed304f7efaac036ba32305fc1",
+            "bounding_box": "{\"x1\": 42, \"y1\": 210, \"x2\": 1038, \"y2\": 1794}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.german_software_engineers.trainerapp:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "67ee73e3a3dbf609170e827659f86fa5f99b6e5ed304f7efaac036ba32305fc1",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "fd9debe790c113593776f85586a7838daff1dfdcb3020ad7f91980cb79b70cf8": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "fd9debe790c113593776f85586a7838daff1dfdcb3020ad7f91980cb79b70cf8",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Add Trainigns Schedule",
+            "word_sequence": [
+                "Add",
+                "Trainigns",
+                "Schedule"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "fd9debe790c113593776f85586a7838daff1dfdcb3020ad7f91980cb79b70cf8",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 748, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.german_software_engineers.trainerapp:id/nameTextEdit",
+            "text_content": "Name",
+            "word_sequence": [
+                "Name"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1641,
+            "screen_id": "fd9debe790c113593776f85586a7838daff1dfdcb3020ad7f91980cb79b70cf8",
+            "bounding_box": "{\"x1\": 42, \"y1\": 210, \"x2\": 1080, \"y2\": 328}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "Trainings Type:",
+            "word_sequence": [
+                "Trainings",
+                "Type",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "fd9debe790c113593776f85586a7838daff1dfdcb3020ad7f91980cb79b70cf8",
+            "bounding_box": "{\"x1\": 42, \"y1\": 328, \"x2\": 291, \"y2\": 379}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/text1",
+            "text_content": "strength endurance",
+            "word_sequence": [
+                "strength",
+                "endurance"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "fd9debe790c113593776f85586a7838daff1dfdcb3020ad7f91980cb79b70cf8",
+            "bounding_box": "{\"x1\": 42, \"y1\": 382, \"x2\": 954, \"y2\": 439}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "Repetitions:",
+            "word_sequence": [
+                "Repetitions",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "fd9debe790c113593776f85586a7838daff1dfdcb3020ad7f91980cb79b70cf8",
+            "bounding_box": "{\"x1\": 42, \"y1\": 442, \"x2\": 237, \"y2\": 493}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.german_software_engineers.trainerapp:id/repEdit",
+            "text_content": "",
+            "word_sequence": [
+                "rep",
+                "Edit"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1641,
+            "screen_id": "fd9debe790c113593776f85586a7838daff1dfdcb3020ad7f91980cb79b70cf8",
+            "bounding_box": "{\"x1\": 42, \"y1\": 493, \"x2\": 1080, \"y2\": 611}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "Pause [s]:",
+            "word_sequence": [
+                "Pause",
+                "s",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "fd9debe790c113593776f85586a7838daff1dfdcb3020ad7f91980cb79b70cf8",
+            "bounding_box": "{\"x1\": 42, \"y1\": 611, \"x2\": 201, \"y2\": 662}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.german_software_engineers.trainerapp:id/pauseEdit",
+            "text_content": "",
+            "word_sequence": [
+                "pause",
+                "Edit"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1641,
+            "screen_id": "fd9debe790c113593776f85586a7838daff1dfdcb3020ad7f91980cb79b70cf8",
+            "bounding_box": "{\"x1\": 42, \"y1\": 662, \"x2\": 1080, \"y2\": 780}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "Sets:",
+            "word_sequence": [
+                "Sets",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "fd9debe790c113593776f85586a7838daff1dfdcb3020ad7f91980cb79b70cf8",
+            "bounding_box": "{\"x1\": 42, \"y1\": 780, \"x2\": 124, \"y2\": 831}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.german_software_engineers.trainerapp:id/setEdit",
+            "text_content": "",
+            "word_sequence": [
+                "set",
+                "Edit"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1641,
+            "screen_id": "fd9debe790c113593776f85586a7838daff1dfdcb3020ad7f91980cb79b70cf8",
+            "bounding_box": "{\"x1\": 42, \"y1\": 831, \"x2\": 1080, \"y2\": 949}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "",
+            "text_content": "Movement Speed [s]:",
+            "word_sequence": [
+                "Movement",
+                "Speed",
+                "s",
+                ":"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "fd9debe790c113593776f85586a7838daff1dfdcb3020ad7f91980cb79b70cf8",
+            "bounding_box": "{\"x1\": 42, \"y1\": 949, \"x2\": 387, \"y2\": 1000}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "com.german_software_engineers.trainerapp:id/speedEdit",
+            "text_content": "",
+            "word_sequence": [
+                "speed",
+                "Edit"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1641,
+            "screen_id": "fd9debe790c113593776f85586a7838daff1dfdcb3020ad7f91980cb79b70cf8",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1000, \"x2\": 1080, \"y2\": 1118}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.german_software_engineers.trainerapp:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "fd9debe790c113593776f85586a7838daff1dfdcb3020ad7f91980cb79b70cf8",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "098e71de2b5b03c53342bb9ce2a6702b14cb599263b774c6d329630683b256fa": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/text1",
+            "text_content": "strength endurance",
+            "word_sequence": [
+                "strength",
+                "endurance"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "098e71de2b5b03c53342bb9ce2a6702b14cb599263b774c6d329630683b256fa",
+            "bounding_box": "{\"x1\": 42, \"y1\": 379, \"x2\": 954, \"y2\": 505}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/text1",
+            "text_content": "hypertrophy",
+            "word_sequence": [
+                "hypertrophy"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "098e71de2b5b03c53342bb9ce2a6702b14cb599263b774c6d329630683b256fa",
+            "bounding_box": "{\"x1\": 42, \"y1\": 505, \"x2\": 954, \"y2\": 631}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/text1",
+            "text_content": "maximum strength",
+            "word_sequence": [
+                "maximum",
+                "strength"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "098e71de2b5b03c53342bb9ce2a6702b14cb599263b774c6d329630683b256fa",
+            "bounding_box": "{\"x1\": 42, \"y1\": 631, \"x2\": 954, \"y2\": 757}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/text1",
+            "text_content": "pyramid training",
+            "word_sequence": [
+                "pyramid",
+                "training"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "098e71de2b5b03c53342bb9ce2a6702b14cb599263b774c6d329630683b256fa",
+            "bounding_box": "{\"x1\": 42, \"y1\": 757, \"x2\": 954, \"y2\": 883}"
+        }
+    ],
+    "600cad29130304c4b311ad4c20618c4ae3a2752aa526be663b8cea8306e5bfca": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "600cad29130304c4b311ad4c20618c4ae3a2752aa526be663b8cea8306e5bfca",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1641,
+            "screen_id": "600cad29130304c4b311ad4c20618c4ae3a2752aa526be663b8cea8306e5bfca",
+            "bounding_box": "{\"x1\": 189, \"y1\": 63, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.german_software_engineers.trainerapp:id/ScheduleInfo",
+            "text_content": "Repetitions: 2147483647 \nPause: 2147483647 s\nSets: 2147483647 \nSpeed: 2147483647",
+            "word_sequence": [
+                "Repetitions",
+                ":",
+                "2147483647",
+                "Pause",
+                ":",
+                "2147483647",
+                "s",
+                "Sets",
+                ":",
+                "2147483647",
+                "Speed",
+                ":",
+                "2147483647"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "600cad29130304c4b311ad4c20618c4ae3a2752aa526be663b8cea8306e5bfca",
+            "bounding_box": "{\"x1\": 42, \"y1\": 515, \"x2\": 586, \"y2\": 743}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.german_software_engineers.trainerapp:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "600cad29130304c4b311ad4c20618c4ae3a2752aa526be663b8cea8306e5bfca",
+            "bounding_box": "{\"x1\": 891, \"y1\": 400, \"x2\": 1038, \"y2\": 547}"
+        }
+    ],
+    "45e74d52ccddeb0c60d0782890027787a4b3560d7f442ddf5d30c80f85491ec7": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Open navigation drawer",
+            "word_sequence": [
+                "Open",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "45e74d52ccddeb0c60d0782890027787a4b3560d7f442ddf5d30c80f85491ec7",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Trainings Schedule",
+            "word_sequence": [
+                "Trainings",
+                "Schedule"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "45e74d52ccddeb0c60d0782890027787a4b3560d7f442ddf5d30c80f85491ec7",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 640, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1641,
+            "screen_id": "45e74d52ccddeb0c60d0782890027787a4b3560d7f442ddf5d30c80f85491ec7",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.german_software_engineers.trainerapp:id/content",
+            "text_content": "a",
+            "word_sequence": [
+                "a"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "45e74d52ccddeb0c60d0782890027787a4b3560d7f442ddf5d30c80f85491ec7",
+            "bounding_box": "{\"x1\": 91, \"y1\": 265, \"x2\": 114, \"y2\": 322}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "45e74d52ccddeb0c60d0782890027787a4b3560d7f442ddf5d30c80f85491ec7",
+            "bounding_box": "{\"x1\": 926, \"y1\": 230, \"x2\": 1031, \"y2\": 356}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.german_software_engineers.trainerapp:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "45e74d52ccddeb0c60d0782890027787a4b3560d7f442ddf5d30c80f85491ec7",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "1a8646bd92657c695f40ac5c0a5d26ae29e5ef49e9572df8f4d5f1432143d702": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/title",
+            "text_content": "Edit",
+            "word_sequence": [
+                "Edit"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "1a8646bd92657c695f40ac5c0a5d26ae29e5ef49e9572df8f4d5f1432143d702",
+            "bounding_box": "{\"x1\": 548, \"y1\": 264, \"x2\": 979, \"y2\": 321}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/title",
+            "text_content": "Delete",
+            "word_sequence": [
+                "Delete"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "1a8646bd92657c695f40ac5c0a5d26ae29e5ef49e9572df8f4d5f1432143d702",
+            "bounding_box": "{\"x1\": 548, \"y1\": 390, \"x2\": 979, \"y2\": 447}"
+        }
+    ],
+    "b054da025d672a043e03a01f9c063f65711333e7479d09cf278ad01acd05ef81": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "b054da025d672a043e03a01f9c063f65711333e7479d09cf278ad01acd05ef81",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Edit Exercise",
+            "word_sequence": [
+                "Edit",
+                "Exercise"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "b054da025d672a043e03a01f9c063f65711333e7479d09cf278ad01acd05ef81",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 494, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.german_software_engineers.trainerapp:id/excName",
+            "text_content": "",
+            "word_sequence": [
+                "exc",
+                "Name"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1641,
+            "screen_id": "b054da025d672a043e03a01f9c063f65711333e7479d09cf278ad01acd05ef81",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 328}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/text1",
+            "text_content": "Warm Up Exercise",
+            "word_sequence": [
+                "Warm",
+                "Up",
+                "Exercise"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "b054da025d672a043e03a01f9c063f65711333e7479d09cf278ad01acd05ef81",
+            "bounding_box": "{\"x1\": 0, \"y1\": 331, \"x2\": 954, \"y2\": 388}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.german_software_engineers.trainerapp:id/WarmUpTimeCheckBox",
+            "text_content": "Time: [min.]",
+            "word_sequence": [
+                "Time",
+                ":",
+                "min",
+                "."
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1641,
+            "screen_id": "b054da025d672a043e03a01f9c063f65711333e7479d09cf278ad01acd05ef81",
+            "bounding_box": "{\"x1\": 0, \"y1\": 411, \"x2\": 276, \"y2\": 495}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.german_software_engineers.trainerapp:id/WarmUpTimeEdit",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1641,
+            "screen_id": "b054da025d672a043e03a01f9c063f65711333e7479d09cf278ad01acd05ef81",
+            "bounding_box": "{\"x1\": 276, \"y1\": 391, \"x2\": 1080, \"y2\": 509}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.german_software_engineers.trainerapp:id/WarmUpIntensityCheckBox",
+            "text_content": "Intensity:",
+            "word_sequence": [
+                "Intensity",
+                ":"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1641,
+            "screen_id": "b054da025d672a043e03a01f9c063f65711333e7479d09cf278ad01acd05ef81",
+            "bounding_box": "{\"x1\": 0, \"y1\": 509, \"x2\": 233, \"y2\": 593}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/text1",
+            "text_content": "soft",
+            "word_sequence": [
+                "soft"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "b054da025d672a043e03a01f9c063f65711333e7479d09cf278ad01acd05ef81",
+            "bounding_box": "{\"x1\": 0, \"y1\": 596, \"x2\": 954, \"y2\": 653}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.german_software_engineers.trainerapp:id/WarmUpSubIntensityCheckBox",
+            "text_content": "Sub-Intensity:",
+            "word_sequence": [
+                "Sub",
+                "Intensity",
+                ":"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1641,
+            "screen_id": "b054da025d672a043e03a01f9c063f65711333e7479d09cf278ad01acd05ef81",
+            "bounding_box": "{\"x1\": 0, \"y1\": 676, \"x2\": 306, \"y2\": 760}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.german_software_engineers.trainerapp:id/WarmUpSubintensityEdit",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1641,
+            "screen_id": "b054da025d672a043e03a01f9c063f65711333e7479d09cf278ad01acd05ef81",
+            "bounding_box": "{\"x1\": 306, \"y1\": 656, \"x2\": 1080, \"y2\": 774}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.german_software_engineers.trainerapp:id/WarmUpBPMCheckBox",
+            "text_content": "Heart-Frequency: [BPM]",
+            "word_sequence": [
+                "Heart",
+                "Frequency",
+                ":",
+                "BPM"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1641,
+            "screen_id": "b054da025d672a043e03a01f9c063f65711333e7479d09cf278ad01acd05ef81",
+            "bounding_box": "{\"x1\": 0, \"y1\": 794, \"x2\": 473, \"y2\": 878}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.german_software_engineers.trainerapp:id/WarmUpBPMEdit",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1641,
+            "screen_id": "b054da025d672a043e03a01f9c063f65711333e7479d09cf278ad01acd05ef81",
+            "bounding_box": "{\"x1\": 473, \"y1\": 774, \"x2\": 1080, \"y2\": 892}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "com.german_software_engineers.trainerapp:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "b054da025d672a043e03a01f9c063f65711333e7479d09cf278ad01acd05ef81",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "408016722dcbdf85047f90c9f9edc63ad130022a2be4b8e8d5c96fd57b913463": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "408016722dcbdf85047f90c9f9edc63ad130022a2be4b8e8d5c96fd57b913463",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1641,
+            "screen_id": "408016722dcbdf85047f90c9f9edc63ad130022a2be4b8e8d5c96fd57b913463",
+            "bounding_box": "{\"x1\": 189, \"y1\": 63, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.german_software_engineers.trainerapp:id/ScheduleInfo",
+            "text_content": "Repetitions: 2147483647 \nPause: 2147483647 s\nSets: 2147483647 \nSpeed: 2147483647",
+            "word_sequence": [
+                "Repetitions",
+                ":",
+                "2147483647",
+                "Pause",
+                ":",
+                "2147483647",
+                "s",
+                "Sets",
+                ":",
+                "2147483647",
+                "Speed",
+                ":",
+                "2147483647"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "408016722dcbdf85047f90c9f9edc63ad130022a2be4b8e8d5c96fd57b913463",
+            "bounding_box": "{\"x1\": 42, \"y1\": 515, \"x2\": 571, \"y2\": 743}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.german_software_engineers.trainerapp:id/ExerciseTitle",
+            "text_content": "0\t\tq",
+            "word_sequence": [
+                "0",
+                "q"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "408016722dcbdf85047f90c9f9edc63ad130022a2be4b8e8d5c96fd57b913463",
+            "bounding_box": "{\"x1\": 91, \"y1\": 840, \"x2\": 175, \"y2\": 897}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "408016722dcbdf85047f90c9f9edc63ad130022a2be4b8e8d5c96fd57b913463",
+            "bounding_box": "{\"x1\": 926, \"y1\": 805, \"x2\": 1031, \"y2\": 931}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1641,
+            "screen_id": "408016722dcbdf85047f90c9f9edc63ad130022a2be4b8e8d5c96fd57b913463",
+            "bounding_box": "{\"x1\": 49, \"y1\": 942, \"x2\": 1031, \"y2\": 1083}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.german_software_engineers.trainerapp:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "408016722dcbdf85047f90c9f9edc63ad130022a2be4b8e8d5c96fd57b913463",
+            "bounding_box": "{\"x1\": 891, \"y1\": 400, \"x2\": 1038, \"y2\": 547}"
+        }
+    ],
+    "11d5869ae1fa8d162007db409b391963149c93d8eed43973598f6b86559e51c3": [
+        {
+            "component_id": 0,
+            "resource_id": "com.german_software_engineers.trainerapp:id/imageView",
+            "text_content": "Navigation",
+            "word_sequence": [
+                "Navigation"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1641,
+            "screen_id": "11d5869ae1fa8d162007db409b391963149c93d8eed43973598f6b86559e51c3",
+            "bounding_box": "{\"x1\": 42, \"y1\": 87, \"x2\": 231, \"y2\": 297}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Trainer App",
+            "word_sequence": [
+                "Trainer",
+                "App"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "11d5869ae1fa8d162007db409b391963149c93d8eed43973598f6b86559e51c3",
+            "bounding_box": "{\"x1\": 42, \"y1\": 297, \"x2\": 693, \"y2\": 369}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.german_software_engineers.trainerapp:id/textView",
+            "text_content": "Helps you with your schedule.",
+            "word_sequence": [
+                "Helps",
+                "you",
+                "with",
+                "your",
+                "schedule",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "11d5869ae1fa8d162007db409b391963149c93d8eed43973598f6b86559e51c3",
+            "bounding_box": "{\"x1\": 42, \"y1\": 369, \"x2\": 531, \"y2\": 420}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.german_software_engineers.trainerapp:id/design_menu_item_text",
+            "text_content": "Trainings Schedule",
+            "word_sequence": [
+                "Trainings",
+                "Schedule"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "11d5869ae1fa8d162007db409b391963149c93d8eed43973598f6b86559e51c3",
+            "bounding_box": "{\"x1\": 42, \"y1\": 483, \"x2\": 693, \"y2\": 609}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.german_software_engineers.trainerapp:id/design_menu_item_text",
+            "text_content": "Info",
+            "word_sequence": [
+                "Info"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "11d5869ae1fa8d162007db409b391963149c93d8eed43973598f6b86559e51c3",
+            "bounding_box": "{\"x1\": 42, \"y1\": 609, \"x2\": 693, \"y2\": 735}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "Close navigation drawer",
+            "word_sequence": [
+                "Close",
+                "navigation",
+                "drawer"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "11d5869ae1fa8d162007db409b391963149c93d8eed43973598f6b86559e51c3",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "Trainings Schedule",
+            "word_sequence": [
+                "Trainings",
+                "Schedule"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "11d5869ae1fa8d162007db409b391963149c93d8eed43973598f6b86559e51c3",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 640, \"y2\": 172}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1641,
+            "screen_id": "11d5869ae1fa8d162007db409b391963149c93d8eed43973598f6b86559e51c3",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.german_software_engineers.trainerapp:id/content",
+            "text_content": "a",
+            "word_sequence": [
+                "a"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "11d5869ae1fa8d162007db409b391963149c93d8eed43973598f6b86559e51c3",
+            "bounding_box": "{\"x1\": 91, \"y1\": 265, \"x2\": 114, \"y2\": 322}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "11d5869ae1fa8d162007db409b391963149c93d8eed43973598f6b86559e51c3",
+            "bounding_box": "{\"x1\": 926, \"y1\": 230, \"x2\": 1031, \"y2\": 356}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.german_software_engineers.trainerapp:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "11d5869ae1fa8d162007db409b391963149c93d8eed43973598f6b86559e51c3",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "07546d2ba78a0d2117e9662bcc39154e72b042bdff144ff6eba4c65e9b3635cf": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "07546d2ba78a0d2117e9662bcc39154e72b042bdff144ff6eba4c65e9b3635cf",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1641,
+            "screen_id": "07546d2ba78a0d2117e9662bcc39154e72b042bdff144ff6eba4c65e9b3635cf",
+            "bounding_box": "{\"x1\": 189, \"y1\": 63, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.german_software_engineers.trainerapp:id/CopyrightInfoText",
+            "text_content": "Copyright 2019",
+            "word_sequence": [
+                "Copyright",
+                "2019"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "07546d2ba78a0d2117e9662bcc39154e72b042bdff144ff6eba4c65e9b3635cf",
+            "bounding_box": "{\"x1\": 21, \"y1\": 505, \"x2\": 1080, \"y2\": 562}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.german_software_engineers.trainerapp:id/CopyrightReservedText",
+            "text_content": "Moritz Herzog - German Software Engineers",
+            "word_sequence": [
+                "Moritz",
+                "Herzog",
+                "German",
+                "Software",
+                "Engineers"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "07546d2ba78a0d2117e9662bcc39154e72b042bdff144ff6eba4c65e9b3635cf",
+            "bounding_box": "{\"x1\": 21, \"y1\": 558, \"x2\": 1080, \"y2\": 615}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.german_software_engineers.trainerapp:id/LicenseShortText",
+            "text_content": "The software is published under the GPL V3. To view the license click on the button below.",
+            "word_sequence": [
+                "The",
+                "software",
+                "is",
+                "published",
+                "under",
+                "the",
+                "GPL",
+                "V3",
+                ".",
+                "To",
+                "view",
+                "the",
+                "license",
+                "click",
+                "on",
+                "the",
+                "button",
+                "below",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "07546d2ba78a0d2117e9662bcc39154e72b042bdff144ff6eba4c65e9b3635cf",
+            "bounding_box": "{\"x1\": 21, \"y1\": 611, \"x2\": 1080, \"y2\": 717}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.german_software_engineers.trainerapp:id/OurLicenseButton",
+            "text_content": "TAKE ME TO LICENSE",
+            "word_sequence": [
+                "TAKE",
+                "ME",
+                "TO",
+                "LICENSE"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "07546d2ba78a0d2117e9662bcc39154e72b042bdff144ff6eba4c65e9b3635cf",
+            "bounding_box": "{\"x1\": 21, \"y1\": 716, \"x2\": 1059, \"y2\": 842}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.german_software_engineers.trainerapp:id/OtherLicensesButton",
+            "text_content": "LICENSES OF USED PARTS",
+            "word_sequence": [
+                "LICENSES",
+                "OF",
+                "USED",
+                "PARTS"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "07546d2ba78a0d2117e9662bcc39154e72b042bdff144ff6eba4c65e9b3635cf",
+            "bounding_box": "{\"x1\": 21, \"y1\": 821, \"x2\": 1059, \"y2\": 947}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.german_software_engineers.trainerapp:id/OpenGithubButton",
+            "text_content": "OPEN GITHUB",
+            "word_sequence": [
+                "OPEN",
+                "GITHUB"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "07546d2ba78a0d2117e9662bcc39154e72b042bdff144ff6eba4c65e9b3635cf",
+            "bounding_box": "{\"x1\": 21, \"y1\": 926, \"x2\": 1059, \"y2\": 1052}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.german_software_engineers.trainerapp:id/fab",
+            "text_content": "",
+            "word_sequence": [
+                "fab"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "07546d2ba78a0d2117e9662bcc39154e72b042bdff144ff6eba4c65e9b3635cf",
+            "bounding_box": "{\"x1\": 891, \"y1\": 400, \"x2\": 1038, \"y2\": 547}"
+        }
+    ],
+    "b04de2a8a39c510bf4b8da79cb9d80836e5ccf315061f4693b1bbd7dccf70891": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.chrome:id/title",
+            "text_content": "Welcome to Chrome",
+            "word_sequence": [
+                "Welcome",
+                "to",
+                "Chrome"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "b04de2a8a39c510bf4b8da79cb9d80836e5ccf315061f4693b1bbd7dccf70891",
+            "bounding_box": "{\"x1\": 278, \"y1\": 387, \"x2\": 801, \"y2\": 465}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.chrome:id/image",
+            "text_content": "",
+            "word_sequence": [
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1641,
+            "screen_id": "b04de2a8a39c510bf4b8da79cb9d80836e5ccf315061f4693b1bbd7dccf70891",
+            "bounding_box": "{\"x1\": 382, \"y1\": 549, \"x2\": 697, \"y2\": 864}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.chrome:id/tos_and_privacy",
+            "text_content": "By using this application, you agree to Chrome\u2019s Terms of Service and Privacy Notice.",
+            "word_sequence": [
+                "By",
+                "using",
+                "this",
+                "application",
+                ",",
+                "you",
+                "agree",
+                "to",
+                "Chrome",
+                "s",
+                "Terms",
+                "of",
+                "Service",
+                "and",
+                "Privacy",
+                "Notice",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "b04de2a8a39c510bf4b8da79cb9d80836e5ccf315061f4693b1bbd7dccf70891",
+            "bounding_box": "{\"x1\": 63, \"y1\": 948, \"x2\": 1017, \"y2\": 1059}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.chrome:id/send_report_checkbox",
+            "text_content": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+            "word_sequence": [
+                "Help",
+                "make",
+                "Chrome",
+                "better",
+                "by",
+                "sending",
+                "usage",
+                "statistics",
+                "and",
+                "crash",
+                "reports",
+                "to",
+                "Google",
+                "."
+            ],
+            "type": "CHECKBOX",
+            "app_name": 1641,
+            "screen_id": "b04de2a8a39c510bf4b8da79cb9d80836e5ccf315061f4693b1bbd7dccf70891",
+            "bounding_box": "{\"x1\": 63, \"y1\": 1143, \"x2\": 1017, \"y2\": 1257}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.chrome:id/terms_accept",
+            "text_content": "Accept & continue",
+            "word_sequence": [
+                "Accept",
+                "continue"
+            ],
+            "type": "BUTTON",
+            "app_name": 1641,
+            "screen_id": "b04de2a8a39c510bf4b8da79cb9d80836e5ccf315061f4693b1bbd7dccf70891",
+            "bounding_box": "{\"x1\": 357, \"y1\": 1657, \"x2\": 723, \"y2\": 1752}"
+        }
+    ],
+    "68fa7e92bc4ec9e84068eb91ac159421e00dc49e19784b933672dff22d188730": [
+        {
+            "component_id": 0,
+            "resource_id": "com.german_software_engineers.trainerapp:id/title",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "68fa7e92bc4ec9e84068eb91ac159421e00dc49e19784b933672dff22d188730",
+            "bounding_box": "{\"x1\": 597, \"y1\": 107, \"x2\": 1028, \"y2\": 164}"
+        }
+    ],
+    "c8e8937237dde6802558ad4d8a84861faeab0574c10c6cd2185f8b8738b48607": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/title",
+            "text_content": "One Step Up",
+            "word_sequence": [
+                "One",
+                "Step",
+                "Up"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "c8e8937237dde6802558ad4d8a84861faeab0574c10c6cd2185f8b8738b48607",
+            "bounding_box": "{\"x1\": 548, \"y1\": 839, \"x2\": 979, \"y2\": 896}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/title",
+            "text_content": "One Step Down",
+            "word_sequence": [
+                "One",
+                "Step",
+                "Down"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "c8e8937237dde6802558ad4d8a84861faeab0574c10c6cd2185f8b8738b48607",
+            "bounding_box": "{\"x1\": 548, \"y1\": 965, \"x2\": 979, \"y2\": 1022}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/title",
+            "text_content": "Delete",
+            "word_sequence": [
+                "Delete"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1641,
+            "screen_id": "c8e8937237dde6802558ad4d8a84861faeab0574c10c6cd2185f8b8738b48607",
+            "bounding_box": "{\"x1\": 548, \"y1\": 1091, \"x2\": 979, \"y2\": 1148}"
+        }
+    ]
+}

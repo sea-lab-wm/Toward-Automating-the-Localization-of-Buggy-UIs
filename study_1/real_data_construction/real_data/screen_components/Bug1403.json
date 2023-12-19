@@ -1,0 +1,2611 @@
+{
+    "app-name": 1403,
+    "0de81c6ee546a153a5384b40f229b2d920375f82815897224de98af91a06ae94": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.packageinstaller:id/permission_icon",
+            "text_content": "",
+            "word_sequence": [
+                "permission",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "0de81c6ee546a153a5384b40f229b2d920375f82815897224de98af91a06ae94",
+            "bounding_box": "{\"x1\": 215, \"y1\": 749, \"x2\": 310, \"y2\": 844}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.packageinstaller:id/permission_message",
+            "text_content": "Allow Phimpme to access photos, media, and files on your device?",
+            "word_sequence": [
+                "Allow",
+                "Phimpme",
+                "to",
+                "access",
+                "photos",
+                ",",
+                "media",
+                ",",
+                "and",
+                "files",
+                "on",
+                "your",
+                "device",
+                "?"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "0de81c6ee546a153a5384b40f229b2d920375f82815897224de98af91a06ae94",
+            "bounding_box": "{\"x1\": 310, \"y1\": 749, \"x2\": 876, \"y2\": 1006}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.packageinstaller:id/permission_deny_button",
+            "text_content": "DENY",
+            "word_sequence": [
+                "DENY"
+            ],
+            "type": "BUTTON",
+            "app_name": 1403,
+            "screen_id": "0de81c6ee546a153a5384b40f229b2d920375f82815897224de98af91a06ae94",
+            "bounding_box": "{\"x1\": 523, \"y1\": 1017, \"x2\": 691, \"y2\": 1143}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.packageinstaller:id/permission_allow_button",
+            "text_content": "ALLOW",
+            "word_sequence": [
+                "ALLOW"
+            ],
+            "type": "BUTTON",
+            "app_name": 1403,
+            "screen_id": "0de81c6ee546a153a5384b40f229b2d920375f82815897224de98af91a06ae94",
+            "bounding_box": "{\"x1\": 691, \"y1\": 1017, \"x2\": 876, \"y2\": 1143}"
+        }
+    ],
+    "6fd7b7686612ffdd35cc9b2b36d0be4007663c2c79f3d150f72a048b103e2843": [
+        {
+            "component_id": 0,
+            "resource_id": "org.fossasia.phimpme:id/tv_title",
+            "text_content": "",
+            "word_sequence": [
+                "tv",
+                "title"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "6fd7b7686612ffdd35cc9b2b36d0be4007663c2c79f3d150f72a048b103e2843",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1089, \"x2\": 1038, \"y2\": 1195}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.fossasia.phimpme:id/tv_content",
+            "text_content": "Find all your photos in the device",
+            "word_sequence": [
+                "Find",
+                "all",
+                "your",
+                "photos",
+                "in",
+                "the",
+                "device"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "6fd7b7686612ffdd35cc9b2b36d0be4007663c2c79f3d150f72a048b103e2843",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1234, \"x2\": 1038, \"y2\": 1305}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.fossasia.phimpme:id/tv_dismiss",
+            "text_content": "GOT IT",
+            "word_sequence": [
+                "GOT",
+                "IT"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "6fd7b7686612ffdd35cc9b2b36d0be4007663c2c79f3d150f72a048b103e2843",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1358, \"x2\": 246, \"y2\": 1488}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "BUTTON",
+            "app_name": 1403,
+            "screen_id": "6fd7b7686612ffdd35cc9b2b36d0be4007663c2c79f3d150f72a048b103e2843",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "Phimpme",
+            "word_sequence": [
+                "Phimpme"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "6fd7b7686612ffdd35cc9b2b36d0be4007663c2c79f3d150f72a048b103e2843",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 416, \"y2\": 172}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.fossasia.phimpme:id/all_photos",
+            "text_content": "All_photos",
+            "word_sequence": [
+                "All_photos"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "6fd7b7686612ffdd35cc9b2b36d0be4007663c2c79f3d150f72a048b103e2843",
+            "bounding_box": "{\"x1\": 722, \"y1\": 73, \"x2\": 849, \"y2\": 199}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.fossasia.phimpme:id/sort_action",
+            "text_content": "Sort",
+            "word_sequence": [
+                "Sort"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "6fd7b7686612ffdd35cc9b2b36d0be4007663c2c79f3d150f72a048b103e2843",
+            "bounding_box": "{\"x1\": 849, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "6fd7b7686612ffdd35cc9b2b36d0be4007663c2c79f3d150f72a048b103e2843",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.fossasia.phimpme:id/album_preview",
+            "text_content": "",
+            "word_sequence": [
+                "album",
+                "preview"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "6fd7b7686612ffdd35cc9b2b36d0be4007663c2c79f3d150f72a048b103e2843",
+            "bounding_box": "{\"x1\": 8, \"y1\": 218, \"x2\": 536, \"y2\": 746}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.fossasia.phimpme:id/album_name",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "6fd7b7686612ffdd35cc9b2b36d0be4007663c2c79f3d150f72a048b103e2843",
+            "bounding_box": "{\"x1\": 8, \"y1\": 746, \"x2\": 536, \"y2\": 829}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.fossasia.phimpme:id/album_photos_count",
+            "text_content": "1 Media",
+            "word_sequence": [
+                "1",
+                "Media"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "6fd7b7686612ffdd35cc9b2b36d0be4007663c2c79f3d150f72a048b103e2843",
+            "bounding_box": "{\"x1\": 8, \"y1\": 829, \"x2\": 536, \"y2\": 906}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "org.fossasia.phimpme:id/smallLabel",
+            "text_content": "Camera",
+            "word_sequence": [
+                "Camera"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "6fd7b7686612ffdd35cc9b2b36d0be4007663c2c79f3d150f72a048b103e2843",
+            "bounding_box": "{\"x1\": 125, \"y1\": 1734, \"x2\": 235, \"y2\": 1777}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "org.fossasia.phimpme:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "6fd7b7686612ffdd35cc9b2b36d0be4007663c2c79f3d150f72a048b103e2843",
+            "bounding_box": "{\"x1\": 148, \"y1\": 1668, \"x2\": 211, \"y2\": 1731}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "org.fossasia.phimpme:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "6fd7b7686612ffdd35cc9b2b36d0be4007663c2c79f3d150f72a048b103e2843",
+            "bounding_box": "{\"x1\": 508, \"y1\": 1663, \"x2\": 571, \"y2\": 1726}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "org.fossasia.phimpme:id/largeLabel",
+            "text_content": "Gallery",
+            "word_sequence": [
+                "Gallery"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "6fd7b7686612ffdd35cc9b2b36d0be4007663c2c79f3d150f72a048b103e2843",
+            "bounding_box": "{\"x1\": 483, \"y1\": 1728, \"x2\": 597, \"y2\": 1779}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "org.fossasia.phimpme:id/smallLabel",
+            "text_content": "Accounts",
+            "word_sequence": [
+                "Accounts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "6fd7b7686612ffdd35cc9b2b36d0be4007663c2c79f3d150f72a048b103e2843",
+            "bounding_box": "{\"x1\": 832, \"y1\": 1734, \"x2\": 968, \"y2\": 1777}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "org.fossasia.phimpme:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "6fd7b7686612ffdd35cc9b2b36d0be4007663c2c79f3d150f72a048b103e2843",
+            "bounding_box": "{\"x1\": 868, \"y1\": 1668, \"x2\": 931, \"y2\": 1731}"
+        }
+    ],
+    "0b6501f17ce12c08d88aa6c5a78c2064452725eba069df5668d9412ffd87e974": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "BUTTON",
+            "app_name": 1403,
+            "screen_id": "0b6501f17ce12c08d88aa6c5a78c2064452725eba069df5668d9412ffd87e974",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Phimpme",
+            "word_sequence": [
+                "Phimpme"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "0b6501f17ce12c08d88aa6c5a78c2064452725eba069df5668d9412ffd87e974",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 416, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.fossasia.phimpme:id/all_photos",
+            "text_content": "All_photos",
+            "word_sequence": [
+                "All_photos"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "0b6501f17ce12c08d88aa6c5a78c2064452725eba069df5668d9412ffd87e974",
+            "bounding_box": "{\"x1\": 722, \"y1\": 73, \"x2\": 849, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.fossasia.phimpme:id/sort_action",
+            "text_content": "Sort",
+            "word_sequence": [
+                "Sort"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "0b6501f17ce12c08d88aa6c5a78c2064452725eba069df5668d9412ffd87e974",
+            "bounding_box": "{\"x1\": 849, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "0b6501f17ce12c08d88aa6c5a78c2064452725eba069df5668d9412ffd87e974",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.fossasia.phimpme:id/album_preview",
+            "text_content": "",
+            "word_sequence": [
+                "album",
+                "preview"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "0b6501f17ce12c08d88aa6c5a78c2064452725eba069df5668d9412ffd87e974",
+            "bounding_box": "{\"x1\": 8, \"y1\": 218, \"x2\": 536, \"y2\": 746}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.fossasia.phimpme:id/album_name",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "0b6501f17ce12c08d88aa6c5a78c2064452725eba069df5668d9412ffd87e974",
+            "bounding_box": "{\"x1\": 8, \"y1\": 746, \"x2\": 536, \"y2\": 829}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.fossasia.phimpme:id/album_photos_count",
+            "text_content": "1 Media",
+            "word_sequence": [
+                "1",
+                "Media"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "0b6501f17ce12c08d88aa6c5a78c2064452725eba069df5668d9412ffd87e974",
+            "bounding_box": "{\"x1\": 8, \"y1\": 829, \"x2\": 536, \"y2\": 906}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.fossasia.phimpme:id/smallLabel",
+            "text_content": "Camera",
+            "word_sequence": [
+                "Camera"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "0b6501f17ce12c08d88aa6c5a78c2064452725eba069df5668d9412ffd87e974",
+            "bounding_box": "{\"x1\": 125, \"y1\": 1734, \"x2\": 235, \"y2\": 1777}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.fossasia.phimpme:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "0b6501f17ce12c08d88aa6c5a78c2064452725eba069df5668d9412ffd87e974",
+            "bounding_box": "{\"x1\": 148, \"y1\": 1668, \"x2\": 211, \"y2\": 1731}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.fossasia.phimpme:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "0b6501f17ce12c08d88aa6c5a78c2064452725eba069df5668d9412ffd87e974",
+            "bounding_box": "{\"x1\": 508, \"y1\": 1663, \"x2\": 571, \"y2\": 1726}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "org.fossasia.phimpme:id/largeLabel",
+            "text_content": "Gallery",
+            "word_sequence": [
+                "Gallery"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "0b6501f17ce12c08d88aa6c5a78c2064452725eba069df5668d9412ffd87e974",
+            "bounding_box": "{\"x1\": 483, \"y1\": 1728, \"x2\": 597, \"y2\": 1779}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "org.fossasia.phimpme:id/smallLabel",
+            "text_content": "Accounts",
+            "word_sequence": [
+                "Accounts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "0b6501f17ce12c08d88aa6c5a78c2064452725eba069df5668d9412ffd87e974",
+            "bounding_box": "{\"x1\": 832, \"y1\": 1734, \"x2\": 968, \"y2\": 1777}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "org.fossasia.phimpme:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "0b6501f17ce12c08d88aa6c5a78c2064452725eba069df5668d9412ffd87e974",
+            "bounding_box": "{\"x1\": 868, \"y1\": 1668, \"x2\": 931, \"y2\": 1731}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "org.fossasia.phimpme:id/tv_title",
+            "text_content": "",
+            "word_sequence": [
+                "tv",
+                "title"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "0b6501f17ce12c08d88aa6c5a78c2064452725eba069df5668d9412ffd87e974",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1089, \"x2\": 1038, \"y2\": 1195}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "org.fossasia.phimpme:id/tv_content",
+            "text_content": "Click Amazing Pictures",
+            "word_sequence": [
+                "Click",
+                "Amazing",
+                "Pictures"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "0b6501f17ce12c08d88aa6c5a78c2064452725eba069df5668d9412ffd87e974",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1234, \"x2\": 1038, \"y2\": 1305}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "org.fossasia.phimpme:id/tv_dismiss",
+            "text_content": "GOT IT",
+            "word_sequence": [
+                "GOT",
+                "IT"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "0b6501f17ce12c08d88aa6c5a78c2064452725eba069df5668d9412ffd87e974",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1358, \"x2\": 246, \"y2\": 1488}"
+        }
+    ],
+    "5b3bc481439f8a9be8750d95bf8c77c8d19faf4b1cdb89fc8adb6cce4186200a": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "BUTTON",
+            "app_name": 1403,
+            "screen_id": "5b3bc481439f8a9be8750d95bf8c77c8d19faf4b1cdb89fc8adb6cce4186200a",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Phimpme",
+            "word_sequence": [
+                "Phimpme"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "5b3bc481439f8a9be8750d95bf8c77c8d19faf4b1cdb89fc8adb6cce4186200a",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 416, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.fossasia.phimpme:id/all_photos",
+            "text_content": "All_photos",
+            "word_sequence": [
+                "All_photos"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "5b3bc481439f8a9be8750d95bf8c77c8d19faf4b1cdb89fc8adb6cce4186200a",
+            "bounding_box": "{\"x1\": 722, \"y1\": 73, \"x2\": 849, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.fossasia.phimpme:id/sort_action",
+            "text_content": "Sort",
+            "word_sequence": [
+                "Sort"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "5b3bc481439f8a9be8750d95bf8c77c8d19faf4b1cdb89fc8adb6cce4186200a",
+            "bounding_box": "{\"x1\": 849, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "5b3bc481439f8a9be8750d95bf8c77c8d19faf4b1cdb89fc8adb6cce4186200a",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.fossasia.phimpme:id/album_preview",
+            "text_content": "",
+            "word_sequence": [
+                "album",
+                "preview"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "5b3bc481439f8a9be8750d95bf8c77c8d19faf4b1cdb89fc8adb6cce4186200a",
+            "bounding_box": "{\"x1\": 8, \"y1\": 218, \"x2\": 536, \"y2\": 746}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.fossasia.phimpme:id/album_name",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "5b3bc481439f8a9be8750d95bf8c77c8d19faf4b1cdb89fc8adb6cce4186200a",
+            "bounding_box": "{\"x1\": 8, \"y1\": 746, \"x2\": 536, \"y2\": 829}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.fossasia.phimpme:id/album_photos_count",
+            "text_content": "1 Media",
+            "word_sequence": [
+                "1",
+                "Media"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "5b3bc481439f8a9be8750d95bf8c77c8d19faf4b1cdb89fc8adb6cce4186200a",
+            "bounding_box": "{\"x1\": 8, \"y1\": 829, \"x2\": 536, \"y2\": 906}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.fossasia.phimpme:id/smallLabel",
+            "text_content": "Camera",
+            "word_sequence": [
+                "Camera"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "5b3bc481439f8a9be8750d95bf8c77c8d19faf4b1cdb89fc8adb6cce4186200a",
+            "bounding_box": "{\"x1\": 125, \"y1\": 1734, \"x2\": 235, \"y2\": 1777}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.fossasia.phimpme:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "5b3bc481439f8a9be8750d95bf8c77c8d19faf4b1cdb89fc8adb6cce4186200a",
+            "bounding_box": "{\"x1\": 148, \"y1\": 1668, \"x2\": 211, \"y2\": 1731}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.fossasia.phimpme:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "5b3bc481439f8a9be8750d95bf8c77c8d19faf4b1cdb89fc8adb6cce4186200a",
+            "bounding_box": "{\"x1\": 508, \"y1\": 1663, \"x2\": 571, \"y2\": 1726}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "org.fossasia.phimpme:id/largeLabel",
+            "text_content": "Gallery",
+            "word_sequence": [
+                "Gallery"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "5b3bc481439f8a9be8750d95bf8c77c8d19faf4b1cdb89fc8adb6cce4186200a",
+            "bounding_box": "{\"x1\": 483, \"y1\": 1728, \"x2\": 597, \"y2\": 1779}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "org.fossasia.phimpme:id/smallLabel",
+            "text_content": "Accounts",
+            "word_sequence": [
+                "Accounts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "5b3bc481439f8a9be8750d95bf8c77c8d19faf4b1cdb89fc8adb6cce4186200a",
+            "bounding_box": "{\"x1\": 832, \"y1\": 1734, \"x2\": 968, \"y2\": 1777}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "org.fossasia.phimpme:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "5b3bc481439f8a9be8750d95bf8c77c8d19faf4b1cdb89fc8adb6cce4186200a",
+            "bounding_box": "{\"x1\": 868, \"y1\": 1668, \"x2\": 931, \"y2\": 1731}"
+        }
+    ],
+    "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 0, \"y1\": 0, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Accounts",
+            "word_sequence": [
+                "Accounts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 42, \"y1\": 101, \"x2\": 266, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.fossasia.phimpme:id/account_avatar",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "avatar"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 21, \"y1\": 231, \"x2\": 147, \"y2\": 357}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.fossasia.phimpme:id/account_logo_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "logo",
+                "indicator"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 105, \"y1\": 315, \"x2\": 147, \"y2\": 357}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.fossasia.phimpme:id/account_username",
+            "text_content": "FACEBOOK",
+            "word_sequence": [
+                "FACEBOOK"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 200, \"y1\": 258, \"x2\": 875, \"y2\": 329}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.fossasia.phimpme:id/sign_in_sign_out_switch",
+            "text_content": "OFF",
+            "word_sequence": [
+                "OFF"
+            ],
+            "type": "SWITCH",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 875, \"y1\": 258, \"x2\": 1080, \"y2\": 329}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.fossasia.phimpme:id/account_avatar",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "avatar"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 21, \"y1\": 399, \"x2\": 147, \"y2\": 525}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.fossasia.phimpme:id/account_logo_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "logo",
+                "indicator"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 105, \"y1\": 483, \"x2\": 147, \"y2\": 525}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.fossasia.phimpme:id/account_username",
+            "text_content": "TWITTER",
+            "word_sequence": [
+                "TWITTER"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 200, \"y1\": 426, \"x2\": 868, \"y2\": 497}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.fossasia.phimpme:id/sign_in_sign_out_switch",
+            "text_content": "OFF",
+            "word_sequence": [
+                "OFF"
+            ],
+            "type": "SWITCH",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 868, \"y1\": 426, \"x2\": 1080, \"y2\": 497}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.fossasia.phimpme:id/account_avatar",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "avatar"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 21, \"y1\": 567, \"x2\": 147, \"y2\": 693}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "org.fossasia.phimpme:id/account_logo_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "logo",
+                "indicator"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 105, \"y1\": 651, \"x2\": 147, \"y2\": 693}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "org.fossasia.phimpme:id/account_username",
+            "text_content": "NEXTCLOUD",
+            "word_sequence": [
+                "NEXTCLOUD"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 200, \"y1\": 594, \"x2\": 881, \"y2\": 665}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "org.fossasia.phimpme:id/sign_in_sign_out_switch",
+            "text_content": "OFF",
+            "word_sequence": [
+                "OFF"
+            ],
+            "type": "SWITCH",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 881, \"y1\": 594, \"x2\": 1080, \"y2\": 665}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "org.fossasia.phimpme:id/account_avatar",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "avatar"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 21, \"y1\": 735, \"x2\": 147, \"y2\": 861}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "org.fossasia.phimpme:id/account_logo_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "logo",
+                "indicator"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 105, \"y1\": 819, \"x2\": 147, \"y2\": 861}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "org.fossasia.phimpme:id/account_username",
+            "text_content": "PINTEREST",
+            "word_sequence": [
+                "PINTEREST"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 200, \"y1\": 762, \"x2\": 877, \"y2\": 833}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "org.fossasia.phimpme:id/sign_in_sign_out_switch",
+            "text_content": "OFF",
+            "word_sequence": [
+                "OFF"
+            ],
+            "type": "SWITCH",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 877, \"y1\": 762, \"x2\": 1080, \"y2\": 833}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "org.fossasia.phimpme:id/account_avatar",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "avatar"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 21, \"y1\": 903, \"x2\": 147, \"y2\": 1029}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "org.fossasia.phimpme:id/account_logo_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "logo",
+                "indicator"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 105, \"y1\": 987, \"x2\": 147, \"y2\": 1029}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "org.fossasia.phimpme:id/account_username",
+            "text_content": "FLICKR",
+            "word_sequence": [
+                "FLICKR"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 200, \"y1\": 930, \"x2\": 860, \"y2\": 1001}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "org.fossasia.phimpme:id/sign_in_sign_out_switch",
+            "text_content": "OFF",
+            "word_sequence": [
+                "OFF"
+            ],
+            "type": "SWITCH",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 860, \"y1\": 930, \"x2\": 1080, \"y2\": 1001}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "org.fossasia.phimpme:id/account_avatar",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "avatar"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1071, \"x2\": 147, \"y2\": 1197}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "org.fossasia.phimpme:id/account_logo_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "logo",
+                "indicator"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 105, \"y1\": 1155, \"x2\": 147, \"y2\": 1197}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "org.fossasia.phimpme:id/account_username",
+            "text_content": "IMGUR",
+            "word_sequence": [
+                "IMGUR"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 200, \"y1\": 1098, \"x2\": 858, \"y2\": 1169}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "org.fossasia.phimpme:id/sign_in_sign_out_switch",
+            "text_content": "OFF",
+            "word_sequence": [
+                "OFF"
+            ],
+            "type": "SWITCH",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 858, \"y1\": 1098, \"x2\": 1080, \"y2\": 1169}"
+        },
+        {
+            "component_id": 26,
+            "resource_id": "org.fossasia.phimpme:id/account_avatar",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "avatar"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1239, \"x2\": 147, \"y2\": 1365}"
+        },
+        {
+            "component_id": 27,
+            "resource_id": "org.fossasia.phimpme:id/account_logo_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "logo",
+                "indicator"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 105, \"y1\": 1323, \"x2\": 147, \"y2\": 1365}"
+        },
+        {
+            "component_id": 28,
+            "resource_id": "org.fossasia.phimpme:id/account_username",
+            "text_content": "DROPBOX",
+            "word_sequence": [
+                "DROPBOX"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 200, \"y1\": 1266, \"x2\": 871, \"y2\": 1337}"
+        },
+        {
+            "component_id": 29,
+            "resource_id": "org.fossasia.phimpme:id/sign_in_sign_out_switch",
+            "text_content": "OFF",
+            "word_sequence": [
+                "OFF"
+            ],
+            "type": "SWITCH",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 871, \"y1\": 1266, \"x2\": 1080, \"y2\": 1337}"
+        },
+        {
+            "component_id": 30,
+            "resource_id": "org.fossasia.phimpme:id/account_avatar",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "avatar"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1407, \"x2\": 147, \"y2\": 1533}"
+        },
+        {
+            "component_id": 31,
+            "resource_id": "org.fossasia.phimpme:id/account_logo_indicator",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "logo",
+                "indicator"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 105, \"y1\": 1491, \"x2\": 147, \"y2\": 1533}"
+        },
+        {
+            "component_id": 32,
+            "resource_id": "org.fossasia.phimpme:id/account_username",
+            "text_content": "OWNCLOUD",
+            "word_sequence": [
+                "OWNCLOUD"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 200, \"y1\": 1434, \"x2\": 879, \"y2\": 1505}"
+        },
+        {
+            "component_id": 33,
+            "resource_id": "org.fossasia.phimpme:id/sign_in_sign_out_switch",
+            "text_content": "OFF",
+            "word_sequence": [
+                "OFF"
+            ],
+            "type": "SWITCH",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 879, \"y1\": 1434, \"x2\": 1080, \"y2\": 1505}"
+        },
+        {
+            "component_id": 34,
+            "resource_id": "org.fossasia.phimpme:id/account_avatar",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "avatar"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 21, \"y1\": 1575, \"x2\": 147, \"y2\": 1647}"
+        },
+        {
+            "component_id": 35,
+            "resource_id": "org.fossasia.phimpme:id/account_username",
+            "text_content": "BOX",
+            "word_sequence": [
+                "BOX"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 200, \"y1\": 1602, \"x2\": 848, \"y2\": 1647}"
+        },
+        {
+            "component_id": 36,
+            "resource_id": "org.fossasia.phimpme:id/sign_in_sign_out_switch",
+            "text_content": "OFF",
+            "word_sequence": [
+                "OFF"
+            ],
+            "type": "SWITCH",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 848, \"y1\": 1602, \"x2\": 1080, \"y2\": 1647}"
+        },
+        {
+            "component_id": 37,
+            "resource_id": "org.fossasia.phimpme:id/smallLabel",
+            "text_content": "Camera",
+            "word_sequence": [
+                "Camera"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 125, \"y1\": 1734, \"x2\": 235, \"y2\": 1777}"
+        },
+        {
+            "component_id": 38,
+            "resource_id": "org.fossasia.phimpme:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 148, \"y1\": 1668, \"x2\": 211, \"y2\": 1731}"
+        },
+        {
+            "component_id": 39,
+            "resource_id": "org.fossasia.phimpme:id/smallLabel",
+            "text_content": "Gallery",
+            "word_sequence": [
+                "Gallery"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 491, \"y1\": 1734, \"x2\": 589, \"y2\": 1777}"
+        },
+        {
+            "component_id": 40,
+            "resource_id": "org.fossasia.phimpme:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 508, \"y1\": 1668, \"x2\": 571, \"y2\": 1731}"
+        },
+        {
+            "component_id": 41,
+            "resource_id": "org.fossasia.phimpme:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 868, \"y1\": 1663, \"x2\": 931, \"y2\": 1726}"
+        },
+        {
+            "component_id": 42,
+            "resource_id": "org.fossasia.phimpme:id/largeLabel",
+            "text_content": "Accounts",
+            "word_sequence": [
+                "Accounts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "f9b99ddd6e73c38190016007a421d9f9d2f8b195cfd3f568b0eec76668b5cf1f",
+            "bounding_box": "{\"x1\": 823, \"y1\": 1728, \"x2\": 977, \"y2\": 1779}"
+        }
+    ],
+    "73a29f328a9384d61e824bd5c2b3383da58d53f592e976c496675f69a6244055": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "BUTTON",
+            "app_name": 1403,
+            "screen_id": "73a29f328a9384d61e824bd5c2b3383da58d53f592e976c496675f69a6244055",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "73a29f328a9384d61e824bd5c2b3383da58d53f592e976c496675f69a6244055",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 219, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.fossasia.phimpme:id/sort_action",
+            "text_content": "Sort",
+            "word_sequence": [
+                "Sort"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "73a29f328a9384d61e824bd5c2b3383da58d53f592e976c496675f69a6244055",
+            "bounding_box": "{\"x1\": 723, \"y1\": 73, \"x2\": 849, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.fossasia.phimpme:id/delete_action",
+            "text_content": "Delete",
+            "word_sequence": [
+                "Delete"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "73a29f328a9384d61e824bd5c2b3383da58d53f592e976c496675f69a6244055",
+            "bounding_box": "{\"x1\": 849, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "73a29f328a9384d61e824bd5c2b3383da58d53f592e976c496675f69a6244055",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.fossasia.phimpme:id/photo_preview",
+            "text_content": "",
+            "word_sequence": [
+                "photo",
+                "preview"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "73a29f328a9384d61e824bd5c2b3383da58d53f592e976c496675f69a6244055",
+            "bounding_box": "{\"x1\": 8, \"y1\": 218, \"x2\": 358, \"y2\": 568}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.fossasia.phimpme:id/smallLabel",
+            "text_content": "Camera",
+            "word_sequence": [
+                "Camera"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "73a29f328a9384d61e824bd5c2b3383da58d53f592e976c496675f69a6244055",
+            "bounding_box": "{\"x1\": 125, \"y1\": 1734, \"x2\": 235, \"y2\": 1777}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.fossasia.phimpme:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "73a29f328a9384d61e824bd5c2b3383da58d53f592e976c496675f69a6244055",
+            "bounding_box": "{\"x1\": 148, \"y1\": 1668, \"x2\": 211, \"y2\": 1731}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.fossasia.phimpme:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "73a29f328a9384d61e824bd5c2b3383da58d53f592e976c496675f69a6244055",
+            "bounding_box": "{\"x1\": 508, \"y1\": 1663, \"x2\": 571, \"y2\": 1726}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.fossasia.phimpme:id/largeLabel",
+            "text_content": "Gallery",
+            "word_sequence": [
+                "Gallery"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "73a29f328a9384d61e824bd5c2b3383da58d53f592e976c496675f69a6244055",
+            "bounding_box": "{\"x1\": 483, \"y1\": 1728, \"x2\": 597, \"y2\": 1779}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.fossasia.phimpme:id/smallLabel",
+            "text_content": "Accounts",
+            "word_sequence": [
+                "Accounts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "73a29f328a9384d61e824bd5c2b3383da58d53f592e976c496675f69a6244055",
+            "bounding_box": "{\"x1\": 832, \"y1\": 1734, \"x2\": 968, \"y2\": 1777}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "org.fossasia.phimpme:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "73a29f328a9384d61e824bd5c2b3383da58d53f592e976c496675f69a6244055",
+            "bounding_box": "{\"x1\": 868, \"y1\": 1668, \"x2\": 931, \"y2\": 1731}"
+        }
+    ],
+    "248a91d24f09b852b14f5fa018b6253c937eec754d6cf6803ab45999ded535e2": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "248a91d24f09b852b14f5fa018b6253c937eec754d6cf6803ab45999ded535e2",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.fossasia.phimpme:id/action_share",
+            "text_content": "share",
+            "word_sequence": [
+                "share"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "248a91d24f09b852b14f5fa018b6253c937eec754d6cf6803ab45999ded535e2",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1657, \"x2\": 154, \"y2\": 1783}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.fossasia.phimpme:id/action_edit",
+            "text_content": "Edit",
+            "word_sequence": [
+                "Edit"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "248a91d24f09b852b14f5fa018b6253c937eec754d6cf6803ab45999ded535e2",
+            "bounding_box": "{\"x1\": 308, \"y1\": 1657, \"x2\": 462, \"y2\": 1783}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.fossasia.phimpme:id/action_delete",
+            "text_content": "Delete",
+            "word_sequence": [
+                "Delete"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "248a91d24f09b852b14f5fa018b6253c937eec754d6cf6803ab45999ded535e2",
+            "bounding_box": "{\"x1\": 616, \"y1\": 1657, \"x2\": 770, \"y2\": 1783}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.fossasia.phimpme:id/action_details",
+            "text_content": "Move",
+            "word_sequence": [
+                "Move"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "248a91d24f09b852b14f5fa018b6253c937eec754d6cf6803ab45999ded535e2",
+            "bounding_box": "{\"x1\": 924, \"y1\": 1657, \"x2\": 1078, \"y2\": 1783}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "BUTTON",
+            "app_name": 1403,
+            "screen_id": "248a91d24f09b852b14f5fa018b6253c937eec754d6cf6803ab45999ded535e2",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "1 of 1",
+            "word_sequence": [
+                "1",
+                "of",
+                "1"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "248a91d24f09b852b14f5fa018b6253c937eec754d6cf6803ab45999ded535e2",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 324, \"y2\": 172}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "248a91d24f09b852b14f5fa018b6253c937eec754d6cf6803ab45999ded535e2",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        }
+    ],
+    "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1": [
+        {
+            "component_id": 0,
+            "resource_id": "org.fossasia.phimpme:id/main_image",
+            "text_content": "",
+            "word_sequence": [
+                "main",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 1080, \"y2\": 1315}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.fossasia.phimpme:id/edit_cancel",
+            "text_content": "",
+            "word_sequence": [
+                "edit",
+                "cancel"
+            ],
+            "type": "BUTTON",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 13, \"y1\": 1328, \"x2\": 92, \"y2\": 1407}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.fossasia.phimpme:id/edit_undo",
+            "text_content": "",
+            "word_sequence": [
+                "edit",
+                "undo"
+            ],
+            "type": "BUTTON",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 395, \"y1\": 1328, \"x2\": 474, \"y2\": 1407}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.fossasia.phimpme:id/edit_befaft",
+            "text_content": "",
+            "word_sequence": [
+                "edit",
+                "befaft"
+            ],
+            "type": "BUTTON",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 500, \"y1\": 1328, \"x2\": 579, \"y2\": 1407}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.fossasia.phimpme:id/edit_redo",
+            "text_content": "",
+            "word_sequence": [
+                "edit",
+                "redo"
+            ],
+            "type": "BUTTON",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 605, \"y1\": 1328, \"x2\": 684, \"y2\": 1407}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.fossasia.phimpme:id/edit_save",
+            "text_content": "",
+            "word_sequence": [
+                "edit",
+                "save"
+            ],
+            "type": "BUTTON",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 988, \"y1\": 1315, \"x2\": 1067, \"y2\": 1394}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1420, \"x2\": 1080, \"y2\": 1423}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_image",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 26, \"y1\": 1441, \"x2\": 157, \"y2\": 1572}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_title",
+            "text_content": "None",
+            "word_sequence": [
+                "None"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1572, \"x2\": 184, \"y2\": 1615}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_image",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 210, \"y1\": 1441, \"x2\": 341, \"y2\": 1572}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_title",
+            "text_content": "Sajuno",
+            "word_sequence": [
+                "Sajuno"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 184, \"y1\": 1572, \"x2\": 368, \"y2\": 1615}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_image",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 394, \"y1\": 1441, \"x2\": 525, \"y2\": 1572}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_title",
+            "text_content": "Manglow",
+            "word_sequence": [
+                "Manglow"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 368, \"y1\": 1572, \"x2\": 552, \"y2\": 1615}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_image",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 578, \"y1\": 1441, \"x2\": 709, \"y2\": 1572}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_title",
+            "text_content": "Palacia",
+            "word_sequence": [
+                "Palacia"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 552, \"y1\": 1572, \"x2\": 736, \"y2\": 1615}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_image",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 762, \"y1\": 1441, \"x2\": 893, \"y2\": 1572}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_title",
+            "text_content": "Anax",
+            "word_sequence": [
+                "Anax"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 736, \"y1\": 1572, \"x2\": 920, \"y2\": 1615}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_image",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 946, \"y1\": 1441, \"x2\": 1077, \"y2\": 1572}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_title",
+            "text_content": "Sepia",
+            "word_sequence": [
+                "Sepia"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 920, \"y1\": 1572, \"x2\": 1080, \"y2\": 1615}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1620, \"x2\": 1080, \"y2\": 1623}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "org.fossasia.phimpme:id/filtericonimage",
+            "text_content": "",
+            "word_sequence": [
+                "filtericonimage"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 68, \"y1\": 1636, \"x2\": 147, \"y2\": 1715}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "",
+            "text_content": "Filter",
+            "word_sequence": [
+                "Filter"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1715, \"x2\": 216, \"y2\": 1758}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "org.fossasia.phimpme:id/enhanceiconimage",
+            "text_content": "",
+            "word_sequence": [
+                "enhanceiconimage"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 284, \"y1\": 1636, \"x2\": 363, \"y2\": 1715}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "",
+            "text_content": "Enhance",
+            "word_sequence": [
+                "Enhance"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 216, \"y1\": 1715, \"x2\": 432, \"y2\": 1758}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "org.fossasia.phimpme:id/cropiconimage",
+            "text_content": "",
+            "word_sequence": [
+                "cropiconimage"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 500, \"y1\": 1636, \"x2\": 579, \"y2\": 1715}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "",
+            "text_content": "Transform",
+            "word_sequence": [
+                "Transform"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 432, \"y1\": 1715, \"x2\": 648, \"y2\": 1758}"
+        },
+        {
+            "component_id": 26,
+            "resource_id": "org.fossasia.phimpme:id/stickericonimage",
+            "text_content": "",
+            "word_sequence": [
+                "stickericonimage"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 716, \"y1\": 1636, \"x2\": 795, \"y2\": 1715}"
+        },
+        {
+            "component_id": 27,
+            "resource_id": "",
+            "text_content": "Stickers",
+            "word_sequence": [
+                "Stickers"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 648, \"y1\": 1715, \"x2\": 864, \"y2\": 1758}"
+        },
+        {
+            "component_id": 28,
+            "resource_id": "org.fossasia.phimpme:id/texticonimage",
+            "text_content": "",
+            "word_sequence": [
+                "texticonimage"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 932, \"y1\": 1636, \"x2\": 1011, \"y2\": 1715}"
+        },
+        {
+            "component_id": 29,
+            "resource_id": "",
+            "text_content": "Write",
+            "word_sequence": [
+                "Write"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "c5f10b49c61e4074cfb7eac07b401eabc49b9b8fad4cc17a16f2105fe1f0c5f1",
+            "bounding_box": "{\"x1\": 864, \"y1\": 1715, \"x2\": 1080, \"y2\": 1758}"
+        }
+    ],
+    "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62": [
+        {
+            "component_id": 0,
+            "resource_id": "org.fossasia.phimpme:id/main_image",
+            "text_content": "",
+            "word_sequence": [
+                "main",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 1080, \"y2\": 1315}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.fossasia.phimpme:id/sticker_panel",
+            "text_content": "",
+            "word_sequence": [
+                "sticker",
+                "panel"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 1080, \"y2\": 1315}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.fossasia.phimpme:id/edit_cancel",
+            "text_content": "",
+            "word_sequence": [
+                "edit",
+                "cancel"
+            ],
+            "type": "BUTTON",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 13, \"y1\": 1328, \"x2\": 92, \"y2\": 1407}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.fossasia.phimpme:id/edit_undo",
+            "text_content": "",
+            "word_sequence": [
+                "edit",
+                "undo"
+            ],
+            "type": "BUTTON",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 395, \"y1\": 1328, \"x2\": 474, \"y2\": 1407}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.fossasia.phimpme:id/edit_redo",
+            "text_content": "",
+            "word_sequence": [
+                "edit",
+                "redo"
+            ],
+            "type": "BUTTON",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 605, \"y1\": 1328, \"x2\": 684, \"y2\": 1407}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1420, \"x2\": 1080, \"y2\": 1423}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_image",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 53, \"y1\": 1467, \"x2\": 131, \"y2\": 1545}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_title",
+            "text_content": "facial",
+            "word_sequence": [
+                "facial"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1545, \"x2\": 184, \"y2\": 1588}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_image",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 237, \"y1\": 1467, \"x2\": 315, \"y2\": 1545}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_title",
+            "text_content": "express",
+            "word_sequence": [
+                "express"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 184, \"y1\": 1545, \"x2\": 368, \"y2\": 1588}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_image",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 421, \"y1\": 1467, \"x2\": 499, \"y2\": 1545}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_title",
+            "text_content": "objects",
+            "word_sequence": [
+                "objects"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 368, \"y1\": 1545, \"x2\": 552, \"y2\": 1588}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_image",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 605, \"y1\": 1467, \"x2\": 683, \"y2\": 1545}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_title",
+            "text_content": "comments",
+            "word_sequence": [
+                "comments"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 552, \"y1\": 1545, \"x2\": 736, \"y2\": 1588}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_image",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 789, \"y1\": 1467, \"x2\": 867, \"y2\": 1545}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_title",
+            "text_content": "wishes",
+            "word_sequence": [
+                "wishes"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 736, \"y1\": 1545, \"x2\": 920, \"y2\": 1588}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_image",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 973, \"y1\": 1467, \"x2\": 1051, \"y2\": 1545}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_title",
+            "text_content": "emojis",
+            "word_sequence": [
+                "emojis"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 920, \"y1\": 1545, \"x2\": 1080, \"y2\": 1588}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1620, \"x2\": 1080, \"y2\": 1623}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "org.fossasia.phimpme:id/sticker_cancel",
+            "text_content": "",
+            "word_sequence": [
+                "sticker",
+                "cancel"
+            ],
+            "type": "BUTTON",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 13, \"y1\": 1675, \"x2\": 92, \"y2\": 1754}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_image",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 131, \"y1\": 1641, \"x2\": 262, \"y2\": 1772}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_title",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "title"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 105, \"y1\": 1772, \"x2\": 289, \"y2\": 1794}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_image",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 315, \"y1\": 1641, \"x2\": 446, \"y2\": 1772}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_title",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "title"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 289, \"y1\": 1772, \"x2\": 473, \"y2\": 1794}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_image",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 499, \"y1\": 1641, \"x2\": 630, \"y2\": 1772}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_title",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "title"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 473, \"y1\": 1772, \"x2\": 657, \"y2\": 1794}"
+        },
+        {
+            "component_id": 26,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_image",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 683, \"y1\": 1641, \"x2\": 814, \"y2\": 1772}"
+        },
+        {
+            "component_id": 27,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_title",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "title"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 657, \"y1\": 1772, \"x2\": 841, \"y2\": 1794}"
+        },
+        {
+            "component_id": 28,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_image",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 867, \"y1\": 1641, \"x2\": 975, \"y2\": 1772}"
+        },
+        {
+            "component_id": 29,
+            "resource_id": "org.fossasia.phimpme:id/editor_item_title",
+            "text_content": "",
+            "word_sequence": [
+                "editor",
+                "item",
+                "title"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 841, \"y1\": 1772, \"x2\": 975, \"y2\": 1794}"
+        },
+        {
+            "component_id": 30,
+            "resource_id": "org.fossasia.phimpme:id/sticker_apply",
+            "text_content": "",
+            "word_sequence": [
+                "sticker",
+                "apply"
+            ],
+            "type": "BUTTON",
+            "app_name": 1403,
+            "screen_id": "5ee0653ffa01b6baaba569434d3fce1186d7a13d85bf0b4fe749ec1cbe933c62",
+            "bounding_box": "{\"x1\": 988, \"y1\": 1675, \"x2\": 1067, \"y2\": 1754}"
+        }
+    ],
+    "2cea0bfcfffc818cf767694049ddf4edb9b6382a28e180535d54856694e39059": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1403,
+            "screen_id": "2cea0bfcfffc818cf767694049ddf4edb9b6382a28e180535d54856694e39059",
+            "bounding_box": "{\"x1\": 0, \"y1\": 0, \"x2\": 1080, \"y2\": 1794}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1403,
+            "screen_id": "2cea0bfcfffc818cf767694049ddf4edb9b6382a28e180535d54856694e39059",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "Share to",
+            "word_sequence": [
+                "Share",
+                "to"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "2cea0bfcfffc818cf767694049ddf4edb9b6382a28e180535d54856694e39059",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 386, \"y2\": 172}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.fossasia.phimpme:id/share_image",
+            "text_content": "",
+            "word_sequence": [
+                "share",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "2cea0bfcfffc818cf767694049ddf4edb9b6382a28e180535d54856694e39059",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 1162}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.fossasia.phimpme:id/edittext_share_caption",
+            "text_content": "Write Something",
+            "word_sequence": [
+                "Write",
+                "Something"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "2cea0bfcfffc818cf767694049ddf4edb9b6382a28e180535d54856694e39059",
+            "bounding_box": "{\"x1\": 65, \"y1\": 1188, \"x2\": 964, \"y2\": 1239}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.fossasia.phimpme:id/button_mic",
+            "text_content": "",
+            "word_sequence": [
+                "mic"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "2cea0bfcfffc818cf767694049ddf4edb9b6382a28e180535d54856694e39059",
+            "bounding_box": "{\"x1\": 975, \"y1\": 1188, \"x2\": 1028, \"y2\": 1241}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.fossasia.phimpme:id/divider1",
+            "text_content": "",
+            "word_sequence": [
+                "divider1"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1403,
+            "screen_id": "2cea0bfcfffc818cf767694049ddf4edb9b6382a28e180535d54856694e39059",
+            "bounding_box": "{\"x1\": 53, \"y1\": 1267, \"x2\": 1027, \"y2\": 1270}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.fossasia.phimpme:id/account_image",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "2cea0bfcfffc818cf767694049ddf4edb9b6382a28e180535d54856694e39059",
+            "bounding_box": "{\"x1\": 53, \"y1\": 1296, \"x2\": 116, \"y2\": 1359}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.fossasia.phimpme:id/account_name",
+            "text_content": "IMGUR",
+            "word_sequence": [
+                "IMGUR"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "2cea0bfcfffc818cf767694049ddf4edb9b6382a28e180535d54856694e39059",
+            "bounding_box": "{\"x1\": 169, \"y1\": 1302, \"x2\": 514, \"y2\": 1353}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.fossasia.phimpme:id/account_image",
+            "text_content": "",
+            "word_sequence": [
+                "account",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "2cea0bfcfffc818cf767694049ddf4edb9b6382a28e180535d54856694e39059",
+            "bounding_box": "{\"x1\": 593, \"y1\": 1296, \"x2\": 656, \"y2\": 1359}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.fossasia.phimpme:id/account_name",
+            "text_content": "OTHERS",
+            "word_sequence": [
+                "OTHERS"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "2cea0bfcfffc818cf767694049ddf4edb9b6382a28e180535d54856694e39059",
+            "bounding_box": "{\"x1\": 709, \"y1\": 1302, \"x2\": 1054, \"y2\": 1353}"
+        }
+    ],
+    "3dc9d2395d51f8831dc0ae77bf15c1e3e4cb9c388c9ec337ab9802ebc21a943f": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "BUTTON",
+            "app_name": 1403,
+            "screen_id": "3dc9d2395d51f8831dc0ae77bf15c1e3e4cb9c388c9ec337ab9802ebc21a943f",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Phimpme",
+            "word_sequence": [
+                "Phimpme"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "3dc9d2395d51f8831dc0ae77bf15c1e3e4cb9c388c9ec337ab9802ebc21a943f",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 416, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.fossasia.phimpme:id/all_photos",
+            "text_content": "All_photos",
+            "word_sequence": [
+                "All_photos"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "3dc9d2395d51f8831dc0ae77bf15c1e3e4cb9c388c9ec337ab9802ebc21a943f",
+            "bounding_box": "{\"x1\": 719, \"y1\": 73, \"x2\": 849, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.fossasia.phimpme:id/sort_action",
+            "text_content": "Sort",
+            "word_sequence": [
+                "Sort"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "3dc9d2395d51f8831dc0ae77bf15c1e3e4cb9c388c9ec337ab9802ebc21a943f",
+            "bounding_box": "{\"x1\": 849, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "3dc9d2395d51f8831dc0ae77bf15c1e3e4cb9c388c9ec337ab9802ebc21a943f",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.fossasia.phimpme:id/album_preview",
+            "text_content": "",
+            "word_sequence": [
+                "album",
+                "preview"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "3dc9d2395d51f8831dc0ae77bf15c1e3e4cb9c388c9ec337ab9802ebc21a943f",
+            "bounding_box": "{\"x1\": 8, \"y1\": 218, \"x2\": 536, \"y2\": 746}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "org.fossasia.phimpme:id/album_name",
+            "text_content": "0",
+            "word_sequence": [
+                "0"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "3dc9d2395d51f8831dc0ae77bf15c1e3e4cb9c388c9ec337ab9802ebc21a943f",
+            "bounding_box": "{\"x1\": 8, \"y1\": 746, \"x2\": 536, \"y2\": 829}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "org.fossasia.phimpme:id/album_photos_count",
+            "text_content": "1 Media",
+            "word_sequence": [
+                "1",
+                "Media"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "3dc9d2395d51f8831dc0ae77bf15c1e3e4cb9c388c9ec337ab9802ebc21a943f",
+            "bounding_box": "{\"x1\": 8, \"y1\": 829, \"x2\": 536, \"y2\": 906}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "org.fossasia.phimpme:id/album_preview",
+            "text_content": "",
+            "word_sequence": [
+                "album",
+                "preview"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "3dc9d2395d51f8831dc0ae77bf15c1e3e4cb9c388c9ec337ab9802ebc21a943f",
+            "bounding_box": "{\"x1\": 544, \"y1\": 218, \"x2\": 1072, \"y2\": 746}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "org.fossasia.phimpme:id/album_name",
+            "text_content": "phimpme-edit",
+            "word_sequence": [
+                "phimpme",
+                "edit"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "3dc9d2395d51f8831dc0ae77bf15c1e3e4cb9c388c9ec337ab9802ebc21a943f",
+            "bounding_box": "{\"x1\": 544, \"y1\": 746, \"x2\": 1072, \"y2\": 829}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "org.fossasia.phimpme:id/album_photos_count",
+            "text_content": "1 Media",
+            "word_sequence": [
+                "1",
+                "Media"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "3dc9d2395d51f8831dc0ae77bf15c1e3e4cb9c388c9ec337ab9802ebc21a943f",
+            "bounding_box": "{\"x1\": 544, \"y1\": 829, \"x2\": 1072, \"y2\": 906}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "org.fossasia.phimpme:id/smallLabel",
+            "text_content": "Camera",
+            "word_sequence": [
+                "Camera"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "3dc9d2395d51f8831dc0ae77bf15c1e3e4cb9c388c9ec337ab9802ebc21a943f",
+            "bounding_box": "{\"x1\": 125, \"y1\": 1734, \"x2\": 235, \"y2\": 1777}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "org.fossasia.phimpme:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "3dc9d2395d51f8831dc0ae77bf15c1e3e4cb9c388c9ec337ab9802ebc21a943f",
+            "bounding_box": "{\"x1\": 148, \"y1\": 1668, \"x2\": 211, \"y2\": 1731}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "org.fossasia.phimpme:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "3dc9d2395d51f8831dc0ae77bf15c1e3e4cb9c388c9ec337ab9802ebc21a943f",
+            "bounding_box": "{\"x1\": 508, \"y1\": 1663, \"x2\": 571, \"y2\": 1726}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "org.fossasia.phimpme:id/largeLabel",
+            "text_content": "Gallery",
+            "word_sequence": [
+                "Gallery"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "3dc9d2395d51f8831dc0ae77bf15c1e3e4cb9c388c9ec337ab9802ebc21a943f",
+            "bounding_box": "{\"x1\": 483, \"y1\": 1728, \"x2\": 597, \"y2\": 1779}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "org.fossasia.phimpme:id/smallLabel",
+            "text_content": "Accounts",
+            "word_sequence": [
+                "Accounts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "3dc9d2395d51f8831dc0ae77bf15c1e3e4cb9c388c9ec337ab9802ebc21a943f",
+            "bounding_box": "{\"x1\": 832, \"y1\": 1734, \"x2\": 968, \"y2\": 1777}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "org.fossasia.phimpme:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1403,
+            "screen_id": "3dc9d2395d51f8831dc0ae77bf15c1e3e4cb9c388c9ec337ab9802ebc21a943f",
+            "bounding_box": "{\"x1\": 868, \"y1\": 1668, \"x2\": 931, \"y2\": 1731}"
+        }
+    ],
+    "0be480566fd9244e83c1f87ccd788bb5bf716d340f7b52395ed850eed3b91f16": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "Phimpme has stopped",
+            "word_sequence": [
+                "Phimpme",
+                "has",
+                "stopped"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1403,
+            "screen_id": "0be480566fd9244e83c1f87ccd788bb5bf716d340f7b52395ed850eed3b91f16",
+            "bounding_box": "{\"x1\": 133, \"y1\": 823, \"x2\": 947, \"y2\": 894}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/aerr_restart",
+            "text_content": "Open app again",
+            "word_sequence": [
+                "Open",
+                "app",
+                "again"
+            ],
+            "type": "BUTTON",
+            "app_name": 1403,
+            "screen_id": "0be480566fd9244e83c1f87ccd788bb5bf716d340f7b52395ed850eed3b91f16",
+            "bounding_box": "{\"x1\": 70, \"y1\": 933, \"x2\": 1010, \"y2\": 1059}"
+        }
+    ]
+}

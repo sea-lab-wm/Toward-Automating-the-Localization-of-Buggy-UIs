@@ -1,0 +1,853 @@
+{
+    "app-name": 193,
+    "9decbbb977b690a78ffa6203692c0eca614ffbd6e1444ab9fc1201385dcce938": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Memento Calendar",
+            "word_sequence": [
+                "Memento",
+                "Calendar"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "9decbbb977b690a78ffa6203692c0eca614ffbd6e1444ab9fc1201385dcce938",
+            "bounding_box": "{\"x1\": 42, \"y1\": 101, \"x2\": 492, \"y2\": 172}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.alexstyl.specialdates:id/action_search",
+            "text_content": "Search",
+            "word_sequence": [
+                "Search"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "9decbbb977b690a78ffa6203692c0eca614ffbd6e1444ab9fc1201385dcce938",
+            "bounding_box": "{\"x1\": 849, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 193,
+            "screen_id": "9decbbb977b690a78ffa6203692c0eca614ffbd6e1444ab9fc1201385dcce938",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.alexstyl.specialdates:id/upcoming_events_emptyview",
+            "text_content": "No contacts with special events found.\nTap the '+' to add some",
+            "word_sequence": [
+                "No",
+                "contacts",
+                "with",
+                "special",
+                "events",
+                "found",
+                ".",
+                "Tap",
+                "the",
+                "'",
+                "'",
+                "to",
+                "add",
+                "some"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "9decbbb977b690a78ffa6203692c0eca614ffbd6e1444ab9fc1201385dcce938",
+            "bounding_box": "{\"x1\": 156, \"y1\": 949, \"x2\": 924, \"y2\": 1055}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.alexstyl.specialdates:id/fab_add",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "add"
+            ],
+            "type": "BUTTON",
+            "app_name": 193,
+            "screen_id": "9decbbb977b690a78ffa6203692c0eca614ffbd6e1444ab9fc1201385dcce938",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1605, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "4a08229c20a6d5d2f392a3bb1f6e7d95589ba0c6cb8d7372a5bdc508e2049cda": [
+        {
+            "component_id": 0,
+            "resource_id": "com.alexstyl.specialdates:id/addbirthday_title",
+            "text_content": "Add birthday",
+            "word_sequence": [
+                "Add",
+                "birthday"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "4a08229c20a6d5d2f392a3bb1f6e7d95589ba0c6cb8d7372a5bdc508e2049cda",
+            "bounding_box": "{\"x1\": 105, \"y1\": 646, \"x2\": 974, \"y2\": 717}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 193,
+            "screen_id": "4a08229c20a6d5d2f392a3bb1f6e7d95589ba0c6cb8d7372a5bdc508e2049cda",
+            "bounding_box": "{\"x1\": 149, \"y1\": 814, \"x2\": 212, \"y2\": 877}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.alexstyl.specialdates:id/contacthero_name_suggestion",
+            "text_content": "Contact name",
+            "word_sequence": [
+                "Contact",
+                "name"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 193,
+            "screen_id": "4a08229c20a6d5d2f392a3bb1f6e7d95589ba0c6cb8d7372a5bdc508e2049cda",
+            "bounding_box": "{\"x1\": 299, \"y1\": 770, \"x2\": 974, \"y2\": 922}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 193,
+            "screen_id": "4a08229c20a6d5d2f392a3bb1f6e7d95589ba0c6cb8d7372a5bdc508e2049cda",
+            "bounding_box": "{\"x1\": 105, \"y1\": 954, \"x2\": 257, \"y2\": 1106}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.alexstyl.specialdates:id/birthdaypicker_label",
+            "text_content": "Birthday",
+            "word_sequence": [
+                "Birthday"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "4a08229c20a6d5d2f392a3bb1f6e7d95589ba0c6cb8d7372a5bdc508e2049cda",
+            "bounding_box": "{\"x1\": 299, \"y1\": 954, \"x2\": 974, \"y2\": 1106}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.alexstyl.specialdates:id/addbirthday_dismiss_button",
+            "text_content": "DISCARD",
+            "word_sequence": [
+                "DISCARD"
+            ],
+            "type": "BUTTON",
+            "app_name": 193,
+            "screen_id": "4a08229c20a6d5d2f392a3bb1f6e7d95589ba0c6cb8d7372a5bdc508e2049cda",
+            "bounding_box": "{\"x1\": 63, \"y1\": 1127, \"x2\": 294, \"y2\": 1253}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.alexstyl.specialdates:id/addbirthday_add_button",
+            "text_content": "ADD",
+            "word_sequence": [
+                "ADD"
+            ],
+            "type": "BUTTON",
+            "app_name": 193,
+            "screen_id": "4a08229c20a6d5d2f392a3bb1f6e7d95589ba0c6cb8d7372a5bdc508e2049cda",
+            "bounding_box": "{\"x1\": 785, \"y1\": 1127, \"x2\": 1016, \"y2\": 1253}"
+        }
+    ],
+    "3fbfe419f6831fa1a12ae9556bb6b3be7d8d273db41da8c5d3b27e543a09b0fc": [
+        {
+            "component_id": 0,
+            "resource_id": "com.alexstyl.specialdates:id/alertTitle",
+            "text_content": "Birthday date",
+            "word_sequence": [
+                "Birthday",
+                "date"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "3fbfe419f6831fa1a12ae9556bb6b3be7d8d273db41da8c5d3b27e543a09b0fc",
+            "bounding_box": "{\"x1\": 132, \"y1\": 543, \"x2\": 948, \"y2\": 614}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 193,
+            "screen_id": "3fbfe419f6831fa1a12ae9556bb6b3be7d8d273db41da8c5d3b27e543a09b0fc",
+            "bounding_box": "{\"x1\": 195, \"y1\": 614, \"x2\": 884, \"y2\": 1129}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.alexstyl.specialdates:id/include_year_checkbox",
+            "text_content": "Include year?",
+            "word_sequence": [
+                "Include",
+                "year",
+                "?"
+            ],
+            "type": "CHECKEDTEXTVIEW",
+            "app_name": 193,
+            "screen_id": "3fbfe419f6831fa1a12ae9556bb6b3be7d8d273db41da8c5d3b27e543a09b0fc",
+            "bounding_box": "{\"x1\": 379, \"y1\": 1129, \"x2\": 700, \"y2\": 1213}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/button1",
+            "text_content": "SET",
+            "word_sequence": [
+                "SET"
+            ],
+            "type": "BUTTON",
+            "app_name": 193,
+            "screen_id": "3fbfe419f6831fa1a12ae9556bb6b3be7d8d273db41da8c5d3b27e543a09b0fc",
+            "bounding_box": "{\"x1\": 811, \"y1\": 1224, \"x2\": 979, \"y2\": 1350}"
+        }
+    ],
+    "095b96c97c27f5db1fe81c5876f49682efcf8fdaeaa09f2196b0ed8d8ff0f0d5": [
+        {
+            "component_id": 0,
+            "resource_id": "com.alexstyl.specialdates:id/addbirthday_title",
+            "text_content": "Add birthday",
+            "word_sequence": [
+                "Add",
+                "birthday"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "095b96c97c27f5db1fe81c5876f49682efcf8fdaeaa09f2196b0ed8d8ff0f0d5",
+            "bounding_box": "{\"x1\": 105, \"y1\": 275, \"x2\": 974, \"y2\": 346}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 193,
+            "screen_id": "095b96c97c27f5db1fe81c5876f49682efcf8fdaeaa09f2196b0ed8d8ff0f0d5",
+            "bounding_box": "{\"x1\": 149, \"y1\": 443, \"x2\": 212, \"y2\": 506}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.alexstyl.specialdates:id/contacthero_name_suggestion",
+            "text_content": "y",
+            "word_sequence": [
+                "y"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 193,
+            "screen_id": "095b96c97c27f5db1fe81c5876f49682efcf8fdaeaa09f2196b0ed8d8ff0f0d5",
+            "bounding_box": "{\"x1\": 299, \"y1\": 399, \"x2\": 974, \"y2\": 551}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 193,
+            "screen_id": "095b96c97c27f5db1fe81c5876f49682efcf8fdaeaa09f2196b0ed8d8ff0f0d5",
+            "bounding_box": "{\"x1\": 105, \"y1\": 583, \"x2\": 257, \"y2\": 735}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.alexstyl.specialdates:id/birthdaypicker_label",
+            "text_content": "July 7",
+            "word_sequence": [
+                "July",
+                "7"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "095b96c97c27f5db1fe81c5876f49682efcf8fdaeaa09f2196b0ed8d8ff0f0d5",
+            "bounding_box": "{\"x1\": 299, \"y1\": 583, \"x2\": 974, \"y2\": 735}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.alexstyl.specialdates:id/addbirthday_dismiss_button",
+            "text_content": "DISCARD",
+            "word_sequence": [
+                "DISCARD"
+            ],
+            "type": "BUTTON",
+            "app_name": 193,
+            "screen_id": "095b96c97c27f5db1fe81c5876f49682efcf8fdaeaa09f2196b0ed8d8ff0f0d5",
+            "bounding_box": "{\"x1\": 63, \"y1\": 756, \"x2\": 294, \"y2\": 882}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.alexstyl.specialdates:id/addbirthday_add_button",
+            "text_content": "ADD",
+            "word_sequence": [
+                "ADD"
+            ],
+            "type": "BUTTON",
+            "app_name": 193,
+            "screen_id": "095b96c97c27f5db1fe81c5876f49682efcf8fdaeaa09f2196b0ed8d8ff0f0d5",
+            "bounding_box": "{\"x1\": 785, \"y1\": 756, \"x2\": 1016, \"y2\": 882}"
+        }
+    ],
+    "c9dcfe1c0bd3948e35a587c5d7dac5b70f0cb1be517539ba1d808d749b0b7fd6": [
+        {
+            "component_id": 0,
+            "resource_id": "com.alexstyl.specialdates:id/btn_close",
+            "text_content": "",
+            "word_sequence": [
+                "btn",
+                "close"
+            ],
+            "type": "BUTTON",
+            "app_name": 193,
+            "screen_id": "c9dcfe1c0bd3948e35a587c5d7dac5b70f0cb1be517539ba1d808d749b0b7fd6",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 126, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.alexstyl.specialdates:id/text_search_query",
+            "text_content": "Search",
+            "word_sequence": [
+                "Search"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 193,
+            "screen_id": "c9dcfe1c0bd3948e35a587c5d7dac5b70f0cb1be517539ba1d808d749b0b7fd6",
+            "bounding_box": "{\"x1\": 126, \"y1\": 63, \"x2\": 1080, \"y2\": 210}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/list",
+            "text_content": "",
+            "word_sequence": [
+                "list"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 193,
+            "screen_id": "c9dcfe1c0bd3948e35a587c5d7dac5b70f0cb1be517539ba1d808d749b0b7fd6",
+            "bounding_box": "{\"x1\": 0, \"y1\": 215, \"x2\": 1080, \"y2\": 1053}"
+        }
+    ],
+    "fb280e17fe1160c3e7d7c17b142edf5f3f6f1efe4407a4c1f1ef94fcacb3b497": [
+        {
+            "component_id": 0,
+            "resource_id": "com.alexstyl.specialdates:id/title",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "fb280e17fe1160c3e7d7c17b142edf5f3f6f1efe4407a4c1f1ef94fcacb3b497",
+            "bounding_box": "{\"x1\": 597, \"y1\": 107, \"x2\": 1028, \"y2\": 164}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.alexstyl.specialdates:id/title",
+            "text_content": "About",
+            "word_sequence": [
+                "About"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "fb280e17fe1160c3e7d7c17b142edf5f3f6f1efe4407a4c1f1ef94fcacb3b497",
+            "bounding_box": "{\"x1\": 597, \"y1\": 233, \"x2\": 1028, \"y2\": 290}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.alexstyl.specialdates:id/title",
+            "text_content": "Donate",
+            "word_sequence": [
+                "Donate"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "fb280e17fe1160c3e7d7c17b142edf5f3f6f1efe4407a4c1f1ef94fcacb3b497",
+            "bounding_box": "{\"x1\": 597, \"y1\": 359, \"x2\": 1028, \"y2\": 416}"
+        }
+    ],
+    "f41be3a3374a9ab66a4f5770a6b5af58e96952b3bfdc3bf8c65340b636b2ff0c": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "BUTTON",
+            "app_name": 193,
+            "screen_id": "f41be3a3374a9ab66a4f5770a6b5af58e96952b3bfdc3bf8c65340b636b2ff0c",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "f41be3a3374a9ab66a4f5770a6b5af58e96952b3bfdc3bf8c65340b636b2ff0c",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 353, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/title",
+            "text_content": "Themes",
+            "word_sequence": [
+                "Themes"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "f41be3a3374a9ab66a4f5770a6b5af58e96952b3bfdc3bf8c65340b636b2ff0c",
+            "bounding_box": "{\"x1\": 42, \"y1\": 252, \"x2\": 193, \"y2\": 309}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/summary",
+            "text_content": "Bloody Cherry",
+            "word_sequence": [
+                "Bloody",
+                "Cherry"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "f41be3a3374a9ab66a4f5770a6b5af58e96952b3bfdc3bf8c65340b636b2ff0c",
+            "bounding_box": "{\"x1\": 42, \"y1\": 309, \"x2\": 272, \"y2\": 360}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/title",
+            "text_content": "Daily Reminder",
+            "word_sequence": [
+                "Daily",
+                "Reminder"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "f41be3a3374a9ab66a4f5770a6b5af58e96952b3bfdc3bf8c65340b636b2ff0c",
+            "bounding_box": "{\"x1\": 42, \"y1\": 447, \"x2\": 321, \"y2\": 504}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/summary",
+            "text_content": "Remind me for every day's events",
+            "word_sequence": [
+                "Remind",
+                "me",
+                "for",
+                "every",
+                "day's",
+                "events"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "f41be3a3374a9ab66a4f5770a6b5af58e96952b3bfdc3bf8c65340b636b2ff0c",
+            "bounding_box": "{\"x1\": 42, \"y1\": 504, \"x2\": 592, \"y2\": 555}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/title",
+            "text_content": "Bank holidays",
+            "word_sequence": [
+                "Bank",
+                "holidays"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "f41be3a3374a9ab66a4f5770a6b5af58e96952b3bfdc3bf8c65340b636b2ff0c",
+            "bounding_box": "{\"x1\": 0, \"y1\": 600, \"x2\": 1080, \"y2\": 693}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/title",
+            "text_content": "Display Bankholidays",
+            "word_sequence": [
+                "Display",
+                "Bankholidays"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "f41be3a3374a9ab66a4f5770a6b5af58e96952b3bfdc3bf8c65340b636b2ff0c",
+            "bounding_box": "{\"x1\": 42, \"y1\": 738, \"x2\": 438, \"y2\": 795}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/checkbox",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "CHECKBOX",
+            "app_name": 193,
+            "screen_id": "f41be3a3374a9ab66a4f5770a6b5af58e96952b3bfdc3bf8c65340b636b2ff0c",
+            "bounding_box": "{\"x1\": 954, \"y1\": 724, \"x2\": 1038, \"y2\": 808}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/title",
+            "text_content": "Bankholidays Country",
+            "word_sequence": [
+                "Bankholidays",
+                "Country"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "f41be3a3374a9ab66a4f5770a6b5af58e96952b3bfdc3bf8c65340b636b2ff0c",
+            "bounding_box": "{\"x1\": 42, \"y1\": 882, \"x2\": 446, \"y2\": 939}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/summary",
+            "text_content": "Greek",
+            "word_sequence": [
+                "Greek"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "f41be3a3374a9ab66a4f5770a6b5af58e96952b3bfdc3bf8c65340b636b2ff0c",
+            "bounding_box": "{\"x1\": 42, \"y1\": 939, \"x2\": 139, \"y2\": 990}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "android:id/title",
+            "text_content": "Name Days",
+            "word_sequence": [
+                "Name",
+                "Days"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "f41be3a3374a9ab66a4f5770a6b5af58e96952b3bfdc3bf8c65340b636b2ff0c",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1035, \"x2\": 1080, \"y2\": 1128}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "android:id/title",
+            "text_content": "Display Name Days",
+            "word_sequence": [
+                "Display",
+                "Name",
+                "Days"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "f41be3a3374a9ab66a4f5770a6b5af58e96952b3bfdc3bf8c65340b636b2ff0c",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1173, \"x2\": 404, \"y2\": 1230}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "android:id/summary",
+            "text_content": "Name Days will not be displayed",
+            "word_sequence": [
+                "Name",
+                "Days",
+                "will",
+                "not",
+                "be",
+                "displayed"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "f41be3a3374a9ab66a4f5770a6b5af58e96952b3bfdc3bf8c65340b636b2ff0c",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1230, \"x2\": 573, \"y2\": 1281}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "android:id/checkbox",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "CHECKBOX",
+            "app_name": 193,
+            "screen_id": "f41be3a3374a9ab66a4f5770a6b5af58e96952b3bfdc3bf8c65340b636b2ff0c",
+            "bounding_box": "{\"x1\": 954, \"y1\": 1185, \"x2\": 1038, \"y2\": 1269}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "android:id/title",
+            "text_content": "Nameday Calendar",
+            "word_sequence": [
+                "Nameday",
+                "Calendar"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "f41be3a3374a9ab66a4f5770a6b5af58e96952b3bfdc3bf8c65340b636b2ff0c",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1368, \"x2\": 397, \"y2\": 1425}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "android:id/summary",
+            "text_content": "Greek",
+            "word_sequence": [
+                "Greek"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "f41be3a3374a9ab66a4f5770a6b5af58e96952b3bfdc3bf8c65340b636b2ff0c",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1425, \"x2\": 139, \"y2\": 1476}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "android:id/title",
+            "text_content": "Namedays for Contacts only",
+            "word_sequence": [
+                "Namedays",
+                "for",
+                "Contacts",
+                "only"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "f41be3a3374a9ab66a4f5770a6b5af58e96952b3bfdc3bf8c65340b636b2ff0c",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1563, \"x2\": 572, \"y2\": 1620}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "android:id/summary",
+            "text_content": "Namedays will be displays for the namedays of all year",
+            "word_sequence": [
+                "Namedays",
+                "will",
+                "be",
+                "displays",
+                "for",
+                "the",
+                "namedays",
+                "of",
+                "all",
+                "year"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "f41be3a3374a9ab66a4f5770a6b5af58e96952b3bfdc3bf8c65340b636b2ff0c",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1620, \"x2\": 912, \"y2\": 1714}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "android:id/checkbox",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "CHECKBOX",
+            "app_name": 193,
+            "screen_id": "f41be3a3374a9ab66a4f5770a6b5af58e96952b3bfdc3bf8c65340b636b2ff0c",
+            "bounding_box": "{\"x1\": 954, \"y1\": 1596, \"x2\": 1038, \"y2\": 1680}"
+        }
+    ],
+    "0c01e09b39c3c3b898465d438bd3b938523849b82b5bd72f09c3789081bdea04": [
+        {
+            "component_id": 0,
+            "resource_id": "com.alexstyl.specialdates:id/alertTitle",
+            "text_content": "Themes",
+            "word_sequence": [
+                "Themes"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "0c01e09b39c3c3b898465d438bd3b938523849b82b5bd72f09c3789081bdea04",
+            "bounding_box": "{\"x1\": 105, \"y1\": 233, \"x2\": 974, \"y2\": 304}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.alexstyl.specialdates:id/themeSelect_name",
+            "text_content": "Amber",
+            "word_sequence": [
+                "Amber"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "0c01e09b39c3c3b898465d438bd3b938523849b82b5bd72f09c3789081bdea04",
+            "bounding_box": "{\"x1\": 84, \"y1\": 352, \"x2\": 921, \"y2\": 465}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.alexstyl.specialdates:id/themeSelect_accent_color",
+            "text_content": "",
+            "word_sequence": [
+                "themeSelect",
+                "accent",
+                "color"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 193,
+            "screen_id": "0c01e09b39c3c3b898465d438bd3b938523849b82b5bd72f09c3789081bdea04",
+            "bounding_box": "{\"x1\": 921, \"y1\": 372, \"x2\": 995, \"y2\": 446}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.alexstyl.specialdates:id/themeSelect_name",
+            "text_content": "Bloody Cherry",
+            "word_sequence": [
+                "Bloody",
+                "Cherry"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "0c01e09b39c3c3b898465d438bd3b938523849b82b5bd72f09c3789081bdea04",
+            "bounding_box": "{\"x1\": 84, \"y1\": 520, \"x2\": 921, \"y2\": 633}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.alexstyl.specialdates:id/themeSelect_accent_color",
+            "text_content": "",
+            "word_sequence": [
+                "themeSelect",
+                "accent",
+                "color"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 193,
+            "screen_id": "0c01e09b39c3c3b898465d438bd3b938523849b82b5bd72f09c3789081bdea04",
+            "bounding_box": "{\"x1\": 921, \"y1\": 540, \"x2\": 995, \"y2\": 614}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.alexstyl.specialdates:id/themeSelect_name",
+            "text_content": "Eggplant",
+            "word_sequence": [
+                "Eggplant"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "0c01e09b39c3c3b898465d438bd3b938523849b82b5bd72f09c3789081bdea04",
+            "bounding_box": "{\"x1\": 84, \"y1\": 688, \"x2\": 921, \"y2\": 801}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.alexstyl.specialdates:id/themeSelect_accent_color",
+            "text_content": "",
+            "word_sequence": [
+                "themeSelect",
+                "accent",
+                "color"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 193,
+            "screen_id": "0c01e09b39c3c3b898465d438bd3b938523849b82b5bd72f09c3789081bdea04",
+            "bounding_box": "{\"x1\": 921, \"y1\": 708, \"x2\": 995, \"y2\": 782}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.alexstyl.specialdates:id/themeSelect_name",
+            "text_content": "Gloss Pink",
+            "word_sequence": [
+                "Gloss",
+                "Pink"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "0c01e09b39c3c3b898465d438bd3b938523849b82b5bd72f09c3789081bdea04",
+            "bounding_box": "{\"x1\": 84, \"y1\": 856, \"x2\": 921, \"y2\": 969}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.alexstyl.specialdates:id/themeSelect_accent_color",
+            "text_content": "",
+            "word_sequence": [
+                "themeSelect",
+                "accent",
+                "color"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 193,
+            "screen_id": "0c01e09b39c3c3b898465d438bd3b938523849b82b5bd72f09c3789081bdea04",
+            "bounding_box": "{\"x1\": 921, \"y1\": 876, \"x2\": 995, \"y2\": 950}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.alexstyl.specialdates:id/themeSelect_name",
+            "text_content": "Monochrome",
+            "word_sequence": [
+                "Monochrome"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "0c01e09b39c3c3b898465d438bd3b938523849b82b5bd72f09c3789081bdea04",
+            "bounding_box": "{\"x1\": 84, \"y1\": 1024, \"x2\": 921, \"y2\": 1137}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.alexstyl.specialdates:id/themeSelect_accent_color",
+            "text_content": "",
+            "word_sequence": [
+                "themeSelect",
+                "accent",
+                "color"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 193,
+            "screen_id": "0c01e09b39c3c3b898465d438bd3b938523849b82b5bd72f09c3789081bdea04",
+            "bounding_box": "{\"x1\": 921, \"y1\": 1044, \"x2\": 995, \"y2\": 1118}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.alexstyl.specialdates:id/themeSelect_name",
+            "text_content": "Navy Blue",
+            "word_sequence": [
+                "Navy",
+                "Blue"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "0c01e09b39c3c3b898465d438bd3b938523849b82b5bd72f09c3789081bdea04",
+            "bounding_box": "{\"x1\": 84, \"y1\": 1192, \"x2\": 921, \"y2\": 1305}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "com.alexstyl.specialdates:id/themeSelect_accent_color",
+            "text_content": "",
+            "word_sequence": [
+                "themeSelect",
+                "accent",
+                "color"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 193,
+            "screen_id": "0c01e09b39c3c3b898465d438bd3b938523849b82b5bd72f09c3789081bdea04",
+            "bounding_box": "{\"x1\": 921, \"y1\": 1212, \"x2\": 995, \"y2\": 1286}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.alexstyl.specialdates:id/themeSelect_name",
+            "text_content": "Systemo",
+            "word_sequence": [
+                "Systemo"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 193,
+            "screen_id": "0c01e09b39c3c3b898465d438bd3b938523849b82b5bd72f09c3789081bdea04",
+            "bounding_box": "{\"x1\": 84, \"y1\": 1360, \"x2\": 921, \"y2\": 1473}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "com.alexstyl.specialdates:id/themeSelect_accent_color",
+            "text_content": "",
+            "word_sequence": [
+                "themeSelect",
+                "accent",
+                "color"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 193,
+            "screen_id": "0c01e09b39c3c3b898465d438bd3b938523849b82b5bd72f09c3789081bdea04",
+            "bounding_box": "{\"x1\": 921, \"y1\": 1380, \"x2\": 995, \"y2\": 1454}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "android:id/button2",
+            "text_content": "CANCEL",
+            "word_sequence": [
+                "CANCEL"
+            ],
+            "type": "BUTTON",
+            "app_name": 193,
+            "screen_id": "0c01e09b39c3c3b898465d438bd3b938523849b82b5bd72f09c3789081bdea04",
+            "bounding_box": "{\"x1\": 803, \"y1\": 1533, \"x2\": 1005, \"y2\": 1659}"
+        }
+    ]
+}

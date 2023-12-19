@@ -1,0 +1,962 @@
+{
+    "app-name": 1389,
+    "7a7b8a8cd5ae92e04a75cae668ad13707d46d44b1da612808571f612bd99424b": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Transistor",
+            "word_sequence": [
+                "Transistor"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "7a7b8a8cd5ae92e04a75cae668ad13707d46d44b1da612808571f612bd99424b",
+            "bounding_box": "{\"x1\": 42, \"y1\": 101, \"x2\": 282, \"y2\": 172}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.y20k.transistor:id/menu_add",
+            "text_content": "Add",
+            "word_sequence": [
+                "Add"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "7a7b8a8cd5ae92e04a75cae668ad13707d46d44b1da612808571f612bd99424b",
+            "bounding_box": "{\"x1\": 848, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1389,
+            "screen_id": "7a7b8a8cd5ae92e04a75cae668ad13707d46d44b1da612808571f612bd99424b",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "org.y20k.transistor:id/main_textview",
+            "text_content": "Add a new station",
+            "word_sequence": [
+                "Add",
+                "a",
+                "new",
+                "station"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "7a7b8a8cd5ae92e04a75cae668ad13707d46d44b1da612808571f612bd99424b",
+            "bounding_box": "{\"x1\": 42, \"y1\": 252, \"x2\": 749, \"y2\": 452}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "org.y20k.transistor:id/main_actioncall_image_arrow",
+            "text_content": "Arrow pointing towards the add station symbol",
+            "word_sequence": [
+                "Arrow",
+                "pointing",
+                "towards",
+                "the",
+                "add",
+                "station",
+                "symbol"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1389,
+            "screen_id": "7a7b8a8cd5ae92e04a75cae668ad13707d46d44b1da612808571f612bd99424b",
+            "bounding_box": "{\"x1\": 749, \"y1\": 252, \"x2\": 938, \"y2\": 441}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "org.y20k.transistor:id/main_listview_collection",
+            "text_content": "",
+            "word_sequence": [
+                "main",
+                "listview",
+                "collection"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 1389,
+            "screen_id": "7a7b8a8cd5ae92e04a75cae668ad13707d46d44b1da612808571f612bd99424b",
+            "bounding_box": "{\"x1\": 42, \"y1\": 452, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "70e70cfdab5caa3d52c61d98495ecb5ccdd699cba946770630c05bde21c1a44f": [
+        {
+            "component_id": 0,
+            "resource_id": "org.y20k.transistor:id/dialog_add_station_message",
+            "text_content": "Add new station",
+            "word_sequence": [
+                "Add",
+                "new",
+                "station"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "70e70cfdab5caa3d52c61d98495ecb5ccdd699cba946770630c05bde21c1a44f",
+            "bounding_box": "{\"x1\": 132, \"y1\": 595, \"x2\": 948, \"y2\": 666}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.y20k.transistor:id/dialog_add_station_input",
+            "text_content": "Paste a valid streaming URL",
+            "word_sequence": [
+                "Paste",
+                "a",
+                "valid",
+                "streaming",
+                "URL"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 1389,
+            "screen_id": "70e70cfdab5caa3d52c61d98495ecb5ccdd699cba946770630c05bde21c1a44f",
+            "bounding_box": "{\"x1\": 132, \"y1\": 719, \"x2\": 948, \"y2\": 837}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.y20k.transistor:id/dialog_add_station_howto",
+            "text_content": "You can add raw audio streams encoded in MP3 and OGG as well as streams encapsulated in pls or m3u files. Alternatively you can add new stations by tapping on streaming links (pls or m3u) in your web browser.",
+            "word_sequence": [
+                "You",
+                "can",
+                "add",
+                "raw",
+                "audio",
+                "streams",
+                "encoded",
+                "in",
+                "MP3",
+                "and",
+                "OGG",
+                "as",
+                "well",
+                "as",
+                "streams",
+                "encapsulated",
+                "in",
+                "pls",
+                "or",
+                "m3u",
+                "files",
+                ".",
+                "Alternatively",
+                "you",
+                "can",
+                "add",
+                "new",
+                "stations",
+                "by",
+                "tapping",
+                "on",
+                "streaming",
+                "links",
+                "pls",
+                "or",
+                "m3u",
+                "in",
+                "your",
+                "web",
+                "browser",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "70e70cfdab5caa3d52c61d98495ecb5ccdd699cba946770630c05bde21c1a44f",
+            "bounding_box": "{\"x1\": 132, \"y1\": 890, \"x2\": 948, \"y2\": 1113}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/button2",
+            "text_content": "Cancel",
+            "word_sequence": [
+                "Cancel"
+            ],
+            "type": "BUTTON",
+            "app_name": 1389,
+            "screen_id": "70e70cfdab5caa3d52c61d98495ecb5ccdd699cba946770630c05bde21c1a44f",
+            "bounding_box": "{\"x1\": 609, \"y1\": 1187, \"x2\": 811, \"y2\": 1313}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/button1",
+            "text_content": "Add",
+            "word_sequence": [
+                "Add"
+            ],
+            "type": "BUTTON",
+            "app_name": 1389,
+            "screen_id": "70e70cfdab5caa3d52c61d98495ecb5ccdd699cba946770630c05bde21c1a44f",
+            "bounding_box": "{\"x1\": 811, \"y1\": 1187, \"x2\": 979, \"y2\": 1313}"
+        }
+    ],
+    "feb0e8b84fbdd20c4b7e1c61ad1226da9a041e25065525614e6831a5804d6aa8": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 1389,
+            "screen_id": "feb0e8b84fbdd20c4b7e1c61ad1226da9a041e25065525614e6831a5804d6aa8",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "How to use",
+            "word_sequence": [
+                "How",
+                "to",
+                "use"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "feb0e8b84fbdd20c4b7e1c61ad1226da9a041e25065525614e6831a5804d6aa8",
+            "bounding_box": "{\"x1\": 157, \"y1\": 101, \"x2\": 421, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "org.y20k.transistor:id/infosheet_textview",
+            "text_content": "How to use Transistor\n\nHow to add a new radio station?\n\nThe easiest way to add a new station is to search the web for streaming links and then choose Transistor as a your default handler for those file types. You can also tap the (+) symbol in the top bar and paste in streaming links directly. Please note: Transistor does not feature any kind of built-in search option.\n\nHow to play back a radio station?\n\nTap the big Play button ;).\n\nHow to stop playback?\n\nTap the big Stop button or unplug your headphones or swipe off the notification from the lockscreen.\n\nHow to rename or delete a station?\n\nThe rename and delete options can be accessed both from the list of stations and from the now playing screen. Just tap on the three dots symbol. You can manage the list of stations also from a file browser (see next question).\n\nWhere does Transistor store its stations?\n\nTransistor does not save its list of stations in a database. Instead it stores stations as m3u files on your device's external storage. Feel free to tinker with those files using the texteditor of your choice. The files are stored in /Android/data/org.y20k.transistor/Collection.\n\nHow do I backup and transfer my radio stations?\n\nTransistor supports Android 6's Auto Backup feature. Radio stations are always backed up to your Google account and will be restored at reinstall. On devices running on older versions of Android you must manually save and restore the \"Collection\" folder.\n\nWhy does Transistor not have any setting?\n\nThere is nothing to be set ;). Transistor is a very simple app. Depending on your point of view \"simple\" is either great or lame.\n\n",
+            "word_sequence": [
+                "How",
+                "to",
+                "use",
+                "Transistor",
+                "How",
+                "to",
+                "add",
+                "a",
+                "new",
+                "radio",
+                "station",
+                "?",
+                "The",
+                "easiest",
+                "way",
+                "to",
+                "add",
+                "a",
+                "new",
+                "station",
+                "is",
+                "to",
+                "search",
+                "the",
+                "web",
+                "for",
+                "streaming",
+                "links",
+                "and",
+                "then",
+                "choose",
+                "Transistor",
+                "as",
+                "a",
+                "your",
+                "default",
+                "handler",
+                "for",
+                "those",
+                "file",
+                "types",
+                ".",
+                "You",
+                "can",
+                "also",
+                "tap",
+                "the",
+                "symbol",
+                "in",
+                "the",
+                "top",
+                "bar",
+                "and",
+                "paste",
+                "in",
+                "streaming",
+                "links",
+                "directly",
+                ".",
+                "Please",
+                "note",
+                ":",
+                "Transistor",
+                "does",
+                "not",
+                "feature",
+                "any",
+                "kind",
+                "of",
+                "built",
+                "in",
+                "search",
+                "option",
+                ".",
+                "How",
+                "to",
+                "play",
+                "back",
+                "a",
+                "radio",
+                "station",
+                "?",
+                "Tap",
+                "the",
+                "big",
+                "Play",
+                "button",
+                ";",
+                ".",
+                "How",
+                "to",
+                "stop",
+                "playback",
+                "?",
+                "Tap",
+                "the",
+                "big",
+                "Stop",
+                "button",
+                "or",
+                "unplug",
+                "your",
+                "headphones",
+                "or",
+                "swipe",
+                "off",
+                "the",
+                "notification",
+                "from",
+                "the",
+                "lockscreen",
+                ".",
+                "How",
+                "to",
+                "rename",
+                "or",
+                "delete",
+                "a",
+                "station",
+                "?",
+                "The",
+                "rename",
+                "and",
+                "delete",
+                "options",
+                "can",
+                "be",
+                "accessed",
+                "both",
+                "from",
+                "the",
+                "list",
+                "of",
+                "stations",
+                "and",
+                "from",
+                "the",
+                "now",
+                "playing",
+                "screen",
+                ".",
+                "Just",
+                "tap",
+                "on",
+                "the",
+                "three",
+                "dots",
+                "symbol",
+                ".",
+                "You",
+                "can",
+                "manage",
+                "the",
+                "list",
+                "of",
+                "stations",
+                "also",
+                "from",
+                "a",
+                "file",
+                "browser",
+                "see",
+                "next",
+                "question",
+                ".",
+                "Where",
+                "does",
+                "Transistor",
+                "store",
+                "its",
+                "stations",
+                "?",
+                "Transistor",
+                "does",
+                "not",
+                "save",
+                "its",
+                "list",
+                "of",
+                "stations",
+                "in",
+                "a",
+                "database",
+                ".",
+                "Instead",
+                "it",
+                "stores",
+                "stations",
+                "as",
+                "m3u",
+                "files",
+                "on",
+                "your",
+                "device's",
+                "external",
+                "storage",
+                ".",
+                "Feel",
+                "free",
+                "to",
+                "tinker",
+                "with",
+                "those",
+                "files",
+                "using",
+                "the",
+                "texteditor",
+                "of",
+                "your",
+                "choice",
+                ".",
+                "The",
+                "files",
+                "are",
+                "stored",
+                "in",
+                "/",
+                "Android",
+                "/",
+                "data",
+                "/",
+                "org",
+                ".",
+                "y20k",
+                ".",
+                "transistor",
+                "/",
+                "Collection",
+                ".",
+                "How",
+                "do",
+                "I",
+                "backup",
+                "and",
+                "transfer",
+                "my",
+                "radio",
+                "stations",
+                "?",
+                "Transistor",
+                "supports",
+                "Android",
+                "6's",
+                "Auto",
+                "Backup",
+                "feature",
+                ".",
+                "Radio",
+                "stations",
+                "are",
+                "always",
+                "backed",
+                "up",
+                "to",
+                "your",
+                "Google",
+                "account",
+                "and",
+                "will",
+                "be",
+                "restored",
+                "at",
+                "reinstall",
+                ".",
+                "On",
+                "devices",
+                "running",
+                "on",
+                "older",
+                "versions",
+                "of",
+                "Android",
+                "you",
+                "must",
+                "manually",
+                "save",
+                "and",
+                "restore",
+                "the",
+                "Collection",
+                "folder",
+                ".",
+                "Why",
+                "does",
+                "Transistor",
+                "not",
+                "have",
+                "any",
+                "setting",
+                "?",
+                "There",
+                "is",
+                "nothing",
+                "to",
+                "be",
+                "set",
+                ";",
+                ".",
+                "Transistor",
+                "is",
+                "a",
+                "very",
+                "simple",
+                "app",
+                ".",
+                "Depending",
+                "on",
+                "your",
+                "point",
+                "of",
+                "view",
+                "simple",
+                "is",
+                "either",
+                "great",
+                "or",
+                "lame",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "feb0e8b84fbdd20c4b7e1c61ad1226da9a041e25065525614e6831a5804d6aa8",
+            "bounding_box": "{\"x1\": 42, \"y1\": 252, \"x2\": 1038, \"y2\": 1752}"
+        }
+    ],
+    "2957d1cfee327d06abd84e6b91e1153eb930ce1886a45ed33c8ff4c6536fbcb0": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/message",
+            "text_content": "Unfortunately, Transistor has stopped.",
+            "word_sequence": [
+                "Unfortunately",
+                ",",
+                "Transistor",
+                "has",
+                "stopped",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "2957d1cfee327d06abd84e6b91e1153eb930ce1886a45ed33c8ff4c6536fbcb0",
+            "bounding_box": "{\"x1\": 69, \"y1\": 838, \"x2\": 1011, \"y2\": 895}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "android:id/button1",
+            "text_content": "OK",
+            "word_sequence": [
+                "OK"
+            ],
+            "type": "BUTTON",
+            "app_name": 1389,
+            "screen_id": "2957d1cfee327d06abd84e6b91e1153eb930ce1886a45ed33c8ff4c6536fbcb0",
+            "bounding_box": "{\"x1\": 811, \"y1\": 928, \"x2\": 979, \"y2\": 1054}"
+        }
+    ],
+    "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 13, \"y1\": 242, \"x2\": 255, \"y2\": 526}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.launcher3:id/search_button",
+            "text_content": "Search Apps",
+            "word_sequence": [
+                "Search",
+                "Apps"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 922, \"y1\": 84, \"x2\": 1048, \"y2\": 210}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "API Demos API Demos",
+            "word_sequence": [
+                "API",
+                "Demos"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 42, \"y1\": 230, \"x2\": 291, \"y2\": 425}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "BACKUP TEST BACKUP TEST",
+            "word_sequence": [
+                "BACKUP",
+                "TEST"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 291, \"y1\": 230, \"x2\": 540, \"y2\": 425}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Browser Browser",
+            "word_sequence": [
+                "Browser"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 540, \"y1\": 230, \"x2\": 789, \"y2\": 425}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Calculator Calculator",
+            "word_sequence": [
+                "Calculator"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 789, \"y1\": 230, \"x2\": 1038, \"y2\": 425}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Calendar Calendar",
+            "word_sequence": [
+                "Calendar"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 42, \"y1\": 425, \"x2\": 291, \"y2\": 698}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Camera Camera",
+            "word_sequence": [
+                "Camera"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 291, \"y1\": 425, \"x2\": 540, \"y2\": 698}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Clock Clock",
+            "word_sequence": [
+                "Clock"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 540, \"y1\": 425, \"x2\": 789, \"y2\": 698}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Contacts Contacts",
+            "word_sequence": [
+                "Contacts"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 789, \"y1\": 425, \"x2\": 1038, \"y2\": 698}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Custom Locale Custom Locale",
+            "word_sequence": [
+                "Custom",
+                "Locale"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 42, \"y1\": 698, \"x2\": 291, \"y2\": 971}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Dev Settings Dev Settings",
+            "word_sequence": [
+                "Dev",
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 291, \"y1\": 698, \"x2\": 540, \"y2\": 971}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Dev Tools Dev Tools",
+            "word_sequence": [
+                "Dev",
+                "Tools"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 540, \"y1\": 698, \"x2\": 789, \"y2\": 971}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Downloads Downloads",
+            "word_sequence": [
+                "Downloads"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 789, \"y1\": 698, \"x2\": 1038, \"y2\": 971}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Gallery Gallery",
+            "word_sequence": [
+                "Gallery"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 42, \"y1\": 971, \"x2\": 291, \"y2\": 1244}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Gestures Builder Gestures Builder",
+            "word_sequence": [
+                "Gestures",
+                "Builder"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 291, \"y1\": 971, \"x2\": 540, \"y2\": 1244}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Gmail Gmail",
+            "word_sequence": [
+                "Gmail"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 540, \"y1\": 971, \"x2\": 789, \"y2\": 1244}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Google Google",
+            "word_sequence": [
+                "Google"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 789, \"y1\": 971, \"x2\": 1038, \"y2\": 1244}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Maps Maps",
+            "word_sequence": [
+                "Maps"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1244, \"x2\": 291, \"y2\": 1517}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Messaging Messaging",
+            "word_sequence": [
+                "Messaging"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 291, \"y1\": 1244, \"x2\": 540, \"y2\": 1517}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Music Music",
+            "word_sequence": [
+                "Music"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 540, \"y1\": 1244, \"x2\": 789, \"y2\": 1517}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Phone Phone",
+            "word_sequence": [
+                "Phone"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 789, \"y1\": 1244, \"x2\": 1038, \"y2\": 1517}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Photos Photos",
+            "word_sequence": [
+                "Photos"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1517, \"x2\": 291, \"y2\": 1773}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Play Games Play Games",
+            "word_sequence": [
+                "Play",
+                "Games"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 291, \"y1\": 1517, \"x2\": 540, \"y2\": 1773}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Settings Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 540, \"y1\": 1517, \"x2\": 789, \"y2\": 1773}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "com.android.launcher3:id/icon",
+            "text_content": "Transistor Transistor",
+            "word_sequence": [
+                "Transistor"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 789, \"y1\": 1517, \"x2\": 1038, \"y2\": 1773}"
+        },
+        {
+            "component_id": 26,
+            "resource_id": "com.google.android.googlequicksearchbox:id/search_widget_logo_image",
+            "text_content": "",
+            "word_sequence": [
+                "search",
+                "widget",
+                "logo",
+                "image"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 63, \"y1\": 121, \"x2\": 226, \"y2\": 181}"
+        },
+        {
+            "component_id": 27,
+            "resource_id": "com.google.android.googlequicksearchbox:id/search_widget_voice_btn",
+            "text_content": "Voice Search",
+            "word_sequence": [
+                "Voice",
+                "Search"
+            ],
+            "type": "BUTTON",
+            "app_name": 1389,
+            "screen_id": "af4e32780109a89591211bd404a726a65ac70179f644cf188d0904c27d84e61a",
+            "bounding_box": "{\"x1\": 954, \"y1\": 116, \"x2\": 1017, \"y2\": 178}"
+        }
+    ],
+    "f1a0146753d5df5dbafcdc443fbf5cab192eeb8e57aa76d192df21c01d944012": [
+        {
+            "component_id": 0,
+            "resource_id": "org.y20k.transistor:id/title",
+            "text_content": "About",
+            "word_sequence": [
+                "About"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "f1a0146753d5df5dbafcdc443fbf5cab192eeb8e57aa76d192df21c01d944012",
+            "bounding_box": "{\"x1\": 597, \"y1\": 107, \"x2\": 1028, \"y2\": 164}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "org.y20k.transistor:id/title",
+            "text_content": "How to use",
+            "word_sequence": [
+                "How",
+                "to",
+                "use"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 1389,
+            "screen_id": "f1a0146753d5df5dbafcdc443fbf5cab192eeb8e57aa76d192df21c01d944012",
+            "bounding_box": "{\"x1\": 597, \"y1\": 233, \"x2\": 1028, \"y2\": 290}"
+        }
+    ]
+}

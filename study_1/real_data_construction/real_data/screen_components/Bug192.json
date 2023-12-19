@@ -1,0 +1,3914 @@
+{
+    "app-name": 192,
+    "50dec947cb6a3d2f5ce424e3fc2b4c9a80e3f206a36dbcdc0852de54a2dc5e31": [
+        {
+            "component_id": 0,
+            "resource_id": "net.gsantner.markor:id/alertTitle",
+            "text_content": "Licenses",
+            "word_sequence": [
+                "Licenses"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "50dec947cb6a3d2f5ce424e3fc2b4c9a80e3f206a36dbcdc0852de54a2dc5e31",
+            "bounding_box": "{\"x1\": 133, \"y1\": 152, \"x2\": 947, \"y2\": 223}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "\nCopyright \u00a9 2017 \nGregor Santner and Markor contributors \n\nGet the official version of Markor: \nSource code | F-Droid | Google Play \n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the Software), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: \n\nTHE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE \n\n\n\nChangelog\n\nv0.2.4\n\u2022 Abstract highlighting, converter and text module actions\n\u2022 Added: Support for todo.txt\n\u2022 Added: Icons to settings\n\u2022 Added: Hex-Color-Code underlining\n\u2022 Added: Changelog dialog\n\nv0.2.3\n\u2022 Select file/image from filesystem\n\u2022 Fix relative web local file loading\n\u2022 Added: manually save option\n\u2022 Added: Launcher shortcuts\n\u2022 Filesystem: Add refresh menu option\n\nv0.2.2\n\u2022 Show document and file amount below folders\n\u2022 Settings toolbar option\n\u2022 Highlight line-endings with two spaces (MD line break)\n\u2022 Translation updates\n\nv0.2.1\n\u2022 Translation update\n\u2022 Widget and document list fixes\n\u2022 Improve editor actions\n\nv0.2.0\n\u2022 Rework of core functionalities of the app\n\u2022 Added QuickNote\n\u2022 Redo/Undo editing\n\u2022 Seperate Preview/Edit by fragments, unify functions\n\u2022 Rewrite storage/handling of documents\n\u2022 Improved sharing into the app, allow appending\n\u2022 Added bottom navigation\n\u2022 New font chooser in settings\n\nv0.1.6\n\u2022 Added: Many new supported languages\n\u2022 More supported markdown elements in highlighter\n\u2022 More markdown file extensions supported\n\u2022 Improved language selection\n\u2022 Share as image fixed\n\nv0.1.5\n\u2022 Added: Translation: Brazilian, Polish, Hindi, French, Russian, Ukrainian, Italian\n\u2022 Added: Sort files\n\u2022 Added: Replace markdown charbar with actions\n\u2022 Improved: Syntax highlighting\n\nv0.1.4\n\u2022 Fixed: replaced Uri.fromFile with FileProvider\n\u2022 Added: Share as file, share as PDF\n\u2022 Use commonmark-java instead of AndDown markdown parser\n\u2022 Added: Spanish translation (#26\n\u2022 Added: More font size options\n\nv0.1.3\n\u2022 Fix: Renaming case sensitive\n\u2022 Mod: Syntax highlighting\n\u2022 Fix: Widget\n\u2022 Added: Copyright notices\n\u2022 Changed: Translation license\n\nv0.1.2\n\u2022 Overall refactoring\n\u2022 Remove startup \"\"authentication\"\"\n\u2022 Remove slow animations\n\u2022 FilesystemDialog from scratch\n\u2022 Save only if title/content changed\n\u2022 Rework most callbacks and broadcasts\n\u2022 Rework settings\n\nv0.1.1\n\u2022 Fix import (#2)\n\u2022 Use appcompat in dialogs\n\u2022 Change cursor in editor\n\u2022 Fix resizing with fullscreen in editor\n\u2022 Dialogs in dark\n\nv0.1.0\n\u2022 Initial release\n\u2022 Start of community project Markor\n\u2022 Fork of writeily-pro\n\u2022 Different branding\n\u2022 New initial features\n\n\n\nLicenses\n\nThe MIT License (MIT)\n\n\u2022 writeily and writeily-pro\n\u00a0\u00a0 Copyright (c) 2014 Jeff Martin\n\u00a0\u00a0 Copyright (c) 2015 Pedro Lafuente \n---------------\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: \nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. \nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n--------------- \n\n\nApache License\n\nVersion 2.0, January 2004\n\n\u2022 CWAC AndDown\n\u00a0\u00a0 Copyright 2011- commonsguy \n\u2022 adapter-kit\n\u00a0\u00a0 Copyright 2013 Mobs & Geeks \n\u2022 Butterknife\n\u00a0\u00a0 Copyright 2013 Jake Wharton \n\u2022 Commons IO\n\u00a0\u00a0 Copyright Apache Foundation \n\u2022 gene-rate\n\u00a0\u00a0 Copyright 2017 Pixplicity \n---------------\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at \nhttp://www.apache.org/licenses/LICENSE-2.0 \nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\n--------------- \n\n\nBSD 2-clause \"Simplified\"\n\n\u2022 commonmark-java\n\u00a0\u00a0 Copyright (c) 2015-2016, Atlassian Pty Ltd \n---------------\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: \n\u2022 Redistributions of source code must retain the above copyright notice, this\nlist of conditions and the following disclaimer. \n\u2022 Redistributions in binary form must reproduce the above copyright notice,\nthis list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. \nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n--------------- \n",
+            "word_sequence": [
+                "Copyright",
+                "2017",
+                "Gregor",
+                "Santner",
+                "and",
+                "Markor",
+                "contributors",
+                "Get",
+                "the",
+                "official",
+                "version",
+                "of",
+                "Markor",
+                ":",
+                "Source",
+                "code",
+                "F",
+                "Droid",
+                "Google",
+                "Play",
+                "Permission",
+                "is",
+                "hereby",
+                "granted",
+                ",",
+                "free",
+                "of",
+                "charge",
+                ",",
+                "to",
+                "any",
+                "person",
+                "obtaining",
+                "a",
+                "copy",
+                "of",
+                "this",
+                "software",
+                "and",
+                "associated",
+                "documentation",
+                "files",
+                "the",
+                "Software",
+                ",",
+                "to",
+                "deal",
+                "in",
+                "the",
+                "Software",
+                "without",
+                "restriction",
+                ",",
+                "including",
+                "without",
+                "limitation",
+                "the",
+                "rights",
+                "to",
+                "use",
+                ",",
+                "copy",
+                ",",
+                "modify",
+                ",",
+                "merge",
+                ",",
+                "publish",
+                ",",
+                "distribute",
+                ",",
+                "sublicense",
+                ",",
+                "and",
+                "/",
+                "or",
+                "sell",
+                "copies",
+                "of",
+                "the",
+                "Software",
+                ",",
+                "and",
+                "to",
+                "permit",
+                "persons",
+                "to",
+                "whom",
+                "the",
+                "Software",
+                "is",
+                "furnished",
+                "to",
+                "do",
+                "so",
+                ",",
+                "subject",
+                "to",
+                "the",
+                "following",
+                "conditions",
+                ":",
+                "THE",
+                "SOFTWARE",
+                "IS",
+                "PROVIDED",
+                "AS",
+                "IS",
+                ",",
+                "WITHOUT",
+                "WARRANTY",
+                "OF",
+                "ANY",
+                "KIND",
+                ",",
+                "EXPRESS",
+                "OR",
+                "IMPLIED",
+                ",",
+                "INCLUDING",
+                "BUT",
+                "NOT",
+                "LIMITED",
+                "TO",
+                "THE",
+                "WARRANTIES",
+                "OF",
+                "MERCHANTABILITY",
+                ",",
+                "FITNESS",
+                "FOR",
+                "A",
+                "PARTICULAR",
+                "PURPOSE",
+                "AND",
+                "NONINFRINGEMENT",
+                ".",
+                "IN",
+                "NO",
+                "EVENT",
+                "SHALL",
+                "THE",
+                "AUTHORS",
+                "OR",
+                "COPYRIGHT",
+                "HOLDERS",
+                "BE",
+                "LIABLE",
+                "FOR",
+                "ANY",
+                "CLAIM",
+                ",",
+                "DAMAGES",
+                "OR",
+                "OTHER",
+                "LIABILITY",
+                ",",
+                "WHETHER",
+                "IN",
+                "AN",
+                "ACTION",
+                "OF",
+                "CONTRACT",
+                ",",
+                "TORT",
+                "OR",
+                "OTHERWISE",
+                ",",
+                "ARISING",
+                "FROM",
+                ",",
+                "OUT",
+                "OF",
+                "OR",
+                "IN",
+                "CONNECTION",
+                "WITH",
+                "THE",
+                "SOFTWARE",
+                "OR",
+                "THE",
+                "USE",
+                "OR",
+                "OTHER",
+                "DEALINGS",
+                "IN",
+                "THE",
+                "SOFTWARE",
+                "Changelog",
+                "v0",
+                ".",
+                "2",
+                ".",
+                "4",
+                "Abstract",
+                "highlighting",
+                ",",
+                "converter",
+                "and",
+                "text",
+                "module",
+                "actions",
+                "Added",
+                ":",
+                "Support",
+                "for",
+                "todo",
+                ".",
+                "txt",
+                "Added",
+                ":",
+                "Icons",
+                "to",
+                "settings",
+                "Added",
+                ":",
+                "Hex",
+                "Color",
+                "Code",
+                "underlining",
+                "Added",
+                ":",
+                "Changelog",
+                "dialog",
+                "v0",
+                ".",
+                "2",
+                ".",
+                "3",
+                "Select",
+                "file",
+                "/",
+                "image",
+                "from",
+                "filesystem",
+                "Fix",
+                "relative",
+                "web",
+                "local",
+                "file",
+                "loading",
+                "Added",
+                ":",
+                "manually",
+                "save",
+                "option",
+                "Added",
+                ":",
+                "Launcher",
+                "shortcuts",
+                "Filesystem",
+                ":",
+                "Add",
+                "refresh",
+                "menu",
+                "option",
+                "v0",
+                ".",
+                "2",
+                ".",
+                "2",
+                "Show",
+                "document",
+                "and",
+                "file",
+                "amount",
+                "below",
+                "folders",
+                "Settings",
+                "toolbar",
+                "option",
+                "Highlight",
+                "line",
+                "endings",
+                "with",
+                "two",
+                "spaces",
+                "MD",
+                "line",
+                "break",
+                "Translation",
+                "updates",
+                "v0",
+                ".",
+                "2",
+                ".",
+                "1",
+                "Translation",
+                "update",
+                "Widget",
+                "and",
+                "document",
+                "list",
+                "fixes",
+                "Improve",
+                "editor",
+                "actions",
+                "v0",
+                ".",
+                "2",
+                ".",
+                "0",
+                "Rework",
+                "of",
+                "core",
+                "functionalities",
+                "of",
+                "the",
+                "app",
+                "Added",
+                "QuickNote",
+                "Redo",
+                "/",
+                "Undo",
+                "editing",
+                "Seperate",
+                "Preview",
+                "/",
+                "Edit",
+                "by",
+                "fragments",
+                ",",
+                "unify",
+                "functions",
+                "Rewrite",
+                "storage",
+                "/",
+                "handling",
+                "of",
+                "documents",
+                "Improved",
+                "sharing",
+                "into",
+                "the",
+                "app",
+                ",",
+                "allow",
+                "appending",
+                "Added",
+                "bottom",
+                "navigation",
+                "New",
+                "font",
+                "chooser",
+                "in",
+                "settings",
+                "v0",
+                ".",
+                "1",
+                ".",
+                "6",
+                "Added",
+                ":",
+                "Many",
+                "new",
+                "supported",
+                "languages",
+                "More",
+                "supported",
+                "markdown",
+                "elements",
+                "in",
+                "highlighter",
+                "More",
+                "markdown",
+                "file",
+                "extensions",
+                "supported",
+                "Improved",
+                "language",
+                "selection",
+                "Share",
+                "as",
+                "image",
+                "fixed",
+                "v0",
+                ".",
+                "1",
+                ".",
+                "5",
+                "Added",
+                ":",
+                "Translation",
+                ":",
+                "Brazilian",
+                ",",
+                "Polish",
+                ",",
+                "Hindi",
+                ",",
+                "French",
+                ",",
+                "Russian",
+                ",",
+                "Ukrainian",
+                ",",
+                "Italian",
+                "Added",
+                ":",
+                "Sort",
+                "files",
+                "Added",
+                ":",
+                "Replace",
+                "markdown",
+                "charbar",
+                "with",
+                "actions",
+                "Improved",
+                ":",
+                "Syntax",
+                "highlighting",
+                "v0",
+                ".",
+                "1",
+                ".",
+                "4",
+                "Fixed",
+                ":",
+                "replaced",
+                "Uri",
+                ".",
+                "fromFile",
+                "with",
+                "FileProvider",
+                "Added",
+                ":",
+                "Share",
+                "as",
+                "file",
+                ",",
+                "share",
+                "as",
+                "PDF",
+                "Use",
+                "commonmark",
+                "java",
+                "instead",
+                "of",
+                "AndDown",
+                "markdown",
+                "parser",
+                "Added",
+                ":",
+                "Spanish",
+                "translation",
+                "26",
+                "Added",
+                ":",
+                "More",
+                "font",
+                "size",
+                "options",
+                "v0",
+                ".",
+                "1",
+                ".",
+                "3",
+                "Fix",
+                ":",
+                "Renaming",
+                "case",
+                "sensitive",
+                "Mod",
+                ":",
+                "Syntax",
+                "highlighting",
+                "Fix",
+                ":",
+                "Widget",
+                "Added",
+                ":",
+                "Copyright",
+                "notices",
+                "Changed",
+                ":",
+                "Translation",
+                "license",
+                "v0",
+                ".",
+                "1",
+                ".",
+                "2",
+                "Overall",
+                "refactoring",
+                "Remove",
+                "startup",
+                "authentication",
+                "Remove",
+                "slow",
+                "animations",
+                "FilesystemDialog",
+                "from",
+                "scratch",
+                "Save",
+                "only",
+                "if",
+                "title",
+                "/",
+                "content",
+                "changed",
+                "Rework",
+                "most",
+                "callbacks",
+                "and",
+                "broadcasts",
+                "Rework",
+                "settings",
+                "v0",
+                ".",
+                "1",
+                ".",
+                "1",
+                "Fix",
+                "import",
+                "2",
+                "Use",
+                "appcompat",
+                "in",
+                "dialogs",
+                "Change",
+                "cursor",
+                "in",
+                "editor",
+                "Fix",
+                "resizing",
+                "with",
+                "fullscreen",
+                "in",
+                "editor",
+                "Dialogs",
+                "in",
+                "dark",
+                "v0",
+                ".",
+                "1",
+                ".",
+                "0",
+                "Initial",
+                "release",
+                "Start",
+                "of",
+                "community",
+                "project",
+                "Markor",
+                "Fork",
+                "of",
+                "writeily",
+                "pro",
+                "Different",
+                "branding",
+                "New",
+                "initial",
+                "features",
+                "Licenses",
+                "The",
+                "MIT",
+                "License",
+                "MIT",
+                "writeily",
+                "and",
+                "writeily",
+                "pro",
+                "Copyright",
+                "c",
+                "2014",
+                "Jeff",
+                "Martin",
+                "Copyright",
+                "c",
+                "2015",
+                "Pedro",
+                "Lafuente",
+                "Permission",
+                "is",
+                "hereby",
+                "granted",
+                ",",
+                "free",
+                "of",
+                "charge",
+                ",",
+                "to",
+                "any",
+                "person",
+                "obtaining",
+                "a",
+                "copy",
+                "of",
+                "this",
+                "software",
+                "and",
+                "associated",
+                "documentation",
+                "files",
+                "the",
+                "Software",
+                ",",
+                "to",
+                "deal",
+                "in",
+                "the",
+                "Software",
+                "without",
+                "restriction",
+                ",",
+                "including",
+                "without",
+                "limitation",
+                "the",
+                "rights",
+                "to",
+                "use",
+                ",",
+                "copy",
+                ",",
+                "modify",
+                ",",
+                "merge",
+                ",",
+                "publish",
+                ",",
+                "distribute",
+                ",",
+                "sublicense",
+                ",",
+                "and",
+                "/",
+                "or",
+                "sell",
+                "copies",
+                "of",
+                "the",
+                "Software",
+                ",",
+                "and",
+                "to",
+                "permit",
+                "persons",
+                "to",
+                "whom",
+                "the",
+                "Software",
+                "is",
+                "furnished",
+                "to",
+                "do",
+                "so",
+                ",",
+                "subject",
+                "to",
+                "the",
+                "following",
+                "conditions",
+                ":",
+                "The",
+                "above",
+                "copyright",
+                "notice",
+                "and",
+                "this",
+                "permission",
+                "notice",
+                "shall",
+                "be",
+                "included",
+                "in",
+                "all",
+                "copies",
+                "or",
+                "substantial",
+                "portions",
+                "of",
+                "the",
+                "Software",
+                ".",
+                "THE",
+                "SOFTWARE",
+                "IS",
+                "PROVIDED",
+                "AS",
+                "IS",
+                ",",
+                "WITHOUT",
+                "WARRANTY",
+                "OF",
+                "ANY",
+                "KIND",
+                ",",
+                "EXPRESS",
+                "OR",
+                "IMPLIED",
+                ",",
+                "INCLUDING",
+                "BUT",
+                "NOT",
+                "LIMITED",
+                "TO",
+                "THE",
+                "WARRANTIES",
+                "OF",
+                "MERCHANTABILITY",
+                ",",
+                "FITNESS",
+                "FOR",
+                "A",
+                "PARTICULAR",
+                "PURPOSE",
+                "AND",
+                "NONINFRINGEMENT",
+                ".",
+                "IN",
+                "NO",
+                "EVENT",
+                "SHALL",
+                "THE",
+                "AUTHORS",
+                "OR",
+                "COPYRIGHT",
+                "HOLDERS",
+                "BE",
+                "LIABLE",
+                "FOR",
+                "ANY",
+                "CLAIM",
+                ",",
+                "DAMAGES",
+                "OR",
+                "OTHER",
+                "LIABILITY",
+                ",",
+                "WHETHER",
+                "IN",
+                "AN",
+                "ACTION",
+                "OF",
+                "CONTRACT",
+                ",",
+                "TORT",
+                "OR",
+                "OTHERWISE",
+                ",",
+                "ARISING",
+                "FROM",
+                ",",
+                "OUT",
+                "OF",
+                "OR",
+                "IN",
+                "CONNECTION",
+                "WITH",
+                "THE",
+                "SOFTWARE",
+                "OR",
+                "THE",
+                "USE",
+                "OR",
+                "OTHER",
+                "DEALINGS",
+                "IN",
+                "THE",
+                "SOFTWARE",
+                ".",
+                "Apache",
+                "License",
+                "Version",
+                "2",
+                ".",
+                "0",
+                ",",
+                "January",
+                "2004",
+                "CWAC",
+                "AndDown",
+                "Copyright",
+                "2011",
+                "commonsguy",
+                "adapter",
+                "kit",
+                "Copyright",
+                "2013",
+                "Mobs",
+                "Geeks",
+                "Butterknife",
+                "Copyright",
+                "2013",
+                "Jake",
+                "Wharton",
+                "Commons",
+                "IO",
+                "Copyright",
+                "Apache",
+                "Foundation",
+                "gene",
+                "rate",
+                "Copyright",
+                "2017",
+                "Pixplicity",
+                "Licensed",
+                "under",
+                "the",
+                "Apache",
+                "License",
+                ",",
+                "Version",
+                "2",
+                ".",
+                "0",
+                "the",
+                "License",
+                ";",
+                "you",
+                "may",
+                "not",
+                "use",
+                "this",
+                "file",
+                "except",
+                "in",
+                "compliance",
+                "with",
+                "the",
+                "License",
+                ".",
+                "You",
+                "may",
+                "obtain",
+                "a",
+                "copy",
+                "of",
+                "the",
+                "License",
+                "at",
+                "http",
+                ":",
+                "/",
+                "/",
+                "www",
+                ".",
+                "apache",
+                ".",
+                "org",
+                "/",
+                "licenses",
+                "/",
+                "LICENSE",
+                "2",
+                ".",
+                "0",
+                "Unless",
+                "required",
+                "by",
+                "applicable",
+                "law",
+                "or",
+                "agreed",
+                "to",
+                "in",
+                "writing",
+                ",",
+                "software",
+                "distributed",
+                "under",
+                "the",
+                "License",
+                "is",
+                "distributed",
+                "on",
+                "an",
+                "AS",
+                "IS",
+                "BASIS",
+                ",",
+                "WITHOUT",
+                "WARRANTIES",
+                "OR",
+                "CONDITIONS",
+                "OF",
+                "ANY",
+                "KIND",
+                ",",
+                "either",
+                "express",
+                "or",
+                "implied",
+                ".",
+                "See",
+                "the",
+                "License",
+                "for",
+                "the",
+                "specific",
+                "language",
+                "governing",
+                "permissions",
+                "and",
+                "limitations",
+                "under",
+                "the",
+                "License",
+                ".",
+                "BSD",
+                "2",
+                "clause",
+                "Simplified",
+                "commonmark",
+                "java",
+                "Copyright",
+                "c",
+                "2015",
+                "2016",
+                ",",
+                "Atlassian",
+                "Pty",
+                "Ltd",
+                "Redistribution",
+                "and",
+                "use",
+                "in",
+                "source",
+                "and",
+                "binary",
+                "forms",
+                ",",
+                "with",
+                "or",
+                "without",
+                "modification",
+                ",",
+                "are",
+                "permitted",
+                "provided",
+                "that",
+                "the",
+                "following",
+                "conditions",
+                "are",
+                "met",
+                ":",
+                "Redistributions",
+                "of",
+                "source",
+                "code",
+                "must",
+                "retain",
+                "the",
+                "above",
+                "copyright",
+                "notice",
+                ",",
+                "this",
+                "list",
+                "of",
+                "conditions",
+                "and",
+                "the",
+                "following",
+                "disclaimer",
+                ".",
+                "Redistributions",
+                "in",
+                "binary",
+                "form",
+                "must",
+                "reproduce",
+                "the",
+                "above",
+                "copyright",
+                "notice",
+                ",",
+                "this",
+                "list",
+                "of",
+                "conditions",
+                "and",
+                "the",
+                "following",
+                "disclaimer",
+                "in",
+                "the",
+                "documentation",
+                "and",
+                "/",
+                "or",
+                "other",
+                "materials",
+                "provided",
+                "with",
+                "the",
+                "distribution",
+                ".",
+                "THIS",
+                "SOFTWARE",
+                "IS",
+                "PROVIDED",
+                "BY",
+                "THE",
+                "COPYRIGHT",
+                "HOLDERS",
+                "AND",
+                "CONTRIBUTORS",
+                "AS",
+                "IS",
+                "AND",
+                "ANY",
+                "EXPRESS",
+                "OR",
+                "IMPLIED",
+                "WARRANTIES",
+                ",",
+                "INCLUDING",
+                ",",
+                "BUT",
+                "NOT",
+                "LIMITED",
+                "TO",
+                ",",
+                "THE",
+                "IMPLIED",
+                "WARRANTIES",
+                "OF",
+                "MERCHANTABILITY",
+                "AND",
+                "FITNESS",
+                "FOR",
+                "A",
+                "PARTICULAR",
+                "PURPOSE",
+                "ARE",
+                "DISCLAIMED",
+                ".",
+                "IN",
+                "NO",
+                "EVENT",
+                "SHALL",
+                "THE",
+                "COPYRIGHT",
+                "HOLDER",
+                "OR",
+                "CONTRIBUTORS",
+                "BE",
+                "LIABLE",
+                "FOR",
+                "ANY",
+                "DIRECT",
+                ",",
+                "INDIRECT",
+                ",",
+                "INCIDENTAL",
+                ",",
+                "SPECIAL",
+                ",",
+                "EXEMPLARY",
+                ",",
+                "OR",
+                "CONSEQUENTIAL",
+                "DAMAGES",
+                "INCLUDING",
+                ",",
+                "BUT",
+                "NOT",
+                "LIMITED",
+                "TO",
+                ",",
+                "PROCUREMENT",
+                "OF",
+                "SUBSTITUTE",
+                "GOODS",
+                "OR",
+                "SERVICES",
+                ";",
+                "LOSS",
+                "OF",
+                "USE",
+                ",",
+                "DATA",
+                ",",
+                "OR",
+                "PROFITS",
+                ";",
+                "OR",
+                "BUSINESS",
+                "INTERRUPTION",
+                "HOWEVER",
+                "CAUSED",
+                "AND",
+                "ON",
+                "ANY",
+                "THEORY",
+                "OF",
+                "LIABILITY",
+                ",",
+                "WHETHER",
+                "IN",
+                "CONTRACT",
+                ",",
+                "STRICT",
+                "LIABILITY",
+                ",",
+                "OR",
+                "TORT",
+                "INCLUDING",
+                "NEGLIGENCE",
+                "OR",
+                "OTHERWISE",
+                "ARISING",
+                "IN",
+                "ANY",
+                "WAY",
+                "OUT",
+                "OF",
+                "THE",
+                "USE",
+                "OF",
+                "THIS",
+                "SOFTWARE",
+                ",",
+                "EVEN",
+                "IF",
+                "ADVISED",
+                "OF",
+                "THE",
+                "POSSIBILITY",
+                "OF",
+                "SUCH",
+                "DAMAGE",
+                "."
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "50dec947cb6a3d2f5ce424e3fc2b4c9a80e3f206a36dbcdc0852de54a2dc5e31",
+            "bounding_box": "{\"x1\": 70, \"y1\": 223, \"x2\": 1010, \"y2\": 1603}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/button1",
+            "text_content": "OK",
+            "word_sequence": [
+                "OK"
+            ],
+            "type": "BUTTON",
+            "app_name": 192,
+            "screen_id": "50dec947cb6a3d2f5ce424e3fc2b4c9a80e3f206a36dbcdc0852de54a2dc5e31",
+            "bounding_box": "{\"x1\": 810, \"y1\": 1614, \"x2\": 978, \"y2\": 1740}"
+        }
+    ],
+    "9e65ecdd8780d64960e9de1f69c565b6841c3d6b2784b6708ed0c0b71eaed742": [
+        {
+            "component_id": 0,
+            "resource_id": "net.gsantner.markor:id/fab_add_new_item",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "add",
+                "new",
+                "item"
+            ],
+            "type": "BUTTON",
+            "app_name": 192,
+            "screen_id": "9e65ecdd8780d64960e9de1f69c565b6841c3d6b2784b6708ed0c0b71eaed742",
+            "bounding_box": "{\"x1\": 849, \"y1\": 1479, \"x2\": 996, \"y2\": 1626}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "9e65ecdd8780d64960e9de1f69c565b6841c3d6b2784b6708ed0c0b71eaed742",
+            "bounding_box": "{\"x1\": 103, \"y1\": 1663, \"x2\": 166, \"y2\": 1726}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "net.gsantner.markor:id/largeLabel",
+            "text_content": "Notebook",
+            "word_sequence": [
+                "Notebook"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "9e65ecdd8780d64960e9de1f69c565b6841c3d6b2784b6708ed0c0b71eaed742",
+            "bounding_box": "{\"x1\": 54, \"y1\": 1728, \"x2\": 215, \"y2\": 1779}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "net.gsantner.markor:id/smallLabel",
+            "text_content": "QuickNote",
+            "word_sequence": [
+                "QuickNote"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "9e65ecdd8780d64960e9de1f69c565b6841c3d6b2784b6708ed0c0b71eaed742",
+            "bounding_box": "{\"x1\": 330, \"y1\": 1734, \"x2\": 479, \"y2\": 1777}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "9e65ecdd8780d64960e9de1f69c565b6841c3d6b2784b6708ed0c0b71eaed742",
+            "bounding_box": "{\"x1\": 373, \"y1\": 1668, \"x2\": 436, \"y2\": 1731}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "net.gsantner.markor:id/smallLabel",
+            "text_content": "To-Do",
+            "word_sequence": [
+                "To",
+                "Do"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "9e65ecdd8780d64960e9de1f69c565b6841c3d6b2784b6708ed0c0b71eaed742",
+            "bounding_box": "{\"x1\": 633, \"y1\": 1734, \"x2\": 716, \"y2\": 1777}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "9e65ecdd8780d64960e9de1f69c565b6841c3d6b2784b6708ed0c0b71eaed742",
+            "bounding_box": "{\"x1\": 643, \"y1\": 1668, \"x2\": 706, \"y2\": 1731}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "net.gsantner.markor:id/smallLabel",
+            "text_content": "More",
+            "word_sequence": [
+                "More"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "9e65ecdd8780d64960e9de1f69c565b6841c3d6b2784b6708ed0c0b71eaed742",
+            "bounding_box": "{\"x1\": 908, \"y1\": 1734, \"x2\": 982, \"y2\": 1777}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "9e65ecdd8780d64960e9de1f69c565b6841c3d6b2784b6708ed0c0b71eaed742",
+            "bounding_box": "{\"x1\": 913, \"y1\": 1668, \"x2\": 976, \"y2\": 1731}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "Markor",
+            "word_sequence": [
+                "Markor"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "9e65ecdd8780d64960e9de1f69c565b6841c3d6b2784b6708ed0c0b71eaed742",
+            "bounding_box": "{\"x1\": 42, \"y1\": 122, \"x2\": 213, \"y2\": 193}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "net.gsantner.markor:id/search_button",
+            "text_content": "Search",
+            "word_sequence": [
+                "Search"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "9e65ecdd8780d64960e9de1f69c565b6841c3d6b2784b6708ed0c0b71eaed742",
+            "bounding_box": "{\"x1\": 594, \"y1\": 94, \"x2\": 721, \"y2\": 220}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "net.gsantner.markor:id/action_sort",
+            "text_content": "Sort",
+            "word_sequence": [
+                "Sort"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "9e65ecdd8780d64960e9de1f69c565b6841c3d6b2784b6708ed0c0b71eaed742",
+            "bounding_box": "{\"x1\": 721, \"y1\": 94, \"x2\": 848, \"y2\": 220}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "net.gsantner.markor:id/action_settings",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "9e65ecdd8780d64960e9de1f69c565b6841c3d6b2784b6708ed0c0b71eaed742",
+            "bounding_box": "{\"x1\": 848, \"y1\": 94, \"x2\": 975, \"y2\": 220}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "9e65ecdd8780d64960e9de1f69c565b6841c3d6b2784b6708ed0c0b71eaed742",
+            "bounding_box": "{\"x1\": 975, \"y1\": 94, \"x2\": 1080, \"y2\": 220}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "net.gsantner.markor:id/filesystemlist__fragment__background_hint_text",
+            "text_content": "This directory is empty",
+            "word_sequence": [
+                "This",
+                "directory",
+                "is",
+                "empty"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "9e65ecdd8780d64960e9de1f69c565b6841c3d6b2784b6708ed0c0b71eaed742",
+            "bounding_box": "{\"x1\": 0, \"y1\": 231, \"x2\": 1080, \"y2\": 1647}"
+        }
+    ],
+    "dc2b3b99ba8550cfb84d869dab07a9f27a940296ecd4e13b6abab02a41e6110a": [
+        {
+            "component_id": 0,
+            "resource_id": "net.gsantner.markor:id/alertTitle",
+            "text_content": "Create Folder",
+            "word_sequence": [
+                "Create",
+                "Folder"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "dc2b3b99ba8550cfb84d869dab07a9f27a940296ecd4e13b6abab02a41e6110a",
+            "bounding_box": "{\"x1\": 281, \"y1\": 680, \"x2\": 799, \"y2\": 751}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "net.gsantner.markor:id/create_folder_dialog__folder_name",
+            "text_content": "Enter the name of your folder",
+            "word_sequence": [
+                "Enter",
+                "the",
+                "name",
+                "of",
+                "your",
+                "folder"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 192,
+            "screen_id": "dc2b3b99ba8550cfb84d869dab07a9f27a940296ecd4e13b6abab02a41e6110a",
+            "bounding_box": "{\"x1\": 260, \"y1\": 872, \"x2\": 820, \"y2\": 1013}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/button2",
+            "text_content": "CANCEL",
+            "word_sequence": [
+                "CANCEL"
+            ],
+            "type": "BUTTON",
+            "app_name": 192,
+            "screen_id": "dc2b3b99ba8550cfb84d869dab07a9f27a940296ecd4e13b6abab02a41e6110a",
+            "bounding_box": "{\"x1\": 432, \"y1\": 1087, \"x2\": 634, \"y2\": 1213}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/button1",
+            "text_content": "CREATE",
+            "word_sequence": [
+                "CREATE"
+            ],
+            "type": "BUTTON",
+            "app_name": 192,
+            "screen_id": "dc2b3b99ba8550cfb84d869dab07a9f27a940296ecd4e13b6abab02a41e6110a",
+            "bounding_box": "{\"x1\": 634, \"y1\": 1087, \"x2\": 830, \"y2\": 1213}"
+        }
+    ],
+    "9b6f924b413f8b61baaa7dfbd25dbc2a80d54bbecb11116e0eed2837aa9f9eab": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.packageinstaller:id/permission_icon",
+            "text_content": "",
+            "word_sequence": [
+                "permission",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "9b6f924b413f8b61baaa7dfbd25dbc2a80d54bbecb11116e0eed2837aa9f9eab",
+            "bounding_box": "{\"x1\": 215, \"y1\": 691, \"x2\": 310, \"y2\": 786}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.packageinstaller:id/permission_message",
+            "text_content": "Allow Markor to access photos, media, and files on your device?",
+            "word_sequence": [
+                "Allow",
+                "Markor",
+                "to",
+                "access",
+                "photos",
+                ",",
+                "media",
+                ",",
+                "and",
+                "files",
+                "on",
+                "your",
+                "device",
+                "?"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "9b6f924b413f8b61baaa7dfbd25dbc2a80d54bbecb11116e0eed2837aa9f9eab",
+            "bounding_box": "{\"x1\": 310, \"y1\": 691, \"x2\": 876, \"y2\": 948}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.packageinstaller:id/do_not_ask_checkbox",
+            "text_content": "Don't ask again",
+            "word_sequence": [
+                "Don't",
+                "ask",
+                "again"
+            ],
+            "type": "CHECKBOX",
+            "app_name": 192,
+            "screen_id": "9b6f924b413f8b61baaa7dfbd25dbc2a80d54bbecb11116e0eed2837aa9f9eab",
+            "bounding_box": "{\"x1\": 215, \"y1\": 969, \"x2\": 876, \"y2\": 1095}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.packageinstaller:id/permission_deny_button",
+            "text_content": "DENY",
+            "word_sequence": [
+                "DENY"
+            ],
+            "type": "BUTTON",
+            "app_name": 192,
+            "screen_id": "9b6f924b413f8b61baaa7dfbd25dbc2a80d54bbecb11116e0eed2837aa9f9eab",
+            "bounding_box": "{\"x1\": 523, \"y1\": 1074, \"x2\": 691, \"y2\": 1200}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.packageinstaller:id/permission_allow_button",
+            "text_content": "ALLOW",
+            "word_sequence": [
+                "ALLOW"
+            ],
+            "type": "BUTTON",
+            "app_name": 192,
+            "screen_id": "9b6f924b413f8b61baaa7dfbd25dbc2a80d54bbecb11116e0eed2837aa9f9eab",
+            "bounding_box": "{\"x1\": 691, \"y1\": 1074, \"x2\": 876, \"y2\": 1200}"
+        }
+    ],
+    "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46": [
+        {
+            "component_id": 0,
+            "resource_id": "net.gsantner.markor:id/smallLabel",
+            "text_content": "Notebook",
+            "word_sequence": [
+                "Notebook"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 65, \"y1\": 1734, \"x2\": 203, \"y2\": 1777}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 103, \"y1\": 1668, \"x2\": 166, \"y2\": 1731}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 373, \"y1\": 1663, \"x2\": 436, \"y2\": 1726}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "net.gsantner.markor:id/largeLabel",
+            "text_content": "QuickNote",
+            "word_sequence": [
+                "QuickNote"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 319, \"y1\": 1728, \"x2\": 490, \"y2\": 1779}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "net.gsantner.markor:id/smallLabel",
+            "text_content": "To-Do",
+            "word_sequence": [
+                "To",
+                "Do"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 633, \"y1\": 1734, \"x2\": 716, \"y2\": 1777}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 643, \"y1\": 1668, \"x2\": 706, \"y2\": 1731}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "net.gsantner.markor:id/smallLabel",
+            "text_content": "More",
+            "word_sequence": [
+                "More"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 908, \"y1\": 1734, \"x2\": 982, \"y2\": 1777}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 913, \"y1\": 1668, \"x2\": 976, \"y2\": 1731}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "Markor",
+            "word_sequence": [
+                "Markor"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 42, \"y1\": 122, \"x2\": 213, \"y2\": 193}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "net.gsantner.markor:id/action_preview",
+            "text_content": "Preview",
+            "word_sequence": [
+                "Preview"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 594, \"y1\": 94, \"x2\": 721, \"y2\": 220}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "net.gsantner.markor:id/action_undo",
+            "text_content": "Undo",
+            "word_sequence": [
+                "Undo"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 721, \"y1\": 94, \"x2\": 848, \"y2\": 220}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "net.gsantner.markor:id/action_settings",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 848, \"y1\": 94, \"x2\": 975, \"y2\": 220}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 975, \"y1\": 94, \"x2\": 1080, \"y2\": 220}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor",
+            "text_content": "",
+            "word_sequence": [
+                "document",
+                "fragment",
+                "edit",
+                "highlighting",
+                "editor"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 0, \"y1\": 231, \"x2\": 1080, \"y2\": 1526}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1537, \"x2\": 147, \"y2\": 1647}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 147, \"y1\": 1537, \"x2\": 294, \"y2\": 1647}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 294, \"y1\": 1537, \"x2\": 441, \"y2\": 1647}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 441, \"y1\": 1537, \"x2\": 588, \"y2\": 1647}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 588, \"y1\": 1537, \"x2\": 735, \"y2\": 1647}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 735, \"y1\": 1537, \"x2\": 882, \"y2\": 1647}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 882, \"y1\": 1537, \"x2\": 1029, \"y2\": 1647}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "f58498e3953f57ed371b6b8ec93d5860b3b42de03c85bf58d699f2178ad56c46",
+            "bounding_box": "{\"x1\": 1029, \"y1\": 1537, \"x2\": 1080, \"y2\": 1647}"
+        }
+    ],
+    "7868bb4cf1b7913ae0c7a3381a856719d2eb29e132c1d9bacccab1212ae75dac": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 192,
+            "screen_id": "7868bb4cf1b7913ae0c7a3381a856719d2eb29e132c1d9bacccab1212ae75dac",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "net.gsantner.markor:id/note__activity__text_note_title",
+            "text_content": "",
+            "word_sequence": [
+                "note",
+                "activity",
+                "text",
+                "note",
+                "title"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "7868bb4cf1b7913ae0c7a3381a856719d2eb29e132c1d9bacccab1212ae75dac",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 848, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "net.gsantner.markor:id/action_edit",
+            "text_content": "Edit",
+            "word_sequence": [
+                "Edit"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "7868bb4cf1b7913ae0c7a3381a856719d2eb29e132c1d9bacccab1212ae75dac",
+            "bounding_box": "{\"x1\": 848, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "7868bb4cf1b7913ae0c7a3381a856719d2eb29e132c1d9bacccab1212ae75dac",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "UNKNOWN",
+            "app_name": 192,
+            "screen_id": "7868bb4cf1b7913ae0c7a3381a856719d2eb29e132c1d9bacccab1212ae75dac",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "1379c172d71aa4b560fb9dd356fe8aa377478c4a99120830a66502f82425fd6f": [
+        {
+            "component_id": 0,
+            "resource_id": "android:id/alertTitle",
+            "text_content": "Insert Link",
+            "word_sequence": [
+                "Insert",
+                "Link"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "1379c172d71aa4b560fb9dd356fe8aa377478c4a99120830a66502f82425fd6f",
+            "bounding_box": "{\"x1\": 133, \"y1\": 566, \"x2\": 947, \"y2\": 637}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "net.gsantner.markor:id/ui__select_path_dialog__name",
+            "text_content": "Name",
+            "word_sequence": [
+                "Name"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 192,
+            "screen_id": "1379c172d71aa4b560fb9dd356fe8aa377478c4a99120830a66502f82425fd6f",
+            "bounding_box": "{\"x1\": 123, \"y1\": 721, \"x2\": 957, \"y2\": 839}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "net.gsantner.markor:id/ui__select_path_dialog__url",
+            "text_content": "URL / Path",
+            "word_sequence": [
+                "URL",
+                "/",
+                "Path"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 192,
+            "screen_id": "1379c172d71aa4b560fb9dd356fe8aa377478c4a99120830a66502f82425fd6f",
+            "bounding_box": "{\"x1\": 123, \"y1\": 861, \"x2\": 957, \"y2\": 979}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "net.gsantner.markor:id/ui__select_path_dialog__browse_filesystem",
+            "text_content": "BROWSE FILESYSTEM",
+            "word_sequence": [
+                "BROWSE",
+                "FILESYSTEM"
+            ],
+            "type": "BUTTON",
+            "app_name": 192,
+            "screen_id": "1379c172d71aa4b560fb9dd356fe8aa377478c4a99120830a66502f82425fd6f",
+            "bounding_box": "{\"x1\": 112, \"y1\": 1021, \"x2\": 968, \"y2\": 1147}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/button2",
+            "text_content": "CANCEL",
+            "word_sequence": [
+                "CANCEL"
+            ],
+            "type": "BUTTON",
+            "app_name": 192,
+            "screen_id": "1379c172d71aa4b560fb9dd356fe8aa377478c4a99120830a66502f82425fd6f",
+            "bounding_box": "{\"x1\": 608, \"y1\": 1200, \"x2\": 810, \"y2\": 1326}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/button1",
+            "text_content": "OK",
+            "word_sequence": [
+                "OK"
+            ],
+            "type": "BUTTON",
+            "app_name": 192,
+            "screen_id": "1379c172d71aa4b560fb9dd356fe8aa377478c4a99120830a66502f82425fd6f",
+            "bounding_box": "{\"x1\": 810, \"y1\": 1200, \"x2\": 978, \"y2\": 1326}"
+        }
+    ],
+    "7ed157de86555b7ffe2e53d8b9c75d4301d7c18a7924f1577b7015edc54169b2": [
+        {
+            "component_id": 0,
+            "resource_id": "net.gsantner.markor:id/ui__filesystem_dialog__title",
+            "text_content": "Select",
+            "word_sequence": [
+                "Select"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "7ed157de86555b7ffe2e53d8b9c75d4301d7c18a7924f1577b7015edc54169b2",
+            "bounding_box": "{\"x1\": 162, \"y1\": 105, \"x2\": 918, \"y2\": 260}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "net.gsantner.markor:id/ui__filesystem_dialog__dir_up",
+            "text_content": "",
+            "word_sequence": [
+                "ui",
+                "filesystem",
+                "dialog",
+                "dir",
+                "up"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "7ed157de86555b7ffe2e53d8b9c75d4301d7c18a7924f1577b7015edc54169b2",
+            "bounding_box": "{\"x1\": 194, \"y1\": 281, \"x2\": 278, \"y2\": 365}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "net.gsantner.markor:id/ui__filesystem_dialog__home",
+            "text_content": "",
+            "word_sequence": [
+                "ui",
+                "filesystem",
+                "dialog",
+                "home"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "7ed157de86555b7ffe2e53d8b9c75d4301d7c18a7924f1577b7015edc54169b2",
+            "bounding_box": "{\"x1\": 300, \"y1\": 281, \"x2\": 384, \"y2\": 365}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "net.gsantner.markor:id/ui__filesystem_dialog__search_button",
+            "text_content": "",
+            "word_sequence": [
+                "ui",
+                "filesystem",
+                "dialog",
+                "search"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "7ed157de86555b7ffe2e53d8b9c75d4301d7c18a7924f1577b7015edc54169b2",
+            "bounding_box": "{\"x1\": 406, \"y1\": 281, \"x2\": 886, \"y2\": 365}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "net.gsantner.markor:id/ui__filesystem_dialog__list",
+            "text_content": "",
+            "word_sequence": [
+                "ui",
+                "filesystem",
+                "dialog",
+                "list"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 192,
+            "screen_id": "7ed157de86555b7ffe2e53d8b9c75d4301d7c18a7924f1577b7015edc54169b2",
+            "bounding_box": "{\"x1\": 162, \"y1\": 386, \"x2\": 918, \"y2\": 1574}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "net.gsantner.markor:id/ui__filesystem_dialog__button_cancel",
+            "text_content": "CANCEL",
+            "word_sequence": [
+                "CANCEL"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "7ed157de86555b7ffe2e53d8b9c75d4301d7c18a7924f1577b7015edc54169b2",
+            "bounding_box": "{\"x1\": 715, \"y1\": 1637, \"x2\": 855, \"y2\": 1688}"
+        }
+    ],
+    "a83b5399e8901a290f654506740533c75f0f48ac5a2cf79ac78c5e5f97a006b0": [
+        {
+            "component_id": 0,
+            "resource_id": "net.gsantner.markor:id/ui__filesystem_dialog__title",
+            "text_content": "Select",
+            "word_sequence": [
+                "Select"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "a83b5399e8901a290f654506740533c75f0f48ac5a2cf79ac78c5e5f97a006b0",
+            "bounding_box": "{\"x1\": 162, \"y1\": 105, \"x2\": 918, \"y2\": 260}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "net.gsantner.markor:id/ui__filesystem_dialog__dir_up",
+            "text_content": "",
+            "word_sequence": [
+                "ui",
+                "filesystem",
+                "dialog",
+                "dir",
+                "up"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "a83b5399e8901a290f654506740533c75f0f48ac5a2cf79ac78c5e5f97a006b0",
+            "bounding_box": "{\"x1\": 194, \"y1\": 281, \"x2\": 278, \"y2\": 387}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "net.gsantner.markor:id/ui__filesystem_dialog__home",
+            "text_content": "",
+            "word_sequence": [
+                "ui",
+                "filesystem",
+                "dialog",
+                "home"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "a83b5399e8901a290f654506740533c75f0f48ac5a2cf79ac78c5e5f97a006b0",
+            "bounding_box": "{\"x1\": 300, \"y1\": 281, \"x2\": 384, \"y2\": 387}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "net.gsantner.markor:id/ui__filesystem_dialog__search_edit",
+            "text_content": "Search documents",
+            "word_sequence": [
+                "Search",
+                "documents"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 192,
+            "screen_id": "a83b5399e8901a290f654506740533c75f0f48ac5a2cf79ac78c5e5f97a006b0",
+            "bounding_box": "{\"x1\": 406, \"y1\": 281, \"x2\": 886, \"y2\": 387}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "net.gsantner.markor:id/ui__filesystem_dialog__list",
+            "text_content": "",
+            "word_sequence": [
+                "ui",
+                "filesystem",
+                "dialog",
+                "list"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 192,
+            "screen_id": "a83b5399e8901a290f654506740533c75f0f48ac5a2cf79ac78c5e5f97a006b0",
+            "bounding_box": "{\"x1\": 162, \"y1\": 408, \"x2\": 918, \"y2\": 1574}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "net.gsantner.markor:id/ui__filesystem_dialog__button_cancel",
+            "text_content": "CANCEL",
+            "word_sequence": [
+                "CANCEL"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "a83b5399e8901a290f654506740533c75f0f48ac5a2cf79ac78c5e5f97a006b0",
+            "bounding_box": "{\"x1\": 715, \"y1\": 1637, \"x2\": 855, \"y2\": 1688}"
+        }
+    ],
+    "5371f8571141aace5426f46ca3d6c9739abc3c0e5be71f419fb37529a4b473c8": [
+        {
+            "component_id": 0,
+            "resource_id": "net.gsantner.markor:id/smallLabel",
+            "text_content": "Notebook",
+            "word_sequence": [
+                "Notebook"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "5371f8571141aace5426f46ca3d6c9739abc3c0e5be71f419fb37529a4b473c8",
+            "bounding_box": "{\"x1\": 65, \"y1\": 1734, \"x2\": 203, \"y2\": 1777}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "5371f8571141aace5426f46ca3d6c9739abc3c0e5be71f419fb37529a4b473c8",
+            "bounding_box": "{\"x1\": 103, \"y1\": 1668, \"x2\": 166, \"y2\": 1731}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "net.gsantner.markor:id/smallLabel",
+            "text_content": "QuickNote",
+            "word_sequence": [
+                "QuickNote"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "5371f8571141aace5426f46ca3d6c9739abc3c0e5be71f419fb37529a4b473c8",
+            "bounding_box": "{\"x1\": 330, \"y1\": 1734, \"x2\": 479, \"y2\": 1777}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "5371f8571141aace5426f46ca3d6c9739abc3c0e5be71f419fb37529a4b473c8",
+            "bounding_box": "{\"x1\": 373, \"y1\": 1668, \"x2\": 436, \"y2\": 1731}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "5371f8571141aace5426f46ca3d6c9739abc3c0e5be71f419fb37529a4b473c8",
+            "bounding_box": "{\"x1\": 643, \"y1\": 1663, \"x2\": 706, \"y2\": 1726}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "net.gsantner.markor:id/largeLabel",
+            "text_content": "To-Do",
+            "word_sequence": [
+                "To",
+                "Do"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "5371f8571141aace5426f46ca3d6c9739abc3c0e5be71f419fb37529a4b473c8",
+            "bounding_box": "{\"x1\": 627, \"y1\": 1728, \"x2\": 723, \"y2\": 1779}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "net.gsantner.markor:id/smallLabel",
+            "text_content": "More",
+            "word_sequence": [
+                "More"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "5371f8571141aace5426f46ca3d6c9739abc3c0e5be71f419fb37529a4b473c8",
+            "bounding_box": "{\"x1\": 908, \"y1\": 1734, \"x2\": 982, \"y2\": 1777}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "5371f8571141aace5426f46ca3d6c9739abc3c0e5be71f419fb37529a4b473c8",
+            "bounding_box": "{\"x1\": 913, \"y1\": 1668, \"x2\": 976, \"y2\": 1731}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "Markor",
+            "word_sequence": [
+                "Markor"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "5371f8571141aace5426f46ca3d6c9739abc3c0e5be71f419fb37529a4b473c8",
+            "bounding_box": "{\"x1\": 42, \"y1\": 122, \"x2\": 213, \"y2\": 193}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "net.gsantner.markor:id/action_preview",
+            "text_content": "Preview",
+            "word_sequence": [
+                "Preview"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "5371f8571141aace5426f46ca3d6c9739abc3c0e5be71f419fb37529a4b473c8",
+            "bounding_box": "{\"x1\": 594, \"y1\": 94, \"x2\": 721, \"y2\": 220}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "net.gsantner.markor:id/action_undo",
+            "text_content": "Undo",
+            "word_sequence": [
+                "Undo"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "5371f8571141aace5426f46ca3d6c9739abc3c0e5be71f419fb37529a4b473c8",
+            "bounding_box": "{\"x1\": 721, \"y1\": 94, \"x2\": 848, \"y2\": 220}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "net.gsantner.markor:id/action_settings",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "5371f8571141aace5426f46ca3d6c9739abc3c0e5be71f419fb37529a4b473c8",
+            "bounding_box": "{\"x1\": 848, \"y1\": 94, \"x2\": 975, \"y2\": 220}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "5371f8571141aace5426f46ca3d6c9739abc3c0e5be71f419fb37529a4b473c8",
+            "bounding_box": "{\"x1\": 975, \"y1\": 94, \"x2\": 1080, \"y2\": 220}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor",
+            "text_content": "",
+            "word_sequence": [
+                "document",
+                "fragment",
+                "edit",
+                "highlighting",
+                "editor"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 192,
+            "screen_id": "5371f8571141aace5426f46ca3d6c9739abc3c0e5be71f419fb37529a4b473c8",
+            "bounding_box": "{\"x1\": 0, \"y1\": 231, \"x2\": 1080, \"y2\": 1526}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "5371f8571141aace5426f46ca3d6c9739abc3c0e5be71f419fb37529a4b473c8",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1537, \"x2\": 147, \"y2\": 1647}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "5371f8571141aace5426f46ca3d6c9739abc3c0e5be71f419fb37529a4b473c8",
+            "bounding_box": "{\"x1\": 147, \"y1\": 1537, \"x2\": 294, \"y2\": 1647}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "5371f8571141aace5426f46ca3d6c9739abc3c0e5be71f419fb37529a4b473c8",
+            "bounding_box": "{\"x1\": 294, \"y1\": 1537, \"x2\": 441, \"y2\": 1647}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "5371f8571141aace5426f46ca3d6c9739abc3c0e5be71f419fb37529a4b473c8",
+            "bounding_box": "{\"x1\": 441, \"y1\": 1537, \"x2\": 588, \"y2\": 1647}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "5371f8571141aace5426f46ca3d6c9739abc3c0e5be71f419fb37529a4b473c8",
+            "bounding_box": "{\"x1\": 588, \"y1\": 1537, \"x2\": 735, \"y2\": 1647}"
+        }
+    ],
+    "c6f66bcc4b09678c593367d1564527ffa1a39f5eb2f1e43f7880604c63f2f92a": [
+        {
+            "component_id": 0,
+            "resource_id": "net.gsantner.markor:id/fab_add_new_item",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "add",
+                "new",
+                "item"
+            ],
+            "type": "BUTTON",
+            "app_name": 192,
+            "screen_id": "c6f66bcc4b09678c593367d1564527ffa1a39f5eb2f1e43f7880604c63f2f92a",
+            "bounding_box": "{\"x1\": 849, \"y1\": 1479, \"x2\": 996, \"y2\": 1626}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "c6f66bcc4b09678c593367d1564527ffa1a39f5eb2f1e43f7880604c63f2f92a",
+            "bounding_box": "{\"x1\": 103, \"y1\": 1663, \"x2\": 166, \"y2\": 1726}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "net.gsantner.markor:id/largeLabel",
+            "text_content": "Notebook",
+            "word_sequence": [
+                "Notebook"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "c6f66bcc4b09678c593367d1564527ffa1a39f5eb2f1e43f7880604c63f2f92a",
+            "bounding_box": "{\"x1\": 54, \"y1\": 1728, \"x2\": 215, \"y2\": 1779}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "net.gsantner.markor:id/smallLabel",
+            "text_content": "QuickNote",
+            "word_sequence": [
+                "QuickNote"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "c6f66bcc4b09678c593367d1564527ffa1a39f5eb2f1e43f7880604c63f2f92a",
+            "bounding_box": "{\"x1\": 330, \"y1\": 1734, \"x2\": 479, \"y2\": 1777}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "c6f66bcc4b09678c593367d1564527ffa1a39f5eb2f1e43f7880604c63f2f92a",
+            "bounding_box": "{\"x1\": 373, \"y1\": 1668, \"x2\": 436, \"y2\": 1731}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "net.gsantner.markor:id/smallLabel",
+            "text_content": "To-Do",
+            "word_sequence": [
+                "To",
+                "Do"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "c6f66bcc4b09678c593367d1564527ffa1a39f5eb2f1e43f7880604c63f2f92a",
+            "bounding_box": "{\"x1\": 633, \"y1\": 1734, \"x2\": 716, \"y2\": 1777}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "c6f66bcc4b09678c593367d1564527ffa1a39f5eb2f1e43f7880604c63f2f92a",
+            "bounding_box": "{\"x1\": 643, \"y1\": 1668, \"x2\": 706, \"y2\": 1731}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "net.gsantner.markor:id/smallLabel",
+            "text_content": "More",
+            "word_sequence": [
+                "More"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "c6f66bcc4b09678c593367d1564527ffa1a39f5eb2f1e43f7880604c63f2f92a",
+            "bounding_box": "{\"x1\": 908, \"y1\": 1734, \"x2\": 982, \"y2\": 1777}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "c6f66bcc4b09678c593367d1564527ffa1a39f5eb2f1e43f7880604c63f2f92a",
+            "bounding_box": "{\"x1\": 913, \"y1\": 1668, \"x2\": 976, \"y2\": 1731}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "net.gsantner.markor:id/search_src_text",
+            "text_content": "Search documents",
+            "word_sequence": [
+                "Search",
+                "documents"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 192,
+            "screen_id": "c6f66bcc4b09678c593367d1564527ffa1a39f5eb2f1e43f7880604c63f2f92a",
+            "bounding_box": "{\"x1\": 63, \"y1\": 109, \"x2\": 756, \"y2\": 204}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "net.gsantner.markor:id/search_close_btn",
+            "text_content": "Clear query",
+            "word_sequence": [
+                "Clear",
+                "query"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "c6f66bcc4b09678c593367d1564527ffa1a39f5eb2f1e43f7880604c63f2f92a",
+            "bounding_box": "{\"x1\": 756, \"y1\": 94, \"x2\": 861, \"y2\": 220}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "net.gsantner.markor:id/action_sort",
+            "text_content": "Sort",
+            "word_sequence": [
+                "Sort"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "c6f66bcc4b09678c593367d1564527ffa1a39f5eb2f1e43f7880604c63f2f92a",
+            "bounding_box": "{\"x1\": 882, \"y1\": 94, \"x2\": 1009, \"y2\": 220}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "net.gsantner.markor:id/action_settings",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "c6f66bcc4b09678c593367d1564527ffa1a39f5eb2f1e43f7880604c63f2f92a",
+            "bounding_box": "{\"x1\": 1009, \"y1\": 94, \"x2\": 1080, \"y2\": 220}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "net.gsantner.markor:id/filesystemlist__fragment__background_hint_text",
+            "text_content": "This directory is empty",
+            "word_sequence": [
+                "This",
+                "directory",
+                "is",
+                "empty"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "c6f66bcc4b09678c593367d1564527ffa1a39f5eb2f1e43f7880604c63f2f92a",
+            "bounding_box": "{\"x1\": 0, \"y1\": 231, \"x2\": 1080, \"y2\": 1647}"
+        }
+    ],
+    "47b7c1d0d0bb13da9fa529c4919adcd223ff34cf510232dec4c97ed3ff4d3c03": [
+        {
+            "component_id": 0,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "47b7c1d0d0bb13da9fa529c4919adcd223ff34cf510232dec4c97ed3ff4d3c03",
+            "bounding_box": "{\"x1\": 551, \"y1\": 125, \"x2\": 677, \"y2\": 188}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "net.gsantner.markor:id/title",
+            "text_content": "Sort by Name",
+            "word_sequence": [
+                "Sort",
+                "by",
+                "Name"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "47b7c1d0d0bb13da9fa529c4919adcd223ff34cf510232dec4c97ed3ff4d3c03",
+            "bounding_box": "{\"x1\": 698, \"y1\": 128, \"x2\": 1038, \"y2\": 185}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "47b7c1d0d0bb13da9fa529c4919adcd223ff34cf510232dec4c97ed3ff4d3c03",
+            "bounding_box": "{\"x1\": 551, \"y1\": 251, \"x2\": 677, \"y2\": 314}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "net.gsantner.markor:id/title",
+            "text_content": "Sort by Date",
+            "word_sequence": [
+                "Sort",
+                "by",
+                "Date"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "47b7c1d0d0bb13da9fa529c4919adcd223ff34cf510232dec4c97ed3ff4d3c03",
+            "bounding_box": "{\"x1\": 698, \"y1\": 254, \"x2\": 1038, \"y2\": 311}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "47b7c1d0d0bb13da9fa529c4919adcd223ff34cf510232dec4c97ed3ff4d3c03",
+            "bounding_box": "{\"x1\": 551, \"y1\": 377, \"x2\": 677, \"y2\": 440}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "net.gsantner.markor:id/title",
+            "text_content": "Sort by Size",
+            "word_sequence": [
+                "Sort",
+                "by",
+                "Size"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "47b7c1d0d0bb13da9fa529c4919adcd223ff34cf510232dec4c97ed3ff4d3c03",
+            "bounding_box": "{\"x1\": 698, \"y1\": 380, \"x2\": 1038, \"y2\": 437}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "47b7c1d0d0bb13da9fa529c4919adcd223ff34cf510232dec4c97ed3ff4d3c03",
+            "bounding_box": "{\"x1\": 551, \"y1\": 503, \"x2\": 677, \"y2\": 566}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "net.gsantner.markor:id/title",
+            "text_content": "Reverse order",
+            "word_sequence": [
+                "Reverse",
+                "order"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "47b7c1d0d0bb13da9fa529c4919adcd223ff34cf510232dec4c97ed3ff4d3c03",
+            "bounding_box": "{\"x1\": 698, \"y1\": 506, \"x2\": 954, \"y2\": 563}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "net.gsantner.markor:id/checkbox",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "CHECKBOX",
+            "app_name": 192,
+            "screen_id": "47b7c1d0d0bb13da9fa529c4919adcd223ff34cf510232dec4c97ed3ff4d3c03",
+            "bounding_box": "{\"x1\": 954, \"y1\": 493, \"x2\": 1038, \"y2\": 577}"
+        }
+    ],
+    "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "BUTTON",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 385, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "android:id/title",
+            "text_content": "Global",
+            "word_sequence": [
+                "Global"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 303}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 31, \"y1\": 370, \"x2\": 94, \"y2\": 433}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "android:id/title",
+            "text_content": "Theme",
+            "word_sequence": [
+                "Theme"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 189, \"y1\": 348, \"x2\": 318, \"y2\": 405}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "android:id/summary",
+            "text_content": "The overall theme used in the app",
+            "word_sequence": [
+                "The",
+                "overall",
+                "theme",
+                "used",
+                "in",
+                "the",
+                "app"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 189, \"y1\": 405, \"x2\": 741, \"y2\": 456}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 31, \"y1\": 630, \"x2\": 94, \"y2\": 693}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "android:id/title",
+            "text_content": "Language",
+            "word_sequence": [
+                "Language"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 189, \"y1\": 543, \"x2\": 374, \"y2\": 600}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "android:id/summary",
+            "text_content": "Change language of this app. Restart app for changes to take effect\n\nEnglish (English, United States)",
+            "word_sequence": [
+                "Change",
+                "language",
+                "of",
+                "this",
+                "app",
+                ".",
+                "Restart",
+                "app",
+                "for",
+                "changes",
+                "to",
+                "take",
+                "effect",
+                "English",
+                "English",
+                ",",
+                "United",
+                "States"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 189, \"y1\": 600, \"x2\": 1038, \"y2\": 780}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 31, \"y1\": 911, \"x2\": 94, \"y2\": 974}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "android:id/title",
+            "text_content": "Notebook directory",
+            "word_sequence": [
+                "Notebook",
+                "directory"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 189, \"y1\": 867, \"x2\": 546, \"y2\": 924}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "android:id/summary",
+            "text_content": "Select storage folder\n/storage/emulated/0/Documents/markor",
+            "word_sequence": [
+                "Select",
+                "storage",
+                "folder",
+                "/",
+                "storage",
+                "/",
+                "emulated",
+                "/",
+                "0",
+                "/",
+                "Documents",
+                "/",
+                "markor"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 189, \"y1\": 924, \"x2\": 869, \"y2\": 1018}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "android:id/title",
+            "text_content": "Main View",
+            "word_sequence": [
+                "Main",
+                "View"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1063, \"x2\": 1080, \"y2\": 1156}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 31, \"y1\": 1223, \"x2\": 94, \"y2\": 1286}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "android:id/title",
+            "text_content": "Hide statusbar",
+            "word_sequence": [
+                "Hide",
+                "statusbar"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1201, \"x2\": 464, \"y2\": 1258}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "android:id/summary",
+            "text_content": "Hide the statusbar at this view",
+            "word_sequence": [
+                "Hide",
+                "the",
+                "statusbar",
+                "at",
+                "this",
+                "view"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1258, \"x2\": 685, \"y2\": 1309}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "android:id/checkbox",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "CHECKBOX",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 954, \"y1\": 1213, \"x2\": 1038, \"y2\": 1297}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 31, \"y1\": 1440, \"x2\": 94, \"y2\": 1503}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "android:id/title",
+            "text_content": "Settings in toolbar",
+            "word_sequence": [
+                "Settings",
+                "in",
+                "toolbar"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1396, \"x2\": 529, \"y2\": 1453}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "android:id/summary",
+            "text_content": "Show settings option in top toolbar on main screen",
+            "word_sequence": [
+                "Show",
+                "settings",
+                "option",
+                "in",
+                "top",
+                "toolbar",
+                "on",
+                "main",
+                "screen"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1453, \"x2\": 912, \"y2\": 1547}"
+        },
+        {
+            "component_id": 20,
+            "resource_id": "android:id/checkbox",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "CHECKBOX",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 954, \"y1\": 1429, \"x2\": 1038, \"y2\": 1513}"
+        },
+        {
+            "component_id": 21,
+            "resource_id": "android:id/title",
+            "text_content": "Document browser",
+            "word_sequence": [
+                "Document",
+                "browser"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1592, \"x2\": 1080, \"y2\": 1685}"
+        },
+        {
+            "component_id": 22,
+            "resource_id": "android:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 31, \"y1\": 1752, \"x2\": 94, \"y2\": 1794}"
+        },
+        {
+            "component_id": 23,
+            "resource_id": "android:id/title",
+            "text_content": "Remember last directory",
+            "word_sequence": [
+                "Remember",
+                "last",
+                "directory"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1730, \"x2\": 646, \"y2\": 1787}"
+        },
+        {
+            "component_id": 24,
+            "resource_id": "android:id/summary",
+            "text_content": "Load the last opened folder at startup",
+            "word_sequence": [
+                "Load",
+                "the",
+                "last",
+                "opened",
+                "folder",
+                "at",
+                "startup"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1787, \"x2\": 807, \"y2\": 1794}"
+        },
+        {
+            "component_id": 25,
+            "resource_id": "android:id/checkbox",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "CHECKBOX",
+            "app_name": 192,
+            "screen_id": "7b2ad112890a1caee0ae0dfa9a21118637c4c227abd974b827f01f91024f5389",
+            "bounding_box": "{\"x1\": 954, \"y1\": 1742, \"x2\": 1038, \"y2\": 1794}"
+        }
+    ],
+    "0de81c6ee546a153a5384b40f229b2d920375f82815897224de98af91a06ae94": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.packageinstaller:id/permission_icon",
+            "text_content": "",
+            "word_sequence": [
+                "permission",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "0de81c6ee546a153a5384b40f229b2d920375f82815897224de98af91a06ae94",
+            "bounding_box": "{\"x1\": 215, \"y1\": 749, \"x2\": 310, \"y2\": 844}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.packageinstaller:id/permission_message",
+            "text_content": "Allow Markor to access photos, media, and files on your device?",
+            "word_sequence": [
+                "Allow",
+                "Markor",
+                "to",
+                "access",
+                "photos",
+                ",",
+                "media",
+                ",",
+                "and",
+                "files",
+                "on",
+                "your",
+                "device",
+                "?"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "0de81c6ee546a153a5384b40f229b2d920375f82815897224de98af91a06ae94",
+            "bounding_box": "{\"x1\": 310, \"y1\": 749, \"x2\": 876, \"y2\": 1006}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.packageinstaller:id/permission_deny_button",
+            "text_content": "DENY",
+            "word_sequence": [
+                "DENY"
+            ],
+            "type": "BUTTON",
+            "app_name": 192,
+            "screen_id": "0de81c6ee546a153a5384b40f229b2d920375f82815897224de98af91a06ae94",
+            "bounding_box": "{\"x1\": 523, \"y1\": 1017, \"x2\": 691, \"y2\": 1143}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.packageinstaller:id/permission_allow_button",
+            "text_content": "ALLOW",
+            "word_sequence": [
+                "ALLOW"
+            ],
+            "type": "BUTTON",
+            "app_name": 192,
+            "screen_id": "0de81c6ee546a153a5384b40f229b2d920375f82815897224de98af91a06ae94",
+            "bounding_box": "{\"x1\": 691, \"y1\": 1017, \"x2\": 876, \"y2\": 1143}"
+        }
+    ],
+    "d303b0c23428d729a0f05ebd61ec6b7b56bdb25976490ecd0f5400aba9f74471": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 192,
+            "screen_id": "d303b0c23428d729a0f05ebd61ec6b7b56bdb25976490ecd0f5400aba9f74471",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "net.gsantner.markor:id/note__activity__edit_note_title",
+            "text_content": "Test",
+            "word_sequence": [
+                "Test"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 192,
+            "screen_id": "d303b0c23428d729a0f05ebd61ec6b7b56bdb25976490ecd0f5400aba9f74471",
+            "bounding_box": "{\"x1\": 189, \"y1\": 63, \"x2\": 721, \"y2\": 210}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "net.gsantner.markor:id/action_preview",
+            "text_content": "Preview",
+            "word_sequence": [
+                "Preview"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "d303b0c23428d729a0f05ebd61ec6b7b56bdb25976490ecd0f5400aba9f74471",
+            "bounding_box": "{\"x1\": 721, \"y1\": 73, \"x2\": 848, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "net.gsantner.markor:id/action_undo",
+            "text_content": "Undo",
+            "word_sequence": [
+                "Undo"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "d303b0c23428d729a0f05ebd61ec6b7b56bdb25976490ecd0f5400aba9f74471",
+            "bounding_box": "{\"x1\": 848, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "d303b0c23428d729a0f05ebd61ec6b7b56bdb25976490ecd0f5400aba9f74471",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor",
+            "text_content": "",
+            "word_sequence": [
+                "document",
+                "fragment",
+                "edit",
+                "highlighting",
+                "editor"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 192,
+            "screen_id": "d303b0c23428d729a0f05ebd61ec6b7b56bdb25976490ecd0f5400aba9f74471",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 932}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "d303b0c23428d729a0f05ebd61ec6b7b56bdb25976490ecd0f5400aba9f74471",
+            "bounding_box": "{\"x1\": 0, \"y1\": 943, \"x2\": 147, \"y2\": 1053}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "d303b0c23428d729a0f05ebd61ec6b7b56bdb25976490ecd0f5400aba9f74471",
+            "bounding_box": "{\"x1\": 147, \"y1\": 943, \"x2\": 294, \"y2\": 1053}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "d303b0c23428d729a0f05ebd61ec6b7b56bdb25976490ecd0f5400aba9f74471",
+            "bounding_box": "{\"x1\": 294, \"y1\": 943, \"x2\": 441, \"y2\": 1053}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "d303b0c23428d729a0f05ebd61ec6b7b56bdb25976490ecd0f5400aba9f74471",
+            "bounding_box": "{\"x1\": 441, \"y1\": 943, \"x2\": 588, \"y2\": 1053}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "d303b0c23428d729a0f05ebd61ec6b7b56bdb25976490ecd0f5400aba9f74471",
+            "bounding_box": "{\"x1\": 588, \"y1\": 943, \"x2\": 735, \"y2\": 1053}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "d303b0c23428d729a0f05ebd61ec6b7b56bdb25976490ecd0f5400aba9f74471",
+            "bounding_box": "{\"x1\": 735, \"y1\": 943, \"x2\": 882, \"y2\": 1053}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "d303b0c23428d729a0f05ebd61ec6b7b56bdb25976490ecd0f5400aba9f74471",
+            "bounding_box": "{\"x1\": 882, \"y1\": 943, \"x2\": 1029, \"y2\": 1053}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "d303b0c23428d729a0f05ebd61ec6b7b56bdb25976490ecd0f5400aba9f74471",
+            "bounding_box": "{\"x1\": 1029, \"y1\": 943, \"x2\": 1080, \"y2\": 1053}"
+        }
+    ],
+    "60fe6da5eaa144d7d03d34e758cd3935ad1568de4ca61e27fa6067ca59a5b05e": [
+        {
+            "component_id": 0,
+            "resource_id": "",
+            "text_content": "Navigate up",
+            "word_sequence": [
+                "Navigate",
+                "up"
+            ],
+            "type": "BUTTON",
+            "app_name": 192,
+            "screen_id": "60fe6da5eaa144d7d03d34e758cd3935ad1568de4ca61e27fa6067ca59a5b05e",
+            "bounding_box": "{\"x1\": 0, \"y1\": 63, \"x2\": 147, \"y2\": 210}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "net.gsantner.markor:id/note__activity__text_note_title",
+            "text_content": "Test",
+            "word_sequence": [
+                "Test"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "60fe6da5eaa144d7d03d34e758cd3935ad1568de4ca61e27fa6067ca59a5b05e",
+            "bounding_box": "{\"x1\": 189, \"y1\": 101, \"x2\": 721, \"y2\": 172}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "net.gsantner.markor:id/action_preview",
+            "text_content": "Preview",
+            "word_sequence": [
+                "Preview"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "60fe6da5eaa144d7d03d34e758cd3935ad1568de4ca61e27fa6067ca59a5b05e",
+            "bounding_box": "{\"x1\": 721, \"y1\": 73, \"x2\": 848, \"y2\": 199}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "net.gsantner.markor:id/action_undo",
+            "text_content": "Undo",
+            "word_sequence": [
+                "Undo"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "60fe6da5eaa144d7d03d34e758cd3935ad1568de4ca61e27fa6067ca59a5b05e",
+            "bounding_box": "{\"x1\": 848, \"y1\": 73, \"x2\": 975, \"y2\": 199}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "60fe6da5eaa144d7d03d34e758cd3935ad1568de4ca61e27fa6067ca59a5b05e",
+            "bounding_box": "{\"x1\": 975, \"y1\": 73, \"x2\": 1080, \"y2\": 199}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "net.gsantner.markor:id/document__fragment__edit__highlighting_editor",
+            "text_content": "1234",
+            "word_sequence": [
+                "1234"
+            ],
+            "type": "EDITTEXT",
+            "app_name": 192,
+            "screen_id": "60fe6da5eaa144d7d03d34e758cd3935ad1568de4ca61e27fa6067ca59a5b05e",
+            "bounding_box": "{\"x1\": 0, \"y1\": 210, \"x2\": 1080, \"y2\": 932}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "60fe6da5eaa144d7d03d34e758cd3935ad1568de4ca61e27fa6067ca59a5b05e",
+            "bounding_box": "{\"x1\": 0, \"y1\": 943, \"x2\": 147, \"y2\": 1053}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "60fe6da5eaa144d7d03d34e758cd3935ad1568de4ca61e27fa6067ca59a5b05e",
+            "bounding_box": "{\"x1\": 147, \"y1\": 943, \"x2\": 294, \"y2\": 1053}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "60fe6da5eaa144d7d03d34e758cd3935ad1568de4ca61e27fa6067ca59a5b05e",
+            "bounding_box": "{\"x1\": 294, \"y1\": 943, \"x2\": 441, \"y2\": 1053}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "60fe6da5eaa144d7d03d34e758cd3935ad1568de4ca61e27fa6067ca59a5b05e",
+            "bounding_box": "{\"x1\": 441, \"y1\": 943, \"x2\": 588, \"y2\": 1053}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "60fe6da5eaa144d7d03d34e758cd3935ad1568de4ca61e27fa6067ca59a5b05e",
+            "bounding_box": "{\"x1\": 588, \"y1\": 943, \"x2\": 735, \"y2\": 1053}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "60fe6da5eaa144d7d03d34e758cd3935ad1568de4ca61e27fa6067ca59a5b05e",
+            "bounding_box": "{\"x1\": 735, \"y1\": 943, \"x2\": 882, \"y2\": 1053}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "60fe6da5eaa144d7d03d34e758cd3935ad1568de4ca61e27fa6067ca59a5b05e",
+            "bounding_box": "{\"x1\": 882, \"y1\": 943, \"x2\": 1029, \"y2\": 1053}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "",
+            "text_content": "",
+            "word_sequence": [],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "60fe6da5eaa144d7d03d34e758cd3935ad1568de4ca61e27fa6067ca59a5b05e",
+            "bounding_box": "{\"x1\": 1029, \"y1\": 943, \"x2\": 1080, \"y2\": 1053}"
+        }
+    ],
+    "dc60821b689e1a0739d3fd7ee34e03746f55e064eeac4ea4edb7893453799662": [
+        {
+            "component_id": 0,
+            "resource_id": "net.gsantner.markor:id/fab_add_new_item",
+            "text_content": "",
+            "word_sequence": [
+                "fab",
+                "add",
+                "new",
+                "item"
+            ],
+            "type": "BUTTON",
+            "app_name": 192,
+            "screen_id": "dc60821b689e1a0739d3fd7ee34e03746f55e064eeac4ea4edb7893453799662",
+            "bounding_box": "{\"x1\": 849, \"y1\": 1479, \"x2\": 996, \"y2\": 1626}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "dc60821b689e1a0739d3fd7ee34e03746f55e064eeac4ea4edb7893453799662",
+            "bounding_box": "{\"x1\": 103, \"y1\": 1663, \"x2\": 166, \"y2\": 1726}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "net.gsantner.markor:id/largeLabel",
+            "text_content": "Notebook",
+            "word_sequence": [
+                "Notebook"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "dc60821b689e1a0739d3fd7ee34e03746f55e064eeac4ea4edb7893453799662",
+            "bounding_box": "{\"x1\": 54, \"y1\": 1728, \"x2\": 215, \"y2\": 1779}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "net.gsantner.markor:id/smallLabel",
+            "text_content": "QuickNote",
+            "word_sequence": [
+                "QuickNote"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "dc60821b689e1a0739d3fd7ee34e03746f55e064eeac4ea4edb7893453799662",
+            "bounding_box": "{\"x1\": 330, \"y1\": 1734, \"x2\": 479, \"y2\": 1777}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "dc60821b689e1a0739d3fd7ee34e03746f55e064eeac4ea4edb7893453799662",
+            "bounding_box": "{\"x1\": 373, \"y1\": 1668, \"x2\": 436, \"y2\": 1731}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "net.gsantner.markor:id/smallLabel",
+            "text_content": "To-Do",
+            "word_sequence": [
+                "To",
+                "Do"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "dc60821b689e1a0739d3fd7ee34e03746f55e064eeac4ea4edb7893453799662",
+            "bounding_box": "{\"x1\": 633, \"y1\": 1734, \"x2\": 716, \"y2\": 1777}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "dc60821b689e1a0739d3fd7ee34e03746f55e064eeac4ea4edb7893453799662",
+            "bounding_box": "{\"x1\": 643, \"y1\": 1668, \"x2\": 706, \"y2\": 1731}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "net.gsantner.markor:id/smallLabel",
+            "text_content": "More",
+            "word_sequence": [
+                "More"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "dc60821b689e1a0739d3fd7ee34e03746f55e064eeac4ea4edb7893453799662",
+            "bounding_box": "{\"x1\": 908, \"y1\": 1734, \"x2\": 982, \"y2\": 1777}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "dc60821b689e1a0739d3fd7ee34e03746f55e064eeac4ea4edb7893453799662",
+            "bounding_box": "{\"x1\": 913, \"y1\": 1668, \"x2\": 976, \"y2\": 1731}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "",
+            "text_content": "Markor",
+            "word_sequence": [
+                "Markor"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "dc60821b689e1a0739d3fd7ee34e03746f55e064eeac4ea4edb7893453799662",
+            "bounding_box": "{\"x1\": 42, \"y1\": 122, \"x2\": 213, \"y2\": 193}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "net.gsantner.markor:id/search_button",
+            "text_content": "Search",
+            "word_sequence": [
+                "Search"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "dc60821b689e1a0739d3fd7ee34e03746f55e064eeac4ea4edb7893453799662",
+            "bounding_box": "{\"x1\": 594, \"y1\": 94, \"x2\": 721, \"y2\": 220}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "net.gsantner.markor:id/action_sort",
+            "text_content": "Sort",
+            "word_sequence": [
+                "Sort"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "dc60821b689e1a0739d3fd7ee34e03746f55e064eeac4ea4edb7893453799662",
+            "bounding_box": "{\"x1\": 721, \"y1\": 94, \"x2\": 848, \"y2\": 220}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "net.gsantner.markor:id/action_settings",
+            "text_content": "Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "dc60821b689e1a0739d3fd7ee34e03746f55e064eeac4ea4edb7893453799662",
+            "bounding_box": "{\"x1\": 848, \"y1\": 94, \"x2\": 975, \"y2\": 220}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "",
+            "text_content": "More options",
+            "word_sequence": [
+                "More",
+                "options"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "dc60821b689e1a0739d3fd7ee34e03746f55e064eeac4ea4edb7893453799662",
+            "bounding_box": "{\"x1\": 975, \"y1\": 94, \"x2\": 1080, \"y2\": 220}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "net.gsantner.markor:id/notes_fragment_section_text",
+            "text_content": "Files",
+            "word_sequence": [
+                "Files"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "dc60821b689e1a0739d3fd7ee34e03746f55e064eeac4ea4edb7893453799662",
+            "bounding_box": "{\"x1\": 39, \"y1\": 252, \"x2\": 1041, \"y2\": 303}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "net.gsantner.markor:id/file_identifier_icon",
+            "text_content": "",
+            "word_sequence": [
+                "file",
+                "identifier",
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "dc60821b689e1a0739d3fd7ee34e03746f55e064eeac4ea4edb7893453799662",
+            "bounding_box": "{\"x1\": 42, \"y1\": 348, \"x2\": 189, \"y2\": 468}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "net.gsantner.markor:id/note_title",
+            "text_content": "Test",
+            "word_sequence": [
+                "Test"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "dc60821b689e1a0739d3fd7ee34e03746f55e064eeac4ea4edb7893453799662",
+            "bounding_box": "{\"x1\": 210, \"y1\": 348, \"x2\": 809, \"y2\": 415}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "net.gsantner.markor:id/note_extra",
+            "text_content": "Last modified: 1/18/2023, 3:33 PM",
+            "word_sequence": [
+                "Last",
+                "modified",
+                ":",
+                "1",
+                "/",
+                "18",
+                "/",
+                "2023",
+                ",",
+                "3",
+                ":",
+                "33",
+                "PM"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "dc60821b689e1a0739d3fd7ee34e03746f55e064eeac4ea4edb7893453799662",
+            "bounding_box": "{\"x1\": 210, \"y1\": 415, \"x2\": 809, \"y2\": 468}"
+        }
+    ],
+    "b78c759c528f2fa73c6942fa4169bdee60cc353f68142b930da0fe187de532fe": [
+        {
+            "component_id": 0,
+            "resource_id": "com.android.systemui:id/task_view_thumbnail",
+            "text_content": "",
+            "word_sequence": [
+                "task",
+                "view",
+                "thumbnail"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 192,
+            "screen_id": "b78c759c528f2fa73c6942fa4169bdee60cc353f68142b930da0fe187de532fe",
+            "bounding_box": "{\"x1\": 42, \"y1\": 105, \"x2\": 1038, \"y2\": 1416}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "com.android.systemui:id/icon",
+            "text_content": "Application Info",
+            "word_sequence": [
+                "Application",
+                "Info"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "b78c759c528f2fa73c6942fa4169bdee60cc353f68142b930da0fe187de532fe",
+            "bounding_box": "{\"x1\": 42, \"y1\": 105, \"x2\": 189, \"y2\": 252}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "com.android.systemui:id/dismiss_task",
+            "text_content": "Dismiss Files.",
+            "word_sequence": [
+                "Dismiss",
+                "Files",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "b78c759c528f2fa73c6942fa4169bdee60cc353f68142b930da0fe187de532fe",
+            "bounding_box": "{\"x1\": 891, \"y1\": 105, \"x2\": 1038, \"y2\": 252}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "com.android.systemui:id/task_view_thumbnail",
+            "text_content": "",
+            "word_sequence": [
+                "task",
+                "view",
+                "thumbnail"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 192,
+            "screen_id": "b78c759c528f2fa73c6942fa4169bdee60cc353f68142b930da0fe187de532fe",
+            "bounding_box": "{\"x1\": 42, \"y1\": 124, \"x2\": 1038, \"y2\": 1435}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "com.android.systemui:id/icon",
+            "text_content": "Application Info",
+            "word_sequence": [
+                "Application",
+                "Info"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "b78c759c528f2fa73c6942fa4169bdee60cc353f68142b930da0fe187de532fe",
+            "bounding_box": "{\"x1\": 42, \"y1\": 124, \"x2\": 189, \"y2\": 271}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "com.android.systemui:id/title",
+            "text_content": "Files Files",
+            "word_sequence": [
+                "Files"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "b78c759c528f2fa73c6942fa4169bdee60cc353f68142b930da0fe187de532fe",
+            "bounding_box": "{\"x1\": 189, \"y1\": 169, \"x2\": 891, \"y2\": 226}"
+        },
+        {
+            "component_id": 6,
+            "resource_id": "com.android.systemui:id/dismiss_task",
+            "text_content": "Dismiss Files.",
+            "word_sequence": [
+                "Dismiss",
+                "Files",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "b78c759c528f2fa73c6942fa4169bdee60cc353f68142b930da0fe187de532fe",
+            "bounding_box": "{\"x1\": 891, \"y1\": 124, \"x2\": 1038, \"y2\": 271}"
+        },
+        {
+            "component_id": 7,
+            "resource_id": "com.android.systemui:id/task_view_thumbnail",
+            "text_content": "",
+            "word_sequence": [
+                "task",
+                "view",
+                "thumbnail"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 192,
+            "screen_id": "b78c759c528f2fa73c6942fa4169bdee60cc353f68142b930da0fe187de532fe",
+            "bounding_box": "{\"x1\": 42, \"y1\": 178, \"x2\": 1038, \"y2\": 1489}"
+        },
+        {
+            "component_id": 8,
+            "resource_id": "com.android.systemui:id/icon",
+            "text_content": "Application Info",
+            "word_sequence": [
+                "Application",
+                "Info"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "b78c759c528f2fa73c6942fa4169bdee60cc353f68142b930da0fe187de532fe",
+            "bounding_box": "{\"x1\": 42, \"y1\": 178, \"x2\": 189, \"y2\": 325}"
+        },
+        {
+            "component_id": 9,
+            "resource_id": "com.android.systemui:id/title",
+            "text_content": "Settings Settings",
+            "word_sequence": [
+                "Settings"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "b78c759c528f2fa73c6942fa4169bdee60cc353f68142b930da0fe187de532fe",
+            "bounding_box": "{\"x1\": 189, \"y1\": 223, \"x2\": 891, \"y2\": 280}"
+        },
+        {
+            "component_id": 10,
+            "resource_id": "com.android.systemui:id/dismiss_task",
+            "text_content": "Dismiss Settings.",
+            "word_sequence": [
+                "Dismiss",
+                "Settings",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "b78c759c528f2fa73c6942fa4169bdee60cc353f68142b930da0fe187de532fe",
+            "bounding_box": "{\"x1\": 891, \"y1\": 178, \"x2\": 1038, \"y2\": 325}"
+        },
+        {
+            "component_id": 11,
+            "resource_id": "com.android.systemui:id/task_view_thumbnail",
+            "text_content": "",
+            "word_sequence": [
+                "task",
+                "view",
+                "thumbnail"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 192,
+            "screen_id": "b78c759c528f2fa73c6942fa4169bdee60cc353f68142b930da0fe187de532fe",
+            "bounding_box": "{\"x1\": 42, \"y1\": 441, \"x2\": 1038, \"y2\": 1752}"
+        },
+        {
+            "component_id": 12,
+            "resource_id": "com.android.systemui:id/icon",
+            "text_content": "Application Info",
+            "word_sequence": [
+                "Application",
+                "Info"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "b78c759c528f2fa73c6942fa4169bdee60cc353f68142b930da0fe187de532fe",
+            "bounding_box": "{\"x1\": 42, \"y1\": 441, \"x2\": 189, \"y2\": 588}"
+        },
+        {
+            "component_id": 13,
+            "resource_id": "com.android.systemui:id/title",
+            "text_content": "Gmail Gmail",
+            "word_sequence": [
+                "Gmail"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "b78c759c528f2fa73c6942fa4169bdee60cc353f68142b930da0fe187de532fe",
+            "bounding_box": "{\"x1\": 189, \"y1\": 486, \"x2\": 891, \"y2\": 543}"
+        },
+        {
+            "component_id": 14,
+            "resource_id": "com.android.systemui:id/dismiss_task",
+            "text_content": "Dismiss Gmail.",
+            "word_sequence": [
+                "Dismiss",
+                "Gmail",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "b78c759c528f2fa73c6942fa4169bdee60cc353f68142b930da0fe187de532fe",
+            "bounding_box": "{\"x1\": 891, \"y1\": 441, \"x2\": 1038, \"y2\": 588}"
+        },
+        {
+            "component_id": 15,
+            "resource_id": "com.android.systemui:id/task_view_thumbnail",
+            "text_content": "",
+            "word_sequence": [
+                "task",
+                "view",
+                "thumbnail"
+            ],
+            "type": "UNKNOWN",
+            "app_name": 192,
+            "screen_id": "b78c759c528f2fa73c6942fa4169bdee60cc353f68142b930da0fe187de532fe",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1584, \"x2\": 1038, \"y2\": 1794}"
+        },
+        {
+            "component_id": 16,
+            "resource_id": "com.android.systemui:id/icon",
+            "text_content": "Application Info",
+            "word_sequence": [
+                "Application",
+                "Info"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "b78c759c528f2fa73c6942fa4169bdee60cc353f68142b930da0fe187de532fe",
+            "bounding_box": "{\"x1\": 42, \"y1\": 1584, \"x2\": 189, \"y2\": 1731}"
+        },
+        {
+            "component_id": 17,
+            "resource_id": "com.android.systemui:id/title",
+            "text_content": "Markor Markor",
+            "word_sequence": [
+                "Markor"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "b78c759c528f2fa73c6942fa4169bdee60cc353f68142b930da0fe187de532fe",
+            "bounding_box": "{\"x1\": 189, \"y1\": 1629, \"x2\": 891, \"y2\": 1686}"
+        },
+        {
+            "component_id": 18,
+            "resource_id": "com.android.systemui:id/dismiss_task",
+            "text_content": "Dismiss Markor.",
+            "word_sequence": [
+                "Dismiss",
+                "Markor",
+                "."
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "b78c759c528f2fa73c6942fa4169bdee60cc353f68142b930da0fe187de532fe",
+            "bounding_box": "{\"x1\": 891, \"y1\": 1584, \"x2\": 1038, \"y2\": 1731}"
+        },
+        {
+            "component_id": 19,
+            "resource_id": "com.android.systemui:id/nav_bar_scrim",
+            "text_content": "",
+            "word_sequence": [
+                "nav",
+                "bar",
+                "scrim"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "b78c759c528f2fa73c6942fa4169bdee60cc353f68142b930da0fe187de532fe",
+            "bounding_box": "{\"x1\": 0, \"y1\": 1715, \"x2\": 1080, \"y2\": 1794}"
+        }
+    ],
+    "8db7ef6940392e517876367c2c8d6ebb32841491d6722d668d0ee93cbd1217d5": [
+        {
+            "component_id": 0,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "8db7ef6940392e517876367c2c8d6ebb32841491d6722d668d0ee93cbd1217d5",
+            "bounding_box": "{\"x1\": 576, \"y1\": 125, \"x2\": 639, \"y2\": 188}"
+        },
+        {
+            "component_id": 1,
+            "resource_id": "net.gsantner.markor:id/title",
+            "text_content": "Create Folder",
+            "word_sequence": [
+                "Create",
+                "Folder"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "8db7ef6940392e517876367c2c8d6ebb32841491d6722d668d0ee93cbd1217d5",
+            "bounding_box": "{\"x1\": 660, \"y1\": 128, \"x2\": 1028, \"y2\": 185}"
+        },
+        {
+            "component_id": 2,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "8db7ef6940392e517876367c2c8d6ebb32841491d6722d668d0ee93cbd1217d5",
+            "bounding_box": "{\"x1\": 576, \"y1\": 251, \"x2\": 639, \"y2\": 314}"
+        },
+        {
+            "component_id": 3,
+            "resource_id": "net.gsantner.markor:id/title",
+            "text_content": "Import from device",
+            "word_sequence": [
+                "Import",
+                "from",
+                "device"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "8db7ef6940392e517876367c2c8d6ebb32841491d6722d668d0ee93cbd1217d5",
+            "bounding_box": "{\"x1\": 660, \"y1\": 254, \"x2\": 1028, \"y2\": 311}"
+        },
+        {
+            "component_id": 4,
+            "resource_id": "net.gsantner.markor:id/icon",
+            "text_content": "",
+            "word_sequence": [
+                "icon"
+            ],
+            "type": "IMAGEVIEW",
+            "app_name": 192,
+            "screen_id": "8db7ef6940392e517876367c2c8d6ebb32841491d6722d668d0ee93cbd1217d5",
+            "bounding_box": "{\"x1\": 576, \"y1\": 377, \"x2\": 639, \"y2\": 440}"
+        },
+        {
+            "component_id": 5,
+            "resource_id": "net.gsantner.markor:id/title",
+            "text_content": "Refresh",
+            "word_sequence": [
+                "Refresh"
+            ],
+            "type": "TEXTVIEW",
+            "app_name": 192,
+            "screen_id": "8db7ef6940392e517876367c2c8d6ebb32841491d6722d668d0ee93cbd1217d5",
+            "bounding_box": "{\"x1\": 660, \"y1\": 380, \"x2\": 1028, \"y2\": 437}"
+        }
+    ]
+}
