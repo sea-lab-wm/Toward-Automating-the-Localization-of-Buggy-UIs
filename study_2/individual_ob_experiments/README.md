@@ -1,0 +1,1 @@
+This directory contains all the necessary codes to reproduce the bug localization experiments of study 2 considering the individual OB from buggy UI localization (study 1) results.
