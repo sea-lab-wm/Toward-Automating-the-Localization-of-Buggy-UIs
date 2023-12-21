@@ -1,0 +1,1 @@
+This folder will contain the initial results (ranking of the files after bug localization) for all the experiments.
