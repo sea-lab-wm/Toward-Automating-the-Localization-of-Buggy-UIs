@@ -98,9 +98,10 @@ def create_spreadsheet(input_file_path, sheet_name, output_file_path):
 
 
 if __name__ == "__main__":
-    results_folder_path = './FinalResults'
-    lucene_summary_file_path = './ResultsSummary/BL-Exp-Results-LUCENE.xlsx'
-    bug_locator_summary_file_path = './ResultsSummary/BL-Exp-Results-BugLocator.xlsx'
+    lucene_results_folder_path = '../FinalResults/LUCENE'
+    bug_locator_results_folder_path = '../FinalResults/BugLocator'
+    lucene_summary_file_path = '../ResultsSummary/BL-Exp-Results-LUCENE.xlsx'
+    bug_locator_summary_file_path = '../ResultsSummary/BL-Exp-Results-BugLocator.xlsx'
 
     # Remove the output file if it exists
     if os.path.exists(lucene_summary_file_path):
@@ -108,19 +109,24 @@ if __name__ == "__main__":
     if os.path.exists(bug_locator_summary_file_path):
         os.remove(bug_locator_summary_file_path)
 
-    files = glob.glob(os.path.join(results_folder_path, "*.csv"))
-    files.sort()
+    lucene_results_files = glob.glob(os.path.join(lucene_results_folder_path, "*.csv"))
+    lucene_results_files.sort()
+    bug_locator_results_files = glob.glob(os.path.join(bug_locator_results_folder_path, "*.csv"))
+    bug_locator_results_files.sort()
 
-    # Iterate over all the files in the results folder
-    for file in files:
+    # Iterate over all the files in the LUCENE results folder
+    for file in lucene_results_files:
         # Get the sheet name from the file name
         exp_name = file.split("/")[-1].replace(".csv", "")
-        if exp_name.startswith("LUCENE"):
-            print(exp_name)
-            sheet_name = exp_name.replace("LUCENE-", "")
-            create_spreadsheet(file, sheet_name, lucene_summary_file_path)
-        elif exp_name.startswith("BugLocator"):
-            print(exp_name)
-            sheet_name = exp_name.replace("BugLocator-", "")
-            create_spreadsheet(file, sheet_name, bug_locator_summary_file_path)
+        print(exp_name)
+        sheet_name = exp_name.replace("LUCENE-", "")
+        create_spreadsheet(file, sheet_name, lucene_summary_file_path)
+
+    # Iterate over all the files in the BugLocator results folder
+    for file in bug_locator_results_files:
+        # Get the sheet name from the file name
+        exp_name = file.split("/")[-1].replace(".csv", "")
+        print(exp_name)
+        sheet_name = exp_name.replace("BugLocator-", "")
+        create_spreadsheet(file, sheet_name, bug_locator_summary_file_path)
 

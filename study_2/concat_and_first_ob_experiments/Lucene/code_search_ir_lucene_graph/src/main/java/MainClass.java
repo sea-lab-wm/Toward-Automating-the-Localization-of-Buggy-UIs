@@ -52,13 +52,13 @@ public class MainClass {
 
     public static void listf(String directoryName, List<File> files) {
         File directory = new File(directoryName);
-    
+
         // Get all files from a directory.
         File[] fList = directory.listFiles();
         if(fList != null) {
-            for (File file : fList) {      
+            for (File file : fList) {
                 if (file.isFile()) {
-                    
+
                     String extension = getFileExtension(file);
                     if(extension.equals(".java")) {
                         files.add(file);
@@ -96,7 +96,7 @@ public class MainClass {
         }
         return buggy_file_list;
     }
-    
+
     private static boolean isBuggy(List<String> buggy_file_list, String filename) {
         if(buggy_file_list.contains(filename)) {
             return true;
@@ -149,26 +149,26 @@ public class MainClass {
         return "";
     }
 
-     // Function to sort hashmap by values
-     private static HashMap<String, Float> sortByValue(HashMap<String, Float> hm)
-     {
-         // Create a list from elements of HashMap
-         List<Map.Entry<String, Float> > list =
-                 new LinkedList<>(hm.entrySet());
- 
-         // Sort the list
-         Collections.sort(list, (o1, o2) -> (o2.getValue()).compareTo(o1.getValue()));
- 
-         // put data from sorted list to hashmap
-         HashMap<String, Float> temp = new LinkedHashMap<>();
-         for (Map.Entry<String, Float> aa : list) {
-             temp.put(aa.getKey(), aa.getValue());
-         }
-         return temp;
-     }
+    // Function to sort hashmap by values
+    private static HashMap<String, Float> sortByValue(HashMap<String, Float> hm)
+    {
+        // Create a list from elements of HashMap
+        List<Map.Entry<String, Float> > list =
+                new LinkedList<>(hm.entrySet());
 
-    private static ArrayList<AbstractMap.SimpleEntry<String, String>> getRanklist(String bugID, Query query, 
-    List<RetrievalDoc> corpus, List<String> buggy_file_list, CSVWriter file_count_writer, CSVWriter file_ranks_writer, String query_reformulation_type) throws Exception {
+        // Sort the list
+        Collections.sort(list, (o1, o2) -> (o2.getValue()).compareTo(o1.getValue()));
+
+        // put data from sorted list to hashmap
+        HashMap<String, Float> temp = new LinkedHashMap<>();
+        for (Map.Entry<String, Float> aa : list) {
+            temp.put(aa.getKey(), aa.getValue());
+        }
+        return temp;
+    }
+
+    private static ArrayList<AbstractMap.SimpleEntry<String, String>> getRanklist(String bugID, Query query,
+                                                                                  List<RetrievalDoc> corpus, List<String> buggy_file_list, CSVWriter file_count_writer, CSVWriter file_ranks_writer, String query_reformulation_type) throws Exception {
         ArrayList<AbstractMap.SimpleEntry<String, String>> ranklist = new ArrayList<>();
 
         //evaluator creation, for computing effectiveness metrics
@@ -208,7 +208,7 @@ public class MainClass {
                 rank++;
             }
             file_ranks_writer.flush();
-            
+
             // resultsFromCorpus.forEach(d ->{
             //     System.out.println("Search result = ");
             //     System.out.println(d.getDocName());
@@ -222,27 +222,27 @@ public class MainClass {
                 //expected results for the query
                 RelJudgment expectedSearchResults = new RelJudgment();
                 String bug_file_name = corpus.get(fileIndex).getDocName();
-                
+
                 if (isBuggy(buggy_file_list, bug_file_name)) {
                     // System.out.println("corpus index: " + List.of(corpus.get(fileIndex)));
                     expectedSearchResults.setRelevantDocs(List.of(corpus.get(fileIndex)));
-                    
+
                     //compute metrics (see what each position means in the resulting list)
                     List<Double> evalResults = evaluator.evaluateRelJudgment(expectedSearchResults, searchResults);
                     // System.out.print("Query evaluation results = ");
                     // System.out.println(evalResults.get(0));
                     ranklist.add(new AbstractMap.SimpleEntry<>(bug_file_name, evalResults.get(0).toString()));
-                }   
+                }
             }
         }
 
         return ranklist;
     }
 
-    private static void processResults(String queries_dir, String bug_id, 
-        List<String>preprocessedCodeDocuments, List<String>codeFileNameList, List<String> buggy_file_list,
-        CSVWriter writer, CSVWriter query_replacement_writer, CSVWriter query_expansion1_writer,
-        CSVWriter file_count_writer, CSVWriter bug_report_files_writer, CSVWriter query_replacement_files_writer, CSVWriter query_expansion1_files_writer) throws Exception{
+    private static void processResults(String queries_dir, String bug_id,
+                                       List<String>preprocessedCodeDocuments, List<String>codeFileNameList, List<String> buggy_file_list,
+                                       CSVWriter writer, CSVWriter query_replacement_writer, CSVWriter query_expansion1_writer,
+                                       CSVWriter file_count_writer, CSVWriter bug_report_files_writer, CSVWriter query_replacement_files_writer, CSVWriter query_expansion1_files_writer) throws Exception{
         //build corpus
         List<RetrievalDoc> corpus = IntStream.range(0, preprocessedCodeDocuments.size())
                 .mapToObj(i -> {
@@ -263,10 +263,10 @@ public class MainClass {
         writeResult(corpus, bug_id, buggy_file_list, query_expansion_1, query_expansion1_writer, file_count_writer, query_expansion1_files_writer, "query-expansion-1");
     }
 
-    private static void writeResult(List<RetrievalDoc> corpus, String bugID,  
-        List<String> buggy_file_list, String preprocessedQuery,
-        CSVWriter writer, CSVWriter file_count_writer, CSVWriter file_ranks_writer, String query_reformulation_type) throws Exception{
-        
+    private static void writeResult(List<RetrievalDoc> corpus, String bugID,
+                                    List<String> buggy_file_list, String preprocessedQuery,
+                                    CSVWriter writer, CSVWriter file_count_writer, CSVWriter file_ranks_writer, String query_reformulation_type) throws Exception{
+
         if (preprocessedQuery == null || preprocessedQuery.isEmpty()) {
             writer.writeNext(new String[]{bugID, "[]", "[]", "[]"});
             writer.flush();
@@ -277,12 +277,12 @@ public class MainClass {
 
         // String preprocessedBugReport = preprocessText(bugReportContent, stopWords);
         Query query = new Query(1, preprocessedQuery);
-       
+
         List<String> row = new ArrayList<String>();
         ArrayList<AbstractMap.SimpleEntry<String, String>> ranklist = getRanklist(bugID, query, corpus, buggy_file_list, file_count_writer, file_ranks_writer, query_reformulation_type);
 
         row.add(bugID);
-        
+
         StringBuilder ranks_str=new StringBuilder();
         StringBuilder sorted_ranks_str = new StringBuilder();
         StringBuilder bug_file_str_list=new StringBuilder();
@@ -316,7 +316,7 @@ public class MainClass {
             ind++;
         }
         sorted_ranks_str.append("]");
-        
+
         row.add(ranks_str.toString());
         row.add(sorted_ranks_str.toString());
         row.add(bug_file_str_list.toString());
@@ -407,8 +407,8 @@ public class MainClass {
     private static CSVWriter create_final_result_header(String result_file) throws Exception {
         createDirectories(result_file);
         String[] final_header = {"Bug Report ID", "Ranks-unsorted (Query-Bug Report)", "Ranks (Query-Bug Report)", "Files (Query-Bug Report)",
-            "Ranks-unsorted (Query Replacement)", "Ranks (Query Replacement)", "Files (Query Replacement)",
-            "Ranks-unsorted (Query Expansion 1)", "Ranks (Query Expansion 1)", "Files (Query Expansion 1)"};
+                "Ranks-unsorted (Query Replacement)", "Ranks (Query Replacement)", "Files (Query Replacement)",
+                "Ranks-unsorted (Query Expansion 1)", "Ranks (Query Expansion 1)", "Files (Query Expansion 1)"};
 
         CSVWriter final_result_writer = new CSVWriter(new FileWriter(result_file));
         final_result_writer.writeNext(final_header);
@@ -546,13 +546,13 @@ public class MainClass {
         return concatenatedList;
     }
 
-    private static void get_final_ranks(String bug_id, String query_type, String matched_files_stored_file, 
-        String result_folder1, String result_folder2, String operations, List<Integer> unsorted_ranks,
-        List<Integer> cur_ranks, List<String> ranks_files) throws Exception {
+    private static void get_final_ranks(String bug_id, String query_type, String matched_files_stored_file,
+                                        String result_folder1, String result_folder2, String operations, List<Integer> unsorted_ranks,
+                                        List<Integer> cur_ranks, List<String> ranks_files) throws Exception {
 
         List<Integer> unsorted_ranks1 = get_ranks(bug_id, result_folder1 + "/" + query_type + ".csv");
         List<String> ranks1_files = get_buggy_found_files(bug_id, result_folder1 + "/" + query_type + ".csv");
-        
+
         if(operations.equals("Filtering") || operations.equals("QueryReformulation")) {
             List<Integer> sorted_ranks1 = new ArrayList<Integer>(unsorted_ranks1);
             Collections.sort(sorted_ranks1);
@@ -592,12 +592,12 @@ public class MainClass {
         ranks_files.addAll(concatenatedStrings);
     }
 
-    private static List<String[]> get_individual_file_ranks(String bug_id, String query_type, String matched_files_stored_file, 
-        String result_folder1, String result_folder2, String operations, List<Integer> unsorted_ranks,
-        List<Integer> cur_ranks, List<String> ranks_files) throws Exception {
+    private static List<String[]> get_individual_file_ranks(String bug_id, String query_type, String matched_files_stored_file,
+                                                            String result_folder1, String result_folder2, String operations, List<Integer> unsorted_ranks,
+                                                            List<Integer> cur_ranks, List<String> ranks_files) throws Exception {
 
         List<String[]> file_info1 = get_individual_file_info(bug_id, result_folder1 + "/" + query_type + ".csv");
-        
+
         if(operations.equals("Filtering") || operations.equals("QueryReformulation")) {
             return file_info1;
         }
@@ -615,22 +615,22 @@ public class MainClass {
     }
 
     private static void clear_lists(List<Integer> unsorted_ranks1,
-        List<Integer> cur_ranks, List<String> ranks1_files) {
+                                    List<Integer> cur_ranks, List<String> ranks1_files) {
         unsorted_ranks1.clear();
         cur_ranks.clear();
         ranks1_files.clear();
     }
 
     private static void add_values_to_row(List<Integer> unsorted_ranks1,
-        List<Integer> cur_ranks, List<String> ranks1_files, List<String> data_row) {
+                                          List<Integer> cur_ranks, List<String> ranks1_files, List<String> data_row) {
         data_row.add(unsorted_ranks1.toString());
         data_row.add(cur_ranks.toString());
         data_row.add(ranks1_files.toString());
     }
 
 
-    private static void merge_query_matching_ranks(ArrayList<String> bug_issue_ids, CSVWriter final_result_writer, String matched_file, 
-    String matched_ranks_folder, String not_matched_ranks_folder, String operation_type) throws Exception {
+    private static void merge_query_matching_ranks(ArrayList<String> bug_issue_ids, CSVWriter final_result_writer, String matched_file,
+                                                   String matched_ranks_folder, String not_matched_ranks_folder, String operation_type) throws Exception {
         for(int b_index=0;b_index<bug_issue_ids.size();b_index++) {
             String bug_id = bug_issue_ids.get(b_index);
             List<String> data_row = new ArrayList<String>();
@@ -641,20 +641,20 @@ public class MainClass {
             List<String> ranks1_files = new ArrayList<String>();
 
             String query_type = "original-bug-report";
-            get_final_ranks(bug_id, query_type, matched_file, 
-                matched_ranks_folder, not_matched_ranks_folder, operation_type, unsorted_ranks1, cur_ranks, ranks1_files);
+            get_final_ranks(bug_id, query_type, matched_file,
+                    matched_ranks_folder, not_matched_ranks_folder, operation_type, unsorted_ranks1, cur_ranks, ranks1_files);
             add_values_to_row(unsorted_ranks1, cur_ranks, ranks1_files, data_row);
             clear_lists(unsorted_ranks1, cur_ranks, ranks1_files);
 
             query_type = "replaced-query";
-            get_final_ranks(bug_id, query_type, matched_file, 
-                matched_ranks_folder, not_matched_ranks_folder, operation_type, unsorted_ranks1, cur_ranks, ranks1_files);
+            get_final_ranks(bug_id, query_type, matched_file,
+                    matched_ranks_folder, not_matched_ranks_folder, operation_type, unsorted_ranks1, cur_ranks, ranks1_files);
             add_values_to_row(unsorted_ranks1, cur_ranks, ranks1_files, data_row);
             clear_lists(unsorted_ranks1, cur_ranks, ranks1_files);
 
             query_type = "query-expansion-1";
-            get_final_ranks(bug_id, query_type, matched_file, 
-                matched_ranks_folder, not_matched_ranks_folder, operation_type, unsorted_ranks1, cur_ranks, ranks1_files);
+            get_final_ranks(bug_id, query_type, matched_file,
+                    matched_ranks_folder, not_matched_ranks_folder, operation_type, unsorted_ranks1, cur_ranks, ranks1_files);
             add_values_to_row(unsorted_ranks1, cur_ranks, ranks1_files, data_row);
             clear_lists(unsorted_ranks1, cur_ranks, ranks1_files);
 
@@ -669,10 +669,10 @@ public class MainClass {
         }
     }
 
-    private static void merge_and_update_file_ranks(ArrayList<String> bug_issue_ids, CSVWriter final_bug_report_file_ranks_writer, 
-        CSVWriter final_query_replacement_file_ranks_writer, 
-        CSVWriter final_query_expansion_file_ranks_writer, String matched_file, 
-        String matched_ranks_folder, String not_matched_ranks_folder, String operation_type) throws Exception {
+    private static void merge_and_update_file_ranks(ArrayList<String> bug_issue_ids, CSVWriter final_bug_report_file_ranks_writer,
+                                                    CSVWriter final_query_replacement_file_ranks_writer,
+                                                    CSVWriter final_query_expansion_file_ranks_writer, String matched_file,
+                                                    String matched_ranks_folder, String not_matched_ranks_folder, String operation_type) throws Exception {
         for(int b_index=0;b_index<bug_issue_ids.size();b_index++) {
             String bug_id = bug_issue_ids.get(b_index);
             List<String> data_row = new ArrayList<String>();
@@ -684,30 +684,30 @@ public class MainClass {
 
             String query_type = "original-bug-report-file-ranks";
             //get_individual_file_ranks
-            List<String[]> file_ranks_bug_report = get_individual_file_ranks(bug_id, query_type, matched_file, 
-                matched_ranks_folder, not_matched_ranks_folder, operation_type, unsorted_ranks1, cur_ranks, ranks1_files);
+            List<String[]> file_ranks_bug_report = get_individual_file_ranks(bug_id, query_type, matched_file,
+                    matched_ranks_folder, not_matched_ranks_folder, operation_type, unsorted_ranks1, cur_ranks, ranks1_files);
             file_ranks_bug_report.forEach(writer->final_bug_report_file_ranks_writer.writeNext(writer));
             final_bug_report_file_ranks_writer.flush();
 
             query_type = "replaced-query-file-ranks";
-            List<String[]> file_ranks_query_replacement = get_individual_file_ranks(bug_id, query_type, matched_file, 
-                matched_ranks_folder, not_matched_ranks_folder, operation_type, unsorted_ranks1, cur_ranks, ranks1_files);
+            List<String[]> file_ranks_query_replacement = get_individual_file_ranks(bug_id, query_type, matched_file,
+                    matched_ranks_folder, not_matched_ranks_folder, operation_type, unsorted_ranks1, cur_ranks, ranks1_files);
             file_ranks_query_replacement.forEach(writer->final_query_replacement_file_ranks_writer.writeNext(writer));
             final_query_replacement_file_ranks_writer.flush();
 
             query_type = "query-expansion-1-file-ranks";
-            List<String[]> file_ranks_query_expansion = get_individual_file_ranks(bug_id, query_type, matched_file, 
-                matched_ranks_folder, not_matched_ranks_folder, operation_type, unsorted_ranks1, cur_ranks, ranks1_files);
+            List<String[]> file_ranks_query_expansion = get_individual_file_ranks(bug_id, query_type, matched_file,
+                    matched_ranks_folder, not_matched_ranks_folder, operation_type, unsorted_ranks1, cur_ranks, ranks1_files);
             file_ranks_query_expansion.forEach(writer->final_query_expansion_file_ranks_writer.writeNext(writer));
             final_query_expansion_file_ranks_writer.flush();
         }
     }
 
-    private static void file_search_and_rankings(ArrayList<String> bug_issue_ids, List<String> stopWords, String result_folder, 
-        String subpath, String filetype, 
-        String preprocessed_code_dir, String filtered_boosted_dir, String buggy_project_dir, 
-        String prep_code_path, String prep_query_path, String preprocessed_data_path, String jsonFilePath, 
-        String query_reformulation_gui) throws Exception{
+    private static void file_search_and_rankings(ArrayList<String> bug_issue_ids, List<String> stopWords, String result_folder,
+                                                 String subpath, String filetype,
+                                                 String preprocessed_code_dir, String filtered_boosted_dir, String buggy_project_dir,
+                                                 String prep_code_path, String prep_query_path, String preprocessed_data_path, String jsonFilePath,
+                                                 String query_reformulation_gui) throws Exception{
 
         String result_sub_dir = result_folder + "/" + subpath + "/QueryReformulation-" + query_reformulation_gui + "/" + filetype;
         List<CSVWriter> writerList = create_result_files_header(result_sub_dir);
@@ -733,10 +733,10 @@ public class MainClass {
             }
 
             List<String> buggy_file_list = get_buggy_java_files(bug_issue_ids.get(b_index));
-        
+
             processResults(queries_dir, bug_issue_ids.get(b_index), prepCodeFileContent, codeFileNameList, buggy_file_list,
-                writerList.get(0), writerList.get(1), writerList.get(2), writerList.get(3),
-                all_files_writerList.get(0), all_files_writerList.get(1), all_files_writerList.get(2));
+                    writerList.get(0), writerList.get(1), writerList.get(2), writerList.get(3),
+                    all_files_writerList.get(0), all_files_writerList.get(1), all_files_writerList.get(2));
         }
 
         for(int i=0;i<writerList.size();i++) {
@@ -777,21 +777,37 @@ public class MainClass {
         String stopWordsPath = "src/main/resources/java-keywords-bugs.txt";
         List<String> stopwords = TextProcessor.readStopWords(stopWordsPath);
 
-        // TODO: Update the bug_issue_ids list for experiment with 3 and 4 screens
+        String[] bug_ids_array = null;
+
+        if (ns.getString("screen").equals("3")){
+            // Experiments with 3 screens - 79 bugs
+            bug_ids_array = new String[]{"2", "1028", "8", "10", "11", "18", "19", "1563", "1568", "44", "45", "1073", "53", "54", "55", "56", "1089", "71", "1096", "76", "84", "87", "92", "1640", "1641", "106", "1130", "1645", "110", "117", "1146", "1147", "1150", "1151", "128", "129", "130", "135", "158", "159", "160", "162", "168", "1198", "1202", "1205", "1207", "1213", "1214", "191", "192", "193", "1215", "1222", "199", "200", "201", "1223", "1224", "1228", "206", "209", "248", "256", "271", "275", "1299", "1389", "1399", "1402", "1403", "1406", "1425", "1428", "1430", "1441", "1445", "1446", "1481"};
+        }
+        if (ns.getString("screen").equals("4")){
+            // Experiments with 4 screens - 77 bugs
+            bug_ids_array = new String[]{"2", "8", "10", "18", "19", "44", "53", "117", "128", "129", "130", "135", "206", "209", "256", "1073", "1096", "1202", "1207", "1214", "1215", "1224", "1299", "1399", "1430", "1441", "1481", "1645", "54", "76", "92", "158", "160", "162", "192", "199", "200", "1150", "1198", "1228", "1389", "1425", "1446", "1568", "71", "201", "1146", "1147", "1151", "1205", "1406", "1445", "45", "106", "110", "168", "248", "1563", "1223", "1641", "55", "56", "1213", "1222", "1428", "84", "87", "159", "193", "271", "275", "1028", "1089", "1130", "1402", "1403", "1640"};
+            // System.out.println("Bug IDs Array: " + bug_ids_array.length);
+        }
+
+        ArrayList<String> bug_issue_ids = new ArrayList<String>(Arrays.asList(bug_ids_array));
+
+        System.out.println("Bug Issue IDs: " + bug_issue_ids.size());
+
+        // The following lines are not needed
         // Use this line for experiments with 3 screens - 79 bugs
         //ArrayList<String> bug_issue_ids = new ArrayList<String>(Arrays.asList("2", "1028", "8", "10", "11", "18", "19", "1563", "1568", "44", "45", "1073", "53", "54", "55", "56", "1089", "71", "1096", "76", "84", "87", "92", "1640", "1641", "106", "1130", "1645", "110", "117", "1146", "1147", "1150", "1151", "128", "129", "130", "135", "158", "159", "160", "162", "168", "1198", "1202", "1205", "1207", "1213", "1214", "191", "192", "193", "1215", "1222", "199", "200", "201", "1223", "1224", "1228", "206", "209", "248", "256", "271", "275", "1299", "1389", "1399", "1402", "1403", "1406", "1425", "1428", "1430", "1441", "1445", "1446", "1481"));
 
         // Use this line for experiments with 4 screens - 77 bugs
-        ArrayList<String> bug_issue_ids = new ArrayList<String>(Arrays.asList("2", "8", "10", "18", "19", "44", "53", "117", "128", "129", "130", "135", "206", "209", "256", "1073", "1096", "1202", "1207", "1214", "1215", "1224", "1299", "1399", "1430", "1441", "1481", "1645", "54", "76", "92", "158", "160", "162", "192", "199", "200", "1150", "1198", "1228", "1389", "1425", "1446", "1568", "71", "201", "1146", "1147", "1151", "1205", "1406", "1445", "45", "106", "110", "168", "248", "1563", "1223", "1641", "55", "56", "1213", "1222", "1428", "84", "87", "159", "193", "271", "275", "1028", "1089", "1130", "1402", "1403", "1640"));
+        //ArrayList<String> bug_issue_ids = new ArrayList<String>(Arrays.asList("2", "8", "10", "18", "19", "44", "53", "117", "128", "129", "130", "135", "206", "209", "256", "1073", "1096", "1202", "1207", "1214", "1215", "1224", "1299", "1399", "1430", "1441", "1481", "1645", "54", "76", "92", "158", "160", "162", "192", "199", "200", "1150", "1198", "1228", "1389", "1425", "1446", "1568", "71", "201", "1146", "1147", "1151", "1205", "1406", "1445", "45", "106", "110", "168", "248", "1563", "1223", "1641", "55", "56", "1213", "1222", "1428", "84", "87", "159", "193", "271", "275", "1028", "1089", "1130", "1402", "1403", "1640"));
 
         String prep_query_path = "Screen-" + ns.getString("screen") + "/Preprocessed_with_" + ns.getString("query_reformulation");
 
         if (ns.getString("operations").equals("Filtering")) {
             String corpus_path = "Screen-" + ns.getString("screen") + "/" + "Corpus-" + ns.getString("filtering");
-            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), corpus_path, "FilteredFiles", 
-                ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"), 
-                ns.getString("buggy_project_dir"), ns.getString("prep_code_path"), 
-                prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));
+            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), corpus_path, "FilteredFiles",
+                    ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"),
+                    ns.getString("buggy_project_dir"), ns.getString("prep_code_path"),
+                    prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));
 
             String final_ranks_file = ns.getString("final_ranks_folder") + "/" + ns.getString("operations") + "#Screen-" + ns.getString("screen") + "#Filtering-" + ns.getString("filtering") + "#Query_Reformulation-" + ns.getString("query_reformulation") + ".csv";
             String final_bug_report_file_ranks_file = ns.getString("final_ranks_folder") + "/" + ns.getString("operations") + "#Screen-" + ns.getString("screen") + "#Filtering-" + ns.getString("filtering") + "#Query_Reformulation-" + ns.getString("query_reformulation") + "-files-bug-report.csv";
@@ -803,15 +819,15 @@ public class MainClass {
             String not_matched_ranks_folder = "";
 
             CSVWriter final_result_writer = create_final_result_header(final_ranks_file);
-            merge_query_matching_ranks(bug_issue_ids, final_result_writer, matched_file, 
-                matched_ranks_folder, not_matched_ranks_folder, ns.getString("operations"));
-            
+            merge_query_matching_ranks(bug_issue_ids, final_result_writer, matched_file,
+                    matched_ranks_folder, not_matched_ranks_folder, ns.getString("operations"));
+
             CSVWriter final_bug_report_file_ranks_writer = create_final_file_ranks_header(final_bug_report_file_ranks_file);
             CSVWriter final_query_replacement_file_ranks_writer = create_final_file_ranks_header(final_query_replacement_file_ranks_file);
             CSVWriter final_query_expansion_file_ranks_writer = create_final_file_ranks_header(final_query_expansion_file_ranks_file);
-            merge_and_update_file_ranks(bug_issue_ids, final_bug_report_file_ranks_writer, final_query_replacement_file_ranks_writer, 
-                final_query_expansion_file_ranks_writer, matched_file, 
-                matched_ranks_folder, not_matched_ranks_folder, ns.getString("operations"));
+            merge_and_update_file_ranks(bug_issue_ids, final_bug_report_file_ranks_writer, final_query_replacement_file_ranks_writer,
+                    final_query_expansion_file_ranks_writer, matched_file,
+                    matched_ranks_folder, not_matched_ranks_folder, ns.getString("operations"));
             final_result_writer.close();
             final_bug_report_file_ranks_writer.close();
             final_query_replacement_file_ranks_writer.close();
@@ -821,34 +837,34 @@ public class MainClass {
             String corpus_path = "Screen-" + ns.getString("screen") + "/" + "Corpus-" + "All_Java_Files";
             String boosting_path = corpus_path + "/Boosting-" + ns.getString("boosting");
 
-            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "MathedQueryFiles", 
-                ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"), 
-                ns.getString("buggy_project_dir"), ns.getString("prep_code_path"), 
-                prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));
+            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "MathedQueryFiles",
+                    ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"),
+                    ns.getString("buggy_project_dir"), ns.getString("prep_code_path"),
+                    prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));
 
-            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "NotMathedQueryFiles", 
-                ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"), 
-                ns.getString("buggy_project_dir"), ns.getString("prep_code_path"), 
-                prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));
+            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "NotMathedQueryFiles",
+                    ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"),
+                    ns.getString("buggy_project_dir"), ns.getString("prep_code_path"),
+                    prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));
 
             String final_ranks_file = ns.getString("final_ranks_folder") + "/" + ns.getString("operations") + "#Screen-" + ns.getString("screen") + "#Boosting-" + ns.getString("boosting") + "#Query_Reformulation-" + ns.getString("query_reformulation") + ".csv";
             String final_bug_report_file_ranks_file = ns.getString("final_ranks_folder") + "/" + ns.getString("operations") + "#Screen-" + ns.getString("screen") + "#Boosting-" + ns.getString("boosting") + "#Query_Reformulation-" + ns.getString("query_reformulation") + "-files-bug-report.csv";
             String final_query_replacement_file_ranks_file = ns.getString("final_ranks_folder") + "/" + ns.getString("operations") + "#Screen-" + ns.getString("screen") + "#Boosting-" + ns.getString("boosting") + "#Query_Reformulation-" + ns.getString("query_reformulation") + "-files-query-replacement.csv";
             String final_query_expansion_file_ranks_file = ns.getString("final_ranks_folder") + "/" + ns.getString("operations") + "#Screen-" + ns.getString("screen") + "#Boosting-" + ns.getString("boosting") + "#Query_Reformulation-" + ns.getString("query_reformulation") + "-files-query-expansion.csv";
-            
+
             String matched_file = ns.getString("filtered_boosted_filenames") + "/" + boosting_path + "/Match_Query_File_List.csv";
             String matched_ranks_folder = ns.getString("result") + "/" + boosting_path + "/QueryReformulation-" + ns.getString("query_reformulation") + "/" + "MathedQueryFiles";
             String not_matched_ranks_folder = ns.getString("result") + "/" + boosting_path + "/QueryReformulation-" + ns.getString("query_reformulation") + "/" + "NotMathedQueryFiles";
 
             CSVWriter final_result_writer = create_final_result_header(final_ranks_file);
-            merge_query_matching_ranks(bug_issue_ids, final_result_writer, matched_file, 
-                matched_ranks_folder, not_matched_ranks_folder, ns.getString("operations"));
+            merge_query_matching_ranks(bug_issue_ids, final_result_writer, matched_file,
+                    matched_ranks_folder, not_matched_ranks_folder, ns.getString("operations"));
             CSVWriter final_bug_report_file_ranks_writer = create_final_file_ranks_header(final_bug_report_file_ranks_file);
             CSVWriter final_query_replacement_file_ranks_writer = create_final_file_ranks_header(final_query_replacement_file_ranks_file);
             CSVWriter final_query_expansion_file_ranks_writer = create_final_file_ranks_header(final_query_expansion_file_ranks_file);
-            merge_and_update_file_ranks(bug_issue_ids, final_bug_report_file_ranks_writer, final_query_replacement_file_ranks_writer, 
-                final_query_expansion_file_ranks_writer, matched_file, 
-                matched_ranks_folder, not_matched_ranks_folder, ns.getString("operations"));
+            merge_and_update_file_ranks(bug_issue_ids, final_bug_report_file_ranks_writer, final_query_replacement_file_ranks_writer,
+                    final_query_expansion_file_ranks_writer, matched_file,
+                    matched_ranks_folder, not_matched_ranks_folder, ns.getString("operations"));
             final_result_writer.close();
             final_bug_report_file_ranks_writer.close();
             final_query_replacement_file_ranks_writer.close();
@@ -857,65 +873,65 @@ public class MainClass {
             String corpus_path = "Screen-" + ns.getString("screen") + "/" + "Corpus-" + ns.getString("filtering");
             String boosting_path = corpus_path + "/Boosting-" + ns.getString("boosting");
 
-            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "MathedQueryFiles", 
-                ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"), 
-                ns.getString("buggy_project_dir"), ns.getString("prep_code_path"), 
-                prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));
+            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "MathedQueryFiles",
+                    ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"),
+                    ns.getString("buggy_project_dir"), ns.getString("prep_code_path"),
+                    prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));
 
-            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "NotMathedQueryFiles", 
-                ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"), 
-                ns.getString("buggy_project_dir"), ns.getString("prep_code_path"), 
-                prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));
+            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "NotMathedQueryFiles",
+                    ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"),
+                    ns.getString("buggy_project_dir"), ns.getString("prep_code_path"),
+                    prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));
 
             String final_ranks_file = ns.getString("final_ranks_folder") + "/" + ns.getString("operations") + "#Screen-" + ns.getString("screen") + "#Filtering-" + ns.getString("filtering") + "#Boosting-" + ns.getString("boosting") + "#Query_Reformulation-" + ns.getString("query_reformulation") + ".csv";
             String final_bug_report_file_ranks_file = ns.getString("final_ranks_folder") + "/" + ns.getString("operations") + "#Screen-" + ns.getString("screen") + "#Filtering-" + ns.getString("filtering") + "#Boosting-" + ns.getString("boosting") + "#Query_Reformulation-" + ns.getString("query_reformulation") + "-files-bug-report.csv";
             String final_query_replacement_file_ranks_file = ns.getString("final_ranks_folder") + "/" + ns.getString("operations") + "#Screen-" + ns.getString("screen") + "#Filtering-" + ns.getString("filtering") + "#Boosting-" + ns.getString("boosting") + "#Query_Reformulation-" + ns.getString("query_reformulation") + "-files-query-replacement.csv";
             String final_query_expansion_file_ranks_file = ns.getString("final_ranks_folder") + "/" + ns.getString("operations") + "#Screen-" + ns.getString("screen") + "#Filtering-" + ns.getString("filtering") + "#Boosting-" + ns.getString("boosting") + "#Query_Reformulation-" + ns.getString("query_reformulation") + "-files-query-expansion.csv";
-            
+
             String matched_file = ns.getString("filtered_boosted_filenames") + "/" + boosting_path + "/Match_Query_File_List.csv";
             String matched_ranks_folder = ns.getString("result") + "/" + boosting_path + "/QueryReformulation-" + ns.getString("query_reformulation") + "/" + "MathedQueryFiles";
             String not_matched_ranks_folder = ns.getString("result") + "/" + boosting_path + "/QueryReformulation-" + ns.getString("query_reformulation") + "/" + "NotMathedQueryFiles";
 
             CSVWriter final_result_writer = create_final_result_header(final_ranks_file);
-            merge_query_matching_ranks(bug_issue_ids, final_result_writer, matched_file, 
-                matched_ranks_folder, not_matched_ranks_folder, ns.getString("operations"));
+            merge_query_matching_ranks(bug_issue_ids, final_result_writer, matched_file,
+                    matched_ranks_folder, not_matched_ranks_folder, ns.getString("operations"));
 
             CSVWriter final_bug_report_file_ranks_writer = create_final_file_ranks_header(final_bug_report_file_ranks_file);
             CSVWriter final_query_replacement_file_ranks_writer = create_final_file_ranks_header(final_query_replacement_file_ranks_file);
             CSVWriter final_query_expansion_file_ranks_writer = create_final_file_ranks_header(final_query_expansion_file_ranks_file);
-            merge_and_update_file_ranks(bug_issue_ids, final_bug_report_file_ranks_writer, final_query_replacement_file_ranks_writer, 
-                final_query_expansion_file_ranks_writer, matched_file, 
-                matched_ranks_folder, not_matched_ranks_folder, ns.getString("operations"));
+            merge_and_update_file_ranks(bug_issue_ids, final_bug_report_file_ranks_writer, final_query_replacement_file_ranks_writer,
+                    final_query_expansion_file_ranks_writer, matched_file,
+                    matched_ranks_folder, not_matched_ranks_folder, ns.getString("operations"));
             final_result_writer.close();
             final_bug_report_file_ranks_writer.close();
             final_query_replacement_file_ranks_writer.close();
             final_query_expansion_file_ranks_writer.close();
         } else if (ns.getString("operations").equals("QueryReformulation")) {
             String corpus_path = "Screen-" + ns.getString("screen") + "/" + "Corpus-" + "All_Java_Files";
-            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), corpus_path, "FilteredFiles", 
-                ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"), 
-                ns.getString("buggy_project_dir"), ns.getString("prep_code_path"), 
-                prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));
+            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), corpus_path, "FilteredFiles",
+                    ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"),
+                    ns.getString("buggy_project_dir"), ns.getString("prep_code_path"),
+                    prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));
 
             String final_ranks_file = ns.getString("final_ranks_folder") + "/" + ns.getString("operations") + "#Screen-" + ns.getString("screen") + "#Query_Reformulation-" + ns.getString("query_reformulation") + ".csv";
             String final_bug_report_file_ranks_file = ns.getString("final_ranks_folder") + "/" + ns.getString("operations") + "#Screen-" + ns.getString("screen") + "#Query_Reformulation-" + ns.getString("query_reformulation") + "-files-bug-report.csv";
             String final_query_replacement_file_ranks_file = ns.getString("final_ranks_folder") + "/" + ns.getString("operations") + "#Screen-" + ns.getString("screen") + "#Query_Reformulation-" + ns.getString("query_reformulation") + "-files-query-replacement.csv";
             String final_query_expansion_file_ranks_file = ns.getString("final_ranks_folder") + "/" + ns.getString("operations") + "#Screen-" + ns.getString("screen") + "#Query_Reformulation-" + ns.getString("query_reformulation") + "-files-query-expansion.csv";
-            
+
             String matched_file = "";
             String matched_ranks_folder = ns.getString("result") + "/" + corpus_path + "/QueryReformulation-" + ns.getString("query_reformulation") + "/" + "FilteredFiles";
             String not_matched_ranks_folder = "";
 
             CSVWriter final_result_writer = create_final_result_header(final_ranks_file);
-            merge_query_matching_ranks(bug_issue_ids, final_result_writer, matched_file, 
-                matched_ranks_folder, not_matched_ranks_folder, ns.getString("operations"));
+            merge_query_matching_ranks(bug_issue_ids, final_result_writer, matched_file,
+                    matched_ranks_folder, not_matched_ranks_folder, ns.getString("operations"));
 
             CSVWriter final_bug_report_file_ranks_writer = create_final_file_ranks_header(final_bug_report_file_ranks_file);
             CSVWriter final_query_replacement_file_ranks_writer = create_final_file_ranks_header(final_query_replacement_file_ranks_file);
             CSVWriter final_query_expansion_file_ranks_writer = create_final_file_ranks_header(final_query_expansion_file_ranks_file);
-            merge_and_update_file_ranks(bug_issue_ids, final_bug_report_file_ranks_writer, final_query_replacement_file_ranks_writer, 
-                final_query_expansion_file_ranks_writer, matched_file, 
-                matched_ranks_folder, not_matched_ranks_folder, ns.getString("operations"));
+            merge_and_update_file_ranks(bug_issue_ids, final_bug_report_file_ranks_writer, final_query_replacement_file_ranks_writer,
+                    final_query_expansion_file_ranks_writer, matched_file,
+                    matched_ranks_folder, not_matched_ranks_folder, ns.getString("operations"));
             final_result_writer.close();
             final_bug_report_file_ranks_writer.close();
             final_query_replacement_file_ranks_writer.close();

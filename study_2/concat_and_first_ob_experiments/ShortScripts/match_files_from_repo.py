@@ -3,23 +3,22 @@ import pandas as pd
 import os, shutil
 import argparse
 
-
 class MatchFiles:
     def __init__(self, args):
         self.corpus_path = "Screen-" + args['screens'] + "/" + "Corpus-" + args['corpus']
         print(self.corpus_path)
-        if args['operations'] == 'Filtering+Boosting':
+        if args['operations']=='Filtering+Boosting':
             self.subpath = self.corpus_path + "/Boosting-" + args['query']
             self.filename_path = args['filtering_boosting_filenames'] + "/" + self.subpath
             self.updated_repo_path = args['filtered_boosted_repo'] + "/" + self.subpath
-        elif args['operations'] == 'Filtering':
+        elif args['operations']=='Filtering':
             self.filename_path = args['filtering_boosting_filenames'] + "/" + self.corpus_path
             self.updated_repo_path = args['filtered_boosted_repo'] + "/" + self.corpus_path
 
     def get_cur_java_files(self, parent_directory):
         all_files = []
 
-        for filename in sorted(glob.glob(f'{parent_directory}/**/*.java', recursive=True)):
+        for filename in sorted(glob.glob(f'{parent_directory}/**/*.java', recursive = True)):
             all_files.append(filename)
 
         return all_files
@@ -32,7 +31,7 @@ class MatchFiles:
 
     def get_ranked_files(self, bug_id, filename):
         file_list_df = pd.read_csv(filename)
-        files_for_bug_id = file_list_df.loc[file_list_df['Bug Report ID'] == int(bug_id), 'FilePaths'].values.tolist()
+        files_for_bug_id = file_list_df.loc[file_list_df['Bug Report ID']==int(bug_id), 'FilePaths'].values.tolist()
 
         return files_for_bug_id
 
@@ -161,19 +160,20 @@ class MatchFiles:
                               ("76", [41, 4, 7, 5]), ("8", [30, 41, 35, 34]), ("84", [1, 14, 10, 5]),
                               ("87", [33, 43, 12, 21]), ("92", [7, 5, 4, 27])]
 
+
         for issue_id, app_final_state in bug_ids_states:
             bug_id = issue_id
 
             all_java_files = self.get_all_java_files(bug_id)
 
-            if args['operations'] == 'Filtering+Boosting':
+            if args['operations']=='Filtering+Boosting':
                 matched_files = self.get_files_on_query_matching(bug_id, "Match_Query_File_List.csv")
                 self.match_files_separated(all_java_files, matched_files, "MathedQueryFiles")
 
                 unmatched_files = self.get_files_on_query_matching(bug_id, "Not_Match_Query_File_List.csv")
                 self.match_files_separated(all_java_files, unmatched_files, "NotMathedQueryFiles")
 
-            elif args['operations'] == 'Filtering':
+            elif args['operations']=='Filtering':
                 files_corpus = self.get_files_on_query_matching(bug_id, "Files_In_Corpus.csv")
                 self.match_files_separated(all_java_files, files_corpus, "FilteredFiles")
 
@@ -181,16 +181,15 @@ class MatchFiles:
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('-c', '--corpus', help='Description for boosting', required=True)
+    parser.add_argument('-c','--corpus', help='Description for boosting', required=True)
     parser.add_argument('-s', '--screens', help='Number of screens', required=True)
     parser.add_argument('-q', '--query', help='Description for query', required=False)
     parser.add_argument('-bpd', '--buggy_project_dir', help='Buggy Projects Directory', required=True)
     parser.add_argument('-fbfile', '--filtering_boosting_filenames', help='Filtering Boosting Filenames', required=True)
     parser.add_argument('-fbr', '--filtered_boosted_repo', help='Filtered Boosted Repos', required=True)
-    parser.add_argument('-bpdcsv', '--buggy_project_dir_in_csv', help='Buggy Projects Directory Path in CSV',
-                        required=True)
-    parser.add_argument('-ops', '--operations', help='Operations', required=True)
-    parser.add_argument('-en', '--exp_name', help='Experiment Name', required=True)
+    parser.add_argument('-bpdcsv', '--buggy_project_dir_in_csv', help='Buggy Projects Directory Path in CSV', required=True)
+    parser.add_argument('-ops','--operations', help='Operations', required=True)
+    parser.add_argument('-en','--exp_name', help='Experiment Name', required=True)
 
     args = vars(parser.parse_args())
 

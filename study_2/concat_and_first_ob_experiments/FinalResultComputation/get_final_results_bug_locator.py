@@ -6,19 +6,8 @@ import json
 import numpy as np
 import os
 import glob
-
-"""
-List of experiments:
-1. Concat-OB-3-Screens: Conduct Bug Localization (Study 2) using top 3 screens from Buggy UI Localization (Study 1) with concat OB
-2. Concat-OB-4-Screens: Conduct Bug Localization (Study 2) using top 4 screens from Buggy UI Localization (Study 1) with concat OB
-3. First-OB-3-Screens: Conduct Bug Localization (Study 2) using top 3 screens from Buggy UI Localization (Study 1) with first OB
-4. First-OB-4-Screens: Conduct Bug Localization (Study 2) using top 4 screens from Buggy UI Localization (Study 1) with first OB
-"""
-
-# TODO: Change the experiment name for each experiment
-exp_name = "Concat-OB-4-Screens"
-# TODO: Update for each experiment
-screen_list = ["4"]
+import re
+import sys
 
 
 def write_to_csv(write_file, row):
@@ -102,7 +91,7 @@ def calculate_final_metric_values_file_level_for_bug_id(ranks, K, bug_id):
     return rr_K, hit_K, ap_K
 
 
-# Calculate mean receiprocal rank@K (MRR@K)
+# Calculate mean reciprocal rank@K (MRR@K)
 def calculate_RR(ranks, K):
     first_rank = 0
     for rank in ranks:
@@ -189,15 +178,14 @@ def get_file_content(file_name):
 
 def remove_ranks_blank_text(bug_id, query_reformulation_gui, col_name, screen, prep_query_dataset):
     query_reformulation_type_name = ""
-    if col_name == "Ranks (Query-Bug Report)":
+    if col_name == "Ranks (Query-Bug Report)" or col_name == "Ranks-unsorted (Query-Bug Report)" or col_name == "Files (Query-Bug Report)":
         query_reformulation_type_name = "bug_report_original"
-    elif col_name == "Ranks (Query Replacement)":
+    elif col_name == "Ranks (Query Replacement)" or col_name == "Ranks-unsorted (Query Replacement)" or col_name == "Files (Query Replacement)":
         query_reformulation_type_name = "replaced_query"
-    elif col_name == "Ranks (Query Expansion 1)":
+    elif col_name == "Ranks (Query Expansion 1)" or col_name == "Ranks-unsorted (Query Expansion 1)" or col_name == "Files (Query Expansion 1)":
         query_reformulation_type_name = "query_expansion_1"
 
-    # TODO: Change the path
-    bug_report_contents_file = "../data/PreprocessedDataNew/" + prep_query_dataset + "/Screen-" + screen + "/Preprocessed_with_" + query_reformulation_gui + "/" + query_reformulation_type_name + "/bug_report_" + bug_id + ".txt"
+    bug_report_contents_file = "../data/PreprocessedData/" + prep_query_dataset + "/Screen-" + screen + "/Preprocessed_with_" + query_reformulation_gui + "/" + query_reformulation_type_name + "/bug_" + bug_id + ".xml"
 
     bug_report_contents = get_file_content(bug_report_contents_file)
     if bug_report_contents is None or len(bug_report_contents) < 1:
@@ -232,14 +220,26 @@ def get_ranklist(bug_report_ids, filename, query_reformulation_gui, col_name, sc
     return identified_bugs_count, ranklist
 
 
+def get_buggy_files_for_lucene(bug_report_ids, filename, query_reformulation_gui, col_name, screen, prep_query_dataset):
+    ranklist = []
+    for bug_id in bug_report_ids:
+        ranks = get_ranks(bug_id, filename, query_reformulation_gui, col_name, screen, prep_query_dataset)
+        if ranks is None or ranks != ranks:
+            ranklist.append([])
+        else:
+            ranklist.append(list(filter(None, re.split(r"[\[\], ]", ranks))))
+        # print(ranklist)
+    return ranklist
+
+
 def get_bug_report_ids():
     if screen_list[0] == "3":
         bug_report_ids = ["2", "1028", "8", "10", "11", "18", "19", "1563", "1568", "44", "45", "1073", "53", "54", "55",
-                                            "56", "1089", "71", "1096", "76", "84", "87", "92", "1640", "1641", "106", "1130", "1645", "110",
-                                            "117", "1146", "1147", "1150", "1151", "128", "129", "130", "135", "158", "159", "160", "162",
-                                            "168", "1198", "1202", "1205", "1207", "1213", "1214", "191", "192", "193", "1215", "1222", "199",
-                                            "200", "201", "1223", "1224", "1228", "206", "209", "248", "256", "271", "275", "1299", "1389",
-                                            "1399", "1402", "1403", "1406", "1425", "1428", "1430", "1441", "1445", "1446", "1481"]
+                          "56", "1089", "71", "1096", "76", "84", "87", "92", "1640", "1641", "106", "1130", "1645", "110",
+                          "117", "1146", "1147", "1150", "1151", "128", "129", "130", "135", "158", "159", "160", "162",
+                          "168", "1198", "1202", "1205", "1207", "1213", "1214", "191", "192", "193", "1215", "1222", "199",
+                          "200", "201", "1223", "1224", "1228", "206", "209", "248", "256", "271", "275", "1299", "1389",
+                          "1399", "1402", "1403", "1406", "1425", "1428", "1430", "1441", "1445", "1446", "1481"]
     elif screen_list[0] == "4":
         bug_report_ids = ["2", "8", "10", "18", "19", "44", "53", "117", "128", "129", "130", "135", "206", "209", "256",
                           "1073", "1096", "1202", "1207", "1214", "1215", "1224", "1299", "1399", "1430", "1441", "1481",
@@ -247,11 +247,6 @@ def get_bug_report_ids():
                           "1389", "1425", "1446", "1568", "71", "201", "1146", "1147", "1151", "1205", "1406", "1445", "45",
                           "106", "110", "168", "248", "1563", "1223", "1641", "55", "56", "1213", "1222", "1428", "84",
                           "87", "159", "193", "271", "275", "1028", "1089", "1130", "1402", "1403", "1640"]
-    return bug_report_ids
-
-
-def get_all_bug_report_ids():
-    bug_report_ids = get_bug_report_ids()
     return bug_report_ids
 
 
@@ -275,12 +270,9 @@ def get_result_row(rr_list, hit_list, ap_list, bug_report_ids):
     hit = get_average_metrics(hit_list)
     mrr = get_average_metrics(rr_list)
     map = get_average_metrics(ap_list)
-    # print(f"MRR: {mrr}")
-    # print(f"MAP: {map}")
 
     number_of_hits_10 = 0
     hit_10_list = []
-    # print("hit_list: ", hit_list)
     for i in range(len(hit_list)):
         if hit_list[i][9] == 1:
             number_of_hits_10 += 1
@@ -301,6 +293,7 @@ def get_result_row(rr_list, hit_list, ap_list, bug_report_ids):
     result_row.append(mrr[21])
     result_row.append(map[21])
     result_row.append(hit_10_list)
+
     return result_row
 
 
@@ -308,22 +301,6 @@ def metrics_result(rankList, bug_report_ids, K_values):
     rr_list, hit_list, ap_list = calulate_file_metrics_for_all_K(rankList, bug_report_ids, K_values)
     mertic_values = get_result_row(rr_list, hit_list, ap_list, bug_report_ids)
     return mertic_values
-
-
-def get_number_of_java_files(bug_report_ids):
-    filename = "Statistics/files_count.csv"
-    col_name = "# Java Files in Project"
-    ranklist_df = pd.read_csv(filename)
-
-    java_file_count_list = []
-    for bug_id in bug_report_ids:
-        java_file_count = ranklist_df.loc[ranklist_df['Bug Report ID'] == int(bug_id), col_name].values.tolist()
-        if java_file_count is None or len(java_file_count) < 1 or java_file_count != java_file_count:
-            java_file_count_list.append(0)
-        else:
-            java_file_count_list.append(java_file_count[0])
-
-    return java_file_count_list
 
 
 def write_to_ranks_file_baseline(filename, bug_report_ids, ranklist):
@@ -353,40 +330,109 @@ def get_filename(result_dir, screens, operations, filtering_gui, boosting_gui, q
 
 # This function will delete rank such as 0 from the list. This case happens for Lucene.
 # When a buggy file exist in the corpus but Lucene cannot identify it this case happens.
-def remove_invalid_ranks(ranklist):
+def remove_invalid_ranks(rankList_query, rankList_unsorted_query, rankList_buggy_files):
     filtered_ranklist = []
-    for ranks in ranklist:
+    filtered_ranklist_unsorted = []
+    filtered_ranklist_buggy_files = []
+
+    for i in range(len(rankList_unsorted_query)):
+        if rankList_unsorted_query[i] != 0:
+            filtered_ranklist_unsorted.append(rankList_unsorted_query[i])
+            filtered_ranklist_buggy_files.append(rankList_buggy_files[i])
+
+    for ranks in rankList_query:
         filtered_ranklist.append(list(filter(lambda item: item != 0, ranks)))
-    return filtered_ranklist
+
+    return filtered_ranklist, filtered_ranklist_unsorted, filtered_ranklist_buggy_files
 
 
 def write_header_for_approach_rankings(filename):
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
     with open(filename, 'w') as file:
         writer = csv.writer(file)
         writer.writerow(["Task", "GUI Info for Filtering", "GUI Info for Boosting", "GUI Info for Query Expansion",
                          "GUI Info for Query Replacement", "Number of Screens",
                          "Avg Best Ranks", "Number of Identified Bugs", "Number of identified buggy files",
-                         "Hit@1", "Hit@2", "Hit@3", "Hit@4", "Hit@5", "Hit@10", "Number of hits@10", "Avg Hit@10",
-                         "Hit@15", "Hit@20",
+                         "Hit@1", "Hit@2", "Hit@3", "Hit@4", "Hit@5", "Hit@10", "Number of hits@10", "Avg Hit@10", "Hit@15", "Hit@20",
                          "Avg Hit@20", "MRR", "MAP", "HIT@10 List"])
 
 
 def compute_ranklist_for_bug_report_ids(result_dir, operation, screen, filtering_gui, boosting_gui,
                                         query_reformulation_gui,
-                                        bug_report_ids, ref_type, prep_query_dataset):
-    row_values = []
-    K_values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 50]
+                                        bug_report_ids, ref_type, reformulation_unsorted_rank_type, files_col_name,
+                                        prep_query_dataset, approach_name):
     filename = get_filename(result_dir, screen, operation, filtering_gui, boosting_gui, query_reformulation_gui)
     print(filename)
     identified_bugs_count, rankList_query = get_ranklist(bug_report_ids, filename, query_reformulation_gui, ref_type,
                                                          screen, prep_query_dataset)
-    rankList_query = remove_invalid_ranks(rankList_query)
+    _, rankList_unsorted_query = get_ranklist(bug_report_ids, filename, query_reformulation_gui,
+                                              reformulation_unsorted_rank_type, screen, prep_query_dataset)
 
-    return identified_bugs_count, rankList_query
+    rankList_buggy_files = []
+    if approach_name != "Lucene":
+        _, rankList_buggy_files = get_ranklist(bug_report_ids, filename, query_reformulation_gui, files_col_name,
+                                               screen, prep_query_dataset)
+    else:
+        rankList_buggy_files = get_buggy_files_for_lucene(bug_report_ids, filename, query_reformulation_gui,
+                                                          files_col_name, screen, prep_query_dataset)
+
+    rankList_query, rankList_unsorted_query, rankList_buggy_files = remove_invalid_ranks(rankList_query,
+                                                                                         rankList_unsorted_query,
+                                                                                         rankList_buggy_files)
+
+    return identified_bugs_count, rankList_query, rankList_unsorted_query, rankList_buggy_files
+
+
+def ranks_header(filename):
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
+    with open(filename, 'w') as file:
+        writer = csv.writer(file)
+        writer.writerow(["Bug Report ID", "Ranks-unsorted", "Ranks", "Files"])
+
+
+def write_ranks_for_each_config(ranks_folder, filename_info, bug_report_ids, rankList_unsorted, rankList,
+                                rankList_buggy_files):
+    result_file = ranks_folder + "/" + filename_info[0] + "#Filtering-" + filename_info[1] + "#Boosting-" + \
+                  filename_info[2] + "#Query_Expansion-" + filename_info[3] + "#Query_Replacement-" + filename_info[
+                      4] + "#Screen-" + filename_info[5] + ".csv"
+    ranks_header(result_file)
+
+    for i in range(len(bug_report_ids)):
+        ranks_row = []
+        ranks_row.append(bug_report_ids[i])
+        ranks_row.append(rankList_unsorted[i])
+        ranks_row.append(rankList[i])
+        ranks_row.append(rankList_buggy_files[i])
+        write_to_csv(result_file, ranks_row)
+
+
+def file_ranks_header(filename):
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
+    with open(filename, 'w') as file:
+        writer = csv.writer(file)
+        writer.writerow(["Bug Report ID", "File", "Rank"])
+
+
+def write_individual_files_ranks(file_ranks_folder, filename_info, bug_report_ids, rankList_unsorted,
+                                 rankList_buggy_files):
+    result_file = file_ranks_folder + "/" + filename_info[0] + "#Filtering-" + filename_info[1] + "#Boosting-" + \
+                  filename_info[2] + "#Query_Expansion-" + filename_info[3] + "#Query_Replacement-" + filename_info[
+                      4] + "#Screen-" + filename_info[5] + ".csv"
+    file_ranks_header(result_file)
+
+    for i in range(len(bug_report_ids)):
+        for j in range(len(rankList_unsorted[i])):
+            rank_row = []
+            rank_row.append(bug_report_ids[i])
+            rank_row.append(rankList_buggy_files[i][j])
+            rank_row.append(rankList_unsorted[i][j])
+            write_to_csv(result_file, rank_row)
 
 
 def get_result_for_each_row(operation, filtering_gui, boosting_gui, query_reformulation_gui, screen,
-                            reformulation_rank_type, reformulation_type, result_dir):
+                            reformulation_rank_type, reformulation_unsorted_rank_type, files_col_name,
+                            reformulation_type, result_dir, final_ranks_folder, file_ranks_folder, approach_name):
+    # K_values = [1, 5, 10, 15, 20, 50]
     K_values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 50]
     bug_report_ids = get_bug_report_ids()
     all_bug_report_ids = get_bug_report_ids()
@@ -420,15 +466,23 @@ def get_result_for_each_row(operation, filtering_gui, boosting_gui, query_reform
     else:
         row.append(screen)
 
-    identified_bugs_count_1st, rankList_query_1st = compute_ranklist_for_bug_report_ids(result_dir, operation, screen,
-                                                                                        filtering_gui,
-                                                                                        boosting_gui,
-                                                                                        query_reformulation_gui,
-                                                                                        bug_report_ids,
-                                                                                        reformulation_rank_type,
-                                                                                        exp_name + "/Query")
+    filename_info = row
+
+    identified_bugs_count_1st, rankList_query_1st, rankList_unsorted_query_1st, rankList_buggy_files_1st = compute_ranklist_for_bug_report_ids(
+        result_dir, operation, screen, filtering_gui,
+        boosting_gui, query_reformulation_gui, bug_report_ids, reformulation_rank_type,
+        reformulation_unsorted_rank_type, files_col_name, "BugLocatorQuery-" + exp_name, approach_name)
 
     rankList_query = rankList_query_1st
+
+    rankList_unsorted_query = rankList_unsorted_query_1st
+
+    rankList_buggy_files = rankList_buggy_files_1st
+
+    write_ranks_for_each_config(final_ranks_folder, filename_info, all_bug_report_ids, rankList_unsorted_query,
+                                rankList_query, rankList_buggy_files)
+    write_individual_files_ranks(file_ranks_folder, filename_info, all_bug_report_ids, rankList_unsorted_query,
+                                 rankList_buggy_files)
 
     rankList_query_avg = get_best_ranklist_avg(rankList_query)
     total_identified_bugs = identified_bugs_count_1st
@@ -443,8 +497,14 @@ def get_result_for_each_row(operation, filtering_gui, boosting_gui, query_reform
 
 
 def main():
-    approach_name = "LUCENE"
-    result_dir = os.path.join('../results', 'LUCENE-' + exp_name)
+    approach_name = "BugLocator"
+    result_dir = os.path.join('../results', approach_name + "-" + exp_name)
+
+    final_ranks_folder = os.path.join(os.getcwd(), "FileRanks", "RanksAll", approach_name, exp_name)
+    os.makedirs(final_ranks_folder, exist_ok=True)
+
+    file_ranks_folder = os.path.join(os.getcwd(), "FileRanks", "FileRanksAll", approach_name, exp_name)
+    os.makedirs(file_ranks_folder, exist_ok=True)
 
     filtering_list = ["GUI_States", "All_GUI_Component_IDs", "GUI_State_and_All_GUI_Component_IDs"]
     boosting_list = ["GUI_States", "All_GUI_Component_IDs", "GUI_State_and_All_GUI_Component_IDs"]
@@ -452,55 +512,61 @@ def main():
     reformulation_types = ["Ranks (Query-Bug Report)", "Ranks (Query Replacement)", "Ranks (Query Expansion 1)"]
     reformulation_cols = ["BR", "QR", "QE"]
 
-    metric_file = "FinalResults/" + approach_name + "-" + exp_name + ".csv"
+    metric_file = "../FinalResults/BugLocator/" + approach_name + "-" + exp_name + ".csv"
     write_header_for_approach_rankings(metric_file)
 
     # Filtering
     for filtering_gui in filtering_list:
         for screen in screen_list:
             row = get_result_for_each_row("Filtering", filtering_gui, "", "GUI_States", screen,
-                                          "Ranks (Query-Bug Report)",
-                                          "BR", result_dir)
+                                          "Ranks (Query-Bug Report)", "Ranks-unsorted (Query-Bug Report)",
+                                          "Files (Query-Bug Report)",
+                                          "BR", result_dir, final_ranks_folder, file_ranks_folder, approach_name)
             write_to_csv(metric_file, row)
     for query_reformulation_gui in query_reformulation_list:
         for filtering_gui in filtering_list:
             for screen in screen_list:
                 row = get_result_for_each_row("Filtering", filtering_gui, "", query_reformulation_gui, screen,
-                                              "Ranks (Query Expansion 1)",
-                                              "QE", result_dir)
+                                              "Ranks (Query Expansion 1)", "Ranks-unsorted (Query Expansion 1)",
+                                              "Files (Query Expansion 1)",
+                                              "QE", result_dir, final_ranks_folder, file_ranks_folder, approach_name)
                 write_to_csv(metric_file, row)
     for query_reformulation_gui in query_reformulation_list:
         for filtering_gui in filtering_list:
             for screen in screen_list:
                 row = get_result_for_each_row("Filtering", filtering_gui, "", query_reformulation_gui, screen,
-                                              "Ranks (Query Replacement)",
-                                              "QR", result_dir)
+                                              "Ranks (Query Replacement)", "Ranks-unsorted (Query Replacement)",
+                                              "Files (Query Replacement)",
+                                              "QR", result_dir, final_ranks_folder, file_ranks_folder, approach_name)
                 write_to_csv(metric_file, row)
 
     # Boosting
     for boosting_gui in boosting_list:
         for screen in screen_list:
             row = get_result_for_each_row("Boosting", "", boosting_gui, "GUI_States", screen,
-                                          "Ranks (Query-Bug Report)",
-                                          "BR", result_dir)
+                                          "Ranks (Query-Bug Report)", "Ranks-unsorted (Query-Bug Report)",
+                                          "Files (Query-Bug Report)",
+                                          "BR", result_dir, final_ranks_folder, file_ranks_folder, approach_name)
             write_to_csv(metric_file, row)
     for query_reformulation_gui in query_reformulation_list:
         for boosting_gui in boosting_list:
             for screen in screen_list:
                 row = get_result_for_each_row("Boosting", "", boosting_gui, query_reformulation_gui, screen,
-                                              "Ranks (Query Expansion 1)",
-                                              "QE", result_dir)
+                                              "Ranks (Query Expansion 1)", "Ranks-unsorted (Query Expansion 1)",
+                                              "Files (Query Expansion 1)",
+                                              "QE", result_dir, final_ranks_folder, file_ranks_folder, approach_name)
                 write_to_csv(metric_file, row)
     for query_reformulation_gui in query_reformulation_list:
         for boosting_gui in boosting_list:
             for screen in screen_list:
                 row = get_result_for_each_row("Boosting", "", boosting_gui, query_reformulation_gui, screen,
-                                              "Ranks (Query Replacement)",
-                                              "QR", result_dir)
+                                              "Ranks (Query Replacement)", "Ranks-unsorted (Query Replacement)",
+                                              "Files (Query Replacement)",
+                                              "QR", result_dir, final_ranks_folder, file_ranks_folder, approach_name)
                 write_to_csv(metric_file, row)
 
     # For Filtering+Boosting
-    # Changed the range (it was  2)
+    # Changed the range (it was  1)
     for i in range(0, len(filtering_list)):
         for l in range(len(screen_list)):
             boosting_gui_type = []
@@ -514,11 +580,12 @@ def main():
             for j in range(len(boosting_gui_type)):
                 row = get_result_for_each_row("Filtering+Boosting", filtering_list[i], boosting_gui_type[j],
                                               "GUI_States", screen_list[l], "Ranks (Query-Bug Report)",
-                                              "BR", result_dir)
+                                              "Ranks-unsorted (Query-Bug Report)", "Files (Query-Bug Report)",
+                                              "BR", result_dir, final_ranks_folder, file_ranks_folder, approach_name)
                 write_to_csv(metric_file, row)
 
     for k in range(len(query_reformulation_list)):
-        # Changed the range (it was  2)
+        # Changed the range (it was  1)
         for i in range(0, len(filtering_list)):
             for l in range(len(screen_list)):
                 boosting_gui_type = []
@@ -532,7 +599,10 @@ def main():
                 for j in range(len(boosting_gui_type)):
                     row = get_result_for_each_row("Filtering+Boosting", filtering_list[i], boosting_gui_type[j],
                                                   query_reformulation_list[k],
-                                                  screen_list[l], "Ranks (Query Expansion 1)", "QE", result_dir)
+                                                  screen_list[l], "Ranks (Query Expansion 1)",
+                                                  "Ranks-unsorted (Query Expansion 1)", "Files (Query Expansion 1)",
+                                                  "QE", result_dir, final_ranks_folder, file_ranks_folder,
+                                                  approach_name)
                     write_to_csv(metric_file, row)
 
     for k in range(len(query_reformulation_list)):
@@ -550,28 +620,48 @@ def main():
                 for j in range(len(boosting_gui_type)):
                     row = get_result_for_each_row("Filtering+Boosting", filtering_list[i], boosting_gui_type[j],
                                                   query_reformulation_list[k],
-                                                  screen_list[l], "Ranks (Query Replacement)", "QR", result_dir)
+                                                  screen_list[l], "Ranks (Query Replacement)",
+                                                  "Ranks-unsorted (Query Replacement)", "Files (Query Replacement)",
+                                                  "QR", result_dir, final_ranks_folder, file_ranks_folder,
+                                                  approach_name)
                     write_to_csv(metric_file, row)
 
     # For query_reformulation
     for l in range(len(screen_list)):
         row = get_result_for_each_row("QueryReformulation", "", "", "GUI_States", screen_list[l],
-                                      "Ranks (Query-Bug Report)",
-                                      "BR", result_dir)
+                                      "Ranks (Query-Bug Report)", "Ranks-unsorted (Query-Bug Report)",
+                                      "Files (Query-Bug Report)",
+                                      "BR", result_dir, final_ranks_folder, file_ranks_folder, approach_name)
         write_to_csv(metric_file, row)
     for k in range(len(query_reformulation_list)):
         for l in range(len(screen_list)):
             row = get_result_for_each_row("QueryReformulation", "", "", query_reformulation_list[k], screen_list[l],
-                                          "Ranks (Query Expansion 1)",
-                                          "QE", result_dir)
+                                          "Ranks (Query Expansion 1)", "Ranks-unsorted (Query Expansion 1)",
+                                          "Files (Query Expansion 1)",
+                                          "QE", result_dir, final_ranks_folder, file_ranks_folder, approach_name)
             write_to_csv(metric_file, row)
     for k in range(len(query_reformulation_list)):
         for l in range(len(screen_list)):
             row = get_result_for_each_row("QueryReformulation", "", "", query_reformulation_list[k], screen_list[l],
-                                          "Ranks (Query Replacement)",
-                                          "QR", result_dir)
+                                          "Ranks (Query Replacement)", "Ranks-unsorted (Query Replacement)",
+                                          "Files (Query Replacement)",
+                                          "QR", result_dir, final_ranks_folder, file_ranks_folder, approach_name)
             write_to_csv(metric_file, row)
 
 
 if __name__ == "__main__":
-    main()
+    """
+    List of experiments:
+    1. Concat-OB-3-Screens: Conduct Bug Localization (Study 2) using top 3 screens from Buggy UI Localization (Study 1) with concat OB
+    2. Concat-OB-4-Screens: Conduct Bug Localization (Study 2) using top 4 screens from Buggy UI Localization (Study 1) with concat OB
+    3. First-OB-3-Screens: Conduct Bug Localization (Study 2) using top 3 screens from Buggy UI Localization (Study 1) with first OB
+    4. First-OB-4-Screens: Conduct Bug Localization (Study 2) using top 4 screens from Buggy UI Localization (Study 1) with first OB
+    """
+
+    exp_names = ["Concat-OB-3-Screens", "Concat-OB-4-Screens", "First-OB-3-Screens", "First-OB-4-Screens"]
+    for exp_name in exp_names:
+        if exp_name == "Concat-OB-3-Screens" or exp_name == "First-OB-3-Screens":
+            screen_list = ["3"]
+        elif exp_name == "Concat-OB-4-Screens" or exp_name == "First-OB-4-Screens":
+            screen_list = ["4"]
+        main(exp_name, screen_list)

@@ -57,24 +57,24 @@ public class MainClass {
     }
 
     public static void listf(String directoryName, List<File> files) {
-	    File directory = new File(directoryName);
-	
-	    // Get all files from a directory.
-	    File[] fList = directory.listFiles();
-	    if(fList != null) {
-	        for (File file : fList) {      
-	            if (file.isFile()) {
-                    
+        File directory = new File(directoryName);
+
+        // Get all files from a directory.
+        File[] fList = directory.listFiles();
+        if(fList != null) {
+            for (File file : fList) {
+                if (file.isFile()) {
+
                     String extension = getFileExtension(file);
                     if(extension.equals(".java")) {
-                    	files.add(file);
+                        files.add(file);
                     }
-	            } else if (file.isDirectory()) {
-	                listf(file.getAbsolutePath(), files);
-	            }
-	        }
-	    }
-	}
+                } else if (file.isDirectory()) {
+                    listf(file.getAbsolutePath(), files);
+                }
+            }
+        }
+    }
 
 
     private static List<String> get_buggy_java_files(String bug_id) {
@@ -105,39 +105,39 @@ public class MainClass {
         }
         return buggy_file_list;
     }
-    
+
     private static boolean isBuggy(List<String> buggy_file_list, String filename) {
-    	for (int i=0;i<buggy_file_list.size();i++) {
-    		if (buggy_file_list.get(i).equals(filename)) {
-    			return true;
-    		}
-    	}
-    	return false;
+        for (int i=0;i<buggy_file_list.size();i++) {
+            if (buggy_file_list.get(i).equals(filename)) {
+                return true;
+            }
+        }
+        return false;
     }
 
 
     private static List<String> getFiles(String bugID, String csvFile) throws Exception {
-    	List<String> files = new ArrayList<String>();
-		try {
-			//csv file containing data
-			String strFile = csvFile;
-			CSVReader reader = new CSVReader(new FileReader(strFile));
-			String [] nextLine;
-			int lineNumber = 0;
-			while ((nextLine = reader.readNext()) != null) {
-				lineNumber++;
-				//System.out.println("Line # " + lineNumber);
+        List<String> files = new ArrayList<String>();
+        try {
+            //csv file containing data
+            String strFile = csvFile;
+            CSVReader reader = new CSVReader(new FileReader(strFile));
+            String [] nextLine;
+            int lineNumber = 0;
+            while ((nextLine = reader.readNext()) != null) {
+                lineNumber++;
+                //System.out.println("Line # " + lineNumber);
 
-				// nextLine[] is an array of values from the line
-				//System.out.println(nextLine[0] + " " + nextLine[1] + "etc...");
-				if(bugID.equals(nextLine[0])) {
-					files.add(nextLine[1]);
-				}
-			}
-		} catch(Exception e) {
+                // nextLine[] is an array of values from the line
+                //System.out.println(nextLine[0] + " " + nextLine[1] + "etc...");
+                if(bugID.equals(nextLine[0])) {
+                    files.add(nextLine[1]);
+                }
+            }
+        } catch(Exception e) {
             e.printStackTrace();
         }
-		return files;
+        return files;
     }
 
     public static List<String> removeDuplicates(List<String> myList)
@@ -151,74 +151,74 @@ public class MainClass {
                 set.add(myList.get(i));
             }
         }
-		return uniqueList;
+        return uniqueList;
     }
 
     private static String getActivitiesFragments(String bugID, String csvFile) throws Exception {
-    	List<String> queryItems = new ArrayList<String>();
-		try {
-			//csv file containing data
-			String strFile = csvFile;
-			CSVReader reader = new CSVReader(new FileReader(strFile));
-			String [] nextLine;
-			int lineNumber = 0;
-			while ((nextLine = reader.readNext()) != null) {
-				lineNumber++;
+        List<String> queryItems = new ArrayList<String>();
+        try {
+            //csv file containing data
+            String strFile = csvFile;
+            CSVReader reader = new CSVReader(new FileReader(strFile));
+            String [] nextLine;
+            int lineNumber = 0;
+            while ((nextLine = reader.readNext()) != null) {
+                lineNumber++;
 
-				if(bugID.equals(nextLine[0])) {
-					String[] activity_splits = nextLine[1].split("[, \\[\\]']");
-					for(int i=0;i<activity_splits.length;i++) {
-						queryItems.add(activity_splits[i]);
-					}
+                if(bugID.equals(nextLine[0])) {
+                    String[] activity_splits = nextLine[1].split("[, \\[\\]']");
+                    for(int i=0;i<activity_splits.length;i++) {
+                        queryItems.add(activity_splits[i]);
+                    }
 
-					String[] fragment_splits = nextLine[2].split("[, \\[\\]']");
-					for(int i=0;i<fragment_splits.length;i++) {
-						queryItems.add(fragment_splits[i]);
-					}
-				}
-			}
-		} catch(Exception e) {
+                    String[] fragment_splits = nextLine[2].split("[, \\[\\]']");
+                    for(int i=0;i<fragment_splits.length;i++) {
+                        queryItems.add(fragment_splits[i]);
+                    }
+                }
+            }
+        } catch(Exception e) {
             e.printStackTrace();
         }
 
         queryItems = removeDuplicates(queryItems);
-		return String.join(" ", queryItems);
+        return String.join(" ", queryItems);
     }
 
     private static String getActivitiesFragmentsInteractedIDs(String bugID, String csvFile) throws Exception {
-    	List<String> queryItems = new ArrayList<String>();
-		try {
-			//csv file containing data
-			String strFile = csvFile;
-			CSVReader reader = new CSVReader(new FileReader(strFile));
-			String [] nextLine;
-			int lineNumber = 0;
-			while ((nextLine = reader.readNext()) != null) {
-				lineNumber++;
+        List<String> queryItems = new ArrayList<String>();
+        try {
+            //csv file containing data
+            String strFile = csvFile;
+            CSVReader reader = new CSVReader(new FileReader(strFile));
+            String [] nextLine;
+            int lineNumber = 0;
+            while ((nextLine = reader.readNext()) != null) {
+                lineNumber++;
 
-				if(bugID.equals(nextLine[0])) {
-					String[] activity_splits = nextLine[1].split("[, \\[\\]']");
-					for(int i=0;i<activity_splits.length;i++) {
-						queryItems.add(activity_splits[i]);
-					}
+                if(bugID.equals(nextLine[0])) {
+                    String[] activity_splits = nextLine[1].split("[, \\[\\]']");
+                    for(int i=0;i<activity_splits.length;i++) {
+                        queryItems.add(activity_splits[i]);
+                    }
 
-					String[] fragment_splits = nextLine[2].split("[, \\[\\]']");
-					for(int i=0;i<fragment_splits.length;i++) {
-						queryItems.add(fragment_splits[i]);
-					}
+                    String[] fragment_splits = nextLine[2].split("[, \\[\\]']");
+                    for(int i=0;i<fragment_splits.length;i++) {
+                        queryItems.add(fragment_splits[i]);
+                    }
 
-					String[] interacted_component_splits = nextLine[3].split("[, \\[\\]']");
-					for(int i=0;i<interacted_component_splits.length;i++) {
-						queryItems.add(interacted_component_splits[i]);
-					}
-				}
-			}
-		} catch(Exception e) {
+                    String[] interacted_component_splits = nextLine[3].split("[, \\[\\]']");
+                    for(int i=0;i<interacted_component_splits.length;i++) {
+                        queryItems.add(interacted_component_splits[i]);
+                    }
+                }
+            }
+        } catch(Exception e) {
             e.printStackTrace();
         }
 
         queryItems = removeDuplicates(queryItems);
-		return String.join(" ", queryItems);
+        return String.join(" ", queryItems);
     }
 
     private static String getInteractedIDs(String bugID, String csvFile) throws Exception {
@@ -294,7 +294,7 @@ public class MainClass {
             int lineNumber = 0;
             while ((nextLine = reader.readNext()) != null) {
                 lineNumber++;
- 
+
                 if(bugID.equals(nextLine[0])) {
                     String[] all_component_splits = nextLine[4].split("[, \\[\\]']");
                     for(int i=0;i<all_component_splits.length;i++) {
@@ -312,18 +312,18 @@ public class MainClass {
 
     private static void write_to_text_file(String filename, String content) {
         try {
-          FileWriter myWriter = new FileWriter(filename);
-          myWriter.write(content);
-          myWriter.close();
-          // System.out.println("Successfully wrote to the file.");
+            FileWriter myWriter = new FileWriter(filename);
+            myWriter.write(content);
+            myWriter.close();
+            // System.out.println("Successfully wrote to the file.");
         } catch (IOException e) {
-          System.out.println("An error occurred.");
-          e.printStackTrace();
+            System.out.println("An error occurred.");
+            e.printStackTrace();
         }
     }
 
-    private static void processResults(List<String> stopWords, String bugID, List<String>codeFileContent, 
-    	List<String>codeFileNameList, CSVWriter writer) throws Exception{
+    private static void processResults(List<String> stopWords, String bugID, List<String>codeFileContent,
+                                       List<String>codeFileNameList, CSVWriter writer) throws Exception{
         //preprocess files
         List<String> preprocessedCodeDocuments =
                 codeFileContent.stream().map(text -> preprocessText(text, stopWords))
@@ -332,7 +332,7 @@ public class MainClass {
         List<RetrievalDoc> corpus = IntStream.range(0, preprocessedCodeDocuments.size())
                 .mapToObj(i -> {
                     String docText = preprocessedCodeDocuments.get(i);
-                    
+
                     if (StringUtils.isBlank(docText)) return null;
                     int docId = i;
                     String docName = codeFileNameList.get(i);
@@ -394,7 +394,7 @@ public class MainClass {
         write_to_text_file(queryExpansion3File, preprocessedQueryExpansion3);
     }
 
-     private static void processBugReportTitle(String bugID, String bugReportContent, List<String> stopWords, String preprocessDataFolder) {
+    private static void processBugReportTitle(String bugID, String bugReportContent, List<String> stopWords, String preprocessDataFolder) {
         String preprocessedBugReport = preprocessText(bugReportContent, stopWords);
         Query query = new Query(1, preprocessedBugReport);
 
@@ -451,9 +451,9 @@ public class MainClass {
                 List<File> files = new ArrayList<File>();
                 listf(path,files);
                 for(int i=0;i<files.size();i++) {
-                	codeFileNameList.add(files.get(i).toString());
-                	String content = FileUtils.readFileToString(files.get(i), StandardCharsets.UTF_8);
-                	codeFileContent.add(content);
+                    codeFileNameList.add(files.get(i).toString());
+                    String content = FileUtils.readFileToString(files.get(i), StandardCharsets.UTF_8);
+                    codeFileContent.add(content);
                 }
 
                 processResults(stopWords, bug_issue_ids.get(b_index), codeFileContent, codeFileNameList, writer);
@@ -465,15 +465,15 @@ public class MainClass {
 
                 processBugReportTitle(bug_issue_ids.get(b_index), bugReportTitle, stopWords, ns.getString("preprocess_data") + "/" + screen_path);
             }
-    
-	        else if (ns.getString("content_type").equals("Content")) {
+
+            else if (ns.getString("content_type").equals("Content")) {
                 //bug report
                 String bugReportFilePath = ns.getString("bug_reports") + "/bug_report_" + bug_issue_ids.get(b_index) + ".txt";
                 String bugReportContent = FileUtils.readFileToString(new File(bugReportFilePath), StandardCharsets.UTF_8);
                 // System.out.println(bugReportFilePath);
 
                 List<String> query_types = new ArrayList<String>(Arrays.asList("GUI_States", "Interacted_GUI_Component_IDs", "GUI_State_and_Interacted_GUI_Component_IDs",
-                     "All_GUI_Component_IDs", "GUI_State_and_All_GUI_Component_IDs"));
+                        "All_GUI_Component_IDs", "GUI_State_and_All_GUI_Component_IDs"));
 
                 //List<String> query_types = new ArrayList<String>(Arrays.asList("GUI_States", "All_GUI_Component_IDs", "GUI_State_and_All_GUI_Component_IDs"));
 

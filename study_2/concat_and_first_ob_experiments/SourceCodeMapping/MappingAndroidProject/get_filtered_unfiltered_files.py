@@ -64,8 +64,8 @@ class SoureCodeMapping:
         return filtered_files
 
     def main(self):
-        print(args['result'])
-        if args['result'] == 'Concat-OB-3-Screens':
+        # print(args['result'])
+        if args['exp_name'] == 'Concat-OB-3-Screens':
             bug_ids_states = [("2", [100, 89, 69]), ("8", [30, 41, 35]), ("10", [17, 64, 78]), ("18", [31, 14, 21]),
                               ("19", [8, 50, 33]), ("44", [18, 9, 26]), ("53", [19, 12, 73]), ("117", [11, 13, 15]),
                               ("128", [28, 47, 31]), ("129", [47, 46, 72]), ("130", [3, 4, 15]), ("135", [32, 15, 29]),
@@ -88,7 +88,7 @@ class SoureCodeMapping:
                               ("1028", [11, 12, 10]), ("1089", [14, 1, 5]), ("1130", [12, 1, 10]),
                               ("1402", [18, 4, 16]), ("1403", [1, 2, 5]), ("1640", [3, 6, 18])]
 
-        elif args['result'] == 'Concat-OB-4-Screens':
+        elif args['exp_name'] == 'Concat-OB-4-Screens':
             bug_ids_states = [("2", [100, 89, 69, 10]), ("8", [30, 41, 35, 34]), ("10", [17, 64, 78, 48]),
                               ("18", [31, 14, 21, 85]), ("19", [8, 50, 33, 27]), ("44", [18, 9, 26, 23]),
                               ("53", [19, 12, 73, 62]), ("117", [11, 13, 15, 10]), ("128", [28, 47, 31, 27]),
@@ -116,7 +116,7 @@ class SoureCodeMapping:
                               ("1089", [14, 1, 5, 8]), ("1130", [12, 1, 10, 2]), ("1402", [18, 4, 16, 14]),
                               ("1403", [1, 2, 5, 25]), ("1640", [3, 6, 18, 9])]
 
-        elif args['result'] == 'First-OB-3-Screens':
+        elif args['exp_name'] == 'First-OB-3-Screens':
             bug_ids_states = [("10", [17, 64, 78]), ("1028", [12, 11, 10]), ("106", [10, 15, 27]), ("1073", [8, 7, 36]),
                               ("1089", [14, 1, 5]), ("1096", [11, 14, 10]), ("11", [2, 3, 1]), ("110", [5, 12, 3]),
                               ("1130", [12, 1, 11]), ("1146", [2, 6, 3]), ("1147", [17, 29, 37]), ("1150", [7, 11, 3]),
@@ -139,7 +139,7 @@ class SoureCodeMapping:
                               ("55", [14, 26, 12]), ("56", [14, 13, 12]), ("71", [10, 5, 4]), ("76", [41, 4, 7]),
                               ("8", [30, 41, 35]), ("84", [1, 14, 10]), ("87", [33, 43, 12]), ("92", [7, 5, 4])]
 
-        elif args['result'] == 'First-OB-4-Screens':
+        elif args['exp_name'] == 'First-OB-4-Screens':
             bug_ids_states = [("10", [17, 64, 78, 48]), ("1028", [12, 11, 10, 8]), ("106", [10, 15, 27, 11]),
                               ("1073", [8, 7, 36, 1]), ("1089", [14, 1, 5, 8]), ("1096", [11, 14, 10, 9]),
                               ("110", [5, 12, 3, 9]), ("1130", [12, 1, 11, 2]), ("1146", [2, 6, 3, 33]),
@@ -167,8 +167,8 @@ class SoureCodeMapping:
                               ("76", [41, 4, 7, 5]), ("8", [30, 41, 35, 34]), ("84", [1, 14, 10, 5]),
                               ("87", [33, 43, 12, 21]), ("92", [7, 5, 4, 27])]
 
-        print("Bug Ids and States: ", bug_ids_states)
-        print(f"# of Bug Ids and States: {len(bug_ids_states)}")
+        # print("Bug Ids and States: ", bug_ids_states)
+        # print(f"# of Bug Ids and States: {len(bug_ids_states)}")
         corpus_folder = args['result'] + "/" + "Screen-" + str(
             self.number_of_screens) + "/" + "Corpus-" + self.corpusType
         result_folder = []
@@ -209,7 +209,8 @@ class SoureCodeMapping:
             final_state = app_final_state
 
             interacted_comp_states = []
-            screen_states = [x - 1 for x in final_state]
+            # Provide the sequence IDs of TR data
+            screen_states = [int(x) for x in final_state]
 
             for step in data['steps']:
                 if step['sequenceStep'] in interacted_comp_states:
@@ -310,6 +311,7 @@ if __name__ == '__main__':
     parser.add_argument('-r', '--result', help='Description for results', required=True)
     parser.add_argument('-s', '--screens', help='Number of screens', required=True)
     parser.add_argument('-ops', '--operations', help='Operations', required=True)
+    parser.add_argument('-en', '--exp_name', help='Experiment Name', required=True)
     args = vars(parser.parse_args())
 
     sourcodeCodeMapping = SoureCodeMapping(args)
