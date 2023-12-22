@@ -8,7 +8,8 @@ This directory contains all the necessary codes to reproduce the bug localizatio
 # How to reproduce results of all 4 experiments?
 ## Prerequisites
 1. Install JDK 11+ and Apache Maven(3.6.3). Add both JDK and Maven to your PATH environment variable.
-2. Download the data folder and extract it in this directory (concat_and_first_ob_experiments). Download link:
+2. Download the data folder and extract it in this directory (concat_and_first_ob_experiments). Download link: https://drive.google.com/file/d/1e6X6mOktwQSBVW-LwKP1axBMRtyK1GOr/view?usp=drive_link
+3. Update the paths (provide the absolute paths) of the code files: paths that need to be updated are marked by TODO comments.
 ## Steps
 Run the following scripts in the given order to reproduce the results of all 4 experiments:
 1. ```SourceCodeMapping/MappingAndroidProject/filter_files_cmnd.sh``` : Get all the filtered corpus and files which we need to boost. The outcome of this step will be saved into ```FilteredUnfilteredFiles``` directory for all 4 experiments.
