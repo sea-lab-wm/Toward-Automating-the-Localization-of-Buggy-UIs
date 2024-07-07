@@ -1,41 +1,20 @@
-'''
- * Copyright (c) 2022, salesforce.com, inc.
- * All rights reserved.
- * SPDX-License-Identifier: BSD-3-Clause
- * For full license text, see LICENSE.txt file in the repo root or https://opensource.org/licenses/BSD-3-Clause
- * By Junnan Li
-'''
-import argparse
 import os
-import numpy as np
-import random
-import time
 from glob import glob
 from PIL import Image
-import datetime
 import json
-import ruamel.yaml as yaml
 from pathlib import Path
 import csv
-
-from torch.utils.data import DataLoader
 from torchvision import transforms
 from torchvision.transforms.functional import InterpolationMode
-
 import torch
-import torch.nn as nn
 import torch.nn.functional as F
-import torch.backends.cudnn as cudnn
-import torch.distributed as dist
-from torch.utils.data import DataLoader
-
 from models.blip_retrieval import blip_retrieval
-from utils import cosine_lr_schedule, RealOBQuery, calculate_metrics
+from utils import RealOBQuery, calculate_metrics
 from evaluation_metrics import reciprocal_rank, average_precision, hit_rate_at_k
 
 
 @torch.no_grad()
-def evaluation(model, ob_text, images, device, config):
+def evaluation(model, ob_text, images, device):
     # test
     model.eval()
     print('Computing features for evaluation...')
@@ -60,8 +39,8 @@ def evaluation(model, ob_text, images, device, config):
     score_matrix_t2i = torch.full((1, num_images), -100.0).to(device)  # shape = (1, batch_size)
 
     topk_sim, topk_idx = sims_matrix[0].topk(k=num_images, dim=0)
-    print("topk_sim: ", topk_sim)
-    print("topk_idx: ", topk_idx)
+    # print("topk_sim: ", topk_sim)
+    # print("topk_idx: ", topk_idx)
     # topk_sim is a list of topk similarity scores, with order from highest to lowest
     # topk_idx is a list of topk indices
 
@@ -74,7 +53,7 @@ def evaluation(model, ob_text, images, device, config):
                                 return_dict=True,
                                 )
     score = model.itm_head(output.last_hidden_state[:, 0, :])[:, 1]
-    print("score: ", score)
+    # print("score: ", score)
     score_matrix_t2i[0, topk_idx] = score + topk_sim  # shape = (1, batch_size)
 
     return score_matrix_t2i[0].cpu().numpy(), topk_idx.cpu().numpy()
@@ -101,7 +80,7 @@ def get_image_ranking(image_folder_path, query_list, model, device):
 
     normalize = transforms.Normalize((0.48145466, 0.4578275, 0.40821073), (0.26862954, 0.26130258, 0.27577711))
     transform_test = transforms.Compose([
-        transforms.Resize((config['image_size'], config['image_size']), interpolation=InterpolationMode.BICUBIC),
+        transforms.Resize((384, 384), interpolation=InterpolationMode.BICUBIC),
         transforms.ToTensor(),
         normalize,
     ])
@@ -118,7 +97,7 @@ def get_image_ranking(image_folder_path, query_list, model, device):
         # get text
         ob_text = query.ob_text
 
-        evaluation_scores, topk_idx = evaluation(model, ob_text, images, device, config)
+        evaluation_scores, topk_idx = evaluation(model, ob_text, images, device)
 
         idx_to_score = {}
         for idx in range(len(evaluation_scores)):
@@ -150,43 +129,30 @@ def get_image_ranking(image_folder_path, query_list, model, device):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--config', default='./configs/retrieval_msrvtt.yaml')
-
-    parser.add_argument('--device', default='cuda')
-    parser.add_argument('exp_name', help='Name of the experiment')
-    parser.add_argument('ob_file_path', help='Path of the JSON file that contains the OBs')
-    parser.add_argument('screen_folder_path', help='Path of the folder that contains the screen images')
-    parser.add_argument('result_folder_path', help='Path of the CSV file that contains the results of all the OBs')
-
-    args = parser.parse_args()
-
-    config = yaml.load(open(args.config, 'r'), Loader=yaml.Loader)
-
-    Path(args.result_folder_path).mkdir(parents=True, exist_ok=True)
-
-    yaml.dump(config, open(os.path.join(args.output_dir, 'config.yaml'), 'w'))
-
+    # Query file path
+    ob_file_path = './study_1/dataset/real_data/ob/obs.json'
+    # Screen folder path
+    screen_folder_path = './study_1/dataset/real_data/screen_images'
+    # Result folder path
+    result_folder_path = './study_1/results'
+    Path(result_folder_path).mkdir(parents=True, exist_ok=True)
     device = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("cpu")
-    # device = torch.device(args.device)
-
     #### Model ####
     print("Creating model")
-    model = blip_retrieval(pretrained=config['pretrained'],
-                           image_size=config['image_size'],
-                           vit=config['vit'],
-                           #vit_grad_ckpt=config['vit_grad_ckpt'], 
-                           #vit_ckpt_layer=config['vit_ckpt_layer'], 
-                           #queue_size=config['queue_size'], 
-                           #negative_all_rank=config['negative_all_rank']
-                           )
+    model = blip_retrieval(
+        pretrained="https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_retrieval_coco.pth",
+        image_size=384,
+        vit="base",
+        #vit_grad_ckpt=config['vit_grad_ckpt'],
+        #vit_ckpt_layer=config['vit_ckpt_layer'],
+        #queue_size=config['queue_size'],
+        #negative_all_rank=config['negative_all_rank']
+        )
 
     model = model.to(device)
 
-    # Add arguments to the parse
-
-    all_ob_results_file_path = os.path.join(args.result_folder_path, 'SL', 'CLIP_results.csv')
-    all_ob_results_with_details_file_path = os.path.join(args.result_folder_path, 'SL', 'CLIP_results_with_details.csv')
+    all_ob_results_file_path = os.path.join(result_folder_path, 'SL', 'BLIP_results.csv')
+    all_ob_results_with_details_file_path = os.path.join(result_folder_path, 'SL', 'BLIP_results_with_details.csv')
 
     # Create CSV file for writing the results of all OBs
     with open(all_ob_results_file_path, 'w', newline='') as csvfile:
@@ -197,29 +163,25 @@ if __name__ == '__main__':
     # Create CSV file for writing the results of all OBs with details
     with open(all_ob_results_with_details_file_path, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter=';')
-        writer.writerow(['Bug-ID',
-                         'OB-ID',
-                         'OB-in-Title?',
-                         'OB-Type-SC',
-                         'OB-Rating',
-                         # 'Ground-Truth', 
-                         # 'Ranked-Documents', 
-                         'First-Rank',
-                         'Reciprocal-Rank',
-                         'Average-Precision',
-                         'h@1', 'h@2', 'h@3', 'h@4', 'h@5', 'h@6', 'h@7', 'h@8', 'h@9', 'h@10'])
+        writer.writerow(
+            ['Bug-ID', 'OB-ID', 'OB-Text', 'OB-in-Title?', 'Bug-Type', 'OB-Category', 'OB-Rating', 'Ground-Truth',
+             # 'Ranked-Documents',
+             'First-Rank',
+             'Reciprocal-Rank',
+             'Average-Precision',
+             'h@1', 'h@2', 'h@3', 'h@4', 'h@5', 'h@6', 'h@7', 'h@8', 'h@9', 'h@10'])
 
     result_of_all_obs = []
     test_bug_counter = 0
     obs_with_no_ground_truth_path_list = []
-    print(args.ob_file_path)
-    with open(args.ob_file_path, 'r') as json_file:
+    # print(ob_file_path)
+    with open(ob_file_path, 'r') as json_file:
         data = json.load(json_file)
 
         for bug_id, bug_details in data.items():
             print(f'Bug-ID: {bug_id}')
             ob_query_list = []
-            bug_screens_path = os.path.join(args.screen_folder_path, bug_id, "*.png")
+            bug_screens_path = os.path.join(screen_folder_path, bug_id, "*.png")
             for ob_id, ob_details in bug_details.items():
                 screen_dict_list = ob_details["screens"]
                 ground_truth = []
@@ -227,8 +189,9 @@ if __name__ == '__main__':
                     ground_truth.append(screen_dict["screen_id"])
                 if ground_truth.__len__() == 0:
                     continue
-                ob_query = RealOBQuery(bug_id, ob_id, ob_details["ob_in_title"], ob_details["ob_type_sc"],
-                                       ob_details["ob_rating"], ob_details["ob_text"], ground_truth)
+                ob_query = RealOBQuery(bug_id, ob_id, ob_details["ob_in_title"], ob_details["bug_type"],
+                                       ob_details["ob_category"], ob_details["ob_rating"], ob_details["ob_text"],
+                                       ground_truth)
                 # Create OB query list by adding all the OB queries
                 ob_query_list.append(ob_query)
 
@@ -238,12 +201,11 @@ if __name__ == '__main__':
             for j in range(ob_query_list.__len__()):
                 with open(all_ob_results_with_details_file_path, 'a', newline='') as csvfile:
                     writer = csv.writer(csvfile, delimiter=';')
-                    writer.writerow([ob_query_list[j].bug_id,
-                                     ob_query_list[j].ob_id,
+                    writer.writerow([ob_query_list[j].bug_id, ob_query_list[j].ob_id, ob_query_list[j].ob_text,
                                      ob_query_list[j].ob_in_title,
-                                     ob_query_list[j].ob_type_sc,
+                                     ob_query_list[j].bug_type, ob_query_list[j].ob_category,
                                      ob_query_list[j].ob_rating,
-                                     # ob_query_list[j].ground_truth,
+                                     ob_query_list[j].ground_truth,
                                      # scores_of_obs_in_one_bug[j],
                                      result_of_obs_in_one_bug[j].index(1) + 1,
                                      reciprocal_rank(result_of_obs_in_one_bug[j]),

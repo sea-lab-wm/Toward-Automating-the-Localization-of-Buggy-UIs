@@ -52,11 +52,11 @@ python3 study_1/clip/component_localization.py
 
 ## Screen localization (SL) and component localization (CL) using BLIP
 ## -------------------------------------------------------------------
-#echo "Performing Screen Localization (SL) using BLIP"
-#python3 study_1/blip/screen_localization.py
-#
-#echo "Performing Component Localization (CL) using BLIP"
-#python3 study_1/blip/component_localization.py
+echo "Performing Screen Localization (SL) using BLIP"
+python3 study_1/blip/screen_localization.py
+
+echo "Performing Component Localization (CL) using BLIP"
+python3 study_1/blip/component_localization.py
 
 
 ## Result Summary Generation
