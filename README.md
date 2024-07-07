@@ -1,8 +1,6 @@
 # Summary
 This is the replication package for the ISSTA'24 paper titled "Toward the Automated Localization of Buggy Mobile App UIs from Bug Descriptions".
 Authors: Antu Saha, Yang Song, Junayed Mahmud, Ying Zhou, Kevin Moran, and Oscar Chaparro.
- 
-<mark> Note: Please see the latest version (currently v4) for the most updated artifacts. </mark>
 
 # Getting Started
 This section contains the steps to set up the environment and reproduce the results of Buggy UI Localization tasks (Study 1) of the paper. Note that the Buggy UI Localization tasks (screen and component localization) are the main focus of the paper. All the experiments of study 1 can be run in 30 minutes using the following instructions. We already provided the results of all the experiments. Rerunning the experiments will overwrite the results.
