@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import
+            type="io.github.zwieback.familyfinance.business.chart.display.type.HorizontalBarChartGroupByType"/>
+
+        <variable
+            name="display"
+            type="io.github.zwieback.familyfinance.business.chart.display.HorizontalBarChartDisplay"/>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/entity_edit_padding"
+            android:weightSum="@integer/full_weight">
+
+            <RadioGroup
+                android:layout_width="@dimen/zero_weight"
+                android:layout_height="wrap_content"
+                android:layout_weight="@integer/half_of_weight"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/horizontal_bar_chart_display_group"/>
+
+                <RadioButton
+                    android:id="@+id/group_by_days"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="@{display.groupByType == HorizontalBarChartGroupByType.ARTICLE}"
+                    android:text="@string/horizontal_bar_chart_display_group_by_article"/>
+
+                <RadioButton
+                    android:id="@+id/group_by_weeks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="@{display.groupByType == HorizontalBarChartGroupByType.ARTICLE_PARENT}"
+                    android:text="@string/horizontal_bar_chart_display_group_by_article_parent"/>
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="@dimen/zero_weight"
+                android:layout_height="wrap_content"
+                android:layout_weight="@integer/half_of_weight"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/horizontal_bar_chart_display_view"/>
+
+                <CheckBox
+                    android:id="@+id/view_values"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="@={display.viewValues}"
+                    android:text="@string/horizontal_bar_chart_display_view_values"/>
+
+                <CheckBox
+                    android:id="@+id/use_percent_values"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="@={display.usePercentValues}"
+                    android:text="@string/horizontal_bar_chart_display_use_percent_values"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</layout>

@@ -1,0 +1,19 @@
+{
+	"id": "19",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["8a2cb5df10f4aea90c79a2d111c989ae1830544a"],
+		"file_name": "bug-19/app/src/main/java/de/westnordost/streetcomplete/quests/housenumber/AddHousenumberForm.java",
+		"method_name": "private void initKeyboardButton(View view)",
+		"line_numbers": null
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["35880e3bc7b482dcf44ebf6398eb0226064d9ad6"],
+		"file_name": "fix-19/app/src/main/java/de/westnordost/streetcomplete/quests/housenumber/AddHousenumberForm.java",
+		"method_name": "private void initKeyboardButton(View view)",
+		"line_numbers": ["199-200", "211-212"]
+	}],
+	"unit_test_changes": null
+}

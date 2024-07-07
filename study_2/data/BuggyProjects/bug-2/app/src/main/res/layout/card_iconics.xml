@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/iconics_card_margin"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/iconics_name_height"
+        android:background="@drawable/button_rect_list_normal"
+        android:clickable="false"
+        android:gravity="center_vertical"
+        android:paddingEnd="@dimen/iconics_name_padding_end"
+        android:paddingLeft="@dimen/iconics_name_padding_start"
+        android:paddingRight="@dimen/iconics_name_padding_end"
+        android:paddingStart="@dimen/iconics_name_padding_start"
+        android:textColor="@color/md_light_primary_text"
+        android:textSize="@dimen/iconics_name_text_size"/>
+
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/iconics_icon_size"
+        android:layout_height="@dimen/iconics_icon_size"
+        android:clickable="false"
+        android:padding="@dimen/iconics_icon_padding"
+        android:scaleType="fitXY"/>
+
+</android.support.v7.widget.CardView>

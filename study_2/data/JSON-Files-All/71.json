@@ -1,0 +1,19 @@
+{
+	"id": "71",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["3102b83a3c6208f7ba36a235d71254f1c8c8a9ff"],
+		"file_name": "bug-71/app/src/main/java/fr/neamar/kiss/forwarder/ExperienceTweaks.java",
+		"method_name": "ExperienceTweaks(final MainActivity mainActivity)",
+		"line_numbers": [""]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["d790b7a696f929aed185e9bfa62da7e6865be07a"],
+		"file_name": "fix-71/app/src/main/java/fr/neamar/kiss/forwarder/ExperienceTweaks.java",
+		"method_name": "ExperienceTweaks(final MainActivity mainActivity)",
+		"line_numbers": ["81-83", "95-97", "181-184"]
+	}],
+	"unit_test_changes": null
+}

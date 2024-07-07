@@ -1,0 +1,1 @@
+Cursor position reset when switching away from app

@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_id": "hex-for-hacker-news",
+    "project_number": "832712345764",
+    "name": "Hex for Hacker News"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832712345764:android:59cb58917e41aff6",
+        "client_id": "android:com.hexforhn.hex",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.hexforhn.hex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-72516790-2"
+          }
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

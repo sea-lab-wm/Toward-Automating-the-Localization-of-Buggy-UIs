@@ -1,0 +1,21 @@
+{
+    "id": "1089",
+    "confidence_level": "confident",
+    "bug_location": [
+        {
+            "commit_ids": [
+                "eab588fd681f7379dc43739df66e33f462ea6baa"
+            ],
+            "file_name": "bug-1089/app/src/main/java/com/chess/clock/fragments/TimeControlFragment.java"
+        }
+    ],
+    "fix_location": [
+        {
+            "commit_ids": [
+                "17621dc6ed55a077f12141fb8c895c257e870df5"
+            ],
+            "file_name": "bug-1089/app/src/main/java/com/chess/clock/fragments/TimeControlFragment.java"
+        }
+    ],
+    "unit_test_changes": null
+}

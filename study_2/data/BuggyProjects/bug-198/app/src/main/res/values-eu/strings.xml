@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <!-- activities -->
+    <string name="app_name">Transistor</string> <!-- please do not translate app_name - transcription into different alphabet types is fine though -->
+    <string name="title_fragment_player">Orain erreproduzitzen</string>
+    <string name="title_activity_infosheet">Informazio orria</string>
+
+    <!-- menu entries -->
+    <string name="menu_about">Honi buruz</string>
+    <string name="menu_howto">Nola erabili</string>
+    <string name="menu_refresh">Freskatu zerrenda</string>
+    <string name="menu_timer">Itzaltzeko atzera kontaketa</string>
+    <string name="menu_icon">Aldatu ikonoa</string>
+    <string name="menu_add">Gehitu</string>
+    <string name="menu_delete">Ezabatu</string>
+    <string name="menu_rename">Aldatu izena</string>
+    <string name="menu_shortcut">Kokatu hasiera orrian</string>
+
+    <!-- headers -->
+    <string name="header_about">Honi buruz</string>
+    <string name="header_howto">Nola erabili</string>
+
+    <!-- descriptions -->
+    <string name="descr_arrow_actioncall">Gehitu irratia sinbolora begira dagoen gezia</string>
+    <string name="descr_overflow_button">Bistaratu irrati estazioaren aukerak</string>
+    <string name="descr_station_icon">Irrati estazioaren ikonoa</string>
+    <string name="descr_station_name">Irrati estazioaren izena</string>
+    <string name="descr_station_metadata">Orain jotzen ari den irratiaren metadatuak (Artista / Titulua)</string>
+    <string name="descr_station_name_example">Adibideko FM</string>
+    <string name="descr_station_metadata_example">Artista - Titulua</string>
+    <string name="descr_station_stream_loading">Jarioa kargatzen …</string>
+    <string name="descr_playback_button">Erreproduzitu botoi handia</string>
+    <string name="descr_playback_indicator">Erreprodukzioa martxan adierazlea</string>
+    <string name="descr_playback_indicator_started">Erreprodukzioa martxan adierazlea</string>
+    <string name="descr_timer_indicator_started">Atzera kontaketa martxan adierazlea</string>
+    <string name="descr_player_sheet_information_icon">Information Icon</string>
+    <string name="descr_player_sheet_content_copy_icon">Edukia kopiatzeko ikonoa</string>
+    <string name="descr_player_sheet_p_station_name">Aukeratutako irrati estazioaren izena</string>
+    <string name="descr_player_sheet_p_station_metadata">Aukeratutako irrati estazioaren metadatuak</string>
+    <string name="descr_player_sheet_p_stream_url">Aukeratutako irrati estazioaren jarioaren URLa</string>
+
+    <!-- player -->
+    <string name="player_sheet_h1_station_name">Estazioa</string>
+    <string name="player_sheet_h1_station_metadata">Orain entzuten</string>
+    <string name="player_sheet_h1_stream_url">Jario URLa</string>
+    <string name="player_sheet_p_station_metadata">ez dago metadaturik eskuragarri</string>
+    <string name="player_sheet_h1_station_mime_type">MIME mota</string>
+    <string name="player_sheet_h1_station_channel_count">Kanal kopurua</string>
+    <string name="player_sheet_h1_station_sample_rate">Lagin-tasa</string>
+    <string name="player_sheet_h1_station_bitrate">Bitrate</string>
+
+    <!-- dialogs -->
+    <string name="dialog_generic_button_okay">Ados</string>
+    <string name="dialog_generic_button_cancel">Utzi</string>
+    <string name="dialog_add_station_button">Gehitu</string>
+    <string name="dialog_add_station_input_hint">Itsatsi jario URLa</string>
+    <string name="dialog_add_station_message">Gehitu irrati berria</string>
+    <string name="dialog_add_station_howto">MP3, AAC edo Ogg/Opus gisa kodetutako audio jario gordinak eta m3u edo pls fitxategietan kapsulatutako jarioak gehitu ditzakezu. Bestela irrati berriak gehitu ditzakezu zure nabigatzailean jarioaren loturan sakatuz (pls edo m3u).</string>
+    <string name="dialog_delete_station_message">Ezabatu irratia</string>
+    <string name="dialog_button_delete">Ezabatu</string>
+    <string name="dialog_rename_station_input_hint">Sartu izen berri bat</string>
+    <string name="dialog_rename_station_message">Aldatu izena estazioari</string>
+    <string name="dialog_button_rename">Aldatu izena</string>
+
+    <!-- error dialogs -->
+    <string name="dialog_error_title_default">Errorea</string>
+    <string name="dialog_error_message_default">Errore bat gertatu da</string>
+    <string name="dialog_error_details_button_default">Erakutsi xehetasunak</string>
+    <string name="dialog_error_details_default">Ez dago xehetasunik eskuragarri</string>
+    <string name="dialog_error_details_write">Estazio hau bikoiztuta egon zitekeen, horrela ez bada egiaztatu zure kanpo biltegiratzea.</string>
+    <string name="dialog_error_title_fetch_download">Deskarga arazoa</string>
+    <string name="dialog_error_title_fetch_read">Irakurtze arazoa</string>
+    <string name="dialog_error_title_fetch_write">Idazte arazoa</string>
+    <string name="dialog_error_message_fetch_general_external_storage">Kanpo biltegiratzea:</string>
+    <string name="dialog_error_message_fetch_general_hint_m3u">Oharra: Transistor MP3, AAC eta Ogg/Opus formatuetan kodetutako jarioak edo .m3u or .pls luzapenetan bukatutako URLak besterik ezin ditzake prozesatu.</string>
+    <string name="dialog_error_message_fetch_general_playlist_type">MIME fitxategi mota:</string>
+    <string name="dialog_error_message_fetch_general_stream_type">MIME jario mota:</string>
+    <string name="dialog_error_message_fetch_general_file_content">Fitxategiaren edukia:</string>
+    <string name="dialog_error_message_fetch_download">Transistor saiatu da, baina ez du lotura ulertzen.</string>
+    <string name="dialog_error_message_fetch_download_station_url">Estazioaren URLa:</string>
+    <string name="dialog_error_message_fetch_read">Transistor saiatu da, baina ez du fitxategia ulertzen.</string>
+    <string name="dialog_error_message_fetch_read_file_location">Fitxategiaren kokalekua:</string>
+    <string name="dialog_error_message_fetch_write">Ezin izan da irratia biltegiratzera gorde.</string>
+
+    <!-- messages -->
+    <string name="actioncall_message_start_here">Gehitu estazio berria</string>
+    <string name="toastmessage_add_download_started">Deskarga hasi da.</string>
+    <string name="toastmessage_add_open_file_started">Fitxategia irekitzen.</string>
+    <string name="toastmessage_long_press_playback_stopped">Erreprodukzioa gelditu da (sakatze luzea atzeman da)</string>
+    <string name="toastmessage_long_press_playback_started">Erreprodukzioa hasi da (sakatze luzea atzeman da)</string>
+    <string name="toastmessage_shortcut_created">Lasterbidea sortu da.</string>
+    <string name="toastmessage_shortcut_not_created">Ez da lasterbidea sortu. Gailu honek ez du lasterbideak sortzea ahalbidetzen.</string>
+    <string name="toastmessage_list_refreshed">Irratien zerrenda birkargatzen.</string>
+    <string name="toastmessage_copied_to_clipboard_url">Jarioaren URLa arbelera kopiatu da.</string>
+    <string name="toastmessage_copied_to_clipboard_metadata">Metadatuak arbelera kopiatu dira.</string>
+    <string name="toastmessage_station_copied">Estazioa arbelera kopiatu da.</string>
+    <string name="toastmessage_stream_may_not_work">Onartu gabeko audio formatua atzeman da. Jarioaren erreprodukzioa agian ez da behar bezalakoa izango.</string>
+    <string name="toastmessage_timer_activated">Itzaltzeko atzera kontaketa gaitu da.</string>
+    <string name="toastmessage_timer_cancelled">Itzaltzeko atzera kontaketa eten da.</string>
+    <string name="toastmessage_timer_duration_increased">Iraupena luzatu da.</string>
+    <string name="toastmessage_timer_start_unable">Aurretik hasi erreprodukzioa.</string>
+    <string name="toastalert_unable_to_connect">Ezin izan da konektatu. Gailuak ez du internet konexiorik edo jarioa zaharkituta dago.</string>
+    <string name="toastalert_rename_unsuccessful">"Ezin  izan zaio izena aldatu estazioari. Aukeratu beste izen bat."</string>
+    <string name="toastalert_delete_successful">Estazioa kendu da.</string>
+    <string name="toastalert_no_external_storage">Ezin izan da kanpo biltegia atzitu.</string>
+    <string name="toastalert_headphones_unplugged">Aurikularrak deskonektatuta. Erreprodukzioa gelditu da.</string>
+    <string name="toastalert_permission_denied">Baimena ukatu da:</string>
+    <string name="toastalert_station_not_found">Ezin izan da irratia aurkitu.</string>
+    <string name="toastalert_stream_not_found">Transistorrek ez du irrati hau ulertzen. Ezabatu eta berriro gehitu hasiera pantailara.</string>
+    <string name="snackbar_request_storage_access">Transistorrek irakurketa baimenak behar ditu kanpo biltegiko datuak atzitzeko.</string>
+    <string name="snackbar_message_timer_set">"Itzaltzeko atzera-kontaketa  ezarri da"</string>
+
+    <!-- notification -->
+    <string name="notification_play">Erreproduzitu</string>
+    <string name="notification_stop">Stop</string>
+    <string name="notification_swipe_to_stop">Pasatu hatza gelditzeko</string>
+    <string name="notification_playing">Erreprodukzioan</string>
+    <string name="notification_channel_playback_name">Erreprodukzio kontrolak</string>
+    <string name="notification_channel_playback_description">Erreprodukzio kontrolak, irratiaren logoa eta unean jotzen ari denaren informazioa.</string>
+
+    <!-- infosheet about -->
+    <string name="infosheet_about_h1_about">Transistorri buruz</string>
+    <string name="infosheet_about_h2_radio">Android irrati aplikazioa</string>
+    <string name="infosheet_about_h3_version">2.3 bertsioa (Kooks)</string>
+    <string name="infosheet_about_p_bare">Transistor internet bidez irratia entzuteko programa sinple bat da. APlikazioak estazioak fitxategi gisa gordetzen ditu zure gailuaren kanpo biltegian. Bilatu m3u luzapena duten fitxategiak /Android/data/org.y20k.transistor/files/Collection karpetan. Oraingoz MP3, AAC eta Ogg/Opus formatuetan kodetutako jarioak ulertzen ditu.</string>
+    <string name="infosheet_about_p_note">Ohar garrantzitsua: Aplikazio honek irratiak zuk gehitzea eskatzen du. Ez du bilaketa tresnarik. Eskuz gehitu behar dituzu irratiak.</string>
+    <string name="infosheet_about_p_free">Transistor software librea da. MIT lizentziapean argitaratu da. Kodea GitHuben dago. GitHub arazoen berri emateko tokli egokia da ere, baita parte hartzeko, hala nahi baduzu.</string>
+    <string name="infosheet_about_p_github">https://github.com/y20k/transistor</string>
+    <string name="infosheet_about_p_license">https://opensource.org/licenses/MIT</string>
+    <string name="infosheet_about_h2_permissions">Zentzu baimen behar ditu Transistorrek?</string>
+    <string name="infosheet_about_h3_shortcut">INSTALL_SHORTCUT eta UNINSTALL_SHORTCUT baimenak</string>
+    <string name="infosheet_about_p_shortcut">Baimen hauek irratien laster-markak Androiden hasiera pantailan gehitu eta kentzeko dira.</string>
+    <string name="infosheet_about_h3_internet">Baimena INTERNET</string>
+    <string name="infosheet_about_p_internet">Transistor aplikazioak interneteko irratiak entzutea baimentzen dizu.</string>
+    <string name="infosheet_about_h3_external">READ_EXTERNAL_STORAGE baimena</string>
+    <string name="infosheet_about_p_external">Transistorrek irudiak, argazkiak eta dokumentuak atzitzeko baimena behar irratien ikonoak pertsonalizatzeko eta tokian gordetako erreprodukzio-zerrenda fitxategiak ireki ahal izateko.</string>
+    <string name="infosheet_about_h3_vibrate">VIBRATE baimena</string>
+    <string name="infosheet_about_p_vibrate">Irrati estazio bat ukitu eta mantentzean bibrazio txiki bat gertatuko da.</string>
+    <string name="infosheet_about_h3_wakelock">WAKE_LOCK baimena</string>
+    <string name="infosheet_about_p_wakelock">Erreprodukzioan zehar Transistorrek Android sistemak energia aurrezteko emanaldia etetea eragotziko du.</string>
+
+    <!-- infosheet howto -->
+    <string name="infosheet_howto_h1_howto">Nola erabili Transistor</string>
+    <string name="infosheet_howto_h2_add">Nola gehitu irrati berri bat?</string>
+    <string name="infosheet_howto_p_add">Irrati berri bat gehitzeko modu errazena webean jarioen estekak bilatzea da eta fitxategi mota hori beti Transistorrekin irekitzea aukeratu. (+) sinboloa sakatu dezakezu ere eta jarioen estekak zuzenean itsati. Kontuan hartzekoa: Transitorrek ez du inolako bilaketa funtziorik.</string>
+    <string name="infosheet_howto_h2_play">Nola entzun irrati bat?</string>
+    <string name="infosheet_howto_p_play">Sakatu erreprodukzio-botoi handia ;).</string>
+    <string name="infosheet_howto_h2_stop">Nola gelditu erreprodukzioa?</string>
+    <string name="infosheet_howto_p_stop">Sakatu Gelditu-botoi handia, edo deskonektatu aurikularrak, edo blokeo pantailako jakinarazpena kendu hatza pasatuz.</string>
+    <string name="infosheet_howto_h2_sleep">Nola hasi atzera-kontaketa?</string>
+    <string name="infosheet_howto_p_sleep">Erlojuaren ikonoa sakatzean 15 minutuko atzera kontaketa bat hasiko da eta bukatzean Transistor itzaliko da. Berriz sakatuz bero 15 minutu gehituko zaizkio erlojuari. Erreproduzitzen egon behar da atzera kontaketa aktibatzeko.</string>
+    <string name="infosheet_howto_h2_shortcut">Nola jarri estazio baten laster-marka hasiera pantailan?</string>
+    <string name="infosheet_howto_p_shortcut">Hasiera pantailan irrati baterako lasterbidea jartzeko aukera irratiaren hiru puntutxoen menuan dago. Lasterbidean sakatzean Transistor irekiko da eta berehala erreproduzitzen hasiko da.</string>
+    <string name="infosheet_howto_h2_edit">Nola aldatu izena irratiari edo nola ezabatu?</string>
+    <string name="infosheet_howto_p_edit">Izena aldatu eta ezabatu aukerak irratiaren laster menuan daude. Sakatu hiru puntutxoak. Fitxategi arakatzaile batekin ere alda dezakezu irratien zerrenda (ikusi hurrengo galdera).</string>
+    <string name="infosheet_howto_h2_storage">Non gordetzen ditu Transistorrek irrati-estazio guztiak?</string>
+    <string name="infosheet_howto_p_storage">Transistorrek ez ditu irratiak datu-base batean gordetzen. Estazioak .m3u fitxategi gisa gordetzen ditu gailuaren kanpo biltegian. Testu editore batekin ireki ditzakezu nahi baduzu. Fitxategiak /Android/data/org.y20k.transistor/files/Collection karpetan gordetzen dira.</string>
+    <string name="infosheet_howto_h2_backup">Nola egin dezaket nire irratien babes-kopia?</string>
+    <string name="infosheet_howto_p_backup">Transistorrek babeskopia automatikorako euskarria du Android 6tik aurrera. Irratiak beti gordetzen dira zure Google kontuan eta berrinstalatzean berrezarriko dira. Android bertsio zaharragoak dituzten gailuek eskuz gorde eta berreskuratu behar duzu irratien karpeta.</string>
+    <string name="infosheet_howto_h2_settings">Zergatik ez dago ezarpenik Transistorren?</string>
+    <string name="infosheet_howto_p_settings">Ez dago ezer ezartzeko ;). Transistor oso aplikazio sinplea da. Zure ikuspuntuaren arabera sinple ona ala txara izan daiteke.</string>
+
+    <!-- 
+    +++ IMPORTANT NOTE +++
+    The HTML strings previously found here were replaced by multiple non-HTML strings 
+    (infosheet_about_... & infosheet_howto_...). This should make translations easier - 
+    see GitHub issue #69 (https://github.com/y20k/transistor/issues/69). If you are 
+    looking for the old HTML strings. They still can be found here in their respective 
+    "values" folders:
+    https://github.com/y20k/transistor/tree/1e51dd8666194353427ca074f2092b6c20cfacd6/app/src/main/res 
+    -->
+
+</resources>

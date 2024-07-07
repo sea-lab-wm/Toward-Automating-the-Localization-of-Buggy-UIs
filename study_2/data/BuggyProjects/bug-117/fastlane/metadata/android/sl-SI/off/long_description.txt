@@ -1,0 +1,35 @@
+Skenirajte prehrambene izdelke ali črtno kodo, da pridobite podatke o sestavinah, dodatkih in podatkih o hranilni vrednosti.
+
+Aplikacija omogoča ogled 547.000 izdelkov (vključno s 175.000 v ZDA), ki so že vsebovane v brezplačni in odprti zbirki podatkov dejstva o hrani, lahko pa tudi dodate slike in podatke za manjkajoče izdelke.
+
+Če želite raziskati projekt odprta dejstva o hrani, obiščite https://openfoodfacts.org
+
+
+*** Prispevajte k preglednosti hrane ***
+
+- Odprta dejstva o hrani je zbirka podatkov o živilskih izdelkih, ki so jo pripravili vsi, za vse.
+-Uporabite jo lahko za boljšo izbiro hrane in ker je to odprta zbirka podatkov, jo lahko kdorkoli ponovno uporabiti za kateri koli namen.
+- Odprta dejstva o hrani je neprofitni projekt, ki ga je razvilo na tisoče prostovoljcev iz vsega sveta. Imamo veliko zanimivih projektov, pri katerih lahko sodelujete na več različnih načinov. 
+- Sodelujete lahko že danes, tako da dodate izdelek iz vaše omare za hrano. 
+
+*** Pridobite dejstva***
+- Odprta dejstva o hrani vam pomagajo razumeti smisel drobnega tiska na nalepkah izdelkov. Našli boste lahko (glede na navedbe na izdelkih):
+- ogljični odtis (emisije CO2) in embalažo (kot tudi navodila za recikliranje),
+- Nutriscore (hranilna vrednost), hranila, vsebnost maščobe, nasičene maščobne kisline, ogljikovi hidrati, sladkorji, vlaknine, beljakovine in sol in natrij.
+- blagovne znamke, alergene, nalepke (bio, brez glutena, veganska, vegetarijanska, halal, kosher ...), informacije o sledljivosti (oznake embalaže, izvor sestavin)
+- na vinih in pivih boste našli vsebnost alkohola.
+
+*** Dobro deluje v vseh pogojih ***
+- lahko dodate nove izdelke, tudi če trenutno nimate internetne povezave.
+- Aplikacija naloži le nujno potrebne inf. za zmanjšanje porabe podatkov in baterije
+- Za iskanje izdelka ne potrebujete fotoaparata. Črtno kodo lahko tudi vtipkate, če nimate fotoaparata ali imate težave z njim.
+
+*** Vaša hrana, vaši podatki ***
+- Vaši podatki so vaši in se nikoli ne pošljejo na splet
+- Aplikacijo lahko uporabljate anonimno
+- Zgodovino optičnega branja lahko izvozite
+
+Informacije o odprtih dejstvih o hrani, so na voljo tudi na spletnem mestu https://world.openfoodfacts.org
+Vprašanja, povratne informacije: contact@openfoodfacts.org
+
+Za kozmetiko lahko namestite Open Beauty Facts, za hrano za hišne ljubljenčke, Open Pet Food Facts in za vse ostale izdelke, Open Products Facts.

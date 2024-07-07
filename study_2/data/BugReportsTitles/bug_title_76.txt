@@ -1,0 +1,1 @@
+File URI support detection overly strict

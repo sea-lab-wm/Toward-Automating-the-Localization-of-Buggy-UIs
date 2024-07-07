@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="AppTheme.Base"/>
+
+    <style name="AppTheme.Base" parent="MaterialDrawerTheme.Light.DarkToolbar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <!-- Style for ACRA -->
+    <!-- https://github.com/ACRA/acra/wiki/AdvancedUsage#dialog -->
+    <style name="AppTheme.Dialog" parent="Theme.AppCompat.Light.Dialog"/>
+
+    <style name="AppTheme.Preference" parent="@style/PreferenceFixTheme.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.FilePicker" parent="NNF_BaseTheme.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="nnf_list_item_divider">?android:attr/listDivider</item>
+        <item name="alertDialogTheme">@style/AppTheme.FilePickerAlertDialog</item>
+        <item name="nnf_toolbarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="AppTheme.FilePickerAlertDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.ErrorTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">?android:colorError</item>
+    </style>
+
+    <style name="AppTheme.HintText" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:paddingBottom">@dimen/hint_text_vertical_spacing</item>
+        <item name="android:paddingLeft">@dimen/hint_text_horizontal_spacing</item>
+        <item name="android:paddingRight">@dimen/hint_text_horizontal_spacing</item>
+        <item name="android:textColor">?android:textColorHint</item>
+    </style>
+</resources>

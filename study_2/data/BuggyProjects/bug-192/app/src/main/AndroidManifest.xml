@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not run ATextFormatrmat on this file.
+     If you do, regenerate file extension-lines with script, else this will get really huge
+ -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="net.gsantner.markor"
+    tools:targetApi="jelly_bean">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/full_backup_rules"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Light">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:label="@string/action_settings"
+            android:parentActivityName=".activity.MainActivity"
+            android:theme="@style/AppTheme.Light" />
+        <activity
+            android:name=".activity.AboutActivity"
+            android:label="@string/about"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Light">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.gsantner.markor.activity.MainActivity" />
+        </activity>
+        <activity android:name=".widget.WidgetConfigure">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".widget.MarkorWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/markor_widget" />
+        </receiver>
+
+        <service
+            android:name=".widget.FilesWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".activity.DocumentActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".activity.MainActivity"
+            android:theme="@style/AppTheme.Light"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.gsantner.markor.activity.MainActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <!--
+                  ##############################
+                  #  Filter MIME based
+                  #  From docs: If filter has mimeType but no scheme, the content: and file: schemes are assumed.
+                  ##############################
+                  -->
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="text/markdown" />
+                <data android:mimeType="text/x-markdown" />
+                <data android:mimeType="application/octet-stream" />
+
+                <data android:host="*" />
+
+                <!--
+                  ##############################
+                  #  Filter extension based
+                  #    Pattern matcher works till first match, so multiple hierachy levels have to be added.
+                  #    See https://stackoverflow.com/questions/3400072/pathpattern-to-match-file-extension-does-not-work-if-a-period-exists-elsewhere-i/4621284#4621284
+                  ##############################
+                  -->
+                <!-- Handling of file extension ".markdown" -->
+                <data android:mimeType="*/*" android:pathPattern=".*\.markdown"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\.markdown"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\.markdown"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\.markdown"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\.markdown"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\.markdown"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\.markdown"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\.markdown"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\..*\.markdown"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.markdown"/>
+
+                <!-- Handling of file extension ".md" -->
+                <data android:mimeType="*/*" android:pathPattern=".*\.md"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\.md"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\.md"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\.md"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\.md"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\.md"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\.md"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\.md"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\..*\.md"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.md"/>
+
+                <!-- Handling of file extension ".mdown" -->
+                <data android:mimeType="*/*" android:pathPattern=".*\.mdown"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\.mdown"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\.mdown"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\.mdown"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\.mdown"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\.mdown"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\.mdown"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\.mdown"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\..*\.mdown"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.mdown"/>
+
+                <!-- Handling of file extension ".mdwn" -->
+                <data android:mimeType="*/*" android:pathPattern=".*\.mdwn"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\.mdwn"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\.mdwn"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\.mdwn"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\.mdwn"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\.mdwn"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\.mdwn"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\.mdwn"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\..*\.mdwn"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.mdwn"/>
+
+                <!-- Handling of file extension ".mkd" -->
+                <data android:mimeType="*/*" android:pathPattern=".*\.mkd"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\.mkd"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\.mkd"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\.mkd"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\.mkd"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\.mkd"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\.mkd"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\.mkd"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\..*\.mkd"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.mkd"/>
+
+                <!-- Handling of file extension ".mkdn" -->
+                <data android:mimeType="*/*" android:pathPattern=".*\.mkdn"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\.mkdn"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\.mkdn"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\.mkdn"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\.mkdn"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\.mkdn"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\.mkdn"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\.mkdn"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\..*\.mkdn"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.mkdn"/>
+
+                <!-- Handling of file extension ".Rmd" -->
+                <data android:mimeType="*/*" android:pathPattern=".*\.Rmd"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\.Rmd"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\.Rmd"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\.Rmd"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\.Rmd"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\.Rmd"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\.Rmd"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\.Rmd"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\..*\.Rmd"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.Rmd"/>
+
+                <!-- Handling of file extension ".text" -->
+                <data android:mimeType="*/*" android:pathPattern=".*\.text"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\.text"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\.text"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\.text"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\.text"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\.text"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\.text"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\.text"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\..*\.text"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.text"/>
+
+                <!-- Handling of file extension ".txt" -->
+                <data android:mimeType="*/*" android:pathPattern=".*\.txt"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\.txt"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\.txt"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\.txt"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\.txt"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\.txt"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\.txt"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\.txt"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\..*\.txt"/>
+                <data android:mimeType="*/*" android:pathPattern=".*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.txt"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

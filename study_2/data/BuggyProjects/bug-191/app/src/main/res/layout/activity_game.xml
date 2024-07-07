@@ -1,0 +1,46 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    tools:context=".view.game.GameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/fragment_status"
+            android:name="ch.logixisland.anuto.view.game.HeaderFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_header" />
+
+        <view
+            class="ch.logixisland.anuto.view.game.GameView"
+            android:id="@+id/view_tower_defense"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#aaaaaa" />
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/fragment_game_over"
+        android:name="ch.logixisland.anuto.view.game.GameOverFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        tools:layout="@layout/fragment_game_over" />
+
+    <fragment
+        android:id="@+id/fragment_tower_info"
+        android:name="ch.logixisland.anuto.view.game.TowerInfoFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        tools:layout="@layout/fragment_tower_info" />
+
+</RelativeLayout>

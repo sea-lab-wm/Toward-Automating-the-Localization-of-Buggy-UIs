@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.beemdevelopment.aegis.ui.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/btn_backup_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:background="@color/colorAccent"
+            android:foreground="?android:selectableItemBackground"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="@color/icon_primary_inverted"
+                android:src="@drawable/ic_alert_black_24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/backup_error_bar_message"
+                android:textColor="@color/primary_text_inverted"
+                android:layout_marginStart="5dp" />
+        </LinearLayout>
+
+        <fragment
+            android:name="com.beemdevelopment.aegis.ui.views.EntryListView"
+            android:id="@+id/key_profiles"
+            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"/>
+    </LinearLayout>
+
+    <!-- note: the fab should always be the last element to be sure it's displayed on top -->
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_add_black_24dp"
+        app:fab_addButtonColorNormal="@color/colorAccent"
+        app:fab_addButtonColorPressed="@color/colorAccent"
+        app:fab_labelStyle="@style/fab_label_style"
+        app:fab_labelsPosition="left">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_title="@string/scan"
+            app:fab_size="mini"
+            app:fab_colorNormal="@color/background"
+            app:fab_colorPressed="@color/background"
+            app:fab_icon="@drawable/ic_qrcode_scan"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_scan_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_title="@string/scan_image"
+            app:fab_size="mini"
+            app:fab_colorNormal="@color/background"
+            app:fab_colorPressed="@color/background"
+            app:fab_icon="@drawable/ic_add_photo_24px"/>
+
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_title="@string/enter_manually"
+            app:fab_size="mini"
+            app:fab_colorNormal="@color/background"
+            app:fab_colorPressed="@color/background"
+            app:fab_icon="@drawable/ic_create_black_24dp"/>
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

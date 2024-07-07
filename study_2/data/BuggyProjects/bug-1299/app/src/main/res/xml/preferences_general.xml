@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="transfer_defaults"
+        android:title="@string/preferences_source_default_category_title"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:defaultValue="1"
+            android:icon="@drawable/ic_pref_source_import_default"
+            app:dialogTitle="@string/preferences_source_default_import"
+            app:entries="@array/pref_import_source_entries"
+            app:entryValues="@array/pref_import_source_values"
+            app:key="IMPORT_SOURCE_DEFAULT"
+            app:title="@string/preferences_source_default_import"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:icon="@drawable/ic_pref_source_export_default"
+            app:allowDividerBelow="true"
+            app:dialogTitle="@string/preferences_source_default_export"
+            app:entries="@array/pref_export_source_entries"
+            app:entryValues="@array/pref_export_source_values"
+            app:key="EXPORT_SOURCE_DEFAULT"
+            app:title="@string/preferences_source_default_export"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:icon="@drawable/ic_tb_forward"
+        android:key="NextEmptyPlot"
+        android:summary="@string/preferences_general_feature_next_missing_description"
+        android:title="@string/preferences_general_feature_next_missing"
+        app:allowDividerAbove="true" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:icon="@drawable/ic_tb_barcode_scan"
+        android:key="BarcodeScan"
+        android:summary="@string/preferences_general_barcode_camera_description"
+        android:title="@string/preferences_general_barcode_camera" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:icon="@drawable/ic_tb_datagrid"
+        android:key="DataGrid"
+        android:summary="@string/preferences_general_feature_datagrid_description"
+        android:title="@string/preferences_general_feature_datagrid" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:icon="@drawable/ic_adv_disable_file_sharing"
+        android:key="DisableShare"
+        android:summary="@string/preferences_general_share_disable_description"
+        android:title="@string/preferences_general_share_disable" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:icon="@drawable/ic_adv_unique"
+        android:key="JumpToPlot"
+        android:summary="@string/preferences_general_feature_barcode_text_description"
+        android:title="@string/preferences_general_feature_barcode_text" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:icon="@drawable/ic_adv_use_day"
+        android:key="UseDay"
+        android:summary="@string/preferences_general_use_day_number_description"
+        android:title="@string/preferences_general_use_day_number" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:icon="@drawable/ic_adv_hide_entries"
+        android:key="IgnoreExisting"
+        android:summary="@string/preferences_general_skip_entries_with_data_description"
+        android:title="@string/preferences_general_skip_entries_with_data" />
+
+
+    <!--
+    <PreferenceCategory
+        android:title="@string/preferences_files_naming"
+        android:key="pref_key_files_settings">
+    </PreferenceCategory>
+    -->
+
+</PreferenceScreen>

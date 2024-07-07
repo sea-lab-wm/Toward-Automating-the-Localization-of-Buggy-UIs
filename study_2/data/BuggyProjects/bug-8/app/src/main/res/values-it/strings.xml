@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- To be translated ff -->
+    <string name="common_button_cancel">Annulla</string>
+    <string name="common_button_yes">Si</string>
+    <string name="common_button_no">No</string>
+    <string name="common_button_ok">OK</string>
+    <string name="common_label_total_amount">Totale:</string>
+    <string name="common_label_total_amounts">Totale:</string>
+    <string name="common_label_inactive_addon">[Inattivo]</string>
+    <string name="activity_label_participants">Viaggiatori</string>
+    <string name="activity_label_report">Resoconto</string>
+    <string name="activity_label_payments">Pagamenti</string>
+    <string name="label_enum_payment_category_housing">Alloggio</string>
+    <string name="label_enum_payment_category_food">Cibo</string>
+    <string name="label_enum_payment_category_beverages">Bevande</string>
+    <string name="label_enum_payment_category_gas">Carburante</string>
+    <string name="label_enum_payment_category_public_transport">Trasporto pubblico</string>
+    <string name="label_enum_payment_category_other">Varie</string>
+    <string name="label_enum_payment_category_rentals">Noleggio</string>
+    <string name="label_enum_payment_category_culture">Cultura</string>
+    <string name="label_enum_payment_category_entrance_fee">Biglietto d\'ingresso</string>
+    <string name="label_enum_payment_category_money_transfer">Trasferimento di denaro</string>
+    <string name="label_enum_select_rates_all">&#8230; tutto</string>
+    <string name="label_enum_select_rates_none">&#8230; nulla</string>
+    <string name="label_enum_select_rates_all_imported">&#8230; tutto importato</string>
+    <string name="label_enum_select_rates_all_custom">&#8230; tutto personalizzato</string>
+    <string name="option_help">Aiuto &amp; Informazioni</string>
+    <string name="option_settings">Impostazioni</string>
+    <string name="option_export">Esporta</string>
+    <string name="option_delete">Elimina</string>
+    <string name="option_add_participant">Aggiungi viaggiatore al viaggio</string>
+    <string name="option_create">Crea</string>
+    <string name="option_import">Importa</string>
+    <string name="option_upload">Esporta</string>
+    <string name="option_edit">Edit</string>
+    <string name="option_save_create">Crea</string>
+    <string name="option_save_edit">Salva</string>
+    <string name="option_save_add">Aggiungi</string>
+    <string name="option_option_create_exchange_rate_for_source">Crea tasso corrispondente</string>
+    <string name="drawer_open">Apre il menu di navigazione</string>
+    <string name="drawer_close">Chiude il menu di navigazione</string>
+    <!-- =============================== Participant tab view =============================== -->
+    <string name="participant_tab_row_view_label_spent">Speso:</string>
+    <string name="participant_tab_row_view_label_paid">Pagato:</string>
+    <string name="participant_tab_blank_list_notification">Non c\'è ancora nessun viaggiatore. \n\n\n\nCrea nuovi viaggiatori selezionando \'+\' dalla barra delle azioni o dal menu.</string>
+    <!-- =============================== Currency calculator view =============================== -->
+    <string name="currencyCalculatorViewTextViewHeading">Convertitore di valuta</string>
+    <string name="currencyCalculatorViewTextViewLabelSource">Origine</string>
+    <string name="currencyCalculatorViewTextViewLabelTarget">Risultato</string>
+    <string name="currencyCalculatorViewTextViewHeadLabelRate">Tasso</string>
+    <string name="currencyCalculatorViewTextViewHeadLabelRateSetting">Impostazione tasso</string>
+    <string name="currencyCalculatorViewSpinnerPrompt">Selezionare un tasso di cambio memorizzato</string>
+    <string name="currencyCalculatorViewTextViewHeadLabelOptions">Opzioni</string>
+    <string name="currencyCalculatorViewCheckboxSaveNewRate">Salva il tasso di cambio appena inserito</string>
+    <string name="currencyCalculatorViewImageViewDescription">Indica la direzione del calcolo</string>
+    <string name="currencyCalculatorViewButtonUseResult">Usa risultato</string>
+    <string name="currencyCalculatorViewNoMatchingRatesAvailable">Nessun tasso di cambio corrispondente disponibile.</string>
+    <string name="currencyCalculatorViewDefaultDescriptionAutoSaveExchangeRate">Tasso di cambio salvato automaticamente</string>
+    <string name="currencyCalculatorViewToastResultExceedsLimit">Il risultato della conversione supera il limite in input.</string>
+    <!-- =============================== Exchange rates common =============================== -->
+    <string name="exchangeRate_common_import_description_prefix">Importato</string>
+    <!-- =============================== Currency Selection =============================== -->
+    <string name="currency_selection_view_heading">Selezione valuta</string>
+    <string name="currency_selection_view_instruction_exchange_rate_calc">Selezionare la valuta di origine per il calcolo del cambio</string>
+    <string name="currency_selection_view_instruction_new_exchange_rate">Selezionare una valuta per il nuovo tasso di cambio:</string>
+    <string name="currency_selection_view_instruction_new_exchange_rate_label_left">Lato sinistro:</string>
+    <string name="currency_selection_view_instruction_new_exchange_rate_label_right">Lato destro:</string>
+    <string name="currency_selection_view_instruction_new_exchange_rate_label_to_be_selected">da selezionare</string>
+    <string name="currency_selection_view_instruction_group_label_used_and_matching">&#8230; corrispondente, nei tassi usati</string>
+    <string name="currency_selection_view_instruction_group_label_used_in_rates_matching">&#8230; corrispondente, nei tassi</string>
+    <string name="currency_selection_view_instruction_group_label_used_unmatched">&#8230; nei tassi usati</string>
+    <string name="currency_selection_view_instruction_group_label_used_in_rates_unmatched">&#8230; nei tassi</string>
+    <string name="currency_selection_view_instruction_group_label_in_trips">&#8230; nei viaggi</string>
+    <string name="currency_selection_view_instruction_group_label_else">Tutte le valute</string>
+    <!-- =============================== Manage exchange rates view =============================== -->
+    <string name="exchangeRateManageViewTextViewHeading">Tasso di cambio</string>
+    <string name="exchangeRateManageViewDeleteConfirmation">Sei sicuro di voler eliminare il tasso di cambio selezionato?</string>
+    <string name="exchangeRateManageViewBlankListNotification">Nessun tasso di cambio. \n\n\n\nImporta o crea tassi di cambio con le funzioni equivalenti dalla barra delle operazioni o dal menu.</string>
+    <!-- =============================== Import exchange rates view =============================== -->
+    <string name="exchangeRateImportViewTextViewHeading">Importa tasso di cambio</string>
+    <string name="exchangeRateImportViewCheckboxLabelNewRateOnValueChange">Crea nuovo tasso dal cambio valore</string>
+    <string name="exchangeRateImportViewListViewLabel">Selezionare tutti i tassi di valute rilevanti</string>
+    <string name="option_accept_execute_import">Inizia importazione</string>
+    <string name="exchangeRateImportViewCancelImportToast">L\'importazione è stata annullata.</string>
+    <string name="exchangeRateImportViewProgressBarMessage">Importazione tassi di cambio &#8230;</string>
+    <string name="exchangeRateImportViewSelectionPrefix">Selezionato:</string>
+    <string name="exchangeRateImportViewPreconToastRequiresOnlineConnection">L\'importazione dei tassi di cambio richiede una connessione online.</string>
+    <string name="exchangeRateImportViewPreconToastNotAlive1">I tassi di cambio non possono essere ottenuti via internet per le seguenti valute:</string>
+    <string name="exchangeRateImportViewPreconToastNotAlive2">Inserisci un tasso a mano o crea un nuovo tasso di cambio, scegliendo \'Crea tasso corrispondente \' dal menu.</string>
+    <!-- =============================== Delete exchange rates view =============================== -->
+    <string name="exchangeRateDeleteViewTextViewHeading">Elimina tasso di cambio</string>
+    <string name="option_accept_exchange_rate_delete">Elimina selezione</string>
+    <string name="exchangeRateDeleteViewSpinnerPrompt">Seleziona &#8230;</string>
+    <string name="exchangeRateDeleteViewLabelSelectionOptions">Modifica selezione &#8230;</string>
+    <string name="exchangeRateDeleteViewLabelSelectionOptionsDesc">Apri opzioni di selezione</string>
+    <string name="exchangeRateDeleteViewDeleteConfirmation">Sei sicuro di voler cancellare i @@1@@ tasso(i) di cambio selezionato(i)?</string>
+    <!-- =============================== Edit Exchange Rate =============================== -->
+    <string name="exchangeRateEditViewHeadingEdit">Modifica tasso di cambio</string>
+    <string name="exchangeRateEditViewHeadingCreate">Crea tasso di cambio</string>
+    <string name="exchangeRateEditViewLabelRate">Tasso</string>
+    <string name="exchangeRateEditViewLabelInputDescription">Descrizione</string>
+    <string name="exchangeRateEditViewMsgSaveDenialDuplicate">Un tasso di cambio con la descrizione inserita esiste già. Si prega di modificare il vostro inserimento.</string>
+    <!-- =============================== export view =============================== -->
+    <string name="exportViewTextViewHeading">Esporta</string>
+    <string name="exportViewTextViewSubHeadingContent">Che cosa?</string>
+    <string name="exportViewCheckboxContentPayments">Pagamenti</string>
+    <string name="exportViewCheckboxContentTransfers">Trasferimenti di denaro</string>
+    <string name="exportViewCheckboxContentSpendingReport">Spese</string>
+    <string name="exportViewCheckboxContentOwingDebts">Debiti dovuti</string>
+    <string name="exportViewTextViewSubHeadingScope">Estensione?</string>
+    <string name="exportViewTextViewSubHeadingFormat">Formato?</string>
+    <string name="exportViewCheckboxFormatCsv">CSV (per Excel, etc.)</string>
+    <string name="exportViewCheckboxFormatHtml">HTML</string>
+    <string name="exportViewCheckboxFormatTxt">TXT</string>
+    <string name="exportViewCheckboxSeparateFilesForIndividuals">File(s) separati per ciascun viaggiatore</string>
+    <string name="exportViewCheckboxShowTripSumOnIndividualSpendingReport">Spese: Mostra le somme dell\'intero viaggio nei singoli files</string>
+    <string name="exportViewSpinnerPromptScope">Scegli viaggiatore per l\'esportazione</string>
+    <string name="exportViewIntentChooserHeader">Scegli il servizio a cui esportare</string>
+    <string name="exportViewTextViewSubHeadingChannel">Destinazione dell\'output?</string>
+    <string name="exportViewSpinnerPromptChannel">Scegli la destinazione dell\'output</string>
+    <string name="exportViewSpinnerNotAvailable">non disponibile</string>
+    <string name="exportOutputChannelEnumSave2Sd">Salva su SD card</string>
+    <string name="exportOutputChannelMail">Posta</string>
+    <!-- =============================== Save 2 SD receiver =============================== -->
+    <string name="save2SdReceiverLabel">Salva su memoria</string>
+    <string name="save2SdReceiverHeading">Esportazione: Selezione cartella</string>
+    <string name="save2SdReceiverSelect">Selezione</string>
+    <string name="save2SdReceiverProgressHeading">Salvataggio esportazione su memoria:</string>
+    <string name="save2SdReceiverResultNothingSaved">Nulla esportato nel dispositivo</string>
+    <string name="save2SdReceiverResultSavedPrefix">Esportato con successo</string>
+    <string name="save2SdReceiverResultSavedPostfix">su memoria</string>
+    <string name="save2SdReceiverResultSavedFiles">files</string>
+    <string name="save2SdReceiverResultSavedFile">file</string>
+    <!-- =============================== file export =============================== -->
+    <string name="fileExportPrefix">TTE</string>
+    <string name="fileExportFileHeading">Resoconto di Tricky Tripper</string>
+    <string name="fileExportFileSummaryEventPrefix">Viaggio/Evento:</string>
+    <string name="fileExportFileSummaryReportForPrefix">Resoconto per</string>
+    <string name="fileExportFileSummaryReportForPrefixAll">tutti i viaggiatori.</string>
+    <string name="fileExportPostfix_Payments">P</string>
+    <string name="fileExportPostfix_Transfers">T</string>
+    <string name="fileExportPostfix_Spendings">S</string>
+    <string name="fileExportPostfix_Debts">D</string>
+    <string name="fileExportTableHeadingPayments">Pagamenti</string>
+    <string name="fileExportTableHeadingTransfers">Trasferimenti di denaro</string>
+    <string name="fileExportTableHeadingSpendings">Spese</string>
+    <string name="fileExportTableHeadingDebts">Debiti dovuti</string>
+    <string name="fileExportrFix_Scope_All">All</string>
+    <string name="fileExportEmailSubjectPrefix">Esportazione da Tricky Tripper</string>
+    <string name="fileExportEmailContent">… vedi files allegati.</string>
+    <string name="fileExportPaymentsHeadingPaymentDateTime">Data &amp; Ora</string>
+    <string name="fileExportPaymentsHeadingPaymentName">Pagamenti</string>
+    <string name="fileExportPaymentsHeadingCategory">Categoria</string>
+    <string name="fileExportPaymentsHeadingAmount">Importo</string>
+    <string name="fileExportPaymentsHeadingPaidBy">Pagato da</string>
+    <string name="fileExportPaymentsHeadingDebitedTo">Addebitato a</string>
+    <string name="fileExportSpendingsHeadingSpendingGlobal">Spese</string>
+    <string name="fileExportSpendingsHeadingSpendingByCategory">Spese per categoria</string>
+    <string name="fileExportSpendingsHeadingAll">Tutti i viaggiatori</string>
+    <string name="fileExportSpendingsHeadingTotalSpent">Totale speso</string>
+    <string name="fileExportSpendingsHeadingTotalCount">Numero totale di pagamenti</string>
+    <string name="fileExportOwingDebtsHeadingDebtor">Viaggiatore</string>
+    <string name="fileExportOwingDebtsHeadingCreditor">deve a</string>
+    <string name="fileExportOwingDebtsHeadingAmount">l\'importo di</string>
+    <string name="fileExportTransferHeadingPayer">Viaggiatore</string>
+    <string name="fileExportTransferHeadingReceiver">ha trasferito a</string>
+    <string name="fileExportTransferHeadingAmount">l\'importo di</string>
+    <!-- =============================== Report view =============================== -->
+    <string name="report_view_subheading_spendings_by_category">Spese per categoria</string>
+    <string name="report_view_subheading_spendings">Spese</string>
+    <string name="report_view_entry_report_spinner_null_value">Tutti i viaggiatori</string>
+    <string name="report_view_label_report_spinner_prompt">Scegli viaggiatore per resoconto</string>
+    <string name="report_view_label_report_spinner">Per:</string>
+    <string name="report_view_label_payment_count">Numero totale di pagamenti:</string>
+    <string name="report_view_label_total_spent">Totale speso:</string>
+    <string name="report_view_label_no_spendings">Nessuna spesa</string>
+    <string name="report_view_label_no_debts">Nessun debito</string>
+    <!-- =============================== Payment view =============================== -->
+    <string name="payment_view_heading_create_payment">Crea Pagamento</string>
+    <string name="payment_view_heading_edit_payment">Modifica Pagamento</string>
+    <string name="payment_view_spinner_prompt">Seleziona una categoria di pagamento</string>
+    <string name="payment_view_popup">Seleziona una categoria di pagamento</string>
+    <string name="payment_view_msg_cannot_save_title">Non posso salvare</string>
+    <string name="payment_view_msg_cannot_save_msg">Il pagamento non può essere salvato con il valore a 0. Usa Annulla per lasciare la finestra di dialogo.</string>
+    <!-- =============================== Money transfer view =============================== -->
+    <string name="money_transfer_view_heading">Trasferimento di denaro</string>
+    <string name="money_transfer_view_label_from">da:</string>
+    <string name="option_money_transfer_execute">Trasferimento</string>
+    <string name="money_transfer_list_view_label_name">a:</string>
+    <string name="money_transfer_list_view_label_amount">Importo</string>
+    <string name="money_transfer_list_view_label_due">&lt; Dovuto</string>
+    <!-- =============================== Payment list view =============================== -->
+    <string name="payment_view_label_payed_by">Pagato da:</string>
+    <string name="payment_view_label_debited_to">Addebitato a:</string>
+    <string name="payment_view_label_category">Categoria:</string>
+    <string name="payment_view_label_transfer_from">Da:</string>
+    <string name="payment_view_label_transfer_to">A:</string>
+    <string name="payment_view_label_date_time">Quando:</string>
+    <string name="payment_view_delete_confirmation_payment">Sei sicuro di voler eliminare il pagamento selezionato?</string>
+    <string name="payment_view_delete_confirmation_transfer">Sei sicuro di voler eliminare il trasferimento di denaro selezionato?</string>
+    <string name="payment_view_blank_list_notification">Nessun pagamento. \n\n\n\nCreare nuovi pagamenti toccando il viaggiatore che ha pagato.</string>
+    <!-- =============================== Payment edit =============================== -->
+    <string name="payment_edit_view_label_category">Categoria</string>
+    <string name="payment_edit_view_label_description">Descrizione</string>
+    <string name="payment_edit_view_label_date_time">Data &amp; Ora</string>
+    <string name="payment_edit_view_label_date_time_now">Adesso</string>
+    <string name="payment_edit_view_date_picker_title">Scegli data e ora del tuo pagamento</string>
+    <string name="payment_edit_view_label_travellers_charged">Viaggiatori paganti:</string>
+    <string name="payment_edit_view_label_radio_split_evenly">Divisione equa</string>
+    <string name="payment_edit_view_label_radio_custom_split">Divisione personalizzata</string>
+    <string name="payment_edit_view_textView_payee_label_amount">Importo</string>
+    <string name="payment_edit_view_textView_payee_label_spent_by">Addebitato a</string>
+    <string name="payment_edit_view_label_payed_by">Pagato da</string>
+    <string name="payment_edit_view_textView_label_amount">Importo</string>
+    <string name="payment_edit_view_button_divide_rest">Dividi resto</string>
+    <!-- ==================== Context menu participants ====================== -->
+    <string name="participant_fktn_create_payment">Crea pagamento</string>
+    <string name="participant_fktn_transfer_money">Trasferisci denaro</string>
+    <string name="participant_fktn_show_report">Mostra resoconto</string>
+    <string name="participant_fktn_deactivate">Disattiva (per i costi)</string>
+    <string name="participant_fktn_activate">Attiva (per i costi)</string>
+    <!-- ==================== Context menu Payment List ====================== -->
+    <string name="trip_manage_view_heading">Gestione viaggi</string>
+    <string name="trip_manage_view_delete_confirmation">Sei sicuro di voler cancellare il viaggio selezionato con tutti i suoi viaggiatori, i pagamenti e le statistiche?</string>
+    <!-- ==================== Context menu participant edit====================== -->
+    <string name="participant_edit_view_label_name">Nome:</string>
+    <string name="participant_edit_view_heading_create">Aggiungi viaggiatore al viaggio</string>
+    <string name="participant_edit__view_heading_edit">Modifica viaggiatore</string>
+    <string name="participant_edit_view_msg_denial">Un partecipante con il nome immesso esiste già in questo viaggio. Si prega di modificare l\'inserimento.</string>
+    <string name="participant_edit_view_label_already_created">Già aggiunto:</string>
+    <!-- ==================== edit trip view ====================== -->
+    <string name="trip_edit_view_label_name_input">Nome:</string>
+    <string name="trip_edit_view_label_base_currency">Valuta base:</string>
+    <string name="trip_edit_view_label_base_currency_spinner_prompt">Selezionare una valuta di base per il viaggio</string>
+    <string name="trip_edit_view_edit_heading">Modifica viaggio</string>
+    <string name="trip_edit_view_create_heading">Crea nuovo viaggio</string>
+    <string name="trip_edit_view_msg">Un viaggio con il nome immesso esiste già. Si prega di modificare l\'inserimento.</string>
+    <!-- ==================== Messages ====================== -->
+    <string name="msg_delete_not_possible_inbalance">L\'utente non può essere eliminato perchè il suo conto non è equilibrato.</string>
+    <!-- ==================== Preferences ====================== -->
+    <string name="prefs_view_heading">Impostazioni</string>
+    <string name="prefs_view_title_exchange_rate_management">Tassi di Cambio</string>
+    <string name="prefs_view_title_currency">Valuta predefinita</string>
+    <string name="prefs_view_heading_chooser_currency">Scegli la valuta predefinita</string>
+    <!-- ==================== Context menu participant selectedTrip ====================== -->
+    <string name="participant_selection_title">Seleziona viaggiatori</string>
+    <string name="participant_selection_payer_selection_msg">Seleziona tutti i viaggiatori che spendono/hanno speso i soldi e viceversa</string>
+    <string name="participant_selection_traveler_to_debit_msg">Seleziona tutti i viaggiatori a cui addebitare il pagamento e viceversa.</string>
+    <string name="participant_selection_traveler_divide_amount">Dividi tra i selezionati: </string>
+    <!-- ==================== Initial data ====================== -->
+    <string name="initial_data_trip_name">Il mio primo viaggio</string>
+    <!-- ==================== Change Log ======================== -->
+    <string name="changelog_full_title">Change Log</string>
+    <string name="changelog_title">What\'s New</string>
+    <string name="changelog_ok_button">OK</string>
+    <string name="changelog_show_full">more…</string>
+    <!-- ==================== Permissions ======================== -->
+    <string name="permission_rationale_phone_book_access">In fase di digitazione, TrickyTripper vorrebbe suggerire automaticamente i nomi dalla rubrica. Tuttavia, non è stata concessa l\'autorizzazione per fare questo. \n\nNota:\nTrickyTripper funziona senza questa autorizzazione.</string>
+    <string name="permission_write_ext_storage_permanently_revoked">Nessuna autorizzazione concessa per salvare sulla scheda SD.</string>
+    <!-- ==================== Directory picker activity ======================== -->
+    <string name="directory_picker_folder_unreadable">Impossibile leggere il contenuto della cartella.</string>
+</resources>

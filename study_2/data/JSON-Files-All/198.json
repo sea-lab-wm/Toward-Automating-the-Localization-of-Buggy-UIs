@@ -1,0 +1,67 @@
+{
+  "id": "198",
+  "confidence_level": "confident",
+  "bug_location": [
+  {
+    "commit_ids": ["5a84332a1679f179777404ccd541e00541512efb"],
+    "file_name": "bug-198/app/src/main/java/org/y20k/transistor/PlayerFragment.java",
+    "method_name": "private void handlePlaybackButtonClick()",
+    "line_numbers": null
+  },
+  {
+    "commit_ids": ["5a84332a1679f179777404ccd541e00541512efb"],
+    "file_name": "bug-198/app/src/main/java/org/y20k/transistor/PlayerService.java",
+    "method_name": "private void stopPlayback(boolean dismissNotification)",
+    "line_numbers": ["525","531"]
+  },
+  {
+    "commit_ids": ["5a84332a1679f179777404ccd541e00541512efb"],
+    "file_name": "bug-198/app/src/main/java/org/y20k/transistor/PlayerService.java",
+    "method_name": "protected void onPostExecute(Integer connectionType)",
+    "line_numbers": ["850"]
+  },
+  {
+    "commit_ids": ["5a84332a1679f179777404ccd541e00541512efb"],
+    "file_name": "bug-198/app/src/main/java/org/y20k/transistor/adapter/CollectionAdapter.java",
+    "method_name": "protected void onPostExecute(Integer connectionType)",
+    "line_numbers": ["370"]
+  },
+  {
+    "commit_ids": ["5a84332a1679f179777404ccd541e00541512efb"],
+    "file_name": "bug-198/app/src/main/java/org/y20k/transistor/adapter/CollectionAdapter.java",
+    "method_name": "private void handlePlaybackStateError(Intent intent)",
+    "line_numbers": ["466"]
+  }],
+  "fix_location": [
+  {
+    "commit_ids": ["3e14fe244a4eadd3b5837ef23918fbd4c956d4fd"],
+    "file_name": "fix-198/app/src/main/java/org/y20k/transistor/PlayerFragment.java",
+    "method_name": "private void handlePlaybackButtonClick()",
+    "line_numbers": ["383-389"]
+  },
+  {
+    "commit_ids": ["3e14fe244a4eadd3b5837ef23918fbd4c956d4fd"],
+    "file_name": "fix-198/app/src/main/java/org/y20k/transistor/PlayerService.java",
+    "method_name": "private void stopPlayback(boolean dismissNotification)",
+    "line_numbers": ["590","596"]
+  },
+  {
+    "commit_ids": ["3e14fe244a4eadd3b5837ef23918fbd4c956d4fd"],
+    "file_name": "fix-198/app/src/main/java/org/y20k/transistor/PlayerService.java",
+    "method_name": "protected void onPostExecute(Integer connectionType)",
+    "line_numbers": ["956","972"]
+  },
+  {
+    "commit_ids": ["3e14fe244a4eadd3b5837ef23918fbd4c956d4fd"],
+    "file_name": "fix-198/app/src/main/java/org/y20k/transistor/adapter/CollectionAdapter.java",
+    "method_name": "protected void onPostExecute(Integer connectionType)",
+    "line_numbers": ["370"]
+  },
+  {
+    "commit_ids": ["3e14fe244a4eadd3b5837ef23918fbd4c956d4fd"],
+    "file_name": "fix-198/app/src/main/java/org/y20k/transistor/adapter/CollectionAdapter.java",
+    "method_name": "private void handlePlaybackStateError(Intent intent)",
+    "line_numbers": ["466","469-475"]
+  }],
+  "unit_test_changes": null
+}

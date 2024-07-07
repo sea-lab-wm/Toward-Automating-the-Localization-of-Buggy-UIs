@@ -1,0 +1,43 @@
+{
+  "id": "192",
+  "confidence_level": "confident",
+  "bug_location": [
+  {
+    "commit_ids": ["7214fc661e79f0a9cb18344a2be14d169f212889"],
+    "file_name": "bug-192/app/src/main/java/net/gsantner/markor/activity/DocumentEditFragment.java",
+    "method_name": null,
+    "line_numbers": null
+  },
+  {
+    "commit_ids": ["7214fc661e79f0a9cb18344a2be14d169f212889"],
+    "file_name": "bug-192/app/src/main/java/net/gsantner/markor/activity/DocumentEditFragment.java",
+    "method_name": "public void onViewCreated(@NonNull View view, Bundle savedInstanceState)",
+    "line_numbers": null
+  },
+  {
+    "commit_ids": ["7214fc661e79f0a9cb18344a2be14d169f212889"],
+    "file_name": "bug-192/app/src/main/java/net/gsantner/markor/activity/DocumentEditFragment.java",
+    "method_name": "public boolean saveDocument()",
+    "line_numbers": null
+  }],
+  "fix_location": [
+  {
+    "commit_ids": ["1b824003f26ddeb76b4a5d488759fd2fbda18a07"],
+    "file_name": "fix-192/app/src/main/java/net/gsantner/markor/activity/DocumentEditFragment.java",
+    "method_name": null,
+    "line_numbers": ["49"]
+  },
+  {
+    "commit_ids": ["1b824003f26ddeb76b4a5d488759fd2fbda18a07"],
+    "file_name": "fix-192/app/src/main/java/net/gsantner/markor/activity/DocumentEditFragment.java",
+    "method_name": "public void onViewCreated(@NonNull View view, Bundle savedInstanceState)",
+    "line_numbers": ["104-109", "121", "123-125"]
+  },
+  {
+    "commit_ids": ["1b824003f26ddeb76b4a5d488759fd2fbda18a07"],
+    "file_name": "fix-192/app/src/main/java/net/gsantner/markor/activity/DocumentEditFragment.java",
+    "method_name": "public boolean saveDocument()",
+    "line_numbers": ["285"]
+  }],
+  "unit_test_changes": null
+}

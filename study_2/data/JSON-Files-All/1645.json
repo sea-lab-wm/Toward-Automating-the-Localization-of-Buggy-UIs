@@ -1,0 +1,19 @@
+{
+	"id": "1645",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["9ca910f2e8a131226daae46dff427c4d742a2032"],
+		"file_name": "bug-1645/app/src/main/java/com/german_software_engineers/trainerapp/ExerciseDialog.java",
+		"method_name": "public void generateExcercise()",
+		"line_numbers": ["63"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["f804c7399e3b190714df9633c0184b92b6f6afec"],
+		"file_name": "fix-1645/app/src/main/java/com/german_software_engineers/trainerapp/ExerciseDialog.java",
+		"method_name": "public void generateExcercise()",
+		"line_numbers": ["63"]
+	}],
+	"unit_test_changes": null
+}

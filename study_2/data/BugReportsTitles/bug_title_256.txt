@@ -1,0 +1,1 @@
+App crashes when trying modify account if default transaction account no longer exist.

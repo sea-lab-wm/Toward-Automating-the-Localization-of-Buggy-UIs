@@ -1,0 +1,49 @@
+{
+	"id": "1096",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["ef218f5ad5ed8b1a176346c55332c7118e40e5dd"],
+		"file_name": "bug-1096/iNaturalist/src/main/java/org/inaturalist/android/RecordSoundActivity.java",
+		"method_name": "public boolean onOptionsItemSelected(MenuItem item)",
+		"line_numbers": ["260-261"]
+	},
+	{
+		"commit_ids": ["ef218f5ad5ed8b1a176346c55332c7118e40e5dd"],
+		"file_name": "bug-1096/iNaturalist/src/main/java/org/inaturalist/android/RecordSoundActivity.java",
+		"method_name": "public void onRecordingStopped()",
+		"line_numbers": null
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["7679bcf9bcf8001b009508d68c299b8b04baaa54"],
+		"file_name": "fix-1096/iNaturalist/src/main/java/org/inaturalist/android/RecordSoundActivity.java",
+		"method_name": null,
+		"line_numbers": ["45"]
+	},
+	{
+		"commit_ids": ["7679bcf9bcf8001b009508d68c299b8b04baaa54"],
+		"file_name": "fix-1096/iNaturalist/src/main/java/org/inaturalist/android/RecordSoundActivity.java",
+		"method_name": "public boolean onOptionsItemSelected(MenuItem item)",
+		"line_numbers": ["260"]
+	},
+	{
+		"commit_ids": ["7679bcf9bcf8001b009508d68c299b8b04baaa54"],
+		"file_name": "fix-1096/iNaturalist/src/main/java/org/inaturalist/android/RecordSoundActivity.java",
+		"method_name": "public void onBackPressed()",
+		"line_numbers": ["304-307"]
+	},
+	{
+		"commit_ids": ["7679bcf9bcf8001b009508d68c299b8b04baaa54"],
+		"file_name": "fix-1096/iNaturalist/src/main/java/org/inaturalist/android/RecordSoundActivity.java",
+		"method_name": "private void onBack()",
+		"line_numbers": ["309-313"]
+	},
+	{
+		"commit_ids": ["7679bcf9bcf8001b009508d68c299b8b04baaa54"],
+		"file_name": "fix-1096/iNaturalist/src/main/java/org/inaturalist/android/RecordSoundActivity.java",
+		"method_name": "public void onRecordingStopped()",
+		"line_numbers": ["320-328"]
+	}],
+	"unit_test_changes": null
+}

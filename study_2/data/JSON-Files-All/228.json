@@ -1,0 +1,19 @@
+{
+	"id": "228",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["bcdab71c58f2ade300aa4cea23f0c9f728f26d88"],
+		"file_name": "bug-228/app/src/main/res/raw/iso_4217_currencies.xml",
+		"method_name": null,
+		"line_numbers": ["1316"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["261a10938cd95d3ebd1bf039e86692cfdf701a83"],
+		"file_name": "fix-228/app/src/main/res/raw/iso_4217_currencies.xml",
+		"method_name": null,
+		"line_numbers": ["1316"]
+	}],
+	"unit_test_changes": null
+}

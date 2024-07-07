@@ -1,0 +1,32 @@
+{
+	"id": "178",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["1d950d187fae89396ce6b1d0f78f6e44dd095440"],
+		"file_name": "bug-178/app/src/main/res/values-de/strings.xml",
+		"method_name": null,
+		"line_numbers": ["14","23"]
+	},
+	{
+		"commit_ids": ["1d950d187fae89396ce6b1d0f78f6e44dd095440"],
+		"file_name": "bug-178/app/src/main/res/values/strings.xml",
+		"method_name": null,
+		"line_numbers": ["15","18"]
+	}],
+
+	"fix_location": [
+	{
+		"commit_ids": ["252193f949651a4c6a5ead99bb219e86d51a16db"],
+		"file_name": "fix-178/app/src/main/res/values-de/strings.xml",
+		"method_name": null,
+		"line_numbers": ["14-15","24"]
+	},
+	{
+		"commit_ids": ["252193f949651a4c6a5ead99bb219e86d51a16db"],
+		"file_name": "fix-178/app/src/main/res/values/strings.xml",
+		"method_name": null,
+		"line_numbers": ["15-16","19"]
+	}],
+	"unit_test_changes": null
+}

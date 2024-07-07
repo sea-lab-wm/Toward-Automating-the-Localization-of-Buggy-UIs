@@ -1,0 +1,21 @@
+{
+    "id": "159",
+    "confidence_level": "confident",
+    "bug_location": [
+        {
+            "commit_ids": [
+                "2948dfbb88bf535a6099245dfd5bc1432f9c8914"
+            ],
+            "file_name": "bug-159/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java"
+        }
+    ],
+    "fix_location": [
+        {
+            "commit_ids": [
+                "5bb384a"
+            ],
+            "file_name": "bug-159/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java"
+        }
+    ],
+    "unit_test_changes": null
+}

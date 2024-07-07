@@ -1,0 +1,1 @@
+Ghost thumbnail image in observation list view

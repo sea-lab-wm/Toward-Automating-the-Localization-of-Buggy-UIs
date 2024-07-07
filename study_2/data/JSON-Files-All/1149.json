@@ -1,0 +1,19 @@
+{
+	"id": "1149",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["b5b5519f6a46b6f16d2b75f241621d6c2702fc7b"],
+		"file_name": "bug-1149/GPSTest/src/main/res/values/strings.xml",
+		"method_name": null,
+		"line_numbers": ["310-313"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["ba318adfab277adb759e8ded94bfd1ee3b457930"],
+		"file_name": "fix-1149/GPSTest/src/main/res/values/strings.xml",
+		"method_name": null,
+		"line_numbers": ["294-297"]
+	}],
+	"unit_test_changes": null
+}

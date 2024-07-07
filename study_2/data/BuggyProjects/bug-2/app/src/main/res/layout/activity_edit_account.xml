@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="io.github.zwieback.familyfinance.core.model.restriction.AccountRestriction"/>
+
+        <import type="io.github.zwieback.familyfinance.util.NumberUtils"/>
+
+        <variable
+            name="account"
+            type="io.github.zwieback.familyfinance.core.model.IAccount"/>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar"
+            android:fillViewport="true"
+            android:padding="@dimen/entity_edit_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.mikepenz.iconics.view.IconicsImageView
+                    android:id="@+id/icon"
+                    android:layout_width="@dimen/entity_edit_icon_size"
+                    android:layout_height="@dimen/entity_edit_icon_size"
+                    app:ico_size="@dimen/entity_edit_icon_size"
+                    app:iiv_icon="cmd_folder"/>
+
+                <com.johnpetitto.validator.ValidatingTextInputLayout
+                    android:id="@+id/parent_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/entity_edit_margin"
+                    android:layout_marginStart="@dimen/entity_edit_margin"
+                    android:hint="@string/hint_parent"
+                    app:errorEnabled="true"
+                    app:errorTextAppearance="@style/AppTheme.ErrorTextAppearance">
+
+                    <io.github.zwieback.familyfinance.widget.ClearableEditText
+                        android:id="@+id/parent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@{account.parent.name}"
+                        app:readOnly="@{true}"
+                        style="@style/AppTheme.EditText.Clearable"/>
+
+                </com.johnpetitto.validator.ValidatingTextInputLayout>
+
+            </LinearLayout>
+
+            <Switch
+                android:id="@+id/active"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/entity_edit_margin"
+                android:checked="@{account.active}"
+                android:text="@string/hint_active"
+                app:readOnly="@{true}"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/entity_edit_margin"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="@integer/full_weight">
+
+                <com.johnpetitto.validator.ValidatingTextInputLayout
+                    android:id="@+id/name_layout"
+                    android:layout_width="@dimen/zero_weight"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/half_of_weight"
+                    android:hint="@string/hint_name"
+                    app:errorEnabled="true"
+                    app:errorLabel="@string/name_error"
+                    app:errorTextAppearance="@style/AppTheme.ErrorTextAppearance"
+                    app:validateAfterTextChanged="true"
+                    app:validator="not_empty">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:maxLength="@{AccountRestriction.NAME_MAX_LENGTH}"
+                        android:text="@{account.name}"/>
+
+                </com.johnpetitto.validator.ValidatingTextInputLayout>
+
+                <LinearLayout
+                    android:id="@+id/account_type_layout"
+                    android:layout_width="@dimen/zero_weight"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/half_of_weight"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hint_account_type"
+                        style="@style/AppTheme.HintText"/>
+
+                    <android.support.v7.widget.AppCompatSpinner
+                        android:id="@+id/account_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/account_type"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="@integer/full_weight">
+
+                <com.johnpetitto.validator.ValidatingTextInputLayout
+                    android:id="@+id/currency_layout"
+                    android:layout_width="@dimen/zero_weight"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/half_of_weight"
+                    android:hint="@string/hint_currency"
+                    app:errorEnabled="true"
+                    app:errorLabel="@string/currency_is_not_set_error"
+                    app:errorTextAppearance="@style/AppTheme.ErrorTextAppearance"
+                    app:validateAfterTextChanged="true"
+                    app:validator="not_empty">
+
+                    <io.github.zwieback.familyfinance.widget.ClearableEditText
+                        android:id="@+id/currency"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@{account.currency.name}"
+                        app:readOnly="@{true}"
+                        style="@style/AppTheme.EditText.Clearable"/>
+
+                </com.johnpetitto.validator.ValidatingTextInputLayout>
+
+                <com.johnpetitto.validator.ValidatingTextInputLayout
+                    android:id="@+id/owner_layout"
+                    android:layout_width="@dimen/zero_weight"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/half_of_weight"
+                    android:hint="@string/hint_owner"
+                    app:errorEnabled="true"
+                    app:errorLabel="@string/owner_is_not_set_error"
+                    app:errorTextAppearance="@style/AppTheme.ErrorTextAppearance"
+                    app:validateAfterTextChanged="true"
+                    app:validator="not_empty">
+
+                    <io.github.zwieback.familyfinance.widget.ClearableEditText
+                        android:id="@+id/owner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@{account.owner.name}"
+                        app:readOnly="@{true}"
+                        style="@style/AppTheme.EditText.Clearable"/>
+
+                </com.johnpetitto.validator.ValidatingTextInputLayout>
+
+            </LinearLayout>
+
+            <com.johnpetitto.validator.ValidatingTextInputLayout
+                android:id="@+id/number_layout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="@integer/half_of_weight"
+                android:hint="@string/hint_account_number"
+                app:errorEnabled="true"
+                app:errorLabel="@string/account_number_error"
+                app:errorTextAppearance="@style/AppTheme.ErrorTextAppearance"
+                app:validator="account_number">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number|numberSigned"
+                    android:maxLength="@{AccountRestriction.NUMBER_MAX_LENGTH}"
+                    android:text="@{account.number}"/>
+
+            </com.johnpetitto.validator.ValidatingTextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="@integer/full_weight">
+
+                <com.johnpetitto.validator.ValidatingTextInputLayout
+                    android:id="@+id/payment_system_layout"
+                    android:layout_width="@dimen/zero_weight"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/half_of_weight"
+                    android:hint="@string/hint_payment_system">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/payment_system"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLength="@{AccountRestriction.PAYMENT_SYSTEM_MAX_LENGTH}"
+                        android:text="@{account.paymentSystem}"/>
+
+                </com.johnpetitto.validator.ValidatingTextInputLayout>
+
+                <com.johnpetitto.validator.ValidatingTextInputLayout
+                    android:id="@+id/card_number_layout"
+                    android:layout_width="@dimen/zero_weight"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/half_of_weight"
+                    android:hint="@string/hint_card_number"
+                    app:errorEnabled="true"
+                    app:errorLabel="@string/card_number_error"
+                    app:errorTextAppearance="@style/AppTheme.ErrorTextAppearance"
+                    app:validator="signed_number">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/card_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number|numberSigned"
+                        android:maxLength="@{AccountRestriction.CARD_NUMBER_MAX_LENGTH}"
+                        android:text="@{account.cardNumber}"/>
+
+                </com.johnpetitto.validator.ValidatingTextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="@integer/full_weight">
+
+                <com.johnpetitto.validator.ValidatingTextInputLayout
+                    android:id="@+id/initial_balance_layout"
+                    android:layout_width="@dimen/zero_weight"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/half_of_weight"
+                    android:hint="@string/hint_initial_balance"
+                    app:errorEnabled="true"
+                    app:errorLabel="@string/initial_balance_error"
+                    app:errorTextAppearance="@style/AppTheme.ErrorTextAppearance"
+                    app:validateAfterTextChanged="true"
+                    app:validator="big_decimal">
+
+                    <io.github.zwieback.familyfinance.widget.DecimalNumberTextEdit
+                        android:id="@+id/initial_balance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@{NumberUtils.bigDecimalToString(account.initialBalance)}"/>
+
+                </com.johnpetitto.validator.ValidatingTextInputLayout>
+
+                <com.johnpetitto.validator.ValidatingTextInputLayout
+                    android:id="@+id/order_code_layout"
+                    android:layout_width="@dimen/zero_weight"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/half_of_weight"
+                    android:hint="@string/hint_order_code"
+                    app:errorEnabled="true"
+                    app:errorLabel="@string/initial_balance_error"
+                    app:errorTextAppearance="@style/AppTheme.ErrorTextAppearance"
+                    app:validateAfterTextChanged="true"
+                    app:validator="integer">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/order_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number|numberSigned"
+                        android:text="@{NumberUtils.intToString(account.orderCode)}"/>
+
+                </com.johnpetitto.validator.ValidatingTextInputLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</layout>

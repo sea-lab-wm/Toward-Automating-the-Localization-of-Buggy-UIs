@@ -1,0 +1,61 @@
+{
+	"id": "1197",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["e5ec9ddbf335cffb226f4d82fac4f48b6c756667"],
+		"file_name": "bug-1097/app/src/main/res/values-es/strings.xml",
+		"method_name": null,
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["e5ec9ddbf335cffb226f4d82fac4f48b6c756667"],
+		"file_name": "bug-1097/app/src/main/res/values-fr/strings.xml",
+		"method_name": null,
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["e5ec9ddbf335cffb226f4d82fac4f48b6c756667"],
+		"file_name": "bug-1097/app/src/main/res/values-ja/strings.xml",
+		"method_name": null,
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["e5ec9ddbf335cffb226f4d82fac4f48b6c756667"],
+		"file_name": "bug-1097/app/src/main/res/values/strings.xml",
+		"method_name": null,
+		"line_numbers": null
+	}],
+	"fix_location": [
+	{
+      "commit_ids": ["f00c0f6a0d724db26b4db4cfc42db172594f1c12"],
+      "file_name": "fix-1097/app/src/main/java/swati4star/createpdf/util/PDFUtils.java",
+      "method_name": null,
+      "line_numbers": null
+    },
+	{
+		"commit_ids": ["f00c0f6a0d724db26b4db4cfc42db172594f1c12"],
+		"file_name": "fix-1097/app/src/main/res/values-es/strings.xml",
+		"method_name": null,
+		"line_numbers": ["69"]
+	},
+	{
+		"commit_ids": ["f00c0f6a0d724db26b4db4cfc42db172594f1c12"],
+		"file_name": "fix-1097/app/src/main/res/values-fr/strings.xml",
+		"method_name": null,
+		"line_numbers": ["67"]
+	},
+	{
+		"commit_ids": ["f00c0f6a0d724db26b4db4cfc42db172594f1c12"],
+		"file_name": "fix-1097/app/src/main/res/values-ja/strings.xml",
+		"method_name": null,
+		"line_numbers": ["68"]
+	},
+	{
+		"commit_ids": ["f00c0f6a0d724db26b4db4cfc42db172594f1c12"],
+		"file_name": "fix-1097/app/src/main/res/values/strings.xml",
+		"method_name": null,
+		"line_numbers": ["91"]
+	}],
+	"unit_test_changes": null
+}

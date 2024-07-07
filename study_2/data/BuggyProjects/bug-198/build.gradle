@@ -1,0 +1,41 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven {
+            url "https://maven.google.com"
+        }
+    }
+    project.ext {
+        applicationId = 'org.y20k.transistor'
+        versionCode = 43
+        versionName = '2.3.1 (Kooks)'
+        minSdkVersion = 19
+        compileSdkVersion = 26
+        targetSdkVersion = 26
+        buildToolsVersion = '26.0.1'
+        supportLibraryVersion = '26.0.1'
+        archLifecycleVersion = '1.0.0-alpha8'
+        modulePrefix = ':'
+
+    }
+    if (it.hasProperty('externalBuildDir')) {
+        if (!new File(externalBuildDir).isAbsolute()) {
+            externalBuildDir = new File(rootDir, externalBuildDir)
+        }
+        buildDir = "${externalBuildDir}/${project.name}"
+    }
+}

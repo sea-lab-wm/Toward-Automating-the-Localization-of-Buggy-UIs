@@ -1,0 +1,1 @@
+[BUG] Unable to change label size when printing to Zebra printer

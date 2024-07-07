@@ -1,0 +1,109 @@
+{
+	"id": "10",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["003408bb61478c32f3119f7cb5e301db44caa199"],
+		"file_name": "bug-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerReceiver.java",
+		"method_name": "public void onReceive(@NonNull Context context, @NonNull Intent intent)",
+		"line_numbers": ["26"]
+	},
+	{
+		"commit_ids": ["003408bb61478c32f3119f7cb5e301db44caa199"],
+		"file_name": "bug-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerService.java",
+		"method_name": null,
+		"line_numbers": ["13", "39-40"]
+	},
+	{
+		"commit_ids": ["003408bb61478c32f3119f7cb5e301db44caa199"],
+		"file_name": "bug-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerService.java",
+		"method_name": "public static void start(@NonNull Context context)",
+		"line_numbers": ["56-60"]
+	},
+	{
+		"commit_ids": ["003408bb61478c32f3119f7cb5e301db44caa199"],
+		"file_name": "bug-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerService.java",
+		"method_name": "public static void stop()",
+		"line_numbers": ["63-66"]
+	},
+	{
+		"commit_ids": ["003408bb61478c32f3119f7cb5e301db44caa199"],
+		"file_name": "bug-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerService.java",
+		"method_name": "public void onCreate()",
+		"line_numbers": ["80"]
+	},
+	{
+		"commit_ids": ["003408bb61478c32f3119f7cb5e301db44caa199"],
+		"file_name": "bug-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerService.java",
+		"method_name": "public void onDestroy()",
+		"line_numbers": ["100"]
+	},
+	{
+		"commit_ids": ["003408bb61478c32f3119f7cb5e301db44caa199"],
+		"file_name": "bug-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerService.java",
+		"method_name": "private void onStartError(@NonNull Exception exception)",
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["003408bb61478c32f3119f7cb5e301db44caa199"],
+		"file_name": "bug-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerService.java",
+		"method_name": "private void setState(@NonNull State state)",
+		"line_numbers": ["135-137"]
+	},
+	{
+		"commit_ids": ["003408bb61478c32f3119f7cb5e301db44caa199"],
+		"file_name": "bug-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerStatePreference.java",
+		"method_name": "protected void onClick()",
+		"line_numbers": ["100"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["8480642ddf39521eff7f30a79c5d1feec5a7d4cb"],
+		"file_name": "fix-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerReceiver.java",
+		"method_name": "public void onReceive(@NonNull Context context, @NonNull Intent intent)",
+		"line_numbers": ["26"]
+	},
+	{
+		"commit_ids": ["8480642ddf39521eff7f30a79c5d1feec5a7d4cb"],
+		"file_name": "fix-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerService.java",
+		"method_name": "public static void start(@NonNull Context context)",
+		"line_numbers": ["51"]
+	},
+	{
+		"commit_ids": ["8480642ddf39521eff7f30a79c5d1feec5a7d4cb"],
+		"file_name": "fix-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerService.java",
+		"method_name": "public static void stop(@NonNull Context context)",
+		"line_numbers": ["54-55"]
+	},
+	{
+		"commit_ids": ["8480642ddf39521eff7f30a79c5d1feec5a7d4cb"],
+		"file_name": "fix-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerService.java",
+		"method_name": "public void onCreate()",
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["8480642ddf39521eff7f30a79c5d1feec5a7d4cb"],
+		"file_name": "fix-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerService.java",
+		"method_name": "public void onDestroy()",
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["8480642ddf39521eff7f30a79c5d1feec5a7d4cb"],
+		"file_name": "fix-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerService.java",
+		"method_name": "private void onStartError(@NonNull Exception exception)",
+		"line_numbers": ["107"]
+	},
+	{
+		"commit_ids": ["8480642ddf39521eff7f30a79c5d1feec5a7d4cb"],
+		"file_name": "fix-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerService.java",
+		"method_name": "private void setState(@NonNull State state)",
+		"line_numbers": ["122"]
+	},
+	{
+		"commit_ids": ["8480642ddf39521eff7f30a79c5d1feec5a7d4cb"],
+		"file_name": "fix-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerStatePreference.java",
+		"method_name": "protected void onClick()",
+		"line_numbers": ["100"]
+	}],
+	"unit_test_changes": null
+}

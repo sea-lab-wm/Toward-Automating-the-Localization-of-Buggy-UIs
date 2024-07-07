@@ -1,0 +1,33 @@
+{
+    "id": "1130",
+    "confidence_level": "confident",
+    "bug_location": [
+        {
+            "commit_ids": [
+                "d26d2126072654ba95f31f2bb638479bc2f199c4"
+            ],
+            "file_name": "bug-1130/app/src/main/java/de/danoeh/antennapod/fragment/AllEpisodesFragment.java"
+        },
+        {
+            "commit_ids": [
+                "d26d2126072654ba95f31f2bb638479bc2f199c4"
+            ],
+            "file_name": "bug-1130/app/src/main/java/de/danoeh/antennapod/fragment/QueueFragment.java"
+        }
+    ],
+    "fix_location": [
+        {
+            "commit_ids": [
+                "31194e02a5c7b4ddea37dcbc5ce48cbef5f6e8dc"
+            ],
+            "file_name": "bug-1130/app/src/main/java/de/danoeh/antennapod/fragment/AllEpisodesFragment.java"
+        },
+        {
+            "commit_ids": [
+                "31194e02a5c7b4ddea37dcbc5ce48cbef5f6e8dc"
+            ],
+            "file_name": "bug-1130/app/src/main/java/de/danoeh/antennapod/fragment/QueueFragment.java"
+        }
+    ],
+    "unit_test_changes": null
+}

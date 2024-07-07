@@ -1,0 +1,145 @@
+{
+  "id": "1641",
+  "confidence_level": "confident",
+  "bug_location": [
+    {
+		"commit_ids": ["071e37baad75d5529d21984f6a794413ef5abff4"],
+		"file_name": "bug-1641/app/src/main/java/com/german_software_engineers/trainerapp/ExerciseViewActivity.java",
+		"method_name": "protected void onStart()",
+		"line_numbers": ["52"]
+	},
+	{
+		"commit_ids": ["071e37baad75d5529d21984f6a794413ef5abff4"],
+		"file_name": "bug-1641/app/src/main/java/com/german_software_engineers/trainerapp/GeneralTrainingScheduleEditor.java",
+		"method_name": "protected void onCreate(Bundle savedInstanceState)",
+		"line_numbers": ["21","24-30"]
+	},
+	{
+		"commit_ids": ["071e37baad75d5529d21984f6a794413ef5abff4"],
+		"file_name": "bug-1641/app/src/main/java/com/german_software_engineers/trainerapp/GeneralTrainingScheduleEditor.java",
+		"method_name": "private boolean addScheduleToModel()",
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["071e37baad75d5529d21984f6a794413ef5abff4"],
+		"file_name": "bug-1641/app/src/main/res/values/strings.xml",
+		"method_name": null,
+		"line_numbers": ["78"]
+	},
+	{
+		"commit_ids": ["071e37baad75d5529d21984f6a794413ef5abff4"],
+		"file_name": "bug-1641/trainerappmodel/src/main/java/com/german_software_engineers/trainerappmodel/Enumerations/TrainingsTypes.java",
+		"method_name": null,
+		"line_numbers": ["7"]
+	},
+	{
+		"commit_ids": ["071e37baad75d5529d21984f6a794413ef5abff4"],
+		"file_name": "bug-1641/trainerappmodel/src/main/java/com/german_software_engineers/trainerappmodel/Model/XMLParser.java",
+		"method_name": "public boolean parseFile(File readableFile)",
+		"line_numbers": ["95"]
+	},
+	{
+		"commit_ids": ["071e37baad75d5529d21984f6a794413ef5abff4"],
+		"file_name": "bug-1641/trainerappmodel/src/main/java/com/german_software_engineers/trainerappmodel/Model/XMLParser.java",
+		"method_name": "public boolean writeFile(File writeableFile)",
+		"line_numbers": ["218-220","222"]
+	},
+	{
+		"commit_ids": ["071e37baad75d5529d21984f6a794413ef5abff4"],
+		"file_name": "bug-1641/trainerappmodel/src/main/java/com/german_software_engineers/trainerappmodel/Legacy/Schedule.java",
+		"method_name": null,
+		"line_numbers": ["12"]
+	}],
+  "fix_location": [
+    {
+		"commit_ids": ["a8b65ab2d52c30c487fd01841ed1ed2d7a86a40d"],
+		"file_name": "fix-1641/.idea/fileTemplates/internal/AnnotationType.java",
+		"method_name": null,
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["a8b65ab2d52c30c487fd01841ed1ed2d7a86a40d"],
+		"file_name": "fix-1641/.idea/fileTemplates/internal/Enum.java",
+		"method_name": null,
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["a8b65ab2d52c30c487fd01841ed1ed2d7a86a40d"],
+		"file_name": "fix-1641/.idea/fileTemplates/internal/Interface.java",
+		"method_name": null,
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["a8b65ab2d52c30c487fd01841ed1ed2d7a86a40d"],
+		"file_name": "fix-1641/app/src/main/java/com/german_software_engineers/trainerapp/ExerciseView/Activity/ExerciseViewActivity.java",
+		"method_name": "protected void onStart()",
+		"line_numbers": ["66"]
+	},
+	{
+		"commit_ids": ["a8b65ab2d52c30c487fd01841ed1ed2d7a86a40d"],
+		"file_name": "fix-1641/app/src/main/java/com/german_software_engineers/trainerapp/ScheduleView/GeneralTrainingScheduleEditor.java",
+		"method_name": null,
+		"line_numbers": ["27","32"]
+	},
+	{
+		"commit_ids": ["a8b65ab2d52c30c487fd01841ed1ed2d7a86a40d"],
+		"file_name": "fix-1641/app/src/main/java/com/german_software_engineers/trainerapp/ScheduleView/GeneralTrainingScheduleEditor.java",
+		"method_name": "protected void onCreate(Bundle savedInstanceState)",
+		"line_numbers": ["42","45-46"]
+	},
+	{
+		"commit_ids": ["a8b65ab2d52c30c487fd01841ed1ed2d7a86a40d"],
+		"file_name": "fix-1641/app/src/main/java/com/german_software_engineers/trainerapp/ScheduleView/GeneralTrainingScheduleEditor.java",
+		"method_name": "private void decorateGuiWithActiveSchedule()",
+		"line_numbers": ["61-77"]
+	},
+	{
+		"commit_ids": ["a8b65ab2d52c30c487fd01841ed1ed2d7a86a40d"],
+		"file_name": "fix-1641/app/src/main/java/com/german_software_engineers/trainerapp/ScheduleView/GeneralTrainingScheduleEditor.java",
+		"method_name": "private boolean addScheduleToModel()",
+		"line_numbers": ["91"]
+	},
+	{
+		"commit_ids": ["a8b65ab2d52c30c487fd01841ed1ed2d7a86a40d"],
+		"file_name": "fix-1641/app/src/main/res/values-de-rDE/strings.xml",
+		"method_name": null,
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["a8b65ab2d52c30c487fd01841ed1ed2d7a86a40d"],
+		"file_name": "fix-1641/app/src/main/res/values/strings.xml",
+		"method_name": null,
+		"line_numbers": ["99"]
+	},
+	{
+		"commit_ids": ["a8b65ab2d52c30c487fd01841ed1ed2d7a86a40d"],
+		"file_name": "fix-1641/trainerappmodel/src/main/java/com/german_software_engineers/trainerappmodel/Enumerations/TrainingsTypes.java",
+		"method_name": null,
+		"line_numbers": ["24-25"]
+	},
+	{
+		"commit_ids": ["a8b65ab2d52c30c487fd01841ed1ed2d7a86a40d"],
+		"file_name": "fix-1641/trainerappmodel/src/main/java/com/german_software_engineers/trainerappmodel/Model/XMLParser.java",
+		"method_name": null,
+		"line_numbers": ["22"]
+	},
+	{
+		"commit_ids": ["a8b65ab2d52c30c487fd01841ed1ed2d7a86a40d"],
+		"file_name": "fix-1641/trainerappmodel/src/main/java/com/german_software_engineers/trainerappmodel/Model/XMLParser.java",
+		"method_name": "public boolean parseFile(File readableFile)",
+		"line_numbers": ["112-113"]
+	},
+	{
+		"commit_ids": ["a8b65ab2d52c30c487fd01841ed1ed2d7a86a40d"],
+		"file_name": "fix-1641/trainerappmodel/src/main/java/com/german_software_engineers/trainerappmodel/Model/XMLParser.java",
+		"method_name": "public boolean writeFile(File writeableFile)",
+		"line_numbers": ["237"]
+	},
+	{
+		"commit_ids": ["a8b65ab2d52c30c487fd01841ed1ed2d7a86a40d"],
+		"file_name": "fix-1641/trainerappmodel/src/main/java/com/german_software_engineers/trainerappmodel/Schedule/Schedule.java",
+		"method_name": null,
+		"line_numbers": ["32"]
+	}],
+  "unit_test_changes": null
+}

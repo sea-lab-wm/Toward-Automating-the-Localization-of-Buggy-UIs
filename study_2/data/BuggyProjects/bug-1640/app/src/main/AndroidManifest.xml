@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.german_software_engineers.trainerapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".TrainingScheduleEditor"
+            android:label="@string/title_activity_training_schedule_editor"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".TrainingsSchedule"
+            android:label="@string/title_activity_trainings_schedule"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/title_activity_info"
+            android:parentActivityName=".TrainingsSchedule"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.german_software_engineers.trainerapp.TrainingsSchedule" />
+        </activity>
+        <activity
+            android:name=".GeneralTrainingScheduleEditor"
+            android:label="@string/title_activity_general_training_schedule_editor"
+            android:parentActivityName=".TrainingScheduleEditor"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.german_software_engineers.trainerapp.TrainingScheduleEditor" />
+        </activity>
+        <activity
+            android:name=".AddExerciseActivity"
+            android:label="@string/title_activity_add_exercise"
+            android:parentActivityName=".GeneralTrainingScheduleEditor"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.german_software_engineers.trainerapp.GeneralTrainingScheduleEditor" />
+        </activity>
+        <activity
+            android:name=".ExerciseViewActivity"
+            android:label="@string/title_activity_exercise_view"
+            android:parentActivityName=".TrainingsSchedule"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.german_software_engineers.trainerapp.TrainingsSchedule" />
+        </activity>
+        <activity
+            android:name=".EditExerciseActivity"
+            android:label="@string/title_activity_edit_exercise"
+            android:parentActivityName=".ExerciseViewActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.german_software_engineers.trainerapp.ExerciseViewActivity" />
+        </activity>
+    </application>
+</manifest>

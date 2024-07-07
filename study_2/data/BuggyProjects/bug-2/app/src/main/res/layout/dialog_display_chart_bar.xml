@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import
+            type="io.github.zwieback.familyfinance.business.chart.display.type.BarChartGroupType"/>
+
+        <variable
+            name="display"
+            type="io.github.zwieback.familyfinance.business.chart.display.BarChartDisplay"/>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/entity_edit_padding"
+            android:weightSum="@integer/full_weight">
+
+            <RadioGroup
+                android:layout_width="@dimen/zero_weight"
+                android:layout_height="wrap_content"
+                android:layout_weight="@integer/half_of_weight"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bar_chart_display_group"/>
+
+                <RadioButton
+                    android:id="@+id/group_by_days"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="@{display.groupType == BarChartGroupType.DAYS}"
+                    android:text="@string/bar_chart_display_group_by_days"/>
+
+                <RadioButton
+                    android:id="@+id/group_by_weeks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="@{display.groupType == BarChartGroupType.WEEKS}"
+                    android:text="@string/bar_chart_display_group_by_weeks"/>
+
+                <RadioButton
+                    android:id="@+id/group_by_months"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="@{display.groupType == BarChartGroupType.MONTHS}"
+                    android:text="@string/bar_chart_display_group_by_months"/>
+
+                <RadioButton
+                    android:id="@+id/group_by_quarters"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="@{display.groupType == BarChartGroupType.QUARTERS}"
+                    android:text="@string/bar_chart_display_group_by_quarters"/>
+
+                <RadioButton
+                    android:id="@+id/group_by_years"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="@{display.groupType == BarChartGroupType.YEARS}"
+                    android:text="@string/bar_chart_display_group_by_years"/>
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="@dimen/zero_weight"
+                android:layout_height="wrap_content"
+                android:layout_weight="@integer/half_of_weight"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bar_chart_display_view"/>
+
+                <CheckBox
+                    android:id="@+id/view_income_values"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="@={display.viewIncomeValues}"
+                    android:text="@string/bar_chart_display_view_income_values"/>
+
+                <CheckBox
+                    android:id="@+id/view_expense_values"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="@={display.viewExpenseValues}"
+                    android:text="@string/bar_chart_display_view_expense_values"/>
+
+                <CheckBox
+                    android:id="@+id/view_incomes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="@={display.viewIncomes}"
+                    android:text="@string/bar_chart_display_view_incomes"/>
+
+                <CheckBox
+                    android:id="@+id/view_expenses"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="@={display.viewExpenses}"
+                    android:text="@string/bar_chart_display_view_expenses"/>
+
+                <CheckBox
+                    android:id="@+id/consider_transfers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="@={display.includeTransfers}"
+                    android:text="@string/bar_chart_display_include_transfers"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</layout>

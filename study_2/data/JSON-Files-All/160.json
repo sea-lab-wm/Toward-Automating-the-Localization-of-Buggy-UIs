@@ -1,0 +1,19 @@
+{
+  "id": "160",
+  "confidence_level": "confident",
+  "bug_location": [
+  {
+    "commit_ids": ["abd1db25de96a2f11fb08291e56aa6728bd7de61"],
+    "file_name": "bug-160/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java",
+    "method_name": "public boolean onCreateOptionsMenu(Menu menu)",
+    "line_numbers": null
+  }],
+  "fix_location": [
+  {
+    "commit_ids": ["3f0a7da9a64da7f2412aafefab86d74425c886cc"],
+    "file_name": "fix-160/AnkiDroid/src/main/java/com/ichi2/anki/Reviewer.java",
+    "method_name": "public boolean onCreateOptionsMenu(Menu menu)",
+    "line_numbers": ["435","442"]
+  }],
+  "unit_test_changes": null
+}

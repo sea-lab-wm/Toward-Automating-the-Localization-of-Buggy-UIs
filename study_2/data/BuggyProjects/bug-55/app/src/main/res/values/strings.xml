@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common -->
+    <string name="field_book">Field Book</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_close">Close</string>
+    <string name="dialog_confirm">Are you sure?</string>
+    <string name="dialog_import">Import</string>
+    <string name="dialog_warning">Warning</string>
+    <string name="dialog_save">Save</string>
+    <string name="dialog_go">Go</string>
+
+    <!-- Startup  -->
+    <string name="startup_sample_data_title">Sample data</string>
+    <string name="startup_sample_data_message">Load sample data?</string>
+
+    <!-- Permissions  -->
+    <string name="permission_rationale_location">Location features require access to the device\'s location.</string>
+    <string name="permission_rationale_camera">Camera features require access to the device\'s camera.</string>
+    <string name="permission_rationale_microphone">Recording sound requires access to the device\'s microphone.</string>
+    <string name="permission_rationale_storage_import">Importing files requires access to the device\'s files.</string>
+    <string name="permission_rationale_storage_export">Exporting data requires access to the device\'s files.</string>
+    <string name="permission_rationale_trait_features">Collecting data requires access to the device\'s files, microphone, and camera.</string>
+    <string name="permission_rationale_file_creation">Creating sample files and directories requires access to the device\'s files.</string>
+
+    <!-- Miscellaneous  -->
+    <string name="fields_name">Field Name</string>
+    <string name="fields_load">Load</string>
+
+    <!-- Main Activity  -->
+    <string name="main_toolbar_search">Search</string>
+    <string name="main_toolbar_resources">Resources</string>
+    <string name="main_trait_details">Trait details</string>
+    <string name="main_infobar_data_missing">No data</string>
+    <string name="main_toolbar_data_lock">Lock data</string>
+    <string name="main_toolbar_data_unlock">Unlock data</string>
+    <string name="main_toolbar_moveto_no_match">No matching value</string>
+    <string name="main_toolbar_next_entry_no_data">Next entry with no data</string>
+    <string name="main_toolbar_moveto">Go to ID</string>
+    <string name="main_toolbar_barcode_scan">Scan barcode</string>
+    <string name="main_toolbar_moveto_scan">Scan</string>
+    <string name="main_infobar_title">InfoBar</string>
+    <string name="main_barcode_text">Scan a barcode</string>
+
+    <!-- Fields Activity  -->
+    <string name="fields_delete_study">Delete field</string>
+    <string name="fields_delete_study_confirmation">Are you sure you want to delete this field? This will delete all data from this field.</string>
+    <string name="fields_study_exists_message">This field already exists.</string>
+    <string name="fields_select_study">Select or import a field.</string>
+    <string name="fields_date_imported">Import date</string>
+    <string name="fields_date_edited">Edit date</string>
+    <string name="fields_date_exported">Export date</string>
+    <string name="fields_summary">Field summary</string>
+    <string name="fields_options">Options</string>
+    <string name="fields_study_statistics">Statistics</string>
+    <string name="fields_sort">Sort</string>
+    <string name="fields_delete">Delete</string>
+    <string name="fields_filter">Filter</string>
+    <string name="fields_reimport">Reimport</string>
+    <string name="fields_archive">Archive</string>
+
+    <!-- Settings Activity  -->
+    <string name="settings_fields">Fields</string>
+    <string name="settings_traits">Traits</string>
+    <string name="settings_collect">Collect</string>
+    <string name="settings_export">Export</string>
+    <string name="settings_advanced">Settings</string>
+    <string name="settings_profile">Profile</string>
+
+    <!-- Traits Activity  -->
+    <string name="traits_sort_title">Sort</string>
+    <string name="traits_sort_name">Name</string>
+    <string name="traits_sort_visibility">Visibility</string>
+    <string name="traits_sort_format">Format</string>
+
+    <string name="traits_toolbar_add_trait">Add trait</string>
+    <string name="traits_toolbar_delete_all">Delete all traits</string>
+    <string name="traits_toolbar_sort">Sort</string>
+    <string name="traits_toolbar_import_export">Import/Export</string>
+
+    <string name="traits_dialog_import">Import</string>
+    <string name="traits_dialog_export">Export</string>
+
+    <string name="traits_options_copy">Copy</string>
+    <string name="traits_options_edit">Edit</string>
+    <string name="traits_options_delete">Delete</string>
+    <string name="traits_options_delete_title">Delete trait</string>
+
+    <string name="traits_format_numeric">Numeric</string>
+    <string name="traits_format_categorical">Categorical</string>
+    <string name="traits_format_date">Date</string>
+    <string name="traits_format_percent">Percent</string>
+    <string name="traits_format_counter">Counter</string>
+    <string name="traits_format_disease_rating">Disease Rating</string>
+    <string name="traits_format_boolean">Boolean</string>
+    <string name="traits_format_text">Text</string>
+    <string name="traits_format_photo">Photo</string>
+    <string name="traits_format_audio">Audio</string>
+    <string name="traits_format_multicategorical">Multicat</string>
+    <string name="traits_format_angle">Angle</string>
+    <string name="traits_format_video">Video</string>
+    <string name="traits_format_location">Location</string>
+    <string name="traits_format_printer">Printer</string>
+    <string name="traits_format_barcode">Barcode</string>
+    <string name="traits_format_labelprint">Zebra Label Print</string>
+
+    <string name="traits_create_trait">Trait</string>
+    <string name="traits_create_format">Format</string>
+    <string name="traits_create_value_default">Default</string>
+    <string name="traits_create_value_minimum">Minimum</string>
+    <string name="traits_create_value_maximum">Maximum</string>
+    <string name="traits_create_details">Details</string>
+    <string name="traits_create_optional">Optional</string>
+    <string name="traits_create_categories_title">Categories</string>
+    <string name="traits_create_photo_maximum">Maximum number of photos</string>
+    <string name="traits_create_true">True</string>
+    <string name="traits_create_false">False</string>
+    <string name="traits_create_categories_text">Use / to separate categories</string>
+
+    <string name="traits_create_warning_name_blank">Trait name cannot be blank</string>
+    <string name="traits_create_warning_duplicate">Trait already exists</string>
+    <string name="traits_create_warning_numeric_required">Default, minimum, and maximum are required and must be numeric</string>
+    <string name="traits_create_warning_categories_required">Category cannot be empty</string>
+
+    <string name="traits_export_check">Export current trait list?</string>
+    <string name="traits_warning_delete">Deleting a trait also deletes data that has been collected for that trait. Are you sure you want to delete this trait?</string>
+
+    <!-- Export  -->
+    <string name="export_format_title">Format</string>
+    <string name="export_format_database">Database</string>
+    <string name="export_format_table">Table</string>
+    <string name="export_file_name">Filename</string>
+    <string name="export_content_columns_title">Field columns</string>
+    <string name="export_content_columns_all">All imported columns</string>
+    <string name="export_content_columns_unique">Only unique identifier</string>
+    <string name="export_content_traits_title">Traits</string>
+    <string name="export_content_traits_all">All traits</string>
+    <string name="export_content_traits_active">Only active traits</string>
+    <string name="export_error_general">Error during export</string>
+    <string name="export_error_data_missing">No data exists to export</string>
+    <string name="export_complete">Export complete</string>
+    <string name="export_progress">Exporting…</string>
+    <string name="export_error_missing_format">Export type must be selected</string>
+    <string name="export_error_missing_column">Field column type must be selected</string>
+    <string name="export_error_missing_trait">Trait type must be selected</string>
+    <string name="export_overwrite">Overwrite previous export</string>
+
+    <!-- Preferences Activity  -->
+    <string name="preferences_appearance_title">Appearance</string>
+    <string name="preferences_appearance_tutorial">Tutorial</string>
+    <string name="preferences_appearance_tutorial_description">Adds a tutorial icon to the collect, settings, fields, and traits screens</string>
+    <string name="preferences_appearance_infobar_number">Number of InfoBars</string>
+    <string name="preferences_appearance_infobar_number_description">Adjust the number of Infobars displayed on the main screen</string>
+    <string name="preferences_appearance_quickgoto">Quick GoTo</string>
+    <string name="preferences_appearance_quickgoto_description">Changes middle section of main screen to the legacy Quick GoTo</string>
+    <string name="preferences_appearance_language">Language</string>
+    <string name="preferences_appearance_language_description">Language set by system</string>
+    <string name="preferences_appearance_theme_title">Theme</string>
+
+    <string name="preferences_appearance_toolbar_customize">Customize toolbar icons</string>
+    <string name="preferences_appearance_toolbar_customize_description">Modify default icons on the collect screen</string>
+    <string name="preferences_appearance_toolbar_customize_search">Search</string>
+    <string name="preferences_appearance_toolbar_customize_resources">Resources</string>
+    <string name="preferences_appearance_toolbar_customize_summary">Summary</string>
+    <string name="preferences_appearance_toolbar_customize_lock">Lock</string>
+
+    <string name="preferences_behavior_title">Behavior</string>
+    <string name="preferences_behavior_volume_buttons_navigate">Map volume keys to entry navigation</string>
+    <string name="preferences_behavior_volume_buttons_navigate_description">Volume keys go to next or previous entry</string>
+    <string name="preferences_behavior_return_character">Return key signal</string>
+    <string name="preferences_behavior_return_character_description">Change how the return key signal is interpreted</string>
+    <string name="preferences_behavior_return_character_next_plot">Next plot</string>
+    <string name="preferences_behavior_return_character_next_trait">Next trait</string>
+    <string name="preferences_behavior_return_character_do_nothing">Do nothing</string>
+    <string name="preferences_behavior_cycle_traits">Cycling traits advances entry</string>
+    <string name="preferences_behavior_cycle_traits_description">After going through all traits, Field Book goes to the next entry</string>
+    <string name="preferences_behavior_import_source">Choose your default import source</string>
+    <string name="preferences_behavior_export_source">Choose your export import source</string>
+    <string name="preferences_behavior_disable_entry_arrow">Disable entry arrow</string>
+    <string name="preferences_behavior_disable_entry_arrow_left">Left</string>
+    <string name="preferences_behavior_disable_entry_arrow_right">Right</string>
+    <string name="preferences_behavior_disable_entry_arrow_both">Both</string>
+
+    <string name="preferences_naming">Naming</string>
+    <string name="preferences_naming_photo">Photo name format</string>
+    <string name="preferences_naming_export">Export name format</string>
+
+    <string name="preferences_sounds">Sounds</string>
+    <string name="preferences_sound_primary_order_sound">Primary order sound</string>
+    <string name="preferences_sound_primary_order_sound_description">Notification sound when the primary order changes</string>
+
+    <string name="preferences_general_title">General</string>
+    <string name="preferences_general_use_day_number">Use day of year</string>
+    <string name="preferences_general_use_day_number_description">Use day of year when collecting data instead of the date</string>
+    <string name="preferences_general_skip_entries_with_data">Skip entries with data</string>
+    <string name="preferences_general_skip_entries_with_data_description">Skips entries that have data for the current trait</string>
+    <string name="preferences_general_share_disable">Disable file sharing</string>
+    <string name="preferences_general_share_disable_description">When files are exported, the share dialog will not be displayed</string>
+    <string name="preferences_general_entry_left_disable">Disable left entry arrow</string>
+    <string name="preferences_general_entry_left_disable_description">If no data has been collected, left entry arrow disabled</string>
+    <string name="preferences_general_entry_right_disable">Disable right entry arrow</string>
+    <string name="preferences_general_entry_right_disable_description">If no data has been collected, right entry arrow disabled</string>
+    <string name="preferences_general_barcode_camera">Move to entry via barcode</string>
+    <string name="preferences_general_barcode_camera_description">Scan barcode and move to the specific entry</string>
+    <string name="preferences_general_feature_next_missing">Next entry with no data</string>
+    <string name="preferences_general_feature_next_missing_description">Adds a button to the toolbar that jumps to the next entry with no data for the current trait</string>
+    <string name="preferences_general_feature_barcode_text">Move to unique identifier</string>
+    <string name="preferences_general_feature_barcode_text_description">Opens dialog to input unique id and move to specific entry</string>
+    <string name="preferences_general_feature_datagrid">Datagrid</string>
+    <string name="preferences_general_feature_datagrid_description">Displays a spreadsheet of plots and traits showing collected data</string>
+
+    <string name="preferences_source_default_category_title">Default data</string>
+    <string name="preferences_source_default_import">Default import source</string>
+    <string name="preferences_source_default_export">Default export source</string>
+
+    <string name="preferences_appearance_system_category_title">Application</string>
+    <string name="preferences_appearance_collection_category_title">Collect Screen</string>
+
+    <!-- Trait text and errors -->
+    <string name="trait_layout_data_stored">Saved</string>
+    <string name="trait_layout_print_title">Print Label</string>
+    <string name="trait_layout_print_status_title">Printer status</string>
+    <string name="trait_layout_print_status">Retrieving connection status…</string>
+    <string name="trait_layout_print_label_size_title">Size:</string>
+    <string name="trait_layout_print_text_field_title">Text:</string>
+    <string name="trait_layout_print_text_field_title_2">Text2:</string>
+    <string name="trait_layout_print_text_field_title_3">Text3:</string>
+    <string name="trait_layout_print_text_field_title_4">Text4:</string>
+    <string name="trait_layout_print_barcode_field_title">Barcode:</string>
+    <string name="trait_layout_print_label_copies_title">Copies:</string>
+    <string name="trait_layout_print_clear_settings">Clear settings</string>
+
+    <string name="trait_error_hardware_missing">Your device does not contain the necessary hardware for this feature</string>
+    <string name="trait_error_photo_missing">Photo does not exist</string>
+    <string name="trait_error_photo_error">Photo cannot be read</string>
+    <string name="trait_error_minimum_value">Value is less than allowed minimum</string>
+    <string name="trait_error_maximum_value">Value is larger than allowed maximum</string>
+    <string name="trait_error_disease_severity">Severity already stored</string>
+    <string name="trait_delete_warning_photo">Are you sure you want to delete this photo?</string>
+
+    <!-- Tutorial -->
+    <string name="tutorial_dialog_title">Tutorial</string>
+    <string name="tutorial_dialog_description">Would you like to enable the tutorial? This setting can be changed in the Settings.</string>
+
+    <string name="tutorial_main_infobars_title">InfoBars</string>
+    <string name="tutorial_main_infobars_description">InfoBars show extra data for each entry and can be changed using the dropdown menus.</string>
+    <string name="tutorial_main_traits_title">Traits</string>
+    <string name="tutorial_main_traits_description">The small, green arrows move between traits.</string>
+    <string name="tutorial_main_traitlist_title">Traits</string>
+    <string name="tutorial_main_traitlist_description">The current trait being collected. A list of active traits is displayed when the current trait is pressed.</string>
+    <string name="tutorial_main_entries_title">Entries</string>
+    <string name="tutorial_main_entries_description">The large, black arrows move between entries.</string>
+    <string name="tutorial_main_navinfo_title">Order columns</string>
+    <string name="tutorial_main_navinfo_description">This is where the primary and secondary order are displayed.</string>
+    <string name="tutorial_main_datacollect_title">Data input</string>
+    <string name="tutorial_main_datacollect_description">Data is entered in the bottom area of the screen. Different trait types have different layouts.</string>
+    <string name="tutorial_main_na_title">Missing data</string>
+    <string name="tutorial_main_na_description">The NA button is used to mark values as missing.</string>
+    <string name="tutorial_main_delete_title">Delete data</string>
+    <string name="tutorial_main_delete_description">Data is deleted using this button.</string>
+    <string name="tutorial_main_search_title">Search</string>
+    <string name="tutorial_main_search_description">The search icon allows database queries.</string>
+    <string name="tutorial_main_resources_title">Resources</string>
+    <string name="tutorial_main_resources_description">This displays a list of files in the Resources folder.</string>
+    <string name="tutorial_main_summary_title">Summary</string>
+    <string name="tutorial_main_summary_description">This displays a summary of all data for the current entry.</string>
+    <string name="tutorial_main_lockdata_title">Lock data</string>
+    <string name="tutorial_main_lockdata_description">This locks current data input</string>
+
+    <string name="tutorial_settings_fields_title">Fields</string>
+    <string name="tutorial_settings_fields_description">allows you to import and manage fields.</string>
+    <string name="tutorial_settings_fields_import">To start using Field Book, first import a field file.</string>
+    <string name="tutorial_settings_traits_title">Traits</string>
+    <string name="tutorial_settings_traits_description">allows you to add, import, and manage traits.</string>
+    <string name="tutorial_settings_collect_title">Collect data</string>
+    <string name="tutorial_settings_collect_description">allows you to collect phenotypic data.</string>
+    <string name="tutorial_settings_profile_title">Profile</string>
+    <string name="tutorial_settings_profile_description">allows you to set the person and location.</string>
+    <string name="tutorial_settings_settings_title">Settings</string>
+    <string name="tutorial_settings_settings_description">allows additional configuration for data collection.</string>
+    <string name="tutorial_settings_export_title">Export</string>
+    <string name="tutorial_settings_export_description">Data can be exported in two formats: database or table.</string>
+
+    <string name="tutorial_fields_add_title">Add Field</string>
+    <string name="tutorial_fields_add_description">Import a field file.</string>
+    <string name="tutorial_fields_file_description">Files must contain three columns: a unique identifier, a primary order, and a secondary order. The primary/secondary order are used for navigation in the field.</string>
+    <string name="tutorial_fields_select_title">Active Field</string>
+    <string name="tutorial_fields_select_description">A field is selected for data collection after being imported.</string>
+    <string name="tutorial_fields_delete_title">Delete Field</string>
+    <string name="tutorial_fields_delete_description">To delete a field, open the menu on the left side of a field name and select Delete.</string>
+
+    <string name="tutorial_traits_add_title">Add Trait</string>
+    <string name="tutorial_traits_add_description">Add Trait creates a new trait. Different trait formats have different collection layouts.</string>
+    <string name="tutorial_traits_import_title">Import Trait Lists</string>
+    <string name="tutorial_traits_import_description">To import a premade list of traits, choose Import on the toolbar.</string>
+    <string name="tutorial_traits_format_title">Trait Formats</string>
+    <string name="tutorial_traits_format_description">Different trait formats are indicated with different icons.</string>
+    <string name="tutorial_traits_visibility_title">Trait Visibility</string>
+    <string name="tutorial_traits_visibility_description">Traits can be disabled from collection by toggling the checkbox.</string>
+
+    <!-- About dialog -->
+    <string name="about_title">About</string>
+    <string name="about_version_title">Version</string>
+    <string name="about_title_other_apps">Other PhenoApps</string>
+    <string name="about_project_lead_title">Project Lead</string>
+    <string name="about_developer_title">Developer</string>
+    <string name="about_developer_trife" translatable="false">Trevor Rife</string>
+    <string name="about_developer_trife_location" translatable="false">Kansas State University</string>
+    <string name="about_developer_trife_email" translatable="false">trife@ksu.edu</string>
+    <string name="about_email_title">Email</string>
+    <string name="about_developer_trife_website" translatable="false">https://github.com/PhenoApps/Field-Book</string>
+    <string name="about_contributors_title">Contributors</string>
+    <string name="about_contributors_developers_title">Developers</string>
+    <string name="about_translators_title">Translators</string>
+    <string name="about_translators_text" translatable="false">Irazema Fuentes-Bueno,  Sandra Dunckel,  Shuangye Wu,  Narinder Singh,  Daljit Singh,  Erena Edae,  Tatiana Danilova,  Rodrigo Pedrozo,  Cristiano Lemes da Silva,  Sophie Bouchet,  Hiroyoshi Iwata,  Goro Ishikawa,  Khaled El-Shamaa, Mokhlesur Rahman, Alice Brunazzi</string>
+    <string name="about_contributors_funding_title">Funding</string>
+    <string name="about_contributors_funding_text" translatable="false">Development of Field Book has been supported by the Collaborative Crop Research Program of The McKnight Foundation, the National Science Foundation (#1543958), and the National Institute of Food and Agriculture (#2019-67021-29931).</string>
+    <string name="about_rate">Rate this app</string>
+    <string name="about_technical_title">Technical Details</string>
+    <string name="about_github_title">GitHub</string>
+    <string name="about_licenses_title">Licenses</string>
+    <string name="about_help_translate_title">Help translate</string>
+    <string name="changelog_title">Changelog</string>
+    <string name="libraries_title">Libraries</string>
+
+    <!-- Profile dialog -->
+    <string name="profile_person">Person</string>
+    <string name="profile_location">Location</string>
+    <string name="profile_reset">Clear</string>
+
+    <string name="profile_person_title">Set person</string>
+    <string name="profile_name_first">First name</string>
+    <string name="profile_name_last">Last name</string>
+    <string name="profile_missing">None</string>
+
+    <string name="profile_location_title">Set location</string>
+    <string name="profile_location_latitude">Latitude</string>
+    <string name="profile_location_longitude">Longitude</string>
+    <string name="profile_location_get">Get location</string>
+
+    <!-- Database dialog -->
+    <string name="database_dialog_title">Database</string>
+    <string name="database_import">Import database</string>
+    <string name="database_export">Export database</string>
+    <string name="database_reset">Delete database</string>
+    <string name="database_reset_warning1">All data will be deleted. Are you sure you want to reset the database?</string>
+    <string name="database_reset_warning2">A database reset cannot be reversed. The app will quit after clearing the database. Are you really sure you want to continue?</string>
+    <string name="database_reset_message">Database has been deleted</string>
+
+    <!-- Import dialog -->
+    <string name="import_source_local">Local storage</string>
+    <string name="import_source_cloud">Cloud storage</string>
+    <string name="import_source_brapi">BrAPI</string>
+    <string name="import_source_ask">Always ask</string>
+
+    <string name="import_dialog_title_fields">Import field</string>
+    <string name="import_dialog_title_traits">Import traits</string>
+    <string name="import_dialog_unique">Unique identifier</string>
+    <string name="import_dialog_primary">Primary order</string>
+    <string name="import_dialog_secondary">Secondary order</string>
+    <string name="import_dialog_importing">Please wait…</string>
+
+    <string name="import_error_general">Error importing</string>
+    <string name="import_error_unique">Unique identifier column contains duplicates or has already been used in a different file</string>
+    <string name="import_error_unsupported">This file type is not currently supported</string>
+    <string name="import_error_columns">Column names contain illegal characters or words: </string>
+    <string name="import_error_column_name">Column name in imported file cannot be: </string>
+    <string name="import_error_unique_characters_illegal">Selected column contains characters which cannot be used in the unique identifier</string>
+    <string name="import_error_column_choice">Columns cannot be used for the same assignment</string>
+    <string name="import_error_format_field">Only CSV and XLS files can be imported as a field</string>
+    <string name="import_error_format_trait">Only TRT files can be imported as a trait list</string>
+
+    <!-- Export dialog -->
+    <string name="export_source_local">Local</string>
+    <string name="export_source_brapi">BrAPI</string>
+    <string name="export_dialog_title">Export Data</string>
+
+    <!-- BrAPI export dialog -->
+    <string name="brapi_export_button">Export</string>
+    <string name="brapi_export_title">BrAPI Export Statistics</string>
+    <string name="brapi_export_observations">Observations</string>
+    <string name="brapi_export_num_new_obs"> New Observations</string>
+    <string name="brapi_export_num_synced_obs"> Synced Observations</string>
+    <string name="brapi_export_num_ed_obs"> Edited Observations</string>
+    <string name="brapi_export_skipped_observations"> Skipped Observations</string>
+    <string name="brapi_export_skipped_user_created"> User Created Trait Observations</string>
+    <string name="brapi_export_skipped_wrong_source"> Different Data Source</string>
+    <string name="brapi_export_num_new_imgs">New Images</string>
+    <string name="brapi_export_num_synced_imgs">Synced Images</string>
+    <string name="brapi_export_num_ed_imgs">Edited Images</string>
+    <string name="brapi_export_num_incomplete_imgs">Incomplete Synced Images</string>
+    <string name="brapi_export_skipped_images">Skipped Images</string>
+    <string name="brapi_export_skipped_user_created_images">User Created Trait Images</string>
+    <string name="brapi_export_images">Images</string>
+    <string name="brapi_na">NA</string>
+    <string name="brapi_delete_message">Cannot delete synced BrAPI observation, using NA instead</string>
+    <string name="images_loading">Loading Images…</string>
+
+    <!-- Warnings/Catches -->
+    <string name="warning_field_before_traits">A field must be imported before traits can be created.</string>
+    <string name="warning_field_missing">No field is currently loaded. Please load a field before collecting data.</string>
+    <string name="warning_traits_missing">No traits exist. Please create traits before collecting data.</string>
+    <string name="warning_traits_missing_modify">Create traits before modifying them.</string>
+
+    <!-- Search Activity -->
+    <string name="search_dialog_title">Search</string>
+    <string name="search_dialog_add">Add</string>
+    <string name="search_dialog_clear">Clear</string>
+    <string name="search_dialog_query_is_equal_to">is equal to</string>
+    <string name="search_dialog_query_is_not_equal_to">is not equal to</string>
+    <string name="search_dialog_query_contains">contains</string>
+    <string name="search_dialog_query_does_not_contain">does not contain</string>
+    <string name="search_dialog_query_is_more_than">is more than</string>
+    <string name="search_dialog_query_is_less_than">is less than</string>
+    <string name="search_results_dialog_title">Search results</string>
+    <string name="search_results_dialog_range">Range</string>
+    <string name="search_results_dialog_plot">Plot</string>
+    <string name="search_results_missing">No results</string>
+
+    <!-- Citation strings -->
+    <string name="citation_title">Citation</string>
+    <string name="citation_string">If you utilize Field Book for research, please cite the following journal article:</string>
+    <string name="citation_text" translatable="false">Rife, T.W., and J.A. Poland. 2014. Field Book: An Open-Source Application for Field Data Collection on Android. Crop Sci. 54(4): 1624–1627.</string>
+
+    <!-- Brapi strings -->
+    <string name="preferences_brapi" translatable="false">BrAPI</string>
+    <string name="brapi_base_url">BrAPI Base URL</string>
+    <string name="brapi_base_url_desc">The base URL for the connected BrAPI server</string>
+    <string name="brapi_title">BrAPI Configuration</string>
+    <string name="brapi_save_authorize">Save and Authorize</string>
+    <string name="brapi_authorize">Authorize BrAPI</string>
+    <string name="brapi_reauthorize">Reauthorize BrAPI</string>
+    <string name="brapi_revoke_auth">Log Out</string>
+    <string name="brapi_auth_success">BrAPI Authorization Successful</string>
+    <string name="brapi_auth_deny">BrAPI Authorization Denied</string>
+    <string name="brapi_auth_error_starting">Error Starting BrAPI Auth</string>
+    <string name="brapi_btn_auth_summary">Brapi is currently authorized with %1$s</string>
+    <string name="brapi_base_url_default">https://test-server.brapi.org</string>
+    <string name="brapi_load_data_button">Load Fields</string>
+    <string name="brapi_load_traits_button">Load Traits</string>
+    <string name="brapi_save_data_button">Save Field</string>
+    <string name="brapi_study_name">Name</string>
+    <string name="brapi_study_description">Description</string>
+    <string name="brapi_study_location">Location</string>
+    <string name="brapi_study_num_plots"> Plots</string>
+    <string name="brapi_study_num_traits"> Traits</string>
+    <string name="brapi_study_detail_error">Error when loading study details for study. Study not saved.</string>
+    <string name="brapi_plot_detail_error">Error when loading plots for study. Study not saved.</string>
+    <string name="brapi_study_traits_error">Error when loading traits for study. Study not saved.</string>
+    <string name="brapi_ontology_error">Error loadings traits from BrAPI.</string>
+    <string name="brapi_save_field_error">Error Saving Field</string>
+    <string name="brapi_field_not_selected">Selected Field Must Be Imported From BrAPI.</string>
+    <string name="brapi_save_trait">Save Traits</string>
+    <string name="brapi_must_configure_url">Must configure a valid BrAPI URL in settings before proceeding</string>
+    <string name="brapi_export_failed">BrAPI Export Failed</string>
+    <string name="brapi_export_permission_deny">ERROR: You do not have the permissions to send data to the specified system.</string>
+    <string name="brapi_export_not_supported">ERROR: Target system does not support sending observations via BrAPI.</string>
+    <string name="brapi_export_wrong_num_obs">ERROR: Response number of observations different from request</string>
+    <string name="brapi_export_missing_obs">ERROR: Missing observation in response</string>
+    <string name="brapi_export_multiple_obs">ERROR: Multiple observations per variable</string>
+    <string name="brapi_export_unknown_error">ERROR: Unknown Error</string>
+    <string name="brapi_export_successful">BrAPI Export Successful</string>
+    <string name="brapi_saving_indicator">Saving Observations…</string>
+    <string name="brapi_field_non_matching_sources">Unable to sync data. Field data originates from, %1$s, BrAPI url currently set to %2$s. Sources must match.</string>
+    <string name="brapi_trait_already_exists">Trait already exists: %1$s. Not saving.</string>
+    <string name="brapi_error_saving_all_traits">Error saving traits. No traits were saved.</string>
+    <string name="brapi_error_saving_some_traits">Error saving some traits. Some traits were not saved</string>
+    <string name="brapi_traits_saved_success">Selected traits saved successfully.</string>
+    <string name="device_offline_warning">Device Offline: Please connect to a network and try again</string>
+    <string name="next">Next</string>
+    <string name="prev">Prev</string>
+    <string name="page_one_of_one">Page 1 of 1</string>
+    <string name="brapi_auth_needed_title">Login Needed</string>
+    <string name="brapi_auth_needed">
+    You need to be logged into the system you are attempting to sync data with in order
+        to sync your data.
+
+    Would you like to authenticate now?
+    </string>
+    <string name="brapi_info_message">
+        Traits and fields imported via BrAPI will be able to export their observations via the BrAPI export.
+        Traits and fields created manually or imported via CSV will need to be exported via CSV format.
+    </string>
+    <string name="brapi_info_title">BrAPI Syncing Info</string>
+    <string name="brapi_auth_btn">Log In to Site</string>
+</resources>

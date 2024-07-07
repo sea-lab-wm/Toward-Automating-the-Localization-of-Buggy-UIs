@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ValidatingTextInputLayout">
+        <attr name="errorLabel" format="string" />
+        <attr name="validateAfterTextChanged" format="boolean" />
+        <attr name="validator" format="enum">
+            <enum name="email" value="1" />
+            <enum name="phone" value="2" />
+            <enum name="integer" value="3" />
+            <enum name="big_decimal" value="4" />
+            <enum name="date" value="5" />
+            <enum name="not_empty" value="6" />
+            <enum name="signed_number" value="7" />
+            <enum name="account_number" value="8" />
+        </attr>
+    </declare-styleable>
+</resources>

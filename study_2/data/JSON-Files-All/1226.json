@@ -1,0 +1,19 @@
+{
+	"id": "1226",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["5a644f09aae5f7017369e69720486910082da11a"],
+		"file_name": "bug-1226/app/src/main/java/org/gnucash/android/model/Money.java",
+		"method_name": "public String formattedString(Locale locale)",
+		"line_numbers": ["280", "285-286", "288"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["0e111daeb608c73a178d93b669acae78dddc5ccc"],
+		"file_name": "fix-1226/app/src/main/java/org/gnucash/android/model/Money.java",
+		"method_name": "public String formattedString(Locale locale)",
+		"line_numbers": ["274", "278"]
+	}],
+	"unit_test_changes": null
+}

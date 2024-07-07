@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="primaryText" format="color" />
+    <attr name="secondaryText" format="color" />
+    <attr name="authText" format="color" />
+    <attr name="backgroundColor" format="color" />
+    <attr name="cardBackground" format="color" />
+    <attr name="cardBackgroundFocused" format="color" />
+    <attr name="codePrimaryText" format="color" />
+    <attr name="iconColorPrimary" format="color" />
+    <attr name="iconColorInverted" format="color" />
+</resources>

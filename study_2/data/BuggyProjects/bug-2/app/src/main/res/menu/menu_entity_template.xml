@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".business.template.activity.TemplateActivity">
+
+    <group android:id="@+id/action_add_entries">
+
+        <item
+            android:id="@+id/action_add_expense_template"
+            android:icon="@android:drawable/ic_menu_add"
+            android:orderInCategory="200"
+            android:title="@string/action_add_expense_template"
+            app:showAsAction="withText"/>
+
+        <item
+            android:id="@+id/action_add_income_template"
+            android:icon="@android:drawable/ic_menu_add"
+            android:orderInCategory="201"
+            android:title="@string/action_add_income_template"
+            app:showAsAction="withText"/>
+
+        <item
+            android:id="@+id/action_add_transfer_template"
+            android:icon="@android:drawable/ic_menu_add"
+            android:orderInCategory="202"
+            android:title="@string/action_add_transfer_template"
+            app:showAsAction="withText"/>
+
+    </group>
+
+</menu>

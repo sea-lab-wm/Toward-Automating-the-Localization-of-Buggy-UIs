@@ -1,0 +1,1 @@
+MAC vendor search is case sensitive

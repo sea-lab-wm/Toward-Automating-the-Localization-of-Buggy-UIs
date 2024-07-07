@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.fossasia.phimpme.leafpic.activities.SingleMediaActivity">
+
+    <group android:id="@+id/only_photos_options">
+        <item
+            android:id="@+id/action_use_as"
+            android:title="@string/use_as"
+            app:showAsAction="never" />
+    </group>
+
+    <group android:id="@+id/on_internal_storage">
+        <item
+            android:id="@+id/action_copy"
+            app:showAsAction="never"
+            android:title="Copy"/>
+        <item
+            android:id="@+id/action_move"
+            app:showAsAction="never"
+            android:title="Move"/>
+    </group>
+
+    <item
+        android:id="@+id/action_description"
+        android:title="Description"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+    <!-- End Albums Stuff -->
+</menu>

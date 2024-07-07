@@ -1,0 +1,7 @@
+Reproduction Steps
+
+Create Trip
+Edit Trip
+Modify date
+Press Save
+Observe error

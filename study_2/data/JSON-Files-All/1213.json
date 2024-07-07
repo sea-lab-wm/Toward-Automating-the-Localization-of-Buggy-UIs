@@ -1,0 +1,81 @@
+{
+    "id": "1213",
+    "confidence_level": "confident",
+    "bug_location": [
+        {
+            "commit_ids": [
+                "b8d36c337fcdee102de2a8f8b9917dda2a345d96"
+            ],
+            "file_name": "bug-1213/app/src/main/java/org/shadowice/flocke/andotp/Dialogs/PasswordEntryDialog.java"
+        },
+        {
+            "commit_ids": [
+                "b8d36c337fcdee102de2a8f8b9917dda2a345d96"
+            ],
+            "file_name": "bug-1213/app/src/main/java/org/shadowice/flocke/andotp/Preferences/CredentialsPreference.java"
+        },
+        {
+            "commit_ids": [
+                "b8d36c337fcdee102de2a8f8b9917dda2a345d96"
+            ],
+            "file_name": "bug-1213/app/src/main/java/org/shadowice/flocke/andotp/Preferences/PasswordEncryptedPreference.java"
+        },
+        {
+            "commit_ids": [
+                "b8d36c337fcdee102de2a8f8b9917dda2a345d96"
+            ],
+            "file_name": "bug-1213/app/src/main/res/layout/component_authentication.xml"
+        },
+        {
+            "commit_ids": [
+                "b8d36c337fcdee102de2a8f8b9917dda2a345d96"
+            ],
+            "file_name": "bug-1213/app/src/main/res/layout/component_password.xml"
+        },
+        {
+            "commit_ids": [
+                "b8d36c337fcdee102de2a8f8b9917dda2a345d96"
+            ],
+            "file_name": "bug-1213/app/src/main/res/layout/content_authenticate.xml"
+        }
+    ],
+    "fix_location": [
+        {
+            "commit_ids": [
+                "b0c56b38f7de0be903388ae056ad6c989c801266"
+            ],
+            "file_name": "bug-1213/app/src/main/java/org/shadowice/flocke/andotp/Dialogs/PasswordEntryDialog.java"
+        },
+        {
+            "commit_ids": [
+                "b0c56b38f7de0be903388ae056ad6c989c801266"
+            ],
+            "file_name": "bug-1213/app/src/main/java/org/shadowice/flocke/andotp/Preferences/CredentialsPreference.java"
+        },
+        {
+            "commit_ids": [
+                "b0c56b38f7de0be903388ae056ad6c989c801266"
+            ],
+            "file_name": "bug-1213/app/src/main/java/org/shadowice/flocke/andotp/Preferences/PasswordEncryptedPreference.java"
+        },
+        {
+            "commit_ids": [
+                "b0c56b38f7de0be903388ae056ad6c989c801266"
+            ],
+            "file_name": "bug-1213/app/src/main/res/layout/component_authentication.xml"
+        },
+        {
+            "commit_ids": [
+                "b0c56b38f7de0be903388ae056ad6c989c801266"
+            ],
+            "file_name": "bug-1213/app/src/main/res/layout/component_password.xml"
+        },
+        {
+            "commit_ids": [
+                "b0c56b38f7de0be903388ae056ad6c989c801266"
+            ],
+            "file_name": "bug-1213/app/src/main/res/layout/content_authenticate.xml"
+        }
+    ],
+    "unit_test_changes": null
+}

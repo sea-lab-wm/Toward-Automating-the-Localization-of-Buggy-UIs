@@ -1,0 +1,31 @@
+{
+	"id": "1568",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["bd4a73e0b7e97f9857722fbb76e14029811af565"],
+		"file_name": "bug-1568/app/src/main/java/io/lerk/lrkFM/adapter/FileArrayAdapter.java",
+		"method_name": "private boolean isInContext(FMFile f)",
+		"line_numbers": ["179"]
+	},
+	{
+		"commit_ids": ["bd4a73e0b7e97f9857722fbb76e14029811af565"],
+		"file_name": "bug-1568/app/src/main/java/io/lerk/lrkFM/adapter/FileArrayAdapter.java",
+		"method_name": "private void removeFromContext(FMFile f)",
+		"line_numbers": ["188"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["4dde4a5557a9951aa8a16d0e7fc1881802c2dbe3"],
+		"file_name": "fix-1568/app/src/main/java/io/lerk/lrkFM/adapter/FileArrayAdapter.java",
+		"method_name": "private boolean isInContext(FMFile f)",
+		"line_numbers": ["180-182"]
+	},
+	{
+		"commit_ids": ["4dde4a5557a9951aa8a16d0e7fc1881802c2dbe3"],
+		"file_name": "fix-1568/app/src/main/java/io/lerk/lrkFM/adapter/FileArrayAdapter.java",
+		"method_name": "private void removeFromContext(FMFile f)",
+		"line_numbers": ["191-193"]
+	}],
+	"unit_test_changes": null
+}

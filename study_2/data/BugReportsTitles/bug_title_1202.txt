@@ -1,0 +1,1 @@
+[Filter Images] Toast to save current is displayed even when image is saved

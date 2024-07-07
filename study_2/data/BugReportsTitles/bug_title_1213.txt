@@ -1,0 +1,1 @@
+Confirmation field in settings doesn't react to show password option

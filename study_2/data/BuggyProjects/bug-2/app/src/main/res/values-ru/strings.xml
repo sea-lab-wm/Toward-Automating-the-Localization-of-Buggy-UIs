@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ENTITY optional "(необязательно)">
+    <!ENTITY disabled "(отключено)">
+    <!ENTITY cantDelete "Невозможно удалить">
+    <!ENTITY because "так как">
+    <!ENTITY isIncluded "включен">
+    <!ENTITY inSome "в некоторые">
+    <!ENTITY becauseItIsIncludedInSome "так как он включен в некоторые">
+    <!ENTITY deleteOrEditThese "Удалите или отредактируйте эти">
+    <!ENTITY andTryAgain "и повторите попытку">
+    <!ENTITY isTheParentOfAnother "является родителем других">
+    <!ENTITY deleteNested "Удалите вложенны">
+    ]>
+<resources>
+    <!-- Titles of application, activities and dialogs -->
+    <string name="app_name">Семейные финансы</string>
+    <string name="person_activity_title">Люди</string>
+    <string name="person_activity_edit_title">Редактирование пользователя</string>
+    <string name="account_activity_title">Счета</string>
+    <string name="account_activity_edit_title">Редактирование счета</string>
+    <string name="expense_article_activity_title">Статьи расходов</string>
+    <string name="income_article_activity_title">Статьи доходов</string>
+    <string name="all_article_activity_title">Все статьи</string>
+    <string name="expense_article_activity_edit_title">Редактирование статьи расходов</string>
+    <string name="income_article_activity_edit_title">Редактирование статьи доходов</string>
+    <string name="currency_activity_title">Валюты</string>
+    <string name="currency_activity_edit_title">Редактирование валюты</string>
+    <string name="exchange_rate_activity_title">Курсы обмена</string>
+    <string name="exchange_rate_activity_edit_title">Редактирование курса обмена</string>
+    <string name="expense_operation_activity_title">Расходы</string>
+    <string name="expense_operation_activity_edit_title">Редактирование расхода</string>
+    <string name="income_operation_activity_title">Доходы</string>
+    <string name="income_operation_activity_edit_title">Редактирование дохода</string>
+    <string name="transfer_operation_activity_title">Переводы</string>
+    <string name="transfer_operation_activity_edit_title">Редактирование перевода</string>
+    <string name="flow_of_funds_activity_title">Движение средств</string>
+    <string name="template_activity_title">Шаблоны</string>
+    <string name="template_activity_edit_title">Редактирование шаблона</string>
+    <string name="sms_pattern_activity_title">Смс паттерны</string>
+    <string name="sms_pattern_activity_edit_title">Редактирование смс паттерна</string>
+    <string name="expense_operation_filter_title">Фильтр расходов</string>
+    <string name="income_operation_filter_title">Фильтр доходов</string>
+    <string name="transfer_operation_filter_title">Фильтр переводов</string>
+    <string name="flow_of_funds_operation_filter_title">Фильтр движения средств</string>
+    <string name="exchange_rate_filter_title">Фильтр курсов обмена</string>
+    <string name="settings_activity_title">Настройки</string>
+    <string name="backup_activity_title">Резервное копирование</string>
+    <string name="chart_activity_title">Отчеты</string>
+    <string name="bar_chart_title">Расходы/доходы</string>
+    <string name="bar_chart_filter_title">Фильтр расходов/доходов</string>
+    <string name="bar_chart_display_title">Отображение расходов/доходов</string>
+    <string name="horizontal_bar_chart_of_expenses_title">Расходы по статьям</string>
+    <string name="horizontal_bar_chart_of_incomes_title">Доходы по статьям</string>
+    <string name="horizontal_bar_chart_of_expenses_filter_title">Фильтр расходов по статьям</string>
+    <string name="horizontal_bar_chart_of_incomes_filter_title">Фильтр доходов по статьям</string>
+    <string name="horizontal_bar_chart_of_expenses_display_title">Отображение расходов по статьям</string>
+    <string name="horizontal_bar_chart_of_incomes_display_title">Отображение доходов по статьям</string>
+    <string name="pie_chart_of_expenses_title">Расходы по статьям (круговая диаграмма)</string>
+    <string name="pie_chart_of_incomes_title">Доходы по статьям (круговая диаграмма)</string>
+    <string name="pie_chart_of_expenses_filter_title">Фильтр расходов по статьям (круговая диаграмма)</string>
+    <string name="pie_chart_of_incomes_filter_title">Фильтр доходов по статьям (круговая диаграмма)</string>
+    <string name="pie_chart_of_expenses_display_title">Отображение расходов по статьям (круговая диаграмма)</string>
+    <string name="pie_chart_of_incomes_display_title">Отображение доходов по статьям (круговая диаграмма)</string>
+
+    <!-- Dashboard -->
+    <string name="select_account">Счета</string>
+    <string name="select_expenses">Расходы</string>
+    <string name="select_incomes">Доходы</string>
+    <string name="select_transfers">Переводы</string>
+    <string name="select_flow_of_funds">Движение средств</string>
+    <string name="select_templates">Шаблоны</string>
+    <string name="select_sms_patterns">Смс паттерны</string>
+    <string name="select_charts">Отчеты</string>
+    <!-- Backup -->
+    <string name="backup_database">Сделать резервную копию БД</string>
+    <string name="restore_database">Восстановить резервную копию БД</string>
+    <string name="backup_shared_prefs">Сделать резервную копию настроек</string>
+    <string name="restore_shared_prefs">Восстановить резервную копию настроек</string>
+    <!-- Preferences -->
+    <!-- Interface preferences -->
+    <string name="interface_preferences_title">Интерфейс</string>
+    <string name="interface_preferences_summary">Настройки внешнего вида</string>
+    <string name="show_balance_on_operation_screens_preference_title">Баланс на страницах с операциями</string>
+    <string name="show_balance_on_operation_screens_enabled_preference_summary">Показывать баланс</string>
+    <string name="show_balance_on_operation_screens_disabled_preference_summary">Скрывать баланс</string>
+    <!-- Database preferences -->
+    <string name="database_preferences_title">База данных</string>
+    <string name="database_preferences_summary">Первоначальные и значения по умолчанию</string>
+    <string name="currency_id_preference_title">Валюта по умолчанию: %s</string>
+    <string name="currency_id_preference_summary">Валюта по умолчанию в диалоге добавления счета и диалоге добавления любой операции.\nНе рекомендуется изменять</string>
+    <string name="account_id_preference_title">Счет по умолчанию: %s</string>
+    <string name="account_id_preference_summary">Счет по умолчанию используется в диалоге добавления любой операции</string>
+    <string name="person_id_preference_title">Пользователь по умолчанию: %s</string>
+    <string name="person_id_preference_summary">Пользователь по умолчанию используется в диалоге добавления счета</string>
+    <string name="incomes_article_id_preference_title">Статья доходов: %s</string>
+    <string name="incomes_article_id_preference_summary">Используется в качестве корневого каталога доходов.\nНе рекомендуется изменять</string>
+    <string name="expenses_article_id_preference_title">Статья расходов: %s</string>
+    <string name="expenses_article_id_preference_summary">Используется в качестве корневого каталога расходов.\nНе рекомендуется изменять</string>
+    <string name="transfer_article_id_preference_title">Статья перевода: %s</string>
+    <string name="transfer_article_id_preference_summary">Используется в качестве статьи перевода средств.\nНе рекомендуется изменять</string>
+    <!-- Backup preferences -->
+    <string name="backup_preferences_title">Резервное копирование</string>
+    <string name="backup_preferences_summary">Настройки резервного копирования</string>
+    <string name="backup_path_preference_title">Путь к резервной копии</string>
+    <string name="backup_path_preference_summary">Не задан</string>
+    <!-- ACRA preferences -->
+    <string name="acra_preferences_title">ACRA</string>
+    <string name="acra_preferences_summary">Отчеты о сбоях приложения для Android</string>
+    <string name="enable_acra_preference_title">Включить ACRA</string>
+    <string name="acra_enabled_preference_summary">ACRA включена</string>
+    <string name="acra_disabled_preference_summary">ACRA выключена</string>
+
+    <!-- Types -->
+    <string-array name="account_type">
+        <item>Неопределен</item>
+        <item>Наличные</item>
+        <item>Депозит</item>
+        <item>Кредит</item>
+        <item>Дебетовая карта</item>
+        <item>Кредитная карта</item>
+        <item>Виртуальная дебетовая карта</item>
+        <item>Виртуальная кредитная карта</item>
+    </string-array>
+
+    <!-- Hints -->
+    <string name="hint_name">Название</string>
+    <string name="hint_name_required">Название (обязательно)</string>
+    <string name="hint_description">Описание</string>
+    <string name="hint_description_optional">Описание &optional;</string>
+    <string name="hint_url">Ссылка</string>
+    <string name="hint_url_optional">Ссылка &optional;</string>
+    <string name="hint_order_code">№ п/п</string>
+    <string name="hint_date">Дата (ISO формат)</string>
+    <string name="hint_exchange_rate">Курс обмена</string>
+    <string name="hint_initial_balance">Изначальный баланс</string>
+    <string name="hint_initial_balance_disabled">Изначальный баланс &disabled;</string>
+    <string name="hint_default_value">Значение по умолчанию</string>
+    <string name="hint_default_value_disabled">Значение по умолчанию &disabled;</string>
+    <string name="hint_account_number">Номер счета</string>
+    <string name="hint_account_number_disabled">Номер счета &disabled;</string>
+    <string name="hint_payment_system">Платежная система</string>
+    <string name="hint_payment_system_disabled">Платежная система &disabled;</string>
+    <string name="hint_card_number">Номер карты</string>
+    <string name="hint_card_number_disabled">Номер карты &disabled;</string>
+    <string name="hint_currency">Валюта</string>
+    <string name="hint_currency_disabled">Валюта &disabled;</string>
+    <string name="hint_owner">Владелец</string>
+    <string name="hint_owner_disabled">Владелец &disabled;</string>
+    <string name="hint_value">Значение</string>
+    <string name="hint_account">Счет</string>
+    <string name="hint_account_type">Тип</string>
+    <string name="hint_expense_account">Счет расходов</string>
+    <string name="hint_income_account">Счет доходов</string>
+    <string name="hint_transfer_account">Счет перевода (куда)</string>
+    <string name="hint_transfer_account_disabled">Счет перевода (куда) &disabled;</string>
+    <string name="hint_article">Статья</string>
+    <string name="hint_article_name">Название статьи</string>
+    <string name="hint_article_name_disabled">Название статьи &disabled;</string>
+    <string name="hint_article_category">Категория статьи</string>
+    <string name="hint_article_category_disabled">Категория статьи &disabled;</string>
+    <string name="hint_template_name">Название шаблона</string>
+    <string name="hint_sender">Отправитель</string>
+    <string name="hint_regex">Регулярное выражение</string>
+    <string name="hint_date_group">Группа даты</string>
+    <string name="hint_value_group">Группа значения</string>
+    <string name="hint_start_date">Начальная дата</string>
+    <string name="hint_end_date">Конечная дата</string>
+    <string name="hint_start_value">Начальное значение</string>
+    <string name="hint_end_value">Конечное значение</string>
+    <string name="hint_active">Активный</string>
+    <string name="hint_parent">Родитель</string>
+    <string name="hint_parent_disabled">Родитель &disabled;</string>
+    <string name="hint_balance">Баланс:</string>
+    <string name="hint_calculating">вычисляется…</string>
+    <string name="hint_common">Общий</string>
+
+    <!-- Menu items -->
+    <!-- Actions -->
+    <string name="action_save">Сохранить</string>
+    <string name="action_add_entry">Добавить запись</string>
+    <string name="action_add_folder">Добавить каталог</string>
+    <string name="action_add_nested_entry">Добавить вложенную запись</string>
+    <string name="action_add_nested_folder">Добавить вложенный каталог</string>
+    <string name="action_add_expense">Добавить расход</string>
+    <string name="action_add_income">Добавить доход</string>
+    <string name="action_add_transfer">Добавить перевод</string>
+    <string name="action_add_expense_template">Добавить шаблон расхода</string>
+    <string name="action_add_income_template">Добавить шаблон дохода</string>
+    <string name="action_add_transfer_template">Добавить шаблон перевода</string>
+    <string name="action_duplicate">Дублировать</string>
+    <string name="action_edit">Редактировать</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_filter">Фильтр</string>
+    <string name="action_select">Выбрать</string>
+    <string name="action_search">Поиск</string>
+    <string name="action_display">Отображение</string>
+    <!-- Drawer -->
+    <string name="drawer_open">Открыть панель навигации</string>
+    <string name="drawer_close">Закрыть панель навигации</string>
+    <string name="drawer_item_currencies">Валюты</string>
+    <string name="drawer_item_exchange_rates">Курсы обмена</string>
+    <string name="drawer_item_people">Люди</string>
+    <string name="drawer_item_expense_articles">Статьи расходов</string>
+    <string name="drawer_item_income_articles">Статьи доходов</string>
+    <string name="drawer_item_backup">Резервное копирование</string>
+    <string name="drawer_item_settings">Настройки</string>
+    <string name="drawer_item_contact">Связаться</string>
+
+    <!-- Permissions -->
+    <string name="read_external_storage_permission_is_missing">У вас нет прав на чтение из внешнего хранилища. Или SD-карта не установлена</string>
+    <string name="write_external_storage_permission_is_missing">У вас нет прав на запись во внешнее хранилище. Или SD-карта не установлена</string>
+    <string name="permission_write_external_storage_rationale">Разрешение необходимо для записи резервной копии на внешнее хранилище</string>
+    <string name="permission_write_external_storage_denied">Разрешение на доступ к внешнему хранилищу отклонено. Пожалуйста, рассмотрите вопрос о предоставлении его для доступа к резервной копии</string>
+    <string name="permission_write_external_storage_never_ask">Разрешение на доступ к внешнему хранилищу отклонено с пометкой "Больше не спрашивать"</string>
+    <string name="permission_receive_sms_rationale">Разрешение необходимо для чтения информации из смс для дальнейшего добавления операций в базу данных</string>
+
+    <!-- Folder messages -->
+    <string name="access_to_this_folder_is_denied">Доступ к этому каталогу запрещен</string>
+
+    <!-- Icon messages -->
+    <string name="can_not_find_icon">Не удается найти значок с именем \'%s\'</string>
+
+    <!-- Notification messages -->
+    <string name="sms_received">Смс получена</string>
+    <string name="sms_received_content">%1$s %2$s по \'%3$s\' шаблону от %4$s</string>
+    <string name="expense_operation_type">Расход</string>
+    <string name="income_operation_type">Доход</string>
+    <string name="transfer_operation_type">Перевод</string>
+
+    <!-- Notification actions -->
+    <string name="action_add_immediately">Добавить сразу</string>
+
+    <!-- Dialog Buttons -->
+    <string name="button_got_it">Понятно</string>
+    <string name="button_allow">Разрешить</string>
+    <string name="button_deny">Запретить</string>
+
+    <!-- Delete Alerts -->
+    <string name="accounts_with_parent_exists">&cantDelete; счет, &because; он &isTheParentOfAnother; счетов.\n&deleteNested;е счета &andTryAgain;.</string>
+    <string name="articles_with_parent_exists">&cantDelete; статью, &because; она &isTheParentOfAnother; статей.\n&deleteNested;е статьи &andTryAgain;.</string>
+    <string name="persons_with_parent_exists">&cantDelete; пользователя, &because; он &isTheParentOfAnother; пользователей.\n&deleteNested;х пользователей &andTryAgain;.</string>
+    <string name="expense_operations_with_account_exists">&cantDelete; счет, &becauseItIsIncludedInSome; расходы.\n&deleteOrEditThese; расходы &andTryAgain;.</string>
+    <string name="income_operations_with_account_exists">&cantDelete; счет, &becauseItIsIncludedInSome; доходы.\n&deleteOrEditThese; доходы &andTryAgain;.</string>
+    <string name="transfer_operations_with_account_exists">&cantDelete; счет, &becauseItIsIncludedInSome; переводы.\n&deleteOrEditThese; переводы &andTryAgain;.</string>
+    <string name="expense_operations_with_article_exists">&cantDelete; статью, &because; она &isIncluded;а &inSome; расходы.\n&deleteOrEditThese; расходы &andTryAgain;.</string>
+    <string name="income_operations_with_article_exists">&cantDelete; статью, &because; она &isIncluded;а &inSome; доходы.\n&deleteOrEditThese; доходы &andTryAgain;.</string>
+    <string name="transfer_operations_with_article_exists">&cantDelete; статью, &because; она &isIncluded;а &inSome; переводы.\n&deleteOrEditThese; переводы &andTryAgain;.</string>
+    <string name="expense_operations_with_owner_exists">&cantDelete; пользователя, &becauseItIsIncludedInSome; расходы.\n&deleteOrEditThese; расходы &andTryAgain;.</string>
+    <string name="income_operations_with_owner_exists">&cantDelete; пользователя, &becauseItIsIncludedInSome; доходы.\n&deleteOrEditThese; доходы &andTryAgain;.</string>
+    <string name="transfer_operations_with_owner_exists">&cantDelete; пользователя, &becauseItIsIncludedInSome; переводы.\n&deleteOrEditThese; переводы &andTryAgain;.</string>
+    <string name="expense_operations_with_exchange_rate_exists">&cantDelete; курс обмена, &becauseItIsIncludedInSome; расходы.\n&deleteOrEditThese; расходы &andTryAgain;.</string>
+    <string name="income_operations_with_exchange_rate_exists">&cantDelete; курс обмена, &becauseItIsIncludedInSome; доходы.\n&deleteOrEditThese; доходы &andTryAgain;.</string>
+    <string name="transfer_operations_with_exchange_rate_exists">&cantDelete; курс обмена, &becauseItIsIncludedInSome; переводы.\n&deleteOrEditThese; переводы &andTryAgain;.</string>
+    <string name="accounts_with_owner_exists">&cantDelete; пользователя, &becauseItIsIncludedInSome; счета.\n&deleteOrEditThese; счета &andTryAgain;.</string>
+    <string name="accounts_with_currency_exists">&cantDelete; валюту, &because; она &isIncluded;а &inSome; счета.\n&deleteOrEditThese; счета &andTryAgain;.</string>
+    <string name="exchange_rates_with_currency_exists">&cantDelete; валюту, &because; она &isIncluded;а &inSome; курсы обмена.\n&deleteOrEditThese; курсы обмена &andTryAgain;.</string>
+    <string name="sms_patterns_with_template_exists">&cantDelete; шаблон, &becauseItIsIncludedInSome; смс паттерны.\n&deleteOrEditThese; смс паттерны &andTryAgain;.</string>
+    <string name="preferences_contains_person">&cantDelete; пользователя, &becauseItIsIncludedInSome; настройки.\n&deleteOrEditThese; настройки &andTryAgain;.</string>
+    <string name="preferences_contains_account">&cantDelete; счет, &becauseItIsIncludedInSome; настройки.\n&deleteOrEditThese; настройки &andTryAgain;.</string>
+    <string name="preferences_contains_currency">&cantDelete; валюту, &becauseItIsIncludedInSome; настройки.\n&deleteOrEditThese; настройки &andTryAgain;.</string>
+    <string name="preferences_contains_article">&cantDelete; статью, &becauseItIsIncludedInSome; настройки.\n&deleteOrEditThese; настройки &andTryAgain;.</string>
+
+    <!-- Backup Messages -->
+    <string name="backup_completed_successfully">Резервное копирование успешно завершено</string>
+    <string name="backup_failed">Не удалось выполнить резервное копирование</string>
+    <string name="restore_completed_successfully">Восстановление резервной копии успешно завершено</string>
+    <string name="restore_failed">Не удалось восстановить резервную копию</string>
+
+    <!-- Charts -->
+    <string name="chart_no_data">Отсутствуют данные для отображения</string>
+    <string name="chart_loading">Подождите, данные загружаются</string>
+
+    <string name="data_set_incomes">Доходы</string>
+    <string name="data_set_expenses">Расходы</string>
+    <string name="data_set_transfers">Переводы</string>
+    <string name="data_set_net_profit">Прибыль</string>
+
+    <string name="pie_group_other">Другое (объединенная группа)</string>
+
+    <!-- Bar Chart Display -->
+    <string name="bar_chart_display_group">Группировать по:</string>
+    <string name="bar_chart_display_group_by_days">Дням</string>
+    <string name="bar_chart_display_group_by_weeks">Неделям</string>
+    <string name="bar_chart_display_group_by_months">Месяцам</string>
+    <string name="bar_chart_display_group_by_quarters">Кварталам</string>
+    <string name="bar_chart_display_group_by_years">Годам</string>
+    <string name="bar_chart_display_view">Просмотр:</string>
+    <string name="bar_chart_display_view_income_values">Отображать значения доходов</string>
+    <string name="bar_chart_display_view_expense_values">Отображать значения расходов</string>
+    <string name="bar_chart_display_view_incomes">Отображать доходы</string>
+    <string name="bar_chart_display_view_expenses">Отображать расходы</string>
+    <string name="bar_chart_display_include_transfers">Учитывать переводы</string>
+    <!-- Horizontal Bar Chart Display -->
+    <string name="horizontal_bar_chart_display_group">Группировать по:</string>
+    <string name="horizontal_bar_chart_display_group_by_article">Статьям</string>
+    <string name="horizontal_bar_chart_display_group_by_article_parent">Каталогам статей</string>
+    <string name="horizontal_bar_chart_display_view">Просмотр:</string>
+    <string name="horizontal_bar_chart_display_view_values">Отображать значения</string>
+    <string name="horizontal_bar_chart_display_use_percent_values">Использовать значения в процентах</string>
+    <!-- Pie Chart Display -->
+    <string name="pie_chart_display_group_by">Группировать по:</string>
+    <string name="pie_chart_display_group_by_article">Статьям</string>
+    <string name="pie_chart_display_group_by_article_parent">Каталогам статей</string>
+    <string name="pie_chart_display_grouping">Группировка:</string>
+    <string name="pie_chart_display_grouping_simple">Упрощенная</string>
+    <string name="pie_chart_display_grouping_limit">С ограниченной группой</string>
+    <string name="pie_chart_display_view">Просмотр:</string>
+    <string name="pie_chart_display_view_values">Отображать значения</string>
+    <string name="pie_chart_display_use_percent_values">Использовать значения в процентах</string>
+
+    <!-- Validation Errors -->
+    <string name="name_error">Неправильное название</string>
+    <string name="description_error">Неправильное описание</string>
+    <string name="order_code_error">Неправильный порядковый номер</string>
+    <string name="date_error">Неправильная дата</string>
+    <string name="initial_balance_error">Неправильный изначальный баланс</string>
+    <string name="default_value_error">Неправильное значение по умолчанию</string>
+    <string name="value_error">Неправильное значение</string>
+    <string name="account_number_error">Неправильный номер счета (должно быть 20 цифр)</string>
+    <string name="card_number_error">Неправильный номер карты</string>
+    <string name="sender_error">Неправильный отправитель</string>
+    <string name="regex_error">Неправильное регулярное выражение</string>
+    <string name="date_group_error">Неправильная группа даты</string>
+    <string name="value_group_error">Неправильная группа значения</string>
+    <string name="article_is_not_set_error">Статья не выбрана</string>
+    <string name="account_is_not_set_error">Счет не выбран</string>
+    <string name="expense_account_is_not_set_error">Счет расходов не выбран</string>
+    <string name="income_account_is_not_set_error">Счет доходов не выбран</string>
+    <string name="transfer_account_is_not_set_error">Счет перевода не выбран</string>
+    <string name="owner_is_not_set_error">Владелец не выбран</string>
+    <string name="currency_is_not_set_error">Валюта не выбрана</string>
+    <string name="exchange_rate_is_not_set_error">Курс обмена не выбран</string>
+    <string name="template_is_not_set_error">Шаблон не выбран</string>
+    <string name="parent_can_not_be_inside_itself">Родитель не может находиться внутри себя</string>
+    <string name="parent_must_be_a_folder">Родитель должен быть каталогом</string>
+    <string name="parent_can_not_be_a_parent_of_itself">Родитель не может быть родителем самого себя</string>
+
+    <!-- Crash Report -->
+    <string name="crash_dialog_title">Семейные финансы аварийно завершились</string>
+    <string name="crash_dialog_text">Произошла непредвиденная ошибка, заставляющая приложение остановиться.
+        Пожалуйста, помогите нам исправить это, отправив данные об ошибках.
+        Все, что вам нужно сделать, это нажать ОК.</string>
+    <string name="crash_dialog_comment_prompt">Вы можете добавить свои комментарии о проблеме ниже:</string>
+    <string name="crash_dialog_report_send_success_toast">Спасибо! Отчет успешно отправлен</string>
+    <string name="crash_dialog_report_send_failure_toast">Спасибо! К сожалению, отчет не удалось отправить</string>
+
+    <!-- Currency names -->
+    <string name="default_currency_name">руб.</string>
+    <string name="default_currency_description">Российский рубль</string>
+    <!-- Person names -->
+    <string name="person_chief">Вождь</string>
+    <!-- Account names -->
+    <string name="account_cash">Наличные</string>
+    <!-- Article root names -->
+    <string name="article_expenses">Расходы</string>
+    <string name="article_incomes">Доходы</string>
+    <string name="article_service">Служебные</string>
+    <!-- Article income names -->
+    <string name="article_bank">Банк</string>
+    <string name="article_gifts">Подарки</string>
+    <string name="article_work">Работа</string>
+    <!-- Article expense names -->
+    <string name="article_auto">Авто</string>
+    <string name="article_home">Дом</string>
+    <string name="article_clothes">Одежда</string>
+    <string name="article_products">Продукты</string>
+    <string name="article_transport">Транспорт</string>
+    <string name="article_education">Образование</string>
+    <string name="article_entertainment">Развлечения</string>
+    <string name="article_beauty_and_health">Красота и здоровье</string>
+    <!-- Article income bank names -->
+    <string name="article_capitalization_of_interest">Капитализация процентов</string>
+    <!-- Article income work names -->
+    <string name="article_salary">Зарплата</string>
+    <string name="article_bonus">Премия</string>
+    <!-- Article expense auto names -->
+    <string name="article_fuel">Топливо</string>
+    <string name="article_repair">Ремонт</string>
+    <string name="article_maintenance">Техобслуживание</string>
+    <!-- Article expense home names -->
+    <string name="article_rent">Квартплата</string>
+    <!-- Article expense clothes names -->
+    <string name="article_jacket">Куртка</string>
+    <!-- Article expense transport names -->
+    <string name="article_taxi">Такси</string>
+    <string name="article_metro">Метро</string>
+    <!-- Article expense education names -->
+    <string name="article_foreign_language_courses">Курсы иностранных языков</string>
+    <!-- Article expense entertainment names -->
+    <string name="article_cinema">Кинотеатр</string>
+    <string name="article_theater">Театр</string>
+    <!-- Article service names -->
+    <string name="article_transfer">Перевод средств</string>
+</resources>

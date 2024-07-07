@@ -1,0 +1,71 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.beemdevelopment.aegis.ui.MainActivity">
+    <item
+        android:id="@+id/mi_search"
+        android:title="@string/search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"
+    />
+    <item
+        android:id="@+id/action_lock"
+        android:icon="@drawable/ic_lock"
+        app:showAsAction="ifRoom"
+        android:title="@string/lock"/>
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/ic_baseline_filter_list_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/filter">
+        <menu>
+            <group
+                android:id="@+id/action_filter_group"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_filter_all"
+                    android:title="@string/all"
+                    android:checked="true" />
+            </group>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@drawable/ic_action_sort"
+        app:showAsAction="always"
+        android:title="@string/filter">
+        <menu>
+            <group
+                android:id="@+id/action_sort_category"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_sort_custom"
+                    android:title="@string/sort_custom"
+                    android:checked="true" />
+                <item
+                    android:id="@+id/menu_sort_alphabetically_name"
+                    android:title="@string/sort_alphabetically_name"/>
+                <item
+                    android:id="@+id/menu_sort_alphabetically_name_reverse"
+                    android:title="@string/sort_alphabetically_name_reverse"/>
+                <item
+                    android:id="@+id/menu_sort_alphabetically"
+                    android:title="@string/sort_alphabetically"/>
+                <item
+                    android:id="@+id/menu_sort_alphabetically_reverse"
+                    android:title="@string/sort_alphabetically_reverse"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="110"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+</menu>

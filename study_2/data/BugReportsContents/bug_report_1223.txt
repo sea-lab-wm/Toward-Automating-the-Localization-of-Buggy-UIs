@@ -1,0 +1,23 @@
+Steps to reproduce the behaviour
+
+Click on transaction
+Click on edit FAB button
+Click on split icon
+Add memo to 1 or more splits
+Click "save"
+Click "save" again
+Click on edit FAB button
+Click on split icon
+Expected behaviour
+
+Splits have their memos.
+
+Actual behaviour
+
+Split do not have their memos anymore.
+
+Software specifications
+
+GnuCash Android version: 2.2.0
+System Android version: 6.0
+Device type: Any

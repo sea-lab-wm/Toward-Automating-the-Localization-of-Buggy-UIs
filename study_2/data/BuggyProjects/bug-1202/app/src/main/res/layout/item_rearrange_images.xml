@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_margin="8dp"
+    android:background="@android:color/background_light">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toStartOf="@id/linearLayout"
+        android:contentDescription="@string/selected_image"
+        android:src="@drawable/circle" />
+
+    <TextView
+        android:id="@+id/pageNumber"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/circle_white"
+        android:backgroundTint="@color/colorGray"
+        android:gravity="center"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/buttonUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/circle_white"
+            android:backgroundTint="@color/colorPrimary"
+            android:contentDescription="@string/arrow_up"
+            android:tint="@android:color/background_light"
+            app:srcCompat="@drawable/ic_arrow_up_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/buttonDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/circle_white"
+            android:backgroundTint="@color/colorPrimary"
+            android:contentDescription="@string/arrow_down"
+            android:tint="@android:color/background_light"
+            app:srcCompat="@drawable/ic_arrow_down_black_24dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

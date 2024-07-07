@@ -1,0 +1,79 @@
+{
+	"id": "1202",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["268b8ea49187f008e8e901dada684f2f057e4728"],
+		"file_name": "bug-1202/app/src/main/java/swati4star/createpdf/activity/ImageEditor.java",
+		"method_name": null,
+		"line_numbers": ["79"]
+	},
+	{
+		"commit_ids": ["268b8ea49187f008e8e901dada684f2f057e4728"],
+		"file_name": "bug-1202/app/src/main/java/swati4star/createpdf/activity/ImageEditor.java",
+		"method_name": "void nextImg()",
+		"line_numbers": ["131", "134-135"]
+	},
+	{
+		"commit_ids": ["268b8ea49187f008e8e901dada684f2f057e4728"],
+		"file_name": "bug-1202/app/src/main/java/swati4star/createpdf/activity/ImageEditor.java",
+		"method_name": "void previousImg()",
+		"line_numbers": ["143", "146-147"]
+	},
+	{
+		"commit_ids": ["268b8ea49187f008e8e901dada684f2f057e4728"],
+		"file_name": "bug-1202/app/src/main/java/swati4star/createpdf/activity/ImageEditor.java",
+		"method_name": "void saveC()",
+		"line_numbers": ["157-159"]
+	},
+	{
+		"commit_ids": ["268b8ea49187f008e8e901dada684f2f057e4728"],
+		"file_name": "bug-1202/app/src/main/java/swati4star/createpdf/activity/ImageEditor.java",
+		"method_name": "public void onItemClick(View view, int position)",
+		"line_numbers": ["317-320", "323-325"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["d4c56effe7a6a8e827aa540a36b08564149d8b10"],
+		"file_name": "bug-1202/app/src/main/java/swati4star/createpdf/activity/ImageEditor.java",
+		"method_name": null,
+		"line_numbers": ["79"]
+	},
+	{
+		"commit_ids": ["d4c56effe7a6a8e827aa540a36b08564149d8b10"],
+		"file_name": "fix-1202/app/src/main/java/swati4star/createpdf/activity/ImageEditor.java",
+		"method_name": "void nextImg()",
+		"line_numbers": ["131"]
+	},
+	{
+		"commit_ids": ["d4c56effe7a6a8e827aa540a36b08564149d8b10"],
+		"file_name": "fix-1202/app/src/main/java/swati4star/createpdf/activity/ImageEditor.java",
+		"method_name": "void previousImg()",
+		"line_numbers": ["141"]
+	},
+	{
+		"commit_ids": ["d4c56effe7a6a8e827aa540a36b08564149d8b10"],
+		"file_name": "fix-1202/app/src/main/java/swati4star/createpdf/activity/ImageEditor.java",
+		"method_name": "void saveC()",
+		"line_numbers": ["153-155"]
+	},
+	{
+		"commit_ids": ["d4c56effe7a6a8e827aa540a36b08564149d8b10"],
+		"file_name": "fix-1202/app/src/main/java/swati4star/createpdf/activity/ImageEditor.java",
+		"method_name": "public void onItemClick(View view, int position)",
+		"line_numbers": ["307-308", "315", "318"]
+	},
+	{
+		"commit_ids": ["d4c56effe7a6a8e827aa540a36b08564149d8b10"],
+		"file_name": "fix-1202/app/src/main/java/swati4star/createpdf/activity/ImageEditor.java",
+		"method_name": "private void showBrushEffect()",
+		"line_numbers": ["326-331"]
+	},
+	{
+		"commit_ids": ["d4c56effe7a6a8e827aa540a36b08564149d8b10"],
+		"file_name": "fix-1202/app/src/main/java/swati4star/createpdf/activity/ImageEditor.java",
+		"method_name": "private void hideBrushEffect()",
+		"line_numbers": ["333-337"]
+	}],
+	"unit_test_changes": null
+}

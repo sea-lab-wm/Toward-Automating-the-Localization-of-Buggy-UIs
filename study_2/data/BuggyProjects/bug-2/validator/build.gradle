@@ -1,0 +1,51 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion setup.compileSdk
+    buildToolsVersion setup.buildTools
+
+    defaultConfig {
+        minSdkVersion setup.minSdk
+        targetSdkVersion setup.targetSdk
+        versionCode 1
+        versionName version
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            zipAlignEnabled true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            versionNameSuffix "-DEBUG"
+            minifyEnabled false
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    lintOptions {
+        abortOnError false
+        disable 'InvalidPackage'
+    }
+}
+
+dependencies {
+//    implementation fileTree(include: ['*.jar'], dir: 'libs')
+//    api "com.android.support:design:${versions.supportLib}"
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "com.android.support:design:${versions.supportLib}"
+    // shared lib
+    implementation project(':shared')
+}
+
+//publish {
+//    userOrg = 'jpetitto'
+//    groupId = 'com.johnpetitto.validator'
+//    artifactId = 'validator'
+//    publishVersion = "$version"
+//    desc = 'A tiny library for easily validating TextInputLayouts in Android'
+//    website = 'https://github.com/jpetitto/validator'
+//}

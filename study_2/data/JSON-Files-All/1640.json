@@ -1,0 +1,87 @@
+{
+    "id": "1640",
+    "confidence_level": "confident",
+    "bug_location": [
+        {
+            "commit_ids": [
+                "3c223d78b0d5650400314d5919f24cbf09976076"
+            ],
+            "file_name": "bug-1640/app/src/main/AndroidManifest.xml"
+        },
+        {
+            "commit_ids": [
+                "3c223d78b0d5650400314d5919f24cbf09976076"
+            ],
+            "file_name": "bug-1640/app/src/main/java/com/german_software_engineers/trainerapp/ExerciseView/Controller/ExerciseViewHolder.java"
+        },
+        {
+            "commit_ids": [
+                "3c223d78b0d5650400314d5919f24cbf09976076"
+            ],
+            "file_name": "bug-1640/app/src/main/java/com/german_software_engineers/trainerapp/InfoActivity.java"
+        },
+        {
+            "commit_ids": [
+                "3c223d78b0d5650400314d5919f24cbf09976076"
+            ],
+            "file_name": "bug-1640/app/src/main/res/layout/content_info.xml"
+        },
+        {
+            "commit_ids": [
+                "3c223d78b0d5650400314d5919f24cbf09976076"
+            ],
+            "file_name": "bug-1640/app/src/main/res/values/colors.xml"
+        },
+        {
+            "commit_ids": [
+                "3c223d78b0d5650400314d5919f24cbf09976076"
+            ],
+            "file_name": "bug-1640/app/src/main/res/values/strings.xml"
+        }
+    ],
+    "fix_location": [
+        {
+            "commit_ids": [
+                "05f904d9efef0feae8fae12370d925b30970405a"
+            ],
+            "file_name": "bug-1640/app/src/main/AndroidManifest.xml"
+        },
+        {
+            "commit_ids": [
+                "05f904d9efef0feae8fae12370d925b30970405a"
+            ],
+            "file_name": "bug-1640/app/src/main/java/com/german_software_engineers/trainerapp/ExerciseView/Controller/ExerciseViewHolder.java"
+        },
+        {
+            "commit_ids": [
+                "05f904d9efef0feae8fae12370d925b30970405a"
+            ],
+            "file_name": "bug-1640/app/src/main/java/com/german_software_engineers/trainerapp/InfoActivity.java"
+        },
+        {
+            "commit_ids": [
+                "05f904d9efef0feae8fae12370d925b30970405a"
+            ],
+            "file_name": "bug-1640/app/src/main/res/asserts.xml"
+        },
+        {
+            "commit_ids": [
+                "05f904d9efef0feae8fae12370d925b30970405a"
+            ],
+            "file_name": "bug-1640/app/src/main/res/layout/content_info.xml"
+        },
+        {
+            "commit_ids": [
+                "05f904d9efef0feae8fae12370d925b30970405a"
+            ],
+            "file_name": "bug-1640/app/src/main/res/values/colors.xml"
+        },
+        {
+            "commit_ids": [
+                "05f904d9efef0feae8fae12370d925b30970405a"
+            ],
+            "file_name": "bug-1640/app/src/main/res/values/strings.xml"
+        }
+    ],
+    "unit_test_changes": null
+}

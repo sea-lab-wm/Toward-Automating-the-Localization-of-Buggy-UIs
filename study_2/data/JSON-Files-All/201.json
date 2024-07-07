@@ -1,0 +1,19 @@
+{
+	"id": "201",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["1ae5ed05e9b4c5927db5a4daa9307695beb8c286"],
+		"file_name": "bug-201/iNaturalist/src/main/java/org/inaturalist/android/ObservationListActivity.java",
+		"method_name": "private void refreshSyncBar()",
+		"line_numbers": ["236-238"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["172ff0c93a4f73646a7e5aff20e75d6da36e1d9f"],
+		"file_name": "fix-201/iNaturalist/src/main/java/org/inaturalist/android/ObservationListActivity.java",
+		"method_name": "private void refreshSyncBar()",
+		"line_numbers": ["236-240"]
+	}],
+	"unit_test_changes": null
+}

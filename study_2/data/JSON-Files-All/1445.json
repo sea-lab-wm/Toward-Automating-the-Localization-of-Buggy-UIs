@@ -1,0 +1,19 @@
+{
+	"id": "1445",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["9cd2aa4cddf2cb3e26b13fb86c50d225bff70205"],
+		"file_name": "bug-1445/android/app/src/main/java/com/cohenadair/anglerslog/model/Logbook.java",
+		"method_name": "public static boolean tripExists(Trip trip)",
+		"line_numbers": ["921-922"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["78e27e429d4d62a22b80d9f4e7c90a1082f72b91"],
+		"file_name": "fix-1445/android/app/src/main/java/com/cohenadair/anglerslog/locations/ManageFishingSpotFragment.java",
+		"method_name": "public static boolean tripExists(Trip trip)",
+		"line_numbers": ["921-923", "925-926"]
+	}],
+	"unit_test_changes": null
+}

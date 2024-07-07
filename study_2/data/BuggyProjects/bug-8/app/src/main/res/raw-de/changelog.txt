@@ -1,0 +1,158 @@
+<html>
+  <head>
+    <style type='text/css'>
+       a                { 
+          color:purple; 
+          font-style:italic; }
+      div.title              { 
+          color:purple; 
+          font-weight:bold;
+          font-size:1.2em; 
+          font-weight:bold; 
+          margin-top:1em; 
+          margin-bottom:0.5em; 
+          text-align:center }
+      div.subtitle      { 
+          color:purple; 
+          font-weight:bold;
+          font-size:0.8em; 
+          margin-bottom:1em; 
+          text-align:center }
+      .appinternal          { 
+          font-style:italic; }
+      .app                 {
+          color:purple; 
+          font-weight:bold;}
+    </style>
+  </head>  
+  <body>
+
+$ 1.5.8
+% Version 1.5.8
+  _ 2016-11-23
+* Abstürze beim Auswählen auf den Hauptdialogen behoben.
+
+
+$ 1.5.7
+% Version 1.5.7
+  _ 2016-11-16
+* Fix: Die ausgewählte Reise war nicht ohne Absturz löschbar.
+* Verbesserung: Zahlungsbeschreibung jetzt mit Vorschlagsliste vorhandener Beschreibungen (Dank an mbrgm).
+
+$ 1.5.6
+% Version 1.5.6
+  _ 2016-10-10
+* Spanische Übersetzung ist jetzt verfügbar (Dank an Igor Sosa Mayor).
+* Boxer wird für den Berichtsexport unterstützt.
+
+$ 1.5.5
+% Version 1.5.5
+  _ 2016-02-27
+* Französische Übersetzung ist jetzt verfügbar (Dank an Nicolas Bossard).
+* Italienische Übersetzung erweitert (Dank an Andrea Zanella).
+* Das Framework für das Herunterladen von Wechselkursen wurde ersetzt.
+* K9-Mail wird für den Berichtsexport unterstützt.
+
+$ 1.5.4
+% Version 1.5.4
+  _ 2016-01-17
+* Zeitauswahl für Zahlungen war auf Android 6 Geräten nicht sichtbar.
+* Auf einigen Geräten stürzte die App bei Verwendung des Geldwechselrechners ab.
+
+$ 1.5.3
+% Version 1.5.3
+  _ 2015-10-18
+* Unterstützung von Android 6 (Berechtigungen).
+* Hilfetexte für leere Listenansichten jetzt gemäß UI-Konventionen.
+
+$ 1.5.2
+% Version 1.5.2
+  _ 2015-03-08
+* Bugfix: Datums- und Uhrzeitauswahl funktioniert unter Android 5 anders als bisher.
+
+$ 1.5.1
+% Version 1.5.1
+  _ 2015-03-07
+* Reiseauswahl und -verwaltung erfolgt via Drawer, zugänglich via Burger Button.
+* Kontextmenüs entfernt: Funktionen jetzt im kontextsensitiven Actionbar.
+* Auffrischung der Dialoge, Anpassung an die Material-Designvorgaben (Android 5).
+* Unterstützung von Android-5-Geräten.
+
+$ 1.4.3
+% Version 1.4.3
+  _ 2013-12-09
+* Wechselkursimport aus dem Internet funktioniert nun wieder: Die bisherige Schnittstelle von Google wurde leider abgeschaltet.
+
+$ 1.4.2
+% Version 1.4.2
+  _ 2013-09-29
+* Anzeige, Bearbeitung, Export und Sortierung von/nach Zeitpunkt einer Zahlung.
+* Der Berichts-Tab wurde überarbeitet: Die Schulden von allen Reisenden werden angezeigt.
+* Bugfix: +-Button war hin und wieder unsichtbar.
+
+$ 1.4.1
+% Version 1.4.1
+  _ 2013-08-31
+* Die Italienische Übersetzung ist jetzt verfügbar (Dank an Andrea Zanella).
+* Bugfix: Das Speichern von Berichten auf SD-Karte funktioniert wieder.
+* Bugfix: Die Aktualisierung von Reisenden aktualisiert nun auch den Bericht, auch ohne eine Reise neu laden zu müssen.
+
+  
+$ 1.4.0
+% Version 1.4.0
+  _ 2013-06-03
+* Bugfix: Der Rest einer gleichmäßigen Zahlungsaufteilung wird jetzt centweise gleichmäßig auf die Reisenden verteilt.
+* Statt Umweg über das Kontextmenü öffnet nun ein einfacher Tap auf einen Reisenden <span class="appinternal">Zahlung erstellen</span>, auf eine Zahlung <span class="appinternal">Zahlung bearbeiten</span>.
+* Actionbar-Funktionen wurden den Hauptdialogen, d.h. den Tab-Reitern, hinzugefügt.
+* Die Funktionalität zum Hinzufügen von Reisenden zu einer Reise wurde ergonomisch verbessert.
+* Einige Popup-Fenster wurden durch echte Dialoge ersetzt.
+* Diverse Verbesserungen der inneren Codequalität.
+  
+$ 1.3.1
+% Version 1.3.1
+  _ 2013-05-05
+* Verkleinerung der App-Größe (proguard).
+* Das Hinzufügen von Reisenden zu einer Reise wurde vereinfacht und überarbeitet. Mehrere Reisende können in einem Rutsch hinzugefügt werden.
+* Actionbar findet auf den Hauptdialogen Verwendung. 
+  
+$ 1.3.0
+% Version 1.3.0
+  _ 2013-04-05
+* Wechselkursverwaltung und Währungsumrechner wurden hinzugefügt.
+* Allgemein: Überarbeitung des Frontends.
+* ActionBar steht jetzt zur Verwendung auf Sekundärdialogen bereit.
+  
+$ 1.2.5
+% Version 1.2.5
+  _ 2013-01-11  
+* Popups mit Eingabefeldern werden jetzt gestaucht, um die Zugänglichkeit Buttons bei eingeblendeter Tastatur auf moderneren Telefonen zu verbessern.
+* Bugfix: Vorhandene Summen größer als 1000 konnten nicht editiert werden.  
+
+$ 1.2.4
+% Version 1.2.4
+  _ 2013-01-10  
+* Bugfix: Nachkommastellen konnten auf einigen Telefonen nicht editiert werden (bspw. HTC Desire Bravo, Samsung Galaxy S3, Samsung Galaxy 9000). Ursache: Inkonsistente Eingabe-Keyboards.  
+  
+$ 1.2.3
+% Version 1.2.3
+  _ 10.10.2012  
+* <span class="appinternal">Änderungshistorie</span> wird nach Installation angezeigt.
+* <span class="appinternal">Was ist neu</span> wird nach Update angezeigt.
+* Der Dialog <span class="appinternal">Einstellungen</span> wurde hinzugefügt.
+* Die Standardwährung kannst Du jetzt einstellen (über den <span class="appinternal">Einstellungen</span>-Dialog).
+* Die <span class="appinternal">Interaktive Hilfe</span> kann an- und ausgeschaltet werden (über den <span class="appinternal">Einstellungen</span>-Dialog).  
+* Bei Reisen ist die Währung jetzt einstellbar.
+       
+$ 1.2.2
+% Version 1.2.2
+  _ 22.06.2012
+* Fehler behoben: Export funktionierte nur mit deutscher Spracheinstellung des Telefons.
+
+$ 1.2.1
+% Version 1.2.1
+  _ 19.06.2012
+* Exportfunktion hinzugefügt.
+
+$ END_OF_CHANGE_LOG
+  </body>
+</html>

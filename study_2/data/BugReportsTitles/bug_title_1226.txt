@@ -1,0 +1,1 @@
+App crashes after creating account with BYN currency

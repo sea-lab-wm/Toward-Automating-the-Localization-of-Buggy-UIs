@@ -1,0 +1,31 @@
+{
+	"id": "2",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["d365188d7c7b9d9eb0021e73e0c6dc37aba79a3f"],
+		"file_name": "bug-2/app/src/main/java/io/github/zwieback/familyfinance/business/chart/fragment/HorizontalBarChartFragment.java",
+		"method_name": "private void updateDrawValues()",
+		"line_numbers": ["220"]
+	},
+	{
+		"commit_ids": ["d365188d7c7b9d9eb0021e73e0c6dc37aba79a3f"],
+		"file_name": "bug-2/app/src/main/java/io/github/zwieback/familyfinance/business/chart/fragment/PieChartFragment.java",
+		"method_name": "public void onApplyDisplay(PieChartDisplay display)",
+		"line_numbers": ["160-161"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["4d1e8446b45d0e425d321255ccf61ec028d6ebd6"],
+		"file_name": "fix-2/app/src/main/java/io/github/zwieback/familyfinance/business/chart/fragment/HorizontalBarChartFragment.java",
+		"method_name": "private void updateDrawValues()",
+		"line_numbers": ["220-223"]
+	},
+	{
+		"commit_ids": ["4d1e8446b45d0e425d321255ccf61ec028d6ebd6"],
+		"file_name": "fix-2/app/src/main/java/io/github/zwieback/familyfinance/business/chart/fragment/PieChartFragment.java",
+		"method_name": "public void onApplyDisplay(PieChartDisplay display)",
+		"line_numbers": ["160-164"]
+	}],
+	"unit_test_changes": null
+}

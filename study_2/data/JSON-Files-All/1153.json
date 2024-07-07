@@ -1,0 +1,25 @@
+{
+	"id": "1153",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["6341550c32a92dfdeee5de7dbf63754590cad9c7"],
+		"file_name": "bug-1153/GPSTest/src/main/res/drawable/signal_box.xml",
+		"method_name": null,
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["6341550c32a92dfdeee5de7dbf63754590cad9c7"],
+		"file_name": "bug-1153/GPSTest/src/main/res/layout/gps_sky_signal_meter.xml",
+		"method_name": null,
+		"line_numbers": ["42"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["0361229d3b7296b78062441e16c0b5f63cc43db0"],
+		"file_name": "fix-1153/GPSTest/src/main/res/layout/gps_sky_signal_meter.xml",
+		"method_name": null,
+		"line_numbers": ["42"]
+	}],
+	"unit_test_changes": null
+}

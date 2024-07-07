@@ -1,0 +1,1 @@
+Sky Avg SNR chart not colored in KitKat

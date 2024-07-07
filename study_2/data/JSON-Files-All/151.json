@@ -1,0 +1,123 @@
+{
+    "id": "151",
+    "confidence_level": "confident",
+    "bug_location": [
+        {
+            "commit_ids": [
+                "cc55a6dacb02cde5528fbab400de716ca3b10c11"
+            ],
+            "file_name": "bug-151/app/src/main/java/com/beemdevelopment/aegis/AegisApplication.java"
+        },
+        {
+            "commit_ids": [
+                "cc55a6dacb02cde5528fbab400de716ca3b10c11"
+            ],
+            "file_name": "bug-151/app/src/main/java/com/beemdevelopment/aegis/CancelAction.java"
+        },
+        {
+            "commit_ids": [
+                "cc55a6dacb02cde5528fbab400de716ca3b10c11"
+            ],
+            "file_name": "bug-151/app/src/main/java/com/beemdevelopment/aegis/Preferences.java"
+        },
+        {
+            "commit_ids": [
+                "cc55a6dacb02cde5528fbab400de716ca3b10c11"
+            ],
+            "file_name": "bug-151/app/src/main/java/com/beemdevelopment/aegis/ui/AegisActivity.java"
+        },
+        {
+            "commit_ids": [
+                "cc55a6dacb02cde5528fbab400de716ca3b10c11"
+            ],
+            "file_name": "bug-151/app/src/main/java/com/beemdevelopment/aegis/ui/AuthActivity.java"
+        },
+        {
+            "commit_ids": [
+                "cc55a6dacb02cde5528fbab400de716ca3b10c11"
+            ],
+            "file_name": "bug-151/app/src/main/java/com/beemdevelopment/aegis/ui/MainActivity.java"
+        },
+        {
+            "commit_ids": [
+                "cc55a6dacb02cde5528fbab400de716ca3b10c11"
+            ],
+            "file_name": "bug-151/app/src/main/java/com/beemdevelopment/aegis/ui/PreferencesFragment.java"
+        },
+        {
+            "commit_ids": [
+                "cc55a6dacb02cde5528fbab400de716ca3b10c11"
+            ],
+            "file_name": "bug-151/app/src/main/res/values/arrays.xml"
+        },
+        {
+            "commit_ids": [
+                "cc55a6dacb02cde5528fbab400de716ca3b10c11"
+            ],
+            "file_name": "bug-151/app/src/main/res/values/strings.xml"
+        },
+        {
+            "commit_ids": [
+                "cc55a6dacb02cde5528fbab400de716ca3b10c11"
+            ],
+            "file_name": "bug-151/app/src/main/res/xml/preferences.xml"
+        }
+    ],
+    "fix_location": [
+        {
+            "commit_ids": [
+                "52d27134826554379d5b27faacb98d8c32dab83b"
+            ],
+            "file_name": "bug-151/app/src/main/java/com/beemdevelopment/aegis/AegisApplication.java"
+        },
+        {
+            "commit_ids": [
+                "52d27134826554379d5b27faacb98d8c32dab83b"
+            ],
+            "file_name": "bug-151/app/src/main/java/com/beemdevelopment/aegis/Preferences.java"
+        },
+        {
+            "commit_ids": [
+                "52d27134826554379d5b27faacb98d8c32dab83b"
+            ],
+            "file_name": "bug-151/app/src/main/java/com/beemdevelopment/aegis/ui/AegisActivity.java"
+        },
+        {
+            "commit_ids": [
+                "52d27134826554379d5b27faacb98d8c32dab83b"
+            ],
+            "file_name": "bug-151/app/src/main/java/com/beemdevelopment/aegis/ui/AuthActivity.java"
+        },
+        {
+            "commit_ids": [
+                "52d27134826554379d5b27faacb98d8c32dab83b"
+            ],
+            "file_name": "bug-151/app/src/main/java/com/beemdevelopment/aegis/ui/MainActivity.java"
+        },
+        {
+            "commit_ids": [
+                "52d27134826554379d5b27faacb98d8c32dab83b"
+            ],
+            "file_name": "bug-151/app/src/main/java/com/beemdevelopment/aegis/ui/PreferencesFragment.java"
+        },
+        {
+            "commit_ids": [
+                "52d27134826554379d5b27faacb98d8c32dab83b"
+            ],
+            "file_name": "bug-151/app/src/main/res/values/arrays.xml"
+        },
+        {
+            "commit_ids": [
+                "52d27134826554379d5b27faacb98d8c32dab83b"
+            ],
+            "file_name": "bug-151/app/src/main/res/values/strings.xml"
+        },
+        {
+            "commit_ids": [
+                "52d27134826554379d5b27faacb98d8c32dab83b"
+            ],
+            "file_name": "bug-151/app/src/main/res/xml/preferences.xml"
+        }
+    ],
+    "unit_test_changes": null
+}

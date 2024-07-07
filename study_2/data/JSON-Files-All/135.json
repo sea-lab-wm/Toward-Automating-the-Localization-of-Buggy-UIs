@@ -1,0 +1,115 @@
+{
+	"id": "135",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["83d1d1ee402dbd680192691a777aa3e4b10e5c55"],
+		"file_name": "bug-135/app/src/main/java/fr/free/nrw/commons/category/SubCategoryListFragment.java",
+		"method_name": "public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState)",
+		"line_numbers": ["82"]
+	},
+	{
+		"commit_ids": ["83d1d1ee402dbd680192691a777aa3e4b10e5c55"],
+		"file_name": "bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoriesAdapterFactory.java",
+		"method_name": "public RVRendererAdapter<String> create(List<String> searchImageItemList)",
+		"line_numbers": ["26-27"]
+	},
+	{
+		"commit_ids": ["83d1d1ee402dbd680192691a777aa3e4b10e5c55"],
+		"file_name": "bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoriesRenderer.java",
+		"method_name": null,
+		"line_numbers": ["10", "18"]
+	},
+	{
+		"commit_ids": ["83d1d1ee402dbd680192691a777aa3e4b10e5c55"],
+		"file_name": "bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoriesRenderer.java",
+		"method_name": "SearchCategoriesRenderer(CategoryClickedListener listener)",
+		"line_numbers": ["22"]
+	},
+	{
+		"commit_ids": ["83d1d1ee402dbd680192691a777aa3e4b10e5c55"],
+		"file_name": "bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoriesRenderer.java",
+		"method_name": "protected View inflate(LayoutInflater layoutInflater, ViewGroup viewGroup)",
+		"line_numbers": [""]
+	},
+	{
+		"commit_ids": ["83d1d1ee402dbd680192691a777aa3e4b10e5c55"],
+		"file_name": "bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoriesRenderer.java",
+		"method_name": "protected void setUpView(View view)",
+		"line_numbers": [""]
+	},
+	{
+		"commit_ids": ["83d1d1ee402dbd680192691a777aa3e4b10e5c55"],
+		"file_name": "bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoryFragment.java",
+		"method_name": "public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState)",
+		"line_numbers": ["105"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["318b0b1d5b09f53610bbba12e4d286c2f851e788"],
+		"file_name": "fix-135/app/src/main/AndroidManifest.xml",
+		"method_name": null,
+		"line_numbers": ["11"]
+	},
+	{
+		"commit_ids": ["318b0b1d5b09f53610bbba12e4d286c2f851e788"],
+		"file_name": "fix-135/app/src/main/java/fr/free/nrw/commons/category/SubCategoryListFragment.java",
+		"method_name": null,
+		"line_numbers": ["4"]
+	},
+	{
+		"commit_ids": ["318b0b1d5b09f53610bbba12e4d286c2f851e788"],
+		"file_name": "fix-135/app/src/main/java/fr/free/nrw/commons/category/SubCategoryListFragment.java",
+		"method_name": "public void onAttach(Context context)",
+		"line_numbers": ["71-73"]
+	},
+	{
+		"commit_ids": ["318b0b1d5b09f53610bbba12e4d286c2f851e788"],
+		"file_name": "fix-135/app/src/main/java/fr/free/nrw/commons/category/SubCategoryListFragment.java",
+		"method_name": "public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState)",
+		"line_numbers": ["89"]
+	},
+	{
+		"commit_ids": ["318b0b1d5b09f53610bbba12e4d286c2f851e788"],
+		"file_name": "fix-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoriesAdapterFactory.java",
+		"method_name": null,
+		"line_numbers": ["3"]
+	},
+	{
+		"commit_ids": ["318b0b1d5b09f53610bbba12e4d286c2f851e788"],
+		"file_name": "fix-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoriesAdapterFactory.java",
+		"method_name": "public RVRendererAdapter<String> create(List<String> searchImageItemList, Context context)",
+		"line_numbers": ["28-30"]
+	},
+	{
+		"commit_ids": ["318b0b1d5b09f53610bbba12e4d286c2f851e788"],
+		"file_name": "fix-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoriesRenderer.java",
+		"method_name": null,
+		"line_numbers": ["3-4", "19", "22"]
+	},
+	{
+		"commit_ids": ["318b0b1d5b09f53610bbba12e4d286c2f851e788"],
+		"file_name": "fix-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoriesRenderer.java",
+		"method_name": "SearchCategoriesRenderer(CategoryClickedListener listener, Context context)",
+		"line_numbers": ["24", "26"]
+	},
+	{
+		"commit_ids": ["318b0b1d5b09f53610bbba12e4d286c2f851e788"],
+		"file_name": "fix-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoriesRenderer.java",
+		"method_name": "protected View inflate(LayoutInflater layoutInflater, ViewGroup viewGroup)",
+		"line_numbers": ["31-33"]
+	},
+	{
+		"commit_ids": ["318b0b1d5b09f53610bbba12e4d286c2f851e788"],
+		"file_name": "fix-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoriesRenderer.java",
+		"method_name": "protected void setUpView(View view)",
+		"line_numbers": ["39-43"]
+	},
+	{
+		"commit_ids": ["318b0b1d5b09f53610bbba12e4d286c2f851e788"],
+		"file_name": "fix-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoryFragment.java",
+		"method_name": "public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState)",
+		"line_numbers": ["105"]
+	}],
+	"unit_test_changes": null
+}

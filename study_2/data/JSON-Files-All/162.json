@@ -1,0 +1,43 @@
+{
+  "id": "162",
+  "confidence_level": "confident",
+  "bug_location": [
+  {
+    "commit_ids": ["6e392f62b78689f7a05bdb728ce81955dcebb8e1"],
+    "file_name": "bug-162/k9mail/src/main/java/com/fsck/k9/activity/setup/AccountSetupBasics.java",
+    "method_name": null,
+    "line_numbers": null
+  },
+  {
+    "commit_ids": ["6e392f62b78689f7a05bdb728ce81955dcebb8e1"],
+    "file_name": "bug-162/k9mail/src/main/java/com/fsck/k9/activity/setup/AccountSetupBasics.java",
+    "method_name": "private void onManualSetup()",
+    "line_numbers": null
+  },
+  {
+    "commit_ids": ["6e392f62b78689f7a05bdb728ce81955dcebb8e1"],
+    "file_name": "bug-162/k9mail/src/main/res/values/strings.xml",
+    "method_name": null,
+    "line_numbers": null
+  }],
+  "fix_location": [
+  {
+    "commit_ids": ["f9ce33f3b7fe98ba762d962c0cd0b3b514f1f9d8"],
+    "file_name": "fix-162/k9mail/src/main/java/com/fsck/k9/activity/setup/AccountSetupBasics.java",
+    "method_name": null,
+    "line_numbers": ["27"]
+  },
+  {
+    "commit_ids": ["f9ce33f3b7fe98ba762d962c0cd0b3b514f1f9d8"],
+    "file_name": "fix-162/k9mail/src/main/java/com/fsck/k9/activity/setup/AccountSetupBasics.java",
+    "method_name": "private void onManualSetup()",
+    "line_numbers": ["402-420"]
+  },
+  {
+    "commit_ids": ["f9ce33f3b7fe98ba762d962c0cd0b3b514f1f9d8"],
+    "file_name": "fix-162/k9mail/src/main/res/values/strings.xml",
+    "method_name": null,
+    "line_numbers": ["380"]
+  }],
+  "unit_test_changes": null
+}

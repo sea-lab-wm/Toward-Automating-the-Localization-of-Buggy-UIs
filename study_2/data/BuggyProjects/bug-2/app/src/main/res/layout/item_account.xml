@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View"/>
+
+        <import type="io.github.zwieback.familyfinance.util.NumberUtils"/>
+
+        <variable
+            name="account"
+            type="io.github.zwieback.familyfinance.core.model.IAccountView"/>
+
+        <variable
+            name="balanceValue"
+            type="java.math.BigDecimal"/>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/layout_padding"
+        android:paddingLeft="@dimen/layout_padding"
+        android:paddingRight="@dimen/layout_padding"
+        android:paddingStart="@dimen/layout_padding"
+        android:paddingTop="@dimen/layout_padding_top">
+
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:id="@+id/icon"
+            android:layout_width="@dimen/account_icon_size"
+            android:layout_height="@dimen/account_icon_size"
+            android:layout_centerVertical="true"
+            app:ico_size="@dimen/account_icon_size"
+            app:iiv_icon="cmd_folder"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_margin"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_toEndOf="@+id/icon"
+            android:layout_toLeftOf="@+id/active"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_toStartOf="@+id/active"
+            android:text="@{account.name}"
+            android:textSize="@dimen/account_text_size"/>
+
+        <Switch
+            android:id="@+id/active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:checked="@{account.active}"
+            android:enabled="false"/>
+
+        <TextView
+            android:id="@+id/balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/name"
+            android:layout_alignStart="@+id/name"
+            android:layout_below="@+id/name"
+            android:layout_marginEnd="@dimen/half_of_default_margin"
+            android:layout_marginRight="@dimen/half_of_default_margin"
+            android:layout_marginTop="@dimen/half_of_default_margin"
+            android:layout_toLeftOf="@+id/currency"
+            android:layout_toStartOf="@+id/currency"
+            android:gravity="end"
+            android:text="@{NumberUtils.bigDecimalToString(balanceValue, NumberUtils.ACCOUNT_PLACES)}"
+            android:textSize="@dimen/account_text_size"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/currency"
+            android:layout_width="@dimen/account_currency_width"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="@dimen/half_of_default_margin"
+            android:text="@{account.currencyName}"
+            android:textSize="@dimen/account_text_size"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_below="@+id/currency"
+            android:layout_marginTop="@dimen/divider_margin_top"
+            android:background="?android:attr/dividerHorizontal"/>
+
+    </RelativeLayout>
+
+</layout>

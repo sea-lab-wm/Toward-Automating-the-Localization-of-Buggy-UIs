@@ -1,0 +1,1 @@
+Dark mode not correctly setting theme colors in card area of Reviewer

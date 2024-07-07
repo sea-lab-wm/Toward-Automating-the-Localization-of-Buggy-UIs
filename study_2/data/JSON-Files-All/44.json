@@ -1,0 +1,19 @@
+{
+	"id": "44",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["8d09f7ab504d520f9c456c2a12a5aa0067be0d90"],
+		"file_name": "bug-44/omniNotes/src/main/java/it/feio/android/omninotes/utils/TagsHelper.java",
+		"method_name": "public static Pair<String, String> removeTag(String noteTitle, String noteContent, List<Tag> tagsToRemove)",
+		"line_numbers": ["90-91"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["77942a94c83ca53e06ef29f841def12e5fa5633f"],
+		"file_name": "fix-44/omniNotes/src/main/java/it/feio/android/omninotes/utils/TagsHelper.java",
+		"method_name": "public static Pair<String, String> removeTag(String noteTitle, String noteContent, List<Tag> tagsToRemove)",
+		"line_numbers": ["90-92"]
+	}],
+	"unit_test_changes": null
+}

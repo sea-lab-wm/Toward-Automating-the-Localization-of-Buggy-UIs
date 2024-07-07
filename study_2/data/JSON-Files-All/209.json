@@ -1,0 +1,37 @@
+{
+	"id": "209",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["52f72970eada423f10ed11359f628c5755545b24"],
+		"file_name": "bug-209/app/src/main/java/org/gnucash/android/ui/util/widget/CalculatorEditText.java",
+		"method_name": null,
+		"line_numbers": ["18", "32", "40"]
+	},
+	{
+		"commit_ids": ["52f72970eada423f10ed11359f628c5755545b24"],
+		"file_name": "bug-209/app/src/main/java/org/gnucash/android/ui/util/widget/CalculatorEditText.java",
+		"method_name": "public void bindListeners(CalculatorKeyboard calculatorKeyboard)",
+		"line_numbers": ["151-162"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["95430062b14e072aea2dde986e82e11da70e1c1b"],
+		"file_name": "fix-209/app/src/main/java/org/gnucash/android/ui/util/widget/CalculatorEditText.java",
+		"method_names": null,
+		"line_numbers": ["21"]
+	},
+	{
+		"commit_ids": ["95430062b14e072aea2dde986e82e11da70e1c1b"],
+		"file_name": "fix-209/app/src/main/java/org/gnucash/android/ui/util/widget/CalculatorEditText.java",
+		"method_names": "public void bindListeners(CalculatorKeyboard calculatorKeyboard)",
+		"line_numbers": ["149-154"]
+	},
+	{
+		"commit_ids": ["95430062b14e072aea2dde986e82e11da70e1c1b"],
+		"file_name": "fix-209/app/src/main/res/layout/fragment_transaction_form.xml",
+		"method_names": null,
+		"line_numbers": ["75"]
+	}],
+	"unit_test_changes": null
+}

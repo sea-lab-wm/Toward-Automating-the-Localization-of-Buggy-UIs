@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen
+        android:key="interface_prefs"
+        android:summary="@string/interface_preferences_summary"
+        android:title="@string/interface_preferences_title">
+
+        <!--suppress AndroidElementNotAllowed -->
+        <io.github.zwieback.familyfinance.business.preference.custom.interface_.ShowBalanceOnOperationScreensPreference
+            android:defaultValue="true"
+            android:key="showBalanceOnOperationScreens"
+            android:summaryOff="@string/show_balance_on_operation_screens_disabled_preference_summary"
+            android:summaryOn="@string/show_balance_on_operation_screens_enabled_preference_summary"
+            android:title="@string/show_balance_on_operation_screens_preference_title"/>
+
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="database_prefs"
+        android:summary="@string/database_preferences_summary"
+        android:title="@string/database_preferences_title">
+
+        <!--suppress AndroidElementNotAllowed -->
+        <io.github.zwieback.familyfinance.business.preference.custom.database.CurrencyPreference
+            android:key="currencyId"
+            android:summary="@string/currency_id_preference_summary"
+            android:title="@string/currency_id_preference_title"/>
+
+        <!--suppress AndroidElementNotAllowed -->
+        <io.github.zwieback.familyfinance.business.preference.custom.database.AccountPreference
+            android:key="accountId"
+            android:summary="@string/account_id_preference_summary"
+            android:title="@string/account_id_preference_title"/>
+
+        <!--suppress AndroidElementNotAllowed -->
+        <io.github.zwieback.familyfinance.business.preference.custom.database.PersonPreference
+            android:key="personId"
+            android:summary="@string/person_id_preference_summary"
+            android:title="@string/person_id_preference_title"/>
+
+        <!--suppress AndroidElementNotAllowed -->
+        <io.github.zwieback.familyfinance.business.preference.custom.database.ExpensesArticlePreference
+            android:key="expensesArticleId"
+            android:summary="@string/expenses_article_id_preference_summary"
+            android:title="@string/expenses_article_id_preference_title"/>
+
+        <!--suppress AndroidElementNotAllowed -->
+        <io.github.zwieback.familyfinance.business.preference.custom.database.IncomesArticlePreference
+            android:key="incomesArticleId"
+            android:summary="@string/incomes_article_id_preference_summary"
+            android:title="@string/incomes_article_id_preference_title"/>
+
+        <!--suppress AndroidElementNotAllowed -->
+        <io.github.zwieback.familyfinance.business.preference.custom.database.TransferArticlePreference
+            android:key="transferArticleId"
+            android:summary="@string/transfer_article_id_preference_summary"
+            android:title="@string/transfer_article_id_preference_title"/>
+
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="backup_prefs"
+        android:summary="@string/backup_preferences_summary"
+        android:title="@string/backup_preferences_title">
+
+        <!--suppress AndroidElementNotAllowed -->
+        <io.github.zwieback.familyfinance.business.preference.custom.backup.BackupPathPreference
+            android:key="backupPath"
+            android:summary="@string/backup_path_preference_summary"
+            android:title="@string/backup_path_preference_title"/>
+
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="acra_prefs"
+        android:summary="@string/acra_preferences_summary"
+        android:title="@string/acra_preferences_title">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="acra.enable"
+            android:summaryOff="@string/acra_disabled_preference_summary"
+            android:summaryOn="@string/acra_enabled_preference_summary"
+            android:title="@string/enable_acra_preference_title"/>
+
+    </PreferenceScreen>
+
+</PreferenceScreen>

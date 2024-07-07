@@ -1,0 +1,37 @@
+{
+	"id": "1430",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["b336db108de1e83de0ab03ced75cdd8de46d275c"],
+		"file_name": "bug-1430/app/src/main/java/com/easyfitness/programs/ProgramPagerFragment.java",
+		"method_name": "private void deleteProgram()",
+		"line_numbers": ["129"]
+	},
+	{
+		"commit_ids": ["b336db108de1e83de0ab03ced75cdd8de46d275c"],
+		"file_name": "bug-1430/app/src/main/java/com/easyfitness/programs/ProgramRunnerFragment.java",
+		"method_name": "private void refreshData()",
+		"line_numbers": ["277"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["3d1c7c51ace4124ec009458aaca07f0c0d3b3f3c"],
+		"file_name": "fix-1430/app/src/main/java/com/easyfitness/programs/ProgramPagerFragment.java",
+		"method_name": null,
+		"line_numbers": ["11-12"]
+	},
+	{
+		"commit_ids": ["3d1c7c51ace4124ec009458aaca07f0c0d3b3f3c"],
+		"file_name": "fix-1430/app/src/main/java/com/easyfitness/programs/ProgramPagerFragment.java",
+		"method_name": "private void deleteProgram()",
+		"line_numbers": ["133-135", "140-148"]
+	},
+	{
+		"commit_ids": ["3d1c7c51ace4124ec009458aaca07f0c0d3b3f3c"],
+		"file_name": "fix-1430/app/src/main/java/com/easyfitness/programs/ProgramRunnerFragment.java",
+		"method_name": "private void refreshData()",
+		"line_numbers": ["277"]
+	}],
+	"unit_test_changes": null
+}

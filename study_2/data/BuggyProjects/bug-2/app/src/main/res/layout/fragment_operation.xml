@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/balance_group"
+        android:scrollbars="vertical"
+        app:layoutManager="LinearLayoutManager"/>
+
+    <RelativeLayout
+        android:id="@+id/balance_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_above="@+id/balance"
+            android:background="?android:attr/dividerHorizontal"/>
+
+        <TextView
+            android:id="@+id/balance_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/balance"
+            android:layout_alignTop="@+id/balance"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginStart="@dimen/default_margin"
+            android:gravity="center_vertical"
+            android:text="@string/hint_balance"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <TextView
+            android:id="@+id/balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_toEndOf="@+id/balance_hint"
+            android:layout_toRightOf="@+id/balance_hint"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

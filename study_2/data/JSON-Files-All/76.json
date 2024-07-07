@@ -1,0 +1,55 @@
+{
+  "id": "76",
+  "confidence_level": "confident",
+  "bug_location": [
+  {
+    "commit_ids": ["bea5ce3bce36cccf5a34d833ac6d8fc2e237984d"],
+    "file_name": "bug-76/app/src/main/java/com/genonbeta/TrebleShot/adapter/FileListAdapter.java",
+    "method_name": "protected void onLoad(GroupLister<GenericFileHolder> lister)",
+    "line_numbers": ["182"]
+  },
+  {
+    "commit_ids": ["bea5ce3bce36cccf5a34d833ac6d8fc2e237984d"],
+    "file_name": "bug-76/app/src/main/java/com/genonbeta/TrebleShot/fragment/FileListFragment.java",
+    "method_name": "public void onActivityResult(int requestCode, int resultCode, Intent data)",
+    "line_numbers": ["200"]
+  },
+  {
+    "commit_ids": ["bea5ce3bce36cccf5a34d833ac6d8fc2e237984d"],
+    "file_name": "bug-76/app/src/main/java/com/genonbeta/TrebleShot/fragment/FileListFragment.java",
+    "method_name": "public void onCreateOptionsMenu(Menu menu, MenuInflater inflater)",
+    "line_numbers": ["234-235"]
+  },
+  {
+    "commit_ids": ["bea5ce3bce36cccf5a34d833ac6d8fc2e237984d"],
+    "file_name": "bug-76/app/src/main/res/layout/layout_connection_options_fragment.xml",
+    "method_name": null,
+    "line_numbers": ["11-12"]
+  }],
+  "fix_location": [
+  {
+    "commit_ids": ["433879000bcfcd367063fa91c63a6e16ec92abe1"],
+    "file_name": "fix-76/app/src/main/java/com/genonbeta/TrebleShot/adapter/FileListAdapter.java",
+    "method_name": "protected void onLoad(GroupLister<GenericFileHolder> lister)",
+    "line_numbers": ["182"]
+  },
+  {
+    "commit_ids": ["433879000bcfcd367063fa91c63a6e16ec92abe1"],
+    "file_name": "fix-76/app/src/main/java/com/genonbeta/TrebleShot/fragment/FileListFragment.java",
+    "method_name": "public void onActivityResult(int requestCode, int resultCode, Intent data)",
+    "line_numbers": ["200"]
+  },
+  {
+    "commit_ids": ["433879000bcfcd367063fa91c63a6e16ec92abe1"],
+    "file_name": "fix-76/app/src/main/java/com/genonbeta/TrebleShot/fragment/FileListFragment.java",
+    "method_name": "public void onCreateOptionsMenu(Menu menu, MenuInflater inflater)",
+    "line_numbers": ["234"]
+  },
+  {
+    "commit_ids": ["433879000bcfcd367063fa91c63a6e16ec92abe1"],
+    "file_name": "fix-76/app/src/main/res/layout/layout_connection_options_fragment.xml",
+    "method_name": null,
+    "line_numbers": ["11"]
+  }],
+  "unit_test_changes": null
+}

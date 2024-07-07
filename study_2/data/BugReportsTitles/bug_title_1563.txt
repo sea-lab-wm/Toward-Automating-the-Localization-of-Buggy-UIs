@@ -1,0 +1,1 @@
+Keep scroll position when adding files to op context/reloading current directory

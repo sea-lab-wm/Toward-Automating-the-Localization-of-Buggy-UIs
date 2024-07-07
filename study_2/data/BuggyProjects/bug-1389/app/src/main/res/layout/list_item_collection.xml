@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingStart="12dp"
+    android:paddingEnd="2dp"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/list_item_station_icon"
+        android:contentDescription="@string/descr_station_icon"
+        android:layout_width="?android:attr/listPreferredItemHeight"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:src="@drawable/ic_notesymbol" />
+
+    <TextView
+        android:id="@+id/list_item_textview"
+        android:contentDescription="@string/descr_station_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingStart="24dp"
+        android:text="@string/descr_station_name_example"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    <ImageView
+        android:id="@+id/list_item_playback_indicator"
+        android:contentDescription="@string/descr_playback_indicator_started"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_playback_indicator_small_started_24dp"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/list_item_more_button"
+        android:contentDescription="@string/descr_overflow_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_more_vert_black_24dp"
+        android:background="@android:color/transparent"
+        android:paddingStart="8dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="4dp" />
+
+</LinearLayout>

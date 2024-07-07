@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="unselected_text">#999</color>
+    <color name="ic_launcher_background">#00ffffff</color>
+
+    <color name="orange">#ff7043</color>
+    <color name="cyan">#03A9F4</color>
+    <color name="pink">#FB395C</color>
+    <color name="green">#9ccc65</color>
+    <color name="yellow">#ffca28</color>
+    <color name="purple">#ba68c8</color>
+    <color name="red">#CC3C3C</color>
+    <color name="grey">#607d8b</color>
+</resources>

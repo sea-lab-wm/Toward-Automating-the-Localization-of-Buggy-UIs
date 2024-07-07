@@ -1,0 +1,1 @@
+URL bar text sometimes cleared when pressing near url bar

@@ -1,0 +1,2 @@
+include ':app', ':photoview', ':pdk'
+include ':openCVLibrary24133'

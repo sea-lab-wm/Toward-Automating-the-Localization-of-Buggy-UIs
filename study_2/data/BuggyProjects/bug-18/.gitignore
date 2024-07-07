@@ -1,0 +1,50 @@
+# Local configuration file (sdk path, etc)
+/local.properties
+/.idea/workspace.xml
+.DS_Store
+
+# built application files
+*.apk
+*.ap_
+
+!assets/apk/*.apk
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+.idea/
+.gradle/
+build/
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
+*.iws
+*.ipr
+*.iml
+Calendula/Calendula.iml
+libraries/*.iml
+*~
+*.swp
+
+Calendula/google-services/
+Calendula/google-services.json
+
+Calendula/keystore
+
+# captures
+captures/
+
+hs_err_*.log

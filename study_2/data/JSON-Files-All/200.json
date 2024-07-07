@@ -1,0 +1,19 @@
+{
+  "id": "200",
+  "confidence_level": "confident",
+  "bug_location": [
+  {
+    "commit_ids": ["10337dac94ee9631ec560718a8d85c033681b23d"],
+    "file_name": "bug-200/iNaturalist/src/main/java/org/inaturalist/android/ObservationListActivity.java",
+    "method_name": "public View getView(int position, View convertView, ViewGroup parent)",
+    "line_numbers": null
+  }],
+  "fix_location": [
+  {
+    "commit_ids": ["f8620b0086b2eb13590834a5d25be89f6100f0b2"],
+    "file_name": "fix-200/iNaturalist/src/main/java/org/inaturalist/android/ObservationListActivity.java",
+    "method_name": "public View getView(int position, View convertView, ViewGroup parent)",
+    "line_numbers": ["719-720"]
+  }],
+  "unit_test_changes": null
+}

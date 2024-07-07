@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.inaturalist.android"
+    android:versionCode="152"
+    android:versionName="1.4.6" >
+
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <permission
+        android:name="org.inaturalist.android.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="org.inaturalist.android.permission.MAPS_RECEIVE"/>
+    
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"/>
+
+    <application
+        android:theme="@style/iNatAppTheme"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:name=".INaturalistApp" >
+        
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" /> 
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/gmaps2_api_key" />
+
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name=".TutorialActivity" >
+           	<meta-data
+	            android:name="android.support.PARENT_ACTIVITY"
+	            android:value=".ObservationListActivity" /> 
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/guides"
+            android:name=".GuideDetails" >
+           	<meta-data
+	            android:name="android.support.PARENT_ACTIVITY"
+	            android:value=".GuidesActivity" /> 
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name=".GuideTaxonActivity" >
+           	<meta-data
+	            android:name="android.support.PARENT_ACTIVITY"
+	            android:value=".GuideDetails" />
+        </activity>
+         <activity
+            android:configChanges="orientation"
+            android:windowActionBar="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:name=".UserProfile" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/projects"
+            android:windowActionBar="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:name=".ProjectDetails" >
+           	<meta-data
+	            android:name="android.support.PARENT_ACTIVITY"
+	            android:value=".ProjectsActivity" /> 
+        </activity>
+         <activity
+            android:configChanges="orientation"
+            android:label="@string/projects"
+            android:name=".ProjectsActivity">
+        </activity>
+  		<activity
+            android:configChanges="orientation"
+            android:label="@string/guides"
+            android:name=".GuidesActivity">
+        </activity>
+        
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:theme="@style/iNatAppThemeCustomActionBar"
+            android:windowSoftInputMode="adjustPan"
+            android:name=".ProjectSelectorActivity" >
+        </activity>
+ 
+         <activity
+            android:configChanges="orientation"
+            android:label="@string/add_id"
+            android:name=".IdentificationActivity" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name=".TaxonSearchActivity" >
+        </activity>
+
+        <activity
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing"
+            android:name=".LoginSignupActivity" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:name=".ObservationViewerActivity" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:name=".OnboardingActivity" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name=".ObservationListActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:theme="@style/iNatAppThemeCustomActionBar"
+            android:name=".ObservationEditor" >
+           	<meta-data
+	            android:name="android.support.PARENT_ACTIVITY"
+	            android:value=".ObservationListActivity" /> 
+            <intent-filter >
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.EDIT" />
+                <action android:name="android.intent.action.INSERT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.google.observation" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.google.observation" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.google.observation_photo" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.google.observation_photo" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.google.inatproject" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.google.inatproject" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.google.projectobservation" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.google.projectobservation" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/settings"
+            android:name=".INaturalistPrefsActivity" >
+        </activity>
+        <!--
+        <activity android:name="com.facebook.LoginActivity"
+          android:theme="@android:style/Theme.Translucent.NoTitleBar"
+          android:label="@string/app_name" />-->
+
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/app_name" />
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/map"
+            android:name=".INaturalistMapActivity" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/choose_location"
+            android:name=".LocationChooserActivity" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/activity"
+            android:name=".WebActivity" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:name=".ObservationDetails" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:name=".ObservationPhotosViewer" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:name=".TaxonTagPhotosViewer" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:name=".LocationDetailsActivity" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:name=".ObservationProjectsViewer" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:name=".ProjectDetailsAbout" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:name=".ProjectNews" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:name=".NewsArticle" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:name=".ProfilePhotoViewer" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:name=".ItemSearchActivity" >
+        </activity>
+
+        <provider
+            android:authorities="org.inaturalist.android.observation;org.inaturalist.android.observation_photo;org.inaturalist.android.project;org.inaturalist.android.project_observation;org.inaturalist.android.project_field;org.inaturalist.android.project_field_value"
+            android:name=".ObservationProvider" >
+        </provider>
+
+        <service android:name=".INaturalistService" />
+        <meta-data android:name="com.crashlytics.ApiKey" android:value="7baaee0ca8a376b3d129b908c1e03be6ecbe5786"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,50 @@
+{
+	"id": "106",
+	"confidence_level": "confident",
+	"bug_location": [
+    {
+		"commit_ids": ["b18e0559b9fdd8eabd8504eaa4927708e7b80216"],
+		"file_name": "bug-106/app/src/main/java/com/poupa/vinylmusicplayer/loader/SongLoader.java",
+		"method_name": "private static ArrayList<String> addBlacklistSelectionValues(String[] selectionValues, @NonNull final List<String> paths)",
+		"line_numbers": ["197", "199", "202"]
+	},
+    {
+		"commit_ids": ["b18e0559b9fdd8eabd8504eaa4927708e7b80216"],
+		"file_name": "bug-106/app/src/main/java/com/poupa/vinylmusicplayer/util/FileUtil.java",
+		"method_name": "public static SortedCursor makeSongCursor(@NonNull final Context context, @Nullable final List<File> files)",
+		"line_numbers": ["42", "47-48"]
+	},
+    
+    {
+		"commit_ids": ["b18e0559b9fdd8eabd8504eaa4927708e7b80216"],
+		"file_name": "bug-106/app/src/main/java/com/poupa/vinylmusicplayer/util/FileUtil.java",
+		"method_name": "private static ArrayList<String> toPathArray(@Nullable List<File> files)",
+		"line_numbers": ["52-57"]
+	}],
+	"fix_location": [
+    {
+		"commit_ids": ["7491913469e6afabf987f9c4029b0a0a95f43b1f"],
+		"file_name": "fix-106/app/src/main/java/com/poupa/vinylmusicplayer/loader/SongLoader.java",
+		"method_name": "private static ArrayList<String> addBlacklistSelectionValues(String[] selectionValues, @NonNull final List<String> paths)",
+		"line_numbers": ["200" , "202", "205"]
+	},
+    {
+		"commit_ids": ["7491913469e6afabf987f9c4029b0a0a95f43b1f"],
+		"file_name": "fix-106/app/src/main/java/com/poupa/vinylmusicplayer/util/FileUtil.java",
+		"method_name": "public static SortedCursor makeSongCursor(@NonNull final Context context, @Nullable final List<File> files)",
+		"line_numbers": ["42-43", "48-50", "53", "55-56"]
+	},
+    {
+		"commit_ids": ["7491913469e6afabf987f9c4029b0a0a95f43b1f"],
+		"file_name": "fix-106/app/src/main/java/com/poupa/vinylmusicplayer/util/FileUtil.java",
+		"method_name": "private static String makePlaceholders(int len)",
+		"line_numbers": ["58-64"]
+	},
+    {
+		"commit_ids": ["7491913469e6afabf987f9c4029b0a0a95f43b1f"],
+		"file_name": "fix-106/app/src/main/java/com/poupa/vinylmusicplayer/util/FileUtil.java",
+		"method_name": "private static String[] toPathArray(@Nullable List<File> files)",
+		"line_numbers": ["68-76"]
+	}],
+	"unit_test_changes": null
+}

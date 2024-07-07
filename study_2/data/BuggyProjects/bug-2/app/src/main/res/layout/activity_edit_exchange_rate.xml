@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="io.github.zwieback.familyfinance.util.DateUtils"/>
+
+        <import type="io.github.zwieback.familyfinance.util.NumberUtils"/>
+
+        <variable
+            name="exchangeRate"
+            type="io.github.zwieback.familyfinance.core.model.IExchangeRate"/>
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar"
+            android:orientation="vertical"
+            android:padding="@dimen/entity_edit_padding">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.mikepenz.iconics.view.IconicsImageView
+                    android:id="@+id/icon"
+                    android:layout_width="@dimen/entity_edit_icon_size"
+                    android:layout_height="@dimen/entity_edit_icon_size"
+                    app:ico_size="@dimen/entity_edit_icon_size"
+                    app:iiv_icon="cmd_cash"/>
+
+                <com.johnpetitto.validator.ValidatingTextInputLayout
+                    android:id="@+id/currency_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/entity_edit_margin"
+                    android:layout_marginStart="@dimen/entity_edit_margin"
+                    android:hint="@string/hint_currency"
+                    app:errorEnabled="true"
+                    app:errorLabel="@string/currency_is_not_set_error"
+                    app:errorTextAppearance="@style/AppTheme.ErrorTextAppearance"
+                    app:validateAfterTextChanged="true"
+                    app:validator="not_empty">
+
+                    <io.github.zwieback.familyfinance.widget.ClearableEditText
+                        android:id="@+id/currency"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@{exchangeRate.currency.name}"
+                        app:readOnly="@{true}"
+                        style="@style/AppTheme.EditText.Clearable"/>
+
+                </com.johnpetitto.validator.ValidatingTextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/entity_edit_margin"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="@integer/full_weight">
+
+                <com.johnpetitto.validator.ValidatingTextInputLayout
+                    android:id="@+id/value_layout"
+                    android:layout_width="@dimen/zero_weight"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/half_of_weight"
+                    android:hint="@string/hint_exchange_rate"
+                    app:errorEnabled="true"
+                    app:errorLabel="@string/value_error"
+                    app:errorTextAppearance="@style/AppTheme.ErrorTextAppearance"
+                    app:validateAfterTextChanged="true"
+                    app:validator="big_decimal">
+
+                    <io.github.zwieback.familyfinance.widget.DecimalNumberTextEdit
+                        android:id="@+id/value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@{NumberUtils.bigDecimalToString(exchangeRate.value)}"/>
+
+                </com.johnpetitto.validator.ValidatingTextInputLayout>
+
+                <com.johnpetitto.validator.ValidatingTextInputLayout
+                    android:id="@+id/date_layout"
+                    android:layout_width="@dimen/zero_weight"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/half_of_weight"
+                    android:hint="@string/hint_date"
+                    app:errorEnabled="true"
+                    app:errorLabel="@string/date_error"
+                    app:errorTextAppearance="@style/AppTheme.ErrorTextAppearance"
+                    app:validateAfterTextChanged="true"
+                    app:validator="date">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="date"
+                        android:text="@{DateUtils.localDateToString(exchangeRate.date)}"
+                        app:readOnly="@{true}"/>
+
+                </com.johnpetitto.validator.ValidatingTextInputLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>

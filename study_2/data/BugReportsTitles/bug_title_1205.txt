@@ -1,0 +1,1 @@
+Back button leads to Home Fragment when orange file selector is still open

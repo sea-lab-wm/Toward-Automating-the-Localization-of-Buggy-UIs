@@ -1,0 +1,19 @@
+{
+	"id": "21",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["394ccfc0c04223a263411e8af4487458e848d319"],
+		"file_name": "bug-21/android-timetracker/app/src/main/res/values/styles.xml",
+		"method_name": null,
+		"line_numbers": ["3"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["efc9c7e43ab23dc0c40d1b1c20595d5841a644e0"],
+		"file_name": "fix-21/android-timetracker/app/src/main/res/values/styles.xml",
+		"method_name": null,
+		"line_numbers": ["3-8"]
+	}],
+	"unit_test_changes": null
+}

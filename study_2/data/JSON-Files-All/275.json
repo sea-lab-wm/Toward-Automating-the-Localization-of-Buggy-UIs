@@ -1,0 +1,33 @@
+{
+    "id": "275",
+    "confidence_level": "confident",
+    "bug_location": [
+        {
+            "commit_ids": [
+                "dbedc9d1d3e32ad23e81fff8ba79e261f03f922d"
+            ],
+            "file_name": "bug-275/app/src/main/java/com/beemdevelopment/aegis/ui/Dialogs.java"
+        },
+        {
+            "commit_ids": [
+                "dbedc9d1d3e32ad23e81fff8ba79e261f03f922d"
+            ],
+            "file_name": "bug-275/app/src/main/java/com/beemdevelopment/aegis/ui/slides/CustomAuthenticatedSlide.java"
+        }
+    ],
+    "fix_location": [
+        {
+            "commit_ids": [
+                "3d51b841886f635aa7718fd32c5447a5c09bf24f"
+            ],
+            "file_name": "bug-275/app/src/main/java/com/beemdevelopment/aegis/ui/Dialogs.java"
+        },
+        {
+            "commit_ids": [
+                "3d51b841886f635aa7718fd32c5447a5c09bf24f"
+            ],
+            "file_name": "bug-275/app/src/main/java/com/beemdevelopment/aegis/ui/slides/CustomAuthenticatedSlide.java"
+        }
+    ],
+    "unit_test_changes": null
+}

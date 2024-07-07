@@ -1,0 +1,21 @@
+{
+    "id": "1403",
+    "confidence_level": "confident",
+    "bug_location": [
+        {
+            "commit_ids": [
+                "4f032f1305d2040c070c857a940240c0ad1bf9d3"
+            ],
+            "file_name": "bug-1403/app/src/main/java/org/fossasia/phimpme/editor/FileUtils.java"
+        }
+    ],
+    "fix_location": [
+        {
+            "commit_ids": [
+                "2e8bc95debeab3d9737da540e60710b98d920747"
+            ],
+            "file_name": "bug-1403/app/src/main/java/org/fossasia/phimpme/editor/FileUtils.java"
+        }
+    ],
+    "unit_test_changes": null
+}

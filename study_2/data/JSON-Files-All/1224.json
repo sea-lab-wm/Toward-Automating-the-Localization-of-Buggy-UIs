@@ -1,0 +1,19 @@
+{
+	"id": "1224",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["d1c31033366ae7044e4b115b9ac021060660ef18"],
+		"file_name": "bug-1224/app/src/main/java/org/gnucash/android/ui/account/AccountFormFragment.java",
+		"method_name": "private void initializeViewsWithAccount(Account account)",
+		"line_numbers": [""]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["6d7ce0a4b146e11981e59cedeb69b1f51517c351"],
+		"file_name": "fix-1224/app/src/main/java/org/gnucash/android/ui/account/AccountFormFragment.java",
+		"method_name": "private void initializeViewsWithAccount(Account account)",
+		"line_numbers": ["411"]
+	}],
+	"unit_test_changes": null
+}

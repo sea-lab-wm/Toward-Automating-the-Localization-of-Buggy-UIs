@@ -1,0 +1,45 @@
+Those are the taglines shown above the screenshots in the playstore. Keep them short and attractive.
+Don't change the filename.
+---
+scan_en.png
+Сканирование продуктов
+
+quickview_en.png
+Получить Nutriscore
+
+history_en.png
+Полная история сканирования, полностью приватная и экспортируемая
+
+product_view_wikipedia_en.png
+Go further with Wikipedia
+
+allergen_alert_en.png
+Установите оповещения о аллергенах
+
+home_en.png
+product_view_nutrition_summary_en.png
+Питательность, кратко
+
+product_view_allergen_alert_en.png
+Предупреждение об аллергенах
+
+categories_en.png
+Найдите альтернативу для ваших любимых блюд
+
+foodtransparency_en.png
+Станьте участником пищевой прозрачности
+
+product_view_summary_en.png
+Википедия для продуктов питания
+Википедия для косметики
+Википедия для кормов для домашних животных
+Википедия для продуктов
+
+product_view_ingredients_en.png
+Ингредиенты
+
+menu_en.png
+Мощное
+
+product_view_nutrition_table_en.png
+Пищевая и энергетическая ценность

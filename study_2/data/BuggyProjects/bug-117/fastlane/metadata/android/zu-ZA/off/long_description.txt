@@ -1,0 +1,35 @@
+Skena imikhiqizo yokudla noma ibhakhodi yabo ukuthola idatha kumazitha, izithasiselo namaqiniso okudla.
+
+Uhlelo lokusebenza luvumela ukubuka imikhiqizo engu-547.000 (kufaka phakathi i-175.000 e-US) esivele iqukethe i-database evulekile nevulekile ye-Open Food Facts, futhi futhi ukwengeza izithombe nedatha yemikhiqizo elahlekile.
+
+Ukuze uthole iphrojekthi ye-Open Food Facts, sicela uvakashele ku-https: //openfoodfacts.org
+
+
+*** Nika isandla ekudleni kokuphawula ***
+
+- I-Open Food Facts iyinhlangano yemininingwane yokudla eyenziwe yilowo nalowo, wonke umuntu.
+- Ungayisebenzisa ukwenza ukukhetha okungcono kokudla, futhi njengoba kuvuliwe idatha, noma ubani angayisebenzisa kabusha nganoma iyiphi injongo.
+- I-Open Food Facts yinqubo engeyona inzuzo eyenziwe yizinkulungwane zamavolontiya avela emhlabeni jikelele. Sinezinhlelo eziningi ezithakazelisayo ongazifaka ngezindlela eziningi ezahlukene. 
+- Ungaqala ukufaka isandla namhlanje ngokufaka umkhiqizo kusuka ebhodini lakho lokudla. 
+
+*** Thola amaqiniso ***
+- I-Open Food Facts ikusiza ukuba wenze umqondo wokuphrinta okuhle kumalebula womkhiqizo. Uzokwazi ukuthola (ngokusho izinkomba ezikhona emikhiqizo):
+- isikhuthazo se-carbon (ukukhishwa kwe-CO2) nokupakisha (kanye nemiyalelo yokuvuselela),
+- I-Nutriscore (amaphuzu okunomsoco), izakhi, amanothi / amanoni, amafutha amaningi agcwele, ama-carbohydrate, ushukela, i-fibre, amaprotheni nosawoti kanye ne-sodium.
+- ama-brand, ama-allergen, amalebula (i-bio, i-gluten yamahhala, i-vegan, i-vegetarian, i-halal, i-kosher ...), ulwazi lwe-traceability (amakhodi wokupakisha, umsuka wezithako)
+- Ngewayini newayini, uzothola okuqukethwe kotshwala.
+
+*** Isebenza kahle nganoma yisiphi isimo ***
+- Ungangeza imikhiqizo emisha, noma ngabe awunawo uxhumano lwe-inthanethi okwamanje.
+- Uhlelo lokusebenza luthwala kuphela okudingekayo okunciphisa ukunciphisa idatha kanye nokusetshenziswa kwebhethri
+- Awudingi ikhamera ukuze ubuke umkhiqizo. Ungaphinda uthayiphe ibhakhodi uma ungenayo ikhamera noma unenkinga nayo.
+
+*** Ukudla kwakho, idatha yakho ***
+- Idatha yakho ingeyakho, futhi ayithunyelwanga ku-intanethi
+- Ungasebenzisa uhlelo lokusebenza ngokungaziwa
+- Ungathumela umlando wakho wokuskena
+
+I-Open Food Facts iyatholakala futhi kuwebhu ku-https: //world.openfoodfacts.org
+Imibuzo, impendulo: contact@openfoodfacts.org
+
+Ukuze uthole izimonyo, ungafaka ama-Open Beauty Facts, ukuze uthole ukudla kwezilwane, amaqiniso avulekile wokudla okufakiwe, kanye nayo yonke eminye imikhiqizo, i-Open Products Facts.

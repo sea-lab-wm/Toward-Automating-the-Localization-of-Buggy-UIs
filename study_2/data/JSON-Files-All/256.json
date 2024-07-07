@@ -1,0 +1,25 @@
+{
+	"id": "256",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["5a644f09aae5f7017369e69720486910082da11a"],
+		"file_name": "bug-256/app/src/main/java/org/gnucash/android/ui/account/AccountsListFragment.java",
+		"method_name": "public void tryDeleteAccount(long rowId)",
+		"line_numbers": ["250"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["3c32e271c6dfe0408db39a244e8048b506b1cb07"],
+		"file_name": "fix-256/app/src/main/java/org/gnucash/android/db/MigrationHelper.java",
+		"method_names": "static int upgradeDbToVersion14(SQLiteDatabase db)",
+		"line_numbers": ["1478-1510"]
+	},
+	{
+		"commit_ids": ["95430062b14e072aea2dde986e82e11da70e1c1b"],
+		"file_name": "fix-256/app/src/main/java/org/gnucash/android/ui/account/AccountsListFragment.java",
+		"method_names": "public void tryDeleteAccount(long rowId)",
+		"line_numbers": ["250-252"]
+	}],
+	"unit_test_changes": null
+}

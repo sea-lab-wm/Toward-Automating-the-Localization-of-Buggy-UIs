@@ -1,0 +1,61 @@
+{
+	"id": "1147",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["d224de55d03f7049073ef34794b4abe8ca51a256"],
+		"file_name": "bug-1147/GPSTest/src/main/java/com/android/gpstest/NavigationDrawerFragment.java",
+		"method_name": "private View makeNavDrawerItem(final int itemId, ViewGroup container)",
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["d224de55d03f7049073ef34794b4abe8ca51a256"],
+		"file_name": "bug-1147/GPSTest/src/main/res/layout/navdrawer_item.xml",
+		"method_name": null,
+		"line_numbers": ["19"]
+	},
+	{
+		"commit_ids": ["d224de55d03f7049073ef34794b4abe8ca51a256"],
+		"file_name": "bug-1147/GPSTest/src/main/res/values/colors.xml",
+		"method_name": null,
+		"line_numbers": ["36"]
+	},
+	{
+		"commit_ids": ["d224de55d03f7049073ef34794b4abe8ca51a256"],
+		"file_name": "bug-1147/GPSTest/src/main/res/values/styles.xml",
+		"method_name": null,
+		"line_numbers": ["51-52"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["eb6668c164f80cc5074172ea368b809e8d12bfa0"],
+		"file_name": "fix-1147/GPSTest/src/main/java/com/android/gpstest/NavigationDrawerFragment.java",
+		"method_name": "private View makeNavDrawerItem(final int itemId, ViewGroup container)",
+		"line_numbers": ["446-450"]
+	},
+	{
+		"commit_ids": ["eb6668c164f80cc5074172ea368b809e8d12bfa0"],
+		"file_name": "fix-1147/GPSTest/src/main/res/drawable/navdrawer_item_selectable_dark.xml",
+		"method_name": null,
+		"line_numbers": []
+	},
+	{
+		"commit_ids": ["eb6668c164f80cc5074172ea368b809e8d12bfa0"],
+		"file_name": "fix-1147/GPSTest/src/main/res/layout/navdrawer_item.xml",
+		"method_name": null,
+		"line_numbers": ["19"]
+	},
+	{
+		"commit_ids": ["eb6668c164f80cc5074172ea368b809e8d12bfa0"],
+		"file_name": "fix-1147/GPSTest/src/main/res/values/colors.xml",
+		"method_name": null,
+		"line_numbers": ["36"]
+	},
+	{
+		"commit_ids": ["eb6668c164f80cc5074172ea368b809e8d12bfa0"],
+		"file_name": "fix-1147/GPSTest/src/main/res/values/styles.xml",
+		"method_name": null,
+		"line_numbers": ["51-52", "56"]
+	}],
+	"unit_test_changes": null
+}

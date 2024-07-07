@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IconicsEditText">
+        <attr name="ico_icon" format="string"/>
+        <attr name="ico_color" format="color|reference"/>
+        <attr name="ico_size" format="dimension|reference"/>
+    </declare-styleable>
+
+    <!-- The Calculator dialog theme -->
+    <attr name="calculatorDialogTheme" format="reference" />
+</resources>

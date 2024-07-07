@@ -1,0 +1,45 @@
+{
+    "id": "56",
+    "confidence_level": "confident",
+    "bug_location": [
+        {
+            "commit_ids": [
+                "68912f28ed6408d65198fecbb80e16e75d1c3532"
+            ],
+            "file_name": "bug-56/app/src/main/java/com/fieldbook/tracker/traits/LabelPrintTraitLayout.java"
+        },
+        {
+            "commit_ids": [
+                "68912f28ed6408d65198fecbb80e16e75d1c3532"
+            ],
+            "file_name": "bug-56/app/src/main/res/layout/trait_labelprint.xml"
+        },
+        {
+            "commit_ids": [
+                "68912f28ed6408d65198fecbb80e16e75d1c3532"
+            ],
+            "file_name": "bug-56/app/src/main/res/values/strings.xml"
+        }
+    ],
+    "fix_location": [
+        {
+            "commit_ids": [
+                "3b1c2d330310352ae88d95ae5f8552ab68437dec"
+            ],
+            "file_name": "bug-56/app/src/main/java/com/fieldbook/tracker/traits/LabelPrintTraitLayout.java"
+        },
+        {
+            "commit_ids": [
+                "3b1c2d330310352ae88d95ae5f8552ab68437dec"
+            ],
+            "file_name": "bug-56/app/src/main/res/layout/trait_labelprint.xml"
+        },
+        {
+            "commit_ids": [
+                "3b1c2d330310352ae88d95ae5f8552ab68437dec"
+            ],
+            "file_name": "bug-56/app/src/main/res/values/strings.xml"
+        }
+    ],
+    "unit_test_changes": null
+}

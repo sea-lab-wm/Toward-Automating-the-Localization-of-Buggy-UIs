@@ -1,0 +1,21 @@
+buildscript {
+	repositories{
+		maven { url 'https://maven.fabric.io/public' }
+		jcenter()
+	}
+	dependencies {
+		classpath 'com.android.tools.build:gradle:2.1.2'
+		classpath 'io.fabric.tools:gradle:1.21.2'
+	}
+}
+
+allprojects {
+    repositories {
+		maven { url "http://dl.bintray.com/populov/maven" }
+		maven { url 'https://maven.fabric.io/public' }
+        maven { url "https://jitpack.io" }
+		maven { url "http://JRAF.org/static/maven/2" }
+        jcenter()
+        mavenCentral()
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "110",
+  "confidence_level": "confident",
+  "bug_location": [
+  {
+    "commit_ids": ["9971a70093f6b0c2c325ae5afda91c30fe96e54f"],
+    "file_name": "bug-110/app/src/main/java/com/poupa/vinylmusicplayer/provider/Discography.java",
+    "method_name": "private String getArtistName(Tag tags)",
+    "line_numbers": ["205"]
+  }],
+
+  "fix_location": [
+  {
+    "commit_ids": ["8a27c4b5b7046cd9595d967760651eb6bb10986d"],
+    "file_name": "fix-110/app/src/main/java/com/poupa/vinylmusicplayer/provider/Discography.java",
+    "method_name": "private String getArtistName(Tag tags)",
+    "line_numbers": ["205"]
+  }],
+  "unit_test_changes": null
+}

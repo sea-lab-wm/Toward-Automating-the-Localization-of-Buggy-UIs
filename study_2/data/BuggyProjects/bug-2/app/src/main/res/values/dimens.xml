@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Entity Item -->
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="divider_margin_top">6dp</dimen>
+
+    <dimen name="layout_padding">10dp</dimen>
+    <dimen name="layout_padding_top">6dp</dimen>
+
+    <dimen name="default_margin">8dp</dimen>
+    <dimen name="half_of_default_margin">4dp</dimen>
+
+    <dimen name="operation_icon_size">16dp</dimen>
+    <dimen name="operation_article_width">200dp</dimen>
+    <dimen name="operation_value_width">100dp</dimen>
+    <dimen name="operation_currency_width">56dp</dimen>
+    <dimen name="operation_first_line_text_size">14sp</dimen>
+    <dimen name="operation_second_line_text_size">10sp</dimen>
+
+    <dimen name="operation_fragment_balance_height">40dp</dimen>
+    <dimen name="operation_fragment_balance_text_size">16sp</dimen>
+
+    <dimen name="account_icon_size">48dp</dimen>
+    <dimen name="account_balance_width">140dp</dimen>
+    <dimen name="account_currency_width">56dp</dimen>
+    <dimen name="account_text_size">20sp</dimen>
+
+    <dimen name="article_icon_size">24dp</dimen>
+    <dimen name="article_text_size">20sp</dimen>
+
+    <dimen name="currency_icon_size">16dp</dimen>
+    <dimen name="currency_name_width">80dp</dimen>
+    <dimen name="currency_text_size">16sp</dimen>
+
+    <dimen name="template_icon_size">16dp</dimen>
+    <dimen name="template_text_size">16sp</dimen>
+
+    <dimen name="sms_icon_size">16dp</dimen>
+    <dimen name="sms_text_size">16sp</dimen>
+
+    <dimen name="exchange_rate_icon_size">16dp</dimen>
+    <dimen name="exchange_rate_name_width">80dp</dimen>
+    <dimen name="exchange_rate_date_width">86dp</dimen>
+    <dimen name="exchange_rate_text_size">16sp</dimen>
+
+    <dimen name="person_icon_size">48dp</dimen>
+    <dimen name="person_text_size">20sp</dimen>
+
+    <!-- Entity Edit -->
+    <dimen name="entity_edit_padding">12dp</dimen>
+    <dimen name="entity_edit_margin">16dp</dimen>
+    <dimen name="entity_edit_icon_size">96dp</dimen>
+
+    <dimen name="hint_text_vertical_spacing">8dp</dimen>
+    <dimen name="hint_text_horizontal_spacing">4dp</dimen>
+
+    <!-- Button -->
+    <dimen name="button_icon_size">16dp</dimen>
+    <dimen name="dashboard_add_button_width">56dp</dimen>
+
+    <!-- Weight -->
+    <dimen name="zero_weight">0dp</dimen>
+
+    <!-- Menu -->
+    <dimen name="toolbar_icon_size">16dp</dimen>
+    <dimen name="operation_popup_icon_size">16dp</dimen>
+
+    <!-- Iconics Row -->
+    <dimen name="iconics_card_margin">5dp</dimen>
+
+    <dimen name="iconics_name_height">48dp</dimen>
+    <dimen name="iconics_name_padding_start">56dp</dimen>
+    <dimen name="iconics_name_padding_end">8dp</dimen>
+    <dimen name="iconics_name_text_size">14sp</dimen>
+
+    <dimen name="iconics_icon_size">48dp</dimen>
+    <dimen name="iconics_icon_padding">8dp</dimen>
+
+    <!-- Iconics Popup -->
+    <dimen name="popup_icon_size">64dp</dimen>
+    <dimen name="popup_icon_padding">8dp</dimen>
+    <dimen name="popup_icon_rounded_corners">12dp</dimen>
+
+    <!-- Charts -->
+    <dimen name="marker_margin_side">5dp</dimen>
+    <dimen name="marker_margin_top">7dp</dimen>
+    <dimen name="marker_text_size">12sp</dimen>
+    <!-- Bar Chart -->
+    <dimen name="bar_marker_height">40dp</dimen>
+    <dimen name="x_axis_y_offset">4dp</dimen>
+    <dimen name="bar_value_text_size">6sp</dimen>
+    <!-- Pie Chart -->
+    <dimen name="pie_marker_height">70dp</dimen>
+    <dimen name="pie_value_text_size">6sp</dimen>
+
+    <!-- Preference -->
+    <dimen name="preference_icon_size">24dp</dimen>
+</resources>

@@ -1,0 +1,179 @@
+{
+    "id": "11",
+    "confidence_level": "confident",
+    "bug_location":
+    [
+        {
+            "commit_ids":
+            [
+                "d3ab226c2d0e67b597a4d2cde1d652ceff6c1f52"
+            ],
+            "file_name": "bug-11/app/src/main/AndroidManifest.xml"
+        },
+        {
+            "commit_ids":
+            [
+                "d3ab226c2d0e67b597a4d2cde1d652ceff6c1f52"
+            ],
+            "file_name": "bug-11/app/src/main/java/com/droidheat/musicplayer/HomeFragment.java"
+        },
+        {
+            "commit_ids":
+            [
+                "d3ab226c2d0e67b597a4d2cde1d652ceff6c1f52"
+            ],
+            "file_name": "bug-11/app/src/main/java/com/droidheat/musicplayer/MusicDockFragment.java"
+        },
+        {
+            "commit_ids":
+            [
+                "d3ab226c2d0e67b597a4d2cde1d652ceff6c1f52"
+            ],
+            "file_name": "bug-11/app/src/main/java/com/droidheat/musicplayer/MusicPlayback.java"
+        },
+        {
+            "commit_ids":
+            [
+                "d3ab226c2d0e67b597a4d2cde1d652ceff6c1f52"
+            ],
+            "file_name": "bug-11/app/src/main/java/com/droidheat/musicplayer/NoadPlayer.java"
+        },
+        {
+            "commit_ids":
+            [
+                "d3ab226c2d0e67b597a4d2cde1d652ceff6c1f52"
+            ],
+            "file_name": "bug-11/app/src/main/java/com/droidheat/musicplayer/PlayActivity.java"
+        },
+        {
+            "commit_ids":
+            [
+                "d3ab226c2d0e67b597a4d2cde1d652ceff6c1f52"
+            ],
+            "file_name": "bug-11/app/src/main/java/com/droidheat/musicplayer/QueueFragment.java"
+        },
+        {
+            "commit_ids":
+            [
+                "d3ab226c2d0e67b597a4d2cde1d652ceff6c1f52"
+            ],
+            "file_name": "bug-11/app/src/main/java/com/droidheat/musicplayer/SongsManager.java"
+        },
+        {
+            "commit_ids":
+            [
+                "d3ab226c2d0e67b597a4d2cde1d652ceff6c1f52"
+            ],
+            "file_name": "bug-11/app/src/main/java/com/droidheat/musicplayer/SplashActivity.java"
+        },
+        {
+            "commit_ids":
+            [
+                "d3ab226c2d0e67b597a4d2cde1d652ceff6c1f52"
+            ],
+            "file_name": "bug-11/app/src/main/res/layout-sw600dp/fragment_music_dock.xml"
+        },
+        {
+            "commit_ids":
+            [
+                "d3ab226c2d0e67b597a4d2cde1d652ceff6c1f52"
+            ],
+            "file_name": "bug-11/app/src/main/res/layout/activity_home.xml"
+        },
+        {
+            "commit_ids":
+            [
+                "d3ab226c2d0e67b597a4d2cde1d652ceff6c1f52"
+            ],
+            "file_name": "bug-11/app/src/main/res/layout/fragment_music_dock.xml"
+        }
+    ],
+    "fix_location":
+    [
+        {
+            "commit_ids":
+            [
+                "2f8eba42bf765d450b9ddbf903a03d8ad9256002"
+            ],
+            "file_name": "bug-11/app/src/main/AndroidManifest.xml"
+        },
+        {
+            "commit_ids":
+            [
+                "2f8eba42bf765d450b9ddbf903a03d8ad9256002"
+            ],
+            "file_name": "bug-11/app/src/main/java/com/droidheat/musicplayer/HomeFragment.java"
+        },
+        {
+            "commit_ids":
+            [
+                "2f8eba42bf765d450b9ddbf903a03d8ad9256002"
+            ],
+            "file_name": "bug-11/app/src/main/java/com/droidheat/musicplayer/MusicDockFragment.java"
+        },
+        {
+            "commit_ids":
+            [
+                "2f8eba42bf765d450b9ddbf903a03d8ad9256002"
+            ],
+            "file_name": "bug-11/app/src/main/java/com/droidheat/musicplayer/MusicPlayback.java"
+        },
+        {
+            "commit_ids":
+            [
+                "2f8eba42bf765d450b9ddbf903a03d8ad9256002"
+            ],
+            "file_name": "bug-11/app/src/main/java/com/droidheat/musicplayer/NoadPlayer.java"
+        },
+        {
+            "commit_ids":
+            [
+                "2f8eba42bf765d450b9ddbf903a03d8ad9256002"
+            ],
+            "file_name": "bug-11/app/src/main/java/com/droidheat/musicplayer/PlayActivity.java"
+        },
+        {
+            "commit_ids":
+            [
+                "2f8eba42bf765d450b9ddbf903a03d8ad9256002"
+            ],
+            "file_name": "bug-11/app/src/main/java/com/droidheat/musicplayer/QueueFragment.java"
+        },
+        {
+            "commit_ids":
+            [
+                "2f8eba42bf765d450b9ddbf903a03d8ad9256002"
+            ],
+            "file_name": "bug-11/app/src/main/java/com/droidheat/musicplayer/SongsManager.java"
+        },
+        {
+            "commit_ids":
+            [
+                "2f8eba42bf765d450b9ddbf903a03d8ad9256002"
+            ],
+            "file_name": "bug-11/app/src/main/java/com/droidheat/musicplayer/SplashActivity.java"
+        },
+        {
+            "commit_ids":
+            [
+                "2f8eba42bf765d450b9ddbf903a03d8ad9256002"
+            ],
+            "file_name": "bug-11/app/src/main/res/layout-sw600dp/fragment_music_dock.xml"
+        },
+        {
+            "commit_ids":
+            [
+                "2f8eba42bf765d450b9ddbf903a03d8ad9256002"
+            ],
+            "file_name": "bug-11/app/src/main/res/layout/activity_home.xml"
+        },
+        {
+            "commit_ids":
+            [
+                "2f8eba42bf765d450b9ddbf903a03d8ad9256002"
+            ],
+            "file_name": "bug-11/app/src/main/res/layout/fragment_music_dock.xml"
+        }
+    ],
+    "unit_test_changes": null
+}

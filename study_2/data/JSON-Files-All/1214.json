@@ -1,0 +1,43 @@
+{
+	"id": "1214",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["30b0b5747e728b9515ac36ca9c471c824854aaf1"],
+		"file_name": "bug-1214/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java",
+		"method_name": "public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)",
+		"line_numbers": ["374-375", "395-396"]
+	},
+	{
+		"commit_ids": ["30b0b5747e728b9515ac36ca9c471c824854aaf1"],
+		"file_name": "bug-1214/app/src/main/res/layout/component_intro_authentication.xml",
+		"method_name": null,
+		"line_numbers": ["67"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["4ba0d7b0579c8a7324a88fc9fb852cc546ead0ac"],
+		"file_name": "fix-1214/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java",
+		"method_name": "public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)",
+		"line_numbers": ["366", "386"]
+	},
+	{
+		"commit_ids": ["4ba0d7b0579c8a7324a88fc9fb852cc546ead0ac"],
+		"file_name": "fix-1214/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java",
+		"method_name": "private void setPasswordTransformationMethod()",
+		"line_numbers": ["411-425"]
+	},
+	{
+		"commit_ids": ["4ba0d7b0579c8a7324a88fc9fb852cc546ead0ac"],
+		"file_name": "fix-1214/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java",
+		"method_name": "private void dispatchPasswordVisibilityChange(EditText editText, boolean wasShowingPassword)",
+		"line_numbers": ["427-437"]
+	},
+	{
+		"commit_ids": ["4ba0d7b0579c8a7324a88fc9fb852cc546ead0ac"],
+		"file_name": "fix-1214/app/src/main/res/layout/component_intro_authentication.xml",
+		"method_name": null,
+		"line_numbers": ["67"]
+	}],
+	"unit_test_changes": null
+}

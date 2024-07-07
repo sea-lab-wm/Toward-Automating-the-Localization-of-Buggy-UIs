@@ -1,0 +1,37 @@
+{
+	"id": "53",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["73c73f21ffecbdec2d35bae8e0472980572af8e5"],
+		"file_name": "bug-53/app/src/main/java/net/gsantner/markor/ui/NewFileDialog.java",
+		"method_name": "private AlertDialog.Builder makeDialog(final File basedir, LayoutInflater inflater)",
+		"line_numbers": null
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["fdbb78056f9a80f1623bf17a2942c741f3ba6f07"],
+		"file_name": "fix-53/app/src/main/java/net/gsantner/markor/ui/NewFileDialog.java",
+		"method_name": "private AlertDialog.Builder makeDialog(final File basedir, LayoutInflater inflater)",
+		"line_numbers": ["118", "120"]
+	},
+	{
+		"commit_ids": ["fdbb78056f9a80f1623bf17a2942c741f3ba6f07"],
+		"file_name": "fix-53/app/src/main/java/net/gsantner/markor/util/AppSettings.java",
+		"method_name": "public int getNewFileDialogLastUsedType()",
+		"line_numbers": ["718-720"]
+	},
+	{
+		"commit_ids": ["fdbb78056f9a80f1623bf17a2942c741f3ba6f07"],
+		"file_name": "fix-53/app/src/main/java/net/gsantner/markor/util/AppSettings.java",
+		"method_name": "public void setNewFileDialogLastUsedType(int i)",
+		"line_numbers": ["722-724"]
+	},
+	{
+		"commit_ids": ["fdbb78056f9a80f1623bf17a2942c741f3ba6f07"],
+		"file_name": "fix-53/app/src/main/res/values/string-not_translatable.xml",
+		"method_name": null,
+		"line_numbers": ["301"]
+	}],
+	"unit_test_changes": null
+}

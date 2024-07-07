@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Email -->
+    <string name="send_email">Send mail&#8230;</string>
+
+    <!-- Errors -->
+    <string name="no_email_clients_installed">There are no email clients installed.\nPlease install at least one</string>
+
+    <!-- Calculator -->
+    <string name="clr">C</string>
+    <string name="del">{cmd_backspace}</string>
+
+    <string name="eq">=</string>
+    <string name="dec_point">.</string>
+
+    <string name="op_sub">-</string>
+    <string name="op_add">+</string>
+    <string name="op_div">÷</string>
+    <string name="op_mul">×</string>
+
+    <string name="digit_0">0</string>
+    <string name="digit_1">1</string>
+    <string name="digit_2">2</string>
+    <string name="digit_3">3</string>
+    <string name="digit_4">4</string>
+    <string name="digit_5">5</string>
+    <string name="digit_6">6</string>
+    <string name="digit_7">7</string>
+    <string name="digit_8">8</string>
+    <string name="digit_9">9</string>
+
+    <!-- Calculator Content Descriptions -->
+    <string name="desc_clr">clear</string>
+    <string name="desc_del">delete</string>
+    <string name="desc_eq">equals</string>
+    <string name="desc_dec_point">point</string>
+    <string name="desc_op_add">plus</string>
+    <string name="desc_op_sub">minus</string>
+    <string name="desc_op_mul">times</string>
+    <string name="desc_op_div">divide</string>
+</resources>

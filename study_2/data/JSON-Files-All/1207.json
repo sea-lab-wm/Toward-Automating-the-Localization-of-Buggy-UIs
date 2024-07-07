@@ -1,0 +1,19 @@
+{
+	"id": "1207",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["9d4cde29461cbdcf89be83ca2e7f690d955a430c"],
+		"file_name": "bug-1207/app/src/main/java/org/shadowice/flocke/andotp/View/ManualEntryDialog.java",
+		"method_name": "public static void show(final MainActivity callingActivity, Settings settings, final EntriesCardAdapter adapter)",
+		"line_numbers": ["206"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["1b4a51f3e474e150575e2c9e62ecc6e3bfa6980c"],
+		"file_name": "fix-1207/app/src/main/java/org/shadowice/flocke/andotp/View/ManualEntryDialog.java",
+		"method_name": "public static void show(final MainActivity callingActivity, Settings settings, final EntriesCardAdapter adapter)",
+		"line_numbers": ["206-208", "218-219"]
+	}],
+	"unit_test_changes": null
+}

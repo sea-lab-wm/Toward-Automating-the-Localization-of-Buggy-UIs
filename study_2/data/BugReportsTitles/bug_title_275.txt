@@ -1,0 +1,1 @@
+First time setup does not require confirming password if "show password" box is checked

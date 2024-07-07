@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.fieldbook.tracker.dragsort.DragSortListView xmlns:dslv="http://schemas.android.com/apk/res/com.fieldbook.tracker"
+            android:id="@+id/myList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:choiceMode="singleChoice"
+            android:dividerHeight="1px"
+            android:padding="3dp"
+            dslv:click_remove_id="@+id/click_remove"
+            dslv:collapsed_height="1px"
+            dslv:drag_enabled="true"
+            dslv:drag_handle_id="@+id/drag_handle"
+            dslv:drag_scroll_start="0.33"
+            dslv:drag_start_mode="onLongPress"
+            dslv:float_alpha="0.6"
+            dslv:remove_enabled="false"
+            dslv:remove_mode="clickRemove"
+            dslv:slide_shuffle_speed="0.3" />
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/newTrait"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_add_white"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

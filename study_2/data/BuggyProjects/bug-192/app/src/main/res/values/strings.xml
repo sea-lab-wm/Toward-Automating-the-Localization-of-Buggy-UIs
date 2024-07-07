@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="delete">Delete</string>
+    <string name="rename">Rename</string>
+    <string name="confirm_delete">Confirm Delete</string>
+    <string name="confirm_delete_description">Do you really want to delete this %s?</string>
+    <string name="confirm_overwrite">Confirm Overwrite</string>
+    <string name="confirm_overwrite_description">File already exists, overwrite?</string>
+    <string name="browse_filesystem">Browse filesystem</string>
+    <string name="title">Title</string>
+    <string name="empty_directory">This directory is empty</string>
+    <string name="folder_name_hint">Enter the name of your folder</string>
+    <string name="create_folder">Create Folder</string>
+    <string name="create_new_document">Create new document</string>
+    <string name="move">Move</string>
+
+    <string name="import_from_device">Import from device</string>
+    <string name="import_">Import</string>
+    <string name="append_to__arg_document_name">Append to %s</string>
+    <string name="select_folder">Select folder</string>
+    <string name="edit">Edit</string>
+
+    <string name="search_documents">Search documents</string>
+    <string name="share_to">Share to&#8230;</string>
+    <string name="share">Share</string>
+    <string name="search">Search</string>
+    <string name="preview">Preview</string>
+    <string name="editor">Editor</string>
+    <string name="folders">Folders</string>
+    <string name="files">Files</string>
+    <string name="document_one">Document</string>
+    <string name="document_multiple">Documents</string>
+    <string name="share_html__mime_plaintext">HTML (as plain text)</string>
+
+    <!-- Preferences -->
+    <string name="document_editor_font">Document Editor Font</string>
+    <string name="theme">Theme</string>
+    <string name="open_preview_when_open_documents">Open preview when opening documents</string>
+    <string name="about">About Markor</string>
+    <string name="plain_text">Plain Text</string>
+    <string name="file">File</string>
+    <string name="image">Image</string>
+    <string name="pref_title__font_size">Font Size</string>
+    <string name="render_for_right_to_left_languages">Render for right-to-left languages</string>
+    <string name="error_cannot_create_notebook_dir">Error: Cannot create notebook directory</string>
+
+    <string name="last_modified">Last modified: %s</string>
+    <string name="select_this_folder">Select this folder</string>
+    <string name="select">Select</string>
+    <string name="create">Create</string>
+    <string name="select_elements">Select entries</string>
+    <string name="one_item_selected">One item selected</string>
+    <string name="more_items_selected">%d items selected</string>
+
+    <string name="pref_summary__is_statusbar_hidden">Hide the statusbar at this view</string>
+    <string name="pref_title__is_statusbar_hidden">Hide statusbar</string>
+
+    <string name="name">Name</string>
+    <string name="url_or_path">URL / Path</string>
+    <string name="insert_link">Insert Link</string>
+    <string name="insert_image">Insert Image</string>
+
+    <!-- About screen -->
+    <string name="contributors">Contributors</string>
+    <string name="select_storage_folder">Select storage folder</string>
+    <string name="notebook_directory">Notebook directory</string>
+    <string name="licenses">Licenses</string>
+    <string name="changelog">Changelog</string>
+    <string name="more_information">More information</string>
+    <string name="show_app_license">Show license of the app</string>
+    <string name="show_third_party_licenses">Show 3rd party licenses</string>
+    <string name="pref_desc__language">Change language of this app. Restart app for changes to take effect</string>
+    <string name="pref_title__language">Language</string>
+    <string name="error_storage_permission">Need permission for storage to save documents</string>
+    <string name="open_with">Open with</string>
+    <string name="sort">Sort</string>
+    <string name="sort_by_date">Sort by Date</string>
+    <string name="sort_by_name">Sort by Name</string>
+    <string name="sort_by_size">Sort by Size</string>
+    <string name="sort_reverse">Reverse order</string>
+    <string name="contribute">Contribute</string>
+    <string name="donate">Donate</string>
+    <string name="project_page">Project page</string>
+    <string name="press_again_to_exit">Press back again to exit</string>
+    <string name="exit">Exit</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="more">More</string>
+    <string name="notebook">Notebook</string>
+    <string name="help">Help</string>
+    <string name="todo_list">To-Do List</string>
+    <string name="task">Task</string>
+    <string name="category">Category</string>
+    <string name="context">Context</string>
+    <string name="list">List</string>
+    <string name="priority">Priority</string>
+    <string name="history">History</string>
+    <string name="sync">Sync</string>
+    <string name="browse_somethingsingular_or_add">Add %s or browse existing ones</string>
+    <string name="search_hint__add_or_custom">Search / Custom</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="clear">Clear</string>
+    <string name="due_date">Due date</string>
+    <string name="current_date">Current date</string>
+    <string name="archive">Archive</string>
+    <string name="add_task">Add task</string>
+    <string name="add_something">Add %s</string>
+    <string name="pref_summary__loaded_and_saved_as__plus_name">The document to be loaded and saved as "%s"</string>
+    <string name="pref_title__show_settings_option_in_main_toolbar">Settings in toolbar</string>
+    <string name="pref_show_settings_option_in_main_toolbar">Show settings option in top toolbar on main screen</string>
+    <string name="refresh">Refresh</string>
+    <string name="add_shortcut_to_launcher_homescreen">Create shortcut</string>
+    <string name="add_shortcut_to_launcher_homescreen_notice">Tried to add a shortcut to your home screen for editing this document. Note that some launchers may not support this.</string>
+    <string name="file_not_in_save_path_do_import">The selected file is not located in the app\'s notebook directory. Do you want to copy it to the current folder? This will overwrite existing files.</string>
+    <string name="files_and_folders">Files and folders</string>
+    <string name="document_browser">Document browser</string>
+
+    <!-- Not in use currently -->
+    <string name="create_note" needed="false">Create Note</string>
+    <string name="special_documents" needed="false">Special documents</string>
+    <string name="navigate_up_folder" needed="false">Back to previous folder</string>
+    <string name="app_settings" needed="false">App Settings</string>
+    <string name="editor_settings" needed="false">Editor Settings</string>
+    <string name="remember_last_folder_location_on_startup" needed="false">Remember last folder location on startup</string>
+    <string name="show_markdown_shortcuts_bar" needed="false">Show Markdown shortcuts bar</string>
+    <string name="markdown_syntax_highlighting" needed="false">Markdown syntax highlighting</string>
+    <string name="pref_title__highlighting_delay" needed="false">Delay in milliseconds for highlighting refresh</string>
+    <string name="pref_title__highlighting_delay_summary" needed="false">Higher values are easier on the battery</string>
+    <string name="pref_title__smart_shortcuts" needed="false">Smart brackets shortcuts</string>
+    <string name="pref_title__smart_shortcuts_summary" needed="false">If text is selected, {}, [] and () will surround the selection</string>
+    <string name="number_of_files" needed="false">Number of files: %d</string>
+
+    <!-- New strings -->
+    <string name="global">Global</string>
+    <string name="main_view">Main View</string>
+    <string name="theme_description">The overall theme used in the app</string>
+    <string name="load_last_directory_at_startup">Remember last directory</string>
+    <string name="syntax_highlighting">Syntax highlighting</string>
+    <string name="text_modules">Text modules</string>
+    <string name="text_module">Text module</string>
+    <string name="highlighting_delay">Highlighting delay</string>
+    <string name="highlighting_delay_summary">Delay in milliseconds for highlighting refresh. A lower value will start highlighting earlier, but will drain more battery and decrease performance.</string>
+    <string name="highlighting_enabled_summary">Control whether entered text should be highlighted or not</string>
+    <string name="editor_font_size_summary">Control the font size used in the editor</string>
+    <string name="textmodules_bar_summary">Show a bar with useful actions to insert common used text modules</string>
+    <string name="load_last_directory_at_startup__summary">Load the last opened folder at startup</string>
+    <string name="format">Format</string>
+    <string name="contexts">Contexts</string>
+    <string name="project">Project</string>
+    <string name="projects">Projects</string>
+    <string name="categories">Categories</string>
+    <string name="none">None</string>
+    <string name="pref_summary__is_highlighting_for_hexcolor_activated">Whether or not to underline Hex Color Codes according to color</string>
+    <string name="hexcolor_underline">Underline Hex Color Codes</string>
+    <string name="start_new_tasks_with_todays_date">Insert the current date when starting a new task</string>
+    <string name="tasks_with_todays_date">Tasks with today\'s date</string>
+    <string name="append_contexts_and_projects">Append contexts and projects</string>
+    <string name="append_contexts_and_projects_on_end_of_task">Append contexts and projects at then end of a task when using the appropriate text module action</string>
+    <string name="right_to_left_rendering__abbreviated">RTL rendering</string>
+</resources>

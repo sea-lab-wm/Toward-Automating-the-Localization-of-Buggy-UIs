@@ -1,0 +1,33 @@
+{
+    "id": "84",
+    "confidence_level": "confident",
+    "bug_location": [
+        {
+            "commit_ids": [
+                "95496eb1200e892600b60d5048248e893b339af3"
+            ],
+            "file_name": "bug-84/ultrasonic/src/main/java/org/moire/ultrasonic/util/Constants.java"
+        },
+        {
+            "commit_ids": [
+                "95496eb1200e892600b60d5048248e893b339af3"
+            ],
+            "file_name": "bug-84/ultrasonic/src/main/java/org/moire/ultrasonic/util/Util.java"
+        }
+    ],
+    "fix_location": [
+        {
+            "commit_ids": [
+                "68cb1af02bb9431ae86f131e3029506edb691256"
+            ],
+            "file_name": "bug-84/ultrasonic/src/main/java/org/moire/ultrasonic/util/Constants.java"
+        },
+        {
+            "commit_ids": [
+                "68cb1af02bb9431ae86f131e3029506edb691256"
+            ],
+            "file_name": "bug-84/ultrasonic/src/main/java/org/moire/ultrasonic/util/Util.java"
+        }
+    ],
+    "unit_test_changes": null
+}

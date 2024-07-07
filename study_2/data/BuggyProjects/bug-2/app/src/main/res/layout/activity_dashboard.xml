@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/dashboard_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".business.dashboard.activity.DashboardActivity">
+
+            <com.mikepenz.iconics.view.IconicsButton
+                android:id="@+id/select_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/select_account"
+                app:iiv_start_icon="cmd_bank"
+                app:iiv_start_size="@dimen/button_icon_size"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.mikepenz.iconics.view.IconicsButton
+                    android:id="@+id/select_expenses"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/add_expense"
+                    android:layout_alignTop="@+id/add_expense"
+                    android:layout_toLeftOf="@+id/add_expense"
+                    android:layout_toStartOf="@+id/add_expense"
+                    android:text="@string/select_expenses"
+                    app:iiv_start_icon="faw_minus_circle"
+                    app:iiv_start_size="@dimen/button_icon_size"/>
+
+                <com.mikepenz.iconics.view.IconicsButton
+                    android:id="@+id/add_expense"
+                    android:layout_width="@dimen/dashboard_add_button_width"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:drawableLeft="@android:drawable/ic_input_add"
+                    android:drawableStart="@android:drawable/ic_input_add"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.mikepenz.iconics.view.IconicsButton
+                    android:id="@+id/select_income"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/add_income"
+                    android:layout_alignTop="@+id/add_income"
+                    android:layout_toLeftOf="@+id/add_income"
+                    android:layout_toStartOf="@+id/add_income"
+                    android:text="@string/select_incomes"
+                    app:iiv_start_icon="faw_plus_circle"
+                    app:iiv_start_size="@dimen/button_icon_size"/>
+
+                <com.mikepenz.iconics.view.IconicsButton
+                    android:id="@+id/add_income"
+                    android:layout_width="@dimen/dashboard_add_button_width"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:drawableLeft="@android:drawable/ic_input_add"
+                    android:drawableStart="@android:drawable/ic_input_add"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.mikepenz.iconics.view.IconicsButton
+                    android:id="@+id/select_transfers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/add_transfer"
+                    android:layout_alignTop="@+id/add_transfer"
+                    android:layout_toLeftOf="@+id/add_transfer"
+                    android:layout_toStartOf="@+id/add_transfer"
+                    android:text="@string/select_transfers"
+                    app:iiv_start_icon="faw_exchange_alt"
+                    app:iiv_start_size="@dimen/button_icon_size"/>
+
+                <com.mikepenz.iconics.view.IconicsButton
+                    android:id="@+id/add_transfer"
+                    android:layout_width="@dimen/dashboard_add_button_width"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:drawableLeft="@android:drawable/ic_input_add"
+                    android:drawableStart="@android:drawable/ic_input_add"/>
+
+            </RelativeLayout>
+
+            <com.mikepenz.iconics.view.IconicsButton
+                android:id="@+id/select_flow_of_funds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/select_flow_of_funds"
+                app:iiv_start_icon="cmd_weather_windy"
+                app:iiv_start_size="@dimen/button_icon_size"/>
+
+            <com.mikepenz.iconics.view.IconicsButton
+                android:id="@+id/select_templates"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/select_templates"
+                app:iiv_start_icon="faw_file_alt2"
+                app:iiv_start_size="@dimen/button_icon_size"/>
+
+            <com.mikepenz.iconics.view.IconicsButton
+                android:id="@+id/select_sms_patterns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/select_sms_patterns"
+                app:iiv_start_icon="faw_comments2"
+                app:iiv_start_size="@dimen/button_icon_size"/>
+
+            <com.mikepenz.iconics.view.IconicsButton
+                android:id="@+id/select_charts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/select_charts"
+                app:iiv_start_icon="faw_chart_bar2"
+                app:iiv_start_size="@dimen/button_icon_size"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

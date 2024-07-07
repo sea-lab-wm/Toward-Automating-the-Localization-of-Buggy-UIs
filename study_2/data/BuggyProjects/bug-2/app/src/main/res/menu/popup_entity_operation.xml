@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".core.activity.EntityActivity">
+
+    <item
+        android:id="@+id/action_duplicate"
+        android:title="@string/action_duplicate"
+        app:ico_color="@android:color/white"
+        app:ico_icon="faw_clone"
+        app:ico_size="@dimen/operation_popup_icon_size"
+        app:showAsAction="withText"/>
+
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/action_edit"
+        app:showAsAction="withText"/>
+
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/action_delete"
+        app:showAsAction="withText"/>
+
+</menu>

@@ -1,0 +1,19 @@
+{
+	"id": "1145",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["dcd939b62d4ba16f48f780fb8258e0e521423ffa"],
+		"file_name": "bug-1145/GPSTest/src/main/res/layout/benchmark_motion_layout.xml",
+		"method_name": null,
+		"line_numbers": ["40", "58", "77"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["d597409f8cb8e505f98a87f04367b06fe0fd91d4"],
+		"file_name": "fix-1145/GPSTest/src/main/res/layout/benchmark_motion_layout.xml",
+		"method_name": null,
+		"line_numbers": ["40", "58", "77"]
+	}],
+	"unit_test_changes": null
+}

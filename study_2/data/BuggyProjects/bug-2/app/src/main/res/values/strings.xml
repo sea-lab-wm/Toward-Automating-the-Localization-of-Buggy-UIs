@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ENTITY optional "(optional)">
+    <!ENTITY disabled "(disabled)">
+    <!ENTITY cantDelete "Can\'t delete">
+    <!ENTITY because "because">
+    <!ENTITY isIncluded "is included">
+    <!ENTITY inSome "in some">
+    <!ENTITY becauseItIsIncludedInSome "because it is included in some">
+    <!ENTITY deleteOrEditThese "Delete or edit these">
+    <!ENTITY andTryAgain "and try again">
+    <!ENTITY isTheParentOfAnother "is the parent of another">
+    <!ENTITY deleteNested "Delete nested">
+    ]>
+<resources>
+    <!-- Titles of application, activities and dialogs -->
+    <string name="app_name">Family Finance</string>
+    <string name="person_activity_title">People</string>
+    <string name="person_activity_edit_title">Person Edit</string>
+    <string name="account_activity_title">Accounts</string>
+    <string name="account_activity_edit_title">Account Edit</string>
+    <string name="expense_article_activity_title">Expense Articles</string>
+    <string name="income_article_activity_title">Income Articles</string>
+    <string name="all_article_activity_title">All Articles</string>
+    <string name="expense_article_activity_edit_title">Expense Article Edit</string>
+    <string name="income_article_activity_edit_title">Income Article Edit</string>
+    <string name="currency_activity_title">Currencies</string>
+    <string name="currency_activity_edit_title">Currency Edit</string>
+    <string name="exchange_rate_activity_title">Exchange Rates</string>
+    <string name="exchange_rate_activity_edit_title">Exchange Rate Edit</string>
+    <string name="expense_operation_activity_title">Expenses</string>
+    <string name="expense_operation_activity_edit_title">Expense Edit</string>
+    <string name="income_operation_activity_title">Incomes</string>
+    <string name="income_operation_activity_edit_title">Income Edit</string>
+    <string name="transfer_operation_activity_title">Transfers</string>
+    <string name="transfer_operation_activity_edit_title">Transfer Edit</string>
+    <string name="flow_of_funds_activity_title">Flow of Funds</string>
+    <string name="template_activity_title">Templates</string>
+    <string name="template_activity_edit_title">Template Edit</string>
+    <string name="sms_pattern_activity_title">Sms Patterns</string>
+    <string name="sms_pattern_activity_edit_title">Sms Pattern Edit</string>
+    <string name="expense_operation_filter_title">Expenses Filter</string>
+    <string name="income_operation_filter_title">Incomes Filter</string>
+    <string name="transfer_operation_filter_title">Transfers Filter</string>
+    <string name="flow_of_funds_operation_filter_title">Flow of Funds Filter</string>
+    <string name="exchange_rate_filter_title">Exchange Rate Filter</string>
+    <string name="settings_activity_title">Settings</string>
+    <string name="backup_activity_title">Backup &amp; Restore</string>
+    <string name="chart_activity_title">Reports</string>
+    <string name="bar_chart_title">Expenses/Incomes</string>
+    <string name="bar_chart_filter_title">Filter of Expenses/Incomes</string>
+    <string name="bar_chart_display_title">Display of Expenses/Incomes</string>
+    <string name="horizontal_bar_chart_of_expenses_title">Expenses by Articles</string>
+    <string name="horizontal_bar_chart_of_incomes_title">Incomes by Articles</string>
+    <string name="horizontal_bar_chart_of_expenses_filter_title">Filter of Expenses by Articles</string>
+    <string name="horizontal_bar_chart_of_incomes_filter_title">Filter of Incomes by Articles</string>
+    <string name="horizontal_bar_chart_of_expenses_display_title">Display of Expenses by Articles</string>
+    <string name="horizontal_bar_chart_of_incomes_display_title">Display of Incomes by Articles</string>
+    <string name="pie_chart_of_expenses_title">Expenses by Articles (Pie Chart)</string>
+    <string name="pie_chart_of_incomes_title">Incomes by Articles (Pie Chart)</string>
+    <string name="pie_chart_of_expenses_filter_title">Filter of Expenses by Articles (Pie Chart)</string>
+    <string name="pie_chart_of_incomes_filter_title">Filter of Incomes by Articles (Pie Chart)</string>
+    <string name="pie_chart_of_expenses_display_title">Display of Expenses by Articles (Pie Chart)</string>
+    <string name="pie_chart_of_incomes_display_title">Display of Incomes by Articles (Pie Chart)</string>
+
+    <!-- Dashboard -->
+    <string name="select_account">Accounts</string>
+    <string name="select_expenses">Expenses</string>
+    <string name="select_incomes">Incomes</string>
+    <string name="select_transfers">Transfers</string>
+    <string name="select_flow_of_funds">Flow of Funds</string>
+    <string name="select_templates">Templates</string>
+    <string name="select_sms_patterns">Sms Patterns</string>
+    <string name="select_charts">Reports</string>
+    <!-- Backup -->
+    <string name="backup_database">Make a backup of DB</string>
+    <string name="restore_database">Restore the backup of DB</string>
+    <string name="backup_shared_prefs">Make a backup of shared preferences</string>
+    <string name="restore_shared_prefs">Restore the backup of shared preferences</string>
+    <!-- Preferences -->
+    <!-- Interface preferences -->
+    <string name="interface_preferences_title">Interface</string>
+    <string name="interface_preferences_summary">Interface preferences</string>
+    <string name="show_balance_on_operation_screens_preference_title">Balance on operation screens</string>
+    <string name="show_balance_on_operation_screens_enabled_preference_summary">Show balance</string>
+    <string name="show_balance_on_operation_screens_disabled_preference_summary">Hide balance</string>
+    <!-- Database preferences -->
+    <string name="database_preferences_title">Database</string>
+    <string name="database_preferences_summary">Initial and default values</string>
+    <string name="currency_id_preference_title">Default currency: %s</string>
+    <string name="currency_id_preference_summary">Is used as default currency in the dialog for adding account and in the dialog for adding any operation.\nIt is not recommended to change</string>
+    <string name="account_id_preference_title">Default account: %s</string>
+    <string name="account_id_preference_summary">Is used as default account in the dialog for adding any operation</string>
+    <string name="person_id_preference_title">Default person: %s</string>
+    <string name="person_id_preference_summary">Is used as default person in the dialog for adding account</string>
+    <string name="incomes_article_id_preference_title">Article of incomes: %s</string>
+    <string name="incomes_article_id_preference_summary">Is used as root folder of incomes.\nIt is not recommended to change</string>
+    <string name="expenses_article_id_preference_title">Article of expenses: %s</string>
+    <string name="expenses_article_id_preference_summary">Is used as root folder of expenses.\nIt is not recommended to change</string>
+    <string name="transfer_article_id_preference_title">Transfer article: %s</string>
+    <string name="transfer_article_id_preference_summary">Is used as default transfer article.\nIt is not recommended to change</string>
+    <!-- Backup preferences -->
+    <string name="backup_preferences_title">Backup &amp; Restore</string>
+    <string name="backup_preferences_summary">Backup preferences</string>
+    <string name="backup_path_preference_title">Backup path</string>
+    <string name="backup_path_preference_summary">Not specified</string>
+    <!-- ACRA preferences -->
+    <string name="acra_preferences_title">ACRA</string>
+    <string name="acra_preferences_summary">Application Crash Reports for Android</string>
+    <string name="enable_acra_preference_title">Enable ACRA</string>
+    <string name="acra_enabled_preference_summary">ACRA is enabled</string>
+    <string name="acra_disabled_preference_summary">ACRA is disabled</string>
+
+    <!-- Types -->
+    <string-array name="account_type">
+        <item>Undefined</item>
+        <item>Cash</item>
+        <item>Deposit</item>
+        <item>Credit</item>
+        <item>Debit Card</item>
+        <item>Credit Card</item>
+        <item>Virtual Debit Card</item>
+        <item>Virtual Credit Card</item>
+    </string-array>
+
+    <!-- Hints -->
+    <string name="hint_name">Name</string>
+    <string name="hint_name_required">Name (required)</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_description_optional">Description &optional;</string>
+    <string name="hint_url">URL</string>
+    <string name="hint_url_optional">URL &optional;</string>
+    <string name="hint_order_code">Order Code</string>
+    <string name="hint_date">Date (ISO format)</string>
+    <string name="hint_exchange_rate">Exchange Rate</string>
+    <string name="hint_initial_balance">Initial Balance</string>
+    <string name="hint_initial_balance_disabled">Initial Balance &disabled;</string>
+    <string name="hint_default_value">Initial Default Value</string>
+    <string name="hint_default_value_disabled">Initial Default Value &disabled;</string>
+    <string name="hint_account_number">Account Number</string>
+    <string name="hint_account_number_disabled">Account Number &disabled;</string>
+    <string name="hint_payment_system">Payment System</string>
+    <string name="hint_payment_system_disabled">Payment System &disabled;</string>
+    <string name="hint_card_number">Card Number</string>
+    <string name="hint_card_number_disabled">Card Number &disabled;</string>
+    <string name="hint_currency">Currency</string>
+    <string name="hint_currency_disabled">Currency &disabled;</string>
+    <string name="hint_owner">Owner</string>
+    <string name="hint_owner_disabled">Owner &disabled;</string>
+    <string name="hint_value">Value</string>
+    <string name="hint_account">Account</string>
+    <string name="hint_account_type">Type</string>
+    <string name="hint_expense_account">Expense Account</string>
+    <string name="hint_income_account">Income Account</string>
+    <string name="hint_transfer_account">Transfer Account</string>
+    <string name="hint_transfer_account_disabled">Transfer Account &disabled;</string>
+    <string name="hint_article">Article</string>
+    <string name="hint_article_name">Article Name</string>
+    <string name="hint_article_name_disabled">Article Name &disabled;</string>
+    <string name="hint_article_category">Article Category</string>
+    <string name="hint_article_category_disabled">Article Category &disabled;</string>
+    <string name="hint_template_name">Template Name</string>
+    <string name="hint_sender">Sender</string>
+    <string name="hint_regex">Regular Expression</string>
+    <string name="hint_date_group">Date Group</string>
+    <string name="hint_value_group">Value Group</string>
+    <string name="hint_start_date">Start Date</string>
+    <string name="hint_end_date">End Date</string>
+    <string name="hint_start_value">Start Value</string>
+    <string name="hint_end_value">End Value</string>
+    <string name="hint_active">Active</string>
+    <string name="hint_parent">Parent</string>
+    <string name="hint_parent_disabled">Parent &disabled;</string>
+    <string name="hint_balance">Balance:</string>
+    <string name="hint_calculating">calculating…</string>
+    <string name="hint_common">Common</string>
+
+    <!-- Menu items -->
+    <!-- Actions -->
+    <string name="action_save">Save</string>
+    <string name="action_add_entry">Add Entry</string>
+    <string name="action_add_folder">Add Folder</string>
+    <string name="action_add_nested_entry">Add Nested Entry</string>
+    <string name="action_add_nested_folder">Add Nested Folder</string>
+    <string name="action_add_expense">Add Expense</string>
+    <string name="action_add_income">Add Income</string>
+    <string name="action_add_transfer">Add Transfer</string>
+    <string name="action_add_expense_template">Add Expense Template</string>
+    <string name="action_add_income_template">Add Income Template</string>
+    <string name="action_add_transfer_template">Add Transfer Template</string>
+    <string name="action_duplicate">Duplicate</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_select">Select</string>
+    <string name="action_search">Search</string>
+    <string name="action_display">Display</string>
+    <!-- Drawer -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_item_currencies">Currencies</string>
+    <string name="drawer_item_exchange_rates">Exchange Rates</string>
+    <string name="drawer_item_people">People</string>
+    <string name="drawer_item_expense_articles">Expense Articles</string>
+    <string name="drawer_item_income_articles">Income Articles</string>
+    <string name="drawer_item_backup">Backup</string>
+    <string name="drawer_item_settings">Settings</string>
+    <string name="drawer_item_contact">Contact</string>
+
+    <!-- Permissions -->
+    <string name="read_external_storage_permission_is_missing">You do not have read permissions from external storage. Or SD card is not mounted</string>
+    <string name="write_external_storage_permission_is_missing">You do not have permission to write to external storage. Or SD card is not mounted</string>
+    <string name="permission_write_external_storage_rationale">Permission is required to write a backup on external storage</string>
+    <string name="permission_write_external_storage_denied">Write external storage permission was denied. Please consider granting it in order to access the backup</string>
+    <string name="permission_write_external_storage_never_ask">Write external storage permission was denied with never ask again</string>
+    <string name="permission_receive_sms_rationale">Permission is required to read information from SMS for further adding operations to the database</string>
+
+    <!-- Folder messages -->
+    <string name="access_to_this_folder_is_denied">Access to this folder is denied</string>
+
+    <!-- Icon messages -->
+    <string name="can_not_find_icon">Can not find icon with name \'%s\'</string>
+
+    <!-- Notification messages -->
+    <string name="sms_received">Sms is received</string>
+    <string name="sms_received_content">%1$s %2$s by \'%3$s\' template from %4$s</string>
+    <string name="expense_operation_type">Expense</string>
+    <string name="income_operation_type">Income</string>
+    <string name="transfer_operation_type">Transfer</string>
+
+    <!-- Notification actions -->
+    <string name="action_add_immediately">Add immediately</string>
+
+    <!-- Dialog Buttons -->
+    <string name="button_got_it">Got it</string>
+    <string name="button_allow">Allow</string>
+    <string name="button_deny">Deny</string>
+
+    <!-- Delete Alerts -->
+    <string name="accounts_with_parent_exists">&cantDelete; an account, &because; it &isTheParentOfAnother; accounts.\n&deleteNested; accounts &andTryAgain;.</string>
+    <string name="articles_with_parent_exists">&cantDelete; an article, &because; it &isTheParentOfAnother; articles.\n&deleteNested; articles &andTryAgain;.</string>
+    <string name="persons_with_parent_exists">&cantDelete; a person, &because; it &isTheParentOfAnother; persons.\n&deleteNested; persons &andTryAgain;.</string>
+    <string name="expense_operations_with_account_exists">&cantDelete; an account, &becauseItIsIncludedInSome; expenses.\n&deleteOrEditThese; expenses &andTryAgain;.</string>
+    <string name="income_operations_with_account_exists">&cantDelete; an account, &becauseItIsIncludedInSome; incomes.\n&deleteOrEditThese; incomes &andTryAgain;.</string>
+    <string name="transfer_operations_with_account_exists">&cantDelete; an account, &becauseItIsIncludedInSome; transfers.\n&deleteOrEditThese; transfers &andTryAgain;.</string>
+    <string name="expense_operations_with_article_exists">&cantDelete; an article, &becauseItIsIncludedInSome; expenses.\n&deleteOrEditThese; expenses &andTryAgain;.</string>
+    <string name="income_operations_with_article_exists">&cantDelete; an article, &becauseItIsIncludedInSome; incomes.\n&deleteOrEditThese; incomes &andTryAgain;.</string>
+    <string name="transfer_operations_with_article_exists">&cantDelete; an article, &becauseItIsIncludedInSome; transfers.\n&deleteOrEditThese; transfers &andTryAgain;.</string>
+    <string name="expense_operations_with_owner_exists">&cantDelete; a person, &becauseItIsIncludedInSome; expenses.\n&deleteOrEditThese; expenses &andTryAgain;.</string>
+    <string name="income_operations_with_owner_exists">&cantDelete; a person, &becauseItIsIncludedInSome; incomes.\n&deleteOrEditThese; incomes &andTryAgain;.</string>
+    <string name="transfer_operations_with_owner_exists">&cantDelete; a person, &becauseItIsIncludedInSome; transfers.\n&deleteOrEditThese; transfers &andTryAgain;.</string>
+    <string name="expense_operations_with_exchange_rate_exists">&cantDelete; an exchange rate, &becauseItIsIncludedInSome; expenses.\n&deleteOrEditThese; expenses &andTryAgain;.</string>
+    <string name="income_operations_with_exchange_rate_exists">&cantDelete; an exchange rate, &becauseItIsIncludedInSome; incomes.\n&deleteOrEditThese; incomes &andTryAgain;.</string>
+    <string name="transfer_operations_with_exchange_rate_exists">&cantDelete; an exchange rate, &becauseItIsIncludedInSome; transfers.\n&deleteOrEditThese; transfers &andTryAgain;.</string>
+    <string name="accounts_with_owner_exists">&cantDelete; a person, &becauseItIsIncludedInSome; accounts.\n&deleteOrEditThese; accounts &andTryAgain;.</string>
+    <string name="accounts_with_currency_exists">&cantDelete; a currency, &becauseItIsIncludedInSome; accounts.\n&deleteOrEditThese; accounts &andTryAgain;.</string>
+    <string name="exchange_rates_with_currency_exists">&cantDelete; a currency, &becauseItIsIncludedInSome; exchange rates.\n&deleteOrEditThese; exchange rates &andTryAgain;.</string>
+    <string name="sms_patterns_with_template_exists">&cantDelete; a template, &becauseItIsIncludedInSome; sms patterns.\n&deleteOrEditThese; sms patterns &andTryAgain;.</string>
+    <string name="preferences_contains_person">&cantDelete; a person, &becauseItIsIncludedInSome; preferences.\n&deleteOrEditThese; preferences &andTryAgain;.</string>
+    <string name="preferences_contains_account">&cantDelete; an account, &becauseItIsIncludedInSome; preferences.\n&deleteOrEditThese; preferences &andTryAgain;.</string>
+    <string name="preferences_contains_currency">&cantDelete; a currency, &becauseItIsIncludedInSome; preferences.\n&deleteOrEditThese; preferences &andTryAgain;.</string>
+    <string name="preferences_contains_article">&cantDelete; an article, &becauseItIsIncludedInSome; preferences.\n&deleteOrEditThese; preferences &andTryAgain;.</string>
+
+    <!-- Backup Messages -->
+    <string name="backup_completed_successfully">Backup completed successfully</string>
+    <string name="backup_failed">Backup failed</string>
+    <string name="restore_completed_successfully">Restore of backup completed successfully</string>
+    <string name="restore_failed">Restore of backup failed</string>
+
+    <!-- Charts -->
+    <string name="chart_no_data">No chart data available</string>
+    <string name="chart_loading">Please wait, the data is loading</string>
+
+    <string name="data_set_incomes">Incomes</string>
+    <string name="data_set_expenses">Expenses</string>
+    <string name="data_set_transfers">Transfers</string>
+    <string name="data_set_net_profit">Net Profit</string>
+
+    <string name="pie_group_other">Other (combined group)</string>
+
+    <!-- Bar Chart Display -->
+    <string name="bar_chart_display_group">Group by:</string>
+    <string name="bar_chart_display_group_by_days">Days</string>
+    <string name="bar_chart_display_group_by_weeks">Weeks</string>
+    <string name="bar_chart_display_group_by_months">Months</string>
+    <string name="bar_chart_display_group_by_quarters">Quarters</string>
+    <string name="bar_chart_display_group_by_years">Years</string>
+    <string name="bar_chart_display_view">View:</string>
+    <string name="bar_chart_display_view_income_values">View income values</string>
+    <string name="bar_chart_display_view_expense_values">View expense values</string>
+    <string name="bar_chart_display_view_incomes">View incomes</string>
+    <string name="bar_chart_display_view_expenses">View expenses</string>
+    <string name="bar_chart_display_include_transfers">Include transfers</string>
+    <!-- Horizontal Bar Chart Display -->
+    <string name="horizontal_bar_chart_display_group">Group by:</string>
+    <string name="horizontal_bar_chart_display_group_by_article">Article</string>
+    <string name="horizontal_bar_chart_display_group_by_article_parent">Article parent</string>
+    <string name="horizontal_bar_chart_display_view">View:</string>
+    <string name="horizontal_bar_chart_display_view_values">View values</string>
+    <string name="horizontal_bar_chart_display_use_percent_values">Use percent values</string>
+    <!-- Pie Chart Display -->
+    <string name="pie_chart_display_group_by">Group by:</string>
+    <string name="pie_chart_display_group_by_article">Article</string>
+    <string name="pie_chart_display_group_by_article_parent">Article parent</string>
+    <string name="pie_chart_display_grouping">Grouping:</string>
+    <string name="pie_chart_display_grouping_simple">Simple</string>
+    <string name="pie_chart_display_grouping_limit">With limited group</string>
+    <string name="pie_chart_display_view">View:</string>
+    <string name="pie_chart_display_view_values">View values</string>
+    <string name="pie_chart_display_use_percent_values">Use percent values</string>
+
+    <!-- Validation Errors -->
+    <string name="name_error">Invalid name</string>
+    <string name="description_error">Invalid description</string>
+    <string name="order_code_error">Invalid order code</string>
+    <string name="date_error">Invalid date</string>
+    <string name="initial_balance_error">Invalid initial balance</string>
+    <string name="default_value_error">Invalid default value</string>
+    <string name="value_error">Invalid value</string>
+    <string name="account_number_error">Invalid account number (must be 20 digits)</string>
+    <string name="card_number_error">Invalid card number</string>
+    <string name="sender_error">Invalid sender</string>
+    <string name="regex_error">Invalid regular expression</string>
+    <string name="date_group_error">Invalid date group</string>
+    <string name="value_group_error">Invalid value group</string>
+    <string name="article_is_not_set_error">Article is not set</string>
+    <string name="account_is_not_set_error">Account is not set</string>
+    <string name="expense_account_is_not_set_error">Expense account is not set</string>
+    <string name="income_account_is_not_set_error">Income account is not set</string>
+    <string name="transfer_account_is_not_set_error">Transfer account is not set</string>
+    <string name="owner_is_not_set_error">Owner is not set</string>
+    <string name="currency_is_not_set_error">Currency is not set</string>
+    <string name="exchange_rate_is_not_set_error">Exchange rate is not set</string>
+    <string name="template_is_not_set_error">Template is not set</string>
+    <string name="parent_can_not_be_inside_itself">Parent can not be inside itself</string>
+    <string name="parent_must_be_a_folder">Parent must be a folder</string>
+    <string name="parent_can_not_be_a_parent_of_itself">Parent can not be a parent of itself</string>
+
+    <!-- Crash Report -->
+    <string name="crash_dialog_title">Family Finance has crashed</string>
+    <string name="crash_dialog_text">An unexpected error occurred forcing the application to stop.
+        Please help us fix this by sending error data.
+        All you have to do is click OK.</string>
+    <string name="crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
+    <string name="crash_dialog_report_send_success_toast">Thank you! The report has been successfully sent</string>
+    <string name="crash_dialog_report_send_failure_toast">Thank you! The report failed to send</string>
+
+    <!-- Currency names -->
+    <string name="default_currency_name">USD</string>
+    <string name="default_currency_description">United States dollar</string>
+    <!-- Person names -->
+    <string name="person_chief">Chief</string>
+    <!-- Account names -->
+    <string name="account_cash">Cash</string>
+    <!-- Article root names -->
+    <string name="article_expenses">Expenses</string>
+    <string name="article_incomes">Incomes</string>
+    <string name="article_service">Service</string>
+    <!-- Article income names -->
+    <string name="article_bank">Bank</string>
+    <string name="article_gifts">Gifts</string>
+    <string name="article_work">Work</string>
+    <!-- Article expense names -->
+    <string name="article_auto">Auto</string>
+    <string name="article_home">Home</string>
+    <string name="article_clothes">Clothes</string>
+    <string name="article_products">Products</string>
+    <string name="article_transport">Transport</string>
+    <string name="article_education">Education</string>
+    <string name="article_entertainment">Entertainment</string>
+    <string name="article_beauty_and_health">Beauty and Health</string>
+    <!-- Article income bank names -->
+    <string name="article_capitalization_of_interest">Capitalization of interest</string>
+    <!-- Article income work names -->
+    <string name="article_salary">Salary</string>
+    <string name="article_bonus">Bonus</string>
+    <!-- Article expense auto names -->
+    <string name="article_fuel">Fuel</string>
+    <string name="article_repair">Repair</string>
+    <string name="article_maintenance">Maintenance</string>
+    <!-- Article expense home names -->
+    <string name="article_rent">Rent</string>
+    <!-- Article expense clothes names -->
+    <string name="article_jacket">Jacket</string>
+    <!-- Article expense transport names -->
+    <string name="article_taxi">Taxi</string>
+    <string name="article_metro">Metro</string>
+    <!-- Article expense education names -->
+    <string name="article_foreign_language_courses">Foreign Language Courses</string>
+    <!-- Article expense entertainment names -->
+    <string name="article_cinema">Cinema</string>
+    <string name="article_theater">Theater</string>
+    <!-- Article service names -->
+    <string name="article_transfer">Funds Transfer</string>
+</resources>

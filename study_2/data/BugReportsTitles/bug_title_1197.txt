@@ -1,0 +1,1 @@
+[Bug] Nothing happens when we try to add password to already password protected PDF

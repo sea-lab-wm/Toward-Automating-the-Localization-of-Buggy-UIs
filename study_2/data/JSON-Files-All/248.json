@@ -1,0 +1,75 @@
+{
+	"id": "248",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["b4cb65b22c26c071734ede460adf4e6d001edbcd"],
+		"file_name": "bug-248/collect_app/src/main/java/org/odk/collect/android/preferences/GeneralPreferencesFragment.java",
+		"method_name": null,
+		"line_numbers": ["19"]
+	},
+	{
+		"commit_ids": ["b4cb65b22c26c071734ede460adf4e6d001edbcd"],
+		"file_name": "bug-248/collect_app/src/main/java/org/odk/collect/android/preferences/GeneralPreferencesFragment.java",
+		"method_name": "public boolean onPreferenceClick(Preference preference)",
+		"line_numbers": ["67","70","73","76","79","83-85","87"]
+	}],
+
+	"fix_location": [
+	{
+		"commit_ids": ["fd73c5b3f1ad605d11451012ad06eea1179708dc"],
+		"file_name": "fix-248/collect_app/src/main/java/org/odk/collect/android/preferences/FormManagementPreferences.java",
+		"method_name": null,
+		"line_numbers": ["36"]
+	},
+	{
+		"commit_ids": ["fd73c5b3f1ad605d11451012ad06eea1179708dc"],
+		"file_name": "fix-248/collect_app/src/main/java/org/odk/collect/android/preferences/GeneralPreferencesFragment.java",
+		"method_name": "public boolean onPreferenceClick(Preference preference)",
+		"line_numbers": ["66","69","72","75","78","81-82","84"]
+	},
+	{
+		"commit_ids": ["fd73c5b3f1ad605d11451012ad06eea1179708dc"],
+		"file_name": "fix-248/collect_app/src/main/java/org/odk/collect/android/preferences/IdentityPreferences.java",
+		"method_name": null,
+		"line_numbers": ["28"]
+	},
+	{
+		"commit_ids": ["fd73c5b3f1ad605d11451012ad06eea1179708dc"],
+		"file_name": "fix-248/collect_app/src/main/java/org/odk/collect/android/preferences/IdentityPreferences.java",
+		"method_name": "public static IdentityPreferences newInstance(boolean adminMode)",
+		"line_numbers": ["32-40"]
+	},
+	{
+		"commit_ids": ["fd73c5b3f1ad605d11451012ad06eea1179708dc"],
+		"file_name": "fix-248/collect_app/src/main/java/org/odk/collect/android/preferences/ServerPreferences.java",
+		"method_name": null,
+		"line_numbers": ["28"]
+	},
+	{
+		"commit_ids": ["fd73c5b3f1ad605d11451012ad06eea1179708dc"],
+		"file_name": "fix-248/collect_app/src/main/java/org/odk/collect/android/preferences/ServerPreferences.java",
+		"method_name": "public static ServerPreferences newInstance(boolean adminMode)",
+		"line_numbers": ["32-40"]
+	},
+	{
+		"commit_ids": ["fd73c5b3f1ad605d11451012ad06eea1179708dc"],
+		"file_name": "fix-248/collect_app/src/main/java/org/odk/collect/android/preferences/UserInterfacePreferences.java",
+		"method_name": null,
+		"line_numbers": ["56"]
+	},
+	{
+		"commit_ids": ["fd73c5b3f1ad605d11451012ad06eea1179708dc"],
+		"file_name": "fix-248/collect_app/src/main/java/org/odk/collect/android/preferences/UserInterfacePreferences.java",
+		"method_name": "public static UserInterfacePreferences newInstance(boolean adminMode)",
+		"line_numbers": ["62-70"]
+	}],
+	"unit_test_changes": [
+	{
+		"commit_ids": ["fd73c5b3f1ad605d11451012ad06eea1179708dc"],
+		"file_name": "collect_app/src/main/java/org/odk/collect/android/preferences/FormManagementPreferences.java",
+		"method_name": "public static FormManagementPreferences newInstance(boolean adminMode)",
+		"line_numbers": ["40-48"]
+	}]
+}
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="smsPattern"
+            type="io.github.zwieback.familyfinance.core.model.ISmsPatternView"/>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/layout_padding">
+
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:id="@+id/icon"
+            android:layout_width="@dimen/sms_icon_size"
+            android:layout_height="@dimen/sms_icon_size"
+            android:layout_centerVertical="true"
+            app:ico_size="@dimen/sms_icon_size"
+            app:iiv_icon="faw_comment2"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_toEndOf="@+id/icon"
+            android:layout_toRightOf="@+id/icon"
+            android:text="@{smsPattern.name}"
+            android:textSize="@dimen/sms_text_size"/>
+
+    </RelativeLayout>
+
+</layout>

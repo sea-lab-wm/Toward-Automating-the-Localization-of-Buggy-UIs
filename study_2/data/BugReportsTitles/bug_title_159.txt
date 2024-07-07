@@ -1,0 +1,1 @@
+Crash in Card Browser, the multi-select mode: Edit => change the card type

@@ -1,0 +1,39 @@
+{
+	"id": "1228",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["52f72970eada423f10ed11359f628c5755545b24"],
+		"file_name": "bug-1228/app/src/main/java/org/gnucash/android/ui/transaction/TransactionDetailActivity.java",
+		"method_name": "private void bindViews()",
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["52f72970eada423f10ed11359f628c5755545b24"],
+		"file_name": "bug-1228/app/src/main/java/org/gnucash/android/ui/transaction/TransactionDetailActivity.java",
+		"method_name": "private void removeSplitItemViews()",
+		"line_numbers": ["178-179"]
+	}],
+
+	"fix_location": [
+	{
+		"commit_ids": ["c18b040725bc3739057427a2800da97fd2baec53"],
+		"file_name": "fix-1228/app/src/main/java/org/gnucash/android/ui/transaction/TransactionDetailActivity.java",
+		"method_name": null,
+		"line_numbers": ["57"]
+	},
+	{
+		"commit_ids": ["c18b040725bc3739057427a2800da97fd2baec53"],
+		"file_name": "fix-1228/app/src/main/java/org/gnucash/android/ui/transaction/TransactionDetailActivity.java",
+		"method_name": "private void bindViews()",
+		"line_numbers": ["130"]
+	},
+	{
+		"commit_ids": ["c18b040725bc3739057427a2800da97fd2baec53"],
+		"file_name": "fix-1228/app/src/main/java/org/gnucash/android/ui/transaction/TransactionDetailActivity.java",
+		"method_name": "private void removeSplitItemViews()",
+		"line_numbers": ["180-181"]
+	}],
+	"unit_test_changes": null
+}
+

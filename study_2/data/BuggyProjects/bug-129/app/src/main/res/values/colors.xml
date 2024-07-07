@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#388E3C</color>                  <!-- material_green_700 -->
+    <color name="colorPrimaryDark">#00600F</color>
+    <color name="colorAccent">#FFCC00</color>
+
+    <color name="divider">#B6B6B6</color>
+
+    <color name="github_dark">#333333</color>
+    <color name="github_light">#f5f5f5</color>
+
+    <color name="warning_red">#b71c1c</color>                   <!-- material_red_900 -->
+
+    <color name="black">#000000</color>
+
+    <color name="dark_thumbnail_background">#ffe0e0e0</color>   <!-- material_grey_300 -->
+
+    <color name="fab_small_label_background">#212121</color>
+
+    <color name="expiring_red_light">#f05545</color>            <!--Light color from https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=B71C1C-->
+    <color name="expiring_red_dark">#d50000</color>             <!--Dark color from https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=D50000-->
+</resources>

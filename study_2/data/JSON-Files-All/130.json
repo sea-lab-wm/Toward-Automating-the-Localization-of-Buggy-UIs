@@ -1,0 +1,91 @@
+{
+	"id": "130",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["7c34318c407c4677d3afdf27bdeb998244759720"],
+		"file_name": "bug-130/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java",
+		"method_name": "public void updateEncryptionType(Constants.EncryptionType encryptionType)",
+		"line_numbers": [""]
+	},
+	{
+		"commit_ids": ["7c34318c407c4677d3afdf27bdeb998244759720"],
+		"file_name": "bug-130/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java",
+		"method_name": "private void displayWarning(int resId)",
+		"line_numbers": ["282-283"]
+	},
+	{
+		"commit_ids": ["7c34318c407c4677d3afdf27bdeb998244759720"],
+		"file_name": "bug-130/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java",
+		"method_name": "private void displayWarning(String warning)",
+		"line_numbers": ["286-287"]
+	},
+	{
+		"commit_ids": ["7c34318c407c4677d3afdf27bdeb998244759720"],
+		"file_name": "bug-130/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java",
+		"method_name": "private void hideWarning()",
+		"line_numbers": [""]
+	},
+	{
+		"commit_ids": ["7c34318c407c4677d3afdf27bdeb998244759720"],
+		"file_name": "bug-130/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java",
+		"method_name": "public void flashWarning()",
+		"line_numbers": ["296"]
+	},
+	{
+		"commit_ids": ["7c34318c407c4677d3afdf27bdeb998244759720"],
+		"file_name": "bug-130/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java",
+		"method_name": "public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)",
+		"line_numbers": [""]
+	},
+	{
+		"commit_ids": ["7c34318c407c4677d3afdf27bdeb998244759720"],
+		"file_name": "bug-130/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java",
+		"method_name": "public boolean canGoForward()",
+		"line_numbers": ["449", "456", "461", "468", "471"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["6a8511a26f0e1df371d1d247d064fefdc6c884e3"],
+		"file_name": "fix-130/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java",
+		"method_name": "public void updateEncryptionType(Constants.EncryptionType encryptionType)",
+		"line_numbers": ["265"]
+	},
+    {
+		"commit_ids": ["6a8511a26f0e1df371d1d247d064fefdc6c884e3"],
+		"file_name": "fix-130/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java",
+		"method_name": "private void updateWarning(int resId)",
+		"line_numbers": ["284-285"]
+	},
+	{
+		"commit_ids": ["6a8511a26f0e1df371d1d247d064fefdc6c884e3"],
+		"file_name": "fix-130/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java",
+		"method_name": "private void updateWarning(String warning)",
+		"line_numbers": ["288"]
+	},
+	{
+		"commit_ids": ["6a8511a26f0e1df371d1d247d064fefdc6c884e3"],
+		"file_name": "fix-130/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java",
+		"method_name": "private void hideWarning()",
+		"line_numbers": ["294"]
+	},
+	{
+		"commit_ids": ["6a8511a26f0e1df371d1d247d064fefdc6c884e3"],
+		"file_name": "fix-130/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java",
+		"method_name": "public void flashWarning()",
+		"line_numbers": ["298-301"]
+	},
+	{
+		"commit_ids": ["6a8511a26f0e1df371d1d247d064fefdc6c884e3"],
+		"file_name": "fix-130/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java",
+		"method_name": "public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)",
+		"line_numbers": ["413-416"]
+	},
+	{
+		"commit_ids": ["6a8511a26f0e1df371d1d247d064fefdc6c884e3"],
+		"file_name": "fix-130/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java",
+		"method_name": "public boolean canGoForward()",
+		"line_numbers": ["459", "466", "471", "478", "481"]
+	}],
+	"unit_test_changes": null
+}

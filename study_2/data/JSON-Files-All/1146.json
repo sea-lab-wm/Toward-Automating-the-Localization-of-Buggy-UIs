@@ -1,0 +1,31 @@
+{
+	"id": "1146",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["10d9b669a82be62567800864398a28bb4be95859"],
+		"file_name": "bug-1146/GPSTest/src/main/java/com/android/gpstest/GpsStatusFragment.java",
+		"method_name": "private void setStarted(boolean navigating)",
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["10d9b669a82be62567800864398a28bb4be95859"],
+		"file_name": "bug-1146/GPSTest/src/main/java/com/android/gpstest/GpsStatusFragment.java",
+		"method_name": "private void updateFilterView()",
+		"line_numbers": ["781"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["dbb06acd3edde0d0411e12f7c8c113fe7ee59304"],
+		"file_name": "fix-1146/GPSTest/src/main/java/com/android/gpstest/GpsStatusFragment.java",
+		"method_name": "private void setStarted(boolean navigating)",
+		"line_numbers": ["291"]
+	},
+	{
+		"commit_ids": ["dbb06acd3edde0d0411e12f7c8c113fe7ee59304"],
+		"file_name": "fix-1146/GPSTest/src/main/java/com/android/gpstest/GpsStatusFragment.java",
+		"method_name": "private void updateFilterView()",
+		"line_numbers": ["782"]
+	}],
+	"unit_test_changes": null
+}

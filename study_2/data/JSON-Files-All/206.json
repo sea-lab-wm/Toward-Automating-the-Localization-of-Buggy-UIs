@@ -1,0 +1,31 @@
+{
+	"id": "206",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["d1c31033366ae7044e4b115b9ac021060660ef18"],
+		"file_name": "bug-206/app/src/main/java/org/gnucash/android/ui/settings/BookManagerFragment.java",
+		"method_name": "public void bindView(View view, final Context context, Cursor cursor)",
+		"line_numbers": ["163"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["1c5f928c73b4649efdf9016fa76afeac84c38c73"],
+		"file_name": "fix-206/app/src/main/java/org/gnucash/android/ui/settings/BookManagerFragment.java",
+		"method_name": null,
+		"line_numbers": ["57"]
+	},
+	{
+		"commit_ids": ["1c5f928c73b4649efdf9016fa76afeac84c38c73"],
+		"file_name": "fix-206/app/src/main/java/org/gnucash/android/ui/settings/BookManagerFragment.java",
+		"method_name": "public void bindView(View view, final Context context, Cursor cursor)",
+		"line_numbers": ["164", "166-169"]
+	},
+	{
+		"commit_ids": ["1c5f928c73b4649efdf9016fa76afeac84c38c73"],
+		"file_name": "fix-206/app/src/main/res/values/strings.xml",
+		"method_name": "",
+		"line_numbers": ["489"]
+	}],
+	"unit_test_changes": null
+}

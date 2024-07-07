@@ -1,0 +1,1 @@
+Crash on fast multiple clicks on Play/Stop button

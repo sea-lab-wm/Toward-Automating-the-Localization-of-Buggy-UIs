@@ -1,0 +1,1 @@
+2.4.0 won't open to GUI with wifi enabled: "A network error occurred"

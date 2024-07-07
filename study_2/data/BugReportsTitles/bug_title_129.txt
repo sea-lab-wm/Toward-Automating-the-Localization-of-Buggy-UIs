@@ -1,0 +1,1 @@
+App crashes if incorrect secret is entered

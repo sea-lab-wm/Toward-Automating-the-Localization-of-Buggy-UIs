@@ -1,0 +1,1 @@
+[BUG] Categories are displayed off the screen

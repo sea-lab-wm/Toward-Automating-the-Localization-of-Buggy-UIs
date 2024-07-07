@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bar Chart -->
+    <integer name="max_bar_count_on_screen">15</integer>
+    <integer name="max_horizontal_bar_count_on_screen">10</integer>
+
+
+    <!-- Pie Chart -->
+    <integer name="pie_min_percent">3</integer>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.EditText" parent="Widget.AppCompat.EditText" />
+
+    <style name="AppTheme.EditText.ReadOnly" parent="AppTheme.EditText">
+        <item name="android:cursorVisible">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+    </style>
+
+    <style name="AppTheme.EditText.Clearable" parent="AppTheme.EditText.ReadOnly" />
+</resources>

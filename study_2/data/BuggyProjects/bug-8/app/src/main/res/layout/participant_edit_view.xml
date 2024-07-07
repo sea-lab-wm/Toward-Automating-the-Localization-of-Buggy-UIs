@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/create_trip_view_tableLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp" >
+
+    <TextView
+        android:id="@+id/editParticipantView_label_name_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/participant_edit_view_label_name" />
+
+    <AutoCompleteTextView
+        android:id="@+id/editParticipantView_autocomplete_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editParticipantView_label_name_input"
+        android:inputType="text" />
+
+    <View
+        android:id="@+id/editParticipantView_button_spacer"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/editParticipantView_autocomplete_name" />
+
+
+
+    <TextView
+        android:id="@+id/editParticipantView_label_already_created"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editParticipantView_button_spacer"
+        android:text="@string/participant_edit_view_label_already_created"
+        android:visibility="invisible" />
+
+    <ListView
+        android:id="@+id/editParticipantViewListViewAlreadyCreated"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/editParticipantView_label_already_created"
+        android:clickable="false"
+        android:focusable="false"
+        android:visibility="invisible" >
+    </ListView>
+
+</RelativeLayout>

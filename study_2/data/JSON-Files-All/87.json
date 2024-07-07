@@ -1,0 +1,21 @@
+{
+    "id": "87",
+    "confidence_level": "confident",
+    "bug_location": [
+        {
+            "commit_ids": [
+                "b3ac85d833a22579806bf4c9e7fbe7463fe473fd"
+            ],
+            "file_name": "bug-87/ultrasonic/src/main/java/org/moire/ultrasonic/util/BackgroundTask.java"
+        }
+    ],
+    "fix_location": [
+        {
+            "commit_ids": [
+                "17eb92c71bffef0d072813c9d7d2465d5da3f260"
+            ],
+            "file_name": "bug-87/ultrasonic/src/main/java/org/moire/ultrasonic/util/BackgroundTask.java"
+        }
+    ],
+    "unit_test_changes": null
+}

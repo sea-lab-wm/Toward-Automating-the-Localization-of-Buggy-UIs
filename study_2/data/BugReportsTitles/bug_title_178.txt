@@ -1,0 +1,1 @@
+Android 4.4.2/ Samsung GT-N7100: Crashes on start.

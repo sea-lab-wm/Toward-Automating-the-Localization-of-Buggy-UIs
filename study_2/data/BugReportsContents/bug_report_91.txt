@@ -1,0 +1,10 @@
+Cannot enter any text in the SSID Filter field.
+
+Steps:
+1. Click on Filter icon.
+2. Click/tap on SSID Filter text field.
+
+Keyboard does not pop up.
+
+Expected Behaviour:
+Should display keyboard and allow you to enter SSID filter text.

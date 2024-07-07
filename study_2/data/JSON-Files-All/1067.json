@@ -1,0 +1,19 @@
+{
+	"id": "1067",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["9e11cc15cc6f7c8636f4fd3e0f9e8578811949d9"],
+		"file_name": "bug-1067/app/src/main/res/xml/mozilla_settings.xml",
+		"method_name": null,
+		"line_numbers": null
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["d7db1d15497a0fb82c5fdabd5082fd8275e23a3d"],
+		"file_name": "fix-1067/app/src/main/res/xml/mozilla_settings.xml",
+		"method_name": null,
+		"line_numbers": ["12"]
+	}],
+	"unit_test_changes": null
+}

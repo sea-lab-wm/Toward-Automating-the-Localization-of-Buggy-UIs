@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".core.activity.EntityActivity">
+
+    <group android:id="@+id/action_add_entries">
+
+    </group>
+
+</menu>

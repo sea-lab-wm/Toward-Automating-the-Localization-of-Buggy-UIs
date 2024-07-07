@@ -1,0 +1,19 @@
+{
+  "id": "91",
+  "confidence_level": "confident",
+  "bug_location": [
+  {
+    "commit_ids": ["b5433c0e9a7e86f234915d409abe2d46c62363bb"],
+    "file_name": "bug-91/app/src/main/res/layout/filter_ssid.xml",
+    "method_name": null,
+    "line_numbers": ["35"]
+  },
+  {
+    "commit_ids": ["b5433c0e9a7e86f234915d409abe2d46c62363bb"],
+    "file_name": "bug-91/app/src/main/res/layout/vendor_content.xml",
+    "method_name": null,
+    "line_numbers": ["27"]
+  }],
+  "fix_location": [],
+  "unit_test_changes": null
+}

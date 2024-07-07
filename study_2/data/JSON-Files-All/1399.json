@@ -1,0 +1,43 @@
+{
+	"id": "1399",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["f3ce21b65e257a7349171b3324f4d0417936186f"],
+		"file_name": "bug-1399/app/src/main/java/org/fossasia/phimpme/gallery/activities/SettingsActivity.java",
+		"method_name": null,
+		"line_numbers": ["8", "45", "48"]
+	},
+	{
+		"commit_ids": ["f3ce21b65e257a7349171b3324f4d0417936186f"],
+		"file_name": "bug-1399/app/src/main/java/org/fossasia/phimpme/gallery/activities/SettingsActivity.java",
+		"method_name": "protected void onPostCreate(Bundle savedInstanceState)",
+		"line_numbers": ["134"]
+	},
+	{
+		"commit_ids": ["f3ce21b65e257a7349171b3324f4d0417936186f"],
+		"file_name": "bug-1399/app/src/main/java/org/fossasia/phimpme/gallery/activities/SettingsActivity.java",
+		"method_name": "private void openDialog(final Context context)",
+		"line_numbers": ["1110-1135"]
+	},
+	{
+		"commit_ids": ["f3ce21b65e257a7349171b3324f4d0417936186f"],
+		"file_name": "bug-1399/app/src/main/java/org/fossasia/phimpme/gallery/activities/SettingsActivity.java",
+		"method_name": "private void openCameraSetting(final Context context)",
+		"line_numbers": ["1136-1146"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["1afbc68e6f2876627257160b32155274757dfc9f"],
+		"file_name": "fix-1399/app/src/main/java/org/fossasia/phimpme/gallery/activities/SettingsActivity.java",
+		"method_name": "protected void onPostCreate(Bundle savedInstanceState)",
+		"line_numbers": ["112"]
+	},
+	{
+		"commit_ids": ["1afbc68e6f2876627257160b32155274757dfc9f"],
+		"file_name": "fix-1399/app/src/main/java/org/fossasia/phimpme/gallery/activities/SettingsActivity.java",
+		"method_name": "private void openCameraSetting()",
+		"line_numbers": ["1241-1250"]
+	}],
+	"unit_test_changes": null
+}

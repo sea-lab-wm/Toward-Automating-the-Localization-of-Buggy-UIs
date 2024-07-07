@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/windowBackground"
+    android:fitsSystemWindows="true"
+    tools:context="org.shadowice.flocke.andotp.Activities.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <RelativeLayout
+            android:gravity="top"
+            android:background="?attr/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:navigationIcon="?homeAsUpIndicator"
+                app:popupTheme="?attr/actionBarPopupTheme" />
+
+            <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/toolbar"
+                android:max="3000"
+                android:progress="1500"
+                app:mpb_progressStyle="horizontal"
+                app:mpb_useIntrinsicPadding="false"
+                app:mpb_showProgressBackground="false"
+                style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal.NoPadding" />
+
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+        <android.support.v4.widget.DrawerLayout
+            android:id="@+id/drawer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/cardList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:paddingStart="@dimen/activity_margin_small"
+                android:paddingEnd="@dimen/activity_margin_small"
+                android:paddingTop="@dimen/activity_margin_xsmall"
+                android:paddingBottom="@dimen/fab_recyclerview_padding"
+                android:clipToPadding="false" />
+
+            <include layout="@layout/component_tags" />
+
+        </android.support.v4.widget.DrawerLayout>
+
+    </RelativeLayout>
+
+    <com.leinardi.android.speeddial.SpeedDialOverlayLayout
+        android:id="@+id/speedDialOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.leinardi.android.speeddial.SpeedDialView
+        android:id="@+id/speedDial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:sdMainFabClosedSrc="@drawable/ic_add_white"
+        app:sdOverlayLayout="@id/speedDialOverlay" />
+
+</android.support.design.widget.CoordinatorLayout>

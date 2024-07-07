@@ -1,0 +1,55 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion setup.compileSdk
+    buildToolsVersion setup.buildTools
+
+    defaultConfig {
+        minSdkVersion setup.minSdk
+        targetSdkVersion setup.targetSdk
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            zipAlignEnabled true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            versionNameSuffix "-DEBUG"
+            minifyEnabled false
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    lintOptions {
+        abortOnError false
+        disable 'InvalidPackage'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    // support libraries
+    implementation "com.android.support:support-v4:${versions.supportLib}"
+    implementation "com.android.support:appcompat-v7:${versions.supportLib}"
+    implementation "com.android.support:gridlayout-v7:${versions.supportLib}"
+    implementation "com.android.support:design:${versions.supportLib}"
+    // java.time
+    implementation "com.jakewharton.threetenabp:threetenabp:${versions.timeLib}"
+    // java 8 streams
+    implementation "com.annimon:stream:${versions.streamLib}"
+    // icons
+    implementation "com.mikepenz:iconics-core:${versions.iconicsLib}"
+    implementation "com.mikepenz:iconics-views:${versions.iconicsLib}"
+    testImplementation 'junit:junit:4.12'
+}

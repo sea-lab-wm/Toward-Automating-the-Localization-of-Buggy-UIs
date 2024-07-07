@@ -1,0 +1,19 @@
+{
+	"id": "1033",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["c93073fd41e00ad470d0d599518c7bdb1b98c000"],
+		"file_name": "bug-1033/AnkiDroid/src/main/res/values/constants.xml",
+		"method_name": null,
+		"line_numbers": ["151"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["d7c248ae30078e3b7b4bf29bad922d2dbba422a1"],
+		"file_name": "fix-1033/AnkiDroid/src/main/res/values/constants.xml",
+		"method_name": null,
+		"line_numbers": ["151"]
+	}],
+	"unit_test_changes": null
+}

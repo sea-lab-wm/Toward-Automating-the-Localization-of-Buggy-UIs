@@ -1,0 +1,21 @@
+{
+    "id": "1028",
+    "confidence_level": "confident",
+    "bug_location": [
+        {
+            "commit_ids": [
+                "c29342a66d365e63f416e344e5c8961d291160e1"
+            ],
+            "file_name": "bug-1028/AnkiDroid/src/main/java/com/ichi2/anki/web/HttpFetcher.java"
+        }
+    ],
+    "fix_location": [
+        {
+            "commit_ids": [
+                "ece3c3e134db5377f5c9c754077868d2618e61df"
+            ],
+            "file_name": "bug-1028/AnkiDroid/src/main/java/com/ichi2/anki/web/HttpFetcher.java"
+        }
+    ],
+    "unit_test_changes": null
+}

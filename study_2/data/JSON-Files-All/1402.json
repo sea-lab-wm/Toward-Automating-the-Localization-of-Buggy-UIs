@@ -1,0 +1,33 @@
+{
+    "id": "1402",
+    "confidence_level": "confident",
+    "bug_location": [
+        {
+            "commit_ids": [
+                "4f032f1305d2040c070c857a940240c0ad1bf9d2"
+            ],
+            "file_name": "bug-1402/app/src/main/java/org/fossasia/phimpme/MyApplication.java"
+        },
+        {
+            "commit_ids": [
+                "4f032f1305d2040c070c857a940240c0ad1bf9d2"
+            ],
+            "file_name": "bug-1402/app/src/main/java/org/fossasia/phimpme/share/SharingActivity.java"
+        }
+    ],
+    "fix_location": [
+        {
+            "commit_ids": [
+                "9749074706f80d2c28da59e623395acfdb4a62ee"
+            ],
+            "file_name": "bug-1402/app/src/main/java/org/fossasia/phimpme/MyApplication.java"
+        },
+        {
+            "commit_ids": [
+                "9749074706f80d2c28da59e623395acfdb4a62ee"
+            ],
+            "file_name": "bug-1402/app/src/main/java/org/fossasia/phimpme/share/SharingActivity.java"
+        }
+    ],
+    "unit_test_changes": null
+}

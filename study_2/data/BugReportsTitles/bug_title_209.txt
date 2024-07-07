@@ -1,0 +1,1 @@
+Bug: Long pressing the amount input brings up QWERTY keyboard

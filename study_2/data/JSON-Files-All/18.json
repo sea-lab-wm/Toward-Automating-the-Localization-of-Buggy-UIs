@@ -1,0 +1,79 @@
+{
+	"id": "18",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+    "commit_ids": ["6f0dcf6070cd132eba51824ebbfa743eb22b0568"],
+    "file_name": "bug-18/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/MedicineCreateOrEditFragment.java",
+    "method_name": "void showStockDialog(int ref)",
+    "line_numbers": ["486"]
+  },
+  {
+    "commit_ids": ["6f0dcf6070cd132eba51824ebbfa743eb22b0568"],
+    "file_name": "bug-18/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/RoutineCreateOrEditFragment.java",
+    "method_name": "public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)",
+    "line_numbers": ["122"]
+  },
+	{
+    "commit_ids": ["6f0dcf6070cd132eba51824ebbfa743eb22b0568"],
+    "file_name": "bug-18/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/ScheduleTimetableFragment.java",
+    "method_name": "void setupHourlyRepetitionListeners()",
+    "line_numbers": ["314"]
+  },
+  {
+    "commit_ids": ["6f0dcf6070cd132eba51824ebbfa743eb22b0568"],
+    "file_name": "bug-18/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/ScheduleTimetableFragment.java",
+    "method_name": "void showIntervalPickerDIalog()",
+    "line_numbers": ["542"]
+  },
+  {
+    "commit_ids": ["6f0dcf6070cd132eba51824ebbfa743eb22b0568"],
+    "file_name": "bug-18/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/ScheduleTimetableFragment.java",
+    "method_name": "void showRecurrencePickerDialog()",
+    "line_numbers": ["595"]
+  },
+  {
+    "commit_ids": ["6f0dcf6070cd132eba51824ebbfa743eb22b0568"],
+    "file_name": "bug-18/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/ScheduleTimetableFragment.java",
+    "method_name": "private void updatePeriodSelector() ",
+    "line_numbers": ["1021, 1037"]
+  }],
+	"fix_location": [
+	{
+    "commit_ids": ["ca4d7b6c9d24bfc99adefab2060edadf06d4e7c7"],
+    "file_name": "fix-18/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/MedicineCreateOrEditFragment.java",
+    "method_name": "void showStockDialog(int ref)",
+    "line_numbers": ["486"]
+  },
+  {
+    "commit_ids": ["ca4d7b6c9d24bfc99adefab2060edadf06d4e7c7"],
+    "file_name": "fix-18/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/RoutineCreateOrEditFragment.java",
+    "method_name": "public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)",
+    "line_numbers": ["122"]
+  },
+	{
+    "commit_ids": ["ca4d7b6c9d24bfc99adefab2060edadf06d4e7c7"],
+    "file_name": "fix-18/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/ScheduleTimetableFragment.java",
+    "method_name": "void setupHourlyRepetitionListeners()",
+    "line_numbers": ["314"]
+  },
+  {
+    "commit_ids": ["ca4d7b6c9d24bfc99adefab2060edadf06d4e7c7"],
+    "file_name": "fix-18/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/ScheduleTimetableFragment.java",
+    "method_name": "void showIntervalPickerDIalog()",
+    "line_numbers": ["542"]
+  },
+  {
+    "commit_ids": ["ca4d7b6c9d24bfc99adefab2060edadf06d4e7c7"],
+    "file_name": "fix-18/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/ScheduleTimetableFragment.java",
+    "method_name": "void showRecurrencePickerDialog()",
+    "line_numbers": ["595"]
+  },
+  {
+    "commit_ids": ["ca4d7b6c9d24bfc99adefab2060edadf06d4e7c7"],
+    "file_name": "fix-18/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/ScheduleTimetableFragment.java",
+    "method_name": "private void updatePeriodSelector() ",
+    "line_numbers": ["1021, 1037"]
+  }],
+	"unit_test_changes": null
+}

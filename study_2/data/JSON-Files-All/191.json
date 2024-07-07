@@ -1,0 +1,37 @@
+{
+	"id": "191",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["6e925f1e60796c2f1623a1514e9d9192ab3bfd1e"],
+		"file_name": "bug-191/app/src/main/java/ch/logixisland/anuto/view/game/TowerView.java",
+		"method_name": "public boolean onTouch(View view, MotionEvent event)",
+		"line_numbers": [""]
+	},
+	{
+		"commit_ids": ["6e925f1e60796c2f1623a1514e9d9192ab3bfd1e"],
+		"file_name": "bug-191/app/src/main/java/ch/logixisland/anuto/business/control/TowerInserter.java",
+		"method_name": "public void insertTower(final String towerName)",
+		"line_numbers": ["49"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["a6fc9f9d531a6ee4f301eab486d3fd1537efa5d8"],
+		"file_name": "fix-191/app/src/main/java/ch/logixisland/anuto/view/game/TowerView.java",
+		"method_name": "public boolean onTouch(View view, MotionEvent event)",
+		"line_numbers": ["125"]
+	},
+	{
+		"commit_ids": ["a6fc9f9d531a6ee4f301eab486d3fd1537efa5d8"],
+		"file_name": "fix-191/app/src/main/java/ch/logixisland/anuto/entity/tower/TowerFactory.java",
+		"method_name": "public int getTowerValue(String name)",
+		"line_numbers": ["37-40"]
+	},
+	{
+		"commit_ids": ["a6fc9f9d531a6ee4f301eab486d3fd1537efa5d8"],
+		"file_name": "fix-191/app/src/main/java/ch/logixisland/anuto/business/control/TowerInserter.java",
+		"method_name": "public void insertTower(final String towerName)",
+		"line_numbers": ["49-50"]
+	}],
+	"unit_test_changes": null
+}

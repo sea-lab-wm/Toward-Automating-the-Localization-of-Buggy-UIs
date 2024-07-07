@@ -1,0 +1,95 @@
+apply plugin: 'com.android.application'
+
+def getCmdOutput = { cmd ->
+    def stdout = new ByteArrayOutputStream()
+    exec {
+        commandLine cmd
+        standardOutput = stdout
+    }
+    return stdout.toString().trim()
+}
+
+def getGitHash = { -> return getCmdOutput(["git", "rev-parse", "--short", "HEAD"]) }
+def getGitBranch = { -> return getCmdOutput(["git", "rev-parse", "--abbrev-ref", "HEAD"]) }
+
+android {
+    compileSdkVersion 29
+
+    defaultConfig {
+        applicationId "com.beemdevelopment.aegis"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 25
+        versionName "1.1.1"
+        buildConfigField "String", "GIT_HASH", "\"${getGitHash()}\""
+        buildConfigField "String", "GIT_BRANCH", "\"${getGitBranch()}\""
+    }
+
+    lintOptions {
+        abortOnError true
+        disable "MissingTranslation"
+    }
+
+    testOptions {
+        unitTests.all {
+            useJUnitPlatform()
+
+            ignoreFailures false
+            testLogging {
+                events "passed", "skipped", "failed", "standardOut", "standardError"
+            }
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            applicationIdSuffix ".debug"
+            manifestPlaceholders = [title: "AegisDev", iconName: "ic_launcher_debug"]
+            resValue "bool", "pref_secure_screen_default", "false"
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            manifestPlaceholders = [title: "Aegis", iconName: "ic_launcher"]
+            resValue "bool", "pref_secure_screen_default", "true"
+        }
+    }
+
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+}
+
+dependencies {
+    def libsuVersion = '2.5.1'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation "androidx.biometric:biometric:1.0.1"
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.preference:preference:1.1.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.getbase:floatingactionbutton:1.10.1'
+    implementation 'com.github.apl-devs:appintro:5.1.0'
+    implementation 'com.github.avito-tech:krop:0.44'
+    implementation 'com.madgag.spongycastle:core:1.58.0.0'
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
+    implementation 'me.dm7.barcodescanner:zxing:1.9.8'
+    implementation "com.github.topjohnwu.libsu:core:${libsuVersion}"
+    implementation "com.github.topjohnwu.libsu:io:${libsuVersion}"
+    implementation 'com.github.bumptech.glide:annotations:4.10.0'
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
+    implementation "com.mikepenz:iconics-core:3.2.5"
+    implementation 'com.mikepenz:material-design-iconic-typeface:2.2.0.5@aar'
+    implementation 'de.psdev.licensesdialog:licensesdialog:2.1.0'
+    implementation("com.github.bumptech.glide:recyclerview-integration:4.9.0") {
+        transitive = false
+    }
+    annotationProcessor 'androidx.annotation:annotation:1.1.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.5.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.5.2'
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.beemdevelopment.aegis">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+
+    <application
+        android:name=".AegisApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/${iconName}"
+        android:label="Aegis"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:theme">
+        <activity
+            android:name=".ui.AboutActivity"
+            android:label="@string/title_activity_about" />
+        <activity
+            android:name=".ui.SelectEntriesActivity"
+            android:label="Select entries" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:label="${title}"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="otpauth" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.ScannerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Scan a QR code"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.EditEntryActivity"
+            android:label="Edit profile" />
+        <activity
+            android:name=".ui.IntroActivity"
+            android:theme="@style/Theme.Intro" />
+        <activity android:name=".ui.AuthActivity" />
+        <activity android:name=".ui.PreferencesActivity" />
+        <activity
+            android:name=".ui.SlotManagerActivity"
+            android:label="Manage key slots" />
+        <activity
+            android:name=".ui.GroupManagerActivity"
+            android:label="Manage groups" />
+
+        <service android:name=".services.NotificationService" />
+    </application>
+
+</manifest>

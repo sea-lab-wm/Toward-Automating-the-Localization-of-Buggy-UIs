@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/dashboard_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:orientation="vertical"
+        tools:context=".business.dashboard.activity.DashboardActivity">
+
+        <com.mikepenz.iconics.view.IconicsButton
+            android:id="@+id/backup_database_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/backup_database"
+            app:iiv_start_icon="faw_download"
+            app:iiv_start_size="@dimen/button_icon_size"/>
+
+        <com.mikepenz.iconics.view.IconicsButton
+            android:id="@+id/restore_database_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/restore_database"
+            app:iiv_start_icon="cmd_backup_restore"
+            app:iiv_start_size="@dimen/button_icon_size"/>
+
+        <com.mikepenz.iconics.view.IconicsButton
+            android:id="@+id/backup_shared_prefs_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/backup_shared_prefs"
+            app:iiv_start_icon="faw_download"
+            app:iiv_start_size="@dimen/button_icon_size"/>
+
+        <com.mikepenz.iconics.view.IconicsButton
+            android:id="@+id/restore_shared_prefs_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/restore_shared_prefs"
+            app:iiv_start_icon="cmd_backup_restore"
+            app:iiv_start_size="@dimen/button_icon_size"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

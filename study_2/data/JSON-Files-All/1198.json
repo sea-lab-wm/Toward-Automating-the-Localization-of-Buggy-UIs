@@ -1,0 +1,25 @@
+{
+  "id": "1198",
+  "confidence_level": "confident",
+  "bug_location": [
+  {
+    "commit_ids": ["e5ec9ddbf335cffb226f4d82fac4f48b6c756667"],
+    "file_name": "bug-1198/app/src/main/java/swati4star/createpdf/adapter/ViewFilesAdapter.java",
+    "method_name": "public void onBindViewHolder(@NonNull ViewFilesHolder holder, int position)",
+    "line_numbers": null
+  }],
+  "fix_location": [
+  {
+    "commit_ids": ["f724326e0d9b141847ac5744fb29788789c8f227"],
+    "file_name": "fix-1198/app/src/main/java/swati4star/createpdf/adapter/ViewFilesAdapter.java",
+    "method_name": "public void onBindViewHolder(@NonNull ViewFilesHolder holder, int position)",
+    "line_numbers": ["143"]
+  },
+  {
+    "commit_ids": ["f724326e0d9b141847ac5744fb29788789c8f227"],
+    "file_name": "fix-1198/app/src/main/java/swati4star/createpdf/util/PDFUtils.java",
+    "method_name": null,
+    "line_numbers": null
+  }],
+  "unit_test_changes": null
+}

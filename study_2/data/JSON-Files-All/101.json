@@ -1,0 +1,31 @@
+{
+	"id": "101",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["4ef81ae0d68bd3f062f4c763f9653300bc3ef2f1"],
+		"file_name": "bug-101/OpenStreetMapViewer/src/main/java/org/osmdroid/PreferenceActivity.java",
+		"method_name": "private void showPickCacheFromList(final TextView tv, final String  postfix)",
+		"line_numbers": ["384"]
+	},
+    {
+		"commit_ids": ["4ef81ae0d68bd3f062f4c763f9653300bc3ef2f1"],
+		"file_name": "bug-101/OpenStreetMapViewer/src/main/java/org/osmdroid/intro/StoragePreferenceFragment.java",
+		"method_name": "private void showPickCacheFromList()",
+		"line_numbers": ["143"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["1790711cc0cf43e92c5eb999c06a81beacb91891"],
+		"file_name": "fix-101/OpenStreetMapViewer/src/main/java/org/osmdroid/PreferenceActivity.java",
+		"method_name": "private void showPickCacheFromList(final TextView tv, final String  postfix)",
+		"line_numbers": ["384"]
+	},
+    {
+		"commit_ids": ["1790711cc0cf43e92c5eb999c06a81beacb91891"],
+		"file_name": "fix-101/OpenStreetMapViewer/src/main/java/org/osmdroid/intro/StoragePreferenceFragment.java",
+		"method_name": "private void showPickCacheFromList()",
+		"line_numbers": ["143"]
+	}],
+	"unit_test_changes": null
+}

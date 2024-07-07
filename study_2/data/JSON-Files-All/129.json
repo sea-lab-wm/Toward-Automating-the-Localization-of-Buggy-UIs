@@ -1,0 +1,31 @@
+{
+	"id": "129",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["b8b9834f06cf28686be5874923607f677b094df6"],
+		"file_name": "bug-129/app/src/main/java/org/shadowice/flocke/andotp/Dialogs/ManualEntryDialog.java",
+		"method_name": "public static void show(final MainActivity callingActivity, Settings settings, final EntriesCardAdapter adapter)",
+		"line_numbers": ["195-225"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["57ab645314f6d760beb3eb9bbd9cca5b7517a0e4"],
+		"file_name": "fix-129/app/src/main/java/org/shadowice/flocke/andotp/Dialogs/ManualEntryDialog.java",
+		"method_name": "public static void show(final MainActivity callingActivity, Settings settings, final EntriesCardAdapter adapter, Entry oldEntry)",
+		"line_numbers": ["59-62", "64", "197", "208-264"]
+	},
+	{
+		"commit_ids": ["57ab645314f6d760beb3eb9bbd9cca5b7517a0e4"],
+		"file_name": "fix-129/app/src/main/java/org/shadowice/flocke/andotp/Database/Entry.java",
+		"method_name": "public static boolean validateSecret(String secret)",
+		"line_numbers": ["527-535"]
+	},
+	{
+		"commit_ids": ["57ab645314f6d760beb3eb9bbd9cca5b7517a0e4"],
+		"file_name": "fix-129/app/src/main/res/values/strings_main.xml",
+		"method_name": null,
+		"line_numbers": ["76-77"]
+	}],
+	"unit_test_changes": null
+}

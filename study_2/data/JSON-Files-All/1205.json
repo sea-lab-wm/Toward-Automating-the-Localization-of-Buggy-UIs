@@ -1,0 +1,229 @@
+{
+	"id": "1205",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["e81f8075d2616e24489ae64233f90a07409c2ddb"],
+		"file_name": "bug-1205/app/src/main/java/swati4star/createpdf/activity/MainActivity.java",
+		"method_name": "public void onBackPressed()",
+		"line_numbers": ["268", "270", "272", "275"]
+	},
+	{
+		"commit_ids": ["e81f8075d2616e24489ae64233f90a07409c2ddb"],
+		"file_name": "bug-1205/app/src/main/java/swati4star/createpdf/fragment/AddImagesFragment.java",
+		"method_name": null,
+		"line_numbers": ["57"]
+	},
+	{
+		"commit_ids": ["e81f8075d2616e24489ae64233f90a07409c2ddb"],
+		"file_name": "bug-1205/app/src/main/java/swati4star/createpdf/fragment/InvertPdfFragment.java",
+		"method_name": null,
+		"line_numbers": ["50"]
+	},
+	{
+		"commit_ids": ["e81f8075d2616e24489ae64233f90a07409c2ddb"],
+		"file_name": "bug-1205/app/src/main/java/swati4star/createpdf/fragment/MergeFilesFragment.java",
+		"method_name": null,
+		"line_numbers": ["70"]
+	},
+	{
+		"commit_ids": ["e81f8075d2616e24489ae64233f90a07409c2ddb"],
+		"file_name": "bug-1205/app/src/main/java/swati4star/createpdf/fragment/PdfToImageFragment.java",
+		"method_name": null,
+		"line_numbers": ["53"]
+	},
+	{
+		"commit_ids": ["e81f8075d2616e24489ae64233f90a07409c2ddb"],
+		"file_name": "bug-1205/app/src/main/java/swati4star/createpdf/fragment/RemoveDuplicatePagesFragment.java",
+		"method_name": null,
+		"line_numbers": ["49"]
+	},
+	{
+		"commit_ids": ["e81f8075d2616e24489ae64233f90a07409c2ddb"],
+		"file_name": "bug-1205/app/src/main/java/swati4star/createpdf/fragment/RemovePagesFragment.java",
+		"method_name": null,
+		"line_numbers": ["68"]
+	},
+	{
+		"commit_ids": ["e81f8075d2616e24489ae64233f90a07409c2ddb"],
+		"file_name": "bug-1205/app/src/main/java/swati4star/createpdf/fragment/SplitFilesFragment.java",
+		"method_name": null,
+		"line_numbers": ["52"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/activity/MainActivity.java",
+		"method_name": "",
+		"line_numbers": ["78"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/activity/MainActivity.java",
+		"method_name": "public void onBackPressed()",
+		"line_numbers": ["285", "287", "289-291", "294"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/activity/MainActivity.java",
+		"method_name": "public boolean checkFragmentBottomSheetBehavior()",
+		"line_numbers": ["299-322"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/activity/MainActivity.java",
+		"method_name": "private void closeFragmentBottomSheet()",
+		"line_numbers": ["324-346"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/fragment/AddImagesFragment.java",
+		"method_name": null,
+		"line_numbers": ["39", "47-48", "60-61"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/fragment/AddImagesFragment.java",
+		"method_name": "public void closeBottomSheet()",
+		"line_numbers": ["286-289"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/fragment/AddImagesFragment.java",
+		"method_name": "public boolean checkSheetBehaviour()",
+		"line_numbers": ["291-294"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/fragment/InvertPdfFragment.java",
+		"method_name": null,
+		"line_numbers": ["34", "45-46", "52"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/fragment/InvertPdfFragment.java",
+		"method_name": "public void closeBottomSheet()",
+		"line_numbers": ["202-204"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/fragment/InvertPdfFragment.java",
+		"method_name": "public boolean checkSheetBehaviour()",
+		"line_numbers": ["206-208"]
+	},
+		{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/fragment/MergeFilesFragment.java",
+		"method_name": null,
+		"line_numbers": ["46", "59-60", "73-74"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/fragment/MergeFilesFragment.java",
+		"method_name": "public void closeBottomSheet()",
+		"line_numbers": ["395-398"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/fragment/MergeFilesFragment.java",
+		"method_name": "public boolean checkSheetBehaviour()",
+		"line_numbers": ["400-403"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/fragment/PdfToImageFragment.java",
+		"method_name": null,
+		"line_numbers": ["37", "48-49", "56"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/fragment/PdfToImageFragment.java",
+		"method_name": "public void closeBottomSheet()",
+		"line_numbers": ["279-282"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/fragment/PdfToImageFragment.java",
+		"method_name": "public boolean checkSheetBehaviour()",
+		"line_numbers": ["284-287"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/fragment/RemoveDuplicatePagesFragment.java",
+		"method_name": null,
+		"line_numbers": ["34", "45-46", "52"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/fragment/RemoveDuplicatePagesFragment.java",
+		"method_name": "public void closeBottomSheet()",
+		"line_numbers": ["200-203"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/fragment/RemoveDuplicatePagesFragment.java",
+		"method_name": "public boolean checkSheetBehaviour()",
+		"line_numbers": ["205-208"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/fragment/RemovePagesFragment.java",
+		"method_name": null,
+		"line_numbers": ["42", "54-55", "71"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/fragment/RemovePagesFragment.java",
+		"method_name": "public void closeBottomSheet()",
+		"line_numbers": ["332-335"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/fragment/RemovePagesFragment.java",
+		"method_name": "public boolean checkSheetBehaviour()",
+		"line_numbers": ["337-340"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/fragment/SplitFilesFragment.java",
+		"method_name": null,
+		"line_numbers": ["36", "47-48", "54"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/fragment/SplitFilesFragment.java",
+		"method_name": "public void closeBottomSheet()",
+		"line_numbers": ["215-218"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/fragment/SplitFilesFragment.java",
+		"method_name": "public boolean checkSheetBehaviour()",
+		"line_numbers": ["220-223"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/interfaces/OnBackPressedInterface.java",
+		"method_name": null,
+		"line_numbers": []
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/util/CommonCodeUtils.java",
+		"method_name": null,
+		"line_numbers": ["4"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/util/CommonCodeUtils.java",
+		"method_name": "public static void closeBottomSheetUtil(BottomSheetBehavior sheetBehavior)",
+		"line_numbers": ["75-82"]
+	},
+	{
+		"commit_ids": ["3c254a78e67b0868ff864e32f5a85215f104ef11"],
+		"file_name": "fix-1205/app/src/main/java/swati4star/createpdf/util/CommonCodeUtils.java",
+		"method_name": "public static boolean checkSheetBehaviourUtil(BottomSheetBehavior sheetBehavior)",
+		"line_numbers": ["83-88"]
+	}],
+	"unit_test_changes": null
+}

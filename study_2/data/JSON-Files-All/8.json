@@ -1,0 +1,61 @@
+{
+	"id": "8",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["7ef227ada3454529c7def79e41f48f6fa7b7463c"],
+		"file_name": "bug-8/app/src/main/java/de/koelle/christian/trickytripper/TrickyTripperActivity.java",
+		"method_name": null,
+		"line_numbers": ["11", "48"]
+	},
+	{
+		"commit_ids": ["7ef227ada3454529c7def79e41f48f6fa7b7463c"],
+		"file_name": "bug-8/app/src/main/java/de/koelle/christian/trickytripper/TrickyTripperActivity.java",
+		"method_name": "public void setRunningActionMode(ActionMode actionMode)",
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["7ef227ada3454529c7def79e41f48f6fa7b7463c"],
+		"file_name": "bug-8/app/src/main/res/layout/tricky_tripper_main_view.xml",
+		"method_name": null,
+		"line_numbers": ["9", "26"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["f56d67621ac098be107a17b1ddae799545a9f156"],
+		"file_name": "fix-8/app/src/main/java/de/koelle/christian/common/widget/tab/BlockableViewPager.java",
+		"method_name": null,
+		"line_numbers": []
+	},
+	{
+		"commit_ids": ["f56d67621ac098be107a17b1ddae799545a9f156"],
+		"file_name": "fix-8/app/src/main/java/de/koelle/christian/trickytripper/TrickyTripperActivity.java",
+		"method_name": null,
+		"line_numbers": ["35", "49"]
+	},
+	{
+		"commit_ids": ["f56d67621ac098be107a17b1ddae799545a9f156"],
+		"file_name": "fix-8/app/src/main/java/de/koelle/christian/trickytripper/TrickyTripperActivity.java",
+		"method_name": "public void setRunningActionMode(ActionMode actionMode)",
+		"line_numbers": ["449"]
+	},
+	{
+		"commit_ids": ["f56d67621ac098be107a17b1ddae799545a9f156"],
+		"file_name": "fix-8/app/src/main/res/layout/tricky_tripper_main_view.xml",
+		"method_name": null,
+		"line_numbers": ["9", "26"]
+	},
+	{
+		"commit_ids": ["f56d67621ac098be107a17b1ddae799545a9f156"],
+		"file_name": "fix-8/app/src/main/res/raw-de/changelog.txt",
+		"method_name": null,
+		"line_numbers": ["35"]
+	},
+	{
+		"commit_ids": ["f56d67621ac098be107a17b1ddae799545a9f156"],
+		"file_name": "fix-8/app/src/main/res/raw/changelog.txt",
+		"method_name": null,
+		"line_numbers": ["34"]
+	}],	
+	"unit_test_changes": null
+}

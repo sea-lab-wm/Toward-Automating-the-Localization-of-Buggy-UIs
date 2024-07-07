@@ -1,0 +1,7 @@
+include ':library'
+include ':domain'
+include ':subsonic-api'
+include ':cache'
+include ':menudrawer'
+include ':pulltorefresh'
+include ':ultrasonic'

@@ -1,0 +1,55 @@
+{
+	"id": "54",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["1a5478a490eb569551f4e30f2d668e28a9f95559"],
+		"file_name": "bug-54/app/src/main/java/net/gsantner/markor/util/AppSettings.java",
+		"method_name": "public boolean isEditorHistoryEnabled()",
+		"line_numbers": ["307"]
+	},
+	{
+		"commit_ids": ["1a5478a490eb569551f4e30f2d668e28a9f95559"],
+		"file_name": "bug-54/app/src/main/res/values/string-not_translatable.xml",
+		"method_name": null,
+		"line_numbers": ["173"]
+	},
+	{
+		"commit_ids": ["1a5478a490eb569551f4e30f2d668e28a9f95559"],
+		"file_name": "bug-54/app/src/main/res/xml/preferences_master.xml",
+		"method_name": null,
+		"line_numbers": ["151"]
+	},
+	{
+		"commit_ids": ["1a5478a490eb569551f4e30f2d668e28a9f95559"],
+		"file_name": "bug-54/app/src/main/res/xml/preferences_master.xml",
+		"method_name": null,
+		"line_numbers": ["153"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["6eab51bb930dff6a04c97d96a52bfa692d608f34"],
+		"file_name": "fix-54/app/src/main/java/net/gsantner/markor/util/AppSettings.java",
+		"method_name": "public boolean isEditorHistoryEnabled()",
+		"line_numbers": ["307"]
+	},
+	{
+		"commit_ids": ["6eab51bb930dff6a04c97d96a52bfa692d608f34"],
+		"file_name": "fix-54/app/src/main/res/values/string-not_translatable.xml",
+		"method_name": null,
+		"line_numbers": ["173"]
+	},
+	{
+		"commit_ids": ["6eab51bb930dff6a04c97d96a52bfa692d608f34"],
+		"file_name": "fix-54/app/src/main/res/xml/preferences_master.xml",
+		"method_name": null,
+		"line_numbers": ["151"]
+	},
+	{
+		"commit_ids": ["6eab51bb930dff6a04c97d96a52bfa692d608f34"],
+		"file_name": "fix-54/app/src/main/res/xml/preferences_master.xml",
+		"method_name": null,
+		"line_numbers": ["153"]
+	}],
+	"unit_test_changes": null
+}

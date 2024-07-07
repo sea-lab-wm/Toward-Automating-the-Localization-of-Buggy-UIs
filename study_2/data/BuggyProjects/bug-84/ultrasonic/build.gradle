@@ -1,0 +1,95 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'jacoco-android'
+apply from: "../gradle_scripts/code_quality.gradle"
+
+android {
+    compileSdkVersion versions.compileSdk
+
+    defaultConfig {
+        applicationId "org.moire.ultrasonic"
+        versionCode versions.versionCode
+        versionName versions.versionName
+
+        minSdkVersion versions.minSdk
+        targetSdkVersion versions.targetSdk
+
+        resConfigs "en", "es", "fr", "hu", "pt", "pt-rBR"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'),
+                    'minify/proguard-main.pro',
+                    'minify/proguard-okhttp.pro',
+                    'minify/proguard-retrofit.pro',
+                    'minify/proguard-jackson.pro',
+                    'minify/proguard-kotlin-reflect.pro',
+                    'minify/proguard-kotlin.pro'
+        }
+        debug {
+            minifyEnabled false
+            testCoverageEnabled true
+            applicationIdSuffix ".debug"
+        }
+    }
+    sourceSets {
+        main.java.srcDirs += "${projectDir}/src/main/kotlin"
+        test.java.srcDirs += "${projectDir}/src/test/kotlin"
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+    }
+
+    lintOptions {
+        baselineFile file("lint-baseline.xml")
+        abortOnError true
+    }
+}
+
+dependencies {
+    implementation project(':menudrawer')
+    implementation project(':pulltorefresh')
+    implementation project(':library')
+    implementation project(':domain')
+    implementation project(':subsonic-api')
+    implementation project(':cache')
+
+    implementation androidSupport.support
+    implementation androidSupport.design
+
+    implementation other.kotlinStdlib
+
+    testImplementation other.kotlinReflect
+    testImplementation testing.junit
+    testImplementation testing.kotlinJunit
+    testImplementation testing.mockitoKotlin
+    testImplementation testing.kluent
+}
+
+// Excluding all non-kotlin classes
+ext {
+    jacocoExclude = [
+            '**/activity/**',
+            '**/audiofx/**',
+            '**/fragment/**',
+            '**/provider/**',
+            '**/receiver/**',
+            '**/service/**',
+            '**/Test/**',
+            '**/util/**',
+            '**/view/**',
+            '**/R$*.class',
+            '**/R.class',
+            '**/BuildConfig.class'
+    ]
+}
+jacocoAndroidUnitTestReport {
+    excludes += jacocoExclude
+}
+
+afterEvaluate {
+    testDebugUnitTest.finalizedBy jacocoTestDebugUnitTestReport
+}

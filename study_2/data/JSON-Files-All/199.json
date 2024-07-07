@@ -1,0 +1,19 @@
+{
+  "id": "199",
+  "confidence_level": "confident",
+  "bug_location": [
+  {
+    "commit_ids": ["64d685e530715186fdb4cfecfce01ee79328f166"],
+    "file_name": "bug-199/iNaturalist/src/main/java/org/inaturalist/android/ObservationListActivity.java",
+    "method_name": "private void triggerSyncIfNeeded()",
+    "line_numbers": ["522-526","533-534"]
+  }],
+  "fix_location": [
+  {
+    "commit_ids": ["93dea5f8160a3d72964fecc9e9fc904bdea6bae4"],
+    "file_name": "fix-199/iNaturalist/src/main/java/org/inaturalist/android/ObservationListActivity.java",
+    "method_name": "private void triggerSyncIfNeeded()",
+    "line_numbers": ["406","412"]
+  }],
+  "unit_test_changes": null
+}

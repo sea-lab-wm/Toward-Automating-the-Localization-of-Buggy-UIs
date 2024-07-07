@@ -1,0 +1,60 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext {
+        setup = [
+                compileSdk: 28,
+                buildTools: '28.0.3',
+                minSdk    : 15,
+                targetSdk : 28
+        ]
+        versions = [
+                supportLib: '28.0.0',
+                multidexLib: '1.0.3',
+                requeryLib: '1.5.1',
+                sqliteAndroidLib: '3.23.1',
+                rxJavaLib: '2.2.2',
+                rxAndroidLib: '2.1.0',
+                iconicsLib: '3.0.4@aar',
+                materialDesignTypeface: '2.2.0.4@aar',
+                fontawesomeTypeface: '5.0.13.0@aar',
+                communityMaterialTypeface: '2.0.46.1@aar',
+                materializeLib: '1.1.2@aar',
+                fastAdapterLib: '3.2.6@aar',
+                materialDrawerLib: '6.0.7@aar',
+                streamLib: '1.2.0',
+                timeLib: '1.1.0',
+                acraLib: '5.1.3',
+                gendalfLib: '1.3.1',
+                preferenceCompatLib: '28.0.0.0',
+                filepickerLib: '4.2.1',
+                permissionsDispatcherLib: '3.2.0',
+                rxBinding2Lib: '2.2.0',
+                mpAndroidChartLib: 'v3.0.3'
+        ]
+    }
+    repositories {
+        jcenter()
+        mavenCentral()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.1'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+        google()
+        maven { url "https://jitpack.io" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,19 @@
+{
+	"id": "1406",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["85050f3b1cefe5f84dcad514efc884a430801139"],
+		"file_name": "bug-1406/app/src/main/java/org/fossasia/phimpme/gallery/activities/SingleMediaActivity.java",
+		"method_name": "public boolean onOptionsItemSelected(MenuItem item)",
+		"line_numbers": ["501, 503-504"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["41200a8734a1160b566f43a481b196bfbe831a40"],
+		"file_name": "fix-1406/app/src/main/java/org/fossasia/phimpme/gallery/activities/SingleMediaActivity.java",
+		"method_name": "public boolean onOptionsItemSelected(final MenuItem item)",
+		"line_numbers": ["1038, 1040-1044"]
+	}],
+	"unit_test_changes": null
+}

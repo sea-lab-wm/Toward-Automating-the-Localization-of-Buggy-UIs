@@ -1,0 +1,1 @@
+Can no longer enter text in SSID Filter TextView

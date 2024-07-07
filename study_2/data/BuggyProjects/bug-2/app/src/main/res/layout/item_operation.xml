@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="io.github.zwieback.familyfinance.core.model.type.OperationType"/>
+
+        <import type="io.github.zwieback.familyfinance.util.DateUtils"/>
+
+        <import type="io.github.zwieback.familyfinance.util.NumberUtils"/>
+
+        <variable
+            name="operation"
+            type="io.github.zwieback.familyfinance.core.model.IOperationView"/>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/layout_padding"
+        android:paddingLeft="@dimen/layout_padding"
+        android:paddingRight="@dimen/layout_padding"
+        android:paddingStart="@dimen/layout_padding"
+        android:paddingTop="@dimen/layout_padding_top">
+
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:id="@+id/icon"
+            android:layout_width="@dimen/operation_icon_size"
+            android:layout_height="@dimen/operation_icon_size"
+            android:layout_centerVertical="true"
+            app:ico_size="@dimen/operation_icon_size"
+            app:iiv_icon="faw_dot_circle"/>
+
+        <TextView
+            android:id="@+id/article_name"
+            android:layout_width="@dimen/operation_article_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_margin"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_toEndOf="@+id/icon"
+            android:layout_toLeftOf="@+id/value"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_toStartOf="@+id/value"
+            android:text="@{operation.articleName}"
+            android:textSize="@dimen/operation_first_line_text_size"/>
+
+        <TextView
+            android:id="@+id/article_category"
+            android:layout_width="@dimen/operation_article_width"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/article_name"
+            android:layout_marginEnd="@dimen/default_margin"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_toEndOf="@+id/icon"
+            android:layout_toLeftOf="@+id/value"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_toStartOf="@+id/value"
+            android:text="@{operation.articleParentName}"
+            android:textSize="@dimen/operation_second_line_text_size"/>
+
+        <TextView
+            android:id="@+id/value"
+            android:layout_width="@dimen/operation_value_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/half_of_default_margin"
+            android:layout_marginRight="@dimen/half_of_default_margin"
+            android:layout_toLeftOf="@+id/currency"
+            android:layout_toStartOf="@+id/currency"
+            android:gravity="end"
+            android:text="@{NumberUtils.bigDecimalToString(operation.value)}"
+            android:textSize="@dimen/operation_first_line_text_size"/>
+
+        <TextView
+            android:id="@+id/currency"
+            android:layout_width="@dimen/operation_currency_width"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="@{operation.currencyName}"
+            android:textSize="@dimen/operation_first_line_text_size"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="@dimen/operation_currency_width"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/currency"
+            android:text="@{DateUtils.localDateToString(operation.date)}"
+            android:textSize="@dimen/operation_second_line_text_size"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_below="@+id/article_category"
+            android:layout_marginTop="@dimen/divider_margin_top"
+            android:background="?android:attr/dividerHorizontal"/>
+
+    </RelativeLayout>
+
+</layout>

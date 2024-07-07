@@ -1,0 +1,1 @@
+Favorites bar doesn't appear under specific UI settings

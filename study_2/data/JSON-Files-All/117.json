@@ -1,0 +1,19 @@
+{
+	"id": "117",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["fb45dce67c0756eb710a776ea940e243e21b94e6"],
+		"file_name": "bug-117/app/src/main/java/openfoodfacts/github/scrachx/openfood/views/product/nutrition/NutritionProductFragment.java",
+		"method_name": "public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState)",
+		"line_numbers": null
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["1c97b76aa6066d302733fb3aed351d5050134d0c"],
+		"file_name": "fix-117/app/src/main/java/openfoodfacts/github/scrachx/openfood/views/product/nutrition/NutritionProductFragment.java",
+		"method_name": "public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState)",
+		"line_numbers": ["123-125"]
+	}],
+	"unit_test_changes": null
+}

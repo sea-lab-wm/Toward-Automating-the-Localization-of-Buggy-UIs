@@ -1,0 +1,73 @@
+{
+  	"id": "92",
+  	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["cffde47fb60e1f030e0ba1665813af91ca057976"],
+		"file_name": "bug-92/app/src/main/java/com/vrem/wifianalyzer/vendor/model/VendorDB.java",
+		"method_name": "public List<String> findMacAddresses(String vendorName)",
+		"line_numbers": ["64"]
+	},
+    {
+		"commit_ids": ["cffde47fb60e1f030e0ba1665813af91ca057976"],
+		"file_name": "bug-92/app/src/main/java/com/vrem/wifianalyzer/vendor/model/VendorDB.java",
+		"method_name": "public List<String> findVendors()",
+		"line_numbers": ["71"]
+	},
+    {
+		"commit_ids": ["cffde47fb60e1f030e0ba1665813af91ca057976"],
+		"file_name": "bug-92/app/src/main/java/com/vrem/wifianalyzer/vendor/model/VendorDB.java",
+		"method_name": "public List<String> findVendors(@NonNull String filter)",
+		"line_numbers": null
+	},
+    {
+		"commit_ids": ["cffde47fb60e1f030e0ba1665813af91ca057976"],
+		"file_name": "bug-92/app/src/main/java/com/vrem/wifianalyzer/vendor/model/VendorDB.java",
+		"method_name": "public List<String> findVendors(@NonNull String filter)",
+		"line_numbers": ["78"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["e5233baed417215aca3cba9bb066fa056d3bda1e"],
+		"file_name": "fix-92/app/src/main/java/com/vrem/wifianalyzer/vendor/model/VendorDB.java",
+		"method_name": "public List<String> findMacAddresses(String vendorName)",
+		"line_numbers": ["64"]
+	},
+    {
+		"commit_ids": ["e5233baed417215aca3cba9bb066fa056d3bda1e"],
+		"file_name": "fix-92/app/src/main/java/com/vrem/wifianalyzer/vendor/model/VendorDB.java",
+		"method_name": "public List<String> findVendors()",
+		"line_numbers": ["71"]
+	},
+    {
+		"commit_ids": ["e5233baed417215aca3cba9bb066fa056d3bda1e"],
+		"file_name": "fix-92/app/src/main/java/com/vrem/wifianalyzer/vendor/model/VendorDB.java",
+		"method_name": "public List<String> findVendors(@NonNull String filter)",
+		"line_numbers": ["77-80", "82"]
+	}],
+	"unit_test_changes": [
+	{
+	  "commit_ids": ["e5233baed417215aca3cba9bb066fa056d3bda1e"],
+	  "file_name": "WiFiAnalyzer/app/src/test/java/com/vrem/wifianalyzer/vendor/model/VendorDBTest.java",
+	  "method_name": null,
+	  "line_numbers": ["45-52","71-78","108-119","147-154","164-171","184-187","190-191"]
+	},
+	{
+	  "commit_ids": ["e5233baed417215aca3cba9bb066fa056d3bda1e"],
+	  "file_name": "WiFiAnalyzer/app/src/test/java/com/vrem/wifianalyzer/vendor/model/VendorDBTest.java",
+	  "method_name": "public void testFindMacAddresses()",
+	  "line_numbers": ["103-106"]
+	},
+	{
+	  "commit_ids": ["e5233baed417215aca3cba9bb066fa056d3bda1e"],
+	  "file_name": "WiFiAnalyzer/app/src/test/java/com/vrem/wifianalyzer/vendor/model/VendorDBTest.java",
+	  "method_name": "public void testFindVendorsWithVendorFilter()",
+	  "line_numbers": ["157", "160-162"]
+	},
+	{
+	  "commit_ids": ["e5233baed417215aca3cba9bb066fa056d3bda1e"],
+	  "file_name": "WiFiAnalyzer/app/src/test/java/com/vrem/wifianalyzer/vendor/model/VendorDBTest.java",
+	  "method_name": "public void testFindVendorsWithMacFilter()",
+	  "line_numbers": ["177-182"]
+	}]
+}

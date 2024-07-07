@@ -1,0 +1,45 @@
+{
+    "id": "55",
+    "confidence_level": "confident",
+    "bug_location": [
+        {
+            "commit_ids": [
+                "395e94bf62312dfd3df66fdbad75412aacf733a2"
+            ],
+            "file_name": "bug-55/app/src/main/java/com/fieldbook/tracker/traits/CategoricalTraitLayout.java"
+        },
+        {
+            "commit_ids": [
+                "395e94bf62312dfd3df66fdbad75412aacf733a2"
+            ],
+            "file_name": "bug-55/app/src/main/java/com/fieldbook/tracker/traits/MultiCatTraitLayout.java"
+        },
+        {
+            "commit_ids": [
+                "395e94bf62312dfd3df66fdbad75412aacf733a2"
+            ],
+            "file_name": "bug-55/app/src/main/res/layout/trait_categorical.xml"
+        }
+    ],
+    "fix_location": [
+        {
+            "commit_ids": [
+                "0a30debc09cb4ad7c9524016ff1f67fb4f3d670f"
+            ],
+            "file_name": "bug-55/app/src/main/java/com/fieldbook/tracker/traits/CategoricalTraitLayout.java"
+        },
+        {
+            "commit_ids": [
+                "0a30debc09cb4ad7c9524016ff1f67fb4f3d670f"
+            ],
+            "file_name": "bug-55/app/src/main/java/com/fieldbook/tracker/traits/MultiCatTraitLayout.java"
+        },
+        {
+            "commit_ids": [
+                "0a30debc09cb4ad7c9524016ff1f67fb4f3d670f"
+            ],
+            "file_name": "bug-55/app/src/main/res/layout/trait_categorical.xml"
+        }
+    ],
+    "unit_test_changes": null
+}

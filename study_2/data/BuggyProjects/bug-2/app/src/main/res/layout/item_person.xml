@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="person"
+            type="io.github.zwieback.familyfinance.core.model.IPersonView"/>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/layout_padding">
+
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:id="@+id/icon"
+            android:layout_width="@dimen/person_icon_size"
+            android:layout_height="@dimen/person_icon_size"
+            android:layout_centerVertical="true"
+            app:ico_size="@dimen/person_icon_size"
+            app:iiv_icon="cmd_folder_account"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_toEndOf="@+id/icon"
+            android:layout_toRightOf="@+id/icon"
+            android:text="@{person.name}"
+            android:textSize="@dimen/person_text_size"/>
+
+    </RelativeLayout>
+
+</layout>

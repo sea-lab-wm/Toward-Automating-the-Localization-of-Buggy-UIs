@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/create_pdf" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/viewFiles" />
+        <item
+            android:id="@+id/nav_merge"
+            android:icon="@drawable/ic_merge_type_black_24dp"
+            android:title="@string/merge_pdf"/>
+        <item
+            android:id="@+id/nav_text_to_pdf"
+            android:icon="@drawable/ic_text_format_black_24dp"
+            android:title="@string/text_to_pdf"/>
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="@string/history" />
+        <item
+            android:id="@+id/nav_extract_images"
+            android:icon="@drawable/ic_broken_image_black_24dp"
+            android:title="@string/extract_images" />
+
+    </group>
+
+    <item android:title="@string/extras">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about_us_24dp"
+                android:title="@string/about_us" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/baseline_share_24"
+                android:title="@string/share" />
+        </menu>
+    </item>
+</menu>

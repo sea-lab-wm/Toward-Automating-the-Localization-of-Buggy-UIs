@@ -1,0 +1,79 @@
+{
+	"id": "1073",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["e19f6343624348dcb01486c4c70502004005583c"],
+		"file_name": "bug-1073/app/src/main/java/org/mozilla/focus/browser/LocalizedContent.java",
+		"method_name": "private static void loadAbout(@NonNull final IWebView webView, Context context)",
+		"line_numbers": ["72"]
+	},
+	{
+		"commit_ids": ["e19f6343624348dcb01486c4c70502004005583c"],
+		"file_name": "bug-1073/app/src/main/java/org/mozilla/focus/browser/LocalizedContent.java",
+		"method_name": "private static void loadRights(@NonNull final IWebView webView, Context context)",
+		"line_numbers": ["108"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["0cbf9b3d757bc4e51f198bb1e1ef2b92ad513276"],
+		"file_name": "fix-1073/app/src/main/AndroidManifest.xml",
+		"method_name": null,
+		"line_numbers": ["92-93"]
+	},
+	{
+		"commit_ids": ["0cbf9b3d757bc4e51f198bb1e1ef2b92ad513276"],
+		"file_name": "fix-1073/app/src/main/java/org/mozilla/focus/activity/InfoActivity.kt",
+		"method_name": null,
+		"line_numbers": []
+	},
+	{
+		"commit_ids": ["0cbf9b3d757bc4e51f198bb1e1ef2b92ad513276"],
+		"file_name": "fix-1073/app/src/main/java/org/mozilla/focus/browser/LocalizedContent.java",
+		"method_name": "private static void loadAbout(@NonNull final IWebView webView, Context context)",
+		"line_numbers": ["75"]
+	},
+	{
+		"commit_ids": ["0cbf9b3d757bc4e51f198bb1e1ef2b92ad513276"],
+		"file_name": "fix-1073/app/src/main/java/org/mozilla/focus/browser/LocalizedContent.java",
+		"method_name": "private static void loadRights(@NonNull final IWebView webView, Context context)",
+		"line_numbers": ["111"]
+	},
+	{
+		"commit_ids": ["0cbf9b3d757bc4e51f198bb1e1ef2b92ad513276"],
+		"file_name": "fix-1073/app/src/main/java/org/mozilla/focus/fragment/InfoFragment.kt",
+		"method_name": null,
+		"line_numbers": []
+	},
+	{
+		"commit_ids": ["0cbf9b3d757bc4e51f198bb1e1ef2b92ad513276"],
+		"file_name": "fix-1073/app/src/main/java/org/mozilla/focus/settings/MozillaSettingsFragment.kt",
+		"method_name": null,
+		"line_numbers": []
+	},
+	{
+		"commit_ids": ["0cbf9b3d757bc4e51f198bb1e1ef2b92ad513276"],
+		"file_name": "fix-1073/app/src/main/res/layout/activity_info.xml",
+		"method_name": null,
+		"line_numbers": []
+	},
+	{
+		"commit_ids": ["0cbf9b3d757bc4e51f198bb1e1ef2b92ad513276"],
+		"file_name": "fix-1073/app/src/main/res/layout/fragment_info.xml",
+		"method_name": null,
+		"line_numbers": []
+	},
+	{
+		"commit_ids": ["0cbf9b3d757bc4e51f198bb1e1ef2b92ad513276"],
+		"file_name": "fix-1073/app/src/main/res/xml/mozilla_settings.xml",
+		"method_name": null,
+		"line_numbers": []
+	}],
+	"unit_test_changes": [
+	{
+		"commit_ids": ["0cbf9b3d757bc4e51f198bb1e1ef2b92ad513276"],
+		"file_name": "fix-1073/app/src/test/java/org/mozilla/focus/utils/InfoActivityIntentTest.kt",
+		"method_name": null,
+		"line_numbers": []
+	}]
+}

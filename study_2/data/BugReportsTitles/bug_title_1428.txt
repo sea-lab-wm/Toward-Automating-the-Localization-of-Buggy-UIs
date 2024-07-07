@@ -1,0 +1,1 @@
+Body measure is in kg/lbs/st while it should be in cm/in

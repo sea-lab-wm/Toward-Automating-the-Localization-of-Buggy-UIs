@@ -1,0 +1,99 @@
+{
+	"id": "1446",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["ca5fd83c890ddf1ffb68bd4ea354ddf98a7669eb"],
+		"file_name": "bug-1446/AnglersLog/app/src/main/java/com/cohenadair/anglerslog/locations/ManageLocationFragment.java",
+		"method_name": null,
+		"line_numbers": ["24","32"]
+	},
+	{
+		"commit_ids": ["ca5fd83c890ddf1ffb68bd4ea354ddf98a7669eb"],
+		"file_name": "bug-1446/AnglersLog/app/src/main/java/com/cohenadair/anglerslog/locations/ManageLocationFragment.java",
+		"method_name": "public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)",
+		"line_numbers": ["50","59"]
+	},
+	{
+		"commit_ids": ["ca5fd83c890ddf1ffb68bd4ea354ddf98a7669eb"],
+		"file_name": "bug-1446/AnglersLog/app/src/main/java/com/cohenadair/anglerslog/locations/ManageLocationFragment.java",
+		"method_name": "private void updateAllFishingSpots()",
+		"line_numbers": ["156-160"]
+	},
+	{
+		"commit_ids": ["ca5fd83c890ddf1ffb68bd4ea354ddf98a7669eb"],
+		"file_name": "bug-1446/AnglersLog/app/src/main/java/com/cohenadair/anglerslog/locations/ManageLocationFragment.java",
+		"method_name": "private void addFishingSpot(final FishingSpot spot)",
+		"line_numbers": ["193-194"]
+	},
+	{
+		"commit_ids": ["ca5fd83c890ddf1ffb68bd4ea354ddf98a7669eb"],
+		"file_name": "bug-1446/AnglersLog/app/src/main/java/com/cohenadair/anglerslog/locations/ManageLocationFragment.java",
+		"method_name": "private void addFishingSpot(final FishingSpot spot)",
+		"line_numbers": ["206"]
+	},
+	{
+		"commit_ids": ["ca5fd83c890ddf1ffb68bd4ea354ddf98a7669eb"],
+		"file_name": "bug-1446/AnglersLog/app/src/main/java/com/cohenadair/anglerslog/locations/ManageLocationFragment.java",
+		"method_name": "private void goToManageFishingSpot(UUID editingId)",
+		"line_numbers": ["221-223"]
+	},
+	{
+		"commit_ids": ["ca5fd83c890ddf1ffb68bd4ea354ddf98a7669eb"],
+		"file_name": "bug-1446/AnglersLog/app/src/main/res/layout/fragment_catches_count.xml",
+		"method_name": null,
+		"line_numbers": ["4"]
+	}],
+
+	"fix_location": [
+	{
+		"commit_ids": ["1ca86738d351b9798e083ae25c46d7cce8cc1503"],
+		"file_name": "fix-1446/android/app/src/main/java/com/cohenadair/anglerslog/locations/ManageLocationFragment.java",
+		"method_name": null,
+		"line_numbers": ["24-25","33"]
+	},
+	{
+		"commit_ids": ["1ca86738d351b9798e083ae25c46d7cce8cc1503"],
+		"file_name": "fix-1446/android/app/src/main/java/com/cohenadair/anglerslog/locations/ManageLocationFragment.java",
+		"method_name": "public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)",
+		"line_numbers": ["51","60"]
+	},
+	{
+		"commit_ids": ["1ca86738d351b9798e083ae25c46d7cce8cc1503"],
+		"file_name": "fix-1446/android/app/src/main/java/com/cohenadair/anglerslog/locations/ManageLocationFragment.java",
+		"method_name": "private void updateAllFishingSpots()",
+		"line_numbers": ["158-159"]
+	},
+	{
+		"commit_ids": ["1ca86738d351b9798e083ae25c46d7cce8cc1503"],
+		"file_name": "fix-1446/android/app/src/main/java/com/cohenadair/anglerslog/locations/ManageLocationFragment.java",
+		"method_name": "private void addFishingSpot(final FishingSpot spot)",
+		"line_numbers": ["192"]
+	},
+	{
+		"commit_ids": ["1ca86738d351b9798e083ae25c46d7cce8cc1503"],
+		"file_name": "fix-1446/android/app/src/main/java/com/cohenadair/anglerslog/locations/ManageLocationFragment.java",
+		"method_name": "private void addFishingSpot(final FishingSpot spot)",
+		"line_numbers": ["204-205"]
+	},
+	{
+		"commit_ids": ["1ca86738d351b9798e083ae25c46d7cce8cc1503"],
+		"file_name": "fix-1446/android/app/src/main/java/com/cohenadair/anglerslog/locations/ManageLocationFragment.java",
+		"method_name": "private void removeFishingSpot(FishingSpot fishingSpot, MoreDetailView view)",
+		"line_numbers": ["207-210"]
+	},
+	{
+		"commit_ids": ["1ca86738d351b9798e083ae25c46d7cce8cc1503"],
+		"file_name": "fix-1446/android/app/src/main/java/com/cohenadair/anglerslog/locations/ManageLocationFragment.java",
+		"method_name": "private void goToManageFishingSpot(UUID editingId)",
+		"line_numbers": ["225-227"]
+	},
+	{
+		"commit_ids": ["1ca86738d351b9798e083ae25c46d7cce8cc1503"],
+		"file_name": "fix-1446/android/app/src/main/res/layout/fragment_catches_count.xml",
+		"method_name": null,
+		"line_numbers": null
+	}],
+	"unit_test_changes": null
+}
+

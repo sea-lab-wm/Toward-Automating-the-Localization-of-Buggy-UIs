@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Trainings Schedule</string>
+
+    <string name="menu_schedule">Trainings Schedule</string>
+    <string name="menu_info">Info</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_title">Trainer App</string>
+    <string name="nav_header_subtitle">Helps you with your schedule.</string>
+    <string name="nav_header_desc">Navigation</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_trainings_schedule">Trainings Schedule</string>
+
+    <!--General-->
+    <string name="DataFile">DataFile.xml</string>
+    <string name="LineBreak">\n</string>
+    <string name="NoNameError">Please give it a name.</string>
+
+    <!--Info Activity-->
+    <string name="InfoActivityTitle">Info</string>
+    <string name="LicenseText">
+        "License - GPL V 3.0\n\n"
+
+        "Copyright (C) 2007 Free Software Foundation, Inc.\n"
+        "Everyone is permitted to copy and distribute verbatim copies of this license document, but"
+        "changing it is not allowed.\n\n"
+
+        "Preamble\n"
+
+        "The licenses for most software and other practical works are designed to take away your freedom to share and change the works. By contrast,the GNU General Public License is intended to guarantee your freedom to share and change all versions of a program--to make sure it remains free software for all its users.  We, the Free Software Foundation, use the GNU General Public License for most of our software; it applies also to any other work released this way by its authors.  You can apply it to your programs, too.\n\n"
+        "When we speak of free software, we are referring to freedom, not price.  Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for them if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs, and that you know you can do these things.\n\n"
+        "To protect your rights, we need to prevent others from denying you these rights or asking you to surrender the rights.  Therefore, you have certain responsibilities if you distribute copies of the software, or if you modify it: responsibilities to respect the freedom of others.\n\n"
+        "For example, if you distribute copies of such a program, whether gratis or for a fee, you must pass on to the recipients the same freedoms that you received.  You must make sure that they, too, receive or can get the source code.  And you must show them these terms so they know their rights.\n\n"
+        "Developers that use the GNU GPL protect your rights with two steps: \n(1) assert copyright on the software, and \n(2) offer you this License giving you legal permission to copy, distribute and/or modify it.\n\n"
+        "For the developers' and authors' protection, the GPL clearly explains that there is no warranty for this free software.  For both users' and authors' sake, the GPL requires that modified versions be marked as changed, so that their problems will not be attributed erroneously to authors of previous versions.\n\n"
+        "Some devices are designed to deny users access to install or run modified versions of the software inside them, although the manufacturer can do so.  This is fundamentally incompatible with the aim of protecting users' freedom to change the software.  The systematic pattern of such abuse occurs in the area of products for individuals to use, which is precisely where it is most unacceptable.  Therefore, we have designed this version of the GPL to prohibit the practice for those products.  If such problems arise substantially in other domains, we stand ready to extend this provision to those domains in future versions of the GPL, as needed to protect the freedom of users.\n\n"
+        "Finally, every program is threatened constantly by software patents. States should not allow patents to restrict development and use of software on general-purpose computers, but in those that do, we wish to avoid the special danger that patents applied to a free program could make it effectively proprietary.  To prevent this, the GPL assures that patents cannot be used to render the program non-free.\n\n"
+        "The precise terms and conditions for copying, distribution and
+modification follow.\n\n\n"
+
+        "TERMS AND CONDITIONS\n"
+        "0. Definitions:"
+        "\"This License\" refers to version 3 of the GNU General Public License.\n"
+        "..."
+
+    </string>
+    <string name="title_activity_general_training_schedule_editor">Add Trainigns Schedule</string>
+
+    <string-array name="ScheduleType">
+        <item>strength endurance</item>
+        <item>hypertrophy</item>
+        <item>maximum strength</item>
+        <item>pyramid training</item>
+    </string-array>
+
+    <string-array name="Intesities">
+        <item>soft</item>
+        <item>middle</item>
+        <item>hard</item>
+    </string-array>
+
+    <string-array name="ExerciseTypes">
+        <item>Warm Up Exercise</item>
+        <item>Device Exercise</item>
+        <item>Body Weight Exercise</item>
+    </string-array>
+
+    <string name="title_activity_add_exercise">Add Exercise</string>
+    <string name="addExcercise">Add Exercise</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+
+    <!--ExerciseViewActivity-->
+    <string name="ExerciseViewActivityTitle">ExerciseViewActivity</string>
+    <string name="ScheduleInfo">Repetitions: %1$d \nPause: %2$d s\nSets: %3$d \nSpeed: %4$d</string>
+
+    <string name="WarmUpExerciseInfoExecutionTime">Execution Time: %1$d\n</string>
+    <string name="WarmUpExerciseInfoIntensity">Intensity: %1$s min\n</string>
+    <string name="WarmUpExerciseInfoSubIntensity">Device Intensity: %1$d\n</string>
+    <string name="WarmUpExerciseInfoBPM">Heart Frequency: %1$d BPM\n</string>
+
+    <string name="DeviceExerciseInfoSeatPosition">Seat: %1$d\n</string>
+    <string name="DeviceExerciseInfoLegPosition">Leg: %1$d\n</string>
+    <string name="DeviceExerciseInfoFootPosition">Foot: %1$d\n</string>
+    <string name="DeviceExerciseInfoAnglePosition">Angle: %1$d\n</string>
+    <string name="DeviceExerciseInfoWeight">Weight: %1$f kg</string>
+    <string name="DeviceExerciseInfoAdditionalWeight"> + %1$f\n</string>
+    <string name="DeviceExerciseInfoBackPosition">Back: %1$d\n</string>
+    <string name="DeviceExerciseInfoDeviceNumber">Device Number: %1$d\n</string>
+
+
+    <string name="title_activity_edit_exercise">Edit Exercise</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

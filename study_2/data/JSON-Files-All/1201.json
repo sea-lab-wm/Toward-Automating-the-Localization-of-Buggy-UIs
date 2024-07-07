@@ -1,0 +1,19 @@
+{
+  "id": "1201",
+  "confidence_level": "confident",
+  "bug_location": [
+  {
+    "commit_ids": ["3d19bc4fb93d0fb850070f936fb8926e54a9c8c4"],
+    "file_name": "bug-1201/app/src/main/res/layout/activity_photo_editor.xml",
+    "method_name": null,
+    "line_numbers": ["163-170"]
+  }],
+  "fix_location": [
+  {
+    "commit_ids": ["6f41f92e1799f06da8203883e74e0905bfdea566"],
+    "file_name": "fix-1201/app/src/main/res/layout/activity_photo_editor.xml",
+    "method_name": null,
+    "line_numbers": ["11","71-72","75-79","82-83","85-86","97-105","107-112"]
+  }],
+  "unit_test_changes": null
+}

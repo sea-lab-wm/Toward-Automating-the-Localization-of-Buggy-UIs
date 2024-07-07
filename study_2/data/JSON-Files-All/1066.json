@@ -1,0 +1,19 @@
+{
+	"id": "1066",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["ba4f0c7142d5057ef14379cbef8812bd93daa8a0"],
+		"file_name": "bug-1066/app/src/main/res/layout/fragment_urlinput.xml",
+		"method_name": null,
+		"line_numbers": null
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["db0789813c9981efea04d689362faf017b6e2222"],
+		"file_name": "fix-1066/app/src/main/res/layout/fragment_urlinput.xml",
+		"method_name": null,
+		"line_numbers": ["138"]
+	}],
+	"unit_test_changes": null
+}

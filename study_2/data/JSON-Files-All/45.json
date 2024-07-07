@@ -1,0 +1,61 @@
+{
+	"id": "45",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["68d074acc7e3e8acda7709b88f007820e81923cd"],
+		"file_name": "bug-45/omniNotes/src/main/java/it.feio.android.omninotes.helpers/GeocodeProviderBaseFactory.java",
+		"method_name": "public static LocationProvider getProvider (Context context)",
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["68d074acc7e3e8acda7709b88f007820e81923cd"],
+		"file_name": "bug-45/omniNotes/src/main/res/values/strings.xml",
+		"method_name": null,
+		"line_numbers": null
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["9388e244b56ab3a3322ef3e893050c988292bdd3"],
+		"file_name": "fix-45/omniNotes/src/main/java/it/feio/android/omninotes/helpers/GeocodeProviderBaseFactory.java ",
+		"method_name": null,
+		"line_numbers": ["22","28-29"]
+	},
+	{
+		"commit_ids": ["9388e244b56ab3a3322ef3e893050c988292bdd3"],
+		"file_name": "fix-45/omniNotes/src/main/java/it/feio/android/omninotes/helpers/GeocodeProviderBaseFactory.java",
+		"method_name": "protected GeocodeProviderBaseFactory()",
+		"line_numbers": ["33-35"]
+	},
+	{
+		"commit_ids": ["9388e244b56ab3a3322ef3e893050c988292bdd3"],
+		"file_name": "fix-45/omniNotes/src/main/java/it/feio/android/omninotes/helpers/GeocodeProviderBaseFactory.java ",
+		"method_name": "public static LocationProvider getProvider (Context context)",
+		"line_numbers": ["38-43"]
+	},
+	{
+		"commit_ids": ["9388e244b56ab3a3322ef3e893050c988292bdd3"],
+		"file_name": "fix-45/omniNotes/src/main/java/it/feio/android/omninotes/helpers/GeocodeProviderBaseFactory.java",
+		"method_name": "public static boolean checkHighAccuracyLocationProvider (Context context)",
+		"line_numbers": ["48-50"]
+	},
+	{
+		"commit_ids": ["9388e244b56ab3a3322ef3e893050c988292bdd3"],
+		"file_name": "fix-45/omniNotes/src/main/java/it/feio/android/omninotes/utils/GeocodeHelper.java",
+		"method_name": "public static boolean checkLocationProviderEnabled(Context context, String provider)",
+		"line_numbers": ["245-248"]
+	},
+	{
+		"commit_ids": ["9388e244b56ab3a3322ef3e893050c988292bdd3"],
+		"file_name": "fix-45/omniNotes/src/main/res/values/strings.xml",
+		"method_name": null,
+		"line_numbers": ["84"]
+	}],
+	"unit_test_changes": [
+	{
+		"commit_ids": ["9388e244b56ab3a3322ef3e893050c988292bdd3"],
+		"file_name": "omniNotes/src/androidTest/java/it/feio/android/omninotes/helpers/GeocodeProviderBaseFactoryTest.java",
+		"method_name": null,
+		"line_numbers": null
+	}]
+}

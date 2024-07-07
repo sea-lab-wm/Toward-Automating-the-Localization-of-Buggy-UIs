@@ -1,0 +1,18 @@
+Steps to reproduce
+- open focus
+- With url bar focused, enter two words ("master chief")
+- Click to move your cursor between the two words
+- Click the system status bar
+- Repeat moving cursor and clicking system status bar
+Expected behavior
+Text stays
+
+Actual behavior
+Text clears
+
+Device information
+- Android device: Pixel 2
+- Focus version: 7.0, local build from a few days ago
+In a more practical example, this happens to me when I moved the cursor to adjust what I typed. I've seen similar behavior in previous versions of Focus.
+
+Video of reproduce: device-2018-08-17-062905.mp4.zip

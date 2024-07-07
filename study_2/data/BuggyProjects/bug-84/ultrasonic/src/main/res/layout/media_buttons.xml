@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+              a:orientation="horizontal"
+              a:layout_width="fill_parent"
+              a:layout_height="wrap_content"
+              a:paddingBottom="8dip"
+              a:paddingTop="8dip"
+              a:paddingLeft="4dip"
+              a:paddingRight="4dip"
+    >
+
+<ImageView
+        a:id="@+id/download_shuffle"
+        a:layout_width="0dip"
+        a:layout_height="wrap_content"
+        a:layout_weight="1"
+        a:focusable="true"
+        a:src="?attr/media_shuffle"
+        a:paddingLeft="2dip"
+        a:paddingRight="8dip"/>
+
+    <org.moire.ultrasonic.view.AutoRepeatButton
+        a:id="@+id/download_previous"
+        a:layout_width="0dip"
+        a:layout_height="wrap_content"
+        a:layout_weight="1"
+        a:focusable="true"
+        a:src="?attr/media_previous"
+        a:paddingLeft="8dip"
+        a:paddingRight="8dip"/>
+
+    <ImageView
+        a:id="@+id/download_start"
+        a:layout_width="0dip"
+        a:layout_height="wrap_content"
+        a:layout_weight="1"
+        a:focusable="true"
+        a:src="?attr/media_play"
+        a:paddingRight="8dip"
+        a:paddingLeft="8dip"/>
+
+    <ImageView
+        a:id="@+id/download_pause"
+        a:layout_width="0dip"
+        a:layout_height="wrap_content"
+        a:layout_weight="1"
+        a:focusable="true"
+        a:src="?attr/media_pause"
+        a:paddingLeft="8dip"
+        a:paddingRight="8dip"/>
+
+    <ImageView
+        a:id="@+id/download_stop"
+        a:layout_width="0dip"
+        a:layout_height="wrap_content"
+        a:layout_weight="1"
+        a:focusable="true"
+        a:src="?attr/media_stop"
+        a:paddingLeft="8dip"
+        a:paddingRight="8dip"/>
+
+    <org.moire.ultrasonic.view.AutoRepeatButton
+        a:id="@+id/download_next"
+        a:layout_width="0dip"
+        a:layout_height="wrap_content"
+        a:layout_weight="1"
+        a:focusable="true"
+        a:src="?attr/media_next"
+        a:paddingLeft="8dip"
+        a:paddingRight="8dip"/>
+
+    <ImageView
+        a:id="@+id/download_repeat"
+        a:layout_width="0dip"
+        a:layout_height="wrap_content"
+        a:layout_weight="1"
+        a:focusable="true"
+        a:src="?attr/media_repeat_off"
+        a:paddingLeft="8dip"
+        a:paddingRight="2dip"/>
+
+</LinearLayout>

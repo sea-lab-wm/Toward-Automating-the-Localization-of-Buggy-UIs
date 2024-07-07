@@ -1,0 +1,1 @@
+Disable the scroll on image when Doodle effect is selected

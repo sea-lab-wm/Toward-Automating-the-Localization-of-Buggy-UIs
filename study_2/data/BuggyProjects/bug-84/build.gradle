@@ -1,0 +1,38 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    apply from: 'dependencies.gradle'
+
+    repositories {
+        jcenter()
+        google()
+        maven { url "https://plugins.gradle.org/m2/" }
+    }
+    dependencies {
+        classpath gradlePlugins.androidTools
+        classpath gradlePlugins.kotlin
+        classpath gradlePlugins.ktlintGradle
+        classpath gradlePlugins.detekt
+        classpath gradlePlugins.jacocoAndroid
+    }
+}
+
+allprojects {
+    // Buildscript here is required by detekt
+    buildscript {
+        repositories {
+            jcenter()
+            google()
+        }
+    }
+
+    repositories {
+        jcenter()
+    }
+}
+
+apply from: 'gradle_scripts/jacoco.gradle'
+
+task wrapper(type: Wrapper) {
+    gradleVersion(versions.gradle)
+    distributionType("all")
+}

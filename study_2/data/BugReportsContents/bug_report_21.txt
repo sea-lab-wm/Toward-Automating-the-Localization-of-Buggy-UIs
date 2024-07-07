@@ -1,0 +1,26 @@
+Describe the bug
+I wanted to edit the times on my current task. Usually I long press and get a meny where I can select "show times" and from there on select "edit times".
+However, long-press now results in a pop-up called "activities menu" that is empty,
+Currently I can't find another way to edit the times.
+
+To Reproduce
+Steps to reproduce the behavior:
+
+Create a task.
+Start the timer on the task.
+Long-press the task.
+Expected behavior
+The menu that allows changing task details should appear.
+
+Actual behavior
+Empty meny shown called "activities menu".
+
+Screenshots
+
+Smartphone (please complete the following information):
+Huawei P10
+Android 8.0.0
+A Time Tracker version: 0.51.1
+
+Additional context
+Add any other context about the problem here.

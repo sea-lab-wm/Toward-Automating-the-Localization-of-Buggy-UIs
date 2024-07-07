@@ -1,0 +1,1 @@
+Long press on a task does not show the task menu.

@@ -1,0 +1,19 @@
+{
+	"id": "1441",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["19533124000a54b0c3817a5228db77927b1da723"],
+		"file_name": "bug-1441/android/app/src/main/java/com/cohenadair/anglerslog/locations/ManageFishingSpotFragment.java",
+		"method_name": "public boolean verifyUserInput()",
+		"line_numbers": ["127-131"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["c663d350dd280a2f4fa4138dc9459c014dcdb099"],
+		"file_name": "fix-1441/android/app/src/main/java/com/cohenadair/anglerslog/locations/ManageFishingSpotFragment.java",
+		"method_name": "public boolean verifyUserInput()",
+		"line_numbers": ["127-132"]
+	}],
+	"unit_test_changes": null
+}

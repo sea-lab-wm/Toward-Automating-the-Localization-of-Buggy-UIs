@@ -1,0 +1,9 @@
+*.DS_Store
+bin
+iNaturalist/src/main/res/values/config.xml
+gen
+res/values/com_crashlytics_export_strings.xml
+build
+.idea
+.iml
+local.properties

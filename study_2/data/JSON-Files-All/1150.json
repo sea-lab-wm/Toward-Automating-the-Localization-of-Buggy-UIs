@@ -1,0 +1,26 @@
+{
+	"id": "1150",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["c6b9d808126f566d13bb6cd424714c7497dae221"],
+		"file_name": "bug-1150/GPSTest/src/main/java/com/android/gpstest/HelpActivity.java",
+		"method_name": null,
+		"line_numbers": ["24"]
+	}],
+	"fix_location": [
+	{
+		"commit_ids": ["34cc70dd2b6ea3d4cc6d508c60b6bb4216c34d6b"],
+		"file_name": "fix-1150/GPSTest/src/main/java/com/android/gpstest/HelpActivity.java",
+		"method_name": null,
+		"line_numbers": ["18", "27"]
+	},
+	{
+		"commit_ids": ["34cc70dd2b6ea3d4cc6d508c60b6bb4216c34d6b"],
+		"file_name": "fix-1150/GPSTest/src/main/java/com/android/gpstest/HelpActivity.java",
+		"method_name": "protected void attachBaseContext(Context base)",
+		"line_numbers": ["73-75"]
+	}],
+	"unit_test_changes": null
+}
+

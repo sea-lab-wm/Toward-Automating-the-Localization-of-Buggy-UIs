@@ -1,0 +1,1 @@
+When an account is edited, its color is lost

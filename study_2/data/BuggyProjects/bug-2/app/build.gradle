@@ -1,0 +1,115 @@
+apply plugin: 'com.android.application'
+//wrap with try and catch so the build is working even if the signing stuff is missing
+try {
+    apply from: '../../personal_signing.gradle'
+} catch (ignored) {
+}
+
+android {
+    compileSdkVersion setup.compileSdk
+    buildToolsVersion setup.buildTools
+
+    defaultConfig {
+        applicationId "io.github.zwieback.familyfinance"
+        minSdkVersion setup.minSdk
+        targetSdkVersion setup.targetSdk
+        versionCode 10505
+        versionName "1.5.5"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            try {
+                signingConfig signingConfigs.release
+            } catch (ignored) {
+            }
+            zipAlignEnabled true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            applicationIdSuffix ".debug"
+            versionNameSuffix "-DEBUG"
+            minifyEnabled false
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    lintOptions {
+        abortOnError false
+        disable 'InvalidPackage'
+    }
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    // support libs
+    implementation "com.android.support:support-v4:${versions.supportLib}"
+    implementation "com.android.support:appcompat-v7:${versions.supportLib}"
+    implementation "com.android.support:recyclerview-v7:${versions.supportLib}"
+    implementation "com.android.support:cardview-v7:${versions.supportLib}"
+    implementation "com.android.support:design:${versions.supportLib}"
+    implementation "com.android.support:multidex:${versions.multidexLib}"
+    // JPA
+    implementation "io.requery:requery:${versions.requeryLib}"
+    implementation "io.requery:requery-android:${versions.requeryLib}"
+    implementation "io.requery:sqlite-android:${versions.sqliteAndroidLib}"
+    // RxJava
+    implementation "io.reactivex.rxjava2:rxjava:${versions.rxJavaLib}"
+    implementation "io.reactivex.rxjava2:rxandroid:${versions.rxAndroidLib}"
+    // icons
+    implementation "com.mikepenz:iconics-core:${versions.iconicsLib}"
+    implementation "com.mikepenz:iconics-views:${versions.iconicsLib}"
+    implementation "com.mikepenz:material-design-iconic-typeface:${versions.materialDesignTypeface}"
+    implementation "com.mikepenz:fontawesome-typeface:${versions.fontawesomeTypeface}"
+    implementation "com.mikepenz:community-material-typeface:${versions.communityMaterialTypeface}"
+    // materialize
+    implementation "com.mikepenz:materialize:${versions.materializeLib}"
+    // fast adapter
+    implementation "com.mikepenz:fastadapter:${versions.fastAdapterLib}"
+    implementation "com.mikepenz:fastadapter-commons:${versions.fastAdapterLib}"
+    // material drawer
+    implementation("com.mikepenz:materialdrawer:${versions.materialDrawerLib}") {
+        transitive = true
+        exclude module: "fastadapter"
+        exclude module: "iconics-core"
+        exclude group: "com.android.support"
+    }
+    // java.time
+    implementation "com.jakewharton.threetenabp:threetenabp:${versions.timeLib}"
+    // java 8 streams
+    implementation "com.annimon:stream:${versions.streamLib}"
+    // crash report
+    releaseImplementation "ch.acra:acra-mail:${versions.acraLib}"
+    releaseImplementation "ch.acra:acra-dialog:${versions.acraLib}"
+    // preferences
+    implementation "com.takisoft.fix:preference-v7:${versions.preferenceCompatLib}"
+    // shared preferences
+    implementation "ds.gendalf:gendalf:${versions.gendalfLib}"
+    // file/directory picker
+    implementation "com.nononsenseapps:filepicker:${versions.filepickerLib}"
+    // permissions dispatcher
+    implementation("com.github.hotchemi:permissionsdispatcher:${versions.permissionsDispatcherLib}") {
+        exclude module: "support-v13"
+    }
+    // RxBinding
+    implementation "com.jakewharton.rxbinding2:rxbinding-appcompat-v7:${versions.rxBinding2Lib}"
+    // chart
+    implementation "com.github.PhilJay:MPAndroidChart:${versions.mpAndroidChartLib}"
+    // project libs
+    implementation project(':shared')
+    implementation project(':validator')
+    testImplementation 'junit:junit:4.12'
+    annotationProcessor "io.requery:requery-processor:${versions.requeryLib}"
+    annotationProcessor "ds.gendalf:compiler:${versions.gendalfLib}"
+    annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:${versions.permissionsDispatcherLib}"
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Couldn't resolve resource @id/visible when using TextInputLayout -->
+    <!-- https://stackoverflow.com/a/42079386/8035065 -->
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+</resources>

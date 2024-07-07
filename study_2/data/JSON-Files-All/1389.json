@@ -1,0 +1,135 @@
+{
+	"id": "1389",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["c48accc4b895b805a8a07b556431be1e3444f67b"],
+		"file_name": "bug-1389/app/src/main/java/org/y20k/transistor/PlayerActivityFragment.java",
+		"method_name": "public void onReceive(Context context, Intent intent)",
+		"line_numbers": ["256","258"]
+	},
+	{
+		"commit_ids": ["c48accc4b895b805a8a07b556431be1e3444f67b"],
+		"file_name": "bug-1389/app/src/main/java/org/y20k/transistor/PlayerActivityFragment.java",
+		"method_name": "public boolean onOptionsItemSelected(MenuItem item)",
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["c48accc4b895b805a8a07b556431be1e3444f67b"],
+		"file_name": "bug-1389/app/src/main/java/org/y20k/transistor/PlayerActivityFragment.java",
+		"method_name": "private void setVisualState()",
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["c48accc4b895b805a8a07b556431be1e3444f67b"],
+		"file_name": "bug-1389/app/src/main/java/org/y20k/transistor/PlayerActivityFragment.java",
+		"method_name": "private void savePlaybackState(Context context)",
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["c48accc4b895b805a8a07b556431be1e3444f67b"],
+		"file_name": "bug-1389/app/src/main/java/org/y20k/transistor/PlayerActivityFragment.java",
+		"method_name": "private void loadPlaybackState(Context context)",
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["c48accc4b895b805a8a07b556431be1e3444f67b"],
+		"file_name": "bug-1389/app/src/main/java/org/y20k/transistor/core/Station.java",
+		"method_name": null,
+		"line_numbers": ["52"]
+	},
+	{
+		"commit_ids": ["c48accc4b895b805a8a07b556431be1e3444f67b"],
+		"file_name": "bug-1389/app/src/main/java/org/y20k/transistor/helpers/StationFetcher.java",
+		"method_name": "public StationFetcher(Uri stationUri, Activity activity)",
+		"line_numbers": null
+	},
+	{
+		"commit_ids": ["c48accc4b895b805a8a07b556431be1e3444f67b"],
+		"file_name": "bug-1389/app/src/main/java/org/y20k/transistor/helpers/StationFetcher.java",
+		"method_name": "public Station doInBackground(Void... params)",
+		"line_numbers": ["82", "86"]
+	},
+	{
+		"commit_ids": ["c48accc4b895b805a8a07b556431be1e3444f67b"],
+		"file_name": "bug-1389/app/src/main/java/org/y20k/transistor/helpers/StationFetcher.java",
+		"method_name": "protected void onPostExecute(Station station)",
+		"line_numbers": ["121", "126", "131"]
+	},
+	{
+		"commit_ids": ["c48accc4b895b805a8a07b556431be1e3444f67b"],
+		"file_name": "bug-1389/app/src/main/res/layout/dialog_error.xml",
+		"method_name": null,
+		"line_numbers": ["35"]
+	}],
+
+	"fix_location": [
+	{
+		"commit_ids": ["0f358e2d44de4d849db58c32fc4b476c7606a3fc"],
+		"file_name": "fix-1389/app/src/main/java/org/y20k/transistor/PlayerActivityFragment.java",
+		"method_name": null,
+		"line_numbers": ["78", "104"]
+	},
+	{
+		"commit_ids": ["0f358e2d44de4d849db58c32fc4b476c7606a3fc"],
+		"file_name": "fix-1389/app/src/main/java/org/y20k/transistor/PlayerActivityFragment.java",
+		"method_name": "public void onReceive(Context context, Intent intent)",
+		"line_numbers": ["257-260", "262-266"]
+	},
+	{
+		"commit_ids": ["0f358e2d44de4d849db58c32fc4b476c7606a3fc"],
+		"file_name": "fix-1389/app/src/main/java/org/y20k/transistor/PlayerActivityFragment.java",
+		"method_name": "public boolean onOptionsItemSelected(MenuItem item)",
+		"line_numbers": ["295", "298-300"]
+	},
+	{
+		"commit_ids": ["0f358e2d44de4d849db58c32fc4b476c7606a3fc"],
+		"file_name": "fix-1389/app/src/main/java/org/y20k/transistor/PlayerActivityFragment.java",
+		"method_name": "private void setVisualState()",
+		"line_numbers": ["489-491"]
+	},
+	{
+		"commit_ids": ["0f358e2d44de4d849db58c32fc4b476c7606a3fc"],
+		"file_name": "fix-1389/app/src/main/java/org/y20k/transistor/PlayerActivityFragment.java",
+		"method_name": "private void savePlaybackState(Context context)",
+		"line_numbers": ["522"]
+	},
+	{
+		"commit_ids": ["0f358e2d44de4d849db58c32fc4b476c7606a3fc"],
+		"file_name": "fix-1389/app/src/main/java/org/y20k/transistor/PlayerActivityFragment.java",
+		"method_name": "private void loadPlaybackState(Context context)",
+		"line_numbers": ["534"]
+	},
+	{
+		"commit_ids": ["0f358e2d44de4d849db58c32fc4b476c7606a3fc"],
+		"file_name": "fix-1389/app/src/main/java/org/y20k/transistor/core/Station.java",
+		"method_name": null,
+		"line_numbers": ["52"]
+	},
+	{
+		"commit_ids": ["0f358e2d44de4d849db58c32fc4b476c7606a3fc"],
+		"file_name": "fix-1389/app/src/main/java/org/y20k/transistor/helpers/StationFetcher.java",
+		"method_name": "public StationFetcher(Uri stationUri, Activity activity)",
+		"line_numbers": ["76", "78"]
+	},
+	{
+		"commit_ids": ["0f358e2d44de4d849db58c32fc4b476c7606a3fc"],
+		"file_name": "fix-1389/app/src/main/java/org/y20k/transistor/helpers/StationFetcher.java",
+		"method_name": "public Station doInBackground(Void... params)",
+		"line_numbers": ["90", "94"]
+	},
+	{
+		"commit_ids": ["0f358e2d44de4d849db58c32fc4b476c7606a3fc"],
+		"file_name": "fix-1389/app/src/main/java/org/y20k/transistor/helpers/StationFetcher.java",
+		"method_name": "protected void onPostExecute(Station station)",
+		"line_numbers": ["129", "134", "139"]
+	},
+	{
+		"commit_ids": ["0f358e2d44de4d849db58c32fc4b476c7606a3fc"],
+		"file_name": "fix-1389/app/src/main/res/layout/dialog_error.xml",
+		"method_name": null,
+		"line_numbers": ["27", "37-38"]
+	}],
+	"unit_test_changes": null
+}
+

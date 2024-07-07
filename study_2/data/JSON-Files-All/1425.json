@@ -1,0 +1,111 @@
+{
+	"id": "1425",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["d3663691f94a2ac0f31db8efbbc2b047bbabe7ab"],
+		"file_name": "bug-1425/app/src/main/java/com/easyfitness/DAO/bodymeasures/DAOBodyMeasure.java",
+		"method_name": "public DAOBodyMeasure(Context context)",
+		"line_numbers": ["45", "47", "49", "54-61"]
+	},
+	{
+		"commit_ids": ["d3663691f94a2ac0f31db8efbbc2b047bbabe7ab"],
+		"file_name": "bug-1425/app/src/main/java/com/easyfitness/DAO/bodymeasures/DAOBodyMeasure.java",
+		"method_name": "public BodyMeasure getMeasure(long id)",
+		"line_numbers": ["79-87"]
+	},
+	{
+		"commit_ids": ["d3663691f94a2ac0f31db8efbbc2b047bbabe7ab"],
+		"file_name": "bug-1425/app/src/main/java/com/easyfitness/DAO/bodymeasures/DAOBodyMeasure.java",
+		"method_name": "public List<BodyMeasure> getMeasuresList(SQLiteDatabase db, String pRequest)",
+		"line_numbers": ["114-122"]
+	},
+	{
+		"commit_ids": ["d3663691f94a2ac0f31db8efbbc2b047bbabe7ab"],
+		"file_name": "bug-1425/app/src/main/java/com/easyfitness/DAO/bodymeasures/DAOBodyMeasure.java",
+		"method_name": "public List<BodyMeasure> getBodyPartMeasuresList(long pBodyPartID, Profile pProfile)",
+		"line_numbers": ["154"]
+	},
+	{
+		"commit_ids": ["d3663691f94a2ac0f31db8efbbc2b047bbabe7ab"],
+		"file_name": "bug-1425/app/src/main/java/com/easyfitness/DAO/bodymeasures/DAOBodyMeasure.java",
+		"method_name": "public List<BodyMeasure> getBodyPartMeasuresListTop4(long pBodyPartID, Profile pProfile)",
+		"line_numbers": ["169"]
+	},
+	{
+		"commit_ids": ["d3663691f94a2ac0f31db8efbbc2b047bbabe7ab"],
+		"file_name": "bug-1425/app/src/main/java/com/easyfitness/DAO/bodymeasures/DAOBodyMeasure.java",
+		"method_name": "public BodyMeasure getLastBodyMeasures(long pBodyPartID, Profile pProfile)",
+		"line_numbers": ["203"]
+	},
+	{
+		"commit_ids": ["d3663691f94a2ac0f31db8efbbc2b047bbabe7ab"],
+		"file_name": "bug-1425/app/src/main/java/com/easyfitness/WeightFragment.java",
+		"method_name": "private void refreshData()",
+		"line_numbers": ["599"]
+	},
+	{
+		"commit_ids": ["d3663691f94a2ac0f31db8efbbc2b047bbabe7ab"],
+		"file_name": "bug-1425/app/src/main/res/values/about.xml",
+		"method_name": null,
+		"line_numbers": ["3", "13-14", "16-23"]
+	}],
+
+	"fix_location": [
+	{
+		"commit_ids": ["38a23c340bb21fe33843e24d8e6c4f54f68dc7fe"],
+		"file_name": "fix-1425/app/src/main/java/com/easyfitness/DAO/bodymeasures/BodyMeasure.java",
+		"method_name": "public void setBodyMeasure(float bodyMeasure)",
+		"line_numbers": ["49"]
+	},
+	{
+		"commit_ids": ["38a23c340bb21fe33843e24d8e6c4f54f68dc7fe"],
+		"file_name": "fix-1425/app/src/main/java/com/easyfitness/DAO/bodymeasures/DAOBodyMeasure.java",
+		"method_name": "public DAOBodyMeasure(Context context)",
+		"line_numbers": ["45", "47", "49", "54-72"]
+	},
+	{
+		"commit_ids": ["38a23c340bb21fe33843e24d8e6c4f54f68dc7fe"],
+		"file_name": "fix-1425/app/src/main/java/com/easyfitness/DAO/bodymeasures/DAOBodyMeasure.java",
+		"method_name": "public BodyMeasure getMeasure(long id)",
+		"line_numbers": ["90"]
+	},
+	{
+		"commit_ids": ["38a23c340bb21fe33843e24d8e6c4f54f68dc7fe"],
+		"file_name": "fix-1425/app/src/main/java/com/easyfitness/DAO/bodymeasures/DAOBodyMeasure.java",
+		"method_name": "public List<BodyMeasure> getMeasuresList(SQLiteDatabase db, String pRequest)",
+		"line_numbers": ["117"]
+	},
+	{
+		"commit_ids": ["38a23c340bb21fe33843e24d8e6c4f54f68dc7fe"],
+		"file_name": "fix-1425/app/src/main/java/com/easyfitness/DAO/bodymeasures/DAOBodyMeasure.java",
+		"method_name": "public List<BodyMeasure> getBodyPartMeasuresList(long pBodyPartID, Profile pProfile)",
+		"line_numbers": ["149"]
+	},
+	{
+		"commit_ids": ["38a23c340bb21fe33843e24d8e6c4f54f68dc7fe"],
+		"file_name": "fix-1425/app/src/main/java/com/easyfitness/DAO/bodymeasures/DAOBodyMeasure.java",
+		"method_name": "public List<BodyMeasure> getBodyPartMeasuresListTop4(long pBodyPartID, Profile pProfile)",
+		"line_numbers": ["164"]
+	},
+	{
+		"commit_ids": ["38a23c340bb21fe33843e24d8e6c4f54f68dc7fe"],
+		"file_name": "fix-1425/app/src/main/java/com/easyfitness/DAO/bodymeasures/DAOBodyMeasure.java",
+		"method_name": "public BodyMeasure getLastBodyMeasures(long pBodyPartID, Profile pProfile)",
+		"line_numbers": ["198-220"]
+	},
+	{
+		"commit_ids": ["38a23c340bb21fe33843e24d8e6c4f54f68dc7fe"],
+		"file_name": "fix-1425/app/src/main/java/com/easyfitness/WeightFragment.java",
+		"method_name": "private void refreshData()",
+		"line_numbers": ["599"]
+	},
+	{
+		"commit_ids": ["38a23c340bb21fe33843e24d8e6c4f54f68dc7fe"],
+		"file_name": "fix-1425/app/src/main/res/values/about.xml",
+		"method_name": null,
+		"line_numbers": ["3","13-14"]
+	}],
+	"unit_test_changes": null
+}
+

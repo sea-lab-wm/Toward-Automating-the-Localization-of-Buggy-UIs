@@ -1,0 +1,51 @@
+{
+	"id": "1563",
+	"confidence_level": "confident",
+	"bug_location": [
+	{
+		"commit_ids": ["e3cb48fb65ed6366f9205871afa83b65ac0664b7"],
+		"file_name": "bug-1563/app/src/main/java/io/lerk/lrkFM/activities/FileActivity.java",
+		"method_name": "protected void onNewIntent(Intent intent)",
+		"line_numbers": ["260", "262", "265", "273", "292"]
+	},
+	{
+		"commit_ids": ["e3cb48fb65ed6366f9205871afa83b65ac0664b7"],
+		"file_name": "bug-1563/app/src/main/java/io/lerk/lrkFM/activities/FileActivity.java",
+		"method_name": "private void loadDirectory(String path)",
+		"line_numbers": ["615", "616"]
+	},
+	{
+		"commit_ids": ["e3cb48fb65ed6366f9205871afa83b65ac0664b7"],
+		"file_name": "bug-1563/app/src/main/java/io/lerk/lrkFM/activities/FileActivity.java",
+		"method_name": "public void finishFileOperation()",
+		"line_numbers": ["896", "905", "934", "942"]
+	}],
+
+	"fix_location": [
+	{
+		"commit_ids": ["2a2c67c9112b995acba16f6d805f9b9d8b715d51"],
+		"file_name": "fix-1563/app/src/main/java/io/lerk/lrkFM/activities/FileActivity.java",
+		"method_name": null,
+		"line_numbers": ["35"]
+	},
+	{
+		"commit_ids": ["2a2c67c9112b995acba16f6d805f9b9d8b715d51"],
+		"file_name": "fix-1563/app/src/main/java/io/lerk/lrkFM/activities/FileActivity.java",
+		"method_name": "protected void onNewIntent(Intent intent)",
+		"line_numbers": ["261", "263", "266", "274", "293"]
+	},
+	{
+		"commit_ids": ["2a2c67c9112b995acba16f6d805f9b9d8b715d51"],
+		"file_name": "fix-1563/app/src/main/java/io/lerk/lrkFM/activities/FileActivity.java",
+		"method_name": "private void loadDirectory(String path)",
+		"line_numbers": ["618-625"]
+	},
+	{
+		"commit_ids": ["2a2c67c9112b995acba16f6d805f9b9d8b715d51"],
+		"file_name": "fix-1563/app/src/main/java/io/lerk/lrkFM/activities/FileActivity.java",
+		"method_name": "public void finishFileOperation()",
+		"line_numbers": ["905", "914", "943", "951"]
+	}],
+	"unit_test_changes": null
+}
+

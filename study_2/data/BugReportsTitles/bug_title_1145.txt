@@ -1,0 +1,1 @@
+Can't enter negative sign for lat/lon/alt in Accuracy view
