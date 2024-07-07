@@ -563,15 +563,13 @@ def main(exp_name, screen_list):
 if __name__ == "__main__":
     """
     List of experiments:
-    1. Concat-OB-3-Screens: Conduct Bug Localization (Study 2) using top 3 screens from Buggy UI Localization (Study 1) with concat OB
-    2. Concat-OB-4-Screens: Conduct Bug Localization (Study 2) using top 4 screens from Buggy UI Localization (Study 1) with concat OB
-    3. First-OB-3-Screens: Conduct Bug Localization (Study 2) using top 3 screens from Buggy UI Localization (Study 1) with first OB
-    4. First-OB-4-Screens: Conduct Bug Localization (Study 2) using top 4 screens from Buggy UI Localization (Study 1) with first OB
+    1. Individual-OB-3-Screens: Conduct Bug Localization (Study 2) using top 3 screens from Buggy UI Localization (Study 1) with individual OB
+    2. Individual-OB-4-Screens: Conduct Bug Localization (Study 2) using top 4 screens from Buggy UI Localization (Study 1) with individual OB
     """
-    exp_names = ["Concat-OB-3-Screens", "Concat-OB-4-Screens", "First-OB-3-Screens", "First-OB-4-Screens"]
+    exp_names = ["Individual-OB-3-Screens", "Individual-OB-4-Screens"]
     for exp_name in exp_names:
-        if exp_name == "Concat-OB-3-Screens" or exp_name == "First-OB-3-Screens":
+        if exp_name == "Individual-OB-3-Screens":
             screen_list = ["3"]
-        elif exp_name == "Concat-OB-4-Screens" or exp_name == "First-OB-4-Screens":
+        elif exp_name == "Individual-OB-4-Screens":
             screen_list = ["4"]
         main(exp_name, screen_list)

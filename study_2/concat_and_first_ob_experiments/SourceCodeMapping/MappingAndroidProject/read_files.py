@@ -70,8 +70,8 @@ class ReadFiles:
         return unfiltered_files
 
     def get_bug_report_contents(self, bug_id):
-        # TODO: Provide the absolute path of data/BuggyProjects
-        bug_report_file = "X/Y/Z/data/BugReports/bug_report_" + bug_id + ".txt"
+        # TODO: Copy the absolute path of study_2/data/BugReports and replace it with the ".../data/BugReports"
+        bug_report_file = "/Volumes/Education/GitHub/Toward-Automating-the-Localization-of-Buggy-UIs-Anonymized/study_2/data/BugReports/bug_report_" + bug_id + ".txt"
         bug_report_contents = self.fileAnalysis.get_file_content(bug_report_file)
 
         return bug_report_contents
@@ -83,15 +83,15 @@ class ReadFiles:
         return bug_report_contents
 
     def get_all_java_files(self, bug_id):
-        # TODO: Provide the absolute path of data/BuggyProjects
-        parent_directory = "X/Y/Z/data/BuggyProjects/bug-" + bug_id
+        # TODO: Copy the absolute path of data/BuggyProjects and replace it with the ".../data/BuggyProjects"
+        parent_directory = "/Volumes/Education/GitHub/Toward-Automating-the-Localization-of-Buggy-UIs-Anonymized/study_2/data/BuggyProjects/bug-" + bug_id
         all_java_files = self.fileAnalysis.get_all_java_files(parent_directory)
 
         return all_java_files
 
     def get_all_component_id_related_files(self, bug_id, all_component_ids):
-        # TODO: Provide the absolute path of data/BuggyProjects
-        parent_directory = "X/Y/Z/data/BuggyProjects/bug-" + bug_id
+        # TODO: Copy the absolute path of data/BuggyProjects and replace it with the ".../data/BuggyProjects"
+        parent_directory = "/Volumes/Education/GitHub/Toward-Automating-the-Localization-of-Buggy-UIs-Anonymized/study_2/data/BuggyProjects/bug-" + bug_id
         all_comp_id_related_files = self.fileAnalysis.get_files_if_term_exists(parent_directory, all_component_ids)
 
         return all_comp_id_related_files

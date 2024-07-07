@@ -76,7 +76,7 @@ public class MainClass {
 
     private static List<String> get_buggy_java_files(String bug_id, String buggy_project_dir) {
         List<String> buggy_file_list = new ArrayList<String>();
-        String json_file = "../../data/JSON-Files-All/" + bug_id + ".json";
+        String json_file = "../../../data/JSON-Files-All/" + bug_id + ".json";
         JSONParser parser = new JSONParser();
         try {
             Object obj = parser.parse(new FileReader(json_file));

@@ -73,7 +73,10 @@ class SoureCodeMapping:
         return all_java_files
     
     def get_mapping_info(self):
-        df = pd.read_csv("../../data/Mapping-Info/blip_zs_sr_crash_ob_top_4_screens.csv", sep=';')
+        if args['exp_name'] == 'Individual-OB-3-Screens':
+            df = pd.read_csv("../../../data/Mapping-Info/blip_zs_sr_crash_ob_top_3_screens.csv", sep=';')
+        elif args['exp_name'] == 'Individual-OB-4-Screens':
+            df = pd.read_csv("../../../data/Mapping-Info/blip_zs_sr_crash_ob_top_4_screens.csv", sep=';')
         return df
 
     def main(self):
@@ -199,6 +202,7 @@ if __name__ == '__main__':
     parser.add_argument('-ops','--operations', help='Operations', required=True)
     parser.add_argument('-bpr','--buggy_project_dir', help='Buggy Projects Repository', required=True)
     parser.add_argument('-tr','--trace_replayer_dir', help='Trace Replayer Data Directory', required=True)
+    parser.add_argument('-en', '--exp_name', help='Experiment Name', required=True)
 
     args = vars(parser.parse_args())
 

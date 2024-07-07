@@ -72,9 +72,9 @@ public class MainClass {
 
     private static List<String> get_buggy_java_files(String bug_id) {
         List<String> buggy_file_list = new ArrayList<String>();
-        String json_file = "../../data/JSON-Files-All/" + bug_id + ".json";
-        // TODO: Provide the absolute path of data/BuggyProjects
-        String buggy_project_dir = "X/Y/Z/data/BuggyProjects/";
+        String json_file = "../../../data/JSON-Files-All/" + bug_id + ".json";
+        // TODO: Copy the absolute path of study_2/data/BuggyProjects and paste it in the buggy_project_dir variable. Keep the trailing slash.
+        String buggy_project_dir = "/Volumes/Education/GitHub/Toward-Automating-the-Localization-of-Buggy-UIs-Anonymized/study_2/data/BuggyProjects/";
         JSONParser parser = new JSONParser();
         try {
             Object obj = parser.parse(new FileReader(json_file));

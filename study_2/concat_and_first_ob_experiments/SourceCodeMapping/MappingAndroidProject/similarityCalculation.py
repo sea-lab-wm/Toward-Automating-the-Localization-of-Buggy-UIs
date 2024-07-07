@@ -1,5 +1,7 @@
 import requests
 import json
+
+
 class SimilarityCalculation:
     def compute_similarity(self, query, corpus):
         ENDPOINT = "http://127.0.0.1:9000/embed_cosine_multiple/"
@@ -7,9 +9,9 @@ class SimilarityCalculation:
         data = {"query": query, "corpus": corpus}
         headers = {'Content-type': 'application/json'}
 
-        r = requests.post(ENDPOINT, data = json.dumps(data), headers = headers)
+        r = requests.post(ENDPOINT, data=json.dumps(data), headers=headers)
 
-        if r.status_code!=200:
+        if r.status_code != 200:
             print("Error in data")
         else:
             print(f"Status Code: {r.status_code}, Response: {r.json()}")

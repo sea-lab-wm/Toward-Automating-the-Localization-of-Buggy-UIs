@@ -58,38 +58,13 @@ class MatchFiles:
                     shutil.copy(file, new_path)
 
     def get_mapping_info(self):
-        df = pd.read_csv("../data/Mapping-Info/blip_zs_sr_crash_ob_top_4_screens.csv", sep=';')
+        if args['exp_name'] == 'Individual-OB-3-Screens':
+            df = pd.read_csv("../../data/Mapping-Info/blip_zs_sr_crash_ob_top_3_screens.csv", sep=';')
+        elif args['exp_name'] == 'Individual-OB-4-Screens':
+            df = pd.read_csv("../../data/Mapping-Info/blip_zs_sr_crash_ob_top_4_screens.csv", sep=';')
         return df
 
     def main(self):
-        # bug_ids_states = [("2",41), ("8",14), ("10",15), ("18",21), ("19",5), ("44",21),
-        #             ("53",18), ("117",11), ("128",28), ("129", 33), ("130",2),
-        #             ("135",14), ("191",1), ("206",14), ("209",50), ("256",19),
-        #             ("1073",8), ("1096",14), ("1146",6),
-        #             ("1147",7), ("1151",5), ("1202",11), ("1205",22), ("1207",13),
-        #             ("1214",13), ("1215",31), ("1223",81), ("1224",39),
-        #             ("1299",20), ("1399",14), ("1406",20), ("1430",21), ("1441",18),
-        #             ("1445",14), ("1481",16), ("1645",6),
-        #             #new ones
-        #             ("45",22), ("54",10), ("76",6), ("92",4), ("101",8),("106",11),("110",5),
-        #             ("158",10), ("160",14), ("162",6), ("168",3), ("192",12),("199",11),
-        #             ("200",9), ("248",45), ("1150",11), ("1198",20),
-        #             ("1228",24),("1389",2),("1425",18),("1446",18),("1563",7),("1568",8)]
-
-        # bug_ids_states = [("11",2), ("55",50), ("56", 19), ("227", 25), ("1213",44), ("1222",17), ("1428", 12)]
-        #bug_ids_states = [("84",13), ("87",32), ("151",16), ("159",34), ("193",5), ("271",22), ("275",8), 
-        #    ("1028",13), ("1089",7), ("1130",12), ("1321", 19), ("1402",15), ("1403", 24)]
-
-        #bug_ids_states = [("71", 17), ("201",37), ("1641",9)]
-        # Fifth set of bug reports
-        #bug_ids_states = [("1096",14), ("1146",6), ("1147",20), ("1151",5), ("1223",19), ("1645",35), ("106", 13), ("110", 5),
-        #("168",3), ("271", 22)]
-
-        # Sixth set of bug reports
-        #bug_ids_states = [("1406", 20), ("45", 11), ("1640", 4)]
-
-        # Seventh set of bug reports
-        #bug_ids_states = [("1150",11)]
         df = self.get_mapping_info()
 
         for _, row in df.iterrows():
@@ -122,6 +97,7 @@ if __name__ == '__main__':
     parser.add_argument('-fbr', '--filtered_boosted_repo', help='Filtered Boosted Repos', required=True)
     parser.add_argument('-bpdcsv', '--buggy_project_dir_in_csv', help='Buggy Projects Directory Path in CSV', required=True)
     parser.add_argument('-ops','--operations', help='Operations', required=True)
+    parser.add_argument('-en','--exp_name', help='Experiment Name', required=True)
 
     args = vars(parser.parse_args())
 

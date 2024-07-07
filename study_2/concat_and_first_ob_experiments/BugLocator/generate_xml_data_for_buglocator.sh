@@ -10,7 +10,7 @@ List of experiments:
 exp_names=("Concat-OB-3-Screens" "Concat-OB-4-Screens" "First-OB-3-Screens" "First-OB-4-Screens")
 export query_reformulation_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs"
 	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
-export jsonFilePath=../data/JSON-Files-All
+export jsonFilePath=../../data/JSON-Files-All
 
 
 # shellcheck disable=SC2068
@@ -25,8 +25,8 @@ for exp_name in ${exp_names[@]}; do
     screen_list=("4")
   fi
 
-  export preprocessedDataPath=../data/PreprocessedData/$exp_name
-  export generated_data_path=../data/PreprocessedData/BugLocatorQuery-$exp_name
+  export preprocessedDataPath=../../data/PreprocessedData/$exp_name
+  export generated_data_path=../../data/PreprocessedData/BugLocatorQuery-$exp_name
   rm -rf $generated_data_path
   mkdir $generated_data_path
 

@@ -100,8 +100,8 @@ def create_spreadsheet(input_file_path, sheet_name, output_file_path):
 if __name__ == "__main__":
     lucene_results_folder_path = '../FinalResults/LUCENE'
     bug_locator_results_folder_path = '../FinalResults/BugLocator'
-    lucene_summary_file_path = '../ResultsSummary/BL-Exp-Results-LUCENE.xlsx'
-    bug_locator_summary_file_path = '../ResultsSummary/BL-Exp-Results-BugLocator.xlsx'
+    lucene_summary_file_path = 'LUCENE.xlsx'
+    bug_locator_summary_file_path = 'BugLocator.xlsx'
 
     # Remove the output file if it exists
     if os.path.exists(lucene_summary_file_path):

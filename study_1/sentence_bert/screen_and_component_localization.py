@@ -42,13 +42,14 @@ if __name__ == "__main__":
     # Parse the command line arguments
     args = parser.parse_args()
 
-    screen_components_folder_path = '../real_data_construction/real_data/screen_components'
+    screen_components_folder_path = './study_1/real_data_construction/real_data/screen_components'
     # Query file paths
-    ob_file_path = '../real_data_construction/real_data/ob/obs.json'
+    ob_file_path = './study_1/real_data_construction/real_data/ob/obs.json'
 
     # Results file paths for writing the results
-    result_file_path = f'../results/{args.task_name}/SBERT_results.csv'
-    result_with_details_file_path = f'../results/{args.task_name}/SBERT_results_with_details.csv'
+    # print(os.getcwd())
+    result_file_path = f'./study_1/results/{args.task_name}/SBERT_results.csv'
+    result_with_details_file_path = f'./study_1/results/{args.task_name}/SBERT_results_with_details.csv'
 
     # Set the device
     device = "cuda" if torch.cuda.is_available() else "cpu"

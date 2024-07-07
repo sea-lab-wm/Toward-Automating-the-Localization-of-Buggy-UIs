@@ -281,15 +281,16 @@ class RealOBQuery:
     """
     This is the RealOBQuery class which contains OB-ID, OB-text, and ground-truth.
     """
-
-    def __init__(self, bug_id, ob_id, ob_in_title, ob_type_sc, ob_rating, ob_text, ground_truth):
+    def __init__(self, bug_id, ob_id, ob_in_title, bug_type, ob_category, ob_rating, ob_text, ground_truth):
         self.bug_id = bug_id
         self.ob_id = ob_id
         self.ob_in_title = ob_in_title
-        self.ob_type_sc = ob_type_sc
+        self.bug_type = bug_type
+        self.ob_category = ob_category
         self.ob_rating = ob_rating
         self.ob_text = ob_text
         self.ground_truth = ground_truth
+
 
 class OBQuery:
     """

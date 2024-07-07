@@ -193,12 +193,12 @@ class SoureCodeMapping:
         for issue_id, app_final_state in bug_ids_states:
             bug_id = issue_id
 
-            # TODO: Provide the absolute path of data/BuggyProjects
-            parent_directory = "X/Y/Z/data/BuggyProjects/bug-" + bug_id
+            # TODO: Copy the absolute path of study_2/data/BuggyProjects and replace it with the ".../data/BuggyProjects"
+            parent_directory = "/Volumes/Education/GitHub/Toward-Automating-the-Localization-of-Buggy-UIs-Anonymized/study_2/data/BuggyProjects/bug-" + bug_id
             all_java_files = self.readFiles.get_all_java_files(bug_id)
 
-            # TODO: Provide the absolute path of data/TraceReplayer-Data
-            json_file = open('X/Y/Z/data/TraceReplayer-Data/TR' + bug_id + '/Execution-1.json')
+            # TODO: Copy the absolute path of study_2/data/TraceReplayer-Data and replace it with the ".../data/TraceReplayer-Data"
+            json_file = open('/Volumes/Education/GitHub/Toward-Automating-the-Localization-of-Buggy-UIs-Anonymized/study_2/data/TraceReplayer-Data/TR' + bug_id + '/Execution-1.json')
             data = json.load(json_file)
 
             list_of_activities = []

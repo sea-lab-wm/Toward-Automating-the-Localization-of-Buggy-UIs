@@ -25,8 +25,8 @@ for exp_name in ${exp_names[@]}; do
   fi
 
   export prep_data_dir=../data/PreprocessedData/BugLocatorQuery-$exp_name
-  # TODO: Provide the absolute path of FilteredBoostedProjects
-  export filtered_boosted_files_in_repo=X/Y/Z/FilteredBoostedProjects/$exp_name
+  # TODO: Copy the absolute path of FilteredBoostedProjects folder and replace it in the filtered_boosted_files_in_repo variable. Keep the "/$exp_name" at the end.
+  export filtered_boosted_files_in_repo=/Volumes/Education/GitHub/Toward-Automating-the-Localization-of-Buggy-UIs-Anonymized/study_2/concat_and_first_ob_experiments/FilteredBoostedProjects/$exp_name
   export temp_data_dir=temp_xml_dir
   export temp_result_dir=results
 
@@ -34,8 +34,8 @@ for exp_name in ${exp_names[@]}; do
   rm -rf $final_ranks_folder
   mkdir $final_ranks_folder
 
-  # TODO: Provide the absolute path of FilteredUnfilteredFiles
-  export filtered_boosted_filenames=X/Y/Z/FilteredUnfilteredFiles/$exp_name
+  # TODO: Copy the absolute path of FilteredUnfilteredFiles folder and replace it in the filtered_boosted_filenames variable. Keep the "/$exp_name" at the end.
+  export filtered_boosted_filenames=/Volumes/Education/GitHub/Toward-Automating-the-Localization-of-Buggy-UIs-Anonymized/study_2/concat_and_first_ob_experiments/FilteredUnfilteredFiles/$exp_name
 
   # For Filtering and boosting
    for i in ${!filtering_list[@]}; do

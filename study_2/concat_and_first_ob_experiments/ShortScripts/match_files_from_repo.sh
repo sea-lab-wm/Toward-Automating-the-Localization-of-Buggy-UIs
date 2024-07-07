@@ -9,10 +9,10 @@ List of experiments:
 
 exp_names=("Concat-OB-3-Screens" "Concat-OB-4-Screens" "First-OB-3-Screens" "First-OB-4-Screens")
 
-# TODO: Provide the absolute path of data/BuggyProjects
-export buggy_project_dir=X/Y/Z/data/BuggyProjects
-# TODO: Provide the absolute path of data/BuggyProjects
-export buggy_project_dir_in_csv=X/Y/Z/data/BuggyProjects
+# TODO: Copy the absolute path of study_2/data/BuggyProjects and replace it in the buggy_project_dir variable
+export buggy_project_dir=/Volumes/Education/GitHub/Toward-Automating-the-Localization-of-Buggy-UIs-Anonymized/study_2/data/BuggyProjects
+# TODO: Copy the absolute path of study_2/data/BuggyProjects and replace it in the buggy_project_dir_in_csv variable
+export buggy_project_dir_in_csv=/Volumes/Education/GitHub/Toward-Automating-the-Localization-of-Buggy-UIs-Anonymized/study_2/data/BuggyProjects
 
 corpus_types=("All_Java_Files" "GUI_State_and_All_GUI_Component_IDs" "All_GUI_Component_IDs"
 "GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs")

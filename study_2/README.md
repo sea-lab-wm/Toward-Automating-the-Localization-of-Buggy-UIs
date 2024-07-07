@@ -1,0 +1,1 @@
+This folder will contain the filtered boosted projects (outcome of step 2) for all the experiments.
