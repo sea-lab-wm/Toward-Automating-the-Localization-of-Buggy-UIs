@@ -1,0 +1,13 @@
+models_dir: "/home/yang/BLIP/clip_models"
+train_sample_size: 50000
+train_batch_size: 64
+validation_batch_size: 64
+learning_rate: 5.e-5
+num_epochs: 9
+checkpoint_interval: 3
+image_folder_path: "/home/yang/all_dataset"
+ob_path: "/home/yang/dataset_subset"
+image_size: 224
+# checkpoint_file: "/home/yang/BLIP/clip_models/512/clip_config_update/ckpt-8/pytorch_model.bin"
+# checkpoint_file: "/home/yang/BLIP/clip_models/clip_config_beta/ckpt-3/pytorch_model.bin"
+checkpoint_file: "/home/yang/Projects/BLIP/clip_models_sr/clip_unique/ckpt-5/pytorch_model.bin"
