@@ -12,6 +12,16 @@ import time
 
 
 def read_file_content(file_name):
+	"""
+	Reads and returns the complete contents of a text file
+
+	Opens the specified file in read mode and returns all text content as a string.
+
+	Arguments:
+		file_name: Path to the file to read
+	Returns:
+		String containing the complete file contents
+	"""
 	# Read the file
 	file_content = open(file_name, "r")
 	file_content = file_content.read()
@@ -19,16 +29,50 @@ def read_file_content(file_name):
 
 
 def write_to_csv(write_file, row):
+	"""
+	Appends a single row of data to a CSV file
+
+	Opens the CSV file in append mode and writes the provided row.
+
+	Arguments:
+		write_file: Path to the CSV file
+		row: List of values to write as a new row
+	Returns:
+		None (writes to file)
+	"""
 	with open(write_file, 'a') as file:
 		writer = csv.writer(file)
 		writer.writerow(row)
 
 
 def create_file_path(file):
+	"""
+	Creates all parent directories for a file path if they don't exist
+
+	Ensures the directory structure exists for the given file path without raising
+	an error if directories already exist.
+
+	Arguments:
+		file: Complete file path for which to create parent directories
+	Returns:
+		None (creates directories)
+	"""
 	os.makedirs(os.path.dirname(file), exist_ok=True)
 
 
 def get_ranked_files(bug_id, filename):
+	"""
+	Retrieves list of file paths associated with a specific bug ID from CSV
+
+	Reads a CSV file containing bug-to-file mappings and extracts all file paths
+	corresponding to the given bug ID.
+
+	Arguments:
+		bug_id: Bug identifier (converted to int for comparison)
+		filename: Path to CSV file with 'Bug Report ID' and 'FilePaths' columns
+	Returns:
+		List of file paths associated with the bug ID
+	"""
 	file_list_df = pd.read_csv(filename)
 	files_for_bug_id = file_list_df.loc[file_list_df['Bug Report ID'] == int(bug_id), 'FilePaths'].values.tolist()
 
@@ -36,12 +80,34 @@ def get_ranked_files(bug_id, filename):
 
 
 def get_filtered_files(bug_issue_id, filtered_files_stored_file):
+	"""
+	Retrieves the filtered file list for a specific bug
+
+	Wrapper function that calls get_ranked_files to obtain filtered file paths.
+
+	Arguments:
+		bug_issue_id: Bug identifier
+		filtered_files_stored_file: Path to CSV file containing filtered files
+	Returns:
+		List of filtered file paths for the bug
+	"""
 	filtered_files = get_ranked_files(bug_issue_id, filtered_files_stored_file)
 
 	return filtered_files
 
 
 def create_record_file_header(record_existence_file):
+	"""
+	Creates a CSV file with headers for recording file existence checks
+
+	Initializes a new CSV file with column headers to track whether files exist
+	in the corpus for each bug.
+
+	Arguments:
+		record_existence_file: Path where the CSV file will be created
+	Returns:
+		None (creates CSV file with headers)
+	"""
 	create_file_path(record_existence_file)
 	with open(record_existence_file, 'w') as file:
 		writer = csv.writer(file)
@@ -49,6 +115,20 @@ def create_record_file_header(record_existence_file):
 
 
 def check_if_file_exist(file, bug_id, filenames_store_file, subpath):
+	"""
+	Checks if a file exists in the corpus for a specific bug with caching
+
+	Verifies file existence by checking a cached record file first, then searching
+	the actual file list if not cached. Records results to avoid repeated searches.
+
+	Arguments:
+		file: Filename to check for existence
+		bug_id: Bug identifier
+		filenames_store_file: Path to CSV containing available files
+		subpath: Subdirectory path for organizing existence records
+	Returns:
+		Boolean indicating whether the file exists in the corpus
+	"""
 	record_existence_file = "existence/" + subpath + "/bug-" + bug_id + ".csv"
 
 	if not os.path.exists(record_existence_file):
@@ -75,6 +155,23 @@ def check_if_file_exist(file, bug_id, filenames_store_file, subpath):
 
 
 def remove_java_files_if_not_exist(bug_id, filenames_store_file, temp_xml_dir, xml_file, subpath, filetype):
+	"""
+	Filters buggy files from XML by removing files not present in the corpus
+
+	Parses the XML file containing buggy file locations, checks each against the
+	available corpus, and creates a new XML file with only files that exist. Includes
+	special handling for bug ID 45.
+
+	Arguments:
+		bug_id: Bug identifier
+		filenames_store_file: Path to CSV with available files in corpus
+		temp_xml_dir: Directory for temporary XML output
+		xml_file: Path to input XML file with buggy files
+		subpath: Subdirectory path for organizing output
+		filetype: Type of files being processed (for path construction)
+	Returns:
+		Tuple of (boolean indicating if search needed, path to filtered XML file)
+	"""
 	with open(xml_file, 'r') as f:
 		data = f.read()
 
@@ -112,6 +209,20 @@ def remove_java_files_if_not_exist(bug_id, filenames_store_file, temp_xml_dir, x
 
 
 def get_ranks(result_path, bug_id, java_dir, temp_xml_filepath):
+	"""
+	Executes BugLocator tool and returns ranked file results
+
+	Runs the BugLocator.jar tool with specified parameters to rank Java files by
+	relevance to the bug report. Reformats the output CSV with proper headers.
+
+	Arguments:
+		result_path: Directory path for storing result CSV files
+		bug_id: Bug identifier
+		java_dir: Directory containing Java source files for the bug
+		temp_xml_filepath: Path to XML file with bug report data
+	Returns:
+		List of rows from the result CSV (bug ID, filename, rank, score)
+	"""
 	result_file = result_path + "Bug" + str(bug_id) + "_result.csv"
 	create_file_path(result_path)
 
@@ -142,6 +253,25 @@ def get_ranks(result_path, bug_id, java_dir, temp_xml_filepath):
 
 def ranking_on_corpus(bug_id, xml_file, subpath, filetype, filtered_boosted_repo, temp_xml_dir, temp_result_dir,
 					  filtered_boosted_filenames, query_reformulation_gui):
+	"""
+	Performs BugLocator ranking on a specific corpus subset
+
+	Filters the XML file to remove non-existent files, then runs BugLocator ranking
+	on the remaining files. Handles different file types (matched, not matched, filtered).
+
+	Arguments:
+		bug_id: Bug identifier
+		xml_file: Path to XML file with bug report data
+		subpath: Subdirectory path for organizing files
+		filetype: Type of files to rank (MathedQueryFiles, NotMathedQueryFiles, FilteredFiles)
+		filtered_boosted_repo: Root directory of filtered/boosted repositories
+		temp_xml_dir: Directory for temporary XML files
+		temp_result_dir: Directory for temporary result files
+		filtered_boosted_filenames: Directory containing file lists
+		query_reformulation_gui: GUI identifier for query reformulation
+	Returns:
+		List of ranked results or empty list if no search needed
+	"""
 	filenameType = ""
 
 	if filetype == "MathedQueryFiles":
@@ -164,6 +294,22 @@ def ranking_on_corpus(bug_id, xml_file, subpath, filetype, filtered_boosted_repo
 
 
 def get_final_ranks(bug_id, filtered_files_stored_file, rankList1, rankList2, operation):
+	"""
+	Combines and processes ranking results based on operation type
+
+	Merges rankings from boosted and non-boosted files (for Boosting operations) or
+	processes single ranking list (for Filtering/QueryReformulation). Adjusts ranks
+	for non-boosted files by adding the count of filtered files.
+
+	Arguments:
+		bug_id: Bug identifier
+		filtered_files_stored_file: Path to CSV with filtered files
+		rankList1: Primary ranking list (boosted or filtered files)
+		rankList2: Secondary ranking list (non-boosted files, empty for some operations)
+		operation: Operation type (Filtering, QueryReformulation, Boosting, Filtering+Boosting)
+	Returns:
+		Tuple of (unsorted ranks, sorted ranks, file names)
+	"""
 	ranks1 = []
 	ranks1_files = []
 	for row in rankList1:
@@ -196,6 +342,29 @@ def get_ranklist_on_query_reformulation_type(bug_id, filtering_gui, boosting_gui
 											 no_of_screen, temp_xml_dir, filtered_boosted_repo, temp_result_dir,
 											 preprocessed_data_dir, filtered_boosted_filenames,
 											 query_reformulation_type):
+	"""
+	Generates ranked file lists for a specific query reformulation strategy
+
+	Orchestrates the ranking process by selecting appropriate corpus paths based on
+	operation type and calling ranking_on_corpus. Handles four operation types:
+	Filtering, QueryReformulation, Boosting, and Filtering+Boosting.
+
+	Arguments:
+		bug_id: Bug identifier
+		filtering_gui: GUI identifier for filtering strategy
+		boosting_gui: GUI identifier for boosting strategy
+		query_reformulation_gui: GUI identifier for query reformulation
+		operation: Operation type to perform
+		no_of_screen: Number of screens in the experiment
+		temp_xml_dir: Directory for temporary XML files
+		filtered_boosted_repo: Root directory of filtered/boosted repositories
+		temp_result_dir: Directory for temporary results
+		preprocessed_data_dir: Directory with preprocessed query data
+		filtered_boosted_filenames: Directory containing file lists
+		query_reformulation_type: Type of query reformulation applied
+	Returns:
+		Tuple of (unsorted ranks, sorted ranks, file names)
+	"""
 	query_subpath = "Screen-" + no_of_screen + "/Preprocessed_with_" + query_reformulation_gui
 	query_xml_file = preprocessed_data_dir + "/" + query_subpath + "/" + query_reformulation_type + "/" + "bug_" + bug_id + ".xml"
 	if operation == "Filtering":
@@ -243,6 +412,18 @@ def get_ranklist_on_query_reformulation_type(bug_id, filtering_gui, boosting_gui
 
 
 def create_final_result_header(result_file):
+	"""
+	Creates CSV file with headers for final BugLocator ranking results
+
+	Initializes a new CSV file with column headers for storing rankings across
+	three query reformulation types: original bug report, query replacement, and
+	query expansion.
+
+	Arguments:
+		result_file: Path where the CSV file will be created
+	Returns:
+		None (creates CSV file with headers)
+	"""
 	os.makedirs(os.path.dirname(result_file), exist_ok=True)
 	with open(result_file, 'w') as file:
 		writer = csv.writer(file)
@@ -256,6 +437,29 @@ def create_final_result_header(result_file):
 def compute_result(bug_id, filtering_gui, boosting_gui, query_reformulation_gui, operation, no_of_screen, temp_xml_dir,
 				   final_ranks_folder, filtered_boosted_repo, temp_result_dir, preprocessed_data_dir,
 				   filtered_boosted_filenames, final_ranks_file):
+	"""
+	Computes BugLocator rankings for all query reformulation types for a single bug
+
+	Runs ranking for three query reformulation strategies (original bug report,
+	query replacement, query expansion) and writes combined results to CSV.
+
+	Arguments:
+		bug_id: Bug identifier
+		filtering_gui: GUI identifier for filtering strategy
+		boosting_gui: GUI identifier for boosting strategy
+		query_reformulation_gui: GUI identifier for query reformulation
+		operation: Operation type to perform
+		no_of_screen: Number of screens in the experiment
+		temp_xml_dir: Directory for temporary XML files
+		final_ranks_folder: Directory for final ranking output (unused in function body)
+		filtered_boosted_repo: Root directory of filtered/boosted repositories
+		temp_result_dir: Directory for temporary results
+		preprocessed_data_dir: Directory with preprocessed query data
+		filtered_boosted_filenames: Directory containing file lists
+		final_ranks_file: Path to output CSV file for final rankings
+	Returns:
+		None (writes results to final_ranks_file)
+	"""
 	data_row = []
 	data_row.append(bug_id)
 	br_unsorted_ranks, br_sorted_ranks, br_ranks_files = get_ranklist_on_query_reformulation_type(bug_id, filtering_gui,
@@ -307,6 +511,29 @@ def compute_result(bug_id, filtering_gui, boosting_gui, query_reformulation_gui,
 
 
 def main(args):
+	"""
+	Main entry point for BugLocator ranking experiments
+
+	Processes all bugs for the specified screen configuration, running BugLocator
+	with the given filtering, boosting, and query reformulation settings. Creates
+	output CSV with rankings for each bug.
+
+	Arguments:
+		args: Dictionary of command-line arguments including:
+			- screen: Number of screens ("3" or "4")
+			- operation: Operation type (Filtering, Boosting, etc.)
+			- filtering: Filtering strategy identifier
+			- boosting: Boosting strategy identifier
+			- query_reformulation: Query reformulation strategy identifier
+			- temp_data_dir: Temporary XML directory
+			- final_ranks_folder: Output directory for rankings
+			- filtered_boosted_repo: Repository directory
+			- temp_result_dir: Temporary result directory
+			- prep_data_dir: Preprocessed query directory
+			- filtered_boosted_filenames: File list directory
+	Returns:
+		None (writes results to CSV files)
+	"""
 	if args["screen"] == "3":
 		bug_issue_ids = ["2", "1028", "8", "10", "11", "18", "19", "1563", "1568", "44", "45", "1073", "53", "54", "55",
 						 "56", "1089", "71", "1096", "76", "84", "87", "92", "1640", "1641", "106", "1130", "1645",

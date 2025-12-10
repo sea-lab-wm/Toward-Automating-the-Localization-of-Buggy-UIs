@@ -11,6 +11,15 @@ import sys
 
 
 def write_to_csv(write_file, row):
+    """
+    Appends a single row of data to a CSV file
+
+    Arguments:
+        write_file: Path to the CSV file
+        row: List of values to write as a new row
+    Returns:
+        None (writes to file)
+    """
     with open(write_file, 'a') as file:
         writer = csv.writer(file)
         writer.writerow(row)
@@ -18,6 +27,23 @@ def write_to_csv(write_file, row):
 
 def write_rankings_row(filename, approach, ranklist_br_best_avg, ranklist_rq_best_avg, ranklist_qe1_best_avg,
                        ranklist_qe2_best_avg, ranklist_qe3_best_avg):
+    """
+    Writes BugLocator ranking results for different query reformulation approaches to CSV
+
+    Formats and writes average ranking values across bug report, query replacement,
+    and query expansion strategies for BugLocator results.
+
+    Arguments:
+        filename: Path to output CSV file
+        approach: Name of the approach/configuration
+        ranklist_br_best_avg: Average best rank for bug report queries
+        ranklist_rq_best_avg: Average best rank for replaced queries
+        ranklist_qe1_best_avg: Average best rank for query expansion 1
+        ranklist_qe2_best_avg: Average best rank for query expansion 2
+        ranklist_qe3_best_avg: Average best rank for query expansion 3
+    Returns:
+        None (writes to CSV file)
+    """
     result_row = []
     result_row.append(approach)
     result_row.append(ranklist_br_best_avg)
@@ -29,6 +55,16 @@ def write_rankings_row(filename, approach, ranklist_br_best_avg, ranklist_rq_bes
 
 
 def cal_avg(ranks):
+    """
+    Calculates average of non-empty rank values
+
+    Computes mean of rank values, ignoring empty entries.
+
+    Arguments:
+        ranks: List of rank values (may contain empty lists)
+    Returns:
+        Float average of non-empty ranks, or 0 if all empty
+    """
     if len(ranks) == 0:
         return 0
     cnt = 0
@@ -44,6 +80,16 @@ def cal_avg(ranks):
 
 
 def get_java_file_count(bug_id):
+    """
+    Retrieves total Java file count for a specific bug from statistics
+
+    Looks up the number of Java files in the bug's project from pre-computed statistics.
+
+    Arguments:
+        bug_id: Bug identifier
+    Returns:
+        Integer count of Java files, or 0 if not found
+    """
     filename = "Statistics/java_file_count.csv"
     ranklist_df = pd.read_csv(filename)
 
@@ -54,6 +100,17 @@ def get_java_file_count(bug_id):
 
 
 def get_buggy_java_files(bug_issue_id):
+    """
+    Extracts unique buggy Java file paths from ground truth JSON
+
+    Reads ground truth data and extracts the set of unique Java files
+    containing bug locations.
+
+    Arguments:
+        bug_issue_id: Bug identifier
+    Returns:
+        Set of buggy Java file paths
+    """
     ######## Read json file containing the correct bug locations ###########
     json_file = "../data/JSON-Files-All/" + str(bug_issue_id) + ".json"
     with open(json_file, 'r') as jfile:
@@ -70,6 +127,16 @@ def get_buggy_java_files(bug_issue_id):
 
 
 def get_best_ranklist(ranklist):
+    """
+    Extracts minimum rank from each bug's ranking list
+
+    For each bug, selects the best (minimum) rank among multiple buggy files.
+
+    Arguments:
+        ranklist: List of rank lists (one per bug)
+    Returns:
+        List of minimum ranks (empty list for bugs with no ranks)
+    """
     min_ranks = []
     for ranks in ranklist:
         min_ranks.append(min(ranks) if ranks else [])
@@ -77,6 +144,16 @@ def get_best_ranklist(ranklist):
 
 
 def get_ranklist_len(ranklist):
+    """
+    Counts the number of ranks for each bug
+
+    Returns the count of buggy files found for each bug.
+
+    Arguments:
+        ranklist: List of rank lists (one per bug)
+    Returns:
+        List of rank counts
+    """
     len_ranks_list = []
     for ranks in ranklist:
         len_ranks_list.append(len(ranks))
@@ -84,6 +161,18 @@ def get_ranklist_len(ranklist):
 
 
 def calculate_final_metric_values_file_level_for_bug_id(ranks, K, bug_id):
+    """
+    Computes file-level evaluation metrics for a single bug at top-K
+
+    Calculates Reciprocal Rank, Hit@K, and Average Precision@K metrics for BugLocator.
+
+    Arguments:
+        ranks: List of ranks for buggy files
+        K: Cutoff rank for evaluation
+        bug_id: Bug identifier (for AP calculation)
+    Returns:
+        Tuple of (reciprocal rank, hit@K, average precision@K)
+    """
     rr_K = calculate_RR(ranks, K)
     hit_K = calculate_hitK(ranks, K)
     ap_K = calculate_average_precisionK(ranks, K, bug_id)
@@ -93,6 +182,17 @@ def calculate_final_metric_values_file_level_for_bug_id(ranks, K, bug_id):
 
 # Calculate mean reciprocal rank@K (MRR@K)
 def calculate_RR(ranks, K):
+    """
+    Calculates Reciprocal Rank at cutoff K for BugLocator
+
+    Computes 1/rank for the first buggy file ranked within top-K, or 0 if none.
+
+    Arguments:
+        ranks: List of ranks for buggy files
+        K: Cutoff rank
+    Returns:
+        Float reciprocal rank value (0 if no file within top-K)
+    """
     first_rank = 0
     for rank in ranks:
         if rank <= K:

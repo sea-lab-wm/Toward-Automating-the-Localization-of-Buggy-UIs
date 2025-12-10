@@ -11,12 +11,19 @@ In this replication package, we refer to the Buggy UI Localization as ```study_1
 # Getting Started
 This section contains the steps to set up the environment and reproduce the results of Buggy UI Localization tasks (study_1) and Buggy Code Localization experiments (study_2) of the paper. Note that study_1, i.e., Buggy UI Localization tasks (screen and component localization) are the main focus of the paper. All the experiments of study_1 can be replicated in 1 hour. However, replicating the results of study_2, i.e., Buggy Code Localization will take a while depending on the experiment. We already provided the results of all the experiments of both studies. Rerunning the experiments will overwrite the results.
 ## Setting up the Environment
+### Using Docker
+There is a provided ```Dockerfile``` that will install the necessary dependencies to run this project. To build it, install Docker and do the following:
+1. Run ```docker build --tag "{YOUR CONTAINER NAME}" .``` to create an image.
+2. Run the image and make it interactable using ```docker run -i "{YOUR CONTAINER NAME}"```.
+
+### Manual installation
+If you do not wish to use the ```Dockerfile```, you can install the dependencies manually:
 1. Install JDK 11+ and Apache Maven(3.6.3). Add both JDK and Maven to your PATH environment variable.
-2. Install Python 3.
+2. Install Python 3 (the version should be >= 3.10).
 3. Install pip.
-4. Install required packages from requirements.txt file. Run the following command: ```pip install -r requirement.txt```
+4. Install the required packages from the requirements.txt file. Run the following command: ```pip install -r requirements.txt```
 ## Reproducing the Results of Buggy UI Localization (study_1) 
-1. Run ```run_cmnd.sh``` for reproducing the results with this command: ```sh run_cmnd.sh```. If you use windows, please create a similar script. This script will run all the experiments of Study 1. The experiments can be run within one hour using this script. For running each experiment separately, please comment out the commands of other experiments.
+1. Run ```run_cmnd.sh``` for reproducing the results with this command: ```sh run_cmnd.sh```. For Windows, run ```run_powershell.ps1```. This script will run all the experiments of Study 1. The experiments can be run within one hour using this script. For running each experiment separately, please comment out the commands of other experiments.
 2. The results will be stored in the ```results``` directory where ```SL``` folder will contain screen localization results and ```CL``` will contain component localization results. The results are already provided (as CSV files). Rerunning the experiments will overwrite the results.
 3. The results summary will be saved in ```study_1/results/results_summary.xlsx``` file. The file is already provided. Rerunning the script will overwrite the results summary.
 ## Reproducing the Results of Buggy Code Localization (study_2)

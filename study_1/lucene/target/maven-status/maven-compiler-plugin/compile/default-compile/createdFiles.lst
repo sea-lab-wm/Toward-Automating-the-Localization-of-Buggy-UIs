@@ -1,8 +1,8 @@
 RetrievalEvaluator.class
 MyRetrievalEvaluator.class
-OBQuery.class
 Document.class
+OBQuery.class
 Query.class
 ScreenLocalization.class
-RetrievalStats.class
 ComponentLocalization.class
+RetrievalStats.class

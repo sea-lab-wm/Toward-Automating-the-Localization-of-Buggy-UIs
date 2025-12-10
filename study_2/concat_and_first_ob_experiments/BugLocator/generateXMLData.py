@@ -7,6 +7,16 @@ import argparse
 
 
 def read_file_content(file_name):
+    """
+    Reads and returns the complete contents of a text file
+
+    Opens the specified file in read mode and returns all text content as a string.
+
+    Arguments:
+        file_name: Path to the file to read
+    Returns:
+        String containing the complete file contents
+    """
     file_content = open(file_name, "r")
     file_content = file_content.read()
     return file_content
@@ -14,6 +24,22 @@ def read_file_content(file_name):
 
 def get_preprocessed_contents(bug_id, preprocessed_data_path, content_name_dir, content_subpath,
                               query_reformulation_type, filename_prefix):
+    """
+    Retrieves preprocessed content from a text file for a specific bug
+
+    Constructs the file path based on query reformulation type and reads the preprocessed
+    content (bug report title or description). Returns empty string if content is missing.
+
+    Arguments:
+        bug_id: Bug identifier
+        preprocessed_data_path: Root directory of preprocessed data
+        content_name_dir: Content type directory (e.g., "Title" or "Content")
+        content_subpath: Subdirectory path for specific screen/preprocessing configuration
+        query_reformulation_type: Type of query reformulation (empty string for titles)
+        filename_prefix: Prefix for the content file (e.g., "bug_title_" or "bug_report_")
+    Returns:
+        String containing preprocessed content or empty string if missing
+    """
     if query_reformulation_type == "":
         content_file = preprocessed_data_path + "/" + content_name_dir + "/" + content_subpath + "/" + filename_prefix + bug_id + ".txt"
     else:
@@ -26,10 +52,37 @@ def get_preprocessed_contents(bug_id, preprocessed_data_path, content_name_dir, 
 
 
 def create_filepath(file):
+    """
+    Creates all parent directories for a file path if they don't exist
+
+    Ensures the directory structure exists for the given file path without raising
+    an error if directories already exist.
+
+    Arguments:
+        file: Complete file path for which to create parent directories
+    Returns:
+        None (creates directories)
+    """
     os.makedirs(os.path.dirname(file), exist_ok=True)
 
 
 def create_xml_file(bug_id, bug_report_title, bug_report_content, xml_file, json_filepath):
+    """
+    Generates an XML file in BugLocator format from bug report data
+
+    Creates a structured XML file containing bug information (summary, description,
+    fixed files) formatted for BugLocator tool input. Extracts buggy file locations
+    from JSON ground truth data and converts paths to Java package notation.
+
+    Arguments:
+        bug_id: Bug identifier
+        bug_report_title: Title/summary of the bug report
+        bug_report_content: Description/content of the bug report
+        xml_file: Output path for the generated XML file
+        json_filepath: Directory containing JSON files with ground truth bug locations
+    Returns:
+        None (writes XML file to disk)
+    """
     root = ET.Element("bugrepository", name="androR2")
     bug = ET.SubElement(root, "bug", id=str(bug_id), opendate="", fixdate="")
     buginformation = ET.SubElement(bug, "buginformation")
@@ -74,6 +127,24 @@ def create_xml_file(bug_id, bug_report_title, bug_report_content, xml_file, json
 
 
 def main(args):
+    """
+    Main entry point for generating BugLocator XML data files
+
+    Creates XML files for all bugs in the specified screen configuration, generating
+    three versions per bug: original bug report, replaced query, and query expansion.
+    Each version uses different preprocessed content while maintaining the same
+    ground truth buggy file locations.
+
+    Arguments:
+        args: Dictionary of command-line arguments including:
+            - screen: Number of screens ("3" or "4")
+            - query_reformulation: Query reformulation strategy identifier
+            - preprocessed_data: Root directory of preprocessed text data
+            - generated_data: Output directory for generated XML files
+            - json_file_path: Directory containing ground truth JSON files
+    Returns:
+        None (writes XML files to disk)
+    """
     if args['screen'] == "3":
         bug_issue_ids = ["2", "1028", "8", "10", "11", "18", "19", "1563", "1568", "44", "45", "1073", "53", "54", "55",
                          "56", "1089", "71", "1096", "76", "84", "87", "92", "1640", "1641", "106", "1130", "1645", "110",

@@ -8,6 +8,12 @@ import argparse
 from sentence_transformers import SentenceTransformer
 
 
+"""
+Performs Screen Localization (SL), Component Localization (CL) using Sentence-BERT embeddings
+to match bug descriptions to UI screens/components
+"""
+
+
 def perform_retrieval():
     results_of_n_obs, scores_of_n_obs = \
         get_documents_ranking(documents_list, ob_query_list, model, device)

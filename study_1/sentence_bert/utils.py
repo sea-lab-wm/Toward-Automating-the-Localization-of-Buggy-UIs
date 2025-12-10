@@ -34,6 +34,17 @@ class Document:
 
 
 def create_component_documents(screen_components_path, s_id):
+    """
+    Creates searchable documents for individual UI components on a 
+    specific screen
+
+    Arguments:
+        screen_components_path <String> -- Path to JSON file with screen data
+        s_id -- Specific screen ID to extract components from
+    Returns:
+        document_list -- List of Document objects
+    """
+
     document_list = []
 
     with open(screen_components_path, 'r') as json_file:
@@ -59,6 +70,15 @@ def create_component_documents(screen_components_path, s_id):
 
 
 def create_screen_documents(screen_components_path):
+    """
+    Creates searchable documents for entire screens
+
+    Arguments:
+        screen_components_path <String> -- Path to JSON file with screen data
+    Returns:
+        document_list -- List of Document objects
+    """
+
     document_list = []
 
     with open(screen_components_path, 'r') as json_file:
@@ -84,6 +104,18 @@ def create_screen_documents(screen_components_path):
 
 # Encode text
 def encode(texts, model, tokenizer, device):
+    """
+    Converts text into dense vector embeddings using a transformer model
+
+    Arguments:
+        texts     -- Text to encode
+        model     -- Transformer model
+        tokenizer -- Tokenizer for the model
+        device    -- CPU or GPU
+    Returns:
+        embeddings -- Normalized embedding tensors
+    """
+
     # Tokenize sentences
     encoded_input = tokenizer(texts, padding=True, truncation=True, return_tensors='pt').to(device)
     print(encoded_input)
@@ -100,6 +132,11 @@ def encode(texts, model, tokenizer, device):
 
 # Mean Pooling - Take average of all tokens
 def mean_pooling(model_output, attention_mask):
+    """
+    Aggregates token-level embeddings into a single sentence embedding
+        ( Helper function for encode() above )
+    """
+
     token_embeddings = model_output[0]  # First element of model_output contains all token embeddings
     input_mask_expanded = attention_mask.unsqueeze(-1).expand(token_embeddings.size()).float()
     return torch.sum(token_embeddings * input_mask_expanded, 1) / torch.clamp(input_mask_expanded.sum(1), min=1e-9)
@@ -107,14 +144,17 @@ def mean_pooling(model_output, attention_mask):
 
 def get_documents_ranking(documents_list, query_list, model, device):
     """
-    This method will receive a list of OB queries and the screens of an application and return the results of an
-    application as a list of lists.
-    :param documents_list: path of the folder that contains the screens of an app
-    :param query_list: list of OB queries of an application
-    :param model: model that is being evaluated
-    :param preprocess: preprocess of the CLIP model
-    :param device: device where the evaluation will be conducted
-    :return: return the results of an application as a list of lists
+    Ranks documents by semantic similarity to queries using 
+    Sentence-BERT embeddings
+
+    Arguments:
+        documents_list -- List of document objects containing UI screen/component
+        query_list     -- List of RealOBQuery objects containing bug descriptions
+        model          -- SentenceTransformer model for encoding text
+        device         -- PyTorch device ('cuda' or 'cpu')
+    Returns:
+        binary_relevance_lists: [0,1,0,...], [1,0,0,...]] where 1=relevant
+        score_dictionaries: [{doc_id: score, ...}, ...] sorted by similarity
     """
     model = model.to(device)
 
@@ -170,9 +210,12 @@ def get_documents_ranking(documents_list, query_list, model, device):
 
 def calculate_metrics(results_list):
     """
-    This method will calculate the evaluation metrics.
-    :param results_list: a list of lists which contains the results of all the applications or all the OBs
-    :return: return the evaluation metrics
+    Computes aggregates evaluation metrics across all queries
+
+    Arguments:
+        results_list -- List of binary result lists from get_documents_ranking()
+    Returns:
+        12 matrices
     """
     mrr = em.mean_reciprocal_rank(results_list)
     # print(f'MRR:{mrr}')

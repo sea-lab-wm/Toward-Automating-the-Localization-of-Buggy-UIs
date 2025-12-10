@@ -10,8 +10,26 @@ from transformers import (
 from utils import RealOBQuery, calculate_metrics
 from evaluation_metrics import reciprocal_rank, average_precision, hit_rate_at_k
 
+"""
+Implements visual bug localization - finds which UI screenshot best matches a bug description
+by comparing images to text, using CLIP (a neural network trained on image-text pairs)
+"""
+
 
 def get_image_ranking(image_folder_path, query_list, model, device):
+    """
+    Ranks screenshot images by how well they match bug descriptions using CLIP
+    (a vision-language model)
+
+    Arguments:
+        image_folder_path -- Glob pattern to find screen images
+        query_list -- List of RealOBQuery objects (bug descriptions)
+        model -- CLIP model
+        device -- CPU or GPU
+    Returns:
+        all_query_result -- Binary relevance lists
+    """
+    
     model = model.to(device)
     image_paths = glob(image_folder_path)
     image_paths.sort()

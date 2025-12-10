@@ -10,8 +10,32 @@ from transformers import (
 from utils import RealOBQuery, calculate_metrics
 from evaluation_metrics import reciprocal_rank, average_precision, hit_rate_at_k
 
+"""
+Implements component-level UI bug localization using the CLIP (Contrastive Language-Image
+Pre-training) model.
+It:
+    1. Takes textual bug descriptions (Observed Behaviors - OBs)
+    2. Compares them against UI component images (cropped portions of screenshots)
+    3. Ranks which components are most likley related to the bug
+    4. Evaluates the ranking quality using various metrics (MRR, MAP, Hit@K)
+"""
+
 
 def get_image_ranking(image_folder_path, query_list, model, device):
+    """
+    Ranks UI components images based on their similarity to bug description
+    text queries using CLIP
+
+    Arguments:
+        image_folder_path -- Glob pattern to find component images
+        query_list -- List of RealOBQuery objects (bug descriptions)
+        model -- CLIP model
+        device -- CPU or GPU
+    Returns:
+        all_query_result -- Binary relevance lists
+    """
+
+
     model = model.to(device)
     image_paths = glob(image_folder_path)
     image_paths.sort()

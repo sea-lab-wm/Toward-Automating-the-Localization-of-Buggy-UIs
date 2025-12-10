@@ -3,6 +3,19 @@ import os
 
 
 def write_categorized_results(result_file_path, output_file_path):
+    """
+    Creates fine-grained aggregated results grouped by query characteristics
+
+    Processes detailed retrieval results and generates grouped statistics by
+    OB category, rating, and title presence. Computes MRR, MAP, Hit@K metrics,
+    and success/failure counts for different query categorizations.
+
+    Arguments:
+        result_file_path: Path to detailed results CSV file
+        output_file_path: Path to write aggregated results
+    Returns:
+        None (writes results to CSV file)
+    """
     exp_name = result_file_path.split('/')[-1].replace('_all_obs_with_details.csv', '')
     df = pd.read_csv(result_file_path, delimiter=';')
     # print(df.columns)

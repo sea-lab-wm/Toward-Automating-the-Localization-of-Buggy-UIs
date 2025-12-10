@@ -10,19 +10,34 @@
 set -x #echo on
 
 # JAVA_HOME path (JRE/JDK 11+)
-export JAVA_HOME=$(/usr/libexec/java_home)
-
-# REPOSITORIES_PATH: path to the folder where all the required repositories are located
-export REPOSITORIES_PATH=required_projects
+# Fixed for Linux - detect OS and set JAVA_HOME accordingly
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    # macOS
+    export JAVA_HOME=$(/usr/libexec/java_home)
+else
+    # Linux - find Java home
+    if [ -n "$JAVA_HOME" ]; then
+        # Use existing JAVA_HOME if set
+        export JAVA_HOME="$JAVA_HOME"
+    else
+        # Auto-detect Java home on Linux
+        export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which java))))
+    fi
+fi
 
 export CUR_DIR=`pwd`
-export APPCORE_REPO_PATH=$REPOSITORIES_PATH/appcore
-export TXT_ANALYZER_REPO_PATH=$REPOSITORIES_PATH/text-analyzer
 export IR_ENGINE_PATH=$CUR_DIR/study_1/lucene
 
-# project building
-cd $APPCORE_REPO_PATH/appcore && ./gradlew clean testClasses install
-cd $TXT_ANALYZER_REPO_PATH/text-analyzer && ./gradlew clean testClasses install
+# Install dependencies from pre-built JARs in target/dependency
+# (required_projects directory is not included in the repository)
+echo "Installing Maven dependencies..."
+cd $IR_ENGINE_PATH
+if [ -f "target/dependency/appcore-1.1.jar" ]; then
+    mvn install:install-file -Dfile=target/dependency/appcore-1.1.jar -DgroupId=seers -DartifactId=appcore -Dversion=1.1 -Dpackaging=jar
+fi
+if [ -f "target/dependency/text-analyzer-1.2.jar" ]; then
+    mvn install:install-file -Dfile=target/dependency/text-analyzer-1.2.jar -DgroupId=seers -DartifactId=text-analyzer -Dversion=1.2 -Dpackaging=jar
+fi
 
 # install additional libraries
 cd $IR_ENGINE_PATH/lib

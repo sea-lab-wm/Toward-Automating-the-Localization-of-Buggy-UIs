@@ -12,8 +12,25 @@ from read_files import ReadFiles
 
 
 class SoureCodeMapping:
+    """
+    Orchestrates UI-to-code mapping for Android bug localization
+
+    Manages the filtering and boosting pipeline that maps UI components and states
+    to Java source files. Processes trace data to extract activities, fragments, and
+    component IDs, then builds filtered corpora for code localization experiments.
+    """
 
     def __init__(self, args):
+        """
+        Initializes source code mapping with configuration parameters
+
+        Sets up helper classes and extracts experiment configuration from arguments.
+
+        Arguments:
+            args: Dictionary of command-line arguments containing corpus type, query type, etc.
+        Returns:
+            None (initializes instance variables)
+        """
         self.codeMappingHelper = CodeMappingHelper()
         self.writeResults = WriteResults()
         self.fileAnalysis = FileAnalysis()
@@ -24,12 +41,41 @@ class SoureCodeMapping:
         self.number_of_screens = int(args['screens'])
 
     def get_query_name(self):
+        """
+        Returns the query type used for this mapping experiment
+
+        Arguments:
+            None
+        Returns:
+            String indicating the query type
+        """
         return self.query_name
 
     def get_corpus_flag(self):
+        """
+        Returns the filtered corpus flag
+
+        Arguments:
+            None
+        Returns:
+            Boolean indicating whether corpus filtering is enabled
+        """
         return self.filteredCorpusFlag
 
     def get_files_gui_state_all_component_ids(self, parent_directory, list_of_activities, all_comp_ids):
+        """
+        Retrieves files related to GUI states and all component IDs
+
+        Combines files matching activities/fragments with files containing any component
+        ID reference. Removes duplicates to avoid counting activity files twice.
+
+        Arguments:
+            parent_directory: Root directory of the Android project
+            list_of_activities: List of activity/fragment names
+            all_comp_ids: List of all component IDs visible in screens
+        Returns:
+            List of filtered Java file paths
+        """
         gui_state_files = self.fileAnalysis.get_filtered_files(parent_directory, list_of_activities)
 
         all_comp_id_related_files = self.fileAnalysis.get_files_if_term_exists(parent_directory, all_comp_ids)
@@ -43,12 +89,37 @@ class SoureCodeMapping:
         return filtered_files
 
     def get_all_component_id_related_files(self, parent_directory, all_comp_ids):
+        """
+        Retrieves files containing references to any component ID
+
+        Searches for files that reference any of the provided component IDs.
+
+        Arguments:
+            parent_directory: Root directory of the Android project
+            all_comp_ids: List of all component IDs to search for
+        Returns:
+            List of Java file paths containing component ID references
+        """
         all_comp_id_related_files = self.fileAnalysis.get_files_if_term_exists(parent_directory, all_comp_ids)
 
         return all_comp_id_related_files
 
     def get_files_gui_state_interacted_component_ids(self, parent_directory, list_of_activities,
                                                      list_of_interacted_comp_ids):
+        """
+        Retrieves files related to GUI states and interacted component IDs
+
+        Combines files matching activities/fragments with files containing references
+        to interacted component IDs. Removes duplicates to avoid counting activity
+        files twice.
+
+        Arguments:
+            parent_directory: Root directory of the Android project
+            list_of_activities: List of activity/fragment names
+            list_of_interacted_comp_ids: List of component IDs that were interacted with
+        Returns:
+            List of filtered Java file paths
+        """
         gui_state_files = self.fileAnalysis.get_filtered_files(parent_directory, list_of_activities)
 
         # Retrieve interacted component id related files and remove those files where filenames matches with the activities/fragments
@@ -64,6 +135,18 @@ class SoureCodeMapping:
         return filtered_files
 
     def main(self):
+        """
+        Main entry point for UI-to-code mapping experiments
+
+        Processes all bugs in the experiment, extracting UI trace data, building
+        filtered/boosted corpora based on corpus type, and writing results to CSV.
+        Supports multiple experiment configurations (3/4 screens, concat/first OB).
+
+        Arguments:
+            None (uses instance variables and global args)
+        Returns:
+            None (writes results to CSV files)
+        """
         # print(args['result'])
         if args['exp_name'] == 'Concat-OB-3-Screens':
             bug_ids_states = [("2", [100, 89, 69]), ("8", [30, 41, 35]), ("10", [17, 64, 78]), ("18", [31, 14, 21]),

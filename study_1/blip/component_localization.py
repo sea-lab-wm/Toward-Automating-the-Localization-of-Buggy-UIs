@@ -15,6 +15,23 @@ from evaluation_metrics import reciprocal_rank, average_precision, hit_rate_at_k
 
 @torch.no_grad()
 def evaluation(model, ob_text, images, device):
+    """
+    Performs two-stage retrieval using BLIP to rank UI components by bug description
+
+    Stage 1 (coarse): Computes image-text similarity using BLIP's vision and text encoders
+    Stage 2 (fine): Re-ranks top candidates using cross-modal attention (ITM head)
+    This two-stage approach balances efficiency and accuracy for component localization.
+
+    Arguments:
+        model -- BLIP retrieval model with visual encoder, text encoder, and ITM head
+        ob_text -- Bug description text (observed behavior)
+        images -- Tensor of component images (batch_size, 3, 384, 384)
+        device -- PyTorch device (CPU or CUDA GPU)
+    Returns:
+        Tuple of (scores, topk_idx):
+            scores -- Final ranking scores for all images (numpy array)
+            topk_idx -- Indices of images sorted by initial similarity (numpy array)
+    """
     # test
     model.eval()
     # print('Computing features for evaluation...')
@@ -56,6 +73,23 @@ def evaluation(model, ob_text, images, device):
 
 
 def get_image_ranking(image_folder_path, query_list, model, device):
+    """
+    Ranks UI component images by similarity to bug descriptions using BLIP model
+
+    Loads component images, applies BLIP-specific preprocessing (384x384 with normalization),
+    and uses the two-stage BLIP retrieval process to rank components. Returns binary
+    relevance vectors indicating which ranked positions contain buggy components.
+
+    Arguments:
+        image_folder_path -- Glob pattern to find component images (e.g., "./bugs/123/screen_1/*.png")
+        query_list -- List of RealOBQuery objects containing bug descriptions and ground truth
+        model -- BLIP retrieval model
+        device -- PyTorch device (CPU or CUDA GPU)
+    Returns:
+        Tuple of (all_query_result, all_query_scores):
+            all_query_result -- List of binary relevance vectors (1=buggy, 0=not buggy) for each query
+            all_query_scores -- List of raw BLIP similarity scores for each query
+    """
     model = model.to(device)
     image_paths = glob(image_folder_path)
     image_paths.sort()

@@ -4,6 +4,38 @@ import os
 import pandas as pd
 import sys
 
+"""
+This script is a data preprocessing pipeline that transforms the raw
+bug report ground truth data into structured JSON formats for UI bug localization experiments.
+
+After preprocessing the CSV,
+writes out to "raw-obs.json", "obs.json", and "concat-obs.json"
+
+All three output files have the same format as the example below:
+    "Bug1299": {
+        "012": {
+            "ob_id": "012",
+            "ob_in_title": 0,
+            "bug_type": "App crashes",
+            "ob_category": "Easy",
+            "ob_rating": 4,
+            "ob_text": " [BUG] Crashes in Collect after importing field_sample.csv Following exception occurs after importing a sample csv, going to Collect, and pressing the +1 button. 6. Click any button (other than primary/secondary choice) on this page and the app crashes",
+            "screens": [
+                {
+                    "screen_id": "e9baf7bd2356f52876be906bce06fe0d645bf7d061dc6158d90b0e4cfb1b20a6",
+                    "components": []
+                },
+                {
+                    "screen_id": "16c9d62c265c8fdb4e439859c356403676619f27ba36b7df23aeaf444ab30cd4",
+                    "components": [
+                        16
+                    ]
+                }
+            ]
+        }
+    },
+"""
+
 
 # These 79 bugs are used in the bug localization study (study_2).
 bugs_used_in_bl = [2, 8, 10, 11, 18, 19, 44, 45, 53, 54, 55, 56, 71, 76, 84, 87, 92, 106, 110, 117, 128,
@@ -14,6 +46,15 @@ bugs_used_in_bl = [2, 8, 10, 11, 18, 19, 44, 45, 53, 54, 55, 56, 71, 76, 84, 87,
 
 
 def split_to_int_list(string_data):
+    """
+    Splits a comma-separated string into a list of integers
+    (or strings if not numeric)
+
+    Arguments:
+    string_data <String> -- Comma separated string
+        ex: "1, 2, 5, 10"
+    """
+
     if pd.isna(string_data):
         return []
 
@@ -21,6 +62,15 @@ def split_to_int_list(string_data):
 
 
 def write_data(ob_dir, query_data, output_file):
+    """
+    Writes query data to a JSON file
+
+    Arguments:
+    ob_dir      <String>          -- Output directory path
+    query_data  <Dictionary,List> -- Data structure to be written
+    output_file <String>          -- The name of the output file
+    """
+
     query_data_path = os.path.join(ob_dir, output_file)
     with open(query_data_path, "w") as f:
         json.dump(query_data, f, indent=4)

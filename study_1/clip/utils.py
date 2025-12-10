@@ -1,18 +1,60 @@
 import math
 def cosine_lr_schedule(optimizer, epoch, max_epoch, init_lr, min_lr):
-    """Decay the learning rate"""
+    """
+    Applies cosine annealing learning rate decay schedule to the optimizer
+
+    Uses a smooth cosine curve to gradually decrease the learning rate from init_lr
+    to min_lr over the course of training, which helps with model convergence
+
+    Arguments:
+        optimizer -- PyTorch optimizer object to update
+        epoch -- Current training epoch number
+        max_epoch -- Total number of training epochs
+        init_lr -- Initial learning rate at epoch 0
+        min_lr -- Minimum learning rate (floor value)
+    Returns:
+        None (modifies optimizer in-place)
+    """
     lr = (init_lr - min_lr) * 0.5 * (1. + math.cos(math.pi * epoch / max_epoch)) + min_lr
     for param_group in optimizer.param_groups:
         param_group['lr'] = lr
         
 def warmup_lr_schedule(optimizer, step, max_step, init_lr, max_lr):
-    """Warmup the learning rate"""
+    """
+    Gradually increases learning rate during initial training warmup phase
+
+    Linearly ramps up the learning rate from init_lr to max_lr over max_step steps
+    to prevent unstable gradients and divergence at the start of training
+
+    Arguments:
+        optimizer -- PyTorch optimizer object to update
+        step -- Current warmup step number
+        max_step -- Total number of warmup steps
+        init_lr -- Starting learning rate
+        max_lr -- Target learning rate after warmup
+    Returns:
+        None (modifies optimizer in-place)
+    """
     lr = min(max_lr, init_lr + (max_lr - init_lr) * step / max_step)
     for param_group in optimizer.param_groups:
         param_group['lr'] = lr    
 
-def step_lr_schedule(optimizer, epoch, init_lr, min_lr, decay_rate):        
-    """Decay the learning rate"""
+def step_lr_schedule(optimizer, epoch, init_lr, min_lr, decay_rate):
+    """
+    Applies exponential learning rate decay schedule to the optimizer
+
+    Multiplies the learning rate by decay_rate each epoch, creating an exponential
+    decay curve (e.g., if decay_rate=0.9, lr becomes 90% of previous value each epoch)
+
+    Arguments:
+        optimizer -- PyTorch optimizer object to update
+        epoch -- Current training epoch number
+        init_lr -- Initial learning rate at epoch 0
+        min_lr -- Minimum learning rate (floor value)
+        decay_rate -- Multiplicative decay factor per epoch (typically 0.9-0.99)
+    Returns:
+        None (modifies optimizer in-place)
+    """
     lr = max(min_lr, init_lr * (decay_rate**epoch))
     for param_group in optimizer.param_groups:
         param_group['lr'] = lr    
@@ -29,11 +71,29 @@ import torch.distributed as dist
 import evaluation_metrics as em
 
 class SmoothedValue(object):
-    """Track a series of values and provide access to smoothed values over a
-    window or the global series average.
+    """
+    Tracks a series of values and provides smoothed statistics over a sliding window
+
+    Maintains both recent values (in a rolling window) and global statistics across
+    all values ever added. Useful for monitoring training metrics like loss or accuracy.
+
+    Attributes:
+        deque -- Rolling window of recent values (max size = window_size)
+        total -- Sum of all values ever added
+        count -- Number of values ever added
+        fmt -- String format for display
     """
 
     def __init__(self, window_size=20, fmt=None):
+        """
+        Initializes a SmoothedValue tracker
+
+        Arguments:
+            window_size -- Maximum number of recent values to keep (default: 20)
+            fmt -- Format string for __str__ method (default: "{median:.4f} ({global_avg:.4f})")
+        Returns:
+            None
+        """
         if fmt is None:
             fmt = "{median:.4f} ({global_avg:.4f})"
         self.deque = deque(maxlen=window_size)
@@ -42,13 +102,30 @@ class SmoothedValue(object):
         self.fmt = fmt
 
     def update(self, value, n=1):
+        """
+        Adds a new value to the tracker and updates statistics
+
+        Arguments:
+            value -- The value to add
+            n -- Weight/count for this value (default: 1)
+        Returns:
+            None (modifies object state in-place)
+        """
         self.deque.append(value)
         self.count += n
         self.total += value * n
 
     def synchronize_between_processes(self):
         """
-        Warning: does not synchronize the deque!
+        Synchronizes count and total statistics across distributed training processes
+
+        Uses PyTorch distributed operations to aggregate statistics from all GPU processes.
+        Warning: Does NOT synchronize the deque (only total and count)!
+
+        Arguments:
+            None
+        Returns:
+            None (modifies object state in-place)
         """
         if not is_dist_avail_and_initialized():
             return
@@ -91,11 +168,38 @@ class SmoothedValue(object):
 
 
 class MetricLogger(object):
+    """
+    Manages multiple SmoothedValue objects for tracking different metrics simultaneously
+
+    Provides convenient methods for updating multiple metrics at once and logging
+    progress during training loops. Each metric is stored as a SmoothedValue object.
+
+    Attributes:
+        meters -- Dictionary mapping metric names to SmoothedValue objects
+        delimiter -- String separator for displaying metrics (default: tab)
+    """
+
     def __init__(self, delimiter="\t"):
+        """
+        Initializes a MetricLogger
+
+        Arguments:
+            delimiter -- String to separate metrics when printing (default: tab)
+        Returns:
+            None
+        """
         self.meters = defaultdict(SmoothedValue)
         self.delimiter = delimiter
 
     def update(self, **kwargs):
+        """
+        Updates multiple metrics at once using keyword arguments
+
+        Arguments:
+            **kwargs -- Metric names and values (e.g., loss=0.5, accuracy=0.85)
+        Returns:
+            None (modifies meters in-place)
+        """
         for k, v in kwargs.items():
             if isinstance(v, torch.Tensor):
                 v = v.item()
@@ -131,9 +235,31 @@ class MetricLogger(object):
             meter.synchronize_between_processes()
 
     def add_meter(self, name, meter):
+        """
+        Adds a custom SmoothedValue meter to track a specific metric
+
+        Arguments:
+            name -- Name of the metric
+            meter -- SmoothedValue object to track this metric
+        Returns:
+            None (modifies meters dictionary in-place)
+        """
         self.meters[name] = meter
 
     def log_every(self, iterable, print_freq, header=None):
+        """
+        Wraps an iterable (like a training dataloader) with periodic logging
+
+        Yields items from the iterable while printing progress, metrics, ETA, and
+        memory usage at regular intervals. This is the main method for training loop logging.
+
+        Arguments:
+            iterable -- Data source to iterate over (e.g., DataLoader)
+            print_freq -- Print statistics every N iterations
+            header -- Optional header string to display (e.g., "Training Epoch 5")
+        Returns:
+            Generator that yields items from iterable
+        """
         i = 0
         if not header:
             header = ''
@@ -181,12 +307,45 @@ class MetricLogger(object):
         
 
 class AttrDict(dict):
+    """
+    Dictionary subclass that allows attribute-style access to keys
+
+    Enables accessing dictionary values using dot notation (obj.key) in addition
+    to standard bracket notation (obj['key']), making config objects more readable.
+
+    Example:
+        config = AttrDict({'lr': 0.001, 'batch_size': 32})
+        print(config.lr)  # Same as config['lr']
+    """
+
     def __init__(self, *args, **kwargs):
+        """
+        Initializes an AttrDict with the same arguments as a regular dict
+
+        Arguments:
+            *args -- Positional arguments passed to dict constructor
+            **kwargs -- Keyword arguments passed to dict constructor
+        Returns:
+            None
+        """
         super(AttrDict, self).__init__(*args, **kwargs)
         self.__dict__ = self
 
 
 def compute_acc(logits, label, reduction='mean'):
+    """
+    Calculates classification accuracy from model logits and true labels
+
+    Compares predicted class (argmax of logits) with true labels and computes
+    the proportion or per-sample correctness.
+
+    Arguments:
+        logits -- Raw model outputs (batch_size x num_classes tensor)
+        label -- True class labels (batch_size tensor)
+        reduction -- 'mean' for average accuracy, 'none' for per-sample (default: 'mean')
+    Returns:
+        Float (mean accuracy) or Tensor (per-sample accuracy) depending on reduction
+    """
     ret = (torch.argmax(logits, dim=1) == label).float()
     if reduction == 'none':
         return ret.detach()
@@ -194,6 +353,18 @@ def compute_acc(logits, label, reduction='mean'):
         return ret.mean().item()
 
 def compute_n_params(model, return_str=True):
+    """
+    Counts the total number of trainable parameters in a PyTorch model
+
+    Iterates through all model parameters and sums up their sizes, useful for
+    understanding model complexity and memory requirements.
+
+    Arguments:
+        model -- PyTorch model (nn.Module)
+        return_str -- If True, returns formatted string (e.g., "12.5M"), else raw count (default: True)
+    Returns:
+        String like "12.5M" or "345.6K" if return_str=True, else integer count
+    """
     tot = 0
     for p in model.parameters():
         w = 1
@@ -210,7 +381,15 @@ def compute_n_params(model, return_str=True):
 
 def setup_for_distributed(is_master):
     """
-    This function disables printing when not in master process
+    Configures print function to only output on the master process in distributed training
+
+    Overrides the built-in print function to suppress output on worker processes,
+    preventing duplicate log messages when training on multiple GPUs.
+
+    Arguments:
+        is_master -- Boolean indicating if current process is the master (rank 0)
+    Returns:
+        None (modifies built-in print function globally)
     """
     import builtins as __builtin__
     builtin_print = __builtin__.print
@@ -224,6 +403,14 @@ def setup_for_distributed(is_master):
 
 
 def is_dist_avail_and_initialized():
+    """
+    Checks if PyTorch distributed training is available and has been initialized
+
+    Arguments:
+        None
+    Returns:
+        Boolean -- True if distributed training is ready, False otherwise
+    """
     if not dist.is_available():
         return False
     if not dist.is_initialized():
@@ -232,27 +419,74 @@ def is_dist_avail_and_initialized():
 
 
 def get_world_size():
+    """
+    Returns the total number of processes in distributed training
+
+    Arguments:
+        None
+    Returns:
+        Integer -- Number of processes (GPUs), or 1 if not using distributed training
+    """
     if not is_dist_avail_and_initialized():
         return 1
     return dist.get_world_size()
 
 
 def get_rank():
+    """
+    Returns the rank (process ID) of the current process in distributed training
+
+    Arguments:
+        None
+    Returns:
+        Integer -- Process rank (0 to world_size-1), or 0 if not using distributed training
+    """
     if not is_dist_avail_and_initialized():
         return 0
     return dist.get_rank()
 
 
 def is_main_process():
+    """
+    Checks if the current process is the main/master process (rank 0)
+
+    Arguments:
+        None
+    Returns:
+        Boolean -- True if this is the master process, False otherwise
+    """
     return get_rank() == 0
 
 
 def save_on_master(*args, **kwargs):
+    """
+    Saves a PyTorch model checkpoint only on the master process
+
+    Prevents redundant checkpoint saves when training on multiple GPUs. Only
+    the rank 0 process will perform the save operation.
+
+    Arguments:
+        *args -- Positional arguments passed to torch.save()
+        **kwargs -- Keyword arguments passed to torch.save()
+    Returns:
+        None
+    """
     if is_main_process():
         torch.save(*args, **kwargs)
 
 
 def init_distributed_mode(args):
+    """
+    Initializes PyTorch distributed training from environment variables
+
+    Detects the distributed training environment (standard or SLURM cluster),
+    sets up the process group, and configures printing for the master process.
+
+    Arguments:
+        args -- Argument object (will be modified with rank, world_size, gpu, distributed attributes)
+    Returns:
+        None (modifies args object in-place)
+    """
     if 'RANK' in os.environ and 'WORLD_SIZE' in os.environ:
         args.rank = int(os.environ["RANK"])
         args.world_size = int(os.environ['WORLD_SIZE'])
@@ -279,9 +513,37 @@ def init_distributed_mode(args):
 
 class RealOBQuery:
     """
-    This is the RealOBQuery class which contains OB-ID, OB-text, and ground-truth.
+    Stores information about a real bug from the dataset for UI localization experiments
+
+    Contains all metadata about an Observed Behavior (OB) from actual bug reports,
+    including the bug description text used as a query and ground truth screen/component IDs.
+
+    Attributes:
+        bug_id -- Unique identifier for the bug report
+        ob_id -- Observed Behavior ID within the bug report
+        ob_in_title -- Boolean indicating if OB is mentioned in the bug title
+        bug_type -- Category of the bug (e.g., visual, functional, crash)
+        ob_category -- Classification of the observation
+        ob_rating -- Severity or importance rating of the OB
+        ob_text -- Textual description of the bug (used as search query)
+        ground_truth -- List of correct screen/component IDs that exhibit this bug
     """
     def __init__(self, bug_id, ob_id, ob_in_title, bug_type, ob_category, ob_rating, ob_text, ground_truth):
+        """
+        Initializes a RealOBQuery with bug metadata and ground truth
+
+        Arguments:
+            bug_id -- Unique bug identifier
+            ob_id -- Observed Behavior ID
+            ob_in_title -- Boolean, is OB in bug report title?
+            bug_type -- Type/category of bug
+            ob_category -- OB categorization
+            ob_rating -- Severity rating
+            ob_text -- Bug description text (the query)
+            ground_truth -- List of correct screen/component IDs
+        Returns:
+            None
+        """
         self.bug_id = bug_id
         self.ob_id = ob_id
         self.ob_in_title = ob_in_title
@@ -294,10 +556,32 @@ class RealOBQuery:
 
 class OBQuery:
     """
-    This is the OBQuery class which contains OB-ID, OB-text, and ground-truth.
+    Simplified query structure for synthetic bugs or basic UI localization experiments
+
+    Contains minimal information needed for a bug query without the extensive metadata
+    of RealOBQuery. Used for synthetic data or simpler experimental setups.
+
+    Attributes:
+        app_name -- Name of the application being tested
+        screen_id -- Identifier for the screen containing the bug
+        ob_id -- Observed Behavior ID
+        ob_text -- Textual description of the bug (used as search query)
+        ground_truth -- List of correct screen/component IDs
     """
 
     def __init__(self, app_name, screen_id, ob_id, ob_text, ground_truth):
+        """
+        Initializes an OBQuery with basic bug information
+
+        Arguments:
+            app_name -- Application name
+            screen_id -- Screen identifier
+            ob_id -- Observed Behavior ID
+            ob_text -- Bug description text (the query)
+            ground_truth -- List of correct screen/component IDs
+        Returns:
+            None
+        """
         self.app_name = app_name
         self.screen_id = screen_id
         self.ob_id = ob_id
@@ -307,9 +591,20 @@ class OBQuery:
 
 def calculate_metrics(results_list):
     """
-    This method will calculate the evaluation metrics.
-    :param results_list: a list of lists which contains the results of all the applications or all the OBs
-    :return: return the evaluation metrics
+    Computes standard Information Retrieval evaluation metrics for UI bug localization
+
+    Takes binary relevance vectors (from ranking results) and calculates Mean Reciprocal Rank,
+    Mean Average Precision, and Hit@K metrics for K=1 to 10. These metrics measure how well
+    the model ranks buggy screens/components.
+
+    Arguments:
+        results_list -- List of binary result vectors, where each vector has 1s at positions
+                       of relevant (buggy) items and 0s elsewhere. Example: [[0,1,0,0,...], [1,0,0,...]]
+    Returns:
+        Tuple of 12 floats: (mrr, map, hit_1, hit_2, ..., hit_10)
+            mrr -- Mean Reciprocal Rank (average of 1/rank_of_first_correct)
+            map -- Mean Average Precision
+            hit_K -- Proportion of queries with correct answer in top K results
     """
     mrr = em.mean_reciprocal_rank(results_list)
     # print(f'MRR:{mrr}')
@@ -330,9 +625,20 @@ def calculate_metrics(results_list):
 import json
 def get_train_validation_and_test_set(json_file_path):
     """
-    This method will return the train, validation, and test set.
-    :param json_file_path: path of the JSON file that contains the train, validation, and test set
-    :return: return the train, validation, and test set
+    Loads pre-defined train, validation, and test dataset splits from a JSON file
+
+    Reads a JSON file containing three lines, each with a set of application/bug IDs
+    for training, validation, and testing. Ensures consistent data splits across experiments.
+
+    Expected JSON format (one object per line):
+        {"train_set": ["app1", "app2", ...]}
+        {"validate_set": ["app3", "app4", ...]}
+        {"test_set": ["app5", "app6", ...]}
+
+    Arguments:
+        json_file_path -- Path to JSON file containing dataset splits
+    Returns:
+        Tuple of three lists: (train_set_list, validation_set_list, test_set_list)
     """
     # Load the JSON file for getting the train, validate, and test set
     with open(json_file_path, 'r') as json_file:
@@ -348,9 +654,15 @@ def get_train_validation_and_test_set(json_file_path):
 
 def get_app_names_list(query_folder_path):
     """
-    This method will return the list of application names.
-    :param query_folder_path: path of the folder that contains the query files of all the applications
-    :return: return the list of application names
+    Retrieves a sorted list of application names from a directory
+
+    Lists all items in the specified folder (typically application directories),
+    removes system files like .DS_Store, and returns a sorted list of app names.
+
+    Arguments:
+        query_folder_path -- Path to folder containing application subdirectories
+    Returns:
+        List of application names (sorted alphabetically)
     """
     app_name_list = os.listdir(query_folder_path)
     if '.DS_Store' in app_name_list:
@@ -359,6 +671,18 @@ def get_app_names_list(query_folder_path):
     return app_name_list
 
 def split_test_set_into_folds(test_set, num_folds):
+    """
+    Divides test data into N folds for cross-validation experiments
+
+    Randomly shuffles the test set and splits it into approximately equal-sized folds.
+    The last fold may be slightly larger if the data doesn't divide evenly.
+
+    Arguments:
+        test_set -- List of test samples (e.g., bug IDs or app names)
+        num_folds -- Number of folds to create
+    Returns:
+        List of folds, where each fold is a list of test samples
+    """
     num_samples = len(test_set)
     indices = np.arange(num_samples)
     np.random.shuffle(indices)

@@ -8,13 +8,43 @@ import subprocess
 
 
 class FileAnalysis:
+    """
+    Analyzes Java source files and XML resources for UI-to-code mapping
+
+    Provides methods to parse Java files, extract class/method information, search
+    for terms in source code, and match files based on activities, fragments, and
+    component IDs for Android bug localization.
+    """
+
     def get_file_content(self, file_name):
+        """
+        Reads and returns the complete contents of a file
+
+        Opens the specified file in read mode and returns all text content.
+
+        Arguments:
+            file_name: Path to the file to read
+        Returns:
+            String containing the complete file contents
+        """
         # Read the file
         file_content = open(file_name, "r")
         file_content = file_content.read()
         return file_content
 
     def get_all_java_classes_methods(self, parent_directory):
+        """
+        Extracts all Java classes and methods from a directory tree
+
+        Recursively scans for Java files, parses them using srcML and javalang to
+        extract method bodies and class AST nodes. Used for code analysis and search.
+
+        Arguments:
+            parent_directory: Root directory to search for Java files
+        Returns:
+            Tuple of (class_method_dict mapping filenames to method bodies,
+                     list of Java class AST nodes)
+        """
         class_method_dict = {}
         java_classes = []
         for filename in sorted(glob.glob(f'{parent_directory}/**/*.java', recursive=True)):
@@ -46,6 +76,18 @@ class FileAnalysis:
         return class_method_dict, java_classes
 
     def get_filtered_files(self, parent_directory, set_of_activities):
+        """
+        Finds Java files matching activity or fragment names
+
+        Searches for Java files whose basenames or full paths match activity/fragment
+        names extracted from UI traces. Supports both simple names and package paths.
+
+        Arguments:
+            parent_directory: Root directory to search for Java files
+            set_of_activities: List of activity/fragment names or paths to match
+        Returns:
+            List of file paths matching the activity/fragment names
+        """
         predicted_files = []
 
         for filename in sorted(glob.glob(f'{parent_directory}/**/*.java', recursive=True)):
@@ -67,6 +109,18 @@ class FileAnalysis:
         return predicted_files
 
     def get_additional_files(self, parent_directory, list_of_filenames):
+        """
+        Finds additional Java files matching filename list (similar to get_filtered_files)
+
+        Searches for Java files whose basenames or full paths match provided filenames.
+        Functionally similar to get_filtered_files.
+
+        Arguments:
+            parent_directory: Root directory to search for Java files
+            list_of_filenames: List of filenames or paths to match
+        Returns:
+            List of file paths matching the filenames
+        """
         predicted_files = []
 
         for filename in sorted(glob.glob(f'{parent_directory}/**/*.java', recursive=True)):
@@ -89,6 +143,16 @@ class FileAnalysis:
         return predicted_files
 
     def get_all_java_files(self, parent_directory):
+        """
+        Retrieves all Java files from a directory tree
+
+        Recursively finds all .java files under the given directory.
+
+        Arguments:
+            parent_directory: Root directory to search
+        Returns:
+            Sorted list of all Java file paths
+        """
         all_files = []
 
         for filename in sorted(glob.glob(f'{parent_directory}/**/*.java', recursive=True)):
@@ -97,6 +161,18 @@ class FileAnalysis:
         return all_files
 
     def get_string_ids(self, parent_directory, keyword):
+        """
+        Finds string resource IDs matching a keyword from strings.xml files
+
+        Searches all strings.xml files for string resources whose text matches the
+        keyword and returns their resource IDs.
+
+        Arguments:
+            parent_directory: Root directory to search for strings.xml files
+            keyword: Text to match in string resource values
+        Returns:
+            List of string resource IDs (names) matching the keyword
+        """
         string_ids = []
         for filename in sorted(glob.glob(f'{parent_directory}/**/strings.xml', recursive=True)):
             # print(filename)
@@ -113,6 +189,18 @@ class FileAnalysis:
         return string_ids
 
     def get_android_ids(self, parent_directory, keyword):
+        """
+        Finds Android component IDs with text matching a keyword from layout XML files
+
+        Searches all XML layout files (excluding strings.xml) for UI components whose
+        android:text attribute contains the keyword, returning their android:id values.
+
+        Arguments:
+            parent_directory: Root directory to search for XML files
+            keyword: Text to search for in android:text attributes
+        Returns:
+            List of Android component IDs (without "@+id/" prefix) matching the keyword
+        """
         android_ids = []
         for filename in sorted(glob.glob(f'{parent_directory}/**/*.xml', recursive=True)):
             if 'strings.xml' in filename:
@@ -138,6 +226,19 @@ class FileAnalysis:
         return android_ids
 
     def get_start_methods(self, graph_dict, called_method_dict, predicted_files):
+        """
+        Extracts starting methods from predicted files using call graph
+
+        Identifies entry-point methods in predicted files by matching class names
+        with the call graph and extracting their called methods.
+
+        Arguments:
+            graph_dict: Call graph dictionary mapping classes to call information
+            called_method_dict: Dictionary mapping classes to their called methods
+            predicted_files: List of predicted file paths
+        Returns:
+            List of starting methods from the predicted files
+        """
         list_of_start_methods = []
         for java_class in graph_dict:
             match_class_flag = False
@@ -151,6 +252,17 @@ class FileAnalysis:
         return list_of_start_methods
 
     def get_filenames_based_on_imports(self, predicted_activity_files):
+        """
+        Extracts class names from import statements in predicted activity files
+
+        Parses Java files using srcML to extract import statements and derives potential
+        related filenames from the last two components of each import path.
+
+        Arguments:
+            predicted_activity_files: List of Java file paths to analyze
+        Returns:
+            List of class names extracted from import statements
+        """
         filenames = []
         for activity_file in predicted_activity_files:
             command = "srcml " + activity_file
@@ -175,6 +287,18 @@ class FileAnalysis:
 
     # checks the source code of the files and in every method in files in a term exists
     def get_class_other_terms(self, parent_directory, search_terms):
+        """
+        Finds files and methods containing any of the search terms
+
+        Parses all Java files using srcML, searches method bodies for occurrences of
+        any search term (case-insensitive), and returns matching files and methods.
+
+        Arguments:
+            parent_directory: Root directory to search for Java files
+            search_terms: List of terms to search for in method bodies
+        Returns:
+            Tuple of (list of matching file paths, list of matching method bodies)
+        """
         class_method_list = []
         list_of_other_files = []
         for filename in sorted(glob.glob(f'{parent_directory}/**/*.java', recursive=True)):
@@ -198,6 +322,18 @@ class FileAnalysis:
 
     # retrieve files where any search term exists
     def get_files_if_term_exists(self, parent_directory, search_terms):
+        """
+        Finds Java files containing any of the search terms
+
+        Searches entire file contents for occurrences of any search term and returns
+        matching files. Used to find files referencing specific component IDs or keywords.
+
+        Arguments:
+            parent_directory: Root directory to search for Java files
+            search_terms: List of terms to search for in file contents
+        Returns:
+            List of file paths containing at least one search term
+        """
         list_of_matched_files = []
         for filename in sorted(glob.glob(f'{parent_directory}/**/*.java', recursive=True)):
             file_content = self.get_file_content(filename)
@@ -211,6 +347,18 @@ class FileAnalysis:
         return list_of_matched_files
 
     def get_method_block_with_file_name(self, class_method_name, class_method_dict):
+        """
+        Retrieves method body for a given class and method name
+
+        Parses the class.method name, finds the matching file in the class_method_dict,
+        and extracts the method body by matching method signature parts.
+
+        Arguments:
+            class_method_name: String in format "ClassName.methodName(params)"
+            class_method_dict: Dictionary mapping filenames to lists of method bodies
+        Returns:
+            Tuple of (class name, method body string)
+        """
         class_method_name = class_method_name.split(".")
         class_name = class_method_name[0]
         method_name = class_method_name[1]
@@ -246,6 +394,18 @@ class FileAnalysis:
         return class_name, method_block
 
     def check_if_term_exist(self, search_terms, method_block):
+        """
+        Checks if any search term exists in the given text
+
+        Searches for the presence of any keyword from search_terms within the
+        provided text block (method body or file content).
+
+        Arguments:
+            search_terms: List of keywords to search for
+            method_block: Text string to search within
+        Returns:
+            Boolean indicating whether at least one keyword was found
+        """
         match_keyword = False
         for keyword in search_terms:
             if keyword in method_block:

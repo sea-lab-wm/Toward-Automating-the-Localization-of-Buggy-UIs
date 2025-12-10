@@ -11,6 +11,23 @@ bug_id_list = [2, 8, 10, 11, 18, 19, 21, 22, 44, 45, 53, 54, 55, 56, 71, 76, 84,
 
 
 def get_n_queries_per_bug_and_query_details(screen_components_folder_path, query_file_path, n_queries_per_bug_file_path, sl_query_details_file_path, cl_query_details_file_path):
+    """
+    Extracts and aggregates query statistics from bug reports and writes to CSV files
+
+    Processes observed behavior (OB) data from JSON to generate statistics for screen
+    localization (SL) and component localization (CL) queries. Creates three CSV files
+    containing: total OBs per bug, SR query details, and CR query details with metadata
+    like bug type, category, rating, and ground truth counts.
+
+    Arguments:
+        screen_components_folder_path: Path to folder containing screen component JSON files
+        query_file_path: Path to JSON file with bug and observed behavior data
+        n_queries_per_bug_file_path: Output path for CSV with query counts per bug
+        sl_query_details_file_path: Output path for CSV with screen localization query details
+        cl_query_details_file_path: Output path for CSV with component localization query details
+    Returns:
+        None (writes results to CSV files)
+    """
     # Create a CSV file for storing the number of queries per app
     with open(n_queries_per_bug_file_path, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter=';')
@@ -91,6 +108,21 @@ def get_n_queries_per_bug_and_query_details(screen_components_folder_path, query
 
 def get_n_screens_per_bug_and_n_components_per_screen(screen_components_path, n_screens_per_bug_file_path,
                                                       n_components_per_screen_file_path):
+    """
+    Counts screens per bug and components per screen from JSON data
+
+    Iterates through JSON files in the screen components directory to extract structural
+    information about the UI corpus. Generates two CSV files: one with screen counts per
+    bug, and another with component counts per screen. Only processes bugs in the global
+    bug_id_list.
+
+    Arguments:
+        screen_components_path: Path to directory containing screen component JSON files
+        n_screens_per_bug_file_path: Output path for CSV with screen counts per bug
+        n_components_per_screen_file_path: Output path for CSV with component counts per screen
+    Returns:
+        None (writes results to CSV files)
+    """
     # Create CSV file for storing the number of screens per app
     with open(n_screens_per_bug_file_path, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter=';')

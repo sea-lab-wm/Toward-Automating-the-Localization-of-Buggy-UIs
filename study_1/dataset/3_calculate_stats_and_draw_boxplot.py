@@ -7,6 +7,18 @@ import pandas as pd
 
 
 def get_stats_and_draw_boxplot(number_list, file_name):
+    """
+    Computes statistics and generates a boxplot visualization for dataset metrics
+
+    Calculates mean, median, min, max, and total, then creates a colored boxplot
+    with mean and median lines displayed.
+
+    Arguments:
+        number_list: List of numerical values to analyze
+        file_name: Name of the data file (used for labeling plot)
+    Returns:
+        None (prints statistics and displays plot)
+    """
     color = {
         "boxes": "DarkGreen",
         "whiskers": "DarkOrange",
@@ -44,6 +56,18 @@ def get_stats_and_draw_boxplot(number_list, file_name):
 
 
 def get_query_stats(csv_file_path):
+    """
+    Calculates and prints comprehensive query statistics from CSV file
+
+    Computes counts for different query types (title vs non-title, hard vs easy),
+    averages and medians for ground truth and corpus sizes. Handles both screen
+    retrieval (SR) and component retrieval (CR) query files.
+
+    Arguments:
+        csv_file_path: Path to CSV file with query details
+    Returns:
+        None (prints statistics to console)
+    """
     print(f"Processing {csv_file_path}...")
     file_name = csv_file_path.split("/")[-1]
     df = pd.read_csv(csv_file_path, delimiter=';')
